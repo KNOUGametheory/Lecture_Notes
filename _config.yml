@@ -178,23 +178,20 @@ callouts:
   highlight:
     color: yellow
   important:
-    title: 중요
-    color: red
+    title: Important
+    color: green
   new:
     title: New
-    color: green
-  note:
-    title: 노트
     color: purple
-  warning:
-    title: 주의
-    color: 
-  definition:
-    title: 정의
-    color: blue
-  Tip:
-    title: Tip
+  note:
+    title: Note
     color: gray
+  warning
+    title: Warning
+    color: red
+  definition:
+    title: Definition
+    color: blue
 	
 
 # Google Analytics Tracking (optional)

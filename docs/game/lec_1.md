@@ -38,7 +38,7 @@ nav_order: 1
     -   수학을 공리 체계(axiomatic system)로 접근
 
     -   기호에 대한 정의, 이 기호를 연산하기 위한 규칙이 필요
-        $`\rightarrow`$ 공리 체계와 이에 대한 해석은 독립
+        &rarr; 공리 체계와 이에 대한 해석은 독립
 
 -   비엔나 서클(Wiener Kreis) 소속 연구자의 주도
 
@@ -119,10 +119,10 @@ nav_order: 1
 
     > "이 책의 목적은 지금까지 문헌에서 찾을 수 있는 것과는 다른 처리를
     > 필요로 하는 경제 이론의 근본적인 질문에 관한 논의를 제시하는
-    > 것이다. $`\ldots`$ "로빈슨 크루소\" 모형으로 대표되는 형태의 경제,
+    > 것이다. ... "로빈슨 크루소\" 모형으로 대표되는 형태의 경제,
     > 하나의 의지를 가진 고립되어 있는 단일한 개인 또는 조직의 경제
-    > $`\ldots`$ 사회적 교환 경제의 참여자, $`\ldots`$ 극대화 문제와 많은
-    > 요소에서 유사성이 있지만, $`\ldots`$ 이를 달성하기 위해서는 다른
+    > ... 사회적 교환 경제의 참여자, ... 극대화 문제와 많은
+    > 요소에서 유사성이 있지만, ... 이를 달성하기 위해서는 다른
     > 사람과의 교환 관계에 참여해야만 한다[@Neumann:2007aa pp.
     > 30--37].\"
 
@@ -135,11 +135,11 @@ nav_order: 1
         -   어떤 한 경제 주체 A의 행동이 다른 경제 주체 B의 이득에
             영향을 줌
 
-            -   $`\rightarrow`$ 반대로 B의 행동이 A의 이득에도 영향을 줌
+            -   &rarr; 반대로 B의 행동이 A의 이득에도 영향을 줌
 
     -   의사 결정 분석
 
-        -   $`\rightarrow`$ 복잡한 수리적 분석 도구를 사용
+        -   &rarr; 복잡한 수리적 분석 도구를 사용
 
     -   따라서, 게임 이론이라는 도구로
 
@@ -151,16 +151,16 @@ nav_order: 1
     -   예를 들어,
 
         -   시장이 없거나 미성숙했을 때, 경제는 어떻게 작동하는가?
-            $`\rightarrow`$ 경제사, 개발 경제학
+            &rarr; 경제사, 개발 경제학
 
-        -   정부(정치인, 관료)는 어떻게 행동하는가? $`\rightarrow`$
+        -   정부(정치인, 관료)는 어떻게 행동하는가? &rarr;
             정치경제학
 
-        -   민간 기업의 내부에서 어떤 일이 벌어지는가? $`\rightarrow`$
+        -   민간 기업의 내부에서 어떤 일이 벌어지는가? &rarr;
             조직 경제학
 
         -   시장 경제의 다양한 유형을 어떻게 비교할 수 있는가?
-            $`\rightarrow`$ 비교 제도 분석
+            &rarr; 비교 제도 분석
 
 -   정규형 게임(normal-form)
 
@@ -169,56 +169,56 @@ nav_order: 1
     -   경기자 또는 행위자의 집합(A set of player or agent)
         $`i \in I = \{ 1, \ldots, n \}`$
 
-    -   경기자 $i$가 선택할 수 있는 전략의 집합(A set of strategies)
-        $s_{i} \in S_{i}$
+    -   경기자 $`i$`가 선택할 수 있는 전략의 집합(A set of strategies)
+        $`s_{i} \in S_{i} `$
 
         -   모든 경기자는 유한 개의 전략을 가짐
 
-        -   즉, 모든 $i=1,2,3,\ldots,n$에 대해 $S_{i}$는 유한 집합
+        -   즉, 모든 $`i=1,2,3,\ldots,n$`에 대해 $`S_{i}`$는 유한 집합
 
     -   경기자의 전략 프로파일
-        $s = (s_{1}, s_{2}, s_{3}, \ldots, s_{n}) \in \prod_{i=1}^{n}{S_{i}} := S$
+        $`s = (s_{1}, s_{2}, s_{3}, \ldots, s_{n}) \in \prod_{i=1}^{n}{S_{i}} := S$`
 
-        -   전략을 $n$짝(n-tuple)으로 표현
+        -   전략을 $`n$`짝(n-tuple)으로 표현
 
-    -   전략 프로파일 $s$를 시행했을 때 경기자 $i$의 보수(payoff)
-        $u_{i}: S \rightarrow \mathbb{R}$
+    -   전략 프로파일 $`s$`를 시행했을 때 경기자 $`i$`의 보수(payoff)
+        $`u_{i}: S \rightarrow \mathbb{R}$`
 
         ::: definition
-        The **normal-form representation** of an $n$-player game
+        The **normal-form representation** of an $`n$`-player game
         specifies the players' strategy spaces
-        $G = \{ S_{1}, \ldots, S_{n} \}$ and their payoff functions
-        $u_{1},\ldots, u_{n}$. We denote this game by
-        $G = \{ S_{1}, \ldots , S_{n}; u_{1},\ldots, u_{n} \}$.
+        $`G = \{ S_{1}, \ldots, S_{n} \}`$and their payoff functions
+        $`u_{1},\ldots, u_{n}$`. We denote this game by
+        $`G = \{ S_{1}, \ldots , S_{n}; u_{1},\ldots, u_{n} \}$`.
         :::
 
 -   지배(dominance)와 균형
 
     -   지배
 
-        > "충분한 수의 참여자가 자신의 이해에 따라 $x$를 $y$보다
-        > 선호함을 의미하고, $`\ldots`$ 이러한 $x$와 $y$의 비교에서
+        > "충분한 수의 참여자가 자신의 이해에 따라 $`x$`를 $`y$`보다
+        > 선호함을 의미하고, ... 이러한 $`x$`와 $`y$`의 비교에서
         > 참여자가 그 어떤 제 3의 대안을 고려하는 데 영향을 받지 않는다.
-        > 즉 우리는 우월성의 관계를 기본적인 요소로 인식 $`\ldots`$ 우리는
+        > 즉 우리는 우월성의 관계를 기본적인 요소로 인식 ... 우리는
         > 다양한 의미를 갖고 있는 "우월\"하다는 표현 대신, 더 기술적인
-        > 성격의 단어를 사용하고자 한다. $`\ldots`$ 우리는 $x$가 $y$를
+        > 성격의 단어를 사용하고자 한다. ... 우리는 $`x$`가 $`y$`를
         > 지배한다고 말한다[@Neumann:2007aa p. 70].\"
 
         ::: definition
         In the normal-form game
-        $G = \{ S_{1}, \ldots , S_{n}; u_{1}, \ldots, u_{n} \}$, let
-        $s_{i}^{'}$ and $s_{i}^{''}$ be feasible strategies for player
-        $i$ (i.e., $s_{i}^{'}$ and $s_{i}^{''}$ are members of $S_{i}$).
-        Strategy $s_{i}^{'}$ is **strictly dominated** by strategy
-        $s_{i}^{''}$ if for each feasible combination of the other
-        players' strategies, $i$'s payoff from playing $s_{i}^{'}$ is
-        strictly less than $i$'s payoff from playing $s_{i}^{''}$:
+        $`G = \{ S_{1}, \ldots , S_{n}; u_{1}, \ldots, u_{n} \}$`, let
+        $`s_{i}^{'}`$and $`s_{i}^{''}`$be feasible strategies for player
+        $`i`$(i.e., $`s_{i}^{'}`$and $`s_{i}^{''}`$are members of $`S_{i}$`).
+        Strategy $`s_{i}^{'}`$is **strictly dominated** by strategy
+        $`s_{i}^{''}`$if for each feasible combination of the other
+        players' strategies, $`i$`'s payoff from playing $`s_{i}^{'}`$is
+        strictly less than $`i$`'s payoff from playing $`s_{i}^{''}$`:
 
-        $$u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{'},  s_{i+1}, \ldots, s_{n}) < u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{''}, s_{i+1}, \ldots, s_{n})$$
+        $`$`u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{'},  s_{i+1}, \ldots, s_{n}) < u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{''}, s_{i+1}, \ldots, s_{n})$`$`
 
-        for each $(s_{1}, \ldots , s_{i-1}, s_{i+1}, \ldots, s_{n})$
+        for each $`(s_{1}, \ldots , s_{i-1}, s_{i+1}, \ldots, s_{n})$`
         that can be constructed from the other players' strategy spaces
-        $S_{1}, \ldots, S_{i-1}, S_{i+1}, \ldots, S_{n}$.
+        $`S_{1}, \ldots, S_{i-1}, S_{i+1}, \ldots, S_{n}$`.
         :::
 
     -   상대의 선택에 관계없이 나의 보수를 극대화 하는 선택이 존재함을
@@ -226,7 +226,7 @@ nav_order: 1
 
         -   만약 그렇지 않다면?
 
-        -   $`\rightarrow`$ 상대의 선택에 따라 나의 최적 선택이 다르다면?
+        -   &rarr; 상대의 선택에 따라 나의 최적 선택이 다르다면?
 
 -   미니맥스 정리(minimax theorem)
 
@@ -238,25 +238,25 @@ nav_order: 1
             나타낼 수 있음
 
         -   가위바위보 게임에서 경기자의 혼합 전략은 (가위를 낼 확률,
-            바위를 낼 확률, 보를 낼 확률)로 표현 가능 $`\rightarrow`$
-            $\left(\dfrac{1}{2}, \dfrac{1}{4}, \dfrac{1}{4}\right)$는
-            가위를 낼 확률이 $\dfrac{1}{2}$, 바위를 낼 확률이
-            $\dfrac{1}{4}$, 보를 낼 확률이 $\dfrac{1}{4}$인 혼합전략
+            바위를 낼 확률, 보를 낼 확률)로 표현 가능 &rarr;
+            $`\left(\dfrac{1}{2}, \dfrac{1}{4}, \dfrac{1}{4}\right)$`는
+            가위를 낼 확률이 $`\dfrac{1}{2}$`, 바위를 낼 확률이
+            $`\dfrac{1}{4}$`, 보를 낼 확률이 $`\dfrac{1}{4}$`인 혼합전략
 
             ::: definition
             In the normal-form game
-            $G = \{S_{1}, \ldots, S_{n}; u_{1},\ldots,u_{n}\}$, suppose
-            $S_{i} = \{ s_{i1}, \ldots, s_{ik}\}$. Then a **mixed
-            strategy** for player $i$ is a probability distribution
-            $p_{i} = (p_{i1}, \ldots, p_{iK})$, where
-            $0 \leq p_{ik} \leq 1$ for $k=1, \ldots, K$ and
-            $p_{i1} + \cdots + p_{iK} = 1$.
+            $`G = \{S_{1}, \ldots, S_{n}; u_{1},\ldots,u_{n}\}$`, suppose
+            $`S_{i} = \{ s_{i1}, \ldots, s_{ik}\}$`. Then a **mixed
+            strategy** for player $`i`$is a probability distribution
+            $`p_{i} = (p_{i1}, \ldots, p_{iK})$`, where
+            $`0 \leq p_{ik} \leq 1`$for $`k=1, \ldots, K`$and
+            $`p_{i1} + \cdots + p_{iK} = 1$`.
             :::
 
         -   제로 섬 게임: 어느 한 경기자의 이득 또는 손실은 다른
             경기자의 손실 또는 이득과 같음
 
-    -   $`\rightarrow`$ 게임 경기자가 단 둘인 경우만 증명, $n$으로 일반화
+    -   &rarr; 게임 경기자가 단 둘인 경우만 증명, $`n$`으로 일반화
         했을 때의 균형은? 게임 경기자가 받는 보수값도 제로 섬이
         아니라면(non-zero-sum game)?
 
@@ -264,10 +264,10 @@ nav_order: 1
 
     -   기대 효용(expected utility)의 도입
 
-        -   어떤 복권 $L$의 결과가 $A$와 $B$이고, 각각이 일어날 확률이
-            $p$, $1-p$일 때,
+        -   어떤 복권 $`L$`의 결과가 $`A$`와 $`B$`이고, 각각이 일어날 확률이
+            $`p$`, $`1-p$`일 때,
 
-        -   이 복권의 기대 효용 $u(L) = pu(A) +(1-p)u(B)$
+        -   이 복권의 기대 효용 $`u(L) = pu(A) +(1-p)u(B)$`
 
 -   내쉬(John Forbes Nash, Jr., 1928--2015)
 
@@ -295,29 +295,29 @@ nav_order: 1
             게임 당사자 간의 이해 관계에 따라, 스스로 계약을 지킬 의무만
             있는 게임
 
-        -   $\leftrightarrow$ 협조게임(cooperative game): 집단적인 의사
+        -   $`\leftrightarrow`$협조게임(cooperative game): 집단적인 의사
             결정(group decision making), 게임 참여자 간의
             연합(coalition)이 가능, 계약 이행의 제약(binding contract)을
             만들 수 있음
 
         ::: definition
         In the normal--form game
-        $G = \{ S_{1},$$`\ldots`$$, S_{n}; u_{1},$$`\ldots`$$, u_{n} \}$, the strategy
-        profile $(s_{1}^{*}, \ldots, s_{n}^{*})$ is **Nash equilibrium**
-        if, for each player $i$, $s_{i}^{*}$ is (at least tied for)
-        player $i$'s best response to the strategies specified for the
-        $n-1$ other players,
-        $(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i+1}^{*}, \ldots, s_{n}^{*})$:
+        $`G = \{ S_{1},$`...$`, S_{n}; u_{1},$`...$`, u_{n} \}$`, the strategy
+        profile $`(s_{1}^{*}, \ldots, s_{n}^{*})`$is **Nash equilibrium**
+        if, for each player $`i$`, $`s_{i}^{*}`$is (at least tied for)
+        player $`i$`'s best response to the strategies specified for the
+        $`n-1`$other players,
+        $`(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i+1}^{*}, \ldots, s_{n}^{*})$`:
 
-        $$u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}^{*},  s_{i+1}^{*}, \ldots, s_{n}^{*}) \geq u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}, s_{i+1}^{*}, \ldots, s_{n}^{*})$$
+        $`$`u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}^{*},  s_{i+1}^{*}, \ldots, s_{n}^{*}) \geq u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}, s_{i+1}^{*}, \ldots, s_{n}^{*})$`$`
 
-        for every feasible strategy $s_{i}$ in $S_{i}$; that is,
-        $s_{i}^{*}$ solves
+        for every feasible strategy $`s_{i}`$in $`S_{i}$`; that is,
+        $`s_{i}^{*}`$solves
 
-        $$\max_{s_i \in S_{i}} u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}, s_{i+1}^{*}, \ldots, s_{n}^{*})$$
+        $`$`\max_{s_i \in S_{i}} u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}, s_{i+1}^{*}, \ldots, s_{n}^{*})$`$`
         :::
 
-    -   $`\rightarrow`$ 어떤 경기자도 자신의 전략을 바꿀 유인이 없는
+    -   &rarr; 어떤 경기자도 자신의 전략을 바꿀 유인이 없는
         상태(No incentive to deviate)
 
 -   정치화(精緻化, refinement)
@@ -325,13 +325,13 @@ nav_order: 1
     -   너무 많은, 이치에 맞지 않는(implausible) 내쉬 균형이 존재하는
         경우가 있음
 
-    -   $`\rightarrow`$ 따라서 합리적 규준을 통해 내쉬균형을 정치화할
+    -   &rarr; 따라서 합리적 규준을 통해 내쉬균형을 정치화할
         필요가 있음
 
 ## 게임 이론의 발전
 
 -   각 경기자의 행동이나 전략 선택이 동시에(simultaneously) 일어나는것이
-    아나라 순서를 두고(sequentially) 일어나다면 $`\rightarrow`$ 전개형
+    아나라 순서를 두고(sequentially) 일어나다면 &rarr; 전개형
     게임(extensive-form game) 또는 동태적(dynamic) 게임이라고도 함
 
     -   경기자의 움직임에 따른 순서가 있고, 경기자는 언제 의사 결정을
@@ -397,9 +397,9 @@ nav_order: 1
 
         :::: center
         ::: game
-        24\[$P_{1}$\]\[$P_{2}$\] $(C, C)$ $(C, D)$ $(D, C)$ $(D, D)$\
-        $C$ $-1, -1$ $-1, -1$$-10, 0$$-10, 0$\
-        $D$ $0, -10$ $-3, -3$ $0, -10$ $-3, -3$
+        24\[$`P_{1}$`\]\[$`P_{2}$`\] $`(C, C)`$$`(C, D)`$$`(D, C)`$$`(D, D)$`\
+        $`C`$$`-1, -1`$$`-1, -1$`$`-10, 0$`$`-10, 0$`\
+        $`D`$$`0, -10`$$`-3, -3`$$`0, -10`$$`-3, -3$`
         :::
 
         \
@@ -409,9 +409,9 @@ nav_order: 1
 
         :::: center
         ::: game
-        22\[$P_{1}$\]\[$P_{2}$\] $C$ $D$\
-        $C$ $-1, -1$ $-10, 0$\
-        $D$ $0, -10$ $-3, -3$
+        22\[$`P_{1}$`\]\[$`P_{2}$`\] $`C`$$`D$`\
+        $`C`$$`-1, -1`$$`-10, 0$`\
+        $`D`$$`0, -10`$$`-3, -3$`
         :::
 
         \
@@ -425,32 +425,32 @@ nav_order: 1
 
     -   게임의 균형
 
-        -   경기자 1의 입장에서, 경기자 2가 협력($C$)을 선택할 때,
-            자신에게 유리한 선택 $`\rightarrow`$ $D$(배신)
+        -   경기자 1의 입장에서, 경기자 2가 협력($`C$`)을 선택할 때,
+            자신에게 유리한 선택 &rarr; $`D$`(배신)
 
-        -   경기자 1의 입장에서, 경기자 2가 배신($D$)을 선택할 때,
-            자신에게 유리한 선택 $`\rightarrow`$ $D$(배신)
+        -   경기자 1의 입장에서, 경기자 2가 배신($`D$`)을 선택할 때,
+            자신에게 유리한 선택 &rarr; $`D$`(배신)
 
         -   반대로 경기자 2의 입장에서 경기자 1이 협력 또는 배신을
             선택할 때, 자신에게 유리한 선택을 찾음
 
-        -   $`\rightarrow`$ 두 경기자의 선택: $(D, D)$
+        -   &rarr; 두 경기자의 선택: $`(D, D)$`
 
     -   죄수의 딜레마 게임의 함의: 왜 '딜레마'인가?
 
-        -   죄수의 딜레마 게임의 균형: $(D, D)$ $`\rightarrow`$ 모든
+        -   죄수의 딜레마 게임의 균형: $`(D, D)`$&rarr; 모든
             경기자가 3년 간 복역
 
-        -   $(C, C)$: 모든 경기자가 1년 간 복역 $`\rightarrow`$ 균형보다
+        -   $`(C, C)$`: 모든 경기자가 1년 간 복역 &rarr; 균형보다
             더 나은 결과, 경제학의 용어로는 파레토 우월한 상태가 존재
 
-        -   두 죄수 모두 $(C,C)$가 둘 모두에게 큰 보수를 가져올 것을
-            알지만, $D$를 선택
+        -   두 죄수 모두 $`(C,C)$`가 둘 모두에게 큰 보수를 가져올 것을
+            알지만, $`D$`를 선택
 
-        -   $`\rightarrow`$ 개인적으로 최선의 선택이 사회적으로 최적의
+        -   &rarr; 개인적으로 최선의 선택이 사회적으로 최적의
             결과가 아님
 
-        -   $`\rightarrow`$ 다른 표현으로 조정 실패(coordination failure)
+        -   &rarr; 다른 표현으로 조정 실패(coordination failure)
 
 -   반복 게임(repeated game)
 
@@ -458,7 +458,7 @@ nav_order: 1
         있을까?
 
         -   자기 강제적 협약(self-enforcing agreement)으로 만들면 됨
-            $`\rightarrow`$ 보수를 변화시켜 협력이 내쉬 균형이 되도록 하는
+            &rarr; 보수를 변화시켜 협력이 내쉬 균형이 되도록 하는
             것
 
         -   반복: 경험을 되풀이하여 믿음을 만드는 것
@@ -466,22 +466,22 @@ nav_order: 1
     -   유한 반복 게임(finitely repeated game)
 
         ::: definition
-        Given a stage game $G$, let $G(T)$ denote the finitely repeated
-        game in which $G$ is played $T$ times, with the outcomes of all
+        Given a stage game $`G$`, let $`G(T)`$denote the finitely repeated
+        game in which $`G`$is played $`T`$times, with the outcomes of all
         preceding plays observed before the next play begins. The
-        payoffs for $G(T)$ are simply the sum of the payoffs from the
-        $T$ stage games.
+        payoffs for $`G(T)`$are simply the sum of the payoffs from the
+        $`T`$stage games.
         :::
 
     -   무한 반복 게임(infinitely repeated game)
 
         ::: definition
-        Given a stage game $G$, let $G(\infty , \delta)$ denote the
-        infinitely repeated game in which $G$ is repeated forever and
-        the players share the discount factorc $\delta$. For each $t$,
-        the outcomes of the $t- 1$ preceding plays of the stage game are
-        observed before the $t$th stage begins. Each player's payoff in
-        $G(\infty , \delta)$ is the present value of the player's
+        Given a stage game $`G$`, let $`G(\infty , \delta)`$denote the
+        infinitely repeated game in which $`G`$is repeated forever and
+        the players share the discount factorc $`\delta$`. For each $`t$`,
+        the outcomes of the $`t- 1`$preceding plays of the stage game are
+        observed before the $`t$`th stage begins. Each player's payoff in
+        $`G(\infty , \delta)`$is the present value of the player's
         payoffs from the infinite sequence of stage games.
         :::
 
@@ -491,15 +491,15 @@ nav_order: 1
 
         ::: definition
         A **subgame** in an extensive-form game (a) begins at a decision
-        node $n$ that is a singleton information set (but is not the
+        node $`n`$that is a singleton information set (but is not the
         game's first decision node),
 
-        \(b\) includes all the decision and terminal nodes following $n$
-        in the game tree (but no nodes that do not follow $n$), and
+        \(b\) includes all the decision and terminal nodes following $`n$`
+        in the game tree (but no nodes that do not follow $`n$`), and
 
         \(c\) does not cut any information sets (i.e., if a decision
-        node $n^{'}$ follows $n$ in the game tree, then all other nodes
-        in the information set containing $n^{'}$ must also follow $n$,
+        node $`n^{'}`$follows $`n`$in the game tree, then all other nodes
+        in the information set containing $`n^{'}`$must also follow $`n$`,
         and so must be included in the subgame).
         :::
 
@@ -512,14 +512,14 @@ nav_order: 1
         strategies constitute a Nash equilibrium in every subgame.
         :::
 
-    -   $`\rightarrow`$ 정치화: 부분 게임 완전 내쉬 균형(SPNE)은 내쉬
+    -   &rarr; 정치화: 부분 게임 완전 내쉬 균형(SPNE)은 내쉬
         균형보다 더 강한 개념
 
 -   정보 집합(information set)
 
     -   선택의 순간에서 경기자는 자신이 할 수 있는 선택들을 알고 있지만,
         정확히 어떤 상황(decision node)에 놓여있는지는 모름
-        $`\rightarrow`$ 불완전 정보
+        &rarr; 불완전 정보
 
         ::: definition
         An **information set** for a player is a collection of decision
@@ -540,7 +540,7 @@ nav_order: 1
         -   일부 경기자가 자신 만의 정보(private information)를 갖고
             있거나
 
-    -   $\leftrightarrow$ 완전 정보 게임
+    -   $`\leftrightarrow`$완전 정보 게임
 
         -   바둑, 체스 등
 
@@ -554,34 +554,34 @@ nav_order: 1
         ::: definition
         The **normal-form representation of an n-player static Bayesian
         game** specifies the players' action spaces
-        $A_{1}, \ldots , A_{n}$, their type spaces
-        $T_{1}, \ldots, T_{n}$, their beliefs $p_{1}, \ldots, p_{n}$,
-        and their payoff functions $u_{1}, \ldots, u_{n}$. Player $i$'s
-        type, $t$, is privately known by player $i$, determines player
-        $i$'s payoff function, $u_{i}(a_{1}, \ldots, a_{n};t)$, and is a
-        member of the set of possible types, $T_{i}$. Player $i$'s
-        belief $p_{i}(\rvert t_{-i})$ describes $i$'s uncertainty about
-        the $n - 1$ other players' possible types, $t_{-i}$, given $i$'s
-        own type, $t_{i}$. We denote this game by
-        $G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$.
+        $`A_{1}, \ldots , A_{n}$`, their type spaces
+        $`T_{1}, \ldots, T_{n}$`, their beliefs $`p_{1}, \ldots, p_{n}$`,
+        and their payoff functions $`u_{1}, \ldots, u_{n}$`. Player $`i$`'s
+        type, $`t$`, is privately known by player $`i$`, determines player
+        $`i$`'s payoff function, $`u_{i}(a_{1}, \ldots, a_{n};t)$`, and is a
+        member of the set of possible types, $`T_{i}$`. Player $`i$`'s
+        belief $`p_{i}(\rvert t_{-i})`$describes $`i$`'s uncertainty about
+        the $`n - 1`$other players' possible types, $`t_{-i}$`, given $`i$`'s
+        own type, $`t_{i}$`. We denote this game by
+        $`G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$`.
         :::
 
     -   베이지언 내쉬 균형
 
         -   자연, 유형 등의 특성을 제외하면, 정규형 게임과 동일한 구조
-            $`\rightarrow`$ 내쉬 균형의 아이디어를 그대로 사용할 수 있음
+            &rarr; 내쉬 균형의 아이디어를 그대로 사용할 수 있음
 
             ::: definition
             In the static Bayesian game
-            $G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$,
+            $`G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$`,
             the strategy profile
-            $s^{*}(\cdot) = (s_{1}^{*}(\cdot), \ldots, s_{n}^{*}(\cdot))$
+            $`s^{*}(\cdot) = (s_{1}^{*}(\cdot), \ldots, s_{n}^{*}(\cdot))$`
             is a (pure strategy) **Bayesian Nash equilibrium** if for
-            each player $i$ and for each of $i$'s types $t_{i}$ in
-            $T_{i}$, $s_{i}^{*}(t_{i})$ equals the solution of the
+            each player $`i`$and for each of $`i$`'s types $`t_{i}`$in
+            $`T_{i}$`, $`s_{i}^{*}(t_{i})`$equals the solution of the
             following problem.
 
-            $$\max_{a_{i} \in A_{t}} \sum_{t_{-i} \in T_{-i}} u_{i}(s_{1}^{*}(t_{1}), \ldots,s_{i-1}^{*}(t_{i-1}),a_{i},s_{i+1}^{*}(t_{i+1}),\ldots, s_{n}^{*}(t_{n});t)p_{i}(t_{-i}|t_{i})\text{.}$$
+            $`$`\max_{a_{i} \in A_{t}} \sum_{t_{-i} \in T_{-i}} u_{i}(s_{1}^{*}(t_{1}), \ldots,s_{i-1}^{*}(t_{i-1}),a_{i},s_{i+1}^{*}(t_{i+1}),\ldots, s_{n}^{*}(t_{n});t)p_{i}(t_{-i}|t_{i})\text{.}$`$`
             :::
 
 -   게임의 분류와 균형
@@ -657,10 +657,10 @@ nav_order: 1
     -   게임이론을 이용해 메커니즘을 잘 설계하면 설계자(mechanism
         designer)가 원하는 결과를 만들어 낼 수 있지 않을까?
 
-        -   $`\rightarrow`$ 시장 실패가 없는 시장을 새로 만들거나 이를
+        -   &rarr; 시장 실패가 없는 시장을 새로 만들거나 이를
             교정하도록 시장을 재설계
 
-    -   실험 또는 시뮬레이션으로 성과를 사전에 파악 $`\rightarrow`$ 현실
+    -   실험 또는 시뮬레이션으로 성과를 사전에 파악 &rarr; 현실
         세계에 적용
 
     -   성공 사례
@@ -688,7 +688,7 @@ nav_order: 1
     -   설계자는 메커니즘을 설계하여, 관련된 경기자 또는
         행위자(agent)에게 알려줌
 
-        -   $`\rightarrow`$ 이에 따라 설계자에게 각 경기자 또는 행위자가
+        -   &rarr; 이에 따라 설계자에게 각 경기자 또는 행위자가
             보고(report)하는, 메커니즘에 조응하는 베이지안 게임이
             만들어짐
 
@@ -755,9 +755,9 @@ nav_order: 1
 
         -   개체(individual)의 변이
 
-        -   $`\rightarrow`$ 선별(selection) 압력
+        -   &rarr; 선별(selection) 압력
 
-        -   $`\rightarrow`$ 적응도(fitness): 개체군(population)에서의 분포
+        -   &rarr; 적응도(fitness): 개체군(population)에서의 분포
             변화
 
     -   복제자(replicator)
@@ -805,35 +805,35 @@ nav_order: 1
 
     -   1의 결정은 1과 2 모두에게 영향을 줌, 2의 경우도 마찬가지
 
-    -   $`\rightarrow`$ 전략적 상황
+    -   &rarr; 전략적 상황
 
-    -   $`\rightarrow`$ 이 때의 의사 결정은?
+    -   &rarr; 이 때의 의사 결정은?
 
 -   영화의 상황을 게임 이론으로 바꾸어 보면
 
-    -   경기자: $i = 1, 2$
+    -   경기자: $`i = 1, 2$`
 
-    -   전략: $s = (\text{누른다}, \text{기다린다})$
+    -   전략: $`s = (\text{누른다}, \text{기다린다})$`
 
-    -   보수: 살아남는다 $= 1$, 죽는다 $=-1$
+    -   보수: 살아남는다 $`= 1$`, 죽는다 $`=-1$`
 
 -   전략 프로파일에 따른 1과 2의 보수는 다음과 같음
 
-    -   1과 2 모두 기다림 $`\rightarrow`$ $(-1, -1)$
+    -   1과 2 모두 기다림 &rarr; $`(-1, -1)$`
 
-    -   1이 기다리고, 2가 누름 $`\rightarrow`$ $(-1, 1)$
+    -   1이 기다리고, 2가 누름 &rarr; $`(-1, 1)$`
 
-    -   1이 누르고, 2는 기다림 $`\rightarrow`$ $(1, -1)$
+    -   1이 누르고, 2는 기다림 &rarr; $`(1, -1)$`
 
-    -   1과 2 모두 누름 $`\rightarrow`$ $(-1, -1)$
+    -   1과 2 모두 누름 &rarr; $`(-1, -1)$`
 
 -   보수표로 정리하면,
 
     :::: center
     ::: game
-    22\[$P_{1}$\]\[$P_{2}$\] $\text{기다린다}$ $\text{누른다}$\
-    $\text{기다린다}$ $-1, -1$ $-1, 1$\
-    $\text{누른다}$ $1, -1$ $-1, -1$
+    22\[$`P_{1}$`\]\[$`P_{2}$`\] $`\text{기다린다}`$$`\text{누른다}$`\
+    $`\text{기다린다}`$$`-1, -1`$$`-1, 1$`\
+    $`\text{누른다}`$$`1, -1`$$`-1, -1$`
     :::
 
     \
@@ -843,20 +843,20 @@ nav_order: 1
 
     -   1에게는
 
-        -   2가 누를 것으로 예상한다면 $`\rightarrow`$ 누르거나 기다리거나
+        -   2가 누를 것으로 예상한다면 &rarr; 누르거나 기다리거나
             차이가 없음
 
-        -   2가 기다릴 것으로 예상한다면 $`\rightarrow`$ 누르는 것이 유리
+        -   2가 기다릴 것으로 예상한다면 &rarr; 누르는 것이 유리
 
     -   2의 경우도 마찬가지
 
--   $`\rightarrow`$ 1과 2 모두, 누르는 것이 유리한 행동
+-   &rarr; 1과 2 모두, 누르는 것이 유리한 행동
 
 -   두 배, 모두에서 기폭 장치를 누르지 않음
 
-    -   $`\rightarrow`$ 게임이론으로 예측한 균형의 행동이 관찰되지 않음
+    -   &rarr; 게임이론으로 예측한 균형의 행동이 관찰되지 않음
 
-    -   $`\rightarrow`$ 게임이론으로 설명할 수 없는 현상인가?
+    -   &rarr; 게임이론으로 설명할 수 없는 현상인가?
 
 -   똑같은 의사 결정 방식에서, 보수를 바꾸면 어떻게 될까?
 
@@ -868,25 +868,25 @@ nav_order: 1
     이유
 
     -   나에게 직접적인 위협을 주지 않은 상대방을 희생시켜야하는 결정
-        $`\rightarrow`$ 비난의 대상, 비도덕적 비용($c$)의 발생
+        &rarr; 비난의 대상, 비도덕적 비용($`c$`)의 발생
 
     -   내가 희생하는 경우
 
-    -   $`\rightarrow`$ 칭송의 대상, 도덕적 이득($b$)의 발생
+    -   &rarr; 칭송의 대상, 도덕적 이득($`b$`)의 발생
 
 -   그리고 보수를 일반화해보자.
 
-    -   1이 누르고, 2는 기다림 $`\rightarrow`$ $(s, -d)$
+    -   1이 누르고, 2는 기다림 &rarr; $`(s, -d)$`
 
-    -   $`\ldots`$
+    -   ...
 
 -   보수표로 정리하면,
 
     :::: center
     ::: game
-    22\[$P_{1}$\]\[$P_{2}$\] $\text{기다린다}$ $\text{누른다}$\
-    $\text{기다린다}$ $b-d, b-d$ $b-d, s-c$\
-    $\text{누른다}$ $s-c, b-d$ $-d-c, -d-c$
+    22\[$`P_{1}$`\]\[$`P_{2}$`\] $`\text{기다린다}`$$`\text{누른다}$`\
+    $`\text{기다린다}`$$`b-d, b-d`$$`b-d, s-c$`\
+    $`\text{누른다}`$$`s-c, b-d`$$`-d-c, -d-c$`
     :::
 
     \
@@ -894,16 +894,16 @@ nav_order: 1
 
 -   (기다림, 기다림)이 균형이 되려면
 
-    -   기다림이 누름보다 더 큰 이득이 되어야 함 $$b-d > s - c$$
+    -   기다림이 누름보다 더 큰 이득이 되어야 함 $`$`b-d > s - c$`$`
 
-    -   $`\rightarrow`$ 생사의 문제와 도덕적 기준을 비교하는 것으로
-        정리하면 $$b+c > s+d$$
+    -   &rarr; 생사의 문제와 도덕적 기준을 비교하는 것으로
+        정리하면 $`$`b+c > s+d$`$`
 
--   도덕적 이득과 비도덕적 비용이 같다면($b = c$),
-    $$b > \dfrac{1}{2}(s+d)$$
+-   도덕적 이득과 비도덕적 비용이 같다면($`b = c$`),
+    $`$`b > \dfrac{1}{2}(s+d)$`$`
 
--   도덕적 이득이 비도덕적 비용보다 충분히 크다면($9b = c$),
-    $$b > \dfrac{1}{10}(s+d)$$
+-   도덕적 이득이 비도덕적 비용보다 충분히 크다면($`9b = c$`),
+    $`$`b > \dfrac{1}{10}(s+d)$`$`
 
 ## 정리하기
 

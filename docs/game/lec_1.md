@@ -165,6 +165,10 @@ nav_order: 1
 -   정규형 게임(normal-form)
 
     -   전략형(strategic form) 또는 정태적(static) 게임 이라고도 함
+	
+	- This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
+	
+	- This sentence uses $\` and \`$ delimiters to show math inline:  $`\sqrt{3x-1}+(1+x)^2`$
 
     -   경기자 또는 행위자의 집합(A set of player or agent)
         $i \in I = \{ 1, \ldots, n \}$

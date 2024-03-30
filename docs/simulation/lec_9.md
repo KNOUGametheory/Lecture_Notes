@@ -4,6 +4,7 @@ title: 파이선으로 이해하는 협력
 parent: simulation
 nav_order: 9
 has_children: false
+permalink: /docs/simulation/
 ---
 
 # 파이선으로 이해하는 협력

@@ -3,13 +3,13 @@ layout: deafault
 title: 게임이론을 위한 수학
 nav_order: 2
 has_children: true
+permalink: /docs/math/
 ---
 
-# 게임이론으로 이해하는 사회 현상
+# 게임이론을 위한 수학
 
 ## 강의 홈페이지
 
-- 대표 홈페이지
 -
 - 
 - 

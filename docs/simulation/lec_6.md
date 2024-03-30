@@ -4,6 +4,7 @@ title: 파이선의 설치와 기본 문법
 parent: simulation
 nav_order: 6
 has_children: false
+permalink: /docs/simulation/
 ---
 
 # 파이선의 설치와 기본 문법

@@ -204,7 +204,7 @@ nav_order: 1
         > 성격의 단어를 사용하고자 한다. ... 우리는 $$x$$가 $$y$$를
         > 지배한다고 말한다[@Neumann:2007aa p. 70].\"
 
-        ```definition
+        {:. definition}
         In the normal-form game
         $$G = \{ S_{1}, \ldots , S_{n}; u_{1}, \ldots, u_{n} \}$$, let
         $$s_{i}^{'}$$and $$s_{i}^{''}$$be feasible strategies for player
@@ -219,7 +219,6 @@ nav_order: 1
         for each $$(s_{1}, \ldots , s_{i-1}, s_{i+1}, \ldots, s_{n})$$
         that can be constructed from the other players' strategy spaces
         $$S_{1}, \ldots, S_{i-1}, S_{i+1}, \ldots, S_{n}$$.
-        ```
 
     -   상대의 선택에 관계없이 나의 보수를 극대화 하는 선택이 존재함을
         의미

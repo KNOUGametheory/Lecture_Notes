@@ -178,17 +178,24 @@ callouts:
   highlight:
     color: yellow
   important:
-    title: Important
-    color: blue
+    title: 중요
+    color: red
   new:
     title: New
     color: green
   note:
-    title: Note
+    title: 노트
     color: purple
   warning:
-    title: Warning
-    color: red
+    title: 주의
+    color: 
+  definition:
+    title: 정의
+    color: blue
+  Tip:
+    title: Tip
+    color: gray
+	
 
 # Google Analytics Tracking (optional)
 # Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")

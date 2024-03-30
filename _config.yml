@@ -186,7 +186,7 @@ callouts:
   note:
     title: Note
     color: gray
-  warning
+  warning:
     title: Warning
     color: red
   definition:

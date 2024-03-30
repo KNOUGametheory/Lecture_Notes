@@ -1,6 +1,7 @@
 ---
 layout: home
 title: 강좌 소개
+nav_order: 1
 permalink: /about/
 ---
 

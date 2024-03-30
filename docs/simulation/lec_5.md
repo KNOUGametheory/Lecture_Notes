@@ -2,7 +2,7 @@
 layout: default
 title: 넷로고로 이해하는 협력
 parent: simulation
-nav_order: 3
+nav_order: 5
 has_children: false
 permalink: /docs/simulation/
 ---

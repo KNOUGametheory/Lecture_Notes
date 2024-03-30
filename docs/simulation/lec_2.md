@@ -2,7 +2,7 @@
 layout: default
 title: 넷로고의 설치와 기본 문법
 parent: simulation
-nav_order: 3
+nav_order: 2
 has_children: false
 permalink: /docs/simulation/
 ---

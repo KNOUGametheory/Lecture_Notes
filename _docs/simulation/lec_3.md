@@ -1,3 +1,9 @@
+---
+layout: default
+title: 3강 나비 모형으로 연구하기
+nav_order: 2
+---
+
 # 나비 모형으로 연구하기
 
 ## 학습개요

@@ -1,3 +1,10 @@
+---
+layout: default
+title: 13강 진화 게임
+nav_order: 2
+---
+
+
 # 진화 게임
 
 ## 학습개요

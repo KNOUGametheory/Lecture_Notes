@@ -1,3 +1,10 @@
+---
+layout: default
+title: 1강 행위자 기반 모형
+nav_order: 2
+---
+
+
 # 행위자 기반 모형
 
 ## 학습개요

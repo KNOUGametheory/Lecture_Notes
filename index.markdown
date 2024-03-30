@@ -1,6 +1,17 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
+
+#K-MOOC 묶음 강좌, 게임이론으로 이해하는 사회 현상
+
+## 강의 홈페이지
+- 대표 홈페이지
+-
+- 
+- 
+
+
+
+## 강의 목표
+
+## 강의 내용

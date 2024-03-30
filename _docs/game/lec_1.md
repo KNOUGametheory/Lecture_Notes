@@ -1,3 +1,9 @@
+---
+layout: default
+title: 1강 개관
+nav_order: 2
+---
+
 # 게임이론의 짧은 역사와 주요 개념
 
 ## 학습개요

@@ -1,3 +1,10 @@
+---
+layout: default
+title: 7강 SIR 모형으로 연구하기
+nav_order: 2
+---
+
+
 # SIR 모형으로 연구하기
 
 ## 학습개요

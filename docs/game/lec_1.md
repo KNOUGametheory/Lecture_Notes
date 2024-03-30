@@ -184,13 +184,13 @@ nav_order: 1
     -   전략 프로파일 $$s$$를 시행했을 때 경기자 $$i$$의 보수(payoff)
         $$u_{i}: S \rightarrow \mathbb{R}$$
 
-        ::: definition
+        ```definition
         The **normal-form representation** of an $$n$$-player game
         specifies the players' strategy spaces
         $$G = \{ S_{1}, \ldots, S_{n} \}$$and their payoff functions
         $$u_{1},\ldots, u_{n}$$. We denote this game by
         $$G = \{ S_{1}, \ldots , S_{n}; u_{1},\ldots, u_{n} \}$$.
-        :::
+        ```
 
 -   지배(dominance)와 균형
 
@@ -204,7 +204,7 @@ nav_order: 1
         > 성격의 단어를 사용하고자 한다. ... 우리는 $$x$$가 $$y$$를
         > 지배한다고 말한다[@Neumann:2007aa p. 70].\"
 
-        ::: definition
+        ```definition
         In the normal-form game
         $$G = \{ S_{1}, \ldots , S_{n}; u_{1}, \ldots, u_{n} \}$$, let
         $$s_{i}^{'}$$and $$s_{i}^{''}$$be feasible strategies for player
@@ -219,7 +219,7 @@ nav_order: 1
         for each $$(s_{1}, \ldots , s_{i-1}, s_{i+1}, \ldots, s_{n})$$
         that can be constructed from the other players' strategy spaces
         $$S_{1}, \ldots, S_{i-1}, S_{i+1}, \ldots, S_{n}$$.
-        :::
+        ```
 
     -   상대의 선택에 관계없이 나의 보수를 극대화 하는 선택이 존재함을
         의미
@@ -243,7 +243,7 @@ nav_order: 1
             가위를 낼 확률이 $$\dfrac{1}{2}$$, 바위를 낼 확률이
             $$\dfrac{1}{4}$$, 보를 낼 확률이 $$\dfrac{1}{4}$$인 혼합전략
 
-            ::: definition
+            ```definition
             In the normal-form game
             $$G = \{S_{1}, \ldots, S_{n}; u_{1},\ldots,u_{n}\}$$, suppose
             $$S_{i} = \{ s_{i1}, \ldots, s_{ik}\}$$. Then a **mixed
@@ -251,7 +251,7 @@ nav_order: 1
             $$p_{i} = (p_{i1}, \ldots, p_{iK})$$, where
             $$0 \leq p_{ik} \leq 1$$for $$k=1, \ldots, K$$and
             $$p_{i1} + \cdots + p_{iK} = 1$$.
-            :::
+            ```
 
         -   제로 섬 게임: 어느 한 경기자의 이득 또는 손실은 다른
             경기자의 손실 또는 이득과 같음
@@ -300,7 +300,7 @@ nav_order: 1
             연합(coalition)이 가능, 계약 이행의 제약(binding contract)을
             만들 수 있음
 
-        ::: definition
+        ```definition
         In the normal--form game
         $$G = \{ S_{1},$$...$$, S_{n}; u_{1},$$...$$, u_{n} \}$$, the strategy
         profile $$(s_{1}^{*}, \ldots, s_{n}^{*})$$is **Nash equilibrium**
@@ -309,13 +309,13 @@ nav_order: 1
         $$n-1$$other players,
         $$(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i+1}^{*}, \ldots, s_{n}^{*})$$:
 
-        $$$$u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}^{*},  s_{i+1}^{*}, \ldots, s_{n}^{*}) \geq u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}, s_{i+1}^{*}, \ldots, s_{n}^{*})$$$$
+        $$u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}^{*},  s_{i+1}^{*}, \ldots, s_{n}^{*}) \geq u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}, s_{i+1}^{*}, \ldots, s_{n}^{*})$$
 
         for every feasible strategy $$s_{i}$$in $$S_{i}$$; that is,
         $$s_{i}^{*}$$solves
 
-        $$$$\max_{s_i \in S_{i}} u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}, s_{i+1}^{*}, \ldots, s_{n}^{*})$$$$
-        :::
+        $$\max_{s_i \in S_{i}} u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}, s_{i+1}^{*}, \ldots, s_{n}^{*})$$
+        ```
 
     -   &rarr; 어떤 경기자도 자신의 전략을 바꿀 유인이 없는
         상태(No incentive to deviate)
@@ -337,7 +337,7 @@ nav_order: 1
     -   경기자의 움직임에 따른 순서가 있고, 경기자는 언제 의사 결정을
         해야 하는 지 알고 있음
 
-        ::: definition
+        ```definition
         The **extensive-form representation** of a game specifies: (1)
         the players in the game, (2a) when each player has the move,
         (2b) what each player can do at each of his or her opportunities
@@ -345,7 +345,7 @@ nav_order: 1
         opportunities to move and (3) the payoff received by each player
         for each combination of moves that could be chosen by the
         players.
-        :::
+        ```
 
 -   전개형 게임을 정규형 게임으로 표현할 수 있음
 
@@ -355,11 +355,11 @@ nav_order: 1
         -   실제로 어떤 선택상황에 놓이는 것과 상관없이, 자신이 직면할
             수 있는 모든 상황에서의 행동 계획을 갖고 있음
 
-            ::: definition
+            ```definition
             A **strategy** for a player is a complete plan of action--it
             specifies a feasible action for the player in every
             contingency in which the player might be called on to act.
-            :::
+            ```
 
         -   전개형 게임에서의 결과(outcome)
 
@@ -395,27 +395,27 @@ nav_order: 1
 
     -   전개형을 정규형으로
 
-        :::: center
-        ::: game
-        24\[$$P_{1}$$\]\[$$P_{2}$$\] $$(C, C)$$$$(C, D)$$$$(D, C)$$$$(D, D)$$\
-        $$C$$$$-1, -1$$$$-1, -1$$$$-10, 0$$$$-10, 0$$\
-        $$D$$$$0, -10$$$$-3, -3$$$$0, -10$$$$-3, -3$$
-        :::
+        :```center
+        ```game
+        24\[$$P_{1}$$\]\[$$P_{2}$$\] $$(C, C)$$(C, D)$$(D, C)$$(D, D)$$\
+        $$C$$-1, -1$$-1, -1$$-10, 0$$-10, 0$$\
+        $$D$$0, -10$$-3, -3$$0, -10$$-3, -3$$
+        ```
 
         \
-        ::::
+        ```:
 
     -   정규형
 
-        :::: center
-        ::: game
-        22\[$$P_{1}$$\]\[$$P_{2}$$\] $$C$$$$D$$\
-        $$C$$$$-1, -1$$$$-10, 0$$\
-        $$D$$$$0, -10$$$$-3, -3$$
-        :::
+        :```center
+        ```game
+        22\[$$P_{1}$$\]\[$$P_{2}$$\] $$C$$D$$\
+        $$C$$-1, -1$$-10, 0$$\
+        $$D$$0, -10$$-3, -3$$
+        ```
 
         \
-        ::::
+        ```:
 
     -   정규형 게임의 보수표를 읽는 방법
 
@@ -465,17 +465,17 @@ nav_order: 1
 
     -   유한 반복 게임(finitely repeated game)
 
-        ::: definition
+        ```definition
         Given a stage game $$G$$, let $$G(T)$$denote the finitely repeated
         game in which $$G$$is played $$T$$times, with the outcomes of all
         preceding plays observed before the next play begins. The
         payoffs for $$G(T)$$are simply the sum of the payoffs from the
         $$T$$stage games.
-        :::
+        ```
 
     -   무한 반복 게임(infinitely repeated game)
 
-        ::: definition
+        ```definition
         Given a stage game $$G$$, let $$G(\infty , \delta)$$denote the
         infinitely repeated game in which $$G$$is repeated forever and
         the players share the discount factorc $$\delta$$. For each $$t$$,
@@ -483,13 +483,13 @@ nav_order: 1
         observed before the $$t$$th stage begins. Each player's payoff in
         $$G(\infty , \delta)$$is the present value of the player's
         payoffs from the infinite sequence of stage games.
-        :::
+        ```
 
 -   부분 게임(subgame)
 
     -   전체 게임을 각각의 부분으로 나눔
 
-        ::: definition
+        ```definition
         A **subgame** in an extensive-form game (a) begins at a decision
         node $$n$$that is a singleton information set (but is not the
         game's first decision node),
@@ -501,16 +501,16 @@ nav_order: 1
         node $$n^{'}$$follows $$n$$in the game tree, then all other nodes
         in the information set containing $$n^{'}$$must also follow $$n$$,
         and so must be included in the subgame).
-        :::
+        ```
 
 -   부분 게임 완전 균형
 
     -   모든 부분 게임에서 내쉬 균형이 되는 전략 프로파일
 
-        ::: definition
+        ```definition
         A Nash equilibrium is **subgame-perfect** if the players'
         strategies constitute a Nash equilibrium in every subgame.
-        :::
+        ```
 
     -   &rarr; 정치화: 부분 게임 완전 내쉬 균형(SPNE)은 내쉬
         균형보다 더 강한 개념
@@ -521,14 +521,14 @@ nav_order: 1
         정확히 어떤 상황(decision node)에 놓여있는지는 모름
         &rarr; 불완전 정보
 
-        ::: definition
+        ```definition
         An **information set** for a player is a collection of decision
         nodes satisfying: (i) the player has the move at every node in
         the information set, and (ii) when the play of the game reaches
         a node in the information set, the player with the move does not
         know which node in the information set has (or has not) been
         reached.
-        :::
+        ```
 
 -   불완전 정보(incomplete information)
 
@@ -551,7 +551,7 @@ nav_order: 1
 
     -   자연(Nature): 유형과 사적 정보를 설정하기 위해 도입
 
-        ::: definition
+        ```definition
         The **normal-form representation of an n-player static Bayesian
         game** specifies the players' action spaces
         $$A_{1}, \ldots , A_{n}$$, their type spaces
@@ -564,14 +564,14 @@ nav_order: 1
         the $$n - 1$$other players' possible types, $$t_{-i}$$, given $$i$$'s
         own type, $$t_{i}$$. We denote this game by
         $$G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$$.
-        :::
+        ```
 
     -   베이지언 내쉬 균형
 
         -   자연, 유형 등의 특성을 제외하면, 정규형 게임과 동일한 구조
             &rarr; 내쉬 균형의 아이디어를 그대로 사용할 수 있음
 
-            ::: definition
+            ```definition
             In the static Bayesian game
             $$G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$$,
             the strategy profile
@@ -581,21 +581,21 @@ nav_order: 1
             $$T_{i}$$, $$s_{i}^{*}(t_{i})$$equals the solution of the
             following problem.
 
-            $$$$\max_{a_{i} \in A_{t}} \sum_{t_{-i} \in T_{-i}} u_{i}(s_{1}^{*}(t_{1}), \ldots,s_{i-1}^{*}(t_{i-1}),a_{i},s_{i+1}^{*}(t_{i+1}),\ldots, s_{n}^{*}(t_{n});t)p_{i}(t_{-i}|t_{i})\text{.}$$$$
-            :::
+            $$\max_{a_{i} \in A_{t}} \sum_{t_{-i} \in T_{-i}} u_{i}(s_{1}^{*}(t_{1}), \ldots,s_{i-1}^{*}(t_{i-1}),a_{i},s_{i+1}^{*}(t_{i+1}),\ldots, s_{n}^{*}(t_{n});t)p_{i}(t_{-i}|t_{i})\text{.}$$
+            ```
 
 -   게임의 분류와 균형
 
-    :::: center
-    ::: {#tab:categoriesofgamesandequilibriums}
+    :```center
+    ```{#tab:categoriesofgamesandequilibriums}
                  Complete Information   Incomplete Information
       --------- ---------------------- ------------------------
        Static         내쉬 균형           베이지언 내쉬 균형
        Dynamic    부분게임 완전 균형      완전 베이지언 균형
 
       : 게임의 분류와 균형
-    :::
-    ::::
+    ```
+    ```:
 
     []{#tab:categoriesofgamesandequilibriums
     label="tab:categoriesofgamesandequilibriums"}
@@ -642,12 +642,12 @@ nav_order: 1
 
         -   4개 경매 방식의 기대 수입은 같음
 
-            ::: theorem
+            ```theorem
             ((General) Revenue Equivalence Theorem) Any auction formats
             that results in the same (1) allocation and (2) the expected
             payoff of the lowest value type, yields identical expected
             revenue.
-            :::
+            ```
 
 -   메커니즘 설계(mechanism design)
 
@@ -714,13 +714,13 @@ nav_order: 1
         -   따라서 메커니즘 설계자는 따라서 여러 메커니즘이 아닌, 직접
             메커니즘만 고려해도 충분
 
-        ::: theorem
+        ```theorem
         (The Revelation Principle) Given a mechanism and an quilibirum
         for that mechanism, there exists a direct mechanism (1) it is an
         quilibrium for each player to report his or her true type
         and (2) the outcomes are the same as in the given equilibrium of
         the original mechanism.
-        :::
+        ```
 
         -   직접 메커니즘
 
@@ -829,15 +829,15 @@ nav_order: 1
 
 -   보수표로 정리하면,
 
-    :::: center
-    ::: game
-    22\[$$P_{1}$$\]\[$$P_{2}$$\] $$\text{기다린다}$$$$\text{누른다}$$\
-    $$\text{기다린다}$$$$-1, -1$$$$-1, 1$$\
-    $$\text{누른다}$$$$1, -1$$$$-1, -1$$
-    :::
+    :```center
+    ```game
+    22\[$$P_{1}$$\]\[$$P_{2}$$\] $$\text{기다린다}$$\text{누른다}$$\
+    $$\text{기다린다}$$-1, -1$$-1, 1$$\
+    $$\text{누른다}$$1, -1$$-1, -1$$
+    ```
 
     \
-    ::::
+    ```:
 
 -   경기자는 자신에게 유리한 선택을 할 것
 
@@ -882,28 +882,28 @@ nav_order: 1
 
 -   보수표로 정리하면,
 
-    :::: center
-    ::: game
-    22\[$$P_{1}$$\]\[$$P_{2}$$\] $$\text{기다린다}$$$$\text{누른다}$$\
-    $$\text{기다린다}$$$$b-d, b-d$$$$b-d, s-c$$\
-    $$\text{누른다}$$$$s-c, b-d$$$$-d-c, -d-c$$
-    :::
+    :```center
+    ```game
+    22\[$$P_{1}$$\]\[$$P_{2}$$\] $$\text{기다린다}$$\text{누른다}$$\
+    $$\text{기다린다}$$b-d, b-d$$b-d, s-c$$\
+    $$\text{누른다}$$s-c, b-d$$-d-c, -d-c$$
+    ```
 
     \
-    ::::
+    ```:
 
 -   (기다림, 기다림)이 균형이 되려면
 
-    -   기다림이 누름보다 더 큰 이득이 되어야 함 $$$$b-d > s - c$$$$
+    -   기다림이 누름보다 더 큰 이득이 되어야 함 $$b-d > s - c$$
 
     -   &rarr; 생사의 문제와 도덕적 기준을 비교하는 것으로
-        정리하면 $$$$b+c > s+d$$$$
+        정리하면 $$b+c > s+d$$
 
 -   도덕적 이득과 비도덕적 비용이 같다면($$b = c$$),
-    $$$$b > \dfrac{1}{2}(s+d)$$$$
+    $$b > \dfrac{1}{2}(s+d)$$
 
 -   도덕적 이득이 비도덕적 비용보다 충분히 크다면($$9b = c$$),
-    $$$$b > \dfrac{1}{10}(s+d)$$$$
+    $$b > \dfrac{1}{10}(s+d)$$
 
 ## 정리하기
 

@@ -1,5 +1,9 @@
 ---
-layout: home
+layout: default
+title: 게임이론
+nav_order: 2
+has_children: true
+permalink: /docs/game
 ---
 
 # 게임이론으로 이해하는 사회 현상

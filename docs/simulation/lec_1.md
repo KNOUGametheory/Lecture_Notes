@@ -1,7 +1,10 @@
 ---
 layout: default
-title: 1강 행위자 기반 모형
-nav_order: 2
+title: 행위자 기반 모형
+parent: simulation
+nav_order: 3
+has_children: false
+permalink: /docs/simulation
 ---
 
 

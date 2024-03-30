@@ -1,7 +1,10 @@
 ---
 layout: default
-title: 4강 넷로고로 이해하는 분리 현상
-nav_order: 2
+title: 넷로고로 이해하는 분리 현상
+parent: simulation
+nav_order: 3
+has_children: false
+permalink: /docs/simulation
 ---
 
 

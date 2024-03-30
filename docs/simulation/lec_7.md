@@ -1,7 +1,10 @@
 ---
 layout: default
-title: 7강 SIR 모형으로 연구하기
-nav_order: 2
+title: SIR 모형으로 연구하기
+parent: simulation
+nav_order: 3
+has_children: false
+permalink: /docs/simulation
 ---
 
 

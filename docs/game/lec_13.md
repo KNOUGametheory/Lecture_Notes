@@ -1,7 +1,10 @@
 ---
 layout: default
-title: 13강 진화 게임
-nav_order: 2
+title: 진화게임
+parent: game
+nav_order: 3
+has_children: false
+permalink: /docs/game
 ---
 
 

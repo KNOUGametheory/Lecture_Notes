@@ -1,7 +1,10 @@
 ---
 layout: default
-title: 2강 넷로고의 설치와 기본 문법
-nav_order: 2
+title: 넷로고의 설치와 기본 문법
+parent: simulation
+nav_order: 3
+has_children: false
+permalink: /docs/simulation
 ---
 
 # 넷로고의 설치와 기본 문법

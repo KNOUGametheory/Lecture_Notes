@@ -1,7 +1,10 @@
 ---
 layout: default
-title: 1강 개관
-nav_order: 2
+title: 게임이론의 짧은 역사와 주요 개념
+parent: game
+nav_order: 3
+has_children: false
+permalink: /docs/game
 ---
 
 # 게임이론의 짧은 역사와 주요 개념

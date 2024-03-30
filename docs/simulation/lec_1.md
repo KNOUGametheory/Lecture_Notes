@@ -3,7 +3,6 @@ layout: deafault
 title: 행위자 기반 모형
 parent: simulation
 nav_order: 1
-has_children: false
 ---
 
 

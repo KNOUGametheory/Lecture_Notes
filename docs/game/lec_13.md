@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 진화게임
 parent: game
 nav_order: 13

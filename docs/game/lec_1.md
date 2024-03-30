@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 게임이론의 짧은 역사와 주요 개념
 parent: game
 nav_order: 1

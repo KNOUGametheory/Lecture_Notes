@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 행위자 기반 모형
 parent: simulation
 nav_order: 1

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 파이선으로 이해하는 협력
 parent: simulation
 nav_order: 9

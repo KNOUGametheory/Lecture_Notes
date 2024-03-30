@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: SIR 모형으로 연구하기
 parent: simulation
 nav_order: 7

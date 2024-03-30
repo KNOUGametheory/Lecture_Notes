@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 게임이론
 nav_order: 3
 has_children: true

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 진화게임
-parent: game
+parent: 게임이론
 nav_order: 13
 ---
 

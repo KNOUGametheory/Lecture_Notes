@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 넷로고의 설치와 기본 문법
-parent: simulation
+parent: 넷로고와 파이선을 활용한 게임이론 시뮬레이션
 nav_order: 2
 ---
 

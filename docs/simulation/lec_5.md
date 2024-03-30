@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 넷로고로 이해하는 협력
-parent: simulation
+parent: 넷로고와 파이선을 활용한 게임이론 시뮬레이션
 nav_order: 5
 ---
 

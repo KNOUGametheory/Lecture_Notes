@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 행위자 기반 모형
-parent: simulation
+parent: 넷로고와 파이선을 활용한 게임이론 시뮬레이션
 nav_order: 1
 ---
 

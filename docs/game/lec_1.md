@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 게임이론의 짧은 역사와 주요 개념
-parent: game
+parent: 게임이론
 nav_order: 1
 ---
 

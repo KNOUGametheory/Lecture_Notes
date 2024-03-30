@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: deafault
 title: 넷로고로 이해하는 분리 현상
 parent: simulation
 nav_order: 4
 has_children: false
-permalink: /docs/simulation/
 ---
 
 

@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: deafault
 title: 넷로고의 설치와 기본 문법
 parent: simulation
 nav_order: 2
 has_children: false
-permalink: /docs/simulation/
 ---
 
 # 넷로고의 설치와 기본 문법

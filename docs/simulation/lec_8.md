@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: deafault
 title: 파이선으로 이해하는 분리 현상
 parent: simulation
 nav_order: 8
 has_children: false
-permalink: /docs/simulation
 ---
 
 

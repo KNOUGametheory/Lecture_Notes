@@ -3,7 +3,7 @@ layout: deafault
 title: 게임이론
 nav_order: 3
 has_children: true
-permalink: /docs/game/
+permalink: docs/game
 ---
 
 # 게임이론

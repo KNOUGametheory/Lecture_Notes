@@ -4,7 +4,6 @@ title: SIR 모형으로 연구하기
 parent: simulation
 nav_order: 7
 has_children: false
-permalink: /docs/simulation/
 ---
 
 

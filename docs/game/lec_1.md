@@ -187,7 +187,7 @@ nav_order: 1
         ::: definition
         The **normal-form representation** of an $$n$$-player game
         specifies the players' strategy spaces
-        $$G = \{ S_{1}, \ldots, S_{n} \}`$$and their payoff functions
+        $$G = \{ S_{1}, \ldots, S_{n} \}$$and their payoff functions
         $$u_{1},\ldots, u_{n}$$. We denote this game by
         $$G = \{ S_{1}, \ldots , S_{n}; u_{1},\ldots, u_{n} \}$$.
         :::
@@ -207,14 +207,14 @@ nav_order: 1
         ::: definition
         In the normal-form game
         $$G = \{ S_{1}, \ldots , S_{n}; u_{1}, \ldots, u_{n} \}$$, let
-        $$s_{i}^{'}`$$and $$s_{i}^{''}`$$be feasible strategies for player
-        $$i`$$(i.e., $$s_{i}^{'}`$$and $$s_{i}^{''}`$$are members of $$S_{i}$$).
-        Strategy $$s_{i}^{'}`$$is **strictly dominated** by strategy
-        $$s_{i}^{''}`$$if for each feasible combination of the other
-        players' strategies, $$i$$'s payoff from playing $$s_{i}^{'}`$$is
+        $$s_{i}^{'}$$and $$s_{i}^{''}$$be feasible strategies for player
+        $$i$$(i.e., $$s_{i}^{'}$$and $$s_{i}^{''}$$are members of $$S_{i}$$).
+        Strategy $$s_{i}^{'}$$is **strictly dominated** by strategy
+        $$s_{i}^{''}$$if for each feasible combination of the other
+        players' strategies, $$i$$'s payoff from playing $$s_{i}^{'}$$is
         strictly less than $$i$$'s payoff from playing $$s_{i}^{''}$$:
 
-        $$$$u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{'},  s_{i+1}, \ldots, s_{n}) < u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{''}, s_{i+1}, \ldots, s_{n})$$$$
+        $$u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{'},  s_{i+1}, \ldots, s_{n}) < u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{''}, s_{i+1}, \ldots, s_{n})$$
 
         for each $$(s_{1}, \ldots , s_{i-1}, s_{i+1}, \ldots, s_{n})$$
         that can be constructed from the other players' strategy spaces
@@ -247,9 +247,9 @@ nav_order: 1
             In the normal-form game
             $$G = \{S_{1}, \ldots, S_{n}; u_{1},\ldots,u_{n}\}$$, suppose
             $$S_{i} = \{ s_{i1}, \ldots, s_{ik}\}$$. Then a **mixed
-            strategy** for player $$i`$$is a probability distribution
+            strategy** for player $$i$$is a probability distribution
             $$p_{i} = (p_{i1}, \ldots, p_{iK})$$, where
-            $$0 \leq p_{ik} \leq 1`$$for $$k=1, \ldots, K`$$and
+            $$0 \leq p_{ik} \leq 1$$for $$k=1, \ldots, K$$and
             $$p_{i1} + \cdots + p_{iK} = 1$$.
             :::
 
@@ -295,7 +295,7 @@ nav_order: 1
             게임 당사자 간의 이해 관계에 따라, 스스로 계약을 지킬 의무만
             있는 게임
 
-        -   $$\leftrightarrow`$$협조게임(cooperative game): 집단적인 의사
+        -   $$\leftrightarrow$$협조게임(cooperative game): 집단적인 의사
             결정(group decision making), 게임 참여자 간의
             연합(coalition)이 가능, 계약 이행의 제약(binding contract)을
             만들 수 있음
@@ -303,16 +303,16 @@ nav_order: 1
         ::: definition
         In the normal--form game
         $$G = \{ S_{1},$$...$$, S_{n}; u_{1},$$...$$, u_{n} \}$$, the strategy
-        profile $$(s_{1}^{*}, \ldots, s_{n}^{*})`$$is **Nash equilibrium**
-        if, for each player $$i$$, $$s_{i}^{*}`$$is (at least tied for)
+        profile $$(s_{1}^{*}, \ldots, s_{n}^{*})$$is **Nash equilibrium**
+        if, for each player $$i$$, $$s_{i}^{*}$$is (at least tied for)
         player $$i$$'s best response to the strategies specified for the
-        $$n-1`$$other players,
+        $$n-1$$other players,
         $$(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i+1}^{*}, \ldots, s_{n}^{*})$$:
 
         $$$$u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}^{*},  s_{i+1}^{*}, \ldots, s_{n}^{*}) \geq u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}, s_{i+1}^{*}, \ldots, s_{n}^{*})$$$$
 
-        for every feasible strategy $$s_{i}`$$in $$S_{i}$$; that is,
-        $$s_{i}^{*}`$$solves
+        for every feasible strategy $$s_{i}$$in $$S_{i}$$; that is,
+        $$s_{i}^{*}$$solves
 
         $$$$\max_{s_i \in S_{i}} u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}, s_{i+1}^{*}, \ldots, s_{n}^{*})$$$$
         :::
@@ -397,9 +397,9 @@ nav_order: 1
 
         :::: center
         ::: game
-        24\[$$P_{1}$$\]\[$$P_{2}$$\] $$(C, C)`$$$$(C, D)`$$$$(D, C)`$$$$(D, D)$$\
-        $$C`$$$$-1, -1`$$$$-1, -1$$$$-10, 0$$$$-10, 0$$\
-        $$D`$$$$0, -10`$$$$-3, -3`$$$$0, -10`$$$$-3, -3$$
+        24\[$$P_{1}$$\]\[$$P_{2}$$\] $$(C, C)$$$$(C, D)$$$$(D, C)$$$$(D, D)$$\
+        $$C$$$$-1, -1$$$$-1, -1$$$$-10, 0$$$$-10, 0$$\
+        $$D$$$$0, -10$$$$-3, -3$$$$0, -10$$$$-3, -3$$
         :::
 
         \
@@ -409,9 +409,9 @@ nav_order: 1
 
         :::: center
         ::: game
-        22\[$$P_{1}$$\]\[$$P_{2}$$\] $$C`$$$$D$$\
-        $$C`$$$$-1, -1`$$$$-10, 0$$\
-        $$D`$$$$0, -10`$$$$-3, -3$$
+        22\[$$P_{1}$$\]\[$$P_{2}$$\] $$C$$$$D$$\
+        $$C$$$$-1, -1$$$$-10, 0$$\
+        $$D$$$$0, -10$$$$-3, -3$$
         :::
 
         \
@@ -438,7 +438,7 @@ nav_order: 1
 
     -   죄수의 딜레마 게임의 함의: 왜 '딜레마'인가?
 
-        -   죄수의 딜레마 게임의 균형: $$(D, D)`$$&rarr; 모든
+        -   죄수의 딜레마 게임의 균형: $$(D, D)$$&rarr; 모든
             경기자가 3년 간 복역
 
         -   $$(C, C)$$: 모든 경기자가 1년 간 복역 &rarr; 균형보다
@@ -466,22 +466,22 @@ nav_order: 1
     -   유한 반복 게임(finitely repeated game)
 
         ::: definition
-        Given a stage game $$G$$, let $$G(T)`$$denote the finitely repeated
-        game in which $$G`$$is played $$T`$$times, with the outcomes of all
+        Given a stage game $$G$$, let $$G(T)$$denote the finitely repeated
+        game in which $$G$$is played $$T$$times, with the outcomes of all
         preceding plays observed before the next play begins. The
-        payoffs for $$G(T)`$$are simply the sum of the payoffs from the
-        $$T`$$stage games.
+        payoffs for $$G(T)$$are simply the sum of the payoffs from the
+        $$T$$stage games.
         :::
 
     -   무한 반복 게임(infinitely repeated game)
 
         ::: definition
-        Given a stage game $$G$$, let $$G(\infty , \delta)`$$denote the
-        infinitely repeated game in which $$G`$$is repeated forever and
+        Given a stage game $$G$$, let $$G(\infty , \delta)$$denote the
+        infinitely repeated game in which $$G$$is repeated forever and
         the players share the discount factorc $$\delta$$. For each $$t$$,
-        the outcomes of the $$t- 1`$$preceding plays of the stage game are
+        the outcomes of the $$t- 1$$preceding plays of the stage game are
         observed before the $$t$$th stage begins. Each player's payoff in
-        $$G(\infty , \delta)`$$is the present value of the player's
+        $$G(\infty , \delta)$$is the present value of the player's
         payoffs from the infinite sequence of stage games.
         :::
 
@@ -491,15 +491,15 @@ nav_order: 1
 
         ::: definition
         A **subgame** in an extensive-form game (a) begins at a decision
-        node $$n`$$that is a singleton information set (but is not the
+        node $$n$$that is a singleton information set (but is not the
         game's first decision node),
 
         \(b\) includes all the decision and terminal nodes following $$n$$
         in the game tree (but no nodes that do not follow $$n$$), and
 
         \(c\) does not cut any information sets (i.e., if a decision
-        node $$n^{'}`$$follows $$n`$$in the game tree, then all other nodes
-        in the information set containing $$n^{'}`$$must also follow $$n$$,
+        node $$n^{'}$$follows $$n$$in the game tree, then all other nodes
+        in the information set containing $$n^{'}$$must also follow $$n$$,
         and so must be included in the subgame).
         :::
 
@@ -540,7 +540,7 @@ nav_order: 1
         -   일부 경기자가 자신 만의 정보(private information)를 갖고
             있거나
 
-    -   $$\leftrightarrow`$$완전 정보 게임
+    -   $$\leftrightarrow$$완전 정보 게임
 
         -   바둑, 체스 등
 
@@ -560,8 +560,8 @@ nav_order: 1
         type, $$t$$, is privately known by player $$i$$, determines player
         $$i$$'s payoff function, $$u_{i}(a_{1}, \ldots, a_{n};t)$$, and is a
         member of the set of possible types, $$T_{i}$$. Player $$i$$'s
-        belief $$p_{i}(\rvert t_{-i})`$$describes $$i$$'s uncertainty about
-        the $$n - 1`$$other players' possible types, $$t_{-i}$$, given $$i$$'s
+        belief $$p_{i}(\rvert t_{-i})$$describes $$i$$'s uncertainty about
+        the $$n - 1$$other players' possible types, $$t_{-i}$$, given $$i$$'s
         own type, $$t_{i}$$. We denote this game by
         $$G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$$.
         :::
@@ -577,8 +577,8 @@ nav_order: 1
             the strategy profile
             $$s^{*}(\cdot) = (s_{1}^{*}(\cdot), \ldots, s_{n}^{*}(\cdot))$$
             is a (pure strategy) **Bayesian Nash equilibrium** if for
-            each player $$i`$$and for each of $$i$$'s types $$t_{i}`$$in
-            $$T_{i}$$, $$s_{i}^{*}(t_{i})`$$equals the solution of the
+            each player $$i$$and for each of $$i$$'s types $$t_{i}$$in
+            $$T_{i}$$, $$s_{i}^{*}(t_{i})$$equals the solution of the
             following problem.
 
             $$$$\max_{a_{i} \in A_{t}} \sum_{t_{-i} \in T_{-i}} u_{i}(s_{1}^{*}(t_{1}), \ldots,s_{i-1}^{*}(t_{i-1}),a_{i},s_{i+1}^{*}(t_{i+1}),\ldots, s_{n}^{*}(t_{n});t)p_{i}(t_{-i}|t_{i})\text{.}$$$$
@@ -831,9 +831,9 @@ nav_order: 1
 
     :::: center
     ::: game
-    22\[$$P_{1}$$\]\[$$P_{2}$$\] $$\text{기다린다}`$$$$\text{누른다}$$\
-    $$\text{기다린다}`$$$$-1, -1`$$$$-1, 1$$\
-    $$\text{누른다}`$$$$1, -1`$$$$-1, -1$$
+    22\[$$P_{1}$$\]\[$$P_{2}$$\] $$\text{기다린다}$$$$\text{누른다}$$\
+    $$\text{기다린다}$$$$-1, -1$$$$-1, 1$$\
+    $$\text{누른다}$$$$1, -1$$$$-1, -1$$
     :::
 
     \
@@ -884,9 +884,9 @@ nav_order: 1
 
     :::: center
     ::: game
-    22\[$$P_{1}$$\]\[$$P_{2}$$\] $$\text{기다린다}`$$$$\text{누른다}$$\
-    $$\text{기다린다}`$$$$b-d, b-d`$$$$b-d, s-c$$\
-    $$\text{누른다}`$$$$s-c, b-d`$$$$-d-c, -d-c$$
+    22\[$$P_{1}$$\]\[$$P_{2}$$\] $$\text{기다린다}$$$$\text{누른다}$$\
+    $$\text{기다린다}$$$$b-d, b-d$$$$b-d, s-c$$\
+    $$\text{누른다}$$$$s-c, b-d$$$$-d-c, -d-c$$
     :::
 
     \

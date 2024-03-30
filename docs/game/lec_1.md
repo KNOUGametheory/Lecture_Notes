@@ -167,7 +167,7 @@ nav_order: 1
     -   전략형(strategic form) 또는 정태적(static) 게임 이라고도 함
 
     -   경기자 또는 행위자의 집합(A set of player or agent)
-        $`i \in I = \{ 1, \ldots, n \}`$
+        $$i \in I = \{ 1, \ldots, n \}$$
 
     -   경기자 $$i$$가 선택할 수 있는 전략의 집합(A set of strategies)
         $$s_{i} \in S_{i}$$

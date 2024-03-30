@@ -185,7 +185,7 @@ callouts:
     color: purple
   note:
     title: Note
-    color: grey
+    color: grey-dk
   warning:
     title: Warning
     color: red

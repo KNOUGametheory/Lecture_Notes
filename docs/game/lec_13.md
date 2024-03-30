@@ -4,7 +4,7 @@ title: 진화게임
 parent: game
 nav_order: 3
 has_children: false
-permalink: /docs/game
+permalink: /docs/game/
 ---
 
 

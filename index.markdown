@@ -1,5 +1,7 @@
 ---
 layout: home
+title: 강좌 소개
+permalink: /about/
 ---
 
 # 게임이론으로 이해하는 사회 현상

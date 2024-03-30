@@ -4,7 +4,7 @@ title: 나비 모형으로 연구하기
 parent: simulation
 nav_order: 3
 has_children: false
-permalink: /docs/simulation
+permalink: /docs/simulation/
 ---
 
 # 나비 모형으로 연구하기

@@ -11,9 +11,6 @@ permalink: docs/game
 ## 강의 홈페이지
 
 -
-- 
-- 
-
 
 
 ## 강의 목표
@@ -21,3 +18,4 @@ permalink: docs/game
 
 
 ## 강의 내용
+

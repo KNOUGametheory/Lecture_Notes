@@ -221,15 +221,8 @@ nav_order: 1
             가위를 낼 확률이 $$\dfrac{1}{2}$$, 바위를 낼 확률이
             $$\dfrac{1}{4}$$, 보를 낼 확률이 $$\dfrac{1}{4}$$인 혼합전략
 
-            ```definition
-            In the normal-form game
-            $$G = \{S_{1}, \ldots, S_{n}; u_{1},\ldots,u_{n}\}$$, suppose
-            $$S_{i} = \{ s_{i1}, \ldots, s_{ik}\}$$. Then a **mixed
-            strategy** for player $$i$$is a probability distribution
-            $$p_{i} = (p_{i1}, \ldots, p_{iK})$$, where
-            $$0 \leq p_{ik} \leq 1$$for $$k=1, \ldots, K$$and
-            $$p_{i1} + \cdots + p_{iK} = 1$$.
-            ```
+        {: .definition}
+            In the normal-form game $$G = \{S_{1}, \ldots, S_{n}; u_{1},\ldots,u_{n}\}$$, suppose $$S_{i} = \{ s_{i1}, \ldots, s_{ik}\}$$. Then a **mixed strategy** for player $$i$$is a probability distribution $$p_{i} = (p_{i1}, \ldots, p_{iK})$$, where $$0 \leq p_{ik} \leq 1$$for $$k=1, \ldots, K$$ and $$p_{i1} + \cdots + p_{iK} = 1$$.
 
         -   제로 섬 게임: 어느 한 경기자의 이득 또는 손실은 다른
             경기자의 손실 또는 이득과 같음
@@ -278,7 +271,7 @@ nav_order: 1
             연합(coalition)이 가능, 계약 이행의 제약(binding contract)을
             만들 수 있음
 
-        ```definition
+        {: .definition}
         In the normal--form game
         $$G = \{ S_{1},$$...$$, S_{n}; u_{1},$$...$$, u_{n} \}$$, the strategy
         profile $$(s_{1}^{*}, \ldots, s_{n}^{*})$$is **Nash equilibrium**
@@ -293,7 +286,6 @@ nav_order: 1
         $$s_{i}^{*}$$solves
 
         $$\max_{s_i \in S_{i}} u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}, s_{i+1}^{*}, \ldots, s_{n}^{*})$$
-        ```
 
     -   &rarr; 어떤 경기자도 자신의 전략을 바꿀 유인이 없는
         상태(No incentive to deviate)
@@ -315,15 +307,8 @@ nav_order: 1
     -   경기자의 움직임에 따른 순서가 있고, 경기자는 언제 의사 결정을
         해야 하는 지 알고 있음
 
-        ```definition
-        The **extensive-form representation** of a game specifies: (1)
-        the players in the game, (2a) when each player has the move,
-        (2b) what each player can do at each of his or her opportunities
-        to move, (2c) what each player knows at each of his or her
-        opportunities to move and (3) the payoff received by each player
-        for each combination of moves that could be chosen by the
-        players.
-        ```
+        {: .definition}
+        The **extensive-form representation** of a game specifies: (1) the players in the game, (2a) when each player has the move, (2b) what each player can do at each of his or her opportunities to move, (2c) what each player knows at each of his or her opportunities to move and (3) the payoff received by each player for each combination of moves that could be chosen by the players.
 
 -   전개형 게임을 정규형 게임으로 표현할 수 있음
 
@@ -333,11 +318,8 @@ nav_order: 1
         -   실제로 어떤 선택상황에 놓이는 것과 상관없이, 자신이 직면할
             수 있는 모든 상황에서의 행동 계획을 갖고 있음
 
-            ```definition
-            A **strategy** for a player is a complete plan of action--it
-            specifies a feasible action for the player in every
-            contingency in which the player might be called on to act.
-            ```
+            {: .definition}
+            A **strategy** for a player is a complete plan of action--it specifies a feasible action for the player in every contingency in which the player might be called on to act.
 
         -   전개형 게임에서의 결과(outcome)
 
@@ -443,31 +425,19 @@ nav_order: 1
 
     -   유한 반복 게임(finitely repeated game)
 
-        ```definition
-        Given a stage game $$G$$, let $$G(T)$$denote the finitely repeated
-        game in which $$G$$is played $$T$$times, with the outcomes of all
-        preceding plays observed before the next play begins. The
-        payoffs for $$G(T)$$are simply the sum of the payoffs from the
-        $$T$$stage games.
-        ```
+        {: .definition}
+        Given a stage game $$G$$, let $$G(T)$$denote the finitely repeated game in which $$G$$is played $$T$$times, with the outcomes of all preceding plays observed before the next play begins. The payoffs for $$G(T)$$are simply the sum of the payoffs from the $$T$$stage games.
 
     -   무한 반복 게임(infinitely repeated game)
 
-        ```definition
-        Given a stage game $$G$$, let $$G(\infty , \delta)$$denote the
-        infinitely repeated game in which $$G$$is repeated forever and
-        the players share the discount factorc $$\delta$$. For each $$t$$,
-        the outcomes of the $$t- 1$$preceding plays of the stage game are
-        observed before the $$t$$th stage begins. Each player's payoff in
-        $$G(\infty , \delta)$$is the present value of the player's
-        payoffs from the infinite sequence of stage games.
-        ```
+        {: .definition}
+        Given a stage game $$G$$, let $$G(\infty , \delta)$$denote the infinitely repeated game in which $$G$$is repeated forever and the players share the discount factor $$\delta$$. For each $$t$$, the outcomes of the $$t- 1$$preceding plays of the stage game are observed before the $$t$$th stage begins. Each player's payoff in $$G(\infty , \delta)$$is the present value of the player's payoffs from the infinite sequence of stage games.
 
 -   부분 게임(subgame)
 
     -   전체 게임을 각각의 부분으로 나눔
 
-        ```definition
+        {: .definition}
         A **subgame** in an extensive-form game (a) begins at a decision
         node $$n$$that is a singleton information set (but is not the
         game's first decision node),
@@ -485,10 +455,8 @@ nav_order: 1
 
     -   모든 부분 게임에서 내쉬 균형이 되는 전략 프로파일
 
-        ```definition
-        A Nash equilibrium is **subgame-perfect** if the players'
-        strategies constitute a Nash equilibrium in every subgame.
-        ```
+        {: .definition}
+        A Nash equilibrium is **subgame-perfect** if the players' strategies constitute a Nash equilibrium in every subgame.
 
     -   &rarr; 정치화: 부분 게임 완전 내쉬 균형(SPNE)은 내쉬
         균형보다 더 강한 개념
@@ -499,14 +467,8 @@ nav_order: 1
         정확히 어떤 상황(decision node)에 놓여있는지는 모름
         &rarr; 불완전 정보
 
-        ```definition
-        An **information set** for a player is a collection of decision
-        nodes satisfying: (i) the player has the move at every node in
-        the information set, and (ii) when the play of the game reaches
-        a node in the information set, the player with the move does not
-        know which node in the information set has (or has not) been
-        reached.
-        ```
+        {: .definition}
+        An **information set** for a player is a collection of decision nodes satisfying: (i) the player has the move at every node in the information set, and (ii) when the play of the game reaches a node in the information set, the player with the move does not know which node in the information set has (or has not) been reached.
 
 -   불완전 정보(incomplete information)
 
@@ -529,38 +491,19 @@ nav_order: 1
 
     -   자연(Nature): 유형과 사적 정보를 설정하기 위해 도입
 
-        ```definition
-        The **normal-form representation of an n-player static Bayesian
-        game** specifies the players' action spaces
-        $$A_{1}, \ldots , A_{n}$$, their type spaces
-        $$T_{1}, \ldots, T_{n}$$, their beliefs $$p_{1}, \ldots, p_{n}$$,
-        and their payoff functions $$u_{1}, \ldots, u_{n}$$. Player $$i$$'s
-        type, $$t$$, is privately known by player $$i$$, determines player
-        $$i$$'s payoff function, $$u_{i}(a_{1}, \ldots, a_{n};t)$$, and is a
-        member of the set of possible types, $$T_{i}$$. Player $$i$$'s
-        belief $$p_{i}(\rvert t_{-i})$$describes $$i$$'s uncertainty about
-        the $$n - 1$$other players' possible types, $$t_{-i}$$, given $$i$$'s
-        own type, $$t_{i}$$. We denote this game by
-        $$G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$$.
-        ```
+        {: .definition}
+        The **normal-form representation of an n-player static Bayesian game** specifies the players' action spaces $$A_{1}, \ldots , A_{n}$$, their type spaces $$T_{1}, \ldots, T_{n}$$, their beliefs $$p_{1}, \ldots, p_{n}$$, and their payoff functions $$u_{1}, \ldots, u_{n}$$. Player $$i$$'s type, $$t$$, is privately known by player $$i$$, determines player $$i$$'s payoff function, $$u_{i}(a_{1}, \ldots, a_{n};t)$$, and is a member of the set of possible types, $$T_{i}$$. Player $$i$$'s belief $$p_{i}(\rvert t_{-i})$$describes $$i$$'s uncertainty about the $$n - 1$$other players' possible types, $$t_{-i}$$, given $$i$$'s own type, $$t_{i}$$. We denote this game by $$G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$$.
 
     -   베이지언 내쉬 균형
 
         -   자연, 유형 등의 특성을 제외하면, 정규형 게임과 동일한 구조
             &rarr; 내쉬 균형의 아이디어를 그대로 사용할 수 있음
 
-            ```definition
-            In the static Bayesian game
-            $$G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$$,
-            the strategy profile
-            $$s^{*}(\cdot) = (s_{1}^{*}(\cdot), \ldots, s_{n}^{*}(\cdot))$$
-            is a (pure strategy) **Bayesian Nash equilibrium** if for
-            each player $$i$$and for each of $$i$$'s types $$t_{i}$$in
-            $$T_{i}$$, $$s_{i}^{*}(t_{i})$$equals the solution of the
-            following problem.
+            {: .definition}
+            In the static Bayesian game $$G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$$, the strategy profile $$s^{*}(\cdot) = (s_{1}^{*}(\cdot), \ldots, s_{n}^{*}(\cdot))$$ is a (pure strategy) **Bayesian Nash equilibrium** if for each player $$i$$and for each of $$i$$'s types $$t_{i}$$in $$T_{i}$$, $$s_{i}^{*}(t_{i})$$equals the solution of the following problem.
 
             $$\max_{a_{i} \in A_{t}} \sum_{t_{-i} \in T_{-i}} u_{i}(s_{1}^{*}(t_{1}), \ldots,s_{i-1}^{*}(t_{i-1}),a_{i},s_{i+1}^{*}(t_{i+1}),\ldots, s_{n}^{*}(t_{n});t)p_{i}(t_{-i}|t_{i})\text{.}$$
-            ```
+
 
 -   게임의 분류와 균형
 
@@ -620,12 +563,8 @@ nav_order: 1
 
         -   4개 경매 방식의 기대 수입은 같음
 
-            ```theorem
-            ((General) Revenue Equivalence Theorem) Any auction formats
-            that results in the same (1) allocation and (2) the expected
-            payoff of the lowest value type, yields identical expected
-            revenue.
-            ```
+            {: .theorem}
+            ((General) Revenue Equivalence Theorem) Any auction formats that results in the same (1) allocation and (2) the expected payoff of the lowest value type, yields identical expected revenue.
 
 -   메커니즘 설계(mechanism design)
 
@@ -692,13 +631,8 @@ nav_order: 1
         -   따라서 메커니즘 설계자는 따라서 여러 메커니즘이 아닌, 직접
             메커니즘만 고려해도 충분
 
-        ```theorem
-        (The Revelation Principle) Given a mechanism and an quilibirum
-        for that mechanism, there exists a direct mechanism (1) it is an
-        quilibrium for each player to report his or her true type
-        and (2) the outcomes are the same as in the given equilibrium of
-        the original mechanism.
-        ```
+        {: .theorem}
+        (The Revelation Principle) Given a mechanism and an quilibirum for that mechanism, there exists a direct mechanism (1) it is an quilibrium for each player to report his or her true type and (2) the outcomes are the same as in the given equilibrium of the original mechanism.
 
         -   직접 메커니즘
 

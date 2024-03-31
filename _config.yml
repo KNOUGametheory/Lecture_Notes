@@ -192,6 +192,9 @@ callouts:
   definition:
     title: Definition
     color: blue
+  theorem:
+    title: Theorem
+    color: purple
 
 # Google Analytics Tracking (optional)
 # Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")

@@ -117,14 +117,7 @@ nav_order: 1
 
 -   게임 이론의 출발점
 
-    > "이 책의 목적은 지금까지 문헌에서 찾을 수 있는 것과는 다른 처리를
-    > 필요로 하는 경제 이론의 근본적인 질문에 관한 논의를 제시하는
-    > 것이다. ... "로빈슨 크루소\" 모형으로 대표되는 형태의 경제,
-    > 하나의 의지를 가진 고립되어 있는 단일한 개인 또는 조직의 경제
-    > ... 사회적 교환 경제의 참여자, ... 극대화 문제와 많은
-    > 요소에서 유사성이 있지만, ... 이를 달성하기 위해서는 다른
-    > 사람과의 교환 관계에 참여해야만 한다[@Neumann:2007aa pp.
-    > 30--37].\"
+    > "이 책의 목적은 지금까지 문헌에서 찾을 수 있는 것과는 다른 처리를 필요로 하는 경제 이론의 근본적인 질문에 관한 논의를 제시하는 것이다. ... "로빈슨 크루소\" 모형으로 대표되는 형태의 경제, 하나의 의지를 가진 고립되어 있는 단일한 개인 또는 조직의 경제 ... 사회적 교환 경제의 참여자, ... 극대화 문제와 많은 요소에서 유사성이 있지만, ... 이를 달성하기 위해서는 다른 사람과의 교환 관계에 참여해야만 한다[@Neumann:2007aa pp. 30--37].\"
 
 -   게임: 전략적 상황에서의 의사 결정
 
@@ -184,13 +177,8 @@ nav_order: 1
     -   전략 프로파일 $$s$$를 시행했을 때 경기자 $$i$$의 보수(payoff)
         $$u_{i}: S \rightarrow \mathbb{R}$$
 
-        ```definition
-        The **normal-form representation** of an $$n$$-player game
-        specifies the players' strategy spaces
-        $$G = \{ S_{1}, \ldots, S_{n} \}$$and their payoff functions
-        $$u_{1},\ldots, u_{n}$$. We denote this game by
-        $$G = \{ S_{1}, \ldots , S_{n}; u_{1},\ldots, u_{n} \}$$.
-        ```
+        {: .definition}
+        The **normal-form representation** of an $$n$$-player game specifies the players' strategy spaces $$G = \{ S_{1}, \ldots, S_{n} \}$$and their payoff functions $$u_{1},\ldots, u_{n}$$. We denote this game by $$G = \{ S_{1}, \ldots , S_{n}; u_{1},\ldots, u_{n} \}$$.
 
 -   지배(dominance)와 균형
 
@@ -205,20 +193,11 @@ nav_order: 1
         > 지배한다고 말한다[@Neumann:2007aa p. 70].\"
 
         {:. definition}
-        In the normal-form game
-        $$G = \{ S_{1}, \ldots , S_{n}; u_{1}, \ldots, u_{n} \}$$, let
-        $$s_{i}^{'}$$and $$s_{i}^{''}$$be feasible strategies for player
-        $$i$$(i.e., $$s_{i}^{'}$$and $$s_{i}^{''}$$are members of $$S_{i}$$).
-        Strategy $$s_{i}^{'}$$is **strictly dominated** by strategy
-        $$s_{i}^{''}$$if for each feasible combination of the other
-        players' strategies, $$i$$'s payoff from playing $$s_{i}^{'}$$is
-        strictly less than $$i$$'s payoff from playing $$s_{i}^{''}$$:
-
-        $$u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{'},  s_{i+1}, \ldots, s_{n}) < u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{''}, s_{i+1}, \ldots, s_{n})$$
-
-        for each $$(s_{1}, \ldots , s_{i-1}, s_{i+1}, \ldots, s_{n})$$
-        that can be constructed from the other players' strategy spaces
-        $$S_{1}, \ldots, S_{i-1}, S_{i+1}, \ldots, S_{n}$$.
+        > In the normal-form game $$G = \{ S_{1}, \ldots , S_{n}; u_{1}, \ldots, u_{n} \}$$, let $$s_{i}^{'}$$and $$s_{i}^{''}$$be feasible strategies for player $$i$$(i.e., $$s_{i}^{'}$$and $$s_{i}^{''}$$are members of $$S_{i}$$). Strategy $$s_{i}^{'}$$is **strictly dominated** by strategy $$s_{i}^{''}$$if for each feasible combination of the other players' strategies, $$i$$'s payoff from playing $$s_{i}^{'}$$is strictly less than $$i$$'s payoff from playing $$s_{i}^{''}$$:
+        > 
+        > $$u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{'},  s_{i+1}, \ldots, s_{n}) < u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{''}, s_{i+1}, \ldots, s_{n})$$
+        > 
+        > for each $$(s_{1}, \ldots , s_{i-1}, s_{i+1}, \ldots, s_{n})$$ that can be constructed from the other players' strategy spaces $$S_{1}, \ldots, S_{i-1}, S_{i+1}, \ldots, S_{n}$$.
 
     -   상대의 선택에 관계없이 나의 보수를 극대화 하는 선택이 존재함을
         의미

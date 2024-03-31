@@ -189,7 +189,7 @@ nav_order: 1
         -   가위바위보 게임에서 경기자의 혼합 전략은 (가위를 낼 확률, 바위를 낼 확률, 보를 낼 확률)로 표현 가능 &rarr; $$\left(\dfrac{1}{2}, \dfrac{1}{4}, \dfrac{1}{4}\right)$$는 가위를 낼 확률이 $$\dfrac{1}{2}$$, 바위를 낼 확률이 $$\dfrac{1}{4}$$, 보를 낼 확률이 $$\dfrac{1}{4}$$인 혼합전략
 
         {: .definition}
-            In the normal-form game $$G = \{S_{1}, \ldots, S_{n}; u_{1},\ldots,u_{n}\}$$, suppose $$S_{i} = \{ s_{i1}, \ldots, s_{ik}\}$$. Then a **mixed strategy** for player $$i$$is a probability distribution $$p_{i} = (p_{i1}, \ldots, p_{iK})$$, where $$0 \leq p_{ik} \leq 1$$for $$k=1, \ldots, K$$ and $$p_{i1} + \cdots + p_{iK} = 1$$.
+        In the normal-form game $$G = \{S_{1}, \ldots, S_{n}; u_{1},\ldots,u_{n}\}$$, suppose $$S_{i} = \{ s_{i1}, \ldots, s_{ik}\}$$. Then a **mixed strategy** for player $$i$$is a probability distribution $$p_{i} = (p_{i1}, \ldots, p_{iK})$$, where $$0 \leq p_{ik} \leq 1$$for $$k=1, \ldots, K$$ and $$p_{i1} + \cdots + p_{iK} = 1$$.
 
         -   제로 섬 게임: 어느 한 경기자의 이득 또는 손실은 다른 경기자의 손실 또는 이득과 같음
 

@@ -192,8 +192,8 @@ nav_order: 1
         > 성격의 단어를 사용하고자 한다. ... 우리는 $$x$$가 $$y$$를
         > 지배한다고 말한다[@Neumann:2007aa p. 70].\"
 
-        {:. definition}
-        > In the normal-form game $$G = \{ S_{1}, \ldots , S_{n}; u_{1}, \ldots, u_{n} \}$$, let $$s_{i}^{'}$$and $$s_{i}^{''}$$be feasible strategies for player $$i$$(i.e., $$s_{i}^{'}$$and $$s_{i}^{''}$$are members of $$S_{i}$$). Strategy $$s_{i}^{'}$$is **strictly dominated** by strategy $$s_{i}^{''}$$if for each feasible combination of the other players' strategies, $$i$$'s payoff from playing $$s_{i}^{'}$$is strictly less than $$i$$'s payoff from playing $$s_{i}^{''}$$:
+        {: .definition}
+		> In the normal-form game $$G = \{ S_{1}, \ldots , S_{n}; u_{1}, \ldots, u_{n} \}$$, let $$s_{i}^{'}$$and $$s_{i}^{''}$$be feasible strategies for player $$i$$(i.e., $$s_{i}^{'}$$and $$s_{i}^{''}$$are members of $$S_{i}$$). Strategy $$s_{i}^{'}$$is **strictly dominated** by strategy $$s_{i}^{''}$$if for each feasible combination of the other players' strategies, $$i$$'s payoff from playing $$s_{i}^{'}$$is strictly less than $$i$$'s payoff from playing $$s_{i}^{''}$$:
         > 
         > $$u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{'},  s_{i+1}, \ldots, s_{n}) < u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{''}, s_{i+1}, \ldots, s_{n})$$
         > 

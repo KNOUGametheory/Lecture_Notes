@@ -219,10 +219,7 @@ nav_order: 1
 
         -   비협조게임(non-cooperative game): 개별적인 의사 결정(individual decision making), 계약 이행의 제약이 없음(non-binding contract). 즉, 어떠한 외부 조건이 없이, 게임 당사자 간의 이해 관계에 따라, 스스로 계약을 지킬 의무만 있는 게임
 
-        -   $$\leftrightarrow$$협조게임(cooperative game): 집단적인 의사
-            결정(group decision making), 게임 참여자 간의
-            연합(coalition)이 가능, 계약 이행의 제약(binding contract)을
-            만들 수 있음
+        -   $$\leftrightarrow$$협조게임(cooperative game): 집단적인 의사 결정(group decision making), 게임 참여자 간의 연합(coalition)이 가능, 계약 이행의 제약(binding contract)을 만들 수 있음
 
         {: .definition}
 		> In the normal--form game $$G = \{ S_{1},$$...$$, S_{n}; u_{1},$$...$$, u_{n} \}$$, the strategy profile $$(s_{1}^{*}, \ldots, s_{n}^{*})$$is **Nash equilibrium** if, for each player $$i$$, $$s_{i}^{*}$$is (at least tied for) player $$i$$'s best response to the strategies specified for the $$n-1$$other players, $$(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i+1}^{*}, \ldots, s_{n}^{*})$$:
@@ -277,7 +274,13 @@ nav_order: 1
 
         -   경기자: 죄수 1, 죄수 2
 
-        -   규칙: 두 죄수가 모두 범죄를 자백(배신)하면 3년간 복역, 두 죄수 모두 자백을 하지 않으면(협력) 1년간 복역, 어느 한 쪽만 자백하고 다른 한 쪽은 자백하지 않는다면, 자백한 쪽은 석방되고 자백하지 않은 쪽은 10년간 복역
+        -   규칙
+		
+            -   두 죄수가 모두 범죄를 자백(배신)하면 3년간 복역, 
+			
+            -   두 죄수 모두 자백을 하지 않으면(협력) 1년간 복역, 
+			
+            -   어느 한 쪽만 자백하고 다른 한 쪽은 자백하지 않는다면, 자백한 쪽은 석방되고 자백하지 않은 쪽은 10년간 복역
 
     -   전개형
 

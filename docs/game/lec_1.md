@@ -691,6 +691,9 @@ nav_order: 1
 
 9.  어떤 복제자가 확산되면서 개체군의 진화가 나타남을 게임이론으로 설명할 수 있다.
 
+
+### 미주
+
 [^1]: The part of my work I consider most essential is that on quantum
     mechanics, which developed in Göttingen in 1926, and subsequently in
     Berlin in 1927--1929. Also, my work on various forms of operator

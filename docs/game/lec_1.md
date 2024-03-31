@@ -405,7 +405,7 @@ nav_order: 1
         -   자연, 유형 등의 특성을 제외하면, 정규형 게임과 동일한 구조
             &rarr; 내쉬 균형의 아이디어를 그대로 사용할 수 있음
 
-            {: .definition}
+        {: .definition}
 		> In the static Bayesian game $$G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$$, the strategy profile $$s^{*}(\cdot) = (s_{1}^{*}(\cdot), \ldots, s_{n}^{*}(\cdot))$$ is a (pure strategy) **Bayesian Nash equilibrium** if for each player $$i$$and for each of $$i$$'s types $$t_{i}$$in $$T_{i}$$, $$s_{i}^{*}(t_{i})$$equals the solution of the following problem.
 		> 
 		> $$\max_{a_{i} \in A_{t}} \sum_{t_{-i} \in T_{-i}} u_{i}(s_{1}^{*}(t_{1}), \ldots,s_{i-1}^{*}(t_{i-1}),a_{i},s_{i+1}^{*}(t_{i+1}),\ldots, s_{n}^{*}(t_{n});t)p_{i}(t_{-i}|t_{i})\text{.}$$
@@ -413,9 +413,9 @@ nav_order: 1
 
 -   게임의 분류와 균형
 
-        |          | Complete Information | Incomplete Information  |
-		| Static   |  내쉬 균형             | 베이지언 내쉬 균형           |
-		| Dynamic  | 부분게임 완전 균형       | 완전 베이지언 균형           |
+    |          | Complete Information | Incomplete Information  |
+    | Static   |  내쉬 균형             | 베이지언 내쉬 균형           |
+    | Dynamic  | 부분게임 완전 균형       | 완전 베이지언 균형           |
 
 ## 게임 이론의 확장
 
@@ -609,10 +609,10 @@ nav_order: 1
 
 -   보수표로 정리하면,
 
-        |          |        | $$P_{2}$$   |            |
-		|          |        | 기다린다      | 누른다       |
-		| $$P_{1}$$| 기다린다 | $$-1, -1$$  | $$-1, 1$$  |
-		|          | 누른다   | $$1, -1$$  | $$-1, -1$$  |
+    |          |        | $$P_{2}$$   |            |
+	|          |        | 기다린다      | 누른다       |
+	| $$P_{1}$$| 기다린다 | $$-1, -1$$  | $$-1, 1$$  |
+	|          | 누른다   | $$1, -1$$  | $$-1, -1$$  |
 
 
 -   경기자는 자신에게 유리한 선택을 할 것
@@ -655,10 +655,10 @@ nav_order: 1
 
 -   보수표로 정리하면,
 
-        |          |        | $$P_{2}$$     |                |
-		|          |        | 기다린다        | 누른다           |
-		| $$P_{1}$$| 기다린다 | $$b-d, b-d$$  | $$b-d, s-c$$   |
-		|          | 누른다   | $$s-c, b-d$$ | $$-d-c, -d-c$$  |
+    |          |        | $$P_{2}$$     |                |
+    |          |        | 기다린다        | 누른다           |
+    | $$P_{1}$$| 기다린다 | $$b-d, b-d$$  | $$b-d, s-c$$   |
+    |          | 누른다   | $$s-c, b-d$$ | $$-d-c, -d-c$$  |
 
 
 -   (기다림, 기다림)이 균형이 되려면

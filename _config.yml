@@ -148,6 +148,9 @@ nav_external_links:
 liquid:
    error_mode: strict
    strict_filters: true
+
+# Makes external links open in a new tab. Default is false
+nav_external_links_new_tab: true
    
 # Footer content
 # appears at the bottom of every page's main content

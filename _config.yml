@@ -211,6 +211,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-github-metadata
   - jekyll-include-cache
+  - jekyll-scholar
 
 kramdown:
   syntax_highlighter_opts:
@@ -226,3 +227,8 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+  
+# for bibliography
+
+scholar:
+  style: modern-language-association

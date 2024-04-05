@@ -102,11 +102,13 @@ nav_order: 14
 
         $$
 		u_{1}(s_{i}, \sigma) = \sum_{j=1}^{n} u_{1}(s_{i}, s_{j})p_{j}
-		$$
+        $$
 
     -   개체군의 상태 $$\sigma_{1} = \sum p_{1i}s_{i}$$, $$\sigma_{2} = \sum p_{2i}s_{i}$$ 이고, $$0<\epsilon<1$$ 이라면,
 
-        -   $$(1-\epsilon)\sigma_{1} + \epsilon \sigma_{2} = \sum \left( (1-\epsilon)p_{1i} + \epsilon p_{2i} \right)s_{i}$$
+        $$
+		(1-\epsilon)\sigma_{1} + \epsilon \sigma_{2} = \sum \left( (1-\epsilon)p_{1i} + \epsilon p_{2i} \right)s_{i}
+        $$
 
 -   진화게임: 혼합 전략
 
@@ -114,7 +116,9 @@ nav_order: 14
 
     -   무작위로 상대와 매칭될 때, 기대 보수
 
-        -   $$u_{1} (\tau, \sigma) = \sum_{i=1}^{n} q_{i} u_{1} (s_{i},\sigma) = \sum_{i, j =1}^{n} q_{i} u_{1} (s_{i},s_{j})p_{j}$$
+        $$
+		u_{1} (\tau, \sigma) = \sum_{i=1}^{n} q_{i} u_{1} (s_{i},\sigma) = \sum_{i, j =1}^{n} q_{i} u_{1} (s_{i},s_{j})p_{j}
+        $$
 
         -   $$\rightarrow$$ $$u_{1} ( \tau, (1-\epsilon) \sigma_{1} + \epsilon \sigma_{2}) = (1-\epsilon) u_{1}(\tau,\sigma_{1})+\epsilon u_{1}(\tau,\sigma_{2})$$
 
@@ -124,7 +128,9 @@ nav_order: 14
 
 -   개체군의 상태 $$\sigma$$ 가 진화적으로 안정적(evolutionarliy stable)이라는 의미는 
 
-    -   $$u_{1} (\sigma, (1-\epsilon)\sigma + \epsilon \tau) > u_{1} (\tau, (1-\epsilon) \sigma + \epsilon \tau)$$
+       $$ 
+	   u_{1} (\sigma, (1-\epsilon)\sigma + \epsilon \tau) > u_{1} (\tau, (1-\epsilon) \sigma + \epsilon \tau)
+	   $$
 
     -   단, $$\tau \neq \sigma$$, $$\epsilon_{0} > 0$$, $$0 < \epsilon < \epsilon_{0}$$
 
@@ -143,7 +149,10 @@ nav_order: 14
     {: .theorem}
     > A population state $$\sigma$$ is evolutionarily stable if and only if for all $$\tau \neq \sigma$$
     > 
-    > 1.  $$u_{1} (\sigma, \sigma) \geq u_{1} (\tau, \sigma)$$
+    > 1.  
+	>    $$
+	>    u_{1} (\sigma, \sigma) \geq u_{1} (\tau, \sigma)
+	>    $$
     > 
     > 2.  If $$u_{1}(\tau, \sigma) = u_{1}(\sigma, \sigma)$$, then $$u_{1}(\sigma, \tau) > u_{1}(\tau, \tau)$$
 
@@ -203,7 +212,9 @@ nav_order: 14
 
     -   앞에서의 논리대로 정리해보면, $$p$$가 진화적으로 안정적인 혼합 전략이 되기 위해서는 
 	
-	    -   $$(1-x) V(p, p) + x V(p, q) > (1-x) V(q, p) + x V(q, q)$$
+        $$
+		(1-x) V(p, p) + x V(p, q) > (1-x) V(q, p) + x V(q, q)
+        $$
 
 -   일반화하면, $$a \neq c$$, $$b \neq d$$ 인 다음의 보수 구조에서 [@Schecter:2016aa Ch. 8]
 
@@ -232,11 +243,17 @@ nav_order: 14
 
         -   세 개의 내쉬 균형 $$(s_{1}, s_{1}), (s_{2}, s_{2}), (\sigma, \sigma)$$
 
-            -   $$\sigma = ps_{1} + (1-p) s_{2}$$
+            $$
+			\sigma = ps_{1} + (1-p) s_{2}
+            $$
 
-            -   $$p = \dfrac{d-b}{(a-c) + (d-b)}$$
+            $$
+			p = \dfrac{d-b}{(a-c) + (d-b)}
+			$$
 
-            -   $$1-p = \dfrac{a-c}{(a-c)+(d-b)}$$
+            $$
+			1-p = \dfrac{a-c}{(a-c)+(d-b)}
+			$$
 
         -   진화적으로 안정적: $$(s_{1}, s_{1}), (s_{2}, s_{2})$$
 
@@ -254,21 +271,40 @@ nav_order: 14
 
 -   이산적인 경우 [@Smaldino:2023aa Ch. 6]
 
-    -   개체군의 크기 $$N$$, 순수 전략 $$s_{1}$$을 구사하는 개체의 빈도(frequency) $$p$$, 순수 전략 $$s_{2}$$를 구사하는 개체의 빈도 $$1-p$$이고, $$V(s_{1})$$, $$V(s_{2})$$는 전략 $$s_{1}$$, $$s_{2}$$의 적합도를 의미한다고 하자
+    -   환경
+	
+	    - 개체군의 크기 $$N$$
+		- 순수 전략 $$s_{1}$$을 구사하는 개체의 빈도(frequency) $$p$$
+		- 순수 전략 $$s_{2}$$를 구사하는 개체의 빈도 $$1-p$$
+		- 전략 $$s_{1}$$, $$s_{2}$$의 적합도 $$V(s_{1})$$, $$V(s_{2})$$
 
-    -   현재 기에 $$s_{1}$$ 전략을 구사하는 유형의 개체 수는 다음과 같이 표현할 수 있음 $$p N V(s_{1})$$
+    -   현재 기에 $$s_{1}$$ 전략을 구사하는 유형의 개체 수는 다음과 같이 표현할 수 있음 
+	
+        $$ 
+		p N V(s_{1})
+		$$
 
     -   만약 모든 개체의 재생산률이 $$z$$로 동일하다면, 다음 기에서 $$s_{1}$$ 전략을 구사하는 유형의 개체 수의 빈도 $$p^{'}$$는 다음과 같이 표현할 수 있음 
 	
-	    -    $$p^{'} = \dfrac{p N V(s_{1})z}{p N V(s_{1})z + (1-p) N V(s_{2})z }$$
+        $$ 
+		p^{'} = \dfrac{p N V(s_{1})z}{p N V(s_{1})z + (1-p) N V(s_{2})z }
+		$$
 
     -   $$Nz$$를 정리하면, 위 식을 다음과 같이 고쳐 쓸 수 있음 
 	
-	    -    $$p^{'} = p \dfrac{V(s_{1})}{pV(s_{1}) + (1-p)V(s_{2})}$$
+        $$ 
+		p^{'} = p \dfrac{V(s_{1})}{pV(s_{1}) + (1-p)V(s_{2})}
+		$$
 
-    -   개체군에서의 평균 적합도 $$\overline{w} = pV(s_{1}) + (1-p)V(s_{2})$$, $$i$$ 전략에 대해 일반화 하면 $$p_{i}^{'} = p_{i} \dfrac{V(i)}{\overline{w}}$$
+    -   개체군에서의 평균 적합도 $$\overline{w} = pV(s_{1}) + (1-p)V(s_{2})$$
+	
+	    - $$i$$ 전략에 대해 일반화 하면 $$ p_{i}^{'} = p_{i} \dfrac{V(i)}{\overline{w}}$$
 
-    -   $$i$$ 전략의 빈도 변화 $$\rightarrow$$ 이산적일 때의 복제자 동학 $$\Delta p_{i} = p_{i}^{'} - p_{i} = p_{i} \left( \dfrac{V(i)}{\overline{w}} - 1 \right)$$
+    -   $$i$$ 전략의 빈도 변화 $$\rightarrow$$ 이산적일 때의 복제자 동학 
+	
+        $$
+		\Delta p_{i} = p_{i}^{'} - p_{i} = p_{i} \left( \dfrac{V(i)}{\overline{w}} - 1 \right)
+		$$
 
     -   $$\rightarrow$$ 평균 적합도 $$\overline{w}$$ 보다 높은 $$V(i)$$는 개체군에서의 빈도를 높이고, 반대의 경우 낮춤
 
@@ -306,9 +342,12 @@ nav_order: 14
 
 -   기대 보수
 
-    -   $$V(ALLC) = p(b-c) + (1-p)(-c) = pb-c$$
-
-    -   $$V(ALLD) = pb + (1-p)(0) = pb$$
+	$$
+    \begin{align}
+	   V(ALLC) & = p(b-c) + (1-p)(-c) = pb-c \\
+	   V(ALLD) & = pb + (1-p)(0) = pb          
+    \end{align}
+    $$
 
 -   모두 $$ALLC$$ 를 하는 경우, 즉 $$p=1$$
 
@@ -328,8 +367,7 @@ nav_order: 14
 	
 	$$
     \begin{align}
-      Pr(ALLC|ALLC) & = r + (1-r) p \\
-	  
+      Pr(ALLC|ALLC) & = r + (1-r) p \\	  
       Pr(ALLD|ALLD) & = r + (1-r)(1-p)          
     \end{align}
     $$
@@ -384,17 +422,16 @@ nav_order: 14
 
     -   기대 보수
 
-        -   $$V(ALLC|ALLC) = (b-c) + (b-c) w + (b-c) w^{2} + \ldots = \dfrac{b-c}{1-w}$$
-
-        -   $$V(ALLC|ALLD) = (-c) + (-c) w + (-c) w^{2} + \ldots = \dfrac{-c}{1-w}$$
-
-        -   $$V(ALLD|ALLC) = (b) + (b) w + (b) w^{2} + \ldots = \dfrac{b}{1-w}$$
-
-        -   $$V(ALLD|ALLD) = 0$$
-
-        -   $$V(TFT|TFT) = (b-c) + (b-c) w + (b-c) w^{2} + \ldots = \dfrac{b-c}{1-w}$$
-
-        -   $$V(ALLD|TFT) = (b) + (0) w + (0) w^{2} + \ldots = b$$
+        $$
+		\begin{align}
+		V(ALLC|ALLC) & = (b-c) + (b-c) w + (b-c) w^{2} + \ldots = \dfrac{b-c}{1-w} \\
+		V(ALLC|ALLD) & = (-c) + (-c) w + (-c) w^{2} + \ldots = \dfrac{-c}{1-w} \\
+		V(ALLD|ALLC) & = (b) + (b) w + (b) w^{2} + \ldots = \dfrac{b}{1-w} \\
+		V(ALLD|ALLD) & = 0 \\
+		V(TFT|TFT) & = (b-c) + (b-c) w + (b-c) w^{2} + \ldots = \dfrac{b-c}{1-w} \\
+		V(ALLD|TFT) & = (b) + (0) w + (0) w^{2} + \ldots = b 
+		\end{align}
+		$$
 
     -   다음 조건을 만족 할 때, TFT는 진화적으로 안정적일 수 있음
 	
@@ -412,10 +449,11 @@ nav_order: 14
         -   $$\rightarrow$$ 충분히 많은 수의 게임이 반복되어야 함을 의미
 
     -   ALLD 는 TFT에 대해 진화적으로 안정적인가?
-
-        -   $$V(TFT|ALLD) = (-c) + (0) w + (0) w^{2} + \ldots = -c$$
-
-        -   $$V(TFT|ALLD) < V(ALLD|ALLD)$$
+	
+	    $$
+		V(TFT|ALLD) & = (-c) + (0) w + (0) w^{2} + \ldots = -c
+		V(TFT|ALLD) & < V(ALLD|ALLD)
+		$$ 
 
         -   ALLD 는 TFT에 대해 진화적으로 안정적
 

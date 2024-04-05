@@ -284,7 +284,7 @@ nav_order: 1
 
     -   전개형
 	
-	    ![extensive forms of PD games](https://knougametheory.github.io/Lecture_Notes/assets/images/PD_extensive_forms.png)
+	    ![extensive forms of PD games](/images/Lec_1_PD_extensive_forms.png)
 
     -   전개형을 정규형으로
 

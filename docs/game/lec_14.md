@@ -100,7 +100,9 @@ nav_order: 14
 
     -   한 개체가 개체군 $$\sigma$$ 중 다른 개체와 무작위로 게임을 한다면, 그 때의 기대 보수
 
-        -   $$u_{1}(s_{i}, \sigma) = \sum_{j=1}^{n} u_{1}(s_{i}, s_{j})p_{j}$$
+        $$
+		u_{1}(s_{i}, \sigma) = \sum_{j=1}^{n} u_{1}(s_{i}, s_{j})p_{j}
+		$$
 
     -   개체군의 상태 $$\sigma_{1} = \sum p_{1i}s_{i}$$, $$\sigma_{2} = \sum p_{2i}s_{i}$$ 이고, $$0<\epsilon<1$$ 이라면,
 
@@ -324,11 +326,13 @@ nav_order: 14
 
     -   같은 유형을 만날 확률 $$r$$ 도입
 	
+	$$
     \begin{align}
       Pr(ALLC|ALLC) & = r + (1-r) p \\
 	  
       Pr(ALLD|ALLD) & = r + (1-r)(1-p)          
     \end{align}
+    $$
 
     -   기대 보수 
 	

@@ -40,9 +40,13 @@ nav_order: 14
 
 -   적합도(fitness)
 
-    -   만약 어떤 속성 또는 행위로 필요로 하는 자원을 더 확보할 수 있다면, 또는 그 결과로 더 큰 이득을 얻을 수 있다면
+    -   만약 어떤 속성 또는 행위로 필요로 하는 자원을 더 확보할 수 있다면, 
+	
+	-   또는 그 결과로 더 큰 이득을 얻을 수 있다면,
 
-    -   그 속성 또는 행위가 집단에서 더 잘 이전될 것 $$\rightarrow$$ 높은 적합도
+    -   그 속성 또는 행위가 집단에서 더 잘 이전될 것 
+	
+	-   $$\rightarrow$$ 높은 적합도
 
     -   죄수의 딜레마 게임
 
@@ -88,7 +92,11 @@ nav_order: 14
 
     -   개체가 순수 전략 $$\tau = s_{i}$$를 구사한다면, 개체는 $$i$$ 유형(type)이라고 할 수 있음
 
-    -   개체군 전체에서 전략 $$s_{n}$$이 확률 $$p_{n}$$으로 구사된다면(단, $$p_{i} \geq 0,\sum p_{i}=1$$), 개체군의 상태 $$\sigma = \sum p_{i} s_{i}$$
+    -   개체군 전체에서 전략 $$s_{n}$$이 확률 $$p_{n}$$으로 구사된다면
+	
+	    -   개체군의 상태 $$\sigma = \sum p_{i} s_{i}$$
+		
+		-   단, $$p_{i} \geq 0,\sum p_{i}=1$$
 
     -   한 개체가 개체군 $$\sigma$$ 중 다른 개체와 무작위로 게임을 한다면, 그 때의 기대 보수
 
@@ -108,9 +116,13 @@ nav_order: 14
 
         -   $$\rightarrow$$ $$u_{1} ( \tau, (1-\epsilon) \sigma_{1} + \epsilon \sigma_{2}) = (1-\epsilon) u_{1}(\tau,\sigma_{1})+\epsilon u_{1}(\tau,\sigma_{2})$$
 
-    -   $$\epsilon$$을 $$\tau$$ 유형이 개체군에서 차지하는 비중으로 가정하면, 개체군의 상태를 다음과 같이 쓸 수 있음 $$\rightarrow$$ $$(1-\epsilon) \sigma + \epsilon \tau$$ (단, $$0 < \epsilon < 1$$)
+    -   $$\epsilon$$을 $$\tau$$ 유형이 개체군에서 차지하는 비중으로 가정하면, 개체군의 상태를 다음과 같이 쓸 수 있음 
+	
+	    -   $$\rightarrow$$ $$(1-\epsilon) \sigma + \epsilon \tau$$ (단, $$0 < \epsilon < 1$$)
 
--   개체군의 상태 $$\sigma$$ 가 진화적으로 안정적(evolutionarliy stable)이라는 의미는 $$u_{1} (\sigma, (1-\epsilon)\sigma + \epsilon \tau) > u_{1} (\tau, (1-\epsilon) \sigma + \epsilon \tau)$$
+-   개체군의 상태 $$\sigma$$ 가 진화적으로 안정적(evolutionarliy stable)이라는 의미는 
+
+    -   $$u_{1} (\sigma, (1-\epsilon)\sigma + \epsilon \tau) > u_{1} (\tau, (1-\epsilon) \sigma + \epsilon \tau)$$
 
     -   단, $$\tau \neq \sigma$$, $$\epsilon_{0} > 0$$, $$0 < \epsilon < \epsilon_{0}$$
 
@@ -118,21 +130,24 @@ nav_order: 14
 
     -   어떤 개체군에 유형 $$\sigma$$ 가 있을 때, 소수의 다른 유형의 개체 $$\tau$$가 개체군에 침입하더라도
 
-    -   유형 $$\sigma$$가 개체군의 다른 개체와 무작위로 게임을 할 때, 유형 $$\sigma$$의 개체가 유형 $$\tau$$의 개체보다 더 높은 기대 보수를 갖고 있음을 의미
+    -   유형 $$\sigma$$가 개체군의 다른 개체와 무작위로 게임을 할 때, 
+	
+	-   유형 $$\sigma$$의 개체가 유형 $$\tau$$의 개체보다 더 높은 기대 보수를 갖고 있음을 의미
 
     -   따라서, 침입자 또는 돌연변이라고 할 수 있는 개체 $$\tau$$는 사라질 것
 
 -   진화적으로 안정적인 전략(ESS: Evolutionarily Stable Strategies)의 조건
 
-    { :theorem}
+    {: .theorem}
     > A population state $$\sigma$$ is evolutionarily stable if and only if for all $$\tau \neq \sigma$$
     > 
     > 1.  $$u_{1} (\sigma, \sigma) \geq u_{1} (\tau, \sigma)$$
     > 
-    > 2.  If $$u_{1}(\tau, \sigma) = u_{1}(\sigma, \sigma)$$, then
-        $$u_{1}(\sigma, \tau) > u_{1}(\tau, \tau)$$
+    > 2.  If $$u_{1}(\tau, \sigma) = u_{1}(\sigma, \sigma)$$, then $$u_{1}(\sigma, \tau) > u_{1}(\tau, \tau)$$
 
-    -   첫 번째 조건은 진화 게임에서 시행되는 두 경기자의 대칭 보수 게임에서 $$(\sigma, \sigma)$$가 혼합 전략 내쉬 균형임을 의미 $$\rightarrow$$ $$\sigma$$에 대한 최적 대응은 $$\sigma$$
+    -   첫 번째 조건은 진화 게임에서 시행되는 두 경기자의 대칭 보수 게임에서 $$(\sigma, \sigma)$$가 혼합 전략 내쉬 균형임을 의미 
+	
+	    -   $$\rightarrow$$ $$\sigma$$에 대한 최적 대응은 $$\sigma$$
 
     -   두 번째 조건은 만약 $$\sigma$$에 대한 최적 대응 $$\tau$$가 있을 때, $$\tau$$에 대한 최적 대응이 $$\tau$$가 되어서는 안되고, $$\sigma$$이어야 함을 의미
 
@@ -146,7 +161,9 @@ nav_order: 14
 
         -   역은 성립하지 않음. 즉, $$(S, S)$$가 내쉬 균형이지만, 진화적으로 안정적이지 않을 수 있음
 
-    -   만약 $$(S,S)$$가 어떤 게임의 고유한 최적 대응이라면(a strict Nash equilibrium), 이 게임에 대응하는 진화 게임에서 $$S$$는 진화적으로 안정적
+    -   만약 $$(S,S)$$가 어떤 게임의 고유한 최적 대응이라면(a strict Nash equilibrium), 
+	
+	    -   이 게임에 대응하는 진화 게임에서 $$S$$는 진화적으로 안정적
 
 ### 두 개의 전략이 있을 때 진화적 안정성
 
@@ -160,15 +177,19 @@ nav_order: 14
 
     -   개체군에서 $$1-x$$의 비율로 $$S$$를, $$x$$의 비율로 $$T$$를 따른다고 할 때(단, $$ 0 < x < 1 $$),
 
-        -   $$S$$ 전략을 따르는 개체는 $$1-x$$의 확률로 $$S$$를 따르는 개체를, $$x$$의 확률로 $$T$$를 만나게 되므로, 기대 보수는 $$(1-x)a+xb$$
+        -   $$S$$ 전략을 따르는 개체는 $$1-x$$의 확률로 $$S$$를 따르는 개체를, $$x$$의 확률로 $$T$$를 만나게 되므로, 
+		
+		    -    기대 보수는 $$(1-x)a+xb$$
 
-        -   $$T$$ 전략을 따르는 개체는 $$1-x$$의 확률로 $$S$$를 따르는 개체를, $$x$$의 확률로 $$T$$를 만나게 되므로, 기대 보수는 $$(1-x)c+xd$$
+        -   $$T$$ 전략을 따르는 개체는 $$1-x$$의 확률로 $$S$$를 따르는 개체를, $$x$$의 확률로 $$T$$를 만나게 되므로, 
+		
+		    -    기대 보수는 $$(1-x)c+xd$$
 
         -   $$S$$가 진화적으로 안정적이기 위해서는 $$(1-x)a+xb > (1-x)c+xd$$
 
             1.  $$x>0$$이지만 충분히 작은 수라면, $$a>c$$
 
-            2.  $$a=c$$이고 $$b>d$$
+            2.  $$a=c$$ 이고 $$b>d$$
 
         -   $$a > c$$ 만족 $$\rightarrow$$ $$S$$는 내쉬 균형, 하지만, 진화적으로 안정적이지는 알 수 없음 $$\rightarrow$$ 두 번째 조건이 필요
 
@@ -178,14 +199,16 @@ nav_order: 14
 
     -   경기자 1의 기대 보수 $$V(p, q) = pqa + p(1-q)b + (1-p)qc + (1-p)(1-q)d$$
 
-    -   앞에서의 논리대로 정리해보면, $$p$$가 진화적으로 안정적인 혼합 전략이 되기 위해서는 $$(1-x) V(p, p) + x V(p, q) > (1-x) V(q, p) + x V(q, q)$$
+    -   앞에서의 논리대로 정리해보면, $$p$$가 진화적으로 안정적인 혼합 전략이 되기 위해서는 
+	
+	    -   $$(1-x) V(p, p) + x V(p, q) > (1-x) V(q, p) + x V(q, q)$$
 
 -   일반화하면, $$a \neq c$$, $$b \neq d$$ 인 다음의 보수 구조에서 [@Schecter:2016aa Ch. 8]
 
        |          |            | $$P_{2}$$  |            |
-	   |          |            | $$s_{1}_$$ | $$s_{2}_$$ |
+	   |          |            | $$s_{1}$$  | $$s_{2}$$  |
        | $$P_{1}$$| $$s_{1}$$  | $$a, a$$   | $$b, c$$   |
-       |          | $$s_{2}_$$ | $$c, b$$   | $$d, d$$   |
+       |          | $$s_{2}$$  | $$c, b$$   | $$d, d$$   |
 
     1.  $$a > c$$, $$d < b$$
 
@@ -233,9 +256,13 @@ nav_order: 14
 
     -   현재 기에 $$s_{1}$$ 전략을 구사하는 유형의 개체 수는 다음과 같이 표현할 수 있음 $$p N V(s_{1})$$
 
-    -   만약 모든 개체의 재생산률이 $$z$$로 동일하다면, 다음 기에서 $$s_{1}$$ 전략을 구사하는 유형의 개체 수의 빈도 $$p^{'}$$는 다음과 같이 표현할 수 있음 $$p^{'} = \dfrac{p N V(s_{1})z}{p N V(s_{1})z + (1-p) N V(s_{2})z }$$
+    -   만약 모든 개체의 재생산률이 $$z$$로 동일하다면, 다음 기에서 $$s_{1}$$ 전략을 구사하는 유형의 개체 수의 빈도 $$p^{'}$$는 다음과 같이 표현할 수 있음 
+	
+	    -    $$p^{'} = \dfrac{p N V(s_{1})z}{p N V(s_{1})z + (1-p) N V(s_{2})z }$$
 
-    -   $$Nz$$를 정리하면, 위 식을 다음과 같이 고쳐 쓸 수 있음 $$p^{'} = p \dfrac{V(s_{1})}{pV(s_{1}) + (1-p)V(s_{2})}$$
+    -   $$Nz$$를 정리하면, 위 식을 다음과 같이 고쳐 쓸 수 있음 
+	
+	    -    $$p^{'} = p \dfrac{V(s_{1})}{pV(s_{1}) + (1-p)V(s_{2})}$$
 
     -   개체군에서의 평균 적합도 $$\overline{w} = pV(s_{1}) + (1-p)V(s_{2})$$, $$i$$ 전략에 대해 일반화 하면 $$p_{i}^{'} = p_{i} \dfrac{V(i)}{\overline{w}}$$
 
@@ -243,7 +270,9 @@ nav_order: 14
 
     -   $$\rightarrow$$ 평균 적합도 $$\overline{w}$$ 보다 높은 $$V(i)$$는 개체군에서의 빈도를 높이고, 반대의 경우 낮춤
 
--   연속적인 경우, 개체군의 상태 $$\sigma$$ 가 시간 $$t$$에 따라 변한다면 [@Schecter:2016aa Ch. 10] $$\sigma(t) = \sum p_{i}(t) s_{i}$$
+-   연속적인 경우, 개체군의 상태 $$\sigma$$ 가 시간 $$t$$에 따라 변한다면 [@Schecter:2016aa Ch. 10] 
+
+    -   $$\sigma(t) = \sum p_{i}(t) s_{i}$$
 
     -   각 개체가 전략 1과 전략 2 중 하나를 사용하고 있을 때(즉, 순수 전략) 게임을 한 후, 경기자가 자신의 전략을 수정할 수 있다고 생각해보자
 
@@ -293,28 +322,30 @@ nav_order: 14
 
 -   친족 선택
 
-    -   같은 유형을 만날 확률 $$r$$ 도입 $
+    -   같은 유형을 만날 확률 $$r$$ 도입
 	
-	  $\begin{aligned}
+	  \begin{aligned}
       Pr(ALLC|ALLC) & = r + (1-r) p \\
       Pr(ALLD|ALLD) & = r + (1-r)(1-p)          
-      \end{aligned}$$
+      \end{aligned}
 
     -   기대 보수 
-	$$\begin{aligned}
-                V(ALLC) & = [r + (1-r) p](b-c) + (1-r)(1-p)(-c)  \\
-                                & = r(1-p)b+pb-c \\
-                V(ALLD) & = (1-r)pb + [r + (1-r)(1-p)](0) \\
-                                & = (1-r)pb                     
-    \end{aligned}$$
+
+	  \begin{aligned}
+	  V(ALLC) & = [r + (1-r) p](b-c) + (1-r)(1-p)(-c)  \\
+	   & = r(1-p)b+pb-c \\
+	  V(ALLD) & = (1-r)pb + [r + (1-r)(1-p)](0) \\
+	  & = (1-r)pb                     
+      \end{aligned}
 
     -   $$ALLC$$가 균형이 될 수 있는 조건 
-	$$\begin{aligned}
+	
+	\begin{aligned}
                 V(ALLC) & > V(ALLD) \\
                 r(1-p)b+pb-c & > (1-r)pb \\
                 rb - c & > 0 \\
                 rb > c
-    \end{aligned}$$
+    \end{aligned}
 
     -   $$r$$이 충분히 커서 협력의 비용을 상쇄할 수 있어야 함
 
@@ -357,11 +388,12 @@ nav_order: 14
         -   $$V(ALLD|TFT) = (b) + (0) w + (0) w^{2} + \ldots = b$$
 
     -   다음 조건을 만족 할 때, TFT는 진화적으로 안정적일 수 있음
-        $$\begin{aligned}
+	
+        \begin{aligned}
                 V(TFT|TFT) & > V(ALLD|TFT) \\
                 \dfrac{b-c}{1-w} & > b \\
                 wb & > c  
-        \end{aligned}$$
+        \end{aligned}
 
         -   $$w$$가 충분히 커서, 협력자가 일회성으로 입는 손해를 상쇄할 수
             있어야 함

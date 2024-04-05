@@ -688,6 +688,10 @@ nav_order: 1
 9.  어떤 복제자가 확산되면서 개체군의 진화가 나타남을 게임이론으로 설명할 수 있다.
 
 
+### 참고문헌
+<a id="1">[1]</a>
+von Neumann, John and Oskar Morgenstern (2007). Theory of Games and Economic Behavior. 60th Anniversary Commemorative Edition. 30-37. 
+
 ### 미주
 
 [^1]: The part of my work I consider most essential is that on quantum
@@ -695,7 +699,3 @@ nav_order: 1
     Berlin in 1927--1929. Also, my work on various forms of operator
     theory, Berlin 1930 and Princeton 1935--1939; on the ergodic
     theorem, Princeton, 1931--1932.
-
-### 참고문헌
-<a id="1">[1]</a>
-von Neumann, John and Oskar Morgenstern (2007). Theory of Games and Economic Behavior. 60th Anniversary Commemorative Edition. 30-37. 

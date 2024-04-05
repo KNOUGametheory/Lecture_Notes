@@ -324,34 +324,32 @@ nav_order: 14
 
     -   같은 유형을 만날 확률 $$r$$ 도입
 	
-	$$
-    \begin{aligned}
+    \begin{align}
       Pr(ALLC|ALLC) & = r + (1-r) p \\
 	  
       Pr(ALLD|ALLD) & = r + (1-r)(1-p)          
-    \end{aligned}
-    $$
+    \end{align}
 
     -   기대 보수 
 	
     $$
-    \begin{aligned}
+    \begin{align}
        V(ALLC) & = [r + (1-r) p](b-c) + (1-r)(1-p)(-c)  \\
 	   & = r(1-p)b+pb-c \\
 	   V(ALLD) & = (1-r)pb + [r + (1-r)(1-p)](0) \\
 	   & = (1-r)pb                     
-    \end{aligned}
+    \end{align}
     $$
 
     -   $$ALLC$$가 균형이 될 수 있는 조건 
 	
     $$
-	\begin{aligned}
+	\begin{align}
         V(ALLC) & > V(ALLD) \\
 	r(1-p)b+pb-c & > (1-r)pb \\
 	   rb - c & > 0 \\
        rb > c
-    \end{aligned}
+    \end{align}
     $$
 
     -   $$r$$이 충분히 커서 협력의 비용을 상쇄할 수 있어야 함
@@ -397,11 +395,11 @@ nav_order: 14
     -   다음 조건을 만족 할 때, TFT는 진화적으로 안정적일 수 있음
 	
 	    $$
-        \begin{aligned}
+        \begin{align}
                 V(TFT|TFT) & > V(ALLD|TFT) \\
                 \dfrac{b-c}{1-w} & > b \\
                 wb & > c  
-        \end{aligned}
+        \end{align}
         $$
 
         -   $$w$$가 충분히 커서, 협력자가 일회성으로 입는 손해를 상쇄할 수

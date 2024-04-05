@@ -142,6 +142,8 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 nav_external_links:
   - title: K-MOOC 강의 홈페이지
     url: https://www.kmooc.kr/view/course/series/detail/57
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
 
 liquid:
    error_mode: strict

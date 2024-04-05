@@ -211,7 +211,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-github-metadata
   - jekyll-include-cache
-#  - jekyll-scholar
+  - jekyll-scholar
 
 kramdown:
   syntax_highlighter_opts:

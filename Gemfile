@@ -18,7 +18,7 @@ gem "just-the-docs", "~> 0.4.0"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", "~> 231", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
-# gem 'jekyll-scholar', group: :jekyll_plugins
+gem 'jekyll-scholar', group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

@@ -694,3 +694,8 @@ nav_order: 1
     Berlin in 1927--1929. Also, my work on various forms of operator
     theory, Berlin 1930 and Princeton 1935--1939; on the ergodic
     theorem, Princeton, 1931--1932.
+
+### 참고문헌
+
+{% bibliography --cited %}
+

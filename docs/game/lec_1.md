@@ -283,7 +283,10 @@ nav_order: 1
             -   어느 한 쪽만 자백하고 다른 한 쪽은 자백하지 않는다면, 자백한 쪽은 석방되고 자백하지 않은 쪽은 10년간 복역
 
     -   전개형
-	    ![죄수의 딜레마 게임의 전개형](/assets/images/PD_extensive_forms.png)
+
+            -  죄수의 딜레마 게임의 전개형 	
+	
+	    ![죄수의 딜레마 게임의 전개형]("/assets/images/PD_extensive_forms.png")
 
     -   전개형을 정규형으로
 

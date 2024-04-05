@@ -699,5 +699,3 @@ nav_order: 1
 ### 참고문헌
 <a id="1">[1]</a>
 von Neumann, John and Oskar Morgenstern (2007). Theory of Games and Economic Behavior. 60th Anniversary Commemorative Edition. 30-37. 
-
-{% bibliography --cited %}

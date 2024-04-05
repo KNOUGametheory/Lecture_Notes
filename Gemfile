@@ -23,7 +23,7 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-scholar", "~> 6.8.1"
-  gem "bibtex-ruby", "~> 5.1.7"
+  gem "bibtex-ruby", "~> 6.1.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

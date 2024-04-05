@@ -451,8 +451,10 @@ nav_order: 14
     -   ALLD 는 TFT에 대해 진화적으로 안정적인가?
 	
 	    $$
+		\begin{align}
 		V(TFT|ALLD) & = (-c) + (0) w + (0) w^{2} + \ldots = -c \\
 		V(TFT|ALLD) & < V(ALLD|ALLD)
+		\end{align}
 		$$ 
 
         -   ALLD 는 TFT에 대해 진화적으로 안정적

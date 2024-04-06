@@ -22,8 +22,7 @@ nav_order: 5
 
 ## 주요 용어
 
-협력, 친족 선택, 직접 상호성, 간접 상호성, 네트워크 상호성, 집단 선택,
-죄수의 딜레마 게임, TFT 전략
+협력, 친족 선택, 직접 상호성, 간접 상호성, 네트워크 상호성, 집단 선택, 죄수의 딜레마 게임, TFT 전략
 
 ## 협력의 진화
 
@@ -39,8 +38,7 @@ nav_order: 5
 
     -   혈연관계의 대규모: 개미군 등
 
--   협력하는 집단은 협력을 하지 않는 집단에 비해 유리할 수 있음. 하지만,
-    협력이 당연할까?
+-   협력하는 집단은 협력을 하지 않는 집단에 비해 유리할 수 있음. 하지만, 협력이 당연할까?
 
     -   조별과제를 기피하는 것을 생각해보자
 
@@ -52,8 +50,13 @@ nav_order: 5
 
     -   친족 선택(kin selection)
 
-        -   Hamilton' Rule: $$rb > c$$ $$\rightarrow$$
-            $$\dfrac{b}{c} > \dfrac{1}{r}$$ [@Hamilton:1964aa]
+        -   Hamilton' Rule
+		
+		    $$
+			rb > c
+			$$ 
+			
+			-   $$\rightarrow$$ $$\dfrac{b}{c} > \dfrac{1}{r}$$ [@Hamilton:1964aa]
 
             -   $$r$$: 관련성의 계수(coefficient of relatedness)
 
@@ -73,11 +76,13 @@ nav_order: 5
 
     -   직접 상호성(direct reciprocity)
 
-        -   죄수의 딜레마 게임 $$\rightarrow$$ 반복: 직접적인 관계에서의
-            기억
-
-            -   $$wb > c$$ $$\rightarrow$$ $$\dfrac{b}{c} > \dfrac{1}{w}$$:
-                반복의 가능성이 높을 수록 협력의 가능성이 높음
+        -   죄수의 딜레마 게임 $$\rightarrow$$ 반복: 직접적인 관계에서의 기억
+		
+		    $$
+			wb > c
+			$$ 
+			
+			-   $$\rightarrow$$ $$\dfrac{b}{c} > \dfrac{1}{w}$$: 반복의 가능성이 높을 수록 협력의 가능성이 높음
 
         -   Tit-for-Tat 전략
 
@@ -92,37 +97,36 @@ nav_order: 5
     -   간접 상호성(indirect reciprocity)
 
         -   평판(reputation)
-
-        -   $$qb > c$$ $$\rightarrow$$ $$\dfrac{b}{c} > \dfrac{1}{q}$$: 평판을
-            알고 있을 확률 $$q$$ 가 충분히 커야 함
+		
+		    $$
+			qb > c
+			$$ 
+			
+			-   $$\rightarrow$$ $$\dfrac{b}{c} > \dfrac{1}{q}$$: 평판을 알고 있을 확률 $$q$$ 가 충분히 커야 함
 
         -   $$\rightarrow$$ 간접적인 관계에서의 기억
 
-            > "For direct reciprocity you need a face, for indirect
-            > reciprocity you need a name (David Haig).\"
+            > "For direct reciprocity you need a face, for indirect reciprocity you need a name (David Haig).\"
 
-        -   평판의 다른 효과 $$\rightarrow$$ 부정적 평판을 가진 주체에
-            대한 처벌
+        -   평판의 다른 효과 $$\rightarrow$$ 부정적 평판을 가진 주체에 대한 처벌
 
-            -   처벌: 자신의 비용을 들여 상대방의 편익을 감소시키거나
-                비용을 증가시키는 행위
+            -   처벌: 자신의 비용을 들여 상대방의 편익을 감소시키거나 비용을 증가시키는 행위
 
-            -   처벌을 함으로써 (처벌의 비용보다 더 큰) 이득이 발생하지
-                않는다면, 경제적 합리성에 위배
+            -   처벌을 함으로써 (처벌의 비용보다 더 큰) 이득이 발생하지 않는다면, 경제적 합리성에 위배
 
         -   언어, 지적 능력 등이 함께 발달해야 함
 
     -   네트워크 상호성(network reciprocity)
 
-        -   지리적 근접성: 완전히 뒤섞이지 않고, 특정 개체와 더 자주
-            접한다면
+        -   지리적 근접성: 완전히 뒤섞이지 않고, 특정 개체와 더 자주 접한다면
 
-        -   $$\rightarrow$$ 일반화하여 생각하면 네트워크에서의 거리가
-            가깝다면
+        -   $$\rightarrow$$ 일반화하여 생각하면 네트워크에서의 거리가 가깝다면
 
         -   $$k$$: 이웃의 평균 수
-
-            -   $$\dfrac{b}{c} > k$$
+		
+		    $$
+			\dfrac{b}{c} > k
+			$$
 
         -   협력자 군집에서 협력이 융성할 수 있음
 
@@ -130,16 +134,15 @@ nav_order: 5
 
         -   또는 다층 선택(multilevel selection)
 
-        -   집단 내 비 협력 $$\rightarrow$$ 개체에게는 비 협력이 유리,
-            집단 간 경쟁에는 불리
+        -   집단 내 비 협력 $$\rightarrow$$ 개체에게는 비 협력이 유리, 집단 간 경쟁에는 불리
 
-        -   집단 내 협력 $$\rightarrow$$ 개체에게는 협력이 불리, 집단 간
-            경쟁에는 유리
+        -   집단 내 협력 $$\rightarrow$$ 개체에게는 협력이 불리, 집단 간 경쟁에는 유리
 
-        -   개체의 집단 간 이동성이 낮고, 집단 간 경쟁이 일정 수준
-            이상으로 강해야 함
-
-            -   $$\dfrac{b}{c} > \dfrac{m+n}{m}$$
+        -   개체의 집단 간 이동성이 낮고, 집단 간 경쟁이 일정 수준 이상으로 강해야 함
+		
+		    $$
+			\dfrac{b}{c} > \dfrac{m+n}{m}
+			$$
 
             -   집단의 최대 크기 $$n$$, 집단의 수 $$m$$
 
@@ -149,21 +152,15 @@ nav_order: 5
 
     -   목적과 패턴
 
-        -   다음과 같은 보수 구조의 죄수의 딜레마 게임에서 협력이 유지될
-            조건은 무엇인가?
+        -   다음과 같은 보수 구조의 죄수의 딜레마 게임에서 협력이 유지될 조건은 무엇인가?
+		
+		    |          |       | $$P_{2}$$     |           |
+			|          |       | $$C$$         | $$D$$     |
+			| $$P_{1}$$| $$C$$ | $$b-c, b-c$$  | $$-c, b$$ |
+			|          | $$D$$ | $$b, -c$$     | $$0, 0$$  |
 
-            :::: center
-            ::: game
-            22\[$$P_{1}$$\]\[$$P_{2}$$\] $$C$$ $$D$$\
-            $$C$$ $$b-c, b-c$$ $$-c, b$$\
-            $$D$$ $$b, -c$$ $$0, 0$$
-            :::
 
-            \
-            ::::
-
-        -   게임을 한 후 이웃한 다른 경기자와 비교하여 더 높은 보수를
-            받는 전략을 학습
+        -   게임을 한 후 이웃한 다른 경기자와 비교하여 더 높은 보수를 받는 전략을 학습
 
     -   독립체, 상태 변수, 척도
 
@@ -173,8 +170,7 @@ nav_order: 5
 
             -   협력, 배신
 
-            -   두 개의 전략이 있으므로 두 개의 색으로 구분할 수 있도록
-                하자
+            -   두 개의 전략이 있으므로 두 개의 색으로 구분할 수 있도록 하자
 
         -   보수: 게임의 결과에 따라 결정 $$\rightarrow$$ `payoff`
 
@@ -192,8 +188,7 @@ nav_order: 5
 
             -   근접한 이웃과 게임
 
-            -   우리는 게임의 보수를 알고 있으므로 경기자의 속성(전략)에
-                따라 게임의 기대 보수를 계산할 수 있음
+            -   우리는 게임의 보수를 알고 있으므로 경기자의 속성(전략)에 따라 게임의 기대 보수를 계산할 수 있음
 
             -   $$V(C) = n_{c}(b-c)-n_{D}c$$
 
@@ -201,13 +196,11 @@ nav_order: 5
 
             -   $$n_{c}, n_{d}$$: 각각 상대 경기자 중 협력자, 배신자의 수
 
-        -   모든 경기자는 전략을 업데이트 $$\rightarrow$$ 하위 모형
-            `evolve` 를 실행
+        -   모든 경기자는 전략을 업데이트 $$\rightarrow$$ 하위 모형 `evolve` 를 실행
 
             -   게임을 한 이웃과 비교해 보수가 가장 높은 전략을 모방
 
-        -   경기자의 전략 변경에 맞춰 경기자의 색을 변경 $$\rightarrow$$
-            하위 모형 `recolor`를 실행
+        -   경기자의 전략 변경에 맞춰 경기자의 색을 변경 $$\rightarrow$$ 하위 모형 `recolor`를 실행
 
 -   Design Concepts
 
@@ -221,8 +214,7 @@ nav_order: 5
 
     -   창발
 
-        -   경기자의 전략 학습으로 시스템 전체에서 전략의 수렴이
-            나타나는가?
+        -   경기자의 전략 학습으로 시스템 전체에서 전략의 수렴이 나타나는가?
 
     -   적응
 
@@ -248,8 +240,7 @@ nav_order: 5
 
     -   최초 설정
 
-        -   공간: 31 $$\times$$ 31, Torus $$\rightarrow$$ 게임 후 학습
-            과정이 있으므로
+        -   공간: 31 $$\times$$ 31, Torus $$\rightarrow$$ 게임 후 학습 과정이 있으므로
 
         -   협력자의 비율 $$\rightarrow$$ `init-coop-freq`
 
@@ -263,28 +254,23 @@ nav_order: 5
 
         -   `play-game`
 
-            -   매 게임마다 보수를 0으로 초기화할 지, 아니면 누적할 지
-                $$\rightarrow$$ 일단, 초기화
+            -   매 게임마다 보수를 0으로 초기화할 지, 아니면 누적할 지 $$\rightarrow$$ 일단, 초기화
 
-            -   어떤 이웃과 게임할 지 $$\rightarrow$$ `neighbors4`:
-                경기자를 중심에 둔 주변 4개의 셀(동서남북)로 가정
+            -   어떤 이웃과 게임할 지 $$\rightarrow$$ `neighbors4`: 경기자를 중심에 둔 주변 4개의 셀(동서남북)로 가정
 
-            -   이웃 중 협력자와 배신자의 수를 알아야 함 $$\rightarrow$$
-                `let neighbors-C`, `count`, `with`
+            -   이웃 중 협력자와 배신자의 수를 알아야 함 $$\rightarrow$$ `let neighbors-C`, `count`, `with`
 
             -   게임 시행 후 보수 결정 $$\rightarrow$$ `set payoff`
 
         -   `evolve`
 
-            -   경기자의 이웃 중 높은 보수를 파악 $$\rightarrow$$ 이웃의
-                범위는? 게임 대상과 일치
+            -   경기자의 이웃 중 높은 보수를 파악 $$\rightarrow$$ 이웃의 범위는? 게임 대상과 일치
 
             -   `best-neighbor`: 가장 높은 보수를 가진 이웃
 
             -   자신의 보수와 가장 높은 보수를 가진 이웃의 보수를 비교
 
-            -   예제 코드: 순차적으로 전략을 학습하므로, 가장 높은
-                보수를 가진 이웃의 전략을 학습한다는 보장이 없음
+            -   예제 코드: 순차적으로 전략을 학습하므로, 가장 높은 보수를 가진 이웃의 전략을 학습한다는 보장이 없음
 
         -   `recolor`
 
@@ -292,8 +278,7 @@ nav_order: 5
 
             -   초기 설정에 포함되지 않을까?
 
--   <https://github.com/psmaldino/modsoc/tree/main/ch06_cooperation>
-    $$\rightarrow$$ $$PD_simple.nlogo$$
+-   [예제 코드 `PD_simple.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_simple.nlogo) [@Smaldino:2023aa Ch. 6]
 
 -   최초 협력자 $$0.5$$, $$b=1$$ 고정, $$c$$ 비율만 조정
 
@@ -307,32 +292,25 @@ nav_order: 5
 
 -   왜 그럴까?
 
-    -   협력자의 이웃 경기자 중 협력자가 둘이라면, 이 협력자의 보수는
-        $$2(b-c)-2c = 2b-4c$$
+    -   협력자의 이웃 경기자 중 협력자가 둘이라면, 이 협력자의 보수는 $$2(b-c)-2c = 2b-4c$$
 
-    -   배신자의 이웃 경기자 중 협력자가 하나라면, 이 배신자의 보수는
-        $$b$$
+    -   배신자의 이웃 경기자 중 협력자가 하나라면, 이 배신자의 보수는 $$b$$
 
     -   $$2b-4c > b$$ $$\rightarrow$$ $$\dfrac{b}{4}>c$$ 라면 협력이 확산됨
 
-    -   협력자의 이웃 경기자 중 협력자가 넷이라면, 이 협력자의 보수는
-        $$4(b-c) = 4b-4c$$
+    -   협력자의 이웃 경기자 중 협력자가 넷이라면, 이 협력자의 보수는 $$4(b-c) = 4b-4c$$
 
-    -   협력자의 이웃 경기자 중 협력자가 둘이라면, 이 협력자의 보수는
-        $$2b$$
+    -   협력자의 이웃 경기자 중 협력자가 둘이라면, 이 협력자의 보수는 $$2b$$
 
     -   $$4b-4c > 2b$$ $$\rightarrow$$ $$\dfrac{b}{2}>c$$
 
--   $$\rightarrow$$ 협력 비용의 상대적 크기와 함께, 협력자의 군집은 협력의
-    생존에 영향을 줄 수 있음
+-   $$\rightarrow$$ 협력 비용의 상대적 크기와 함께, 협력자의 군집은 협력의 생존에 영향을 줄 수 있음
 
 ## 죄수의 딜레마 게임의 진화
 
--   기본 모형에서는 경기자의 위치, 즉 게임 상대가 고정되어 있었음
-    $$\rightarrow$$ 게임 상대를 무작위로 바꾼다면
+-   기본 모형에서는 경기자의 위치, 즉 게임 상대가 고정되어 있었음 $$\rightarrow$$ 게임 상대를 무작위로 바꾼다면
 
-    -   <https://github.com/psmaldino/modsoc/tree/main/ch06_cooperation>
-        $$\rightarrow$$ $$PD_randomized.nlogo$$
+    -   [예제 코드 `PD_randomized.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_randomized.nlogo) [@Smaldino:2023aa Ch. 6]
 
     -   `randomize-locations` 도입
 
@@ -347,28 +325,23 @@ nav_order: 5
         -   상대가 배신하면 다음 기에 배신
 
     -   게임을 $$k$$ 번 반복할 때의 경기자 1의 보수표
-
-        :::: center
-        ::: game
-        33\[$$P_{1}$$\]\[$$P_{2}$$\] $$ALLC$$ $$TFT$$ $$ALLD$$\
-        $$ALLC$$ $$k(b-c)$$ $$k(b-c)$$ $$-kc$$\
-        $$TFT$$ $$k(b-c)$$ $$k(b-c)$$ $$-c$$\
-        $$ALLD$$ $$kb$$ $$b$$ $$0$$\
-        :::
-
-        \
-        ::::
-
+	
+        |          |          | $$P_{2}$$     |            |          |
+        |          |          | $$ALLC$$      | $$TFT$$    | $$ALLD$$ |
+        | $$P_{1}$$| $$ALLC$$ | $$k(b-c)$$    | $$k(b-c)$$ |  $$-kc$$ |
+        |          | $$TFT$$  | $$k(b-c)$$    | $$k(b-c)$$ | $$-c$$   |
+		|          | $$ALLD$$ | $$kb$$        |   $$b$$    |    $$0$$ |
+	
     -   기대 보수
+	    $$
+		\begin{align}
+		V(ALLC) &= kn_{c}(b-c)-kn_{D}c
+		$V(TFT) &= kn_{c}(b-c)-n_{D}c
+		V(ALLD) &= kn_{c}b
+		\end{align}
+		$$
 
-        -   $$V(ALLC) = kn_{c}(b-c)-kn_{D}c$$
-
-        -   $$V(TFT) = kn_{c}(b-c)-n_{D}c$$
-
-        -   $$V(ALLD) = kn_{c}b$$
-
--   <https://github.com/psmaldino/modsoc/tree/main/ch06_cooperation>
-    $$\rightarrow$$ $$PD_reciprocity.nlogo$$
+-  [예제 코드 `PD_reciprocity.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_reciprocity.nlogo) [@Smaldino:2023aa Ch. 6]
 
     -   `TFT?`
 
@@ -384,8 +357,7 @@ nav_order: 5
 
     -   TFT가 작동하는지 확인 $$\rightarrow$$ $$k=1$$ 시행
 
--   최초 협력자 $$0.5$$, $$b=1$$, $$c=0.25$$, $$randomization-prob=0$$, $$k=4$$
-    시행
+-   최초 협력자 $$0.5$$, $$b=1$$, $$c=0.25$$, $$randomization-prob=0$$, $$k=4$$ 시행
 
     -   $$\rightarrow$$ 모두 TFT
 
@@ -405,13 +377,18 @@ nav_order: 5
 
 -   하지만, TFT 보다 보수가 더 큰 전략이 있음
 
-    -   $$<$$ Generous TFT: 배신 전략을 경험하더라도 일정 확률로 그 다음
-        게임에 협력
+    -   $$<$$ Generous TFT: 배신 전략을 경험하더라도 일정 확률로 그 다음 게임에 협력
 
-    -   $$<$$ win-stay, lose-shift: 직전 게임에서 상호 협력했다면
-        $$\rightarrow$$ 다음 게임에도 협력 / 상호 배신했다면 $$\rightarrow$$
-        일정 확률로 협력 / 상대만 협력했다면 $$\rightarrow$$ 배신 / 상대만
-        배신했다면 $$\rightarrow$$ 배신
+    -   $$<$$ win-stay, lose-shift
+	
+	    -   직전 게임에서 상호 협력했다면 
+		    -   $$\rightarrow$$ 다음 게임에도 협력 
+		-   상호 배신했다면 
+		    -   $$\rightarrow$$ 일정 확률로 협
+		-   상대만 협력했다면 
+		    -   $$\rightarrow$$ 배신
+		-   상대만 배신했다면
+		    -   $$\rightarrow$$ 배신
 
 -   이외에도 다양한 변형이 가능
 
@@ -425,11 +402,9 @@ nav_order: 5
 
 -   넷로고의 단점
 
-    -   `Java`, `Scala` 언어로 프로그램되어 있음 $$\rightarrow$$ `Java`로
-        바로 시뮬레이션 하는 것보다 느림
+    -   `Java`, `Scala` 언어로 프로그램되어 있음 $$\rightarrow$$ `Java`로 바로 시뮬레이션 하는 것보다 느림
 
-    -   `primitive`는 매우 유용하지만, `primitive` 외의 다른 무엇을
-        반영하고자 하는 모형 설계에서는 제약이 될 수 있음
+    -   `primitive`는 매우 유용하지만, `primitive` 외의 다른 무엇을 반영하고자 하는 모형 설계에서는 제약이 될 수 있음
 
 ## 정리하기
 
@@ -437,8 +412,6 @@ nav_order: 5
 
 2.  죄수의 딜레마 게임을 다양하게 변형하여 협력을 연구할 수 있다.
 
-3.  방정식 체계를 시뮬레이션 모형으로 만들었을 때, 예상하지 못한 결과가
-    나타날 수 있지만, 예상하지 못한 결과는 연구의 출발점이기도 하다.
+3.  방정식 체계를 시뮬레이션 모형으로 만들었을 때, 예상하지 못한 결과가 나타날 수 있지만, 예상하지 못한 결과는 연구의 출발점이기도 하다.
 
-4.  넷로고는 속도가 느리다는 점과 연구자의 의도를 모두 구현하는 데에는
-    한계가 있다는 단점이 있다.
+4.  넷로고는 속도가 느리다는 점과 연구자의 의도를 모두 구현하는 데에는 한계가 있다는 단점이 있다.

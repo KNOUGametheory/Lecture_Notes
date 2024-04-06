@@ -175,7 +175,7 @@ nav_order: 4
 
 -   다음 두 코드의 ODD 프로토콜 및 코드 자체를 서로 비교해보자.
 
-    1.   [`segregation.nlogo`](https://github.com/psmaldino/modsoc/tree/main/ch03_schelling) [@Smaldino:2023aa Ch. 3]
+    1.   [`segregation.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch03_schelling/segregation.nlogo) [@Smaldino:2023aa Ch. 3]
 
     2.   `Models Library` $$\rightarrow$$ `Sample Models` $$\rightarrow$$ `Social Science` $$\rightarrow$$ `Segregation`
 
@@ -243,11 +243,13 @@ nav_order: 4
 
     -   매개 변수 값은 기존의 실증 연구로부터 차용하기도 함
 
-    -   아니면, 이론에 근거하기도 함 $$\rightarrow$$ 개별적인 선호가
-        영향을 줄 수 있다는 쉘링의 가정처럼
+    -   아니면, 이론에 근거하기도 함
+	
+	    -   개별적인 선호가 영향을 줄 수 있다는 쉘링의 가정처럼
 
-    -   모형의 결과가 매개 변수의 값에 따라 달라지는 경우가 많음
-        $$\rightarrow$$ 매개 변수의 효과를 체계적으로 기록하는 것이 좋음
+    -   모형의 결과가 매개 변수의 값에 따라 달라지는 경우가 많음 
+	
+	    -   $$\rightarrow$$ 매개 변수의 효과를 체계적으로 기록하는 것이 좋음
 
 -   숨은 가정(hidden assumptions)
 
@@ -273,7 +275,9 @@ nav_order: 4
 
     -   모든 가정의 영향을 검토하기는 어려움 $$\rightarrow$$ 가능성이 너무 많음
 
-    -   만약 8개의 매개 변수, 5번의 반복 시행 조합, 1번의 반복 시행 조합에서 100회의 시뮬레이션이 있다면, 총 시뮬레이션 횟수는 $$5^{8} \times 100 = 39,062,500$$ 회
+    -   만약 8개의 매개 변수, 5번의 반복 시행 조합, 1번의 반복 시행 조합에서 100회의 시뮬레이션이 있다면
+	
+	    -   총 시뮬레이션 횟수는 $$5^{8} \times 100 = 39,062,500$$ 회
 
     -   변수의 증가에 따라 시뮬레이션 횟수는 지수적으로 증가
 
@@ -340,7 +344,9 @@ nav_order: 4
 
     -   `similarity-threshold`가 높을 수록 분리가 더 잘 관찰됨
 
-    -   `similarity-threshold` 보다 `average-similarity`가 항상 높음 $$\rightarrow$$ 이웃에 대한 선호가 강하지 않더라도, 집단 전체에서는 분리 현상이 나타남을 시사
+    -   `similarity-threshold` 보다 `average-similarity`가 항상 높음 
+	
+	    -   $$\rightarrow$$ 이웃에 대한 선호가 강하지 않더라도, 집단 전체에서는 분리 현상이 나타남을 시사
 
     -   낮은 `density`에서도 분리가 잘 관찰됨
 
@@ -358,7 +364,7 @@ nav_order: 4
 
     -   분리는 제도나 경제적 제약 등으로도 나타날 수 있음
 
-        -   $$\rightarrow$$ 하지만, 우리의 설명이 맞다면 소득 수준, 교육 수준이 동일하더라도, 개인의 작은 선호로도 분리가 나타날 것. 
+        -   $$\rightarrow$$ 하지만, 우리의 설명이 맞다면 소득 수준, 교육 수준이 동일하더라도, 개인의 작은 선호로도 분리가 나타날 것
 		
 		-   과연?
 

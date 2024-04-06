@@ -68,7 +68,7 @@ nav_order: 9
     		    self.instruments.append(instrument)
     			
     	    def plot(self, index, *args, **kwargs):
-		    self.instruments[index].plot(*args, **kwargs)
+    		    self.instruments[index].plot(*args, **kwargs)
         ```
 	
         -   `*args`: non Keyword Arguments, 여러 개의 변수를 함수로 넘겨주어야 하는 데 몇 개를 넘겨야할 지 모를 때, 해당 변수를 튜플로 처리

@@ -30,7 +30,7 @@ nav_order: 8
 
     -   구현 대상: 전체 공간, 밀집도, 행위자 구분, 관용, 행복 등
 
-    -   <https://colab.research.google.com/github/AllenDowney/ThinkComplexity2/blob/master/notebooks/chap09.ipynb>
+    -   <https://colab.research.google.com/github/AllenDowney/ThinkComplexity2/blob/master/notebooks/chap09.ipynb>{:target="_blank"}
 
 -   사용하려는 패키지와 파일 가져오기
 
@@ -51,11 +51,11 @@ nav_order: 8
 
     -   `os.path`: 운영체제에서 파일 경로를 불러오기 위해 사용
 
-        -   <https://docs.python.org/3/library/os.path.html#module-os.path>
+        -   <https://docs.python.org/3/library/os.path.html#module-os.path>{:target="_blank"}
 
     -   `urllib.request`: URL 주소를 열기 위해 사용
 
-        -   <https://docs.python.org/3/library/urllib.request.html>
+        -   <https://docs.python.org/3/library/urllib.request.html>{:target="_blank"}
 
     -   `utils.py`, `Cell2D.py`: 자신이 자주 쓰는 것을 모아, 함수 또는 클래스로 만들어 둠
 
@@ -83,13 +83,13 @@ nav_order: 8
 
     -   `empiricaldist`: 분포 함수에 필요
 
-        -   <https://pypi.org/project/empiricaldist/>
+        -   <https://pypi.org/project/empiricaldist/>{:target="_blank"}
 
     -   `try`: 예외 상황 `except` 지정하기 위해 사용, 우리의 경우 `import empiricaldist` 에서 오류가 발생하면 `except` 이후 절을 실행
 
     -   `pip install 패키지이름`: 파이선 패키지/모듈 설치를 위해 사용
 
-        -   <https://docs.python.org/3/installing/index.html>
+        -   <https://docs.python.org/3/installing/index.html>{:target="_blank"}
 
 -   공간 만들기
 
@@ -98,7 +98,7 @@ nav_order: 8
 
     -   `np.nonzero`: `numpy`의 `nonzero`, 0이 아닌 튜플(tuple)의 목록을 만듦
 
-        -   <https://numpy.org/doc/stable/reference/generated/numpy.nonzero.html>
+        -   <https://numpy.org/doc/stable/reference/generated/numpy.nonzero.html>{:target="_blank"}
 
 -   분리 모형 중 행위자 구분 하기
 
@@ -111,11 +111,11 @@ nav_order: 8
 
     -   `seaborn`: 데이터 시각화에 사용
 
-        -   <https://seaborn.pydata.org>
+        -   <https://seaborn.pydata.org>{:target="_blank"}
 
     -   `LinearSegmentedColormap`: 색을 맵핑
 
-        -   <https://matplotlib.org/stable/api/_as_gen/matplotlib.colors.LinearSegmentedColormap.html>
+        -   <https://matplotlib.org/stable/api/_as_gen/matplotlib.colors.LinearSegmentedColormap.html>{:target="_blank"}
 
 ## 분리 모형 구성
 
@@ -141,7 +141,7 @@ nav_order: 8
 
     -   `correlate2d`: 교차 상관 2차원 어레이
 
-        -   <https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.correlate2d.html>
+        -   <https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.correlate2d.html>{:target="_blank"}
 
     -   `kernel`: 행위자 자신과 이웃을 정의
 
@@ -185,7 +185,7 @@ nav_order: 8
 
         -   이외에 `!=`, `<`, `<=`, `>`, `>=`
 
-        -   <https://docs.python.org/3/reference/expressions.html#comparisons>
+        -   <https://docs.python.org/3/reference/expressions.html#comparisons>{:target="_blank"}
 
     -   이웃의 속성을 세기: `num_red`, `num_blue`
 
@@ -238,7 +238,7 @@ nav_order: 8
 
     -   `errstate`: 오류 처리 기준 알려줌, 우리의 경우 NaN인 경우를 무시(`ignore`)하라는 의미
 
-        -   <https://numpy.org/doc/stable/reference/generated/numpy.errstate.html>
+        -   <https://numpy.org/doc/stable/reference/generated/numpy.errstate.html>{:target="_blank"}
 
     -   행복하지 않은 행위자 확인
 

@@ -28,24 +28,23 @@ SIR 모형을 파이선으로 구현한다.
 
 ### SIR 모형의 특징
 
--   국가수리과학연구소, 코로나19 확산 예측
+-   [국가수리과학연구소, 코로나19 확산 예측](https://www.nims.re.kr/research/pageView/741){:target="_blank"}
 
-    -   <https://www.nims.re.kr/research/pageView/741>
-
--   Thomas J. Sargent and John Stachurski, "Modeling COVID 19,\"
-    *Intermediate Quantitative Economics with Python*.
-
-    -   <https://python.quantecon.org/sir_model.html>
+-   [Thomas J. Sargent and John Stachurski, "Modeling COVID 19,\" *Intermediate Quantitative Economics with Python*](https://python.quantecon.org/sir_model.html){:target="_blank"}
 
     -   [@Atkeson:2020ac]
 
 -   4 단계: susceptible (S) $$\rightarrow$$ exposed (E) $$\rightarrow$$
-    infected (I) $$\rightarrow$$ removed (R) $$$$\begin{aligned}
-        \dot{s}(t)  & = \dfrac{dS}{dt}  = -\beta(t) s(t) i(t) \\
-        \dot{e}(t)  & =  \dfrac{de}{dt} = \beta(t) s(t) i(t) - \sigma e(t)  \\  
-        \dot{i}(t) & = \dfrac{di}{dt} = \sigma e(t) - \gamma i(t) 
-        
-    \end{aligned}$$$$
+    infected (I) $$\rightarrow$$ removed (R) 
+	
+	$$
+	\begin{align}
+    \dot{s}(t)  & = \dfrac{dS}{dt}  = -\beta(t) s(t) i(t) \\
+	\dot{e}(t)  & =  \dfrac{de}{dt} = \beta(t) s(t) i(t) - \sigma e(t)  \\  
+	\dot{i}(t) & = \dfrac{di}{dt} = \sigma e(t) - \gamma i(t) \\    
+    \end{align}
+	$$
+	
 
     -   $$\beta(t)$$: 감염병의 전파율
 
@@ -57,10 +56,11 @@ SIR 모형을 파이선으로 구현한다.
 
     -   누적 감염 $$c = i + r$$
 
--   벡터로 표현하면 $$$$\begin{aligned}
-        \dot{x} & = F(x, t), \quad x \coloneqq (s, e, i) \\
-        
-    \end{aligned}$$$$
+-   벡터로 표현하면 
+
+    $$
+	\dot{x} = F(x, t), \quad x \coloneq (s, e, i)
+	$$
 
 -   주요 파라미터: 결과 재현을 위해, 우선 미국과 일치시키자
 
@@ -68,7 +68,9 @@ SIR 모형을 파이선으로 구현한다.
 
     -   $$\gamma = 1/18$$: 평균 지속기 18일
 
-    -   $$\beta(t) \coloneqq R(t) \gamma$$: $$R(t)$$ $$t$$ 기의 실질 감염재생산 지수 $$\rightarrow$$ $$R(0)$$: 상수
+    -   $$\beta(t) \coloneq R(t) \gamma$$: $$R(t)$$ $$t$$ 기의 실질 감염재생산 지수 
+	
+	    -   $$\rightarrow$$ $$R(0)$$: 상수
 
     -   이상의 값은 역학 연구의 결과에 따라 변경 가능
 
@@ -84,16 +86,16 @@ SIR 모형을 파이선으로 구현한다.
 
 -   파이선 패키지 설정
 
-                import matplotlib.pyplot as plt
-                import numpy as np
-                from numpy import exp
-                from scipy.integrate import odeint
+    ```
+	import matplotlib.pyplot as plt
+	import numpy as np
+	from numpy import exp
+	from scipy.integrate import odeint
+    ```
 
-    -   `matplotlib.pyplot`: `matplotlib` 패키지에서 `Matlab`과 유사한 설정을 가능하게 하는 하위 모듈
+    -   [`matplotlib.pyplot`](https://matplotlib.org/stable/api/pyplot_summary.html){:target="_blank"}: `matplotlib` 패키지에서 `Matlab`과 유사한 설정을 가능하게 하는 하위 모듈
 
-        -   <https://matplotlib.org/stable/api/pyplot_summary.html>
-
-    -   `from 패키지(모듈)이름` `import 모듈이름(함수)`:
+    -   `from 패키지(모듈)이름` [`import 모듈이름(함수)`](https://docs.python.org/3/reference/import.html){:target="_blank"}:
 
         -   장점
 
@@ -105,33 +107,29 @@ SIR 모형을 파이선으로 구현한다.
 
             -   코드가 길어지고, 주석이 없는 경우, 출처를 알 수 없을 때 있음
 
-        -   <https://docs.python.org/3/reference/import.html>
+    -   [`exp`](https://numpy.org/doc/stable/reference/generated/numpy.exp.html){:target="_blank"}: 지수(exponential) 계산을 위해 필요
+        
 
-    -   `exp`: 지수(exponential) 계산을 위해 필요,
-        <https://numpy.org/doc/stable/reference/generated/numpy.exp.html>
-
-    -   `odient`: 미분 방정식(differential equation)을 풀기 위해 필요,
-        <https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.odeint.html>
+    -   [`odient`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.odeint.html){:target="_blank"}: 미분 방정식(differential equation)을 풀기 위해 필요
 
 -   계산 모형 설정
-
-            def F(x, t, R0):
-                    s, e, i = x
-                    
-                    beta = R0(t) * gamma if callable(R0) else R0 * gamma
-                    ne = beta * s * i
-                    
-                    ds = - ne
-                    de = ne - sigma * e
-                    di = sigma * e - gamma * i
-
-                    return ds, de, di
+    ```
+    def F(x, t, R0):
+        s, e, i = x
+		beta = R0(t) * gamma if callable(R0) else R0 * gamma
+		ne = beta * s * i
+		ds = - ne
+		de = ne - sigma * e
+		di = sigma * e - gamma * i
+        return ds, de, di
+    ```
 
     -   `callable()`: 내장 함수. 괄호 안의 오브젝트가 호출 가능하다면 `True`, 그렇지 않다면 `False`
 
         -   우리의 경우, $$R0$$가 $$t$$에 대한 함수라면 $$\rightarrow$$ 지금은 상수이지만, 뒤에서 함수로 다룰 예정
 
 -   초기값 설정
+
 
             """
             초기값 설정
@@ -181,11 +179,11 @@ SIR 모형을 파이선으로 구현한다.
             grid_size = 1000
             t_vec = np.linspace(0, t_length, grid_size)
 
-    -   `linspace(시작값,최종값,균등간격)`: `numpy` 내장 범용 함수(universal functions) 중 하나
+    -   `linspace(시작값,최종값,균등간격)`: `numpy`의 내장 범용 함수(universal functions) 중 하나
 
         -   자주 활용할 수 있는 내장 범용 함수를 익혀 둘 것: `mean`, `std`, `max`, `reshape`, `vectorize` 등
 
-        -   범용 함수 목록: <https://numpy.org/doc/stable/reference/ufuncs.html>
+        -   [범용 함수 목록](https://numpy.org/doc/stable/reference/ufuncs.html){:target="_blank"}
 
 ## 실질 감염재생산 지수: 상수
 
@@ -230,9 +228,7 @@ SIR 모형을 파이선으로 구현한다.
 
     -   `list (i_paths)`: 계산된 값의 긴 목록이 나올 것
 
-        -   `array`: 다차원 배열 객체 $$\rightarrow$$ 행렬 연산과 비슷한 계산을 할 수 있음
-
-        -   <https://numpy.org/doc/stable/user/absolute_beginners.html#whats-the-difference-between-a-python-list-and-a-numpy-array>
+        -   [`array`: 다차원 배열 객체](https://numpy.org/doc/stable/user/absolute_beginners.html#whats-the-difference-between-a-python-list-and-a-numpy-array){:target="_blank"} $$\rightarrow$$ 행렬 연산과 비슷한 계산을 할 수 있음
 
 -   그래프 설정
 
@@ -255,9 +251,7 @@ SIR 모형을 파이선으로 구현한다.
 
         -   `fig, axes = plt.subplots(2, 3)` 를 해볼 것
 
-    -   `zip`: 성분을 차례로 순서쌍 형식으로 반환시킴
-
-        -   <https://docs.python.org/3/library/functions.html#zip>
+    -   [`zip`: 성분을 차례로 순서쌍 형식으로 반환시킴](https://docs.python.org/3/library/functions.html#zip){:target="_blank"}
 
     -   `legend`: 범례, `loc`: 위치
 
@@ -365,18 +359,20 @@ SIR 모형을 파이선으로 구현한다.
     -   120일간 $$R_t = 0.5$$, 이후 14개월 간 $$R_{t} = 2$$
 
 -   그래프
-
-            plot_paths(i_paths, labels)
+    ```
+	plot_paths(i_paths, labels)
+    ```
 
 -   사망률 `nu` 도입
-
-            nu = 0.01   
-            
-            paths = [path * nu * pop_size for path in c_paths] # 누적사망
-            plot_paths(paths, labels)
-            
-            paths = [path * nu * gamma * pop_size for path in i_paths] #일일사망
-            plot_paths(paths, labels)
+    ```
+	nu = 0.01   
+	
+	paths = [path * nu * pop_size for path in c_paths] # 누적사망
+	plot_paths(paths, labels)
+	
+	paths = [path * nu * gamma * pop_size for path in i_paths] #일일사망
+	plot_paths(paths, labels)
+    ```
 
     -   실질 감염재생산 지수를 같은 수준으로 상대적으로 더 길게 유지할 수록
 

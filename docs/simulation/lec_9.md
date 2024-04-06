@@ -29,7 +29,7 @@ nav_order: 9
 
     -   구현 대상: 전략, 보수의 비교, 학습 등
 
-    -   <https://colab.research.google.com/github/AllenDowney/ThinkComplexity2/blob/master/notebooks/chap12.ipynb>
+    -   <https://colab.research.google.com/github/AllenDowney/ThinkComplexity2/blob/master/notebooks/chap12.ipynb>{:target="_blank"}
 
 -   사용하려는 파일 가져오기, (그림) 파일 저장 $$\rightarrow$$ 이전과 같음
 
@@ -140,7 +140,7 @@ nav_order: 9
 
     -   `nanmean`: NaN을 무시하고 산술 평균을 계산
 
-        -   <https://numpy.org/doc/stable/reference/generated/numpy.nanmean.html>
+        -   <https://numpy.org/doc/stable/reference/generated/numpy.nanmean.html>{:target="_blank"}
 
 ## 전략의 경쟁
 
@@ -276,13 +276,13 @@ nav_order: 9
 
         -   `permutation`: sequence를 치환시킴
 
-            -   <https://numpy.org/doc/stable/reference/random/generated/numpy.random.permutation.html>
+            -   <https://numpy.org/doc/stable/reference/random/generated/numpy.random.permutation.html>{:target="_blank"}
 
         -   `i_row`, `j_row`: 짝 짓기 색인
 
         -   `arange`: 주어진 값에서 균등 배치
 
-            -   <https://numpy.org/doc/stable/reference/generated/numpy.arange.html#numpy-arange>
+            -   <https://numpy.org/doc/stable/reference/generated/numpy.arange.html#numpy-arange>{:target="_blank"}
 
         -   `totals`: 총 보수(점수)
 
@@ -362,7 +362,7 @@ nav_order: 9
 
     -   `asarray`: 입력 값을 `array`로 바꿔줌
 
-        -   <https://numpy.org/doc/stable/reference/generated/numpy.asarray.html>
+        -   <https://numpy.org/doc/stable/reference/generated/numpy.asarray.html>{:target="_blank"}
 
     -   1번의 시행(`step`): 각 경기자의 적합도를 결정하는 `melee` 실행
 
@@ -504,11 +504,11 @@ nav_order: 9
 
     -   `Pandas`: 데이터 분석에 사용
 
-        -   <https://pandas.pydata.org>
+        -   <https://pandas.pydata.org>{:target="_blank"}
 
     -   `Series`: 연속적인 값의 일차원 배열과 자료 라벨(인덱스)의 배열로 정리
 
-        -   <https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.html>
+        -   <https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.html>{:target="_blank"}
 
 ## 정리하기
 

@@ -62,13 +62,13 @@ nav_order: 6
 
     -   파이선이 이미 설치된 원격 서버를 사용하는 것
 
-    -   Google Colab: <https://colab.research.google.com>
+    -   [Google Colab](https://colab.research.google.com){:target="_blank"}
 
     -   학습용 수준에서는 무료 요금제로 사용해도 충분
 
 -   로컬 컴퓨터에 설치 후 사용
 
-    -   코어 파이선 패키지: <https://www.python.org/downloads/>
+    -   [코어 파이선 패키지](https://www.python.org/downloads/){:target="_blank"}
 
         -   많은 경우, 연구에 필요한 패키지를 추가로 설치해야 함
 
@@ -76,7 +76,7 @@ nav_order: 6
 
         -   $$\rightarrow$$ 패키지가 포함된 배포판 사용을 추천
 
-    -   아나콘다 설치: <https://docs.anaconda.com/free/anaconda/install/>
+    -   [아나콘다](https://docs.anaconda.com/free/anaconda/install/){:target="_blank"}
 
         -   권고, 앞으로 이를 기준으로 설명
 
@@ -170,7 +170,7 @@ nav_order: 6
 
 -   첫 셀에 다음을 입력하고, 셀 하나 추가
 
-    ```
+    ```python
     import numpy 
     ```
 
@@ -410,7 +410,7 @@ nav_order: 6
 		print("소비자 1의 소비 후 자산: ", c1.wealth, ", " "소비자 2의 소비 후 자산: ", c2.wealth)
         ```
 
-        -   다음의 결과가 나오는 것이 맞음
+        -   아래 결과가 나오는 것이 맞음
             ```
 			자산 부족!!!
 			소비자 1의 소비 후 자산: 10 ,소비자 2의 소비 후 자산: 35

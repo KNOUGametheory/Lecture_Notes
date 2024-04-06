@@ -77,11 +77,11 @@ nav_order: 9
 
     -   1번 시행: 초기화 -- 게임 -- 적합도 계산 -- 적합도가 낮은 경우, 전략 수정$$\rightarrow$$ 몇 번 시행?
         ```python
-        def run(self, num_steps=500):
-		    self.update_instruments()
+            def run(self, num_steps=500):
+		        self.update_instruments()
 			
-			for _ in range(num_steps):
-			    self.step()
+			    for _ in range(num_steps):
+			        self.step()
                                 
     	    def step(self):
     		    n = len(self.agents)

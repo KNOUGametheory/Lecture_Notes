@@ -327,7 +327,6 @@ nav_order: 2
     -   경고가 나오는 것이 정상: "Nothing named ELEVATION has been defined\"
 
     ```
-	
 	patches-own
 	[
 	 elevation
@@ -447,7 +446,6 @@ nav_order: 2
 -   나비의 움직임을 보고 싶다면
 
     ```
-	
 	crt 1
 	[
 	 set size 2

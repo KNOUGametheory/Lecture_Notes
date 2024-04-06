@@ -29,8 +29,7 @@ nav_order: 6
 
 -   파이선(Python)
 
-    -   1989년 네덜란드의 귀도 반 로섬(Guido van Rossum, 1956--)이
-        공개한 고 수준 일반 목적 프로그래밍 언어
+    -   1989년 네덜란드의 귀도 반 로섬(Guido van Rossum, 1956--)이 공개한 고 수준 일반 목적 프로그래밍 언어
 
     -   [가장 인기 있는 프로그래밍 언어 중의 하나](https://spectrum.ieee.org/the-top-programming-languages-2023){:target="_blank"}
 
@@ -40,17 +39,17 @@ nav_order: 6
 
     -   각 목적에 맞는 패키지 개발이 활발
 
-        -   행렬: `NumPy`
+        -   행렬: [`NumPy`](https://numpy.org/){:target="_blank"}
 
-        -   대수: `SymPy`
+        -   대수: [`SymPy`](https://www.sympy.org/en/index.html{:target="_blank"}
 
-        -   통계: `pandas`
+        -   통계: [`pandas`](https://pandas.pydata.org/){:target="_blank"}
 
-        -   그래프 이론: `NetworkX`
+        -   그래프 이론: [`NetworkX`](https://networkx.org/){:target="_blank"}
 
-        -   기계학습: `PyTorch`
+        -   기계학습: [`PyTorch`](https://pytorch.org/){:target="_blank"}
 
-        -   그림과 그래프: `Matplotlib`
+        -   그림과 그래프: [`Matplotlib`](https://matplotlib.org/){:target="_blank"}
 
 -   파이선 사용: 크게 두 가지 방법
 
@@ -100,7 +99,7 @@ nav_order: 6
 
     1.  터미널 (또는 커맨더) 창에서 파이선 사용
 
-    2.  쥬피터 노트북(Jupyter Notebooks) $$\rightarrow$$ 우리가 사용
+    2.  [쥬피터 노트북(`Jupyter Notebooks`)](https://jupyter.org/){:target="_blank"} $$\rightarrow$$ 우리가 사용
 
 -   쥬피터 노트북 실행
 

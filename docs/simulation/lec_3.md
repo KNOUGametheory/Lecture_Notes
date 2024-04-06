@@ -346,7 +346,7 @@ nav_order: 3
 	
 	-   여기까지 완성한 코드를 저장
 	
-	    - 예제 코드 [butterfly_2.nlogo](/netlogo/butterfly_2.nlogo)와 비교 확인할 것
+	    - 예제 코드 [butterfly_2.nlogo](/netlogo/butterfly_2.nlogo){:target="_blank"}와 비교 확인할 것
 
 -   실제 지리적 공간에서 하려면?
 
@@ -457,7 +457,7 @@ nav_order: 3
 		
 	-   여기까지 완성한 코드를 저장
 	
-	    - 예제 코드 [butterfly_3.nlogo](/netlogo/butterfly_3.nlogo)와 비교 확인할 것
+	    - 예제 코드 [butterfly_3.nlogo](/netlogo/butterfly_3.nlogo){:target="_blank"}와 비교 확인할 것
 
 -   서로 다른 시나리오가 반복되는 실험(experiments)을 해야 함
 

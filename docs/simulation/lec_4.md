@@ -175,7 +175,7 @@ nav_order: 4
 
 -   다음 두 코드의 ODD 프로토콜 및 코드 자체를 서로 비교해보자.
 
-    1.   [`segregation.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch03_schelling/segregation.nlogo) [@Smaldino:2023aa Ch. 3]
+    1.   [`segregation.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch03_schelling/segregation.nlogo){:target="_blank"} [@Smaldino:2023aa Ch. 3]
 
     2.   `Models Library` $$\rightarrow$$ `Sample Models` $$\rightarrow$$ `Social Science` $$\rightarrow$$ `Segregation`
 

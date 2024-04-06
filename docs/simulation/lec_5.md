@@ -189,10 +189,13 @@ nav_order: 5
             -   근접한 이웃과 게임
 
             -   우리는 게임의 보수를 알고 있으므로 경기자의 속성(전략)에 따라 게임의 기대 보수를 계산할 수 있음
-
-            -   $$V(C) = n_{c}(b-c)-n_{D}c$$
-
-            -   $$V(D) = n_{c}b$$
+			
+			    $$
+				\begin{align}
+				V(C) & = n_{c}(b-c)-n_{D}c \\
+				V(D) & = n_{c}b \\
+				\end{align}
+				$$
 
             -   $$n_{c}, n_{d}$$: 각각 상대 경기자 중 협력자, 배신자의 수
 
@@ -278,7 +281,7 @@ nav_order: 5
 
             -   초기 설정에 포함되지 않을까?
 
--   [예제 코드 `PD_simple.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_simple.nlogo) [@Smaldino:2023aa Ch. 6]
+-   [예제 코드 `PD_simple.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_simple.nlogo){:target="_blank"} [@Smaldino:2023aa Ch. 6]
 
 -   최초 협력자 $$0.5$$, $$b=1$$ 고정, $$c$$ 비율만 조정
 
@@ -310,7 +313,7 @@ nav_order: 5
 
 -   기본 모형에서는 경기자의 위치, 즉 게임 상대가 고정되어 있었음 $$\rightarrow$$ 게임 상대를 무작위로 바꾼다면
 
-    -   [예제 코드 `PD_randomized.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_randomized.nlogo) [@Smaldino:2023aa Ch. 6]
+    -   [예제 코드 `PD_randomized.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_randomized.nlogo){:target="_blank"} [@Smaldino:2023aa Ch. 6]
 
     -   `randomize-locations` 도입
 
@@ -335,13 +338,13 @@ nav_order: 5
     -   기대 보수
 	    $$
 		\begin{align}
-		V(ALLC) &= kn_{c}(b-c)-kn_{D}c
-		$V(TFT) &= kn_{c}(b-c)-n_{D}c
-		V(ALLD) &= kn_{c}b
+		V(ALLC) &= kn_{c}(b-c)-kn_{D}c \\
+		$V(TFT) &= kn_{c}(b-c)-n_{D}c \\ 
+		V(ALLD) &= kn_{c}b \\ 
 		\end{align}
 		$$
 
--  [예제 코드 `PD_reciprocity.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_reciprocity.nlogo) [@Smaldino:2023aa Ch. 6]
+-  [예제 코드 `PD_reciprocity.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_reciprocity.nlogo){:target="_blank"} [@Smaldino:2023aa Ch. 6]
 
     -   `TFT?`
 

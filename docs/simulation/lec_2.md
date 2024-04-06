@@ -168,7 +168,7 @@ nav_order: 2
 
 ### 기초 문법
 
--   행위자: [넷로고 programming guide](<https://ccl.northwestern.edu/netlogo/docs/programming.html>)
+-   행위자: [넷로고 programming guide](<https://ccl.northwestern.edu/netlogo/docs/programming.html>){:target="_blank"}
 
     -   `turtles`: 이동형, 사망/재생산 능력, 네트워크의 노드 등
 
@@ -224,7 +224,7 @@ nav_order: 2
 
 -   `Info` 탭에 작성
 
-    -   [Railsback and Grimm 참고](https://www.railsback-grimm-abm-book.com/E2-Downloads/Chapter04/ButterflyModelODD.txt)
+    -   [Railsback and Grimm 참고](https://www.railsback-grimm-abm-book.com/E2-Downloads/Chapter04/ButterflyModelODD.txt){:target="_blank"}
 
 -   다음 단계로 갑시다 $$\rightarrow$$ `Code` 탭
 
@@ -288,12 +288,11 @@ nav_order: 2
 	]
 	
 	to setup
-	ca
-	ask patches
-	[
-	
-	]
-	reset-ticks
+	 ca
+	 ask patches
+	 [
+	 ]
+	 reset-ticks
 	end
 	```
 
@@ -407,7 +406,7 @@ nav_order: 2
 	 ifelse random-float 1 < q
 	  [uphill elevation]
 	  [move-to one-of neighbors]
-	 end
+	end
     ```
 	
     -   경고가 나오는 것이 정상 $$\rightarrow$$ $$q$$ 정의 필요
@@ -426,7 +425,7 @@ nav_order: 2
 
     -   `to move`
 
-        -   `random-float NUMBER` $$\rightarrow$$ manual 참고
+        -   `random-float` $$\rightarrow$$ [사전](https://ccl.northwestern.edu/netlogo/docs/dictionary.html#random-float){:target="_blank"} 참고
 
         -   `uphill`, `move-to`, `one-of`, `neighbors`: 모두 `primitives`
 
@@ -451,7 +450,7 @@ nav_order: 2
 
     -   변화를 반영하고 싶다면 $$\rightarrow$$ `setup`을 누를 것
 
--   우리는 완전히 작동하는 모형을 만들었음
+-   우리는 완전히 작동하는 모형을 만들었음: [butterfly_1.nlogo](/netlogo/butterfly_1.nlogo)
 
     -   완성은 아님
 

@@ -56,6 +56,7 @@ nav_order: 9
     -   경기자의 공간 설정
     ```python
 	class Simulation:
+	
 	    def __init__(self, fit_land, agents):
 		    self.fit_land = fit_land
 			self.agents = np.asarray(agents)

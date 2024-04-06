@@ -450,9 +450,9 @@ nav_order: 2
 
     -   변화를 반영하고 싶다면 $$\rightarrow$$ `setup`을 누를 것
 
--   우리는 완전히 작동하는 모형을 만들었음: 
+-   우리는 완전히 작동하는 모형을 만들었음
 
-    -   예제 코드 [butterfly_1.nlogo](/netlogo/butterfly_1.nlogo){: .btn }{:target="_blank"}와 비교 확인할 것
+    -   예제 코드 [butterfly_1.nlogo](/netlogo/butterfly_1.nlogo){:target="_blank"}와 비교 확인할 것
 
     -   완성은 아님
 

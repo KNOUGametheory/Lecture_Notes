@@ -32,13 +32,11 @@ nav_order: 6
     -   1989년 네덜란드의 귀도 반 로섬(Guido van Rossum, 1956--)이
         공개한 고 수준 일반 목적 프로그래밍 언어
 
-    -   가장 인기 있는 프로그래밍 언어 중의 하나:
-        <https://spectrum.ieee.org/the-top-programming-languages-2023>
+    -   [가장 인기 있는 프로그래밍 언어 중의 하나](https://spectrum.ieee.org/the-top-programming-languages-2023){:target="_blank"}
 
     -   컴퓨터 과학을 비롯 많은 학문 분야에서 폭 넓게 사용됨
 
-    -   기계 학습, 데이터 과학, 천문학, 화학, 계산 생물학, 자연어 처리
-        등의 분야에서 널리 사용됨
+    -   기계 학습, 데이터 과학, 천문학, 화학, 계산 생물학, 자연어 처리 등의 분야에서 널리 사용됨
 
     -   각 목적에 맞는 패키지 개발이 활발
 
@@ -78,8 +76,7 @@ nav_order: 6
 
         -   $$\rightarrow$$ 패키지가 포함된 배포판 사용을 추천
 
-    -   아나콘다 설치:
-        <https://docs.anaconda.com/free/anaconda/install/>
+    -   아나콘다 설치: <https://docs.anaconda.com/free/anaconda/install/>
 
         -   권고, 앞으로 이를 기준으로 설명
 
@@ -94,11 +91,9 @@ nav_order: 6
 
         -   터미널 실행
 
-            -   윈도우즈: 시작 메뉴 검색 창에서 $$\rightarrow$$ `cmd` 또는
-                `명령 프롬프트` 입력
+            -   윈도우즈: 시작 메뉴 검색 창에서 $$\rightarrow$$ `cmd` 또는 `명령 프롬프트` 입력
 
-            -   맥: 파인더 $$\rightarrow$$ `/응용프로그램/유틸리티 폴더`
-                에서 터미널 더블 클릭
+            -   맥: 파인더 $$\rightarrow$$ `/응용프로그램/유틸리티 폴더` 에서 터미널 더블 클릭
 
         -   `conda update anaconda` 입력 후 엔터
 
@@ -172,42 +167,46 @@ nav_order: 6
 
 -   첫 셀에 다음을 입력하고, 셀 하나 추가
 
-                import numpy 
+    ```
+    import numpy 
+    ```
 
     -   `import 패키지(모듈)이름`: 사용하려는 패키지 불러올 때
 
 -   두 번째 셀에 다음을 입력하고, 셀 하나 추가
 
-                numpy.sqrt(4)
+    ```
+    numpy.sqrt(4)
+    ```
 
     -   `패키지(모듈).모듈`: 패키지 안에 포함된 모듈을 사용할 때
 
-    -   `numpy` 패키지의 `sqrt` 모듈을 실행 $$\rightarrow$$ $$\sqrt{4}$$를
-        계산 $$\rightarrow$$ 값은 2
+    -   `numpy` 패키지의 `sqrt` 모듈을 실행 $$\rightarrow$$ $$\sqrt{4}$$를 계산 $$\rightarrow$$ 값은 2
 
     -   `numpy` 패키지의 `sqrt` 모듈이 궁금하다면 `numpy.sqrt?`
 
 -   다음을 실행하고 값을 확인
 
-                np.sqrt(4)
+    ```
+	np.sqrt(4)
+    ```
 
-    -   이름 오류가 있는 것이 정상. 우리는 $$\verb|np|$$를 정의하지
-        않았으므로
+    -   이름 오류가 있는 것이 정상. 우리는 $$\verb|np|$$를 정의하지 않았으므로
 
 -   모든 셀 지우고, 커널 재시작: `0` $$+$$ `0`
 
 -   첫 셀에 다음을 모두 입력, 실행, 값을 확인
 
-                import numpy as np
-                np.sqrt(4)
+    ```
+    import numpy as np
+	np.sqrt(4)
+    ```
 
-    -   패키지 이름을 줄여서 쓸 수 있음 $$\rightarrow$$ 편리 $$+$$ 보편적
-        용례
+    -   패키지 이름을 줄여서 쓸 수 있음 $$\rightarrow$$ 편리 $$+$$ 보편적 용례
 
     -   `numpy.sqrt(4)`를 해보자.
 
-        -   이름 오류가 있는 것이 정상. 우리는 $$\verb|np|$$로 정의해
-            사용하기로 했으므로
+        -   이름 오류가 있는 것이 정상. 우리는 $$\verb|np|$$로 정의해 사용하기로 했으므로
 
 -   함수
 
@@ -219,23 +218,28 @@ nav_order: 6
 
         -   $$f(x) = 2x+1$$ $$\rightarrow$$ 아래 코드 입력 후 실행
 
-                                def f(x):
-                                return 2 * x + 1
+            ```
+			def f(x):
+			    return 2 * x + 1
+            ```
 
             -   들여쓰기 에러가 뜨는 것이 정상
 
-            -   코드 블록은 항상 들여쓰기: 같은 칸 수 만큼 들여쓰기,
-                표준 4칸
-
-                                    def f(x):
-                                       return 2 * x + 1
+            -   코드 블록은 항상 들여쓰기: 같은 칸 수 만큼 들여쓰기, 표준 4칸
+			
+                ```
+                def f(x):
+				    return 2 * x + 1
+                ```
 
         -   `f(1)` 입력 실행 후, 값 확인
 
         -   $$f(x) = a+bx$$ $$\rightarrow$$ 아래 코드 입력 후 실행
 
-                                def f(x, a=1, b=1):
-                                    return a + b * x
+            ```
+			def f(x, a=1, b=1):
+			    return a + b * x
+            ```
 
             -   `f(2)` $$\rightarrow$$ 결과는?
 
@@ -243,24 +247,22 @@ nav_order: 6
 
         -   이미 정의된 함수도 다시 정의할 수 있음
 
-                                def new_abs_function(x):                
-                                    if x < 0:
-                                        abs_value = -x
-                                    else:
-                                        abs_value = x
-                                    return abs_value
+            ```
+			def new_abs_function(x):                
+			    if x < 0:
+				    abs_value = -x
+				else:
+				    abs_value = x
+				return abs_value
+            ```
 
-            -   `def 함수이름(변수,변수,...)`: 함수를 정의하고자 할 때
-                사용
+            -   `def 함수이름(변수,변수,...)`: 함수를 정의하고자 할 때 사용
 
-            -   `new_abs_function(x)`: $$x$$에 대한 `new_abs_function`라는
-                이름의 함수
+            -   `new_abs_function(x)`: $$x$$에 대한 `new_abs_function`라는 이름의 함수
 
-            -   그 다음은 함수 내용 $$\rightarrow$$ 잊지 말고 콜론으로
-                끝내고, 코드 블록은 들여 쓰기
+            -   그 다음은 함수 내용 $$\rightarrow$$ 잊지 말고 콜론으로 끝내고, 코드 블록은 들여 쓰기
 
-            -   `return 돌려줄값`: 입력된 $$x$$에 대해 정의된
-                `abs_value`의 값을 `abs_value`로 돌려줘야 함
+            -   `return 돌려줄값`: 입력된 $$x$$에 대해 정의된 `abs_value`의 값을 `abs_value`로 돌려줘야 함
 
         -   $$x = 3, -3$$일 때, 결과 값은?
 
@@ -269,14 +271,15 @@ nav_order: 6
             -   $$x = -3  < 0$$ $$\rightarrow$$ `abs_value` $$= -x = 3$$
 
         -   확인해보자
-
-                            print(new_abs_function(3))
-                            print(new_abs_function(-3)) 
+		
+            ```
+			print(new_abs_function(3))
+			print(new_abs_function(-3)) 
+            ```
 
 ## 클래스
 
--   소비자(`Consumer`): 자산(`wealth`), 소득(`earn`), 지출(`spend`)을
-    하는 경제 주체를 생각해보자
+-   소비자(`Consumer`): 자산(`wealth`), 소득(`earn`), 지출(`spend`)을 하는 경제 주체를 생각해보자
 
     -   이 소비자의 소득과 소비를 다음과 같이 생각할 수 있음
 
@@ -297,37 +300,40 @@ nav_order: 6
     -   `File` $$\rightarrow$$ `Save as`
 
     -   소득(`earn`), 지출(`spend`) 함수 만으로 이 관계를 만들어보자
-
-                    def earn(w,y):
-                         return w+y
-
-                    def spend(w,x):
-                         new_wealth = w -x
-                         if new_wealth < 0:
-                              print("자산 부족!!!")
-                         else:
-                               return new_wealth
+	
+	    ```
+		def earn(w,y):
+		    return w+y
+		
+		def spend(w,x):
+		    new_wealth = w -x
+			if new_wealth < 0:
+			    print("자산 부족!!!")
+			else:
+			    return new_wealth
+        ```
 
     -   다음을 입력해보자
-
-                        w0=100
-                        w1=earn(w0,10)
-                        w2=spend(w1,20)
-                        w3=earn(w2,10)
-                        w4=spend(w3,20)
-                        print("w0,w1,w2,w3,w4 = ", w0,w1,w2,w3,w4)
+	
+        ```
+		w0=100
+		w1=earn(w0,10)
+		w2=spend(w1,20)
+		w3=earn(w2,10)
+		w4=spend(w3,20)
+		print("w0,w1,w2,w3,w4 = ", w0,w1,w2,w3,w4)
+        ```
 
         -   즉, 최초 자산 100, 매기 소득 10, 매기 지출 20을 의미
 
     -   아래 결과가 나오는 것을 확인하자
+        ```
+		w0,w1,w2,w3,w4 =  100 110 90 100 80
+        ```
 
-                    w0,w1,w2,w3,w4 =  100 110 90 100 80
+-   같은 행위를 하는 경제 주체들이지만 갖고 있는 변수 값은 서로 다른 경우 $$\rightarrow$$ 클래스(`class`)
 
--   같은 행위를 하는 경제 주체들이지만 갖고 있는 변수 값은 서로 다른
-    경우 $$\rightarrow$$ 클래스(`class`)
-
-    -   클래스: 인스턴스, 인스턴스의 데이터, 이 데이터를 사용하는 함수의
-        모음
+    -   클래스: 인스턴스, 인스턴스의 데이터, 이 데이터를 사용하는 함수의 모음
 
     -   인스턴스(instance): 우리의 경우, 소비자
 
@@ -337,96 +343,87 @@ nav_order: 6
 
         -   `earn`: 소비자의 소득 $$y$$에 따른 자산 변화 $$earn(y)$$
 
-        -   `spend`: 소비자의 소비 $$x$$에 따른 자산 변화 $$spend(x)$$, 만약
-            자산이 충분하지 않으면 경고를 알림
+        -   `spend`: 소비자의 소비 $$x$$에 따른 자산 변화 $$spend(x)$$, 만약 자산이 충분하지 않으면 경고를 알림
 
     -   다음을 입력, 실행, 셀 추가 해보자
-
-                        class Consumer:
-                        
-                            def __init__(self, w):
-                                self.wealth = w
-                        
-                            def earn(self, y):
-                                self.wealth += y
-                        
-                            def spend(self, x):
-                                new_wealth = self.wealth - x
-                                if new_wealth < 0:
-                                    print("자산 부족!!!")
-                                else:
-                                    self.wealth = new_wealth
+	
+        ```
+        class Consumer:
+		    def __init__(self, w):
+			    self.wealth = w
+			def earn(self, y):
+			    self.wealth += y
+			def spend(self, x):
+			    new_wealth = self.wealth - x
+				if new_wealth < 0:
+				    print("자산 부족!!!")
+				else:
+				    self.wealth = new_wealth
+        ```
 
     -   다음을 입력, 실행, 셀 추가해보자
-
-                        c1 = Consumer(10) 
-                        c2 = Consumer(15)
-                        print("소비자 1의 최초 자산: ", c1.wealth, ", " "소비자 2의 최초 자산: ", c2.wealth)
-
+        ```
+        c1 = Consumer(10) 
+        c2 = Consumer(15)
+        print("소비자 1의 최초 자산: ", c1.wealth, ", " "소비자 2의 최초 자산: ", c2.wealth)
+        ```
+		
         -   클래스 생성은 `class`로 알려줌
 
-        -   `__init__`: 클래스의 인스턴스를 만들 때, 자동으로 불러오는
-            메소드 $$\rightarrow$$ 인스턴스 데이터를 불러올 이름
-            공간(namespace)를 만듬
+        -   `__init__`: 클래스의 인스턴스를 만들 때, 자동으로 불러오는 메소드 $$\rightarrow$$ 인스턴스 데이터를 불러올 이름 공간(namespace)을 만듬
 
         -   `self`
 
-            1.  인스턴스 데이터는 항상 앞에 `self.` 붙어야함:
-                `self.wealth`
+            1.  인스턴스 데이터는 항상 앞에 `self.` 붙어야함: `self.wealth`
 
             2.  메소드도 `self` 로 불러 와야 함: `def earn(self, y)`
 
             3.  `+=`: $$i = i + 1$$ $$\rightarrow$$ `i += 1`
 
     -   다음을 입력, 실행, 셀 추가해보자
-
-                    c1.earn(10)
-                    c2.earn(20)
-                    print("소비자 1의 소득 후 자산: ", c1.wealth, ", " "소비자 2의 소득 후 자산: ", c2.wealth)
+        ```
+        c1.earn(10)
+		c2.earn(20)
+		print("소비자 1의 소득 후 자산: ", c1.wealth, ", " "소비자 2의 소득 후 자산: ", c2.wealth)
+        ```
 
     -   다음을 입력, 실행, 셀 추가해보자
-
-                    c1.spend(10)
-                    c2.spend(40)
-                    print("소비자 1의 소비 후 자산: ", c1.wealth, ", " "소비자 2의 소비 후 자산: ", c2.wealth)
+        ```
+		c1.spend(10)
+		c2.spend(40)
+		print("소비자 1의 소비 후 자산: ", c1.wealth, ", " "소비자 2의 소비 후 자산: ", c2.wealth)
+        ```
 
         -   다음의 결과가 나오는 것이 맞음
-
-                            자산 부족!!!
-                            소비자 1의 소비 후 자산:  10 ,소비자 2의 소비 후 자산:  35
+            ```
+			자산 부족!!!
+			소비자 1의 소비 후 자산: 10 ,소비자 2의 소비 후 자산: 35
+            ```
 
     -   `c1.__dict__`를 입력, 실행, 셀 추가해보자
 
     -   `c2.__dict__`를 입력, 실행해보자
 
-        -   각각의 인스턴스 `c1`, `c2`은 각각 독립된 이름 공간
-            사전(dictionary)에 데이터를 저장
+        -   각각의 인스턴스 `c1`, `c2`은 각각 독립된 이름 공간 사전(dictionary)에 데이터를 저장
 
         -   그 값을 불러오는 명령
 
 ## 정리하기
 
-1.  파이선은 가장 인기 있는 프로그래밍 언어의 하나로, 다양한 학문
-    분야에서 활용된다.
+1.  파이선은 가장 인기 있는 프로그래밍 언어의 하나로, 다양한 학문 분야에서 활용된다.
 
-2.  파이선을 로컬 컴퓨터에 설치해 사용할 때에는 코어와 자주 쓰는
-    패키지가 포함된 배포판 설치를 권한다.
+2.  파이선을 로컬 컴퓨터에 설치해 사용할 때에는 코어와 자주 쓰는 패키지가 포함된 배포판 설치를 권한다.
 
-3.  쥬피터 노트북은 편집, 실행, 문서 작업을 동시에 할 수 있다는 장점이
-    있다.
+3.  쥬피터 노트북은 편집, 실행, 문서 작업을 동시에 할 수 있다는 장점이 있다.
 
-4.  `import` 명령은 패키지를 불러올 때 사용하고 보통 `as`와 함께
-    사용한다.
+4.  `import` 명령은 패키지를 불러올 때 사용하고 보통 `as`와 함께 사용한다.
 
 5.  함수 정의는 def로 시작한다.
 
-6.  코드 블록은 시작하기 전 `:` (콜론)으로 끝을 표시하고, 같은 코드
-    블록은 들여쓰기를 같게 한다. 들여쓰기 표준은 4칸이다.
+6.  코드 블록은 시작하기 전 `:` (콜론)으로 끝을 표시하고, 같은 코드 블록은 들여쓰기를 같게 한다. 들여쓰기 표준은 4칸이다.
 
-7.  같은 행위를 하는 경제 주체이지만, 변수 값은 서로 다른 경우, 이를
-    클래스로 표현할 수 있다.
+7.  같은 행위를 하는 경제 주체이지만, 변수 값은 서로 다른 경우, 이를 클래스로 표현할 수 있다.
 
-8.  클래스에는 인스턴스, 인스턴스의 데이터, 이 데이터를 사용하는 함수가
-    포함된다.
+8.  클래스에는 인스턴스, 인스턴스의 데이터, 이 데이터를 사용하는 함수가 포함된다.
 
 9.  클래스의 정의는 class로 시작한다.

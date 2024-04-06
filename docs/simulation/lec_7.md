@@ -189,7 +189,7 @@ SIR 모형을 파이선으로 구현한다.
 -   실질 감염재생산 지수의 효과 확인: 실질 감염재생산 지수의 크기를 키워가면서
     ```python
 	R0_vals = np.linspace(1.6, 3.0, 6)
-	labels = [f'$$R0 = {r:.2f}$$' for r in R0_vals]
+	labels = [f'$R0 = {r:.2f}$' for r in R0_vals]
 	i_paths, c_paths = [], []
     ```
 
@@ -291,7 +291,7 @@ SIR 모형을 파이선으로 구현한다.
 -   `eta`를 변화시킴
     ```python
 	eta_vals = 1/5, 1/10, 1/20, 1/50, 1/100
-	labels = [fr'$$\eta = {eta:.2f}$$' for eta in eta_vals]
+	labels = [fr'$\eta = {eta:.2f}$' for eta in eta_vals]
     ```
 
     -   여러 개의 값을 나열하여 입력할 수도 있음
@@ -305,7 +305,7 @@ SIR 모형을 파이선으로 구현한다.
 	    ax.plot(t_vec, R0_mitigating(t_vec, eta=eta), label=label)
 	
 	ax.legend()
-	lt.show()  
+	plt.show()  
     ```
 
     -   `eta`가 클 수록, 감염 재생산 지수가 빠르게 하락
@@ -343,7 +343,8 @@ SIR 모형을 파이선으로 구현한다.
 	e_0 = 75_000 / pop_size
 	s_0 = 1 - i_0 - e_0
 	x_0 = s_0, e_0, i_0 
-
+	```
+	
     -   `_`: 자리수 표현
 
 -   2 개의 시나리오 비교
@@ -363,7 +364,7 @@ SIR 모형을 파이선으로 구현한다.
 
     -   30일간 $$R_t = 0.5$$, 이후 17개월 간 $$R_{t} = 2$$
 
-    -   120일간 $$R_t = 0.5$$, 이후 14개월 간 $$R_{t} = 2$$
+    -   120일간 $$R_t = 0.5$$, 이후 14개월 간R_{t} = 2$$
 
 -   그래프
     ```python

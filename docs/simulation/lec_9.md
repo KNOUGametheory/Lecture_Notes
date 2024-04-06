@@ -28,8 +28,8 @@ nav_order: 9
 -   TFT 전략과 다른 전략의 경쟁 [@Downey:2012aa]
 
     -   구현 대상: 전략, 보수의 비교, 학습 등
-
-    -   <https://colab.research.google.com/github/AllenDowney/ThinkComplexity2/blob/master/notebooks/chap12.ipynb>{:target="_blank"}
+	
+    -   이 장의 주요 내용은 다음을 참고했음: [Allen Downey, *Think Complexity*, Ch. 12](https://colab.research.google.com/github/AllenDowney/ThinkComplexity2/blob/master/notebooks/chap12.ipynb){:target="_blank"}
 
 -   사용하려는 파일 가져오기, (그림) 파일 저장 $$\rightarrow$$ 이전과 같음
 

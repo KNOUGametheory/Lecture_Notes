@@ -30,7 +30,7 @@ SIR 모형을 파이선으로 구현한다.
 
 -   전염병 확산의 수리적 분석은 현실에서 중요하게 활용됨: [국가수리과학연구소, 코로나19 확산 예측](https://www.nims.re.kr/research/pageView/741){:target="_blank"}
 
--   이 장의 주요 내용은 다음을 참고: [Thomas J. Sargent and John Stachurski, "Modeling COVID 19,\" *Intermediate Quantitative Economics with Python*](https://python.quantecon.org/sir_model.html){:target="_blank"}
+-   이 장의 주요 내용은 다음을 참고했음: [Thomas J. Sargent and John Stachurski, "Modeling COVID 19,\" *Intermediate Quantitative Economics with Python*](https://python.quantecon.org/sir_model.html){:target="_blank"}
 
     -   [@Atkeson:2020ac]
 

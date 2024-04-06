@@ -69,15 +69,23 @@ nav_order: 3
 
 -   통로의 정의가 필요
 
-    -   기본 모형에서 나비는 정해진 시간 동안 계속 움직임 $$\rightarrow$$ 나비가 국지적 정상에 도달하면 멈춘다는 가정을 추가
+    -   기본 모형에서 나비는 정해진 시간 동안 계속 움직임 
+	
+	    -   $$\rightarrow$$ 나비가 국지적 정상에 도달하면 멈춘다는 가정을 추가
 
-        -   국지적 정상: 주변의 8개 `patches`보다 높은 `patches` $$\rightarrow$$ 주변 8개를 어떻게 지정? $$\rightarrow$$ `neighbors` 사용
+        -   국지적 정상: 주변의 8개 `patches`보다 높은 `patches` 
+		
+		-   $$\rightarrow$$ 주변 8개를 어떻게 지정? $$\rightarrow$$ `neighbors` 사용
 
     -   모든 나비가 사용하는 통로의 폭 $$= \dfrac{\text{나비가 지나간 길}}{\text{나비의 출발점과 도착점을 연결하는 (평균) 직선 거리}}$$
 
-    -   모든 나비가 같은 직선 경로를 따라 올라간다고 생각하면, 통로의 폭은 작을 것 $$\rightarrow$$ 다른 경로를 따른다면, 폭이 커질 것
+    -   모든 나비가 같은 직선 경로를 따라 올라간다고 생각하면, 통로의 폭은 작을 것 
+	
+	    -   $$\rightarrow$$ 다른 경로를 따른다면, 폭이 커질 것
 
--   나비가 곧장 언덕을 오를 확률 $$q$$ $$\rightarrow$$ 통로의 폭에 영향 $$\rightarrow$$ 이 둘의 관계를 그래프로 그려보자
+-   나비가 곧장 언덕을 오를 확률 $$q$$ $$\rightarrow$$ 통로의 폭에 영향 
+
+    -   $$\rightarrow$$ 이 둘의 관계를 그래프로 그려보자.
 
 -   새 이름으로 저장: `butterfly_2.nlogo`
 
@@ -87,7 +95,9 @@ nav_order: 3
 
     -   미래의 나와 과거의 나가 대화할 때가 많음 
 	
-        -   $$\rightarrow$$ `Code` 탭에 어떤 변화가 있는 지 기록하거나, 표를 만들어 어떤 변화가 있는 지 정리해두는 것도 좋음
+        -   `Code` 탭에 어떤 변화가 있는 지 기록하거나, 
+		
+		-   표를 만들어 어떤 변화가 있는 지 정리해두는 것도 좋음
 
 -   50 마리 생성
     ```
@@ -135,13 +145,10 @@ nav_order: 3
 -   국지적 최고봉에 올라오면 멈추도록
     ```
 	to move
-	
 	... 
-	
 	 if elevation >= 
 	 [elevation] of max-one-of neighbors [elevation] 
 	 [stop]
-	
 	... 
     ```
 
@@ -339,11 +346,13 @@ nav_order: 3
 	
 	-   여기까지 완성한 코드를 저장
 	
-	    - 예제 코드와 비교 확인할 것: [butterfly_2.nlogo](/netlogo/butterfly_2.nlogo)
+	    - 예제 코드 [butterfly_2.nlogo](/netlogo/butterfly_2.nlogo)와 비교 확인할 것
 
 -   실제 지리적 공간에서 하려면?
 
-    -   UTM 같은 좌표 시스템을 바로 넷로고에서 사용할 수 없음 $$\rightarrow$$ 전환 필요. 관련 소프트웨어에서 알아서
+    -   UTM 같은 좌표 시스템을 바로 넷로고에서 사용할 수 없음 $$\rightarrow$$ 전환 필요
+	
+	    -   전환은 관련 소프트웨어에서 알아서
 
         -   가로로 한 줄에, grid point or cell 좌표 정보, 공간 특성 정보가 들어가도록 작성
 
@@ -359,7 +368,7 @@ nav_order: 3
 
         -   새 이름으로 저장: `butterfly_3.nlogo`
 
-        -   [Railsback and Grimm, Supporting Materials Chapter 5, "ElevationData.txt](https://www.railsback-grimm-abm-book.com/E2-Downloads/Chapter05/ElevationData.txt){:target="_blank"}
+        -   불러올 공간 파일: [Railsback and Grimm, Supporting Materials Chapter 5, "ElevationData.txt](https://www.railsback-grimm-abm-book.com/E2-Downloads/Chapter05/ElevationData.txt){:target="_blank"}
 
         -   불러올 파일을 같은 작업 폴더에 두고 `file-open`을 사용하거나 아니면 `user-file` 사용
 		
@@ -448,14 +457,13 @@ nav_order: 3
 		
 	-   여기까지 완성한 코드를 저장
 	
-	    - 예제 코드와 비교 확인할 것: [butterfly_3.nlogo](/netlogo/butterfly_3.nlogo)	
+	    - 예제 코드 [butterfly_3.nlogo](/netlogo/butterfly_3.nlogo)와 비교 확인할 것
 
 -   서로 다른 시나리오가 반복되는 실험(experiments)을 해야 함
 
     -   모형과 변수/입력 자료/초기 조건의 한 집합이 하나의 시나리오
 
-    -   만약 확률 과정이 없다면, 하나의 시나리오를 여러 번 반복하더라도
-        동일한 결과가 나올 것
+    -   만약 확률 과정이 없다면, 하나의 시나리오를 여러 번 반복하더라도 동일한 결과가 나올 것
 
 -   반복 실험은 다른 시나리오를 시행하는 것
 
@@ -465,8 +473,7 @@ nav_order: 3
 
     -   초기 값을 바꾸는 것도 다른 시나리오가 될 수 있음
 
-    -   $$\rightarrow$$ 모형에서 확률 과정 또는 어떤 한 요소만 변화하고
-        다른 요소는 변화하지 않도록 모형을 실행하는 것
+    -   $$\rightarrow$$ 모형에서 확률 과정 또는 어떤 한 요소만 변화하고 다른 요소는 변화하지 않도록 모형을 실행하는 것
 
 -   우리의 경우, $$q$$
 

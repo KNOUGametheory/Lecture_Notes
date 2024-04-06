@@ -54,74 +54,74 @@ nav_order: 9
 -   `Simulation` 클래스 만들기
 
     -   경기자의 공간 설정
-    ```python
-	class Simulation:
-	    def __init__(self, fit_land, agents):
-		    self.fit_land = fit_land
-			self.agents = np.asarray(agents)
-			self.instruments = []
-    ```
+        ```python
+        class Simulation:
+	        def __init__(self, fit_land, agents):
+		        self.fit_land = fit_land
+			    self.agents = np.asarray(agents)
+			    self.instruments = []
+		```
 	
     -   `instrument` 설정과 그래프 그리기 $$\rightarrow$$ 이후에 나옴
-    ```python
-	    def add_instrument(self, instrument):
-		    self.instruments.append(instrument)
-			
-	    def plot(self, index, *args, **kwargs):
+        ```python
+    	    def add_instrument(self, instrument):
+    		    self.instruments.append(instrument)
+    			
+    	    def plot(self, index, *args, **kwargs):
 		    self.instruments[index].plot(*args, **kwargs)
-    ```
+        ```
 	
         -   `*args`: non Keyword Arguments, 여러 개의 변수를 함수로 넘겨주어야 하는 데 몇 개를 넘겨야할 지 모를 때, 해당 변수를 튜플로 처리
 
         -   `**kwargs`: Keyword Arguments, 키워드를 특정 값으로 함수에 넘겨줄 때, 각각 키와 값으로 가져오는 딕셔너리로 처리
 
     -   1번 시행: 초기화 -- 게임 -- 적합도 계산 -- 적합도가 낮은 경우, 전략 수정$$\rightarrow$$ 몇 번 시행?
-    ```python
-	    def run(self, num_steps=500):
-		    self.update_instruments()
+        ```python
+    	    def run(self, num_steps=500):
+	    	    self.update_instruments()
+    			
+    			for _ in range(num_steps):
+    			    self.step()
+                                
+    	    def step(self):
+    		    n = len(self.agents)
+    			fits = self.get_fitnesses()
 			
-			for _ in range(num_steps):
-			    self.step()
-                            
-	    def step(self):
-		    n = len(self.agents)
-			fits = self.get_fitnesses()
+    			index_dead = self.choose_dead(fits)
+    			num_dead = len(index_dead)
 			
-			index_dead = self.choose_dead(fits)
-			num_dead = len(index_dead)
+    			replacements = self.choose_replacements(num_dead, fits)
+    			self.agents[index_dead] = replacements
 			
-			replacements = self.choose_replacements(num_dead, fits)
-			self.agents[index_dead] = replacements
-			
-			self.update_instruments()
-    ```
+    			self.update_instruments()
+        ```
 	
         -   `range`: 0(기본값)부터 지정된 값까지 1씩(기본값) 증가
 
     -   1번의 시행에서 필요한 함수를 정의: `instrument` 업데이트, 적합도 계산, 적합도 비교, 전략 변경 등
-    ```python
-	    def update_instruments(self):
-		    for instrument in self.instruments:
-			    instrument.update(self)
-		
-		def get_locs(self):
-		    return [tuple(agent.loc) for agent in self.agents]
+        ```python
+    	    def update_instruments(self):
+    		    for instrument in self.instruments:
+    			    instrument.update(self)
+    		
+    		def get_locs(self):
+    		    return [tuple(agent.loc) for agent in self.agents]
 			
-		def get_fitnesses(self):
-		    fits = [agent.fitness for agent in self.agents]
-			return np.array(fits)
+    		def get_fitnesses(self):
+    		    fits = [agent.fitness for agent in self.agents]
+    			return np.array(fits)
+    			
+    		def choose_dead(self, ps):
+    		    n = len(self.agents)
+    			is_dead = np.random.random(n) < 0.1
+    			index_dead = np.nonzero(is_dead)[0]
+    			return index_dead
 			
-		def choose_dead(self, ps):
-		    n = len(self.agents)
-			is_dead = np.random.random(n) < 0.1
-			index_dead = np.nonzero(is_dead)[0]
-			return index_dead
-			
-		def choose_replacements(self, n, weights):
-		    agents = np.random.choice(self.agents, size=n, replace=True)
-			replacements = [agent.copy() for agent in agents]
-			return replacements
-    ```
+    		def choose_replacements(self, n, weights):
+    		    agents = np.random.choice(self.agents, size=n, replace=True)
+    			replacements = [agent.copy() for agent in agents]
+    			return replacements
+        ```
 
 -   `Instrument` 클래스 만들기
     ```python

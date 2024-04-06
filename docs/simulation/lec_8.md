@@ -34,6 +34,9 @@ nav_order: 8
 
 -   사용하려는 패키지와 파일 가져오기
     ```python
+	import matplotlib.pyplot as plt
+	import numpy as np
+	
 	from os.path import basename, exists
 
 	def download(url):
@@ -242,7 +245,7 @@ nav_order: 8
 ## 분리 모형 실험하기
 
 -   작은 규모로 그려보기
-    ```
+    ```python
 	grid = Schelling(n=10, p=0.3)
 	grid.draw()
 	grid.segregation()
@@ -252,7 +255,7 @@ nav_order: 8
     ```python
 	grid = Schelling(n=100, p=0.3)
 	grid.animate(frames=30, interval=0.1)   
-	``
+	```
 
 -   분리 정도를 계산하고, 저장하기
     ```python

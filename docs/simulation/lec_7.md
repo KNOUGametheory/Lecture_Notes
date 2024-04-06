@@ -1,7 +1,7 @@
 ---
 layout: default
 title: SIR 모형으로 연구하기
-parent: 넷로고와 파이선을 활용한 게임이론 시뮬레이션
+parent: 넷$$로고와 파이선을 활용한 게임이론 시뮬레이션
 nav_order: 7
 ---
 

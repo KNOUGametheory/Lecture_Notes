@@ -62,7 +62,7 @@ nav_order: 8
 
         -   장점: `import` 과정을 단순하게 할수 있음
 
-        -   단점: 공동 작업에서 문제가 될 수 있음 $\rightarrow$ 우리
+        -   단점: 공동 작업에서 문제가 될 수 있음 $$\rightarrow$$ 우리
             경우처럼 `github.com`으로 공유하는 방법이 있음
 
 -   (그림) 파일 저장
@@ -70,7 +70,7 @@ nav_order: 8
             from utils import decorate, savefig
             !mkdir -p figs
 
-    -   `savefig`: `utils.py` 를 확인해 볼 것 $\rightarrow$ 축 표시와
+    -   `savefig`: `utils.py` 를 확인해 볼 것 $$\rightarrow$$ 축 표시와
         그림 저장
 
     -   `!`: 외부의 쉘 명령을 사용하기 위해 붙임
@@ -213,7 +213,7 @@ nav_order: 8
     -   `_, _, _, `: `_`(underscore), 특정 값을 무시, 우리의 경우,
         `empty, frac_red, frac_blue,`
 
--   만족하지 못하는 경우 $\rightarrow$ 무작위로 이동
+-   만족하지 못하는 경우 $$\rightarrow$$ 무작위로 이동
 
                 def step(self):
                 

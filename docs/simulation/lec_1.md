@@ -54,7 +54,7 @@ nav_order: 1
 
 -   모형은 현실을 모두 반영해야 하는가?
 
-    -   사용 목적 $\rightarrow$ 필터로 작동
+    -   사용 목적 $$\rightarrow$$ 필터로 작동
 
     -   즉, 질문에 답하는 데 상관이 없거나 중요성이 충분하지 않은 현실의
         특징은 제외시켜야 함
@@ -88,7 +88,7 @@ nav_order: 1
 
         -   다른 요소로부터 영향을 받는가?
 
-        -   $\rightarrow$ 다이어그램, 흐름도, 캐리커쳐 등으로 그려볼 수도 있음
+        -   $$\rightarrow$$ 다이어그램, 흐름도, 캐리커쳐 등으로 그려볼 수도 있음
 
         -   말도 안될 정도로 단순한 모형일 수록 다루기 쉽고 생산적
 
@@ -96,7 +96,7 @@ nav_order: 1
 
             -   최소한의 요소만 두고
 
-            -   그 외는 wish list 로 $\rightarrow$ 이후에 중요도를 다시 평가
+            -   그 외는 wish list 로 $$\rightarrow$$ 이후에 중요도를 다시 평가
 
     -   모형 구조 선택
 
@@ -119,7 +119,7 @@ nav_order: 1
 
         -   우리는 모형으로부터 어떤 결론을 도출할 수 있는가?
 
-    -   그리고 모형에 대한 평가 이후 모형을 수정 $\rightarrow$ 재평가 $\rightarrow$ 재수정 $\cdots$
+    -   그리고 모형에 대한 평가 이후 모형을 수정 $$\rightarrow$$ 재평가 $$\rightarrow$$ 재수정 $$\cdots$$
 
         -   모형이 완벽하다면, 논리적으로 일관, 증거와 일치, 예측이 성공
 
@@ -137,7 +137,7 @@ nav_order: 1
 
         -   언어를 사용한 모형(verbal models): 중요. 모호함이나 해석의 여지가 있음. 하지만, 아이디어나 가정에 대한 설명 등은 글로 할 수 밖에 없으며, 모호함은 유연성을 주기도 함
 
-        -   형식 모형(formal models): 수학을 사용. 관계나 과정을 정확하고 모호하지 않게 설명 $\rightarrow$ 모형을 현실에 대응시키는 문제는 남아 있지만, 우리는 이를 고려하지 않음
+        -   형식 모형(formal models): 수학을 사용. 관계나 과정을 정확하고 모호하지 않게 설명 $$\rightarrow$$ 모형을 현실에 대응시키는 문제는 남아 있지만, 우리는 이를 고려하지 않음
 
     -   추적 가능(Tractability)
 
@@ -181,20 +181,20 @@ nav_order: 1
 
         -   감염자 중 일부는 전파시킴
 
-    -   $\rightarrow$ SIR (Susceptible - Infected - Recovered or immune)
+    -   $$\rightarrow$$ SIR (Susceptible - Infected - Recovered or immune)
         모형 
 		
-		$$
+		$$$$
 		\begin{align}
                 \dfrac{dS}{dt} & = -\beta S I \\
                 \dfrac{dI}{dt} & = \beta S I - \gamma I \\          
                 \dfrac{dR}{dt} & =\gamma I \\
         \end{align}
-		$$
+		$$$$
 
-        -   $\beta$: 감염병의 전파율
+        -   $$\beta$$: 감염병의 전파율
 
-        -   $\gamma$: 감염병의 회복율
+        -   $$\gamma$$: 감염병의 회복율
 
         -   각 식은 시간의 변화에 따라 감염될 수 있는 사람, 감염된 사람, 회복된 사람의 상대적 수를 표현
 

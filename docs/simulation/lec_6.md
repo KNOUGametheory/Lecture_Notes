@@ -76,7 +76,7 @@ nav_order: 6
 
         -   필요한 것을 하나씩 설치하기는 힘들 수 있음
 
-        -   $\rightarrow$ 패키지가 포함된 배포판 사용을 추천
+        -   $$\rightarrow$$ 패키지가 포함된 배포판 사용을 추천
 
     -   아나콘다 설치:
         <https://docs.anaconda.com/free/anaconda/install/>
@@ -94,10 +94,10 @@ nav_order: 6
 
         -   터미널 실행
 
-            -   윈도우즈: 시작 메뉴 검색 창에서 $\rightarrow$ `cmd` 또는
+            -   윈도우즈: 시작 메뉴 검색 창에서 $$\rightarrow$$ `cmd` 또는
                 `명령 프롬프트` 입력
 
-            -   맥: 파인더 $\rightarrow$ `/응용프로그램/유틸리티 폴더`
+            -   맥: 파인더 $$\rightarrow$$ `/응용프로그램/유틸리티 폴더`
                 에서 터미널 더블 클릭
 
         -   `conda update anaconda` 입력 후 엔터
@@ -106,7 +106,7 @@ nav_order: 6
 
     1.  터미널 (또는 커맨더) 창에서 파이선 사용
 
-    2.  쥬피터 노트북(Jupyter Notebooks) $\rightarrow$ 우리가 사용
+    2.  쥬피터 노트북(Jupyter Notebooks) $$\rightarrow$$ 우리가 사용
 
 -   쥬피터 노트북 실행
 
@@ -133,13 +133,13 @@ nav_order: 6
         -   웹 브라우저의 주소 창에 `http://localhost:8888` 를 입력한 후
             접속시켜도, 쥬피터 노트북이 실행됨
 
--   `new` $\rightarrow$ `Python 3 (ipykernel)` 클릭
+-   `new` $$\rightarrow$$ `Python 3 (ipykernel)` 클릭
 
-    -   `File` $\rightarrow$ `Save as` $\rightarrow$ `practice_h`
+    -   `File` $$\rightarrow$$ `Save as` $$\rightarrow$$ `practice_h`
 
     -   `In [   ]:` 옆의 박스에, `print("Hello World!")` 입력
 
-        -   `Enter` 키 누르면 $\rightarrow$ 줄 바꿈
+        -   `Enter` 키 누르면 $$\rightarrow$$ 줄 바꿈
 
         -   `Ctrl-Enter`: 셀 실행
 
@@ -153,21 +153,21 @@ nav_order: 6
 
     -   셀 다시 들어가려면 `Enter` 키 누르거나, 셀을 클릭: `edit mode`
 
-    -   셀 삭제: 셀 선택 후, `d` $+$ `d` (`d` 두 번 누르기)
+    -   셀 삭제: 셀 선택 후, `d` $$+$$ `d` (`d` 두 번 누르기)
 
     -   셀을 추가한 후
 
-        -   `Esc` $\rightarrow$ `m`: `Markdown` 문서 작성으로 변경
+        -   `Esc` $$\rightarrow$$ `m`: `Markdown` 문서 작성으로 변경
 
-        -   $\rightarrow$ `y`: `Code` 작성으로 변경
+        -   $$\rightarrow$$ `y`: `Code` 작성으로 변경
 
             -   드롭--다운 메뉴 박스에서도 변경 가능
 
 ## 함수
 
--   새 노트북: `File` $\rightarrow$ `New Notebook`
+-   새 노트북: `File` $$\rightarrow$$ `New Notebook`
 
--   새 이름으로 저장: `File` $\rightarrow$ `Save as` $\rightarrow$
+-   새 이름으로 저장: `File` $$\rightarrow$$ `Save as` $$\rightarrow$$
     `practice_f`
 
 -   첫 셀에 다음을 입력하고, 셀 하나 추가
@@ -182,8 +182,8 @@ nav_order: 6
 
     -   `패키지(모듈).모듈`: 패키지 안에 포함된 모듈을 사용할 때
 
-    -   `numpy` 패키지의 `sqrt` 모듈을 실행 $\rightarrow$ $\sqrt{4}$를
-        계산 $\rightarrow$ 값은 2
+    -   `numpy` 패키지의 `sqrt` 모듈을 실행 $$\rightarrow$$ $$\sqrt{4}$$를
+        계산 $$\rightarrow$$ 값은 2
 
     -   `numpy` 패키지의 `sqrt` 모듈이 궁금하다면 `numpy.sqrt?`
 
@@ -191,22 +191,22 @@ nav_order: 6
 
                 np.sqrt(4)
 
-    -   이름 오류가 있는 것이 정상. 우리는 $\verb|np|$를 정의하지
+    -   이름 오류가 있는 것이 정상. 우리는 $$\verb|np|$$를 정의하지
         않았으므로
 
--   모든 셀 지우고, 커널 재시작: `0` $+$ `0`
+-   모든 셀 지우고, 커널 재시작: `0` $$+$$ `0`
 
 -   첫 셀에 다음을 모두 입력, 실행, 값을 확인
 
                 import numpy as np
                 np.sqrt(4)
 
-    -   패키지 이름을 줄여서 쓸 수 있음 $\rightarrow$ 편리 $+$ 보편적
+    -   패키지 이름을 줄여서 쓸 수 있음 $$\rightarrow$$ 편리 $$+$$ 보편적
         용례
 
     -   `numpy.sqrt(4)`를 해보자.
 
-        -   이름 오류가 있는 것이 정상. 우리는 $\verb|np|$로 정의해
+        -   이름 오류가 있는 것이 정상. 우리는 $$\verb|np|$$로 정의해
             사용하기로 했으므로
 
 -   함수
@@ -217,7 +217,7 @@ nav_order: 6
 
     -   직접 정의해보자
 
-        -   $f(x) = 2x+1$ $\rightarrow$ 아래 코드 입력 후 실행
+        -   $$f(x) = 2x+1$$ $$\rightarrow$$ 아래 코드 입력 후 실행
 
                                 def f(x):
                                 return 2 * x + 1
@@ -232,14 +232,14 @@ nav_order: 6
 
         -   `f(1)` 입력 실행 후, 값 확인
 
-        -   $f(x) = a+bx$ $\rightarrow$ 아래 코드 입력 후 실행
+        -   $$f(x) = a+bx$$ $$\rightarrow$$ 아래 코드 입력 후 실행
 
                                 def f(x, a=1, b=1):
                                     return a + b * x
 
-            -   `f(2)` $\rightarrow$ 결과는?
+            -   `f(2)` $$\rightarrow$$ 결과는?
 
-            -   `f(2, a=4, b=5)` $\rightarrow$ 결과는?
+            -   `f(2, a=4, b=5)` $$\rightarrow$$ 결과는?
 
         -   이미 정의된 함수도 다시 정의할 수 있음
 
@@ -253,20 +253,20 @@ nav_order: 6
             -   `def 함수이름(변수,변수,...)`: 함수를 정의하고자 할 때
                 사용
 
-            -   `new_abs_function(x)`: $x$에 대한 `new_abs_function`라는
+            -   `new_abs_function(x)`: $$x$$에 대한 `new_abs_function`라는
                 이름의 함수
 
-            -   그 다음은 함수 내용 $\rightarrow$ 잊지 말고 콜론으로
+            -   그 다음은 함수 내용 $$\rightarrow$$ 잊지 말고 콜론으로
                 끝내고, 코드 블록은 들여 쓰기
 
-            -   `return 돌려줄값`: 입력된 $x$에 대해 정의된
+            -   `return 돌려줄값`: 입력된 $$x$$에 대해 정의된
                 `abs_value`의 값을 `abs_value`로 돌려줘야 함
 
-        -   $x = 3, -3$일 때, 결과 값은?
+        -   $$x = 3, -3$$일 때, 결과 값은?
 
-            -   $x = 3 > 0$ $\rightarrow$ `abs_value` $= x = 3$
+            -   $$x = 3 > 0$$ $$\rightarrow$$ `abs_value` $$= x = 3$$
 
-            -   $x = -3  < 0$ $\rightarrow$ `abs_value` $= -x = 3$
+            -   $$x = -3  < 0$$ $$\rightarrow$$ `abs_value` $$= -x = 3$$
 
         -   확인해보자
 
@@ -282,19 +282,19 @@ nav_order: 6
 
         -   최초 자산
 
-        -   최초 자산 $+$ 1기 소득
+        -   최초 자산 $$+$$ 1기 소득
 
-        -   최초 자산 $+$ 1기 소득 $-$ 1기 지출 $=$ 2기 자산
+        -   최초 자산 $$+$$ 1기 소득 $$-$$ 1기 지출 $$=$$ 2기 자산
 
-        -   2기 자산 $+$ 2기 소득
+        -   2기 자산 $$+$$ 2기 소득
 
-        -   2기 자산 $+$ 2기 소득 $-$ 2기 지출 $=$ 3기 자산
+        -   2기 자산 $$+$$ 2기 소득 $$-$$ 2기 지출 $$=$$ 3기 자산
 
-        -   $\ldots$
+        -   $$\ldots$$
 
-    -   `File` $\rightarrow$ `New Notebook`
+    -   `File` $$\rightarrow$$ `New Notebook`
 
-    -   `File` $\rightarrow$ `Save as`
+    -   `File` $$\rightarrow$$ `Save as`
 
     -   소득(`earn`), 지출(`spend`) 함수 만으로 이 관계를 만들어보자
 
@@ -324,7 +324,7 @@ nav_order: 6
                     w0,w1,w2,w3,w4 =  100 110 90 100 80
 
 -   같은 행위를 하는 경제 주체들이지만 갖고 있는 변수 값은 서로 다른
-    경우 $\rightarrow$ 클래스(`class`)
+    경우 $$\rightarrow$$ 클래스(`class`)
 
     -   클래스: 인스턴스, 인스턴스의 데이터, 이 데이터를 사용하는 함수의
         모음
@@ -335,9 +335,9 @@ nav_order: 6
 
     -   메소드(methods): 인스턴스의 데이터(자산)와 함수(소득과 소비)
 
-        -   `earn`: 소비자의 소득 $y$에 따른 자산 변화 $earn(y)$
+        -   `earn`: 소비자의 소득 $$y$$에 따른 자산 변화 $$earn(y)$$
 
-        -   `spend`: 소비자의 소비 $x$에 따른 자산 변화 $spend(x)$, 만약
+        -   `spend`: 소비자의 소비 $$x$$에 따른 자산 변화 $$spend(x)$$, 만약
             자산이 충분하지 않으면 경고를 알림
 
     -   다음을 입력, 실행, 셀 추가 해보자
@@ -366,7 +366,7 @@ nav_order: 6
         -   클래스 생성은 `class`로 알려줌
 
         -   `__init__`: 클래스의 인스턴스를 만들 때, 자동으로 불러오는
-            메소드 $\rightarrow$ 인스턴스 데이터를 불러올 이름
+            메소드 $$\rightarrow$$ 인스턴스 데이터를 불러올 이름
             공간(namespace)를 만듬
 
         -   `self`
@@ -376,7 +376,7 @@ nav_order: 6
 
             2.  메소드도 `self` 로 불러 와야 함: `def earn(self, y)`
 
-            3.  `+=`: $i = i + 1$ $\rightarrow$ `i += 1`
+            3.  `+=`: $$i = i + 1$$ $$\rightarrow$$ `i += 1`
 
     -   다음을 입력, 실행, 셀 추가해보자
 

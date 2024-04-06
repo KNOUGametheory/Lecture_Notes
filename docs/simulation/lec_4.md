@@ -62,28 +62,28 @@ nav_order: 4
             -   하지만, 최소 두 개의 집단이 필요: 행위자가 속한 집단과
                 이 행위자가 속하지 않은 다른 집단
 
-        -   개인의 선호에 주목 $\rightarrow$ 자신과 다른 정도에 대한
+        -   개인의 선호에 주목 $$\rightarrow$$ 자신과 다른 정도에 대한
             관용(`similarity-threshold`)
 
     -   독립체, 상태 변수, 척도
 
-        -   가구: 이동이 가능 $\rightarrow$ `turtles`
+        -   가구: 이동이 가능 $$\rightarrow$$ `turtles`
 
-        -   집: 이동이 불가능 $\rightarrow$ `patches`
+        -   집: 이동이 불가능 $$\rightarrow$$ `patches`
 
-        -   관용: 정의와 측정 모두 어려움 $\rightarrow$ 하지만, 행복에
+        -   관용: 정의와 측정 모두 어려움 $$\rightarrow$$ 하지만, 행복에
             영향을 준다고 가정
 
-            -   가장 간단하게는 `boolean` 변수로 $\rightarrow$ `happy?`
+            -   가장 간단하게는 `boolean` 변수로 $$\rightarrow$$ `happy?`
 
             -   특정 관용 수준 이내라면 행복, 이 수준 이상이라면
-                행복하지 않음 $\rightarrow$
+                행복하지 않음 $$\rightarrow$$
 
         -   척도
 
-            -   51 $\times$ 51: 도로 등 지형적 특징을 반영하지 않음
+            -   51 $$\times$$ 51: 도로 등 지형적 특징을 반영하지 않음
 
-            -   Torus $\rightarrow$ 실린더라면 경계 근처에서 이사, 행복
+            -   Torus $$\rightarrow$$ 실린더라면 경계 근처에서 이사, 행복
                 등의 계산에서 문제가 있음
 
             -   시간: 가구의 이동 결정을 단위로
@@ -92,15 +92,15 @@ nav_order: 4
 
         -   모든 가구가 행복하다면 멈춤
 
-        -   행복하지 않은 가구는 이사 $\rightarrow$ 하위 모형
+        -   행복하지 않은 가구는 이사 $$\rightarrow$$ 하위 모형
             `move-unhappy-turtles`를 실행
 
             -   가구의 (이사) 순서는 중요하지 않음
 
-        -   모든 가구는 행복(`happy?`)을 업데이트 $\rightarrow$ 하위
+        -   모든 가구는 행복(`happy?`)을 업데이트 $$\rightarrow$$ 하위
             모형 `update-turtles` 를 실행
 
-        -   결과 값 업데이트 $\rightarrow$ 하위 모형 `update-globals`를
+        -   결과 값 업데이트 $$\rightarrow$$ 하위 모형 `update-globals`를
             실행
 
 -   Design Concepts
@@ -120,7 +120,7 @@ nav_order: 4
 
     -   목표
 
-        -   행복 $\rightarrow$ 행위자는 자신과 다른 집단의 이웃이 많으면
+        -   행복 $$\rightarrow$$ 행위자는 자신과 다른 집단의 이웃이 많으면
             이사
 
     -   지각
@@ -131,7 +131,7 @@ nav_order: 4
 
         -   모형 초기화
 
-        -   이사 과정 $\rightarrow$ 우리는 이사의 구체적인 과정이
+        -   이사 과정 $$\rightarrow$$ 우리는 이사의 구체적인 과정이
             관심사는 아님
 
     -   관찰
@@ -144,10 +144,10 @@ nav_order: 4
 
     -   최초 설정
 
-        -   전체 공간 중 행위자가 차지한 비율 $\rightarrow$ 밀집도
+        -   전체 공간 중 행위자가 차지한 비율 $$\rightarrow$$ 밀집도
             `density`
 
-        -   두 집단의 비율 $\rightarrow$ 전체 행위자를 두 집단에 같은
+        -   두 집단의 비율 $$\rightarrow$$ 전체 행위자를 두 집단에 같은
             확률로 무작위 배정
 
     -   입력 자료
@@ -158,17 +158,17 @@ nav_order: 4
 
         -   `move-unhappy-turtles`
 
-            -   이사 기준을 확인해야 함 $\rightarrow$ `not happy?`
+            -   이사 기준을 확인해야 함 $$\rightarrow$$ `not happy?`
 
-            -   이사: 무작위로 선택된 셀의 중앙으로 이동 $\rightarrow$
+            -   이사: 무작위로 선택된 셀의 중앙으로 이동 $$\rightarrow$$
                 `move-to one-of`
 
-            -   비어있는 셀로 이사해야 함 $\rightarrow$
+            -   비어있는 셀로 이사해야 함 $$\rightarrow$$
                 `not any? turtles-here`
 
         -   `update-turtles`
 
-            -   행위자의 이웃 중 같은 집단의 비율을 파악 $\rightarrow$
+            -   행위자의 이웃 중 같은 집단의 비율을 파악 $$\rightarrow$$
                 이웃의 범위는? 행위자를 중심에 둔 주변 8개의 셀로 가정:
                 국지적 정보라는 의미
 
@@ -177,13 +177,13 @@ nav_order: 4
             -   `total-nearby`: 총 이웃
 
             -   `prop-similar-neighbors`: 동질성, `similar-nearby` /
-                `total-nearby` $\rightarrow$ 이웃이 없을 때는? 행복한
+                `total-nearby` $$\rightarrow$$ 이웃이 없을 때는? 행복한
                 것으로
 
-            -   `similar-threshold`: 관용 기준, 0 -- 1 $\rightarrow$
+            -   `similar-threshold`: 관용 기준, 0 -- 1 $$\rightarrow$$
                 모든 가구에 동등하게 적용
 
-            -   `happy?`: 행복 여부, `prop-similar-neighbors` $geq$
+            -   `happy?`: 행복 여부, `prop-similar-neighbors` $$geq$$
                 `similar-threshold`
 
         -   `update-globals`
@@ -200,8 +200,8 @@ nav_order: 4
 
         -   <https://github.com/psmaldino/modsoc/tree/main/ch03_schelling>
 
-    -   `Models Library` $\rightarrow$ `Sample Models` $\rightarrow$
-        `Social Science` $\rightarrow$ `Segregation`
+    -   `Models Library` $$\rightarrow$$ `Sample Models` $$\rightarrow$$
+        `Social Science` $$\rightarrow$$ `Segregation`
 
         -   위 모형과 이사, 관용 기준, 동질성 계산 방법이 다소 다름
 
@@ -225,7 +225,7 @@ nav_order: 4
     -   매개 변수, 초기 조건, 모형의 가정 등 결과에 영향을 줄 수 있는
         요인에 대한 직관을 얻을 수 있음
 
-    -   하지만, 현혹되어서도 안됨 $\rightarrow$ 강건한 분석이 필요
+    -   하지만, 현혹되어서도 안됨 $$\rightarrow$$ 강건한 분석이 필요
 
 -   둘 중 어느 것으로 해보아도 되지만, [@Smaldino:2023aa]의
     `segregation.nlogo` 으로
@@ -240,7 +240,7 @@ nav_order: 4
 
     -   관용 기준이 아주 높지 않아도 거주 군집이 확인됨
 
--   $\rightarrow$ 선호가 강하지 않더라도 분리 현상이 강하게 나타날 수
+-   $$\rightarrow$$ 선호가 강하지 않더라도 분리 현상이 강하게 나타날 수
     있음을 시사
 
     -   선호의 강약은 어떻게 측정할 것인가?
@@ -258,12 +258,12 @@ nav_order: 4
 
     -   장점: 행위자 다양성, 현실과 유사한 체계
 
-    -   단점: 확률 과정, 불확실성 $\rightarrow$ 동일한 초기 조건이라도
+    -   단점: 확률 과정, 불확실성 $$\rightarrow$$ 동일한 초기 조건이라도
         결과값이 다를 수 있음
 
 -   동일한 조건으로 반복 시행이 필요
 
-    -   반복 시행으로 얻은 결과값 $\rightarrow$ 통계 분석
+    -   반복 시행으로 얻은 결과값 $$\rightarrow$$ 통계 분석
 
 -   몇 회의 반복 시행이 필요한가?
 
@@ -274,18 +274,18 @@ nav_order: 4
 
     -   보통은 어떤 패턴이 안정적으로 유지될 때까지
 
-    -   만약 안정적 패턴이 나오지 않는다면 $\rightarrow$ 안정적 패턴이
+    -   만약 안정적 패턴이 나오지 않는다면 $$\rightarrow$$ 안정적 패턴이
         나오는 변수를 찾아보기도
 
 -   매개 변수(parameters)
 
     -   매개 변수 값은 기존의 실증 연구로부터 차용하기도 함
 
-    -   아니면, 이론에 근거하기도 함 $\rightarrow$ 개별적인 선호가
+    -   아니면, 이론에 근거하기도 함 $$\rightarrow$$ 개별적인 선호가
         영향을 줄 수 있다는 쉘링의 가정처럼
 
     -   모형의 결과가 매개 변수의 값에 따라 달라지는 경우가 많음
-        $\rightarrow$ 매개 변수의 효과를 체계적으로 기록하는 것이 좋음
+        $$\rightarrow$$ 매개 변수의 효과를 체계적으로 기록하는 것이 좋음
 
 -   숨은 가정(hidden assumptions)
 
@@ -304,24 +304,24 @@ nav_order: 4
 
         -   모든 행위자의 관용 기준은 동일함
 
-        -   $\rightarrow$ 더 많은 가정이 숨어 있을 수 있음
+        -   $$\rightarrow$$ 더 많은 가정이 숨어 있을 수 있음
 
-        -   $\rightarrow$ 눈에 잘 안 띄는, 임의적이고 암묵적인 가정이
+        -   $$\rightarrow$$ 눈에 잘 안 띄는, 임의적이고 암묵적인 가정이
             모형의 결과에 영향을 미칠 수도 있음
 
 -   차원성의 저주(the curse of dimensionality)
 
-    -   모든 가정의 영향을 검토하기는 어려움 $\rightarrow$ 가능성이 너무
+    -   모든 가정의 영향을 검토하기는 어려움 $$\rightarrow$$ 가능성이 너무
         많음
 
     -   만약 8개의 매개 변수, 5번의 반복 시행 조합, 1번의 반복 시행
         조합에서 100회의 시뮬레이션이 있다면, 총 시뮬레이션 횟수는
-        $5^{8} \times 100 = 39,062,500$ 회
+        $$5^{8} \times 100 = 39,062,500$$ 회
 
     -   변수의 증가에 따라 시뮬레이션 횟수는 지수적으로 증가
 
     -   컴퓨터 성능의 향상과 가격의 하락으로 시뮬레이션 횟수는 증가
-        $\rightarrow$ 하지만, 여전히 너무 많은 횟수는 문제
+        $$\rightarrow$$ 하지만, 여전히 너무 많은 횟수는 문제
 
     -   이 문제를 해결하기 위한 왕도는 없음. 관련 주제로
         [@Ligmann-Zielinska:2020aa] 참고
@@ -333,7 +333,7 @@ nav_order: 4
     -   지금 분리 모형의 경우, 이웃의 속성과 행복과 무관하게, 행위자의
         이사 결정이 무작위(randomly)로 이뤄진다면 어떤 결과가 나올까?
 
-        -   $\rightarrow$ 이사 결정에 대해 새로운 코드를 짜야 함 $+$
+        -   $$\rightarrow$$ 이사 결정에 대해 새로운 코드를 짜야 함 $$+$$
             집단 구분의 영향을 없애야 함
 
     -   그러나, 중립 모형으로 어떤 변수가 결과에 큰 영향을 준다고
@@ -343,7 +343,7 @@ nav_order: 4
 -   다시 모형으로 돌아와서
 
     -   밀집도와 관용 기준을 변화시키면서, 빠르게 균형에 도달하거나
-        아니면 균형에 도달하지 않는 경우도 확인했을 것 $\rightarrow$ 좀
+        아니면 균형에 도달하지 않는 경우도 확인했을 것 $$\rightarrow$$ 좀
         더 강건한 결과를 확인해보자
 
     -   `density`: 0.1 부터 0.9 까지 0.1 씩 증가
@@ -354,11 +354,11 @@ nav_order: 4
 
     -   각 시뮬레이션을 100번 시행
 
-    -   변수 값의 범위는 임의로 선택한 것 $\rightarrow$ 결정은 필요, 더
+    -   변수 값의 범위는 임의로 선택한 것 $$\rightarrow$$ 결정은 필요, 더
         넓은 범위로 할 수도 있음. 이론에 의한 뒷받침되거나 또는 모형을
         계속 다루면서 쌓이는 경험을 따르거나
 
--   넷로고: 메뉴 중 `Tools` $\rightarrow$ `Behavior Space`
+-   넷로고: 메뉴 중 `Tools` $$\rightarrow$$ `Behavior Space`
 
     -   우리 분리 모형의 경우, 이미 입력되어 있음
 
@@ -395,19 +395,19 @@ nav_order: 4
     -   `similarity-threshold`가 높을 수록 분리가 더 잘 관찰됨
 
     -   `similarity-threshold` 보다 `average-similarity`가 항상 높음
-        $\rightarrow$ 이웃에 대한 선호가 강하지 않더라도, 집단
+        $$\rightarrow$$ 이웃에 대한 선호가 강하지 않더라도, 집단
         전체에서는 분리 현상이 나타남을 시사
 
     -   낮은 `density`에서도 분리가 잘 관찰됨
 
 -   수정
 
-    -   이웃이 없는 경우 행복한 것으로 가정했음 $\rightarrow$ 하지만
+    -   이웃이 없는 경우 행복한 것으로 가정했음 $$\rightarrow$$ 하지만
         외로우므로 행복이 0일 수도 있음
 
-    -   그 결과는? 이전의 결과와 비교하면? $\rightarrow$ 직접 해보자
+    -   그 결과는? 이전의 결과와 비교하면? $$\rightarrow$$ 직접 해보자
 
--   모형에 의한 설명에 만족할 수 있을까? $\rightarrow$ 후속 연구의
+-   모형에 의한 설명에 만족할 수 있을까? $$\rightarrow$$ 후속 연구의
     아이디어
 
     -   우리는 단지, 개인의 선호에 의해 분리 현상이 나타날 수 있음,
@@ -415,13 +415,13 @@ nav_order: 4
 
     -   분리는 제도나 경제적 제약 등으로도 나타날 수 있음
 
-        -   $\rightarrow$ 하지만, 우리의 설명이 맞다면 소득 수준, 교육
+        -   $$\rightarrow$$ 하지만, 우리의 설명이 맞다면 소득 수준, 교육
             수준이 동일하더라도, 개인의 작은 선호로도 분리가 나타날 것.
             과연?
 
     -   모형 자체에 대한 가정도 검토해볼 수 있음
 
-        -   이사의 비용을 고려하지 않음 $\rightarrow$ 사회적 관계 (가족,
+        -   이사의 비용을 고려하지 않음 $$\rightarrow$$ 사회적 관계 (가족,
             친구, 직장 등)가 제약 조건이 될 수도 있음
 
 ## 정리하기

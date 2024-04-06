@@ -42,7 +42,7 @@ nav_order: 3
 
 -   모델 라이브러리
 
-    -   장점: 실현 $\rightarrow$ 선배 연구자들이 세운 가정과 수식이
+    -   장점: 실현 $$\rightarrow$$ 선배 연구자들이 세운 가정과 수식이
         어떻게 작동하는지 보여줌
 
     -   단점: 연구 방법을 알려주지는 않음
@@ -64,7 +64,7 @@ nav_order: 3
     -   하지만 현재의 모형은 나비의 움직임을 눈으로 볼 수 있도록
         만들었을 뿐
 
--   무엇부터 해야할까? $\rightarrow$ ODD와 희망 사항을 다시 확인하자
+-   무엇부터 해야할까? $$\rightarrow$$ ODD와 희망 사항을 다시 확인하자
 
     -   통로라고 말할 수 있는 구체적인 값이 필요
 
@@ -76,20 +76,20 @@ nav_order: 3
 
 -   통로의 정의가 필요
 
-    -   기본 모형에서 나비는 정해진 시간 동안 계속 움직임 $\rightarrow$
+    -   기본 모형에서 나비는 정해진 시간 동안 계속 움직임 $$\rightarrow$$
         나비가 국지적 정상에 도달하면 멈춘다는 가정을 추가
 
         -   국지적 정상: 주변의 8개 `patches`보다 높은 `patches`
-            $\rightarrow$ 주변 8개? `neighbors` 사용
+            $$\rightarrow$$ 주변 8개? `neighbors` 사용
 
     -   모든 나비가 사용하는 통로의 폭
-        $$= \dfrac{\text{나비가 지나간 길}}{\text{나비의 출발점과 도착점을 연결하는 (평균) 직선 거리}}$$
+        $$$$= \dfrac{\text{나비가 지나간 길}}{\text{나비의 출발점과 도착점을 연결하는 (평균) 직선 거리}}$$$$
 
     -   모든 나비가 같은 직선 경로를 따라 올라간다고 생각하면, 통로의
-        폭은 작을 것 $\rightarrow$ 다른 경로를 따른다면, 폭이 커질 것
+        폭은 작을 것 $$\rightarrow$$ 다른 경로를 따른다면, 폭이 커질 것
 
--   나비가 곧장 언덕을 오를 확률 $q$ $\rightarrow$ 통로의 폭에 영향을 줄
-    것 $\rightarrow$ 이 둘의 관계를 그래프로 그려보자
+-   나비가 곧장 언덕을 오를 확률 $$q$$ $$\rightarrow$$ 통로의 폭에 영향을 줄
+    것 $$\rightarrow$$ 이 둘의 관계를 그래프로 그려보자
 
 -   새 이름으로 저장: `butterfly_2.nlogo`
 
@@ -97,7 +97,7 @@ nav_order: 3
         진행. 단순한 시도만 하고자 할 때도, 반드시 원본 파일을 남겨두고,
         복제 파일에서 진행할 것
 
-    -   미래의 나와 과거의 나가 대화할 때가 많음 $\rightarrow$ `Code`
+    -   미래의 나와 과거의 나가 대화할 때가 많음 $$\rightarrow$$ `Code`
         탭에 어떤 변화가 있는 지 기록하거나, 표를 만들어 어떤 변화가
         있는 지 정리해두는 것도 좋음
 
@@ -108,9 +108,9 @@ nav_order: 3
                   ...
                 ]
 
--   $q$를 변화시키자
+-   $$q$$를 변화시키자
 
-    -   `Interface` 탭, `sliders` 생성 $\rightarrow$ $q$ 변경
+    -   `Interface` 탭, `sliders` 생성 $$\rightarrow$$ $$q$$ 변경
 
     -   0.0에서 1.0까지 0.01씩 증가하도록
 
@@ -120,7 +120,7 @@ nav_order: 3
 
     -   코드의 값을 반영하지, `Interface`에서 조정한 값을 반영하지 않음
 
-    -   $\rightarrow$ 코드에서의 $q$ 값을 주석 처리 해야 함
+    -   $$\rightarrow$$ 코드에서의 $$q$$ 값을 주석 처리 해야 함
 
                         globals
                         [
@@ -149,7 +149,7 @@ nav_order: 3
 
 -   통로 폭을 계산하자
 
-    -   $\rightarrow$ 계산 식을 보면, 우리에게 필요한 것은 출발점과
+    -   $$\rightarrow$$ 계산 식을 보면, 우리에게 필요한 것은 출발점과
         도착점의 직선 거리와 나비가 지나간 길
 
     -   나비의 출발점: `patch-here` 사용
@@ -169,14 +169,14 @@ nav_order: 3
 
     -   우리는 나비가 어떤 `patches` 를 사용할 지 모름
 
-        -   $\rightarrow$ 모든 `patches` 에 나비의 사용 여부 속성을 부여
+        -   $$\rightarrow$$ 모든 `patches` 에 나비의 사용 여부 속성을 부여
 
-        -   boolean (true-false) 변수: 변수명 끝에 $?$를 붙여서
+        -   boolean (true-false) 변수: 변수명 끝에 $$?$$를 붙여서
 
         -   초기 설정 변수(initializing variables): 새로운 변수는 다른
-            값을 지정하기 전에는 $0$에서 시작. 프로그램 작동에는 문제를
+            값을 지정하기 전에는 $$0$$에서 시작. 프로그램 작동에는 문제를
             일으키지 않지만, 분석에서는 문제가 될 수 있는 데, 알기도
-            찾기도 어려운 에러가 됨 $\rightarrow$ 값을 주고 시작하는
+            찾기도 어려운 에러가 됨 $$\rightarrow$$ 값을 주고 시작하는
             습관을 들이도록
 
         ```{=html}
@@ -193,7 +193,7 @@ nav_order: 3
                             set used? false
                             ] 
 
-    -   나비가 지나간 이후 $\rightarrow$ `patches` 사용 여부를 알 수
+    -   나비가 지나간 이후 $$\rightarrow$$ `patches` 사용 여부를 알 수
         있음
 
                     to move
@@ -201,18 +201,18 @@ nav_order: 3
                         set used? true
                      end
 
--   이제 통로 폭(corridor width)을 계산해야 함 $\rightarrow$ 값의 보고
+-   이제 통로 폭(corridor width)을 계산해야 함 $$\rightarrow$$ 값의 보고
     `to-report` 사용
 
     -   우리가 알고자 하는 값을 구하는 과정을 생각해보자
 
-        -   나비가 지나간 모든 `patches`의 수를 계산 $\rightarrow$
+        -   나비가 지나간 모든 `patches`의 수를 계산 $$\rightarrow$$
             `count`, `with` 사용
 
-        -   나비 각각의 출발점과 현재 위치의 거리를 계산 $\rightarrow$
+        -   나비 각각의 출발점과 현재 위치의 거리를 계산 $$\rightarrow$$
             `distance` 사용
 
-        -   나비 전체의 평균 거리를 계산 $\rightarrow$ `mean [] of` 사용
+        -   나비 전체의 평균 거리를 계산 $$\rightarrow$$ `mean [] of` 사용
 
         -   통로 폭: (1)/(3)
 
@@ -242,18 +242,18 @@ nav_order: 3
                      the-distance
                     ]
 
--   실행하면? 통로 폭의 값을 확인하지는 못했음 $\rightarrow$ 계산된 통로
+-   실행하면? 통로 폭의 값을 확인하지는 못했음 $$\rightarrow$$ 계산된 통로
     폭의 값을 확인하자
 
-    -   결과 관찰 $\rightarrow$ 결과 창 만들기
+    -   결과 관찰 $$\rightarrow$$ 결과 창 만들기
 
-        -   `Interface` 탭 $\rightarrow$ `Monitor`
+        -   `Interface` 탭 $$\rightarrow$$ `Monitor`
 
         -   `reporter`에 `corridor-width` 쓰기
 
         -   경고가 나오는 것이 정상
 
-    -   결과 값을 모니터 창에 $\rightarrow$ 국지(local) 변수
+    -   결과 값을 모니터 창에 $$\rightarrow$$ 국지(local) 변수
         `final-corridor-width` 사용, 결과 창에 설명 만들기
 
                     to go
@@ -266,7 +266,7 @@ nav_order: 3
                     to-report corridor-width
                     end
 
-    -   $q$를 변화시켰을 때, 결과 값이 변화하는가? $\rightarrow$
+    -   $$q$$를 변화시켰을 때, 결과 값이 변화하는가? $$\rightarrow$$
         변화하지 않음
 
         -   논리의 문제?
@@ -281,12 +281,12 @@ nav_order: 3
 
             -   결과 창 설정 오류 등
 
-    -   $\rightarrow$ `set q 0.4`를 그대로 두면 $q = 0.4$로 고정
+    -   $$\rightarrow$$ `set q 0.4`를 그대로 두면 $$q = 0.4$$로 고정
 
-        -   $q$ 관련 명령도 모두 주석 처리해야 함
+        -   $$q$$ 관련 명령도 모두 주석 처리해야 함
 
         -   변수 값을 정확히 불러오는 중인지는 알기도 찾기도 어려운 에러
-            중의 하나 $\rightarrow$ 어떻게 확인 가능할 지 모형의 구조를
+            중의 하나 $$\rightarrow$$ 어떻게 확인 가능할 지 모형의 구조를
             면밀히 생각해볼 것
 
         ```{=html}
@@ -301,9 +301,9 @@ nav_order: 3
 
 ## 결과 확인과 외부 자료 사용
 
--   끝? 우리는 아직 $q$와 통로의 관계를 확인하지 않았음
+-   끝? 우리는 아직 $$q$$와 통로의 관계를 확인하지 않았음
 
-    -   그래프 그리기 $\rightarrow$ `plot`
+    -   그래프 그리기 $$\rightarrow$$ `plot`
 
                         to go
                           ask turtles [move]
@@ -313,9 +313,9 @@ nav_order: 3
                         end
 
         -   위 상태에서 코드는 경고없이 잘 저장 되지만, 실행하면 에러를
-            만듬 $\rightarrow$ 그래프를 만들어야 함
+            만듬 $$\rightarrow$$ 그래프를 만들어야 함
 
-        -   `Interface` 탭 $\rightarrow$ `Plot`
+        -   `Interface` 탭 $$\rightarrow$$ `Plot`
 
         -   `Name`: `Corridor Width`
 
@@ -323,7 +323,7 @@ nav_order: 3
 
         -   `pen update commands`의 내용은 모두 삭제
 
-    -   $q$ 를 변화시키면서, 통로 폭의 변화를 확인하자 $\rightarrow$
+    -   $$q$$ 를 변화시키면서, 통로 폭의 변화를 확인하자 $$\rightarrow$$
         `export-plot`
 
     -   `.csv` 파일로 내보내기
@@ -339,12 +339,12 @@ nav_order: 3
 -   실제 지리적 공간에서 하려면?
 
     -   UTM 같은 좌표 시스템을 바로 넷로고에서 사용할 수 없음
-        $\rightarrow$ 전환 필요. 관련 소프트웨어에서 알아서
+        $$\rightarrow$$ 전환 필요. 관련 소프트웨어에서 알아서
 
         -   가로로 한 줄에, grid point or cell 좌표 정보, 공간 특성
             정보가 들어가도록 작성
 
-        -   넷로고의 `patch` 하나의 크기($1 \times 1$)에 맞춰 실제
+        -   넷로고의 `patch` 하나의 크기($$1 \times 1$$)에 맞춰 실제
             공간의 크기를 보정 해주어야 함
 
     -   넷로고 에서 공간 설정
@@ -376,7 +376,7 @@ nav_order: 3
                               file-close
                             end
 
--   최고 높이와 최저 높이에 따라 색을 변화 $\rightarrow$ `max`, `min`
+-   최고 높이와 최저 높이에 따라 색을 변화 $$\rightarrow$$ `max`, `min`
     사용
 
     -   실행하는 데 오래 걸릴 것
@@ -401,7 +401,7 @@ nav_order: 3
         -   우리의 1차 목표는 논리적 구조에 맞는 정확한 계산 모형을
             만드는 것
 
-        -   하지만 때로는 계산 속도를 개선할 필요가 있음 $\rightarrow$
+        -   하지만 때로는 계산 속도를 개선할 필요가 있음 $$\rightarrow$$
             계산 시간이 너무 오래 걸리면, 수정과 평가에 너무 많은 시간을
             소모할 수 있기 때문
 
@@ -447,17 +447,17 @@ nav_order: 3
 
     -   초기 값을 바꾸는 것도 다른 시나리오가 될 수 있음
 
-    -   $\rightarrow$ 모형에서 확률 과정 또는 어떤 한 요소만 변화하고
+    -   $$\rightarrow$$ 모형에서 확률 과정 또는 어떤 한 요소만 변화하고
         다른 요소는 변화하지 않도록 모형을 실행하는 것
 
--   우리의 경우, $q$
+-   우리의 경우, $$q$$
 
--   반복 시행을 수동으로? $\rightarrow$ BehaviorSpace가 우리를
+-   반복 시행을 수동으로? $$\rightarrow$$ BehaviorSpace가 우리를
     구원하리라
 
-    -   `Tools` $\rightarrow$ `BehaviorSpace` $\rightarrow$ `New`
+    -   `Tools` $$\rightarrow$$ `BehaviorSpace` $$\rightarrow$$ `New`
 
-    -   매뉴얼 : Features $\rightarrow$ BehaviorSpace Guide
+    -   매뉴얼 : Features $$\rightarrow$$ BehaviorSpace Guide
 
     -   전역 변수 값을 바꿔서 다수의 시나리오를 생성
 

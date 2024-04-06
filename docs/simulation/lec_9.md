@@ -31,7 +31,7 @@ nav_order: 9
 
     -   <https://colab.research.google.com/github/AllenDowney/ThinkComplexity2/blob/master/notebooks/chap12.ipynb>
 
--   사용하려는 파일 가져오기, (그림) 파일 저장 $\rightarrow$ 이전과 같음
+-   사용하려는 파일 가져오기, (그림) 파일 저장 $$\rightarrow$$ 이전과 같음
 
 -   `Simulation` 클래스 만들기
 
@@ -44,7 +44,7 @@ nav_order: 9
                             self.agents = np.asarray(agents)
                             self.instruments = []
 
-    -   `instrument` 설정과 그래프 그리기 $\rightarrow$ 이후에 나옴
+    -   `instrument` 설정과 그래프 그리기 $$\rightarrow$$ 이후에 나옴
 
                         def add_instrument(self, instrument):
                             self.instruments.append(instrument)
@@ -60,7 +60,7 @@ nav_order: 9
             넘겨줄 때, 각각 키와 값으로 가져오는 딕셔너리로 처리
 
     -   1번 시행: 초기화 -- 게임 -- 적합도 계산 -- 적합도가 낮은 경우,
-        전략 수정$\rightarrow$ 몇 번 시행?
+        전략 수정$$\rightarrow$$ 몇 번 시행?
 
                         def run(self, num_steps=500):
                             self.update_instruments()
@@ -150,7 +150,7 @@ nav_order: 9
 
 ## 전략의 경쟁
 
--   경기자 `Agent` 클래스 만들기: 경기자 속성 $=$ 전략, 복제, 변이; 상대
+-   경기자 `Agent` 클래스 만들기: 경기자 속성 $$=$$ 전략, 복제, 변이; 상대
     경기자의 이전 선택에 따라 나의 다음 선택을 결정
 
             class Agent:
@@ -263,7 +263,7 @@ nav_order: 9
                 for i in i_row:
                     agents[i].fitness = totals[i] / self.num_rounds / 2
 
-    -   `num_rounds`: 몇 개의 하위 게임 $\rightarrow$ 현재 6개
+    -   `num_rounds`: 몇 개의 하위 게임 $$\rightarrow$$ 현재 6개
 
     -   우리가 만드는 것은 반복 죄수의 딜레마 게임
 
@@ -333,23 +333,23 @@ nav_order: 9
 
     -   일반적인 로지스틱 함수 사용
 
-        -   $A$: 하계(lower bound)
+        -   $$A$$: 하계(lower bound)
 
-        -   $B$: 전환 정도
+        -   $$B$$: 전환 정도
 
-        -   $C$: 중요한 변수는 아님
+        -   $$C$$: 중요한 변수는 아님
 
-        -   $M$: 전환 시점
+        -   $$M$$: 전환 시점
 
-        -   $K$: 상계(upper bound)
+        -   $$K$$: 상계(upper bound)
 
-        -   $Q$: 전환 방향 (왼쪽 또는 오른쪽)
+        -   $$Q$$: 전환 방향 (왼쪽 또는 오른쪽)
 
-        -   $nu$: 전환 대칭성
+        -   $$nu$$: 전환 대칭성
 
     -   `prob_survive`: 점수에 따라 생존 확률 계산
 
--   `PDSimulation` 클래스 만들기 $\rightarrow$ 매 하위 게임에서 얻는
+-   `PDSimulation` 클래스 만들기 $$\rightarrow$$ 매 하위 게임에서 얻는
     점수와 생존 확률을 맵핑
 
             class PDSimulation(Simulation):
@@ -434,16 +434,16 @@ nav_order: 9
                     metric = np.mean(np.any(after_two=='C', axis=1))
                     self.metrics.append(metric)        
 
-    -   `Niceness`: 개체군에서 $C$ 유형의 평균적인 수
+    -   `Niceness`: 개체군에서 $$C$$ 유형의 평균적인 수
 
     -   `Opening`: 첫 하위 게임에서 협력하는 경기자의 비율
 
     -   `Retalitating`: 상대방의 배신 이후 배신하는 경기자의 비율,
-        상대방의 협력 이후 배신하는 경기자의 비율 $\rightarrow$ 두 비율
+        상대방의 협력 이후 배신하는 경기자의 비율 $$\rightarrow$$ 두 비율
         간의 차이
 
     -   `Forgiving`: 상대방의 DC 이후 협력하는 경기자의 비율, 상대방의
-        CD 이후 협력하는 경기자의 수 $\rightarrow$ 둘의 차이
+        CD 이후 협력하는 경기자의 수 $$\rightarrow$$ 둘의 차이
 
     -   `Forgiving2`: 상대방의 첫 두 게임에 대해 협력하는 경기자의 수
 
@@ -481,7 +481,7 @@ nav_order: 9
             plot_result(0, color='C0')
             savefig('figs/chap12-1')
 
-    -   초기의 평균 적합도는 1 $\rightarrow$ 모두 배신 전략을 하고
+    -   초기의 평균 적합도는 1 $$\rightarrow$$ 모두 배신 전략을 하고
         있으므로
 
     -   협력자로의 변이가 나타나면서 평균 적합도는 2.5 근방에서 진동

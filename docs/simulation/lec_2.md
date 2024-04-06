@@ -88,15 +88,15 @@ nav_order: 2
 
 -   ODD (Overview -- Design Concepts -- Details) 프로토콜 [@Railsback:2019tq p. 37]
 
-    |       Overview       | 1\. 목적과 패턴                        |
-	|                      | 2\. 독립체, 상태 변수, 척도               |
-	|                      | 3\. 전체 과정과 스케쥴                   |
-	|   Design Concepts    | 4\. 설계 개념                          |
-	|                      | 기본 원칙, 창발, 적응, 목표, 학습, 예측,     |
+    |       Overview       | 1\. 목적과 패턴                          |
+	|                      | 2\. 독립체, 상태 변수, 척도                |
+	|                      | 3\. 전체 과정과 스케쥴                    |
+	|   Design Concepts    | 4\. 설계 개념                           |
+	|                      | 기본 원칙, 창발, 적응, 목표, 학습, 예측,      |
 	|                      | 지각, 상호 작용, 확률 과정, 집합적 특성, 관찰  |
-	|    Details           | 5\. 최초 설정                          |
-	|                      | 6\. 입력 자료                         |
-	|                      | 7\. 하위 모형                         |
+	|    Details           | 5\. 최초 설정                           |
+	|                      | 6\. 입력 자료                           |
+	|                      | 7\. 하위 모형                           |
 
 
 -   나비 모형의 목적
@@ -235,17 +235,19 @@ nav_order: 2
 
 -   독립체, 상태 변수, 척도
 
-                globals
-                [
-                ]
+    ```netlogo
+    globals
+    [
+    ]
 
-                patches-own
-                [
-                ]
+    patches-own
+    [
+    ]
 
-                turtles-own
-                [
-                ]
+    turtles-own
+    [
+    ]
+	````
 
     -   `Check` 클릭 $$\rightarrow$$ 아무 문제 없어야 정상
 
@@ -285,18 +287,20 @@ nav_order: 2
 
 -   초기 설정
 
-            turtles-own
-            [
-            ]
-
-            to setup
-              ca
-              ask patches
-              [
-
-              ]
-              reset-ticks
-            end
+    ```netlogo
+	turtles-own
+	[
+	]
+	
+	to setup
+	ca
+	ask patches
+	[
+	
+	]
+	reset-ticks
+	end
+	```
 
     -   `ca` 또는 `clear-all` 쓰는 것을 잊지 말자
 
@@ -304,26 +308,31 @@ nav_order: 2
 
 -   지형 생성: ODD에서 구체적인 지형은 언급하지 않음 $$\rightarrow$$ 만들어야 함
 
-              ask patches
-              [
-               let elev1 100 - distancexy 30 30
-               let elev2 50 - distancexy 120 100
-
-               ifelse elev1 > elev2
-                [set elevation elev1]
-                [set elevation elev2]
-
-               set pcolor scale-color green elevation 0 100
-              ]
+    ```netlogo
+	ask patches
+	[
+	 let elev1 100 - distancexy 30 30
+	 let elev2 50 - distancexy 120 100
+	 
+	 ifelse elev1 > elev2
+	 [set elevation elev1]
+	 [set elevation elev2]
+	 
+	 set pcolor scale-color green elevation 0 100
+	]
+    ```
 
     -   Netlogo의 명령어는 의미별로 모두 띄어쓸 것
 
     -   경고가 나오는 것이 정상: "Nothing named ELEVATION has been defined\"
 
-                            patches-own
-                            [
-                                elevation
-                            ]
+    ```netlogo
+	
+	patches-own
+	[
+	 elevation
+	]
+    ```
 
     -   문제가 없으면 `check`가 비활성화 되고, 저장 가능해짐
 
@@ -347,14 +356,16 @@ nav_order: 2
 
 -   우리 모형의 나비 $$\rightarrow$$ 움직이는 행위자 `turtle`
 
-             set pcolor scale-color green elevation 0 100
-            ]
-            
-            crt 1
-            [
-             set size 2
-             setxy 85 95
-            ]
+    ```netlogo
+	 set pcolor scale-color green elevation 0 100
+	]
+	
+	crt 1
+	[
+	 set size 2
+	 setxy 85 95
+	]
+    ```
 
 -   나비를 잘 만들었나 확인
 
@@ -362,24 +373,28 @@ nav_order: 2
 
 -   스케쥴 $$\rightarrow$$ 나비(`turtle`)는 한 번의 단계에서 한 번 움직임
 
-                  reset-ticks
-                end
-                
-                to go
-                  ask turtles [move]
-                end
-
-                to move
-
-                end
+    ```netlogo
+	 reset-ticks
+	end
+	
+	to go
+	 ask turtles [move]
+	end
+	
+	to move
+	
+	end
+    ```
 
 -   몇 번이나 움직이도록? $$\rightarrow$$ 1,000 단계, 즉 1,000번 움직이고자 할 때
 
-                to go
-                  ask turtles [move]
-                  tick
-                  if ticks >= 1000 [stop]
-                end
+    ```netlogo
+	to go
+	 ask turtles [move]
+	 tick
+	 if ticks >= 1000 [stop]
+	end
+    ```
 
 -   `Interface`에 `go` 버튼 `button` 추가
 
@@ -393,25 +408,27 @@ nav_order: 2
 
 -   $$q$$의 확률로 곧장 언덕을 오르고, $$1-q$$의 확률로 무작위 이동 $$\rightarrow$$ 국지적인 정상에 오를 때까지
 
-            to move
-              ifelse random-float 1 < q
-               [uphill elevation]
-               [move-to one-of neighbors]
-            end
-
+    ```
+	to move
+	 ifelse random-float 1 < q
+	  [uphill elevation]
+	  [move-to one-of neighbors]
+	 end
+    ```
+	
     -   경고가 나오는 것이 정상 $$\rightarrow$$ $$q$$ 정의 필요
 
-                        globals
-                        [
-                          q
-                        ]
-                        ...
-                        to setup
-                        ...
-                          set q 0.4
-                         
-                          reset-ticks
-                        end
+    ```netlogo
+	globals
+	[
+	 q
+	]
+	
+	to setup
+	 set q 0.4
+	 reset-ticks
+	end
+    ```
 
     -   `to move`
 
@@ -429,12 +446,15 @@ nav_order: 2
 
 -   나비의 움직임을 보고 싶다면
 
-              crt 1
-              [
-                set size 2
-                setxy 85 95
-                pen-down
-              ]
+    ```netlogo
+	
+	crt 1
+	[
+	 set size 2
+	 setxy 85 95
+	 pen-down
+	]
+    ```
 
     -   변화를 반영하고 싶다면 $$\rightarrow$$ `setup`을 누를 것
 

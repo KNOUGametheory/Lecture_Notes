@@ -116,11 +116,14 @@ SIR 모형을 파이선으로 구현한다.
     ```python
     def F(x, t, R0):
         s, e, i = x
+		
 		beta = R0(t) * gamma if callable(R0) else R0 * gamma
 		ne = beta * s * i
+		
 		ds = - ne
 		de = ne - sigma * e
 		di = sigma * e - gamma * i
+		
         return ds, de, di
     ```
 
@@ -161,7 +164,9 @@ SIR 모형을 파이선으로 구현한다.
 	def solve_path(R0, t_vec, x_init=x_0):
 	    G = lambda x, t: F(x, t, R0)
 		s_path, e_path, i_path = odeint(G, x_init, t_vec).transpose()
+		
 		c_path = 1 - s_path - e_path
+		
 		return i_path, c_path
     ```
 
@@ -235,9 +240,12 @@ SIR 모형을 파이선으로 구현한다.
     ```python
 	def plot_paths(paths, labels, times=t_vec):
 	    fig, ax = plt.subplots()
+		
 		for path, label in zip(paths, labels):
 		    ax.plot(times, path, label=label)
+			
 		ax.legend(loc='upper left')
+		
 		plt.show()
     ```	
 
@@ -352,6 +360,7 @@ SIR 모형을 파이선으로 구현한다.
     ```python
 	R0_paths = (lambda t: 0.5 if t < 30 else 2,
 	    lambda t: 0.5 if t < 120 else 2)
+		
 	labels = [f'scenario {i}' for i in (1, 2)]
 	
 	i_paths, c_paths = [], []

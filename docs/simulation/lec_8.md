@@ -33,7 +33,7 @@ nav_order: 8
 	-   이 장의 주요 내용은 다음을 참고했음: [Allen Downey, 2012, *Think Complexity*, Ch. 9](https://colab.research.google.com/github/AllenDowney/ThinkComplexity2/blob/master/notebooks/chap09.ipynb){:target="_blank"}
 
 -   사용하려는 패키지와 파일 가져오기
-    ```
+    ```python
 	from os.path import basename, exists
 
 	def download(url):
@@ -58,7 +58,7 @@ nav_order: 8
         -   단점: 공동 작업에서 문제가 될 수 있음 $$\rightarrow$$ 우리 경우처럼 `github.com`으로 공유하는 방법이 있음
 
 -   (그림) 파일 저장
-	```
+	```python
 	from utils import decorate, savefig
 	!mkdir -p figs
     ```  
@@ -70,11 +70,11 @@ nav_order: 8
     -   `mkdir`: 디렉토리(폴더)를 생성하라는 명령
 
 -   패키지 설치
-	```
+	```python
 	try:
 	    import empiricaldist
-		except ImportError:
-    !pip install empiricaldist  
+	except ImportError:
+        !pip install empiricaldist  
 	```
 
     -   [`empiricaldist`](https://pypi.org/project/empiricaldist/){:target="_blank"}: 분포 함수에 필요
@@ -84,7 +84,7 @@ nav_order: 8
     -   [`pip install 패키지이름`](https://docs.python.org/3/installing/index.html){:target="_blank"}: 파이선 패키지/모듈 설치를 위해 사용
 
 -   공간 만들기
-    ```
+    ```python
 	def locs_where(condition):
 	    return list(zip(*np.nonzero(condition)))
     ```
@@ -92,7 +92,7 @@ nav_order: 8
     -   [`np.nonzero`](https://numpy.org/doc/stable/reference/generated/numpy.nonzero.html){:target="_blank"}: `numpy`의 `nonzero`, 0이 아닌 튜플(tuple)의 목록을 만듦
 
 -   분리 모형 중 행위자 구분 하기
-    ```
+    ```python
 	import seaborn as sns
 	from matplotlib.colors import LinearSegmentedColormap
 	
@@ -108,15 +108,17 @@ nav_order: 8
 ## 분리 모형 구성
 
 -   클래스 설정
-    ```
+    ```python
 	from scipy.signal import correlate2d
 	from Cell2D import Cell2D, draw_array
 	
 	class Schelling(Cell2D):
 	    options = dict(mode='same', boundary='wrap')
+		
         kernel = np.array([[1, 1, 1],
                            [1, 0, 1],
                            [1, 1, 1]], dtype=np.int8)
+						   
         def __init__(self, n, p):
 		    self.p = p
 			choices = np.array([0, 1, 2], dtype=np.int8)
@@ -139,21 +141,27 @@ nav_order: 8
         -   `p`: 같은 속성의 이웃에 대한 기준
 
 -   이웃의 속성 확인하기
-    ```
+    ```python
 	    def count_neighbors(self):
 		    a = self.array
+			
 			empty = a==0
 			red = a==1
 			blue = a==2
+			
 			num_red = correlate2d(red, self.kernel, **self.options)
 			num_blue = correlate2d(blue, self.kernel, **self.options)
 			num_neighbors = num_red + num_blue
+			
             frac_red = num_red / num_neighbors
 			frac_blue = num_blue / num_neighbors
+			
 			frac_red[num_neighbors == 0] = 0
 			frac_blue[num_neighbors == 0] = 0
+			
 			frac_same = np.where(red, frac_red, frac_blue)
 			frac_same[empty] = np.nan
+			
 			return empty, frac_red, frac_blue, frac_same
     ```
 	
@@ -172,7 +180,7 @@ nav_order: 8
     -   같은 속성이 공집합인 경우: `nan` 숫자가 아닌 것으로 간주(Not a Number)
 
 -   같은 속성의 이웃의 평균 비중 계산
-    ```
+    ```python
 	    def segregation(self):
 		    _, _, _, frac_same = self.count_neighbors()
 			return np.nanmean(frac_same)
@@ -180,16 +188,19 @@ nav_order: 8
     -   `_, _, _, `: `_`(underscore), 특정 값을 무시, 우리의 경우, `empty, frac_red, frac_blue,`
 
 -   만족하지 못하는 경우 $$\rightarrow$$ 무작위로 이동
-    ```
+    ```python
 	    def step(self):
 		    a = self.array
 			empty, _, _, frac_same = self.count_neighbors()
+			
 			with np.errstate(invalid='ignore'):
 			    unhappy = frac_same < self.p
 				unhappy_locs = locs_where(unhappy)          
 				empty_locs = locs_where(empty)
+				
 			if len(unhappy_locs):
 			    np.random.shuffle(unhappy_locs)
+				
 			num_empty = np.sum(empty)
 			
 			for source in unhappy_locs:
@@ -223,53 +234,58 @@ nav_order: 8
     -   같은 속성의 이웃 비중을 다시 계산
 
 -   결과 그리기
-
-                def draw(self):
-                    return draw_array(self.array, cmap=cmap, vmax=2)    
+    ```python
+	    def draw(self):
+		    return draw_array(self.array, cmap=cmap, vmax=2)    
+    ```
 
 ## 분리 모형 실험하기
 
 -   작은 규모로 그려보기
-
-            grid = Schelling(n=10, p=0.3)
-            grid.draw()
-            grid.segregation()  
+    ```
+	grid = Schelling(n=10, p=0.3)
+	grid.draw()
+	grid.segregation()
+	```  
 
 -   애니메이션을 추가해 큰 규모로 그려보기
-
-            grid = Schelling(n=100, p=0.3)
-            grid.animate(frames=30, interval=0.1)   
+    ```python
+	grid = Schelling(n=100, p=0.3)
+	grid.animate(frames=30, interval=0.1)   
+	``
 
 -   분리 정도를 계산하고, 저장하기
-
-            from utils import three_frame
-            
-            grid = Schelling(n=100, p=0.3)
-            three_frame(grid, [0, 2, 8])
-            
-            savefig('figs/chap09-1')    
+    ```python
+	from utils import three_frame
+	
+	grid = Schelling(n=100, p=0.3)
+	three_frame(grid, [0, 2, 8])
+	
+	savefig('figs/chap09-1')    
+    ```
 
     -   `savefig`: 그림 파일 이름과 저장 위치
 
     -   `three_frame` 등 관련된 내용은 `utils.py` 확인 바람
 
 -   관용 수준을 0.2부터 0.5까지 높여가면서 계산해보자
-
-            from utils import set_palette
-            set_palette('Blues', 5, reverse=True)
-            
-            np.random.seed(17)
-            for p in [0.5, 0.4, 0.3, 0.2]:
-                grid = Schelling(n=100, p=p)
-                segs = [grid.step() for i in range(12)]
-                plt.plot(segs, label='p = %.1f' % p)
-                print(p, segs[-1], segs[-1] - p)
-                
-            decorate(xlabel='Time steps', ylabel='Segregation',
-                            loc='lower right', ylim=[0, 1])
-            
-            savefig('figs/chap09-2')    
-
+    ```python
+	from utils import set_palette
+	set_palette('Blues', 5, reverse=True)
+	
+	np.random.seed(17)
+	for p in [0.5, 0.4, 0.3, 0.2]:
+	    grid = Schelling(n=100, p=p)
+		segs = [grid.step() for i in range(12)]
+		plt.plot(segs, label='p = %.1f' % p)
+		print(p, segs[-1], segs[-1] - p)
+	
+    decorate(xlabel='Time steps', ylabel='Segregation',
+                    loc='lower right', ylim=[0, 1])
+	
+	savefig('figs/chap09-2')    
+    ```
+	
     -   관련된 내용은 `utils.py` 확인 바람
 
 ## 정리하기

@@ -235,7 +235,7 @@ nav_order: 2
 
 -   독립체, 상태 변수, 척도
 
-    ```netlogo
+    ```
     globals
     [
     ]
@@ -287,7 +287,7 @@ nav_order: 2
 
 -   초기 설정
 
-    ```netlogo
+    ```
 	turtles-own
 	[
 	]
@@ -308,7 +308,7 @@ nav_order: 2
 
 -   지형 생성: ODD에서 구체적인 지형은 언급하지 않음 $$\rightarrow$$ 만들어야 함
 
-    ```netlogo
+    ```
 	ask patches
 	[
 	 let elev1 100 - distancexy 30 30
@@ -326,7 +326,7 @@ nav_order: 2
 
     -   경고가 나오는 것이 정상: "Nothing named ELEVATION has been defined\"
 
-    ```netlogo
+    ```
 	
 	patches-own
 	[
@@ -356,7 +356,7 @@ nav_order: 2
 
 -   우리 모형의 나비 $$\rightarrow$$ 움직이는 행위자 `turtle`
 
-    ```netlogo
+    ```
 	 set pcolor scale-color green elevation 0 100
 	]
 	
@@ -373,7 +373,7 @@ nav_order: 2
 
 -   스케쥴 $$\rightarrow$$ 나비(`turtle`)는 한 번의 단계에서 한 번 움직임
 
-    ```netlogo
+    ```
 	 reset-ticks
 	end
 	
@@ -388,7 +388,7 @@ nav_order: 2
 
 -   몇 번이나 움직이도록? $$\rightarrow$$ 1,000 단계, 즉 1,000번 움직이고자 할 때
 
-    ```netlogo
+    ```
 	to go
 	 ask turtles [move]
 	 tick
@@ -418,7 +418,7 @@ nav_order: 2
 	
     -   경고가 나오는 것이 정상 $$\rightarrow$$ $$q$$ 정의 필요
 
-    ```netlogo
+    ```
 	globals
 	[
 	 q
@@ -446,7 +446,7 @@ nav_order: 2
 
 -   나비의 움직임을 보고 싶다면
 
-    ```netlogo
+    ```
 	
 	crt 1
 	[

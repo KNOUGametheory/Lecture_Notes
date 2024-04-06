@@ -57,21 +57,18 @@ nav_order: 8
 
         -   <https://docs.python.org/3/library/urllib.request.html>
 
-    -   `utils.py`, `Cell2D.py`: 자신이 자주 쓰는 것을 모아, 함수 또는
-        클래스로 만들어 둠
+    -   `utils.py`, `Cell2D.py`: 자신이 자주 쓰는 것을 모아, 함수 또는 클래스로 만들어 둠
 
         -   장점: `import` 과정을 단순하게 할수 있음
 
-        -   단점: 공동 작업에서 문제가 될 수 있음 $$\rightarrow$$ 우리
-            경우처럼 `github.com`으로 공유하는 방법이 있음
+        -   단점: 공동 작업에서 문제가 될 수 있음 $$\rightarrow$$ 우리 경우처럼 `github.com`으로 공유하는 방법이 있음
 
 -   (그림) 파일 저장
 
             from utils import decorate, savefig
             !mkdir -p figs
 
-    -   `savefig`: `utils.py` 를 확인해 볼 것 $$\rightarrow$$ 축 표시와
-        그림 저장
+    -   `savefig`: `utils.py` 를 확인해 볼 것 $$\rightarrow$$ 축 표시와 그림 저장
 
     -   `!`: 외부의 쉘 명령을 사용하기 위해 붙임
 
@@ -88,9 +85,7 @@ nav_order: 8
 
         -   <https://pypi.org/project/empiricaldist/>
 
-    -   `try`: 예외 상황 `except` 지정하기 위해 사용, 우리의 경우
-        `import empiricaldist` 에서 오류가 발생하면 `except` 이후 절을
-        실행
+    -   `try`: 예외 상황 `except` 지정하기 위해 사용, 우리의 경우 `import empiricaldist` 에서 오류가 발생하면 `except` 이후 절을 실행
 
     -   `pip install 패키지이름`: 파이선 패키지/모듈 설치를 위해 사용
 
@@ -101,8 +96,7 @@ nav_order: 8
             def locs_where(condition):
                 return list(zip(*np.nonzero(condition)))    
 
-    -   `np.nonzero`: `numpy`의 `nonzero`, 0이 아닌 튜플(tuple)의 목록을
-        만듦
+    -   `np.nonzero`: `numpy`의 `nonzero`, 0이 아닌 튜플(tuple)의 목록을 만듦
 
         -   <https://numpy.org/doc/stable/reference/generated/numpy.nonzero.html>
 
@@ -201,8 +195,7 @@ nav_order: 8
 
     -   같은 속성의 이웃을 세기: `frac_same`
 
-    -   같은 속성이 공집합인 경우: `nan` 숫자가 아닌 것으로 간주(Not a
-        Number)
+    -   같은 속성이 공집합인 경우: `nan` 숫자가 아닌 것으로 간주(Not a Number)
 
 -   같은 속성의 이웃의 평균 비중 계산
 
@@ -243,8 +236,7 @@ nav_order: 8
                     
                     return np.nanmean(frac_same)
 
-    -   `errstate`: 오류 처리 기준 알려줌, 우리의 경우 NaN인 경우를
-        무시(`ignore`)하라는 의미
+    -   `errstate`: 오류 처리 기준 알려줌, 우리의 경우 NaN인 경우를 무시(`ignore`)하라는 의미
 
         -   <https://numpy.org/doc/stable/reference/generated/numpy.errstate.html>
 
@@ -252,8 +244,7 @@ nav_order: 8
 
     -   이동할 수 있는 비어 있는 공간 확인
 
-    -   `len`: 객체의 길이(length)를 계산, 우리의 경우 행복하지 않은
-        행위자의 수
+    -   `len`: 객체의 길이(length)를 계산, 우리의 경우 행복하지 않은 행위자의 수
 
     -   행복하지 않은 행위자를 무작위 목적지로 이동시킴
 
@@ -321,8 +312,6 @@ nav_order: 8
 
 3.  `array`를 사용해 행렬을 구성할 수 있다.
 
-4.  모형의 목적을 충족할 수 있는 계산의 순서와 어떤 계산 값을 돌려줘야
-    할 지 정리한 후, 코딩을 시작한다.
+4.  모형의 목적을 충족할 수 있는 계산의 순서와 어떤 계산 값을 돌려줘야 할 지 정리한 후, 코딩을 시작한다.
 
-5.  어떤 데이터를 시각화할 지 그리고 어떻게 시각화할 지 정리한 후, 이를
-    구현할 수 있는 패키지를 활용한다.
+5.  어떤 데이터를 시각화할 지 그리고 어떻게 시각화할 지 정리한 후, 이를 구현할 수 있는 패키지를 활용한다.

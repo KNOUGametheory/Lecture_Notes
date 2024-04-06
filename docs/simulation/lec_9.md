@@ -52,15 +52,11 @@ nav_order: 9
                         def plot(self, index, *args, **kwargs):
                             self.instruments[index].plot(*args, **kwargs)
 
-        -   `*args`: non Keyword Arguments, 여러 개의 변수를 함수로
-            넘겨주어야 하는 데 몇 개를 넘겨야할 지 모를 때, 해당 변수를
-            튜플로 처리
+        -   `*args`: non Keyword Arguments, 여러 개의 변수를 함수로 넘겨주어야 하는 데 몇 개를 넘겨야할 지 모를 때, 해당 변수를 튜플로 처리
 
-        -   `**kwargs`: Keyword Arguments, 키워드를 특정 값으로 함수에
-            넘겨줄 때, 각각 키와 값으로 가져오는 딕셔너리로 처리
+        -   `**kwargs`: Keyword Arguments, 키워드를 특정 값으로 함수에 넘겨줄 때, 각각 키와 값으로 가져오는 딕셔너리로 처리
 
-    -   1번 시행: 초기화 -- 게임 -- 적합도 계산 -- 적합도가 낮은 경우,
-        전략 수정$$\rightarrow$$ 몇 번 시행?
+    -   1번 시행: 초기화 -- 게임 -- 적합도 계산 -- 적합도가 낮은 경우, 전략 수정$$\rightarrow$$ 몇 번 시행?
 
                         def run(self, num_steps=500):
                             self.update_instruments()
@@ -82,8 +78,7 @@ nav_order: 9
 
         -   `range`:
 
-    -   1번의 시행에서 필요한 함수를 정의: `instrument` 업데이트, 적합도
-        계산, 적합도 비교, 전략 변경 등
+    -   1번의 시행에서 필요한 함수를 정의: `instrument` 업데이트, 적합도 계산, 적합도 비교, 전략 변경 등
 
                         def update_instruments(self):
                             for instrument in self.instruments:
@@ -123,8 +118,7 @@ nav_order: 9
 
     -   `pass`: 아무것도 실행하지 않고자 할 때
 
-    -   `**`: 딕셔너리로 풀어줌(unpacking). `*`는 인수로 풀어줌. 예를
-        들어,
+    -   `**`: 딕셔너리로 풀어줌(unpacking). `*`는 인수로 풀어줌. 예를 들어,
 
                     def sum(a, b, c, d):
                        return a + b + c + d
@@ -150,8 +144,7 @@ nav_order: 9
 
 ## 전략의 경쟁
 
--   경기자 `Agent` 클래스 만들기: 경기자 속성 $$=$$ 전략, 복제, 변이; 상대
-    경기자의 이전 선택에 따라 나의 다음 선택을 결정
+-   경기자 `Agent` 클래스 만들기: 경기자 속성 $$=$$ 전략, 복제, 변이; 상대 경기자의 이전 선택에 따라 나의 다음 선택을 결정
 
             class Agent:
                 
@@ -271,8 +264,7 @@ nav_order: 9
 
         -   `reset`: 첫 번째 하위 게임을 시작하기 전, 기록을 초기화
 
-        -   `respond`: 주어진 상대방의 반응에 대해 경기자가 반응하도록
-            경기자를 호출
+        -   `respond`: 주어진 상대방의 반응에 대해 경기자가 반응하도록 경기자를 호출
 
         -   `append`: 우리의 경우, 선택과 이에 대한 보수(점수)를 저장
 
@@ -294,8 +286,7 @@ nav_order: 9
 
         -   `totals`: 총 보수(점수)
 
-        -   `fitness`: 상대방 별, 하위 게임 별, 평균 적합도(획득 점수의
-            평균 )를 저장
+        -   `fitness`: 상대방 별, 하위 게임 별, 평균 적합도(획득 점수의 평균)를 저장
 
 -   `Tournament` 클래스 시험하기
 
@@ -349,8 +340,7 @@ nav_order: 9
 
     -   `prob_survive`: 점수에 따라 생존 확률 계산
 
--   `PDSimulation` 클래스 만들기 $$\rightarrow$$ 매 하위 게임에서 얻는
-    점수와 생존 확률을 맵핑
+-   `PDSimulation` 클래스 만들기 $$\rightarrow$$ 매 하위 게임에서 얻는 점수와 생존 확률을 맵핑
 
             class PDSimulation(Simulation):
             
@@ -438,12 +428,9 @@ nav_order: 9
 
     -   `Opening`: 첫 하위 게임에서 협력하는 경기자의 비율
 
-    -   `Retalitating`: 상대방의 배신 이후 배신하는 경기자의 비율,
-        상대방의 협력 이후 배신하는 경기자의 비율 $$\rightarrow$$ 두 비율
-        간의 차이
+    -   `Retalitating`: 상대방의 배신 이후 배신하는 경기자의 비율, 상대방의 협력 이후 배신하는 경기자의 비율 $$\rightarrow$$ 두 비율 간의 차이
 
-    -   `Forgiving`: 상대방의 DC 이후 협력하는 경기자의 비율, 상대방의
-        CD 이후 협력하는 경기자의 수 $$\rightarrow$$ 둘의 차이
+    -   `Forgiving`: 상대방의 DC 이후 협력하는 경기자의 비율, 상대방의 CD 이후 협력하는 경기자의 수 $$\rightarrow$$ 둘의 차이
 
     -   `Forgiving2`: 상대방의 첫 두 게임에 대해 협력하는 경기자의 수
 
@@ -481,8 +468,7 @@ nav_order: 9
             plot_result(0, color='C0')
             savefig('figs/chap12-1')
 
-    -   초기의 평균 적합도는 1 $$\rightarrow$$ 모두 배신 전략을 하고
-        있으므로
+    -   초기의 평균 적합도는 1 $$\rightarrow$$ 모두 배신 전략을 하고 있으므로
 
     -   협력자로의 변이가 나타나면서 평균 적합도는 2.5 근방에서 진동
 
@@ -502,8 +488,7 @@ nav_order: 9
 
     -   `Niceness`: 평균 협력자는 절반 이상 분포, 장기적으로 0.6을 상회
 
-    -   `Opening`: 첫 게임의 협력자도 평균 협력자의 분포와 유사, 하지만,
-        그 비중 변동은 심함
+    -   `Opening`: 첫 게임의 협력자도 평균 협력자의 분포와 유사, 하지만, 그 비중 변동은 심함
 
 -   최종 단계에서 유형 분포
 
@@ -521,8 +506,7 @@ nav_order: 9
 
         -   <https://pandas.pydata.org>
 
-    -   `Series`: 연속적인 값의 일차원 배열과 자료 라벨(인덱스)의 배열로
-        정리
+    -   `Series`: 연속적인 값의 일차원 배열과 자료 라벨(인덱스)의 배열로 정리
 
         -   <https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.html>
 
@@ -530,7 +514,6 @@ nav_order: 9
 
 1.  `*`는 해당 값을 튜플로, `**`는 딕셔너리로 처리한다.
 
-2.  구현하려는 모형의 전체 과정을 하나의 완결된 실행 단위로 쪼개어
-    정리하고, 이를 `class`로 구현한다.
+2.  구현하려는 모형의 전체 과정을 하나의 완결된 실행 단위로 쪼개어 정리하고, 이를 `class`로 구현한다.
 
 3.  데이터 분석을 위해 보통 `Pandas`를 사용한다.

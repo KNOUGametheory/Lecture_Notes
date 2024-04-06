@@ -178,7 +178,7 @@ nav_order: 6
 
 -   두 번째 셀에 다음을 입력하고, 셀 하나 추가
 
-    ```
+    ```python
     numpy.sqrt(4)
     ```
 
@@ -190,7 +190,7 @@ nav_order: 6
 
 -   다음을 실행하고 값을 확인
 
-    ```
+    ```python
 	np.sqrt(4)
     ```
 
@@ -200,7 +200,7 @@ nav_order: 6
 
 -   첫 셀에 다음을 모두 입력, 실행, 값을 확인
 
-    ```
+    ```python
     import numpy as np
 	np.sqrt(4)
     ```
@@ -221,7 +221,7 @@ nav_order: 6
 
         -   $$f(x) = 2x+1$$ $$\rightarrow$$ 아래 코드 입력 후 실행
 
-            ```
+            ```python
 			def f(x):
 			return 2 * x + 1
             ```
@@ -230,40 +230,40 @@ nav_order: 6
 
             -   코드 블록은 항상 들여쓰기: 같은 칸 수 만큼 들여쓰기, 표준 4칸
 			
-                ```
+                ```python
                 def f(x):
 				    return 2 * x + 1
                 ```
 
         -   `f(1)` 입력 실행 후, 값을 확인
 		
-             ```
+             ```python
              f(1)
              ```
 
         -   $$f(x) = a+bx$$ $$\rightarrow$$ 아래 코드 입력 후 실행
 
-            ```
+            ```python
 			def f(x, a=1, b=1):
 			    return a + b * x
             ```
 
             -   `f(2)` 입력 실행 후, 값을 확인
 			
-                ```
+                ```python
                 f(2)
                 ```
 
             -   `f(2, a=4, b=5)` 입력 실행 후, 값을 확인
 			
-               ```
+               ```python
                f(2, a=4, b=5)
                ```
 			
 
         -   이미 정의된 함수도 다시 정의할 수 있음
 
-            ```
+            ```python
 			def new_abs_function(x):                
 			    if x < 0:
 				    abs_value = -x
@@ -288,7 +288,7 @@ nav_order: 6
 
         -   확인해보자
 		
-            ```
+            ```python
 			print(new_abs_function(3))
 			print(new_abs_function(-3)) 
             ```
@@ -317,7 +317,7 @@ nav_order: 6
 
     -   소득(`earn`), 지출(`spend`) 함수 만으로 이 관계를 만들어보자
 	
-	    ```
+	    ```python
 		def earn(w,y):
 		    return w+y
 		
@@ -331,7 +331,7 @@ nav_order: 6
 
     -   다음을 입력해보자
 	
-        ```
+        ```python
 		w0=100
 		w1=earn(w0,10)
 		w2=spend(w1,20)
@@ -343,7 +343,7 @@ nav_order: 6
         -   즉, 최초 자산 100, 매기 소득 10, 매기 지출 20을 의미
 
     -   아래 결과가 나오는 것을 확인하자
-        ```
+        ```python
 		w0,w1,w2,w3,w4 =  100 110 90 100 80
         ```
 
@@ -363,7 +363,7 @@ nav_order: 6
 
     -   다음을 입력, 실행, 셀 추가 해보자
 	
-        ```
+        ```python
         class Consumer:
 		    def __init__(self, w):
 			    self.wealth = w
@@ -378,7 +378,7 @@ nav_order: 6
         ```
 
     -   다음을 입력, 실행, 셀 추가해보자
-        ```
+        ```python
         c1 = Consumer(10) 
         c2 = Consumer(15)
         print("소비자 1의 최초 자산: ", c1.wealth, ", " "소비자 2의 최초 자산: ", c2.wealth)
@@ -397,34 +397,34 @@ nav_order: 6
             3.  `+=`: $$i = i + 1$$ $$\rightarrow$$ `i += 1`
 
     -   다음을 입력, 실행, 셀 추가해보자
-        ```
+        ```python
         c1.earn(10)
 		c2.earn(20)
 		print("소비자 1의 소득 후 자산: ", c1.wealth, ", " "소비자 2의 소득 후 자산: ", c2.wealth)
         ```
 
     -   다음을 입력, 실행, 셀 추가해보자
-        ```
+        ```python
 		c1.spend(10)
 		c2.spend(40)
 		print("소비자 1의 소비 후 자산: ", c1.wealth, ", " "소비자 2의 소비 후 자산: ", c2.wealth)
         ```
 
         -   아래 결과가 나오는 것이 맞음
-            ```
+            ```python
 			자산 부족!!!
 			소비자 1의 소비 후 자산: 10 ,소비자 2의 소비 후 자산: 35
             ```
 
     -   `c1.__dict__`를 입력, 실행, 셀 추가해보자
 	
-        ```
+        ```python
         c1.__dict__
         ```
 
     -   `c2.__dict__`를 입력, 실행해보자
 	
-        ```
+        ```python
         c2.__dict__
         ```
 

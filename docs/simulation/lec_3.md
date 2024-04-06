@@ -71,7 +71,7 @@ nav_order: 3
 
     -   기본 모형에서 나비는 정해진 시간 동안 계속 움직임 $$\rightarrow$$ 나비가 국지적 정상에 도달하면 멈춘다는 가정을 추가
 
-        -   국지적 정상: 주변의 8개 `patches`보다 높은 `patches` $$\rightarrow$$ 주변 8개? `neighbors` 사용
+        -   국지적 정상: 주변의 8개 `patches`보다 높은 `patches` $$\rightarrow$$ 주변 8개를 어떻게 지정? $$\rightarrow$$ `neighbors` 사용
 
     -   모든 나비가 사용하는 통로의 폭 $$= \dfrac{\text{나비가 지나간 길}}{\text{나비의 출발점과 도착점을 연결하는 (평균) 직선 거리}}$$
 
@@ -81,7 +81,9 @@ nav_order: 3
 
 -   새 이름으로 저장: `butterfly_2.nlogo`
 
-    -   모형에 변화를 줄 때는 항상 이전 모형의 복사 파일을 만든 후에 진행. 단순한 시도만 하고자 할 때도, 반드시 원본 파일을 남겨두고, 복제 파일에서 진행할 것
+    -   모형에 변화를 줄 때는 항상 이전 모형의 복사 파일을 만든 후에 진행
+	
+	-   단순한 시도만 하고자 할 때도, 반드시 원본 파일을 남겨두고, 복제 파일에서 진행할 것
 
     -   미래의 나와 과거의 나가 대화할 때가 많음 $$\rightarrow$$ `Code` 탭에 어떤 변화가 있는 지 기록하거나, 표를 만들어 어떤 변화가 있는 지 정리해두는 것도 좋음
 
@@ -139,20 +141,21 @@ nav_order: 3
     -   $$\rightarrow$$ 계산 식을 보면, 우리에게 필요한 것은 출발점과 도착점의 직선 거리와 나비가 지나간 길
 
     -   나비의 출발점: `patch-here` 사용
-    ```
-	turtles-own
-	[
-	 start-patch
-	]
-	
-	...
-	
-	crt 50
-	[
-	 ...
-	 set start-patch patch-here
-	]
-    ```
+
+        ```
+		turtles-own
+		[
+		 start-patch
+		]
+		
+		...
+		
+		crt 50
+		[
+		 ...
+		 set start-patch patch-here
+		]
+        ```
 
     -   우리는 나비가 어떤 `patches` 를 사용할 지 모름
 
@@ -187,13 +190,14 @@ nav_order: 3
 
     -   우리가 알고자 하는 값을 구하는 과정을 생각해보자
 
-        -   나비가 지나간 모든 `patches`의 수를 계산 $$\rightarrow$$ `count`, `with` 사용
+        1.   나비가 지나간 모든 `patches`의 수를 계산 $$\rightarrow$$ `count`, `with` 사용
 
-        -   나비 각각의 출발점과 현재 위치의 거리를 계산 $$\rightarrow$$ `distance` 사용
+        2.   나비 각각의 출발점과 현재 위치의 거리를 계산 $$\rightarrow$$ `distance` 사용
 
-        -   나비 전체의 평균 거리를 계산 $$\rightarrow$$ `mean [] of` 사용
+        3.   나비 전체의 평균 거리를 계산 $$\rightarrow$$ `mean [] of` 사용
 
-        -   통로 폭: (1)/(3)
+        4.   통로 폭: 1\. / 3\.
+		
             ```
               to-report corridor-width
 			  let num-patches-used count patches with [used? = true]
@@ -209,19 +213,20 @@ nav_order: 3
             ```
 
     -   변수 지정을 잊지 말자
-    ```
-	globals
-    [
-	 ;q
-	 mean-of-the-distance
-	]
+	
+        ```
+	    globals
+        [
+		 ;q
+		 mean-of-the-distance
+		]
 
-    turtles-own
-    [
-	 start-patch
-	 the-distance
-	]
-    ```
+        turtles-own
+        [
+         start-patch
+         the-distance
+		]
+        ```
 
 -   실행하면? 통로 폭의 값을 확인하지는 못했음 $$\rightarrow$$ 계산된 통로 폭의 값을 확인하자
 
@@ -287,6 +292,7 @@ nav_order: 3
 		 plot corridor-width
 		 ...
 		end
+        ```
 
         -   위 상태에서 코드는 경고없이 잘 저장 되지만, 실행하면 에러를 만듬 $$\rightarrow$$ 그래프를 만들어야 함
 
@@ -306,6 +312,7 @@ nav_order: 3
 		 ...
 		 export-plot "Corridor width" (word "Corridor-output-for-q-" q ".csv")  
 		end
+        ```
 
     -   스프레드시트 프로그램이나 통계 패키지에서 `.csv` 파일을 불러와서 분석
 
@@ -327,7 +334,7 @@ nav_order: 3
 
         -   새 이름으로 저장: `butterfly_3.nlogo`
 
-        -   <https://www.railsback-grimm-abm-book.com/downloads-errata-2nd-edition/>, Supporting Materials Chapter 5, "ElevationData.txt\"
+        -   [Railsback and Grimm, Supporting Materials Chapter 5, "ElevationData.txt](<https://www.railsback-grimm-abm-book.com/downloads-errata-2nd-edition/)
 
         -   불러올 파일을 같은 작업 폴더에 두고 `file-open`을 사용하거나 아니면 `user-file` 사용
             ```
@@ -393,13 +400,15 @@ nav_order: 3
         ```
 		crt 50
 		[
+		 ...
          setxy random-pxcor random-pycor
 		] 
+        ```
 
     -   나비의 수를 바꿔보자
         ```
 		crt 500
-		...
+
         ```
 
 -   서로 다른 시나리오가 반복되는 실험(experiments)을 해야 함
@@ -422,11 +431,11 @@ nav_order: 3
 
 -   우리의 경우, $$q$$
 
--   반복 시행을 수동으로? $$\rightarrow$$ BehaviorSpace가 우리를 구원하리라
+-   반복 시행을 수동으로? $$\rightarrow$$ `BehaviorSpace`가 우리를 구원하리라
 
     -   `Tools` $$\rightarrow$$ `BehaviorSpace` $$\rightarrow$$ `New`
 
-    -   매뉴얼 : Features $$\rightarrow$$ BehaviorSpace Guide
+    -   매뉴얼 : `Features` $$\rightarrow$$ `BehaviorSpace Guide`
 
     -   전역 변수 값을 바꿔서 다수의 시나리오를 생성
 
@@ -436,8 +445,7 @@ nav_order: 3
 
 ## 정리하기
 
-1.  중요한 변화가 있을 때에는 새로운 버전의 파일을 저장하고 변화 내용을
-    기록한다.
+1.  중요한 변화가 있을 때에는 새로운 버전의 파일을 저장하고 변화 내용을 기록한다.
 
 2.  필요에 따라 주석 처리를 한다.
 

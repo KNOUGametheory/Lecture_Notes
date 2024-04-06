@@ -10,7 +10,7 @@ permalink: docs/game
 
 ## 강의 홈페이지
 
-K-MOCC, [게임이론](https://www.kmooc.kr/view/course/detail/10379)
+K-MOCC, [게임이론](https://www.kmooc.kr/view/course/detail/10379){:target="_blank"}
 
 ## 강의 목표
 

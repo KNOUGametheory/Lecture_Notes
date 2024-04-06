@@ -25,21 +25,21 @@ nav_order: 2
 
 ## Netlogo 시작하기: 설치, 매뉴얼, 기본 화면
 
--   Netlogo 설치
+-   [Netlogo 설치](https://ccl.northwestern.edu/netlogo/download.shtml){:target="_blank"}
 
-    -   <https://ccl.northwestern.edu/netlogo/download.shtml>
-
-    -   2023년 9월 현재, ver. 6.3.0
-
+    -   2024년 5월 현재, ver. 6.4.0
+	
+	    -   동영상 강의는 ver. 6.3.0으로 제작되었으나, 강의에서 수정이 필요한 코드는 없음
+		
     -   버전 선택 후 다운로드 `Download` 버튼 클릭
 
     -   Windows, MacOS, Linux 판 설치 가능
 
 -   매뉴얼/사전과 친해지기
 
-    -   매뉴얼: <https://ccl.northwestern.edu/netlogo/docs/>
+    -   [매뉴얼](https://ccl.northwestern.edu/netlogo/docs/){:target="_blank"}
 
-    -   사전: <https://ccl.northwestern.edu/netlogo/docs/dictionary.html>
+    -   [사전](https://ccl.northwestern.edu/netlogo/docs/dictionary.html){:target="_blank"}
 
 -   세 개의 탭
 
@@ -55,7 +55,7 @@ nav_order: 2
 
         -   모형에 대한 설명을 기록 또는 확인
 
-        -   `Markdown` 문법: <https://ccl.northwestern.edu/netlogo/docs/infotab.html>
+        -   [`Markdown` 문법](https://ccl.northwestern.edu/netlogo/docs/infotab.html){:target="_blank"}
 
     -   `Code`
 
@@ -67,9 +67,7 @@ nav_order: 2
 
     -   기존 모형의 예제 모음
 
--   넷로고 모형 모음
-
-    -   <http://modelingcommons.org/account/login>
+-   [넷로고 모형 모음](http://modelingcommons.org/account/login){:target="_blank"}
 
 ## 나비 모형: ODD 프로토콜
 
@@ -79,10 +77,9 @@ nav_order: 2
 
     -   재현성: 행위자 기반 모형을 재실행하거나 결과를 복제하기 어려울 수 있음 $$\rightarrow$$ 실험실 실험의 재현과 같은 개념
 
-        -   우리가 만드는 모형 안에 연구 목적, 모형 구성, 변수 설정, 정당화 등에 대한 논의를 다 설명하기 어렵기 때문
+        -   우리가 만드는 모형 안에 연구 목적, 모형 구성, 변수 설정, 정당화 등에 대한 논의를 모두 설명하기 어렵기 때문
 
-    -   $$\rightarrow$$ 손 쉽게 이해할 수 있도록 표준화된 설명 방식을
-        만들면 되지 않을까?
+    -   $$\rightarrow$$ 손 쉽게 이해할 수 있도록 표준화된 설명 방식을 만들면 되지 않을까?
 
     -   $$\rightarrow$$ 프로토콜
 
@@ -101,11 +98,9 @@ nav_order: 2
 
 -   나비 모형의 목적
 
-    -   나비의 언덕 오르기 행위와 지형도의 상호 작용으로 통로가
-        만들어지는 조건은 무엇인가?
+    -   나비의 언덕 오르기 행위와 지형도의 상호 작용으로 통로가 만들어지는 조건은 무엇인가?
 
-    -   나비의 언덕 오르기에 영향을 미치는 다양한 요소가 통로의 창발에
-        영향을 미치는가?
+    -   나비의 언덕 오르기에 영향을 미치는 다양한 요소가 통로의 창발에 영향을 미치는가?
 
 -   독립체, 상태 변수, 척도
 
@@ -173,7 +168,7 @@ nav_order: 2
 
 ### 기초 문법
 
--   행위자: 넷로고 programming guide (<https://ccl.northwestern.edu/netlogo/docs/programming.html>)
+-   행위자: [넷로고 programming guide](<https://ccl.northwestern.edu/netlogo/docs/programming.html>)
 
     -   `turtles`: 이동형, 사망/재생산 능력, 네트워크의 노드 등
 
@@ -229,7 +224,7 @@ nav_order: 2
 
 -   `Info` 탭에 작성
 
-    -   <https://www.railsback-grimm-abm-book.com/E2-Downloads/Chapter04/ButterflyModelODD.txt>
+    -   [Railsback and Grimm 참고](https://www.railsback-grimm-abm-book.com/E2-Downloads/Chapter04/ButterflyModelODD.txt)
 
 -   다음 단계로 갑시다 $$\rightarrow$$ `Code` 탭
 
@@ -247,7 +242,7 @@ nav_order: 2
     turtles-own
     [
     ]
-	````
+	```
 
     -   `Check` 클릭 $$\rightarrow$$ 아무 문제 없어야 정상
 
@@ -263,17 +258,17 @@ nav_order: 2
 
         -   공간의 크기, 중심, 유형 등 설정
 
-        -   설정 가능한 공간의 종류: <https://ccl.northwestern.edu/netlogo/docs/programming.html#topology>
+        -   [설정 가능한 공간의 종류](https://ccl.northwestern.edu/netlogo/docs/programming.html#topology){:target="_blank"}
 
-        -   `World wraps horizontally` checked $$+$$ `World wraps vertically` checked $$\rightarrow$$ 토러스(Torus)
+            -   `World wraps horizontally` checked $$+$$ `World wraps vertically` checked $$\rightarrow$$ 토러스(Torus)
 
-        -   `World wraps horizontally` checked $$+$$ `World wraps vertically` unchecked $$\rightarrow$$ 수평 실린더 공간
+            -   `World wraps horizontally` checked $$+$$ `World wraps vertically` unchecked $$\rightarrow$$ 수평 실린더 공간
 
-        -   `World wraps horizontally` unchecked $$+$$ `World wraps vertically` checked $$\rightarrow$$ 수직 실린더 공간
+            -   `World wraps horizontally` unchecked $$+$$ `World wraps vertically` checked $$\rightarrow$$ 수직 실린더 공간
 
-        -   `World wraps horizontally` unchecked $$+$$ `World wraps vertically` unchecked $$\rightarrow$$ 박스
+            -   `World wraps horizontally` unchecked $$+$$ `World wraps vertically` unchecked $$\rightarrow$$ 박스
 
-    -   `Location of origin` $$\rightarrow$$ `Corner` and `Bottom Left`
+    -   `Location of origin` $$\rightarrow$$ `Corner` 와 `Bottom Left`
 
     -   `max-pxcor` 와 `max-pycor` $$\rightarrow$$ 149, 149
 

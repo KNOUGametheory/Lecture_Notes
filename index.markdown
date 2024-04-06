@@ -8,11 +8,11 @@ nav_order: 1
 
 ## 강의 홈페이지
 
-K-MOOC 묶음강좌: [게임이론으로 이해하는 사회 현상: 입문](https://www.kmooc.kr/view/course/series/detail/57)
+K-MOOC 묶음강좌: [게임이론으로 이해하는 사회 현상: 입문](https://www.kmooc.kr/view/course/series/detail/57){:target="_blank"}
 
-- [게임이론을 위한 수학](https://www.kmooc.kr/view/course/detail/10296)
-- [게임이론](https://www.kmooc.kr/view/course/detail/10379)
-- [넷로고와 파이선을 활용한 게임이론 시뮬레이션](https://www.kmooc.kr/view/course/detail/10298)
+- [게임이론을 위한 수학](https://www.kmooc.kr/view/course/detail/10296){:target="_blank"}
+- [게임이론](https://www.kmooc.kr/view/course/detail/10379){:target="_blank"}
+- [넷로고와 파이선을 활용한 게임이론 시뮬레이션](https://www.kmooc.kr/view/course/detail/10298){:target="_blank"}
 
 체계적인 학습을 원한다면, 수학 $$\rightarrow$$ 게임이론 $$\rightarrow$$ 시뮬레이션 순으로 세 과목을 모두 수강하는 것이 이상적입니다.
 

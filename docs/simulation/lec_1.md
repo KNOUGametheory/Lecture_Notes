@@ -184,13 +184,15 @@ nav_order: 1
     -   $$\rightarrow$$ SIR (Susceptible - Infected - Recovered or immune)
         모형 
 		
-		$$$$
+		$$
 		\begin{align}
-                \dfrac{dS}{dt} & = -\beta S I \\
-                \dfrac{dI}{dt} & = \beta S I - \gamma I \\          
-                \dfrac{dR}{dt} & =\gamma I \\
+        \dfrac{dS}{dt} & = -\beta S I \\
+	
+        \dfrac{dI}{dt} & = \beta S I - \gamma I \\          
+				
+        \dfrac{dR}{dt} & =\gamma I \\
         \end{align}
-		$$$$
+		$$
 
         -   $$\beta$$: 감염병의 전파율
 

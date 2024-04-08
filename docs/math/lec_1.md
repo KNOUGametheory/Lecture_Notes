@@ -48,19 +48,17 @@ nav_order: 1
   
   - 일반적으로 모든 원소를 나열하는 것 자체에 한계가 존재
   
-  - 속성 $$𝑃$$를 가진 모든 $$𝑥$$의 집합 
-
-    - $$\{𝑥 | 𝑥 \text{는 속성} 𝑃 \text{를 가진다}\}$$
+  - 속성 $$𝑃$$를 가진 모든 $$𝑥$$의 집합 $$\{𝑥 \vert 𝑥 \text{는 속성} 𝑃 \text{를 가진다}\}$$
   
 - 조건제시법 예시
 
-  - $$ 𝑂 = \{𝑥 | 𝑥 \text{는 20보다 작은 홀수인 양의 정수} \} $$
+  - $$ 𝑂 = \{𝑥 \vert 𝑥 \text{는 20보다 작은 홀수인 양의 정수} \} $$
   
-  - $$ 𝑂 = \{𝑥 \in \mathbb{Z}^{+} | 𝑥 \text{는 홀수 and } 𝑥 < 20 \} $$
+  - $$ 𝑂 = \{𝑥 \in \mathbb{Z}^{+} \vert 𝑥 \text{는 홀수 and } 𝑥 < 20 \} $$
 
 ### 집합의 종류와 집합 사이의 관계
 
-- 공집합(empty set, null set) $$\emptyset$$ 또는 $$\{ \text{  } \}$$
+- 공집합(empty set, null set) $$\emptyset$$ 또는 $$\{ \text{    } \}$$
 
   - 어떤 개체(원소)도 속하지 않은 집합 
   
@@ -86,11 +84,11 @@ nav_order: 1
 - 무한집합의 크기는 비교할 수 없을까?
   - 자연수 $$\mathbb{N}$$, 정수 $$\mathbb{Z}$$, 유리수 $$\mathbb{Q}$$
 
-    - $$\rightarrow$$ $$ |\mathbb{N}| = |\mathbb{Z}| = |\mathbb{Q}| $$ (why? how?)
+    - $$\rightarrow$$ $$ \vert \mathbb{N} \vert = \vert \mathbb{Z} \vert = \vert \mathbb{Q} \vert $$ (why? how?)
 	
   - 모든 수 집합의 크기는 같다? **NO!**
   
-  - $$ |\mathbb{Q}| < |\mathbb{R}| $$ (cf. 실수 $$ \mathbb{R} $$; $$\because$$ 대각화 논법, 대각선 논법)
+  - $$ \vert \mathbb{Q} \vert < \vert \mathbb{R} \vert $$ (cf. 실수 $$ \mathbb{R} $$; $$\because$$ 대각화 논법, 대각선 논법)
 
 - 집합의 상동(equivalence) $$𝐴=𝐵$$
 
@@ -106,18 +104,18 @@ nav_order: 1
 
 - 멱집합(powerset)
 
-  - 𝒫(𝑆) : 집합 𝑆의 모든 부분집합을 원소로 가진 집합
+  - $$\mathcal{p}(S)$$ : 집합 $$𝑆$$의 모든 부분집합을 원소로 가진 집합
   
-  - 𝐵={0,  1}
+  - $$𝐵 = \{0,  1\}$$
     
-	- $\rightarrow$ 𝒫(𝐵)={∅,  {0},  {1},  {0, 1}} 
+	- $\rightarrow$ $$\mathcal{𝒫}(𝐵) = \{\emptyset, \{0\}, \{1\}, \{0, 1\} \} $$ 
 	
-	- ∅ $\rightarrow$ 𝒫(∅)={∅}; {∅} $\rightarrow$ 𝒫({∅})={∅,  {∅}
+	- $$\emptyset \rightarrow \mathcal{𝒫}(\emptyset) = \{\emptyset\}; \{\emptyset\} \rightarrow \mathcal{𝒫}(\{\emptyset\}) = \{ \emptyset,  \{\emptyset\} $$
   
   - 유한집합의 부분집합의 개수는?
 
-    - 유한집합 𝑆 의 멱집합 𝒫(𝑆)의 크기
-	- |𝑆|=𝑛  |𝒫(𝑆)|=2^𝑛 (why? how?)
+    - 유한집합 $$𝑆$$ 의 멱집합 $$\mathcal{𝒫}(𝑆)$$의 크기
+	- $$\vert S \vert = 𝑛 \rightarrow \vert \mathcal{𝒫}(𝑆) \vert = 2^{𝑛} $$ (why? how?)
 
 
 

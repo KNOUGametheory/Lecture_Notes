@@ -277,7 +277,7 @@ nav_order: 1
   
 -  논리곱(conjunction)
 
-  - 두 명제 $$𝑝$와 $$𝑞$$가 모두 ‘참’일 때만 ‘참'
+  - 두 명제 $$𝑝$$와 $$𝑞$$가 모두 ‘참’일 때만 ‘참'
 
     -  다른 경우에는 진리값이 ‘거짓’인 관계
 
@@ -310,6 +310,7 @@ nav_order: 1
 	| T     | F      | F               |
 	| F     | T      | F               |
 	| F     | F      | F               |
+
 
 ### 조건문과 필요조건, 충분조건
 
@@ -355,6 +356,116 @@ nav_order: 1
 
     - “김치전을 먹지 않으면, 비가 오지 않는다”
 
+### 논리적 동치
+- 드 모르간의 법칙: 명제의 부정으로 논리를 단순화
 
+  - $\neg (p \wedge q) \equiv \neg p \vee \neg q $
+
+    | $$p$$ | $$q$$  | $$p \wedge q$$ | $$ \neg (p \wedge q) $$ | $$ \neg p$$ | $$ \neg q$$ | $$\neg p \vee \neg q$$ |
+	| T     | T      | T              | F                       | F           | F           | F                      |
+	| T     | F      | F              | T                       | F           | T           | T                      |
+	| F     | T      | F              | T                       | T           | F           | T                      |
+	| F     | F      | F              | T                       | T           | T           | T                      |
+
+
+  - $\neg (p \vee q) \equiv \neg p \wedge \neg q $
+
+    | $$p$$ | $$q$$  | $$p \vee q$$ | $$ \neg (p \vee q) $$     | $$ \neg p$$ | $$ \neg q$$ | $$\neg p \wedge \neg q$$ |
+	| T     | T      | T              | F                       | F           | F           | F                        |
+	| T     | F      | T              | F                       | F           | T           | F                        |
+	| F     | T      | T              | F                       | T           | F           | F                        |
+	| F     | F      | F              | T                       | T           | T           | T                        |
+
+
+- 조건문 $$𝑝 \rightarrow 𝑞$$ 의 동치: $$\neg p \vee q $$
+
+  - 조건문 $$𝑝 \rightarrow 𝑞$$ 는 가정 $$𝑝$$가 ‘참(True)’이고 결론 $$𝑞$$가 ‘거짓(False)’일 때만 ‘거짓(False)’
+  
+  - “비가 오면, 김치전을 먹는다” $$\equiv$$ “비가 오지 않거나 김치전을 먹는다”
+
+    | $$p$$ | $$q$$  | $$p \rightarrow q$$ | $$ \neg p$$ | $$ q$$ | $$\neg p \vee \neg q$$ |
+	| T     | T      | T                   | F           | T      | T                      |
+	| T     | F      | F                   | F           | F      | F                      |
+	| F     | T      | T                   | T           | T      | T                      |
+	| F     | F      | T                   | T           | F      | T                      |
+	
+- 새로운 논리적 동치 만들기
+
+  - 
+    $$
+    \neg (p \rightarrow q) \equiv p \wedge \neg q 
+    $$
+
+    $$
+    \begin{align}
+    \neg (p \rightarrow q) & \equiv \neg (\neg p \vee q) \quad \text{(조건문의 동치)} \\
+                           & \equiv \neg (\neg p) \wedge \neg q \\
+                           & \equiv p \wedge \neg q \quad \text{(드 모르간의 법칙, 이중 부정)} \\
+    \end{align}
+    $$
+  - 
+    $$
+	\neg(p \vee (\neg p \wedge q)) \equiv \neg p \wedge \neg q \\
+	$$ 	
+
+    $$
+	\begin{align}
+	\neg(p \vee (\neg p \wedge q)) & \equiv \neg p \wedge \neg (\neg p \wedge q) \\
+	                               & \equiv \neg p \wedge (\neg (\neg p) \vee \neg q) \quad \text{(드 모르간의 법칙)} \\
+								   & \equiv \neg p \wedge (p \vee \neg q) \\
+								   & \equiv (\neg p \wedge p) \vee (\neg p \wedge \neg q) \quad \text{(분배 법칙)} \\
+								   & \equiv F \vee (\neg p \wedge \neg q) \\
+								   & \equiv \neg p \wedge \neg q \quad \text{(부정법칙, 항등법칙)}\\ 
+	\end{align}
+	$$ 	
+
+### 한정 기호
+
+- 전칭 한정기호(universal quantifier) $$\forall$$
+
+  - 어떤 변수가 취할 수 있는 모든 값에 대하여 주어진 명제가 ‘참(True)’이라고 주장할 때 활용
+  
+  - $$\forall x p(x)$$: 정의역에 속한 모든 $$𝑥$$의 값에 대하여 $$𝑃(𝑥)$$ “모든 $$𝑥$$에 대하여 $$𝑃(𝑥)$$” 또는 “임의의 $$𝑥$$에 대하여 $$𝑃(𝑥)$$”
+  
+  - $$𝑃(𝑥):𝑥+2 > 𝑥$$, 정의역이 실수 전체일 때($$\mathcal{D} = \mathbb{R}$$), $$\forall x p(x) = T$$ 또는 $$\forall x \in \mathbb{R}$$, $$𝑃(𝑥):(𝑥+2)−𝑥 = 2 > 0 \rightarrow T$$
+  
+  - cf. 반례(counter example): $$𝑃(𝑥)=𝐹$$로 만드는 정의역 원소 $$𝑥 \in \mathcal{D}$$
+
+- 존재 한정기호(existential quantifier) $$\exists$$
+
+  - 어떤 특성을 갖는 원소가 존재한다고 주장할 때 활용
+  
+  - $$\exists x Q(x)$$: 정의역에 속하는 적어도 하나의 $$𝑥$$에 대하여 $$𝑄(𝑥)$$ “어떤 $$𝑥$$에 대하여 $$𝑄(𝑥)$$” 또는 “적어도 한 $$𝑥$$에 대하여 $$𝑄(𝑥)$$”
+  
+  - $$𝑄(𝑥):3<𝑥<5$$, 정의역이 자연수일 때($$\mathcal{D} = \mathbb{N}$$), $$\exists x Q(x) = T$$ 또는 $$\exists x \in \mathbb{N} $$ such that $$ 𝑄(4):3<4<5 \rightarrow T$$
+  
+  - cf. 유일 한정기호 $$\exists!$$ 또는 $$\exists_{1}$$
+
+- 한정기호에 대한 드 모르간의 법칙
+
+  - $$\neg \forall x P(x) \equiv \exists x \neg P(x)$$: “정의역에 속한 모든 $$𝑥$$가 $$𝑃(𝑥)$$를 만족시키지 않는다”?
+
+  - $$\exists x Q(x) \equiv \forall x \neg Q(x)$$ “정의역에 속한 어떤 $$𝑥$$에 대하여 $$𝑄(𝑥)$$를 만족하는 것이 없다?”
+
+    | 부정                       | 동치 표현                  | 참                                  | 거짓                               | 
+	| $$\neg \forall x P(x)$$   | $$\exists x \neg P(x)$$  | $$P(x)$$가 거짓이 되는 $$x$$가 존재할 때  | 모든 $$x$$에 대하여 $$P(x)$$가 참일 때 | 
+	| $$\neg \exists x Q(x)$$   | $$\forall x \neg Q(x)$$  | 모든 $$x$$에 대하여 $$Q(x)$$가 거짓일 때  | $$Q(x)$$가 참이 되는 $$x$$가 존재할 때 | 
+
+
+- 응용해 봅시다!
+
+  - ‘가위바위보’ 게임에서 "이기기 위하 전략"은?
+  
+  - 경기자(player) 집합 $$ 𝐼 = \{ 1, 2 \} $$
+  
+  - 경기자 $$ 𝑖 \in 𝐼$$ 의 전략 집합 $$ 𝑆_{𝑖} = \{ \text{가위}, \text{바위}, \text{보} \} $$
+  
+  - (가위, 보); (바위, 가위); (보; 바위)? 순수전략? 혼합전략?
+
+       |          |       | $$P_{2}$$    |             |             | 
+	   |          |       | 가위          | 바위         |     보       | 
+	   | $$P_{1}$$| 가위   | $$(0, 0)$$   | $$(-1, 1)$$ | $$(1, -1)$$  | 
+	   |          | 바위   | $$(1, -1)$$  | $$(0, 0)$$  | $$(-1, 1)$$  | 
+	   |          | 보    | $$(-1, 1)$$  | $$(1, -1)$$  | $$(0, 0)$$  | 
 
 ## 증명의 기초

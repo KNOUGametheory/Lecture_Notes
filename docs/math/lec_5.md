@@ -12,7 +12,7 @@ nav_order: 5
 
 - 핵심만 쏙쏙!
 
-    {: .note}
+    {: .note
 	- (게임의 구성요소) 경기자, 전략, 결과, 보수, 게임의 규칙 $$\rightarrow$$ 공통지식
 	
 		- 경기자($$i$$)의 action profile $$(a_{i1},\cdots,a_{ij},\cdots,~a_{in})$$
@@ -23,7 +23,7 @@ nav_order: 5
 		
 		- 각 경기자의 순수전략
 		
-		>- 각 경기자의 전략에 따른 결과(outcome)는 경우의 수
+		- 각 경기자의 전략에 따른 결과(outcome)는 경우의 수}
 		
 		
 		

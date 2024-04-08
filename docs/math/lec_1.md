@@ -108,14 +108,21 @@ nav_order: 1
   
   - $$𝐵 = \{0,  1\}$$
     
-	- $\rightarrow$ $$\mathcal{𝒫}(𝐵) = \{\emptyset, \{0\}, \{1\}, \{0, 1\} \} $$ 
+	- $$\rightarrow \mathcal{𝒫}(𝐵) = \{\emptyset, \{0\}, \{1\}, \{0, 1\} \} $$ 
 	
-	- $$\emptyset \rightarrow \mathcal{𝒫}(\emptyset) = \{\emptyset\}; \{\emptyset\} \rightarrow \mathcal{𝒫}(\{\emptyset\}) = \{ \emptyset,  \{\emptyset\} $$
+	- $$\emptyset \rightarrow \mathcal{𝒫}(\emptyset) = \{\emptyset\}; \{\emptyset\} \rightarrow \mathcal{𝒫}(\{\emptyset\}) = \{ \emptyset,  \{\emptyset\} \} $$
   
   - 유한집합의 부분집합의 개수는?
 
     - 유한집합 $$𝑆$$ 의 멱집합 $$\mathcal{𝒫}(𝑆)$$의 크기
 	- $$\vert S \vert = 𝑛 \rightarrow \vert \mathcal{𝒫}(𝑆) \vert = 2^{𝑛} $$ (why? how?)
+
+### 집합의 연산
+- 합집합(union) $$A \cup B $$
+
+  -  집합 $$𝐴$$와 집합 $$𝐵$$ 중 적어도 하나에 포함된 개체(원소)의 집합
+  
+  -  $$𝐴 \cup 𝐵 = \{𝑥 \vert 𝑥 \in 𝐴 \text{ 또는 } 𝑥 \in 𝐵 \} = \{ 𝑥 \vert 𝑥 \in 𝐴 \vee x \in 𝐵 \} $$
 
 
 

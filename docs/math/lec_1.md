@@ -122,11 +122,11 @@ nav_order: 1
 
   -  집합 $$𝐴$$와 집합 $$𝐵$$ 중 적어도 하나에 포함된 개체(원소)의 집합
   
-  -  $$𝐴 \cup 𝐵 = \{𝑥 \vert 𝑥 \in 𝐴 \text{ 또는 } 𝑥 \in 𝐵 \} = \{ 𝑥 \vert 𝑥 \in 𝐴 \vee x \in 𝐵 \} $$
+  -  $$𝐴 \cup 𝐵 = \{𝑥 \vert 𝑥 \in 𝐴 \text{ 또는 } 𝑥 \in 𝐵 \} = \{ 𝑥 \vert 𝑥 \in 𝐴 \lor x \in 𝐵 \} $$
 
 	 ![Venn Diamgram of Union Sets](/images/Lec_1_Union_set_VD.png)
 
-	 | $$a$$ | $$b$$  | $$a \vee b $$ |
+	 | $$a$$ | $$b$$  | $$a \lor b $$ |
 	 | True  | True   | True          |
 	 | True  | False  | True          |
 	 | False | True   | True          |
@@ -137,14 +137,14 @@ nav_order: 1
   -  집합 $$𝐴$$와 집합 $$𝐵$$ 모두에 포함된 개체(원소)의 집합
   
    $$ 
-   𝐴 \cap 𝐵 = \{𝑥 \vert 𝑥 \in 𝐴 \text{ 그리고 } 𝑥 \in 𝐵 \} = \{𝑥 \vert 𝑥 \in 𝐴 \wedge 𝑥 \in 𝐵 \} 
+   𝐴 \cap 𝐵 = \{𝑥 \vert 𝑥 \in 𝐴 \text{ 그리고 } 𝑥 \in 𝐵 \} = \{𝑥 \vert 𝑥 \in 𝐴 \land 𝑥 \in 𝐵 \} 
    $$
   
   - cf. 집합 $$𝐴$$와 집합 $$𝐵$$는 서로소(disjoint) if $$𝐴 \cap 𝐵 = \emptyset $$
 
 	 ![Venn Diamgram of Intersection Sets](/images/Lec_1_Intersection_set_VD.png)
 
-	 | $$a$$ | $$b$$  | $$a \wedge b $$ |
+	 | $$a$$ | $$b$$  | $$a \land b $$ |
 	 | True  | True   | True            |
 	 | True  | False  | False           | 
 	 | False | True   | False           | 
@@ -155,7 +155,7 @@ nav_order: 1
   - 집합 𝐴의 원소 중 집합 𝐵에 포함되지 않은 원소의 집합
   
    $$
-   𝐴 − 𝐵 = \{𝑥 \vert 𝑥 \in 𝐴 \text{ 그리고 } 𝑥 \notin  𝐵 \} = \{𝑥 \vert 𝑥 \in 𝐴 \wedge 𝑥 \notin 𝐵 \} 
+   𝐴 − 𝐵 = \{𝑥 \vert 𝑥 \in 𝐴 \text{ 그리고 } 𝑥 \notin  𝐵 \} = \{𝑥 \vert 𝑥 \in 𝐴 \land 𝑥 \notin 𝐵 \} 
    $$ 	
    
    $$
@@ -171,7 +171,7 @@ nav_order: 1
   - 전체집합 $$𝑈$$의 원소이지만 집합 $$𝐴$$에는 속하지 않는 원소의 집합
   
   $$
-  \overline{A} = \{𝑥 \vert 𝑥 \in 𝑈 \text{ 그리고 } 𝑥 \notin 𝐴 \} = \{𝑥 \vert 𝑥 \in 𝑈 \wedge 𝑥 \notin 𝐴 \} 
+  \overline{A} = \{𝑥 \vert 𝑥 \in 𝑈 \text{ 그리고 } 𝑥 \notin 𝐴 \} = \{𝑥 \vert 𝑥 \in 𝑈 \land 𝑥 \notin 𝐴 \} 
   $$
   
   $$
@@ -210,7 +210,7 @@ nav_order: 1
   
   - 보수 법칙: $$ 𝐴 \cup \overline{A} = 𝑈,  𝐴 \cap \overline {A} = \emptyset $$
 
-- 응용해 봅시다!
+### 응용해 봅시다!
 
   - ‘가위바위보’ 게임을 집합으로 정의해보면?
   
@@ -267,9 +267,9 @@ nav_order: 1
 
     - 다른 경우에는 진리값이 ‘참’인 관계
   
-  - 논리합의 표현: $$ 𝑝 \vee 𝑞$$ 또는 “𝑝 or 𝑞”
+  - 논리합의 표현: $$ 𝑝 \lor 𝑞$$ 또는 “𝑝 or 𝑞”
 
-	| $$p$$ | $$q$$  | $$p \vee q $$ |
+	| $$p$$ | $$q$$  | $$p \lor q $$ |
 	| T     | T      | T             |
 	| T     | F      | T             |
 	| F     | T      | T             |
@@ -281,9 +281,9 @@ nav_order: 1
 
     -  다른 경우에는 진리값이 ‘거짓’인 관계
 
-  - 논리합의 표현: $$𝑝 \wedge 𝑞$$ 또는 “𝑝 and 𝑞”
+  - 논리합의 표현: $$𝑝 \land 𝑞$$ 또는 “𝑝 and 𝑞”
 
-    | $$p$$ | $$q$$  | $$p \wedge q $$ |
+    | $$p$$ | $$q$$  | $$p \land q $$ |
 	| T     | T      | T               |
 	| T     | F      | F               |
 	| F     | T      | F               |
@@ -359,63 +359,55 @@ nav_order: 1
 ### 논리적 동치
 - 드 모르간의 법칙: 명제의 부정으로 논리를 단순화
 
-  - $\neg (p \wedge q) \equiv \neg p \vee \neg q $
+  - $$\neg (p \land q) \equiv \neg p \lor \neg q $$
 
-    | $$p$$ | $$q$$  | $$p \wedge q$$ | $$ \neg (p \wedge q) $$ | $$ \neg p$$ | $$ \neg q$$ | $$\neg p \vee \neg q$$ |
+    | $$p$$ | $$q$$  | $$p \land q$$ | $$ \neg (p \land q) $$ | $$ \neg p$$ | $$ \neg q$$ | $$\neg p \lor \neg q$$ |
 	| T     | T      | T              | F                       | F           | F           | F                      |
 	| T     | F      | F              | T                       | F           | T           | T                      |
 	| F     | T      | F              | T                       | T           | F           | T                      |
 	| F     | F      | F              | T                       | T           | T           | T                      |
 
 
-  - $\neg (p \vee q) \equiv \neg p \wedge \neg q $
+  - $$\neg (p \lor q) \equiv \neg p \land \neg q $$
 
-    | $$p$$ | $$q$$  | $$p \vee q$$ | $$ \neg (p \vee q) $$     | $$ \neg p$$ | $$ \neg q$$ | $$\neg p \wedge \neg q$$ |
+    | $$p$$ | $$q$$  | $$p \lor q$$ | $$ \neg (p \lor q) $$     | $$ \neg p$$ | $$ \neg q$$ | $$\neg p \land \neg q$$ |
 	| T     | T      | T              | F                       | F           | F           | F                        |
 	| T     | F      | T              | F                       | F           | T           | F                        |
 	| F     | T      | T              | F                       | T           | F           | F                        |
 	| F     | F      | F              | T                       | T           | T           | T                        |
 
 
-- 조건문 $$𝑝 \rightarrow 𝑞$$ 의 동치: $$\neg p \vee q $$
+- 조건문 $$𝑝 \rightarrow 𝑞$$ 의 동치: $$\neg p \lor q $$
 
   - 조건문 $$𝑝 \rightarrow 𝑞$$ 는 가정 $$𝑝$$가 ‘참(True)’이고 결론 $$𝑞$$가 ‘거짓(False)’일 때만 ‘거짓(False)’
   
   - “비가 오면, 김치전을 먹는다” $$\equiv$$ “비가 오지 않거나 김치전을 먹는다”
 
-    | $$p$$ | $$q$$  | $$p \rightarrow q$$ | $$ \neg p$$ | $$ q$$ | $$\neg p \vee \neg q$$ |
-	| T     | T      | T                   | F           | T      | T                      |
-	| T     | F      | F                   | F           | F      | F                      |
-	| F     | T      | T                   | T           | T      | T                      |
-	| F     | F      | T                   | T           | F      | T                      |
+    | $$p$$ | $$q$$  | $$p \rightarrow q$$ | $$ \neg p$$ | $$ q$$ | $$\neg p \lor q$$ |
+	| T     | T      | T                   | F           | T      | T                 |
+	| T     | F      | F                   | F           | F      | F                 |
+	| F     | T      | T                   | T           | T      | T                 |
+	| F     | F      | T                   | T           | F      | T                 |
 	
 - 새로운 논리적 동치 만들기
-
-  - 
-    $$
-    \neg (p \rightarrow q) \equiv p \wedge \neg q 
-    $$
-
     $$
     \begin{align}
-    \neg (p \rightarrow q) & \equiv \neg (\neg p \vee q) \quad \text{(조건문의 동치)} \\
-                           & \equiv \neg (\neg p) \wedge \neg q \\
-                           & \equiv p \wedge \neg q \quad \text{(드 모르간의 법칙, 이중 부정)} \\
+	\neg (p \rightarrow q) & \equiv p \land \neg q 
+    \neg (p \rightarrow q) & \equiv \neg (\neg p \lor q) \quad \text{(조건문의 동치)} \\
+                           & \equiv \neg (\neg p) \land \neg q \\
+                           & \equiv p \land \neg q \quad \text{(드 모르간의 법칙, 이중 부정)} \\
     \end{align}
     $$
-  - 
-    $$
-	\neg(p \vee (\neg p \wedge q)) \equiv \neg p \wedge \neg q \\
-	$$ 	
-
+	
     $$
 	\begin{align}
-	\neg(p \vee (\neg p \wedge q)) & \equiv \neg p \wedge \neg (\neg p \wedge q) \\
-	                               & \equiv \neg p \wedge (\neg (\neg p) \vee \neg q) \quad \text{(드 모르간의 법칙)} \\
-								   & \equiv \neg p \wedge (p \vee \neg q) \\
-								   & \equiv (\neg p \wedge p) \vee (\neg p \wedge \neg q) \quad \text{(분배 법칙)} \\
-								   & \equiv F \vee (\neg p \wedge \neg q) \\
-								   & \equiv \neg p \wedge \neg q \quad \text{(부정법칙, 항등법칙)}\\ 
+    \neg(p \lor (\neg p \land q)) & \equiv \neg p \land \neg q \\
+	\neg(p \lor (\neg p \land q)) & \equiv \neg p \land \neg (\neg p \land q) \\
+	                               & \equiv \neg p \land (\neg (\neg p) \lor \neg q) \quad \text{(드 모르간의 법칙)} \\
+								   & \equiv \neg p \land (p \lor \neg q) \\
+								   & \equiv (\neg p \land p) \lor (\neg p \land \neg q) \quad \text{(분배 법칙)} \\
+								   & \equiv F \lor (\neg p \land \neg q) \\
+								   & \equiv \neg p \land \neg q \quad \text{(부정법칙, 항등법칙)}\\ 
 	\end{align}
 	$$ 	
 
@@ -452,9 +444,9 @@ nav_order: 1
 	| $$\neg \exists x Q(x)$$   | $$\forall x \neg Q(x)$$  | 모든 $$x$$에 대하여 $$Q(x)$$가 거짓일 때  | $$Q(x)$$가 참이 되는 $$x$$가 존재할 때 | 
 
 
-- 응용해 봅시다!
+### 응용해 봅시다!
 
-  - ‘가위바위보’ 게임에서 "이기기 위하 전략"은?
+  - ‘가위바위보’ 게임에서 "이기기 위한 전략"은?
   
   - 경기자(player) 집합 $$ 𝐼 = \{ 1, 2 \} $$
   
@@ -469,3 +461,34 @@ nav_order: 1
 	   |          | 보    | $$(-1, 1)$$  | $$(1, -1)$$  | $$(0, 0)$$  | 
 
 ## 증명의 기초
+
+- 핵심만 쏙쏙! 
+
+    {: .note}
+	> '증명'은? 그럴듯한 것을 정말로 그러하게!
+
+
+###  증명에 대한 이해
+
+
+### 증명 방법: 직접 증명
+
+
+### 증명 방법: 대우 증명
+
+
+### 증명 방법: 모순 증명
+
+
+###  응용해 봅시다!
+
+- 게임이론에서 어떤 전략이 ‘유리한지’ 증명하려면?
+
+  - 우월전략(dominant strategy)
+  
+  - 열등전략(dominated strategy)
+  
+  - 내쉬균형(Nash Equilibrium)
+  
+  - 보수 함수 사이의 관계 파악이 중요
+

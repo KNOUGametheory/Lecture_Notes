@@ -673,7 +673,7 @@ nav_order: 1
   
   - 모순! $$\blacksquare$$
   
-  - “$$p \rightarrow q$$가 거짓”이라는 전제가 ‘거짓’ $$\rightarrow$$ $$p \rightarrow q$$가 참!
+- “$$p \rightarrow q$$가 거짓”이라는 전제가 ‘거짓’ $$\rightarrow$$ $$p \rightarrow q$$가 참!
 
 ###  응용해 봅시다!
 

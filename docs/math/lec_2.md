@@ -120,12 +120,12 @@ nav_order: 2
 - 연립방정식의 풀이 
 
     $$
-	\left\{
+	\begin{gathered}
     \begin{align}
     & 3x + y - 9 = 0 \\
     & x - 4y + 10 = 0 \\
     \end{align}
-	\right
+	\end{gathered}
     $$
 	
   - 가감법

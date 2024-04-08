@@ -75,6 +75,25 @@ nav_order: 1
   
   - cf. 빈 폴더와 빈 폴더를 포함하는 폴더
 
+- 집합의 크기(cardinality) $$|𝐴|$$
+
+  - 집합에 속한 서로 다른 개체(원소)의 개수
+  
+  - 유한집합(finite set)과 무한집합(infinite set)을 정의
+  
+  - cf. 가산성(countable, denumerable)
+
+- 무한집합의 크기는 비교할 수 없을까?
+  - 자연수 $$\matbb{N}$$, 정수 $$\mathb{Z}$$, 유리수 $$\mathbb{Q}$$
+
+    - $$\rightarrow$$ $$|\mathbb{N}|=|\mathbb{Z}|=|\mathbb{Q}|$$ (why? how?)
+	
+  - 모든 수 집합의 크기는 같다? **NO!**
+  
+  - $$|\mathbb{Q}|<|\mathbb{R}|$$ (cf. 실수 $$\mathbb{R}$$; $$\because$$ 대각화 논법, 대각선 논법)
+
+
+
 ## 명제와 논리
 
 ## 증명의 기초

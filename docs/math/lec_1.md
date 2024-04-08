@@ -124,13 +124,45 @@ nav_order: 1
   
   -  $$𝐴 \cup 𝐵 = \{𝑥 \vert 𝑥 \in 𝐴 \text{ 또는 } 𝑥 \in 𝐵 \} = \{ 𝑥 \vert 𝑥 \in 𝐴 \vee x \in 𝐵 \} $$
 
-	 ![Venn Diamgram of Union Sets](/images/Lec_1_Union_set_VD.jpg)
+	 ![Venn Diamgram of Union Sets](/images/Lec_1_Union_set_VD.png)
 
 	 | $$A$$ | $$B$$  | $$A \vee B $$ |
 	 | True  | True   | True          |
 	 | True  | False  | True          |
 	 | False | True   | True          |
 	 | False | False  | False         | 
+
+- 교집합(intersection) $$ 𝐴 \cap 𝐵 $$
+  
+  -  집합 $$𝐴$$와 집합 $$𝐵$$ 모두에 포함된 개체(원소)의 집합
+  
+  - $$ 𝐴 \capt 𝐵 = \{𝑥 \vert 𝑥 \in 𝐴 \text{ 그리고 } 𝑥 \in 𝐵\ } = \{𝑥 \vert 𝑥 \in 𝐴 \wedge 𝑥 \in 𝐵 \} $$
+  
+  - cf. 집합 $$𝐴$$와 집합 $$𝐵$$는 서로소(disjoint) if $$𝐴 \cap 𝐵 = \emptyset $$
+
+	 ![Venn Diamgram of Intersection Sets](/images/Lec_1_Intersection_set_VD.png)
+
+	 | $$A$$ | $$B$$  | $$A \wedge B $$ |
+	 | True  | True   | True            |
+	 | True  | False  | False           | 
+	 | False | True   | False           | 
+	 | False | False  | False           | 
+
+- 차집합(difference) $$𝐴−𝐵$$ 또는 $$𝐴∖𝐵$$
+
+  - 집합 𝐴의 원소 중 집합 𝐵에 포함되지 않은 원소의 집합
+  
+   $$
+   𝐴 − 𝐵 = \{𝑥 \vert 𝑥 \in 𝐴 \text{ 그리고 } 𝑥 \notin  𝐵 \} = \{𝑥 \vert 𝑥 \in 𝐴 \wedge 𝑥 \notin 𝐵 \} 
+   $$ 	
+   
+   $$
+   𝐴−𝐵 = 𝐴 − ( 𝐴 \cap B )
+   $$
+
+   ![Venn Diamgram of Difference Sets](/images/Lec_1_difference_set_VD_1.png)
+
+   ![Venn Diamgram of Difference Sets](/images/Lec_1_difference_set_VD_2.png)
 
 
 

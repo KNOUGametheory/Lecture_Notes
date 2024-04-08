@@ -124,6 +124,14 @@ nav_order: 1
   
   -  $$𝐴 \cup 𝐵 = \{𝑥 \vert 𝑥 \in 𝐴 \text{ 또는 } 𝑥 \in 𝐵 \} = \{ 𝑥 \vert 𝑥 \in 𝐴 \vee x \in 𝐵 \} $$
 
+	 ![Venn Diamgram of Union Sets](/images/Lec_1_Union_set_VD.jpg)
+
+	 | $$A$$ | $$B$$  | $$A \vee B $$ |
+	 | True  | True   | True          |
+	 | True  | False  | True          |
+	 | False | True   | True          |
+	 | False | False  | False         | 
+
 
 
 ## 명제와 논리

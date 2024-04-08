@@ -75,7 +75,7 @@ nav_order: 1
   
   - cf. 빈 폴더와 빈 폴더를 포함하는 폴더
 
-- 집합의 크기(cardinality) $$|𝐴|$$
+- 집합의 크기(cardinality) $$\| 𝐴 \|$$
 
   - 집합에 속한 서로 다른 개체(원소)의 개수
   
@@ -84,9 +84,9 @@ nav_order: 1
   - cf. 가산성(countable, denumerable)
 
 - 무한집합의 크기는 비교할 수 없을까?
-  - 자연수 $$\mathbb{N}$$, 정수 $$\mathhb{Z}$$, 유리수 $$\mathbb{Q}$$
+  - 자연수 $$\mathbb{N}$$, 정수 $$\mathbb{Z}$$, 유리수 $$\mathbb{Q}$$
 
-    - $$\rightarrow$$ $|\mathbb{N}|=|\mathbb{Z}|=|\mathbb{Q}|$ (why? how?)
+    - $$\rightarrow$$ $$|\mathbb{N}|=|\mathbb{Z}|=|\mathbb{Q}|$$ (why? how?)
 	
   - 모든 수 집합의 크기는 같다? **NO!**
   
@@ -100,9 +100,24 @@ nav_order: 1
 
 - 진부분집합(proper subset) $$A \subsetneq B$$
 
-  - 집합 $$𝐴$$가 집합 $$𝐵$$의 부분집합($$A \subset B$$)이면서 동시에 집합 $$𝐴$$와 집합 $$𝐵$$가 상등이 아닐 때($$𝐴 \neq 𝐵$$)
+  - 집합 $$𝐴$$가 집합 $$𝐵$$의 부분집합($$A \subseteq B$$)이면서 동시에 집합 $$𝐴$$와 집합 $$𝐵$$가 상등이 아닐 때($$𝐴 \neq 𝐵$$)
   
   - cf. 일상생활의 부분집합 관계는 대부분 진부분집합
+
+- 멱집합(powerset)
+
+  - 𝒫(𝑆) : 집합 𝑆의 모든 부분집합을 원소로 가진 집합
+  
+  - 𝐵={0,  1}
+    
+	- $\rightarrow$ 𝒫(𝐵)={∅,  {0},  {1},  {0, 1}} 
+	
+	- ∅ $\rightarrow$ 𝒫(∅)={∅}; {∅} $\rightarrow$ 𝒫({∅})={∅,  {∅}
+  
+  - 유한집합의 부분집합의 개수는?
+
+    - 유한집합 𝑆 의 멱집합 𝒫(𝑆)의 크기
+	- |𝑆|=𝑛  |𝒫(𝑆)|=2^𝑛 (why? how?)
 
 
 

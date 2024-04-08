@@ -390,6 +390,7 @@ nav_order: 1
 	| F     | F      | T                   | T           | F      | T                 |
 	
 - 새로운 논리적 동치 만들기
+
     $$
     \begin{align}
 	\neg (p \rightarrow q) & \equiv p \land \neg q \\

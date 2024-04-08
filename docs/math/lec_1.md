@@ -126,7 +126,7 @@ nav_order: 1
 
 	 ![Venn Diamgram of Union Sets](/images/Lec_1_Union_set_VD.png)
 
-	 | $$A$$ | $$B$$  | $$A \vee B $$ |
+	 | $$a$$ | $$b$$  | $$a \vee b $$ |
 	 | True  | True   | True          |
 	 | True  | False  | True          |
 	 | False | True   | True          |
@@ -136,13 +136,15 @@ nav_order: 1
   
   -  집합 $$𝐴$$와 집합 $$𝐵$$ 모두에 포함된 개체(원소)의 집합
   
-  - $$ 𝐴 \capt 𝐵 = \{𝑥 \vert 𝑥 \in 𝐴 \text{ 그리고 } 𝑥 \in 𝐵\ } = \{𝑥 \vert 𝑥 \in 𝐴 \wedge 𝑥 \in 𝐵 \} $$
+   $$ 
+   𝐴 \cap 𝐵 = \{𝑥 \vert 𝑥 \in 𝐴 \text{ 그리고 } 𝑥 \in 𝐵 \} = \{𝑥 \vert 𝑥 \in 𝐴 \wedge 𝑥 \in 𝐵 \} 
+   $$
   
   - cf. 집합 $$𝐴$$와 집합 $$𝐵$$는 서로소(disjoint) if $$𝐴 \cap 𝐵 = \emptyset $$
 
 	 ![Venn Diamgram of Intersection Sets](/images/Lec_1_Intersection_set_VD.png)
 
-	 | $$A$$ | $$B$$  | $$A \wedge B $$ |
+	 | $$a$$ | $$b$$  | $$a \wedge b $$ |
 	 | True  | True   | True            |
 	 | True  | False  | False           | 
 	 | False | True   | False           | 
@@ -177,6 +179,10 @@ nav_order: 1
   $$
   
   ![Venn Diamgram of Complements Sets](/images/Lec_1_complement_set_VD.png)
+
+	 | $$a$$ | $$\neg a$$  | 
+	 | True  | False       | 
+	 | False | True        | 
 
 - 연산 법칙
 
@@ -214,11 +220,11 @@ nav_order: 1
   
   - 전략 프로파일 $$ (𝑠_{1}, 𝑠_{2})$$에 따른 경기자의 보수 $$ u_{i} (𝑠_{1}, 𝑠_{2} ) $$
 
-        |          |       | $$P_{2}$$  |           |           | 
-		|          |       | 가위        | 바위       |     보     | 
-		| $$P_{1}$$| 가위   | $$0, 0$$   | $$-1, 1$$ | $$1, -1$$  | 
-		|          | 바위   | $$1, -1$$  | $$0, 0$$  | $$-1, 1$$  | 
-		|          | 보    | $$-1, 1$$  | $$1, -1$$  | $$0, 0$$  | 
+       |          |       | $$P_{2}$$    |             |             | 
+	   |          |       | 가위          | 바위         |     보       | 
+	   | $$P_{1}$$| 가위   | $$(0, 0)$$   | $$(-1, 1)$$ | $$(1, -1)$$  | 
+	   |          | 바위   | $$(1, -1)$$  | $$(0, 0)$$  | $$(-1, 1)$$  | 
+	   |          | 보    | $$(-1, 1)$$  | $$(1, -1)$$  | $$(0, 0)$$  | 
 
 
 ## 명제와 논리

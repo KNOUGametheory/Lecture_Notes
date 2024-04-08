@@ -75,7 +75,7 @@ nav_order: 1
   
   - cf. 빈 폴더와 빈 폴더를 포함하는 폴더
 
-- 집합의 크기(cardinality) $$ |𝐴| $$
+- 집합의 크기(cardinality) $$ \vert 𝐴 \vert $$
 
   - 집합에 속한 서로 다른 개체(원소)의 개수
   
@@ -86,11 +86,11 @@ nav_order: 1
 - 무한집합의 크기는 비교할 수 없을까?
   - 자연수 $$\mathbb{N}$$, 정수 $$\mathbb{Z}$$, 유리수 $$\mathbb{Q}$$
 
-    - $$\rightarrow$$ $$|\mathbb{N}|=|\mathbb{Z}|=|\mathbb{Q}|$$ (why? how?)
+    - $$\rightarrow$$ $$ |\mathbb{N}| = |\mathbb{Z}| = |\mathbb{Q}| $$ (why? how?)
 	
   - 모든 수 집합의 크기는 같다? **NO!**
   
-  - $$|\mathbb{Q}|<|\mathbb{R}|$$ (cf. 실수 $$\mathbb{R}$$; $$\because$$ 대각화 논법, 대각선 논법)
+  - $$ |\mathbb{Q}| < |\mathbb{R}| $$ (cf. 실수 $$ \mathbb{R} $$; $$\because$$ 대각화 논법, 대각선 논법)
 
 - 집합의 상동(equivalence) $$𝐴=𝐵$$
 

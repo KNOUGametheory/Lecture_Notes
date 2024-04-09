@@ -82,7 +82,7 @@ nav_order: 4
 	& = \lim_{𝑥 \rightarrow 𝑣}⁡ \left( 𝑎_{n} 𝑥^{n} \right) + \lim_{𝑥 \rightarrow 𝑣}⁡ \left( 𝑎_{(𝑛−1)} 𝑥^{(𝑛−1)} \right) + \cdots + \lim_{𝑥 \rightarrow 𝑣}⁡ \left(𝑎_1 𝑥 \right) + \lim_{𝑥 \rightarrow 𝑣}⁡ 𝑎_{0} \\
 	& = 𝑎_{n} 𝑣^{n} + 𝑎_{(𝑛−1)} 𝑣^{(𝑛−1)} + \cdots + 𝑎_{n} 𝑣 + 𝑎_{0} \\
 	& = 𝑓(𝑣) \\
-	end{align}
+	\end{align}
 	$$
 
 - 엄밀한 극한의 정의: 입실론($$\epsilon$$)-델타($$\delta$$) 논법
@@ -107,10 +107,10 @@ nav_order: 4
 	          & =3|𝑥−1| < \epsilon \\
 	\end{align}
 	$$
-    - $$ 0 < \delta < \dfrac{\epsilon}{3} $$ 를 만족하는 $$\delta$$를 설정하면, (예를 들어 $$ \delta = \dfrac{\epsilon}{4}) )
+    - $$ 0 < \delta < \dfrac{\epsilon}{3} $$ 를 만족하는 $$\delta$$를 설정하면, (예를 들어 $$ \delta = \dfrac{\epsilon}{4} $$ ) 
 	
       $$ 
-	  0 < |𝑥−1| < \delta \Leftarrow 0 < 3|𝑥−1| < 3 \delta < \epsilon
+	  0 < |𝑥−1| < \delta \Rightarrow 0 < 3|𝑥−1| < 3 \delta < \epsilon
 	  $$
 
 - 점 $$ 𝑥 = 𝑎 $$에서 함수 $$ 𝑓(𝑥) $$의 연속

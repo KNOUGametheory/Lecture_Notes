@@ -472,8 +472,10 @@ nav_order: 2
   - 균형가격이 정의되기 위한 조건: (분모) $$ \neq 0$$
     
 	$$
+	\begin{align}
 	& 𝑐_{1} \gamma_{2} − 𝑐_{2} \gamma_{1} \neq 0 \\
 	\Leftrightarrow & 𝑐_{1} \gamma_{2} \neq 𝑐_{2} \gamma_{1} \\
+	\end{align}
 	$$
      
 	 

@@ -571,9 +571,11 @@ nav_order: 2
   - 연립방정식 풀이 결과
 
     $$
+	\begin{align}
 	𝑌^{*} & = \dfrac{(𝑎−𝑏𝑑) +\overline{I} + \overline{G}}{1−𝑏(1−𝑡)} \\
-	T^{*} & = \dfrac{ 𝑑 (1−𝑏) + 𝑡(𝑎+\overline{I} + \overline{G})}{1−𝑏(1−𝑡)} \\
 	C^{*} & = \dfrac{(𝑎−𝑏𝑑)+𝑏(1−𝑡)(\overline{I} + \overline{G})}{1−𝑏(1−𝑡)}\\
+	T^{*} & = \dfrac{ 𝑑 (1−𝑏) + 𝑡(𝑎+\overline{I} + \overline{G})}{1−𝑏(1−𝑡)} \\
+	\end{align}
 	$$
 
 

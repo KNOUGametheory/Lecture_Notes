@@ -136,47 +136,60 @@ nav_order: 4
 
 ### 미분 계수와 도함수
 
-<!-- 평균변화율의 정의닫힌 구간 [𝑎,𝑏]에서 함수 𝑓(𝑥)(또는 𝑦)의 평균변화율
-Δ𝑦/Δ𝑥=(Δ𝑓(𝑥))/Δ𝑥=(𝑓(𝑏)−𝑓(𝑎))/(𝑏−𝑎)=(𝑓(𝑎 + Δ𝑥)−𝑓(𝑎))/Δ𝑥
-𝛥𝑥=𝑏−𝑎>0:𝑥의 값이 𝑎부터 𝑏까지 증가할 때, 그 증가한 값
-𝛥𝑦=𝑓(𝑏)−𝑓(𝑎):𝑥의 값이 𝑎부터 𝑏까지 증가할 때, 함수 𝑓(𝑥)의 함숫값이 변화한 값
+- 평균변화율의 정의
 
+  - 닫힌 구간 $$ [𝑎,𝑏]$$ 에서 함수 $$ 𝑓(𝑥) $$ (또는 $$𝑦$$)의 평균변화율
 
-평균변화율의 기하학적 의미닫힌 구간 [𝑎,𝑏]에서 함수 𝑓(𝑥)(또는 𝑦)의 평균변화율
-좌표평면 위 닫힌 구간의 양끝점 (𝑎, 𝑓(𝑎))와 (𝑏, 𝑓(𝑏))를지나는 직선의 기울기 직선의 기울기
+    $$ 
+	\dfrac{\Delta 𝑦}{\Delta 𝑥} = \dfrac{\Delta 𝑓(𝑥)}{\Delta 𝑥} = \dfrac{𝑓(𝑏)−𝑓(𝑎)}{𝑏−𝑎} = \dfrac{𝑓(𝑎 + \Delta 𝑥) − 𝑓(𝑎)}{Delta x}
+	$$ 
+
+  - $$ \Delta 𝑥 = 𝑏−𝑎 > 0 $$: $$𝑥$$의 값이 $$𝑎$$부터 $$𝑏$$까지 증가할 때, 그 증가한 값
+  
+  - $$ \Delta 𝑦 = 𝑓(𝑏)−𝑓(𝑎) $$: $$𝑥$$의 값이 $$𝑎$$부터 $$𝑏$$까지 증가할 때, 함수 $$𝑓(𝑥)$$의 함숫값이 변화한 값
+  
+- 평균변화율의 기하학적 의미 
+  
+  - 닫힌 구간 $$[𝑎,𝑏]$$에서 함수 $$𝑓(𝑥)$$(또는 𝑦)의 평균변화율
+  
+  - 좌표평면 위 닫힌 구간의 양끝점 $$(𝑎, 𝑓(𝑎))$$와 $$(𝑏, 𝑓(𝑏))$$를 지나는 직선의 기울기 직선의 기울기
+
+    ![image of average](/images/Lec_4_avg.png)
+
+<!-- 
 
 순간변화율의 정의점 𝑥=𝑎에서 함수 𝑓(𝑥)의 순간변화율
-lim┬(𝑏 \rightarrow 𝑎)  Δ𝑦/Δ𝑥=lim┬(Δ𝑥 \rightarrow 0)  Δ𝑦/Δ𝑥=lim┬(Δ𝑥 \rightarrow 0)  (𝑓(𝑎 + Δ𝑥)−𝑓(𝑎))/Δ𝑥=lim┬(𝑏 \rightarrow 𝑎)  (𝑓(𝑏)−𝑓(𝑎))/(𝑏−𝑎)
-평균변화율을 정의하는 구간 [𝑎,𝑏]을 𝑏 \rightarrow 𝑎로 압축시켰을 때평균변화율 Δ𝑦/Δ𝑥의 극한값
+lim┬(𝑏 \rightarrow 𝑎)  \Delta𝑦/\Delta𝑥=lim┬(\Delta𝑥 \rightarrow 0)  \Delta𝑦/\Delta𝑥=lim┬(\Delta𝑥 \rightarrow 0)  (𝑓(𝑎 + \Delta𝑥)−𝑓(𝑎))/\Delta𝑥=lim┬(𝑏 \rightarrow 𝑎)  (𝑓(𝑏)−𝑓(𝑎))/(𝑏−𝑎)
+평균변화율을 정의하는 구간 [𝑎,𝑏]을 𝑏 \rightarrow 𝑎로 압축시켰을 때평균변화율 \Delta𝑦/\Delta𝑥의 극한값
 
 순간변화율의 기하학적 의미점 𝑥=𝑎에서 함수 𝑓(𝑥)의 순간변화율
 좌표평면 위 한 점 (𝑎, 𝑓(𝑎))에서함수 𝑦=𝑓(𝑥)  의 그래프에 접하는 접선의 기울기
 
 미분계수 𝑓^′ (𝑎) 점 𝑥=𝑎에서 함수 𝑓(𝑥)의 순간변화율
-𝑓^′ (𝑎)=\lim_{𝑥 \rightarrow 𝑎}  (𝑓(𝑥)−𝑓(𝑎))/(𝑥−𝑎)=lim┬(Δ𝑥 \rightarrow 0)  (𝑓(𝑎 + Δ𝑥)−𝑓(𝑎))/Δ𝑥
+𝑓^′ (𝑎)=\lim_{𝑥 \rightarrow 𝑎}  (𝑓(𝑥)−𝑓(𝑎))/(𝑥−𝑎)=lim┬(\Delta𝑥 \rightarrow 0)  (𝑓(𝑎 + \Delta𝑥)−𝑓(𝑎))/\Delta𝑥
 미분계수의 다른 표현: 𝑦^′ |_(𝑥=𝑎), ├ 𝑑𝑦/𝑑𝑥┤|_(𝑥=𝑎)
 𝑦=𝑓(𝑥)=𝑥^2 + 2𝑥−3의 𝑥=2에서 미분계수
 	𝑓^′ (2)=lim┬(𝑥 \rightarrow 2)  (𝑓(𝑥)−𝑓(2))/(𝑥−2)=lim┬(𝑥 \rightarrow 2)  ((𝑥^2 + 2𝑥−3)−(2^2 + 2×2−3))/(𝑥−2) 		=lim┬(𝑥 \rightarrow 2)  (𝑥^2 + 2𝑥−8)/(𝑥−2)=lim┬(𝑥 \rightarrow 2)  (𝑥−2)(𝑥 + 4)/(𝑥−2)=lim┬(𝑥 \rightarrow 2) (𝑥 + 4)=6
 
 
 도함수 𝑓^′ (𝑥) 함수 𝑓(𝑥)의 정의역 임의의 점에 대한 순간변화율
-미분계수 𝑓^′ (𝑎)=\lim_{𝑥 \rightarrow 𝑎}  (𝑓(𝑥)−𝑓(𝑎))/(𝑥−𝑎)=lim┬(Δ𝑥 \rightarrow 0)  (𝑓(𝑎 + Δ𝑥)−𝑓(𝑎))/Δ𝑥
-도함수 𝑓^′ (𝑥)=lim┬(Δ𝑥 \rightarrow 0)  (𝑓(𝑥 + Δ𝑥)−𝑓(𝑥))/Δ𝑥
+미분계수 𝑓^′ (𝑎)=\lim_{𝑥 \rightarrow 𝑎}  (𝑓(𝑥)−𝑓(𝑎))/(𝑥−𝑎)=lim┬(\Delta𝑥 \rightarrow 0)  (𝑓(𝑎 + \Delta𝑥)−𝑓(𝑎))/\Delta𝑥
+도함수 𝑓^′ (𝑥)=lim┬(\Delta𝑥 \rightarrow 0)  (𝑓(𝑥 + \Delta𝑥)−𝑓(𝑥))/\Delta𝑥
 도함수의 다른 표현: 𝑦′, 𝑑𝑦/𝑑𝑥, 𝑑𝑓(𝑥)/𝑑𝑥, 𝑑/𝑑𝑥 𝑓(𝑥)
 
 
 다항함수의 도함수
 𝑓(𝑥)=𝑥
-	𝑓^′ (𝑥)=lim┬(Δ𝑥 \rightarrow 0)  (𝑓(𝑥 + Δ𝑥)−𝑓(𝑥))/Δ𝑥=lim┬(Δ𝑥 \rightarrow 0)  ((𝑥 + Δ𝑥)−𝑥)/Δ𝑥
-		=lim┬(Δ𝑥 \rightarrow 0)  Δ𝑥/Δ𝑥=lim┬(Δ𝑥 \rightarrow 0) (1)=1
+	𝑓^′ (𝑥)=lim┬(\Delta𝑥 \rightarrow 0)  (𝑓(𝑥 + \Delta𝑥)−𝑓(𝑥))/\Delta𝑥=lim┬(\Delta𝑥 \rightarrow 0)  ((𝑥 + \Delta𝑥)−𝑥)/\Delta𝑥
+		=lim┬(\Delta𝑥 \rightarrow 0)  \Delta𝑥/\Delta𝑥=lim┬(\Delta𝑥 \rightarrow 0) (1)=1
 𝑓(𝑥)=𝑥^2
-	𝑓^′ (𝑥)=lim┬(Δ𝑥 \rightarrow 0)  (𝑓(𝑥 + Δ𝑥)−𝑓(𝑥))/Δ𝑥=lim┬(Δ𝑥 \rightarrow 0)  ((𝑥 + Δ𝑥)^2−𝑥^2)/Δ𝑥
-		=lim┬(Δ𝑥 \rightarrow 0)  (2𝑥Δ𝑥 + (Δ𝑥)^2)/Δ𝑥=lim┬(Δ𝑥 \rightarrow 0) (2𝑥 + Δ𝑥)=2𝑥
+	𝑓^′ (𝑥)=lim┬(\Delta𝑥 \rightarrow 0)  (𝑓(𝑥 + \Delta𝑥)−𝑓(𝑥))/\Delta𝑥=lim┬(\Delta𝑥 \rightarrow 0)  ((𝑥 + \Delta𝑥)^2−𝑥^2)/\Delta𝑥
+		=lim┬(\Delta𝑥 \rightarrow 0)  (2𝑥\Delta𝑥 + (\Delta𝑥)^2)/\Delta𝑥=lim┬(\Delta𝑥 \rightarrow 0) (2𝑥 + \Delta𝑥)=2𝑥
 
 𝑓(𝑥)=𝑥^3
-	𝑓^′ (𝑥)=lim┬(Δ𝑥 \rightarrow 0)  (𝑓(𝑥 + Δ𝑥)−𝑓(𝑥))/Δ𝑥=lim┬(Δ𝑥 \rightarrow 0)  ((𝑥 + Δ𝑥)^3−𝑥^3)/Δ𝑥
-		=lim┬(Δ𝑥 \rightarrow 0)  (3𝑥^2 (Δ𝑥) + 3𝑥(Δ𝑥)^2 + (Δ𝑥)^3)/Δ𝑥
-		=lim┬(Δ𝑥 \rightarrow 0) (3𝑥^2 + 3𝑥(Δ𝑥) + (Δ𝑥)^2 )=3𝑥^2
+	𝑓^′ (𝑥)=lim┬(\Delta𝑥 \rightarrow 0)  (𝑓(𝑥 + \Delta𝑥)−𝑓(𝑥))/\Delta𝑥=lim┬(\Delta𝑥 \rightarrow 0)  ((𝑥 + \Delta𝑥)^3−𝑥^3)/\Delta𝑥
+		=lim┬(\Delta𝑥 \rightarrow 0)  (3𝑥^2 (\Delta𝑥) + 3𝑥(\Delta𝑥)^2 + (\Delta𝑥)^3)/\Delta𝑥
+		=lim┬(\Delta𝑥 \rightarrow 0) (3𝑥^2 + 3𝑥(\Delta𝑥) + (\Delta𝑥)^2 )=3𝑥^2
 ⋮
 𝑓(𝑥)=𝑥^{n}  𝑓^′ (𝑥)=𝑛𝑥^(𝑛−1) -->
 
@@ -194,7 +207,7 @@ lim┬(𝑏 \rightarrow 𝑎)  Δ𝑦/Δ𝑥=lim┬(Δ𝑥 \rightarrow 0)  Δ�
 
 합성함수의 미분법(연쇄법칙, Chain Rule)합성함수 𝑦=𝑓(𝑔(𝑥))의 도함수
 𝑦=𝑓(𝑢), 𝑢=𝑔(𝑥)로 단순화
-𝑑𝑦/𝑑𝑥=lim┬(Δ𝑥 \rightarrow 0)  Δ𝑦/Δ𝑥=lim┬(Δ𝑥 \rightarrow 0) (Δ𝑦/Δ𝑢×Δ𝑢/Δ𝑥)=lim┬(Δ𝑥 \rightarrow 0) (Δ𝑦/Δ𝑢)×lim┬(Δ𝑥 \rightarrow 0) (Δ𝑢/Δ𝑥)
+𝑑𝑦/𝑑𝑥=lim┬(\Delta𝑥 \rightarrow 0)  \Delta𝑦/\Delta𝑥=lim┬(\Delta𝑥 \rightarrow 0) (\Delta𝑦/\Delta𝑢×\Delta𝑢/\Delta𝑥)=lim┬(\Delta𝑥 \rightarrow 0) (\Delta𝑦/\Delta𝑢)×lim┬(\Delta𝑥 \rightarrow 0) (\Delta𝑢/\Delta𝑥)
 
 𝑦=(2𝑥 + 1)^3 의 도함수𝑦=𝑢^3, 𝑢=2𝑥 + 1𝑑𝑦/𝑑𝑥=𝑑𝑦/𝑑𝑢×𝑑𝑢/𝑑𝑥=(3𝑢^2 )×(2)=6𝑢^2=6(2𝑥 + 1)^2
 

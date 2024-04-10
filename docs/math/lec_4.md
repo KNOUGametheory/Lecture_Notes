@@ -201,11 +201,11 @@ nav_order: 4
 
   - 함수 $$𝑓(𝑥)$$의 정의역 임의의 점에 대한 순간변화율
   
-  - 미분계수 $$f^{'}(a) = \lim_{𝑥 \rightarrow 𝑎}  \dfrac{𝑓(𝑥)−𝑓(𝑎)}{𝑥−𝑎} = \lim_{\Delta 𝑥 \rightarrow 0) \dfrac{𝑓(𝑎 + \Delta 𝑥)−𝑓(𝑎)}{\Delta 𝑥} $$
+  - 미분계수 $$f^{'}(a) = \lim_{𝑥 \rightarrow 𝑎}  \dfrac{𝑓(𝑥)−𝑓(𝑎)}{𝑥−𝑎} = \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{𝑓(𝑎 + \Delta 𝑥)−𝑓(𝑎)}{\Delta 𝑥} $$
   
-  - 도함수 $$ f^{'}(x) = \lim_{\Delta 𝑥 \rightarrow 0) \dfrac{𝑓(𝑥 + \Delta 𝑥)−𝑓(𝑥)}{\Delta 𝑥} $$
+  - 도함수 $$ f^{'}(x) = \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{𝑓(𝑥 + \Delta 𝑥)−𝑓(𝑥)}{\Delta 𝑥} $$
   
-  - 도함수의 다른 표현: $$ 𝑦^{'}, \dfarc{𝑑𝑦}{𝑑𝑥}, \dfrac{𝑑𝑓(𝑥)}{𝑑𝑥}, \dfrac{𝑑}{𝑑𝑥}𝑓(𝑥) $$
+  - 도함수의 다른 표현: $$ 𝑦^{'}, \dfrac{𝑑𝑦}{𝑑𝑥}, \dfrac{𝑑𝑓(𝑥)}{𝑑𝑥}, \dfrac{𝑑}{𝑑𝑥}𝑓(𝑥) $$
 
 - 다항함수의 도함수
 
@@ -213,10 +213,10 @@ nav_order: 4
 
     $$
     \begin{align}
-	f^{'}(x) & = \lim_{\Delta 𝑥 \rightarrow 0) \dfrac{𝑓(𝑥 + \Delta 𝑥)−𝑓(𝑥)}{\Delta 𝑥} \\
-	         & = \lim_{\Delta 𝑥 \rightarrow 0) \dfrac{(𝑥 + \Delta 𝑥)−𝑥}{\Delta 𝑥} \\
-			 & = \lim_{\Delta 𝑥 \rightarrow 0) \dfrac{\Delta 𝑥}{\Delta 𝑥} \\
-			 & = \lim_{\Delta 𝑥 \rightarrow 0) (1) \\
+	f^{'}(x) & = \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{𝑓(𝑥 + \Delta 𝑥)−𝑓(𝑥)}{\Delta 𝑥} \\
+	         & = \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{(𝑥 + \Delta 𝑥)−𝑥}{\Delta 𝑥} \\
+			 & = \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{\Delta 𝑥}{\Delta 𝑥} \\
+			 & = \lim_{\Delta 𝑥 \rightarrow 0} (1) \\
 			 & = 1 \\	
 	\end{align}
 	$$
@@ -225,10 +225,10 @@ nav_order: 4
 
     $$
     \begin{align}
-	f^{'}(x) & = \lim_{\Delta 𝑥 \rightarrow 0) \dfrac{𝑓(𝑥 + \Delta 𝑥)−𝑓(𝑥)}{\Delta 𝑥} \\
-	         & = \lim_{\Delta 𝑥 \rightarrow 0) \dfrac{(𝑥 + \Delta 𝑥)^{2}−𝑥^{2}}{\Delta 𝑥} \\
-			 & = \lim_{\Delta 𝑥 \rightarrow 0) \dfrac{2x \Delta 𝑥 + (\Delta x)^{2}}{\Delta 𝑥} \\
-			 & = \lim_{\Delta 𝑥 \rightarrow 0) (2x + \Delta x) \\
+	f^{'}(x) & = \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{𝑓(𝑥 + \Delta 𝑥)−𝑓(𝑥)}{\Delta 𝑥} \\
+	         & = \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{(𝑥 + \Delta 𝑥)^{2}−𝑥^{2}}{\Delta 𝑥} \\
+			 & = \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{2x \Delta 𝑥 + (\Delta x)^{2}}{\Delta 𝑥} \\
+			 & = \lim_{\Delta 𝑥 \rightarrow 0} (2x + \Delta x) \\
 			 & = 2x \\	
 	\end{align}
 	$$
@@ -237,10 +237,10 @@ nav_order: 4
 
     $$
     \begin{align}
-	f^{'}(x) & = \lim_{\Delta 𝑥 \rightarrow 0) \dfrac{𝑓(𝑥 + \Delta 𝑥)−𝑓(𝑥)}{\Delta 𝑥} \\
-	         & = \lim_{\Delta 𝑥 \rightarrow 0) \dfrac{(𝑥 + \Delta 𝑥)^{3}−𝑥^{3}}{\Delta 𝑥} \\
-			 & = \lim_{\Delta 𝑥 \rightarrow 0) \dfrac{3x^{2} (\Delta 𝑥) + 3x (\Delta x)^{2} + (\Delta x)^{3}}{\Delta 𝑥} \\
-			 & = \lim_{\Delta 𝑥 \rightarrow 0) (3x^{2} + 3x(\Delta x) + (\Delta x)^{2}) \\
+	f^{'}(x) & = \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{𝑓(𝑥 + \Delta 𝑥)−𝑓(𝑥)}{\Delta 𝑥} \\
+	         & = \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{(𝑥 + \Delta 𝑥)^{3}−𝑥^{3}}{\Delta 𝑥} \\
+			 & = \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{3x^{2} (\Delta 𝑥) + 3x (\Delta x)^{2} + (\Delta x)^{3}}{\Delta 𝑥} \\
+			 & = \lim_{\Delta 𝑥 \rightarrow 0} (3x^{2} + 3x(\Delta x) + (\Delta x)^{2}) \\
 			 & = 3x^{2} \\	
 	\end{align}
 	$$
@@ -260,11 +260,11 @@ nav_order: 4
 
     $$ 
 	\begin{align}
-    𝑓(𝑥) = 𝑐 \text{ ($𝑐$는 상수)} \Rightarrow f^{'}(x) = 0 \\
+    𝑓(𝑥) = 𝑐 \text{ ($$𝑐$$는 상수)} \Rightarrow f^{'}(x) = 0 \\
     𝑓(𝑥) = 𝑥^{n} \Rightarrow f^{'}(x) = 𝑛 𝑥^{𝑛−1} \\
 	𝑦 = 𝑐𝑓(𝑥) \Rightarrow 𝑦^{'} = 𝑐 f^{'}(x) \\
-	𝑦 = 𝑓(𝑥) \pm 𝑔(𝑥) \Rightarrow 𝑦^{′}=f^{'}(x) \pm 𝑔^{′}(𝑥) \\
-	𝑦 = 𝑓(𝑥)𝑔(𝑥) \Rightarrow 𝑦^{′}=f^{'}(x)𝑔(𝑥) + 𝑓(𝑥) 𝑔^{′}(𝑥) \\
+	𝑦 = 𝑓(𝑥) \pm 𝑔(𝑥) \Rightarrow 𝑦^{′} = f^{'}(x) \pm 𝑔^{′}(𝑥) \\
+	𝑦 = 𝑓(𝑥)𝑔(𝑥) \Rightarrow 𝑦^{′} = f^{'}(x)𝑔(𝑥) + 𝑓(𝑥) 𝑔^{′}(𝑥) \\
 	𝑦 = \dfrac{𝑓(𝑥)}{𝑔(𝑥)}  \Rightarrow 𝑦^{′}= \dfrac{f^{'}(x)𝑔(𝑥)−𝑓(𝑥)𝑔^{′}(𝑥)}{𝑔(𝑥)}^2} \\
 	\end{align}
 	$$
@@ -274,11 +274,13 @@ nav_order: 4
   - 합성함수 $$𝑦 = 𝑓(𝑔(𝑥))$$ 의 도함수
 
     - $$ 𝑦 = 𝑓(𝑢), 𝑢 = 𝑔(𝑥)$$로 단순화
-	  $$
-	  \begin{align}
-      𝑑𝑦/𝑑𝑥=\lim_{\Delta 𝑥 \rightarrow 0)  \Delta𝑦/\Delta 𝑥=\lim_{\Delta 𝑥 \rightarrow 0) (\Delta𝑦/\Delta𝑢×\Delta𝑢/\Delta 𝑥)=\lim_{\Delta 𝑥 \rightarrow 0) (\Delta𝑦/\Delta𝑢)×\lim_{\Delta 𝑥 \rightarrow 0) (\Delta𝑢/\Delta 𝑥)
-	  \end{align}
-	  $$
+	    $$
+	    \begin{align}
+	    \dfrac{𝑑𝑦}{𝑑𝑥} & = \lim_{\Delta 𝑥 \rightarrow 0}  \dfrac{\Delta 𝑦}{Delta 𝑥} \\
+	                  & = \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{\Delta 𝑦}{\Delta 𝑢} \times \dfrac{\Delta u}{\Delta 𝑥} \\
+					  & = \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{\Delta 𝑦}{\Delta 𝑢} \times \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{\Delta 𝑢}{\Delta 𝑥} \\
+	    \end{align}
+	    $$
 	  
 	- $$ 𝑦 = (2𝑥 + 1)^{3} 의 도함수
 	    $$
@@ -288,8 +290,8 @@ nav_order: 4
 		              & =(3𝑢^{2}) \times (2) \\
 					  & =6 𝑢^{2} \\
 					  & =6(2𝑥 + 1)^{2} \\
-	  \end{align}
-	  $$
+	    \end{align}
+	    $$
 
 - 음함수 미분법
   
@@ -298,10 +300,10 @@ nav_order: 4
   - 음함수를 미분하려면? 관계식을 정리하여 $$\dfrac{𝑑𝑦}{𝑑𝑥}$$를 유도
   
   - $$𝑦 = \sqrt{𝑥 + 1} $$ 의 도함수는?
-  
-  - 양변을 제곱하여 $$ 𝑦^{2} = 𝑥 + 1 $$
-  
-  - 양변을 $$𝑥$$로 미분하면 $$ 2𝑦 \dfrac{𝑑𝑦}{𝑑𝑥} = 1 \rightarrow \dfrac{𝑑𝑦}{𝑑𝑥} = \dfrac{1}{2𝑦} = \dfrac{1}{2\sqrt{𝑥 + 1}}
+
+    - 양변을 제곱하여 $$ 𝑦^{2} = 𝑥 + 1 $$
+    
+	- 양변을 $$𝑥$$로 미분하면 $$ 2𝑦 \dfrac{𝑑𝑦}{𝑑𝑥} = 1 \rightarrow \dfrac{𝑑𝑦}{𝑑𝑥} = \dfrac{1}{2𝑦} = \dfrac{1}{2\sqrt{𝑥 + 1}} $$
 
 ### 응용해 봅시다!
 

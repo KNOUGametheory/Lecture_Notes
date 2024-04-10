@@ -189,10 +189,10 @@ nav_order: 4
     $$
 	\begin{align}
 	f^{'}(2) & = \lim_{𝑥 \rightarrow 2} \dfrac{𝑓(𝑥)−𝑓(2)}{𝑥−2} \\
-	         & = \lim_{𝑥 \rightarrow 2} \dfrac{(𝑥^2 + 2𝑥−3)−(2^2 + 2×2−3)}{𝑥−2} \\
-			 & = \lim_{𝑥 \rightarrow 2) \dfrac{𝑥^2 + 2𝑥−8}{𝑥−2} \\
-			 & = \lim_{𝑥 \rightarrow 2) \dfrac{(𝑥−2)(𝑥 + 4)}{𝑥−2} \\
-			 & = \lim_{𝑥 \rightarrow 2) (𝑥 + 4) \\
+	         & = \lim_{𝑥 \rightarrow 2} \dfrac{(𝑥^{2} + 2𝑥−3)−(2^{2} + 2 \times 2−3)}{𝑥−2} \\
+			 & = \lim_{𝑥 \rightarrow 2} \dfrac{𝑥^{2} + 2𝑥−8}{𝑥−2} \\
+			 & = \lim_{𝑥 \rightarrow 2} \dfrac{(𝑥 − 2)(𝑥 + 4)}{𝑥−2} \\
+			 & = \lim_{𝑥 \rightarrow 2} (𝑥 + 4) \\
 		     & = 6 \\
 	\end{align}
 	$$

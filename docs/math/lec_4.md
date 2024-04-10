@@ -260,7 +260,7 @@ nav_order: 4
 
     $$ 
 	\begin{align}
-    𝑓(𝑥) = 𝑐 \text{ ($$𝑐$$는 상수)} \Rightarrow f^{'}(x) = 0 \\
+    𝑓(𝑥) = 𝑐 \quad (𝑐\text{는 상수}) \Rightarrow f^{'}(x) = 0 \\
     𝑓(𝑥) = 𝑥^{n} \Rightarrow f^{'}(x) = 𝑛 𝑥^{𝑛−1} \\
 	𝑦 = 𝑐𝑓(𝑥) \Rightarrow 𝑦^{'} = 𝑐 f^{'}(x) \\
 	𝑦 = 𝑓(𝑥) \pm 𝑔(𝑥) \Rightarrow 𝑦^{′} = f^{'}(x) \pm 𝑔^{′}(𝑥) \\
@@ -274,15 +274,17 @@ nav_order: 4
   - 합성함수 $$𝑦 = 𝑓(𝑔(𝑥))$$ 의 도함수
 
     - $$ 𝑦 = 𝑓(𝑢), 𝑢 = 𝑔(𝑥)$$로 단순화
+
 	    $$
 	    \begin{align}
-	    \dfrac{𝑑𝑦}{𝑑𝑥} & = \lim_{\Delta 𝑥 \rightarrow 0}  \dfrac{\Delta 𝑦}{Delta 𝑥} \\
+	    \dfrac{𝑑𝑦}{𝑑𝑥} & = \lim_{\Delta 𝑥 \rightarrow 0}  \dfrac{\Delta 𝑦}{\Delta 𝑥} \\
 	                  & = \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{\Delta 𝑦}{\Delta 𝑢} \times \dfrac{\Delta u}{\Delta 𝑥} \\
-					  & = \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{\Delta 𝑦}{\Delta 𝑢} \times \lim_{\Delta 𝑥 \rightarrow 0} \dfrac{\Delta 𝑢}{\Delta 𝑥} \\
+					  & = \lim_{\Delta 𝑥 \rightarrow 0} \left( \dfrac{\Delta 𝑦}{\Delta 𝑢} \right) \times \lim_{\Delta 𝑥 \rightarrow 0} \left( \dfrac{\Delta 𝑢}{\Delta 𝑥} \right) \\
 	    \end{align}
 	    $$
 	  
 	- $$ 𝑦 = (2𝑥 + 1)^{3} 의 도함수
+
 	    $$
 	    \begin{align}
 	    𝑦=𝑢^{3}, 𝑢 = 2𝑥 + 1 & \\

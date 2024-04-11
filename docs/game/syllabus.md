@@ -32,10 +32,37 @@ K-MOCC, [게임이론](https://www.kmooc.kr/view/course/detail/10379){:target="_
 - 시장 메커니즘 설계의 기초를 이해
 - 진화적으로 안정적인 균형과 복제자 동학을 이해
 
-## 선수 과목
+## 이수 기준
+
+아래 두 가지 조건을 모두 만족해야 합니다.
+
+1. 다음 모든 활동에 참여
+
+  - 차시별 강의 동영상 시청: 차시 당 % 이상
+  - 차시별 퀴즈
+  - 중간 평가
+  - 기말 평가
+
+2. 다음 활동에 대한 평가 60점 이상
+
+  - 차시별 퀴즈 $$+$$ 중간 평가 $$+$$ 기말 평가 
+
+<!-- ## 선수 과목
 
 
-## 준비 사항
+## 준비 사항 -->
 
 
 ## 연관 강의
+
+- [이준구, 서울대학교, 경제학원론: 미시경제학](https://www.kmooc.kr/view/course/detail/11793){:target="_blank"}
+
+- [장 티롤, Toulouse School of Economics, 플랫폼 제국의 비밀](https://lms.kmooc.kr/course/view.php?id=10953){:target="_blank"}
+
+- [김두얼, 명지대학교, 제도와 경제](https://www.kmooc.kr/view/course/detail/8806){:target="_blank"}
+
+## 참고 도서
+
+- 
+
+- 

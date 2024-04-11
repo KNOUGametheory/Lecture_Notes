@@ -16,9 +16,21 @@ nav_order: 3
 	> '함수'는 특별한 '관계'!
 
 ### 관계와 그 표현
+- 관계(relation)
 
+   - 객체 사이의 연관성을 표현하는 구조
+   
+   - 두 집합 $$𝐴$$와 $$𝐵$$에 대하여 $$𝐴 \subsetneq 𝐵 $$일 때
+   
+   - 우리나라 광역자치단체와 도시(市) 사이의 관계
+   
+   - 특정 연도 K-MOOC 등록생과 수강 교과목 사이의 관계
 
+- 관계는 함수의 일반화
 
+   - 관계는 집합에서 원소 사이의 순서(order)를 고려
+   
+   - 원소 사이에 ‘$$<$$‘, ‘$$\leq$$’, ‘$$\equiv$$’, ‘$$\subseteq$$’, ‘$$\subsetneq$$’ 등 연산자 적용 가능
 
 ### 관계의 성질
 
@@ -40,21 +52,22 @@ nav_order: 3
 
    - 어떤 함수인가? 
 
-       - 정의역
+     - 정의역
 	
 	$$
 	  \begin{align}
-	   & \{ P \geq 0 \vert \dfrac{3}{2} \leg P \leg 15 \} \\
+	   & \left{ P \geq 0 \vert \dfrac{3}{2} \leq P \leq 15 \right} \\
 	  = & \{ P \geq 0 \vert Q_{d} \geq 0 \text{ and } Q_{s} \geq 0 \} \\
 	  = & \{ P \geq 0 \vert 30-2P \geq 0 \text{ and } -6+4P \geq 0 \} \\
 	  \end{align}
 	$$
 
-       - 치역
-	
+     - 치역
 	$$
+	  \begin{align}
 	  & \{ Q \geq 0 \vert 0 \leq Q_{d} \leq 27, 0 \leq Q_{s} \leq 54  \} \\
-	  = &\{ 0 \leq Q \leq 27 \} \\
+	  = & \{ 0 \leq Q \leq 27 \} \\
+	  \end{align}
 	$$
 
 ## 좌표평면

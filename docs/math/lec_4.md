@@ -474,7 +474,7 @@ nav_order: 4
 
   - 편미분계수의 표현: $$𝑓_𝑥 (𝑎,𝑏); \dfrac{\partial f }{\partial 𝑥} (𝑎,𝑏); \dfrac{\partial 𝑧}{\partial 𝑥} \vert_{(𝑥,𝑦)=(𝑎,𝑏)} $$
 
-     - ※ $$\partial$$ : 라운드 $$𝑑$$ 
+     ※ $$\partial$$ : 라운드 $$𝑑$$ 
 	
 	<!-- \textreferencemark  -->
 
@@ -490,7 +490,7 @@ nav_order: 4
 	
  - 편미분계수의 표현: $$𝑓_{𝑦} (𝑎,𝑏); \dfrac{\partial 𝑓}{\partial y} (𝑎,𝑏); \dfrac{\partial 𝑧}{\partial 𝑦} \vert_{(𝑥,𝑦)=(𝑎,𝑏) }$$
 
-    - ※ $$\partial$$ : 라운드 $$𝑑$$
+    ※ $$\partial$$ : 라운드 $$𝑑$$
 	
 	<!-- \textreferencemark  -->
 

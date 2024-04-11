@@ -142,7 +142,7 @@ nav_order: 1
    𝐴 \cap 𝐵 = \{𝑥 \vert 𝑥 \in 𝐴 \text{ 그리고 } 𝑥 \in 𝐵 \} = \{𝑥 \vert 𝑥 \in 𝐴 \land 𝑥 \in 𝐵 \} 
    $$
   
-  - cf. 집합 $$𝐴$$와 집합 $$𝐵$$는 서로소(disjoint) if $$𝐴 \cap 𝐵 = \emptyset $$
+  - cf. 집합 $$𝐴$$와 집합 $$𝐵$$는 서로소(disjoint) if and only if $$𝐴 \cap 𝐵 = \emptyset $$
 
 	 ![Venn Diamgram of Intersection Sets](/images/Lec_1_Intersection_set_VD.png)
 

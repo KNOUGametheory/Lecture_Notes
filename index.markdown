@@ -33,6 +33,6 @@ K-MOOC 묶음강좌: [게임이론으로 이해하는 사회 현상: 입문](htt
 
 ## 강의안 순서
 
-- [게임이론을 위한 수학](/docs/math/){:target="_blank"})
-- [게임이론](/docs/game){:target="_blank"})
-- [넷로고와 파이선을 활용한 게임이론 시뮬레이션](/docs/simulation){:target="_blank"}
+- [게임이론을 위한 수학](/Lecture_Notes/docs/math){:target="_blank"}
+- [게임이론](/Lecture_Notes/docs/game){:target="_blank"}
+- [넷로고와 파이선을 활용한 게임이론 시뮬레이션](/Lecture_Notes/docs/simulation){:target="_blank"}

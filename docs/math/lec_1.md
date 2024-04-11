@@ -206,7 +206,7 @@ nav_order: 1
 	
 	- $$ 𝐴 \cap ( 𝐵 \cup 𝐶 ) = ( 𝐴 \cap 𝐵) \cup ( 𝐴 \cap 𝐶) $$
   
-  - 드 모르간(De Morgan)의 법칙 $$ \overline{A \cap B} = \overline{A} \cup \overline{B}, \overline{a \cup B} = \overline{A} \cap \overline{B} $$
+  - 드 모르간(De Morgan)의 법칙 $$ \overline{A \cap B} = \overline{A} \cup \overline{B}, \overline{A \cup B} = \overline{A} \cap \overline{B} $$
   
   - 흡수 법칙: $$ 𝐴 \cup ( 𝐴 \cap 𝐵 ) = 𝐴, 𝐴 \cap ( 𝐴 \cup 𝐵 ) = 𝐴 $$
   

@@ -664,22 +664,18 @@ $$
 
 	- 확률변수  $$X$$
 
-$$
-\begin{split}
+$$\begin{split}
 f(\{HHH\})&=3,~~~f(\{TTT\})=0\\
 f(\{HHT\})&=f(\{HTH\})=f(\{THH\})=2\\
 f(\{HTT\})&=f(\{THT\})=f(\{TTH\})=1\\
-\end{split}
-$$
+\end{split}$$
 
   - 확률질량함수
 
-$$
-	\begin{array}{cccc}
+$$\begin{array}{cccc}
 	&p(1)=\dfrac{{}_{3}{C}_{1}}{2^{3}}=\dfrac{3}{8}&p(2)=\dfrac{{}_{3}{C}_{2}}{2^{3}}=\dfrac{3}{8}&\\
 	p(0)=\dfrac{{}_{3}{C}_{0}}{2^{3}}=\dfrac{1}{8}&&&p(3)=\dfrac{{}_{3}{C}_{3}}{2^{3}}=\dfrac{1}{8}\\
-	\end{array}
-$$
+	\end{array}$$
 	
 $$p(0)+p(1)+p(2)+p(3)=1$$
 
@@ -691,15 +687,12 @@ $$p(0)+p(1)+p(2)+p(3)=1$$
 	
 $$f(\{\text{도}\})=1,~f(\{\text{개}\})=2,~f(\{\text{걸}\})=3,~f(\{\text{윷}\})=4,~f(\{\text{모}\})=5$$
 
+   - 확률질량함수
 
-  - 확률질량함수
-
-$$
-	\begin{array}{ccccc}
+$$\begin{array}{ccccc}
 	&&p(2)=\dfrac{{}_{4}{C}_{2}}{2^{4}}=\dfrac{6}{16}&&\\
 	&p(1)=\dfrac{{}_{4}{C}_{1}}{2^{4}}=\dfrac{4}{16}&&p(3)=\dfrac{{}_{4}{C}_{3}}{2^{4}}=\dfrac{4}{16}&\\
 	p(5)=\dfrac{{}_{4}{C}_{0}}{2^{4}}=\dfrac{1}{16}&&&&p(4)=\dfrac{{}_{4}{C}_{4}}{2^{4}}=\dfrac{1}{16}\\
-	\end{array}
-$$
+	\end{array}$$
 
 $$p(1)+p(2)+p(3)+p(4)+p(5)=1$$

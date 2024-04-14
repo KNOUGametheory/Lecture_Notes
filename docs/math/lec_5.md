@@ -195,6 +195,8 @@ a~~\rlap{\overbrace{\phantom{b~~c~~d~~e~~f~~g}}^{\text{6개의 원소}}}\underbr
 
 ### 이항정리(binomial theorem)
 
+- $$(x+y)^{n}$$은 어떤 형태일까?
+
 $$\begin{split}
 	(x+y)^{2}&=x^{2}+2xy+y^{2}\\
 	&=1\times x^{2}y^{0}+2\times x^{1}y^{1}+1\times x^{0}y^{2}
@@ -213,8 +215,6 @@ $$
 	&=1\times x^{4}+4\times x^{3}y^{1}+6\times x^{2}y^{2}+4\times x^{1}y^{3}+1\times x^{0}y^{4}
 	\end{split}
 	$$
-	
-- $$(x+y)^{n}$$은 어떤 형태일까?
 
 	- 이항계수 활용
 

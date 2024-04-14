@@ -737,3 +737,43 @@ $$E[X]=\sum_{x:p(x)>0}xp(x)$$
 	- 기댓값
 
 	$$1\times p(1)+2\times p(2)+3\times p(3)+4\times p(4)+5\times p(5)+6\times p(6)=\frac{7}{2}$$
+	
+- 공정한 동전을 세 번 던질 때 앞면이 나오는 수의 기댓값
+
+	- 확률변수  $$X$$
+	$$
+	\begin{split}
+	f(\{HHH\})&=3,~~~f(\{TTT\})=0\\
+	f(\{HHT\})&=f(\{HTH\})=f(\{THH\})=2\\
+	f(\{HTT\})&=f(\{THT\})=f(\{TTH\})=1\\
+	\end{split}
+	$$
+
+	- 확률질량함수
+	$$
+	\begin{array}{cccc}
+	p(0)=\dfrac{_{3}{C}_{0}}{2^{3}}=\dfrac{1}{8}&p(1)=\dfrac{_{3}{C}_{1}}{2^{3}}=\dfrac{3}{8}&p(2)=\dfrac{_{3}{C}_{2}}{2^{3}}=\dfrac{3}{8}&p(3)=\dfrac{_{3}{C}_{3}}{2^{3}}=\dfrac{1}{8}\\
+	\end{array}
+	$$
+	
+	- 기댓값
+	
+	$$0\times p(0)+1\times p(1)+2\times p(2)+3\times p(3)=\frac{3}{2}$$
+	
+- 공정한 윷을 1 번 던질 때 말이 이동하는 수의 기댓값
+
+	- 윷을 1 번 던지는 것은 윷가락 1 개를 네 번 던지는 것과 동일 (단, 백도는 없다) $$\rightarrow$$ $${}_{n}{C}_{r}$$
+
+	- 확률변수  $$X$$
+
+	$$f(\{\text{도}\})=1,~f(\{\text{개}\})=2,~f(\{\text{걸}\})=3,~f(\{\text{윷}\})=4,~f(\{\text{모}\})=5$$
+	- 확률질량함수
+	$$
+	\begin{array}{ccccc}
+	p(1)=\dfrac{4}{16}&p(2)=\dfrac{6}{16}&p(3)=\dfrac{4}{16}&p(4)=\dfrac{1}{16}&p(5)=\dfrac{1}{16}\\
+	\end{array}
+	$$
+
+	-기댓값
+	
+	$$1\times p(1)+2\times p(2)+3\times p(3)+4\times p(4)+5\times p(5)=\frac{37}{16}$$

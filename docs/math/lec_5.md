@@ -837,18 +837,15 @@ $$
 
 	- $$X$$는 모수가 $$(2,~1/3)$$인 이항확률변수
 	
-	\begin{tabular}{c||c|c|c}
-	\hline
-	$$X$$&0&1&2\\
-	\hline
-	이항확률&$${2 \choose 0}\left(\frac{1}{3}\right)^{0}\left(\frac{2}{3}\right)^{2}$$&
-	$${2 \choose 1}\left(\frac{1}{3}\right)^{1}\left(\frac{2}{3}\right)^{1}$$&
-	$${2 \choose 2}\left(\frac{1}{3}\right)^{2}\left(\frac{2}{3}\right)^{0}$$\\[1em]
-	&$$\dfrac{4}{9}$$&$$\dfrac{4}{9}$$&$$\dfrac{1}{9}$$\\[1em]
-	\hline
+
+	|$$X$$|0|1|2|
+	|이항확률|$$_{2}{C}_{0}\left(\frac{1}{3}\right)^{0}\left(\frac{2}{3}\right)^{2}$$|
+	$$_{2}{C}_{1}\left(\frac{1}{3}\right)^{1}\left(\frac{2}{3}\right)^{1}$$|
+	$$_{2}{C}_{2}\left(\frac{1}{3}\right)^{2}\left(\frac{2}{3}\right)^{0}$$|
+	||$$\dfrac{4}{9}$$|$$\dfrac{4}{9}$$|$$\dfrac{1}{9}$$|
+
 	보수&0&1,000&2,000\\
-	\hline
-	\end{tabular}
+
 
 	- 기대보수
 	

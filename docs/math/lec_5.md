@@ -839,9 +839,7 @@ $$
 	
 
 	|$$X$$|0|1|2|
-	|이항확률|$$_{2}{C}_{0}\left(\frac{1}{3}\right)^{0}\left(\frac{2}{3}\right)^{2}$$|
-	$$_{2}{C}_{1}\left(\frac{1}{3}\right)^{1}\left(\frac{2}{3}\right)^{1}$$|
-	$$_{2}{C}_{2}\left(\frac{1}{3}\right)^{2}\left(\frac{2}{3}\right)^{0}$$|
+	|이항확률|$$_{2}{C}_{0}\left(\frac{1}{3}\right)^{0}\left(\frac{2}{3}\right)^{2}$$|$$_{2}{C}_{1}\left(\frac{1}{3}\right)^{1}\left(\frac{2}{3}\right)^{1}$$|$$_{2}{C}_{2}\left(\frac{1}{3}\right)^{2}\left(\frac{2}{3}\right)^{0}$$|
 	||$$\dfrac{4}{9}$$|$$\dfrac{4}{9}$$|$$\dfrac{1}{9}$$|
 
 	보수&0&1,000&2,000\\

@@ -461,3 +461,35 @@ $$A=\{1,~2,~3,~4,~5\},~~~B=\{2,~3,~5\}$$
 $$P(A)=\frac{5}{6}, P(B)=\frac{3}{6}~~\rightarrow~~P(B)=\frac{3}{6}\le P(A)=\frac{5}{6}$$
 
   ![주사위 던지기](/images/Lec_5_5_2_4.png)
+  
+- (명제 3) $$P(A\cup B)=P(A)+P(B)-P(A\cap B)$$
+
+	- (증명) $$A\cup B$$를 상호 배반인 사건 $$A$$와 $$A^{c}\cap B$$의 합집합으로 나타낼 수 있기에
+	
+$$
+\begin{split}
+A\cup B&=A\cup (A^{c}\cap B)~~\text{$$\rightarrow$$}~~P(A\cup B)=P(A)+P(A^{c}\cap B)\\
+B&=(A\cap B)\cup (A^{c}\cap B)~~\text{$$\rightarrow$$}~~P(B)=P(A\cap B)+P(A^{c}\cap B)\\
+P(A\cup B)&=P(A)+P(A^{c}\cap B)=P(A)+P(B)-P(A\cap B)\\
+\end{split}
+$$
+
+	- 공정한 주사위를 한 번 던지자.
+	$$A$$는 짝수가 나오는 사건, $$B$$는 소수(prime)가 나오는 사건이라 하자.
+	
+$$A=\{2,~4,~6\},~~~B=\{2,~3,~5\},~~~A\cap B=\{2\}$$
+
+$$$P(A)=\frac{3}{6}, P(B)=\frac{3}{6}~~\text{$$\rightarrow$$}~~P(A\cup B)=P(A)+P(B)-P(A\cap B)=\frac{5}{6}$$
+
+  ![주사위 던지기](/images/Lec_5_5_2_5.png)
+  
+	- 집합 3개인 경우
+
+$$	
+	\begin{split}
+	&P(A\cup B\cup C)\\
+	=&P(A)+P(B)+P(C)-P(A\cap B)-P(B\cap C)-P(C\cap A)+P(A\cap B\cap C)
+	\end{split}
+$$
+
+  ![주사위 던지기](/images/Lec_5_5_2_6.png)

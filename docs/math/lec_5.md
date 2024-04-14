@@ -276,7 +276,7 @@ $$\dfrac{9!}{3!\times 2!\times 4!}=1,260$$
 
 	- Player 1과 Player 2의 순수전략은 무엇인가?
 	
-$$\{Up,~Down\}$$, $$\{Left,~Center,~Right\}$$
+$$\{Up,~Down\},~~~\{Left,~Center,~Right\}$$
 
 	- 게임의 결과는 몇 가지인가?
 	

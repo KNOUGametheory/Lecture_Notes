@@ -150,30 +150,32 @@ $$
 - 경우의 수는 8개이며, 1개의 $$HHH$$, 3개의 $$HHT$$, 3개의 $$HTT$$,
 1개의 $$TTT$$
 
-- 이항계수 \dingto $$\comb{3}{0}$$, $$\comb{3}{1}$$, $$\comb{3}{2}$$, $$\comb{3}{3}$$
+- 이항계수 $${}_{3}{C}_{0}$$, $${}_{3}{C}_{1}$$, $${}_{3}{C}_{2}$$, $${}_{3}{C}_{3}$$
 		
-		$$\comb{3}{0}H^{3}T^{0}=\left(\begin{array}{c}3\\ 0\\ \end{array}\right)H^{3}T^{0}=1\times HHH$$$$
-$$$$\comb{3}{1}H^{2}T^{1}=\left(\begin{array}{c}3\\ 1\\ \end{array}\right)H^{2}T^{1}=3\times HHT$$$$
-$$$$\comb{3}{2}H^{1}T^{2}=\left(\begin{array}{c}3\\ 2\\ \end{array}\right)H^{1}T^{2}=3\times HTT$$$$
-$$$$\comb{3}{3}H^{0}T^{3}=\left(\begin{array}{c}3\\ 3\\ \end{array}\right)H^{0}T^{3}=1\times TTT$$
+$${}_{3}{C}_{0}H^{3}T^{0}=\left(\begin{array}{c}3\\ 0\\ \end{array}\right)H^{3}T^{0}=1\times HHH$$
+		
+$${}_{3}{C}_{1}H^{2}T^{1}=\left(\begin{array}{c}3\\ 1\\ \end{array}\right)H^{2}T^{1}=3\times HHT$$
+
+$${}_{3}{C}_{2}}H^{1}T^{2}=\left(\begin{array}{c}3\\ 2\\ \end{array}\right)H^{1}T^{2}=3\times HTT$$
+
+$${}_{3}{C}_{3}H^{0}T^{3}=\left(\begin{array}{c}3\\ 3\\ \end{array}\right)H^{0}T^{3}=1\times TTT$$
 
 
 ### 동전 $$n$$ 번 던지기 (이항계수 활용)
 
-- \item
-뒷면이 $$r$$ 번, 앞면이 $$n-r$$ 번 나오는 경우의 수 
+- 뒷면이 $$r$$ 번, 앞면이 $$n-r$$ 번 나오는 경우의 수 
 
 $${}_{n}{C}_{r}H^{n-r}T^{r}=\left(\begin{array}{c}n\\ r\\ \end{array}\right)H^{n-r}T^{r}$$
 
 - 8 번 던져 뒷면이 $$3$$ 번, 앞면이 $$5$$ 번 나오는 경우의 수 
 
-$$\comb{8}{3}H^{5}T^{3}=\left(\begin{array}{c}8\\ 3\\ \end{array}\right)H^{5}T^{3}
+$${}_{8}{C}_{3}H^{5}T^{3}=\left(\begin{array}{c}8\\ 3\\ \end{array}\right)H^{5}T^{3}
 =\frac{8!}{3!\times5!}H^{5}T^{3}
 =56\times H^{5}T^{3}$$
 
 - 10 번 던져 뒷면이 $$4$$ 번, 앞면이 $$6$$ 번 나오는 경우의 수 
 
-$$\comb{10}{4}H^{6}T^{4}=\left(\begin{array}{c}10\\ 4\\ \end{array}\right)H^{6}T^{4}
+$${}_{10}{C}_{4}H^{6}T^{4}=\left(\begin{array}{c}10\\ 4\\ \end{array}\right)H^{6}T^{4}
 =\frac{10!}{4!\times6!}H^{6}T^{4}
 =210\times H^{6}T^{4}$$
 

@@ -262,7 +262,6 @@ $$5\times 3\times 6\times 4=360$$
 	
 $$3!\times4!\times 2!=6\times 24\times 2=288$$
 
-
 	- 동일한 과목 교과서 순서로 배열하는 경우의 수는?
 	
 $$3!\times288=1,728$$
@@ -278,12 +277,11 @@ $$\dfrac{9!}{3!\times 2!\times 4!}=1,260$$
   ![연습문제](/images/Lec_5_5_1_5.png)
 
 	- Player 1과 Player 2의 순수전략은 무엇인가?
-	
+
 $$\{Up,~Down\},~~~\{Left,~Center,~Right\}$$
 
-
 	- 게임의 결과는 몇 가지인가?
-	
+
 $$(U,~L),~(U,~C),~(U,~R),~(D,~L),~(D,~C),~(D,~R)$$
 		
 

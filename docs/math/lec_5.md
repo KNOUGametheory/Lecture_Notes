@@ -329,7 +329,7 @@ $$S=\{(1,~1),~(1,~2),~(1,~3),\cdots,~(6,~4),~(6,~5),~(6,~6)\}$$
 
 ### 확률의 정의
 
-{: .Definition}
+        {: .definition}
 	> 고전적 정의 Pierre-Simon, marquis de Laplace
 	>
 	>$$n$$개의 원소가 있는 표본공간 $$S=\{e_{1},\,\cdots,\,e_{n}\}$$에서

@@ -640,10 +640,10 @@ $$
 
 	$$X=x_{1},~x_{2},~x_{3},\cdots$$
 	
-	$$
+$$
 	\begin{split}
 	&p(x_{i})\ge 0,~~~~~i=1,~2,~3,\cdots\\
-	&p(x)=0,~~~~~~\text{다른 모든 $$x$$ 값에 대해}\\
+	&p(x)=0,~~~~~~\text{다른 모든 x 값에 대해}\\
 	\therefore&\sum_{i=1}^{\infty}p(x_{i})=1
 	\end{split}
-	$$
+$$

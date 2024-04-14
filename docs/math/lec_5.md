@@ -127,21 +127,12 @@ $$
 
 - 경우의 수는 4개이며, 1개의 $$HH$$, 2개의 $$HT$$, 1개의 $$TT$$
 
-- 이항계수 $${}_{2}{C}_{0}$$, $${}_{2}{C}_{1}$$, $$$${}_{2}{C}_{2}$$$$
+- 이항계수 $${}_{2}{C}_{0}$$, $${}_{2}{C}_{1}$$, $${}_{2}{C}_{2}$$
 		
 		$$
-		\left(\begin{array}{c}
-		2\\
-		0\\
-		\end{array}\right)H^{2}T^{0}=1\times HH,~~
-		\left(\begin{array}{c}
-		2\\
-		1\\
-		\end{array}\right)H^{1}T^{1}=2\times HT,~~
-		\left(\begin{array}{c}
-		2\\
-		2\\
-		\end{array}\right)H^{0}T^{2}=1\times TT
+		{2 \choose 0}H^{2}T^{0}=1\times HH,~~
+		{2 \choose 1}H^{1}T^{1}=2\times HT,~~
+		{2 \choose 2}H^{0}T^{2}=1\times TT
 		$$
 
 

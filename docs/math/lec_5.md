@@ -67,3 +67,32 @@ $$\begin{split}
 	=& \underbrace{n\times (n-1)\times (n-2)\times\cdots \times(n-r+1)}_{\text{r개의 항(term)}} \\
 	=&\frac{n\times (n-1)\times\cdots \times(n-r+1)\times(n-r)!}{(n-r)!}=\frac{n!}{(n-r)!}
 	\end{split}$$
+	
+
+### 조합(combination)
+
+- $$n$$개의 원소를 갖는 집합에서 $$r$$개의 원소를 선택하는 경우의 수
+
+- (a, b, c) 중에서 2개를 뽑는 조합
+
+	- 3가지 (ab, ac, bc)
+
+	- (ab, ba) 동일, (ac, ca) 동일 (bc, cb) 동일
+	
+- (a, b, c, d) 중에서 2개를 뽑는 조합
+
+	- 6가지 (ab, ac, ad, bc, bd, cd)
+	
+	- (ab, ba) 동일, (ac, ca) 동일, (ad, da) 동일, (bc, cb) 동일, (bd, db) 동일, (cd, dc) 동일
+
+
+### 조합의 계산 
+- $$n$$ choose $$r$$이라고 읽는다. 
+
+$$
+	\begin{split}
+	C(n,~r)={}_{n}{C}_{r}={n \choose r}
+	=&\frac{\overbrace{n\times (n-1)\times (n-2)\times\cdots \times(n-r+1)}^{\text{r개의 항(term)}}}{r!}\\
+	=&\frac{n\times (n-1)\times\cdots \times(n-r+1)\times(n-r)!}{r!(n-r)!}=\frac{n!}{r!(n-r)!}
+	\end{split}
+$$

@@ -129,11 +129,11 @@ $$
 
 - 이항계수 $${}_{2}{C}_{0}$$, $${}_{2}{C}_{1}$$, $${}_{2}{C}_{2}$$
 		
-		$${2 \choose 0}H^{2}T^{0}=1\times HH$$
+$${}_{2}{C}_{0}H^{2}T^{0}=\left(\begin{array}{c}2\\ 0\\ \end{array}\right)H^{2}T^{0}=1\times HH$$
 		
-		$${2 \choose 1}H^{1}T^{1}=2\times HT$$
-		
-		$${2 \choose 2}H^{0}T^{2}=1\times TT$$
+$${}_{2}{C}_{1}H^{2}T^{1}=\left(\begin{array}{c}2\\ 1\\ \end{array}\right)H^{1}T^{1}=3\times HT$$
+
+$${}_{2}{C}_{2}H^{0}T^{2}=\left(\begin{array}{c}2\\ 2\\ \end{array}\right)H^{0}T^{2}=3\times TT$$
 
 
 ### 동전 세 번 던지기 (이항계수 활용)

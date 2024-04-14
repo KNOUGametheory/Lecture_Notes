@@ -199,8 +199,9 @@ $$\begin{split}
 	(x+y)^{2}&=x^{2}+2xy+y^{2}\\
 	&=\text{\ding{172}}\times x^{2}y^{0}+\text{\ding{173}}\times x^{1}y^{1}+\text{\ding{172}}\times x^{0}y^{2}
 	\end{split}
-	\end{equation*}
-	\begin{equation*}
+$$
+
+$$
 	\begin{split}
 	(x+y)^{3}&=x^{3}+3x^{2}y+3xy^{2}+y^{3}\\
 	&=\text{\ding{172}}\times x^{3}y^{0}+\text{\ding{174}}\times x^{2}y^{1}+\text{\ding{174}}\times x^{1}y^{2}+\text{\ding{172}}\times x^{0}y^{3}

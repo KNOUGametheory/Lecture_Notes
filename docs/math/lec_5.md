@@ -527,6 +527,28 @@ $$
 	
 	- 다른 풀이 방법
 	
-
+$$
+\frac{
+\left(
+\begin{array}{c}
+2\\
+1\\
+\end{array}
+\right)
+\left(
+\begin{array}{c}
+2\\
+1\\
+\end{array}
+\right)
+}{
+\left(
+\begin{array}{c}
+4\\
+2\\
+\end{array}
+\right)
+}=\frac{4}{6}=\frac{2}{3}
+$$
 	
 	

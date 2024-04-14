@@ -221,6 +221,7 @@ $$
 $$(x+y)^{n}=\sum_{k=0}^{n}{}_{n}{C}_{k}x^{n-k}y^{k}=\sum_{k=0}^{n}{n \choose k}x^{n-k}y^{k}
 =\sum_{k=0}^{n}{n \choose k}x^{k}y^{n-k}$$
 
+
 		- $$(x+y)^{12}$$에서 $$x^{7}y^{5}$$의 계수
 
 	

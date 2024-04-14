@@ -147,7 +147,7 @@ $${}_{3}{C}_{0}H^{3}T^{0}=\left(\begin{array}{c}3\\ 0\\ \end{array}\right)H^{3}T
 		
 $${}_{3}{C}_{1}H^{2}T^{1}=\left(\begin{array}{c}3\\ 1\\ \end{array}\right)H^{2}T^{1}=3\times HHT$$
 
-$${}_{3}{C}_{2}}H^{1}T^{2}=\left(\begin{array}{c}3\\ 2\\ \end{array}\right)H^{1}T^{2}=3\times HTT$$
+$${}_{3}{C}_{2}H^{1}T^{2}=\left(\begin{array}{c}3\\ 2\\ \end{array}\right)H^{1}T^{2}=3\times HTT$$
 
 $${}_{3}{C}_{3}H^{0}T^{3}=\left(\begin{array}{c}3\\ 3\\ \end{array}\right)H^{0}T^{3}=1\times TTT$$
 

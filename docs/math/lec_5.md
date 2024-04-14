@@ -183,13 +183,13 @@ $$\left(\begin{array}{c}n\\ r\\ \end{array}\right)
 
 - a를 포함한 수는 $${}_{n-1}{C}_{r-1}$$
 
-$$\rlap{$$\overbrace{\phantom{a~~b~~c~~d~~e~~f~~g}}^{\text{7개의 원소}}$$}\underbrace{a~~b~~c~~d~~e}_{\text{5개의 원소}}~~f~~g~~~~~\rightarrow~~~~~
-a~~\rlap{$$\overbrace{\phantom{b~~c~~d~~e~~f~~g}}^{\text{6개의 원소}}$$}\underbrace{b~~c~~d~~e}_{\text{4개의 원소}}~~f~~g$$
+$$\rlap{$\overbrace{\phantom{a~~b~~c~~d~~e~~f~~g}}^{\text{7개의 원소}}$}\underbrace{a~~b~~c~~d~~e}_{\text{5개의 원소}}~~f~~g~~~~~\rightarrow~~~~~
+a~~\rlap{$\overbrace{\phantom{b~~c~~d~~e~~f~~g}}^{\text{6개의 원소}}$}\underbrace{b~~c~~d~~e}_{\text{4개의 원소}}~~f~~g$$
 
 - a를 포함하지 않는 수는 $${}_{n-1}{C}_{r}$$
 
-$$\rlap{$$\overbrace{\phantom{a~~b~~c~~d~~e~~f~~g}}^{\text{7개의 원소}}$$}\underbrace{a~~b~~c~~d~~e}_{\text{5개의 원소}}~~f~~g~~~~~\rightarrow~~~~~
-a~~\rlap{$$\overbrace{\phantom{b~~c~~d~~e~~f~~g}}^{\text{6개의 원소}}$$}\underbrace{b~~c~~d~~e~~f}_{\text{5개의 원소}}~~g$$
+$$\rlap{$\overbrace{\phantom{a~~b~~c~~d~~e~~f~~g}}^{\text{7개의 원소}}$}\underbrace{a~~b~~c~~d~~e}_{\text{5개의 원소}}~~f~~g~~~~~\rightarrow~~~~~
+a~~\rlap{$\overbrace{\phantom{b~~c~~d~~e~~f~~g}}^{\text{6개의 원소}}$}\underbrace{b~~c~~d~~e~~f}_{\text{5개의 원소}}~~g$$
 
 
 

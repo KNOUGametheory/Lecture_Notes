@@ -630,7 +630,7 @@ $$
 
 ### 이산확률변수(discrete random variable)
 
-- 기껏해야 가산 무한개의 \uline{가능한 값}을 갖는 확률변수
+- 기껏해야 가산 무한개의 가능한 값을 갖는 확률변수
 
 - 이산확률변수 $$X$$에 대해 $$X$$의 확률질량함수(probability mass function)
 

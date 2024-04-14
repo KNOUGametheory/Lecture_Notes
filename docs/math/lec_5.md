@@ -220,9 +220,10 @@ $$
 
 $$(x+y)^{n}=\sum_{k=0}^{n}{}_{n}{C}_{k}x^{n-k}y^{k}=\sum_{k=0}^{n}{n \choose k}x^{n-k}y^{k}
 =\sum_{k=0}^{n}{n \choose k}x^{k}y^{n-k}$$
+
 	- 이항계수 활용 $$(x+y)^{12}$$에서 $$x^{7}y^{5}$$의 계수
 	
-	$$
+$$
 	\comb{12}{5}x^{7}y^{5}=\comb{12}{7}x^{7}y^{5}={12 \choose 5}x^{7}y^{5}={12 \choose 7}x^{7}y^{5}
 	\end{equation*}
 	\begin{equation*}

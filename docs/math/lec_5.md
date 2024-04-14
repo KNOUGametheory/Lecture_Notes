@@ -197,20 +197,20 @@ a~~\rlap{\overbrace{\phantom{b~~c~~d~~e~~f~~g}}^{\text{6개의 원소}}}\underbr
 
 $$\begin{split}
 	(x+y)^{2}&=x^{2}+2xy+y^{2}\\
-	&=\text{\ding{172}}\times x^{2}y^{0}+\text{\ding{173}}\times x^{1}y^{1}+\text{\ding{172}}\times x^{0}y^{2}
+	&=1\times x^{2}y^{0}+2\times x^{1}y^{1}+1\times x^{0}y^{2}
 	\end{split}
 $$
 
 $$
 	\begin{split}
 	(x+y)^{3}&=x^{3}+3x^{2}y+3xy^{2}+y^{3}\\
-	&=\text{\ding{172}}\times x^{3}y^{0}+\text{\ding{174}}\times x^{2}y^{1}+\text{\ding{174}}\times x^{1}y^{2}+\text{\ding{172}}\times x^{0}y^{3}
+	&=1\times x^{3}y^{0}+3\times x^{2}y^{1}+3\times x^{1}y^{2}+1\times x^{0}y^{3}
 	\end{split}$$
 	
-	$$
+$$
 	\begin{split}
 	(x+y)^{4}&=x^{4}+4x^{3}y+6x^{2}y^{2}+4xy^{3}+y^{4}\\
-	&=\text{\ding{172}}\times x^{4}+\text{\ding{175}}\times x^{3}y^{1}+\text{\ding{177}}\times x^{2}y^{2}+\text{\ding{175}}\times x^{1}y^{3}+\text{\ding{172}}\times x^{0}y^{4}
+	&=1\times x^{4}+4\times x^{3}y^{1}+6\times x^{2}y^{2}+4\times x^{1}y^{3}+1\times x^{0}y^{4}
 	\end{split}
 	$$
 	
@@ -218,7 +218,7 @@ $$
 
 	- 이항계수 활용
 
-$$(x+y)^{n}=\sum_{k=0}^{n}\comb{n}{k}x^{n-k}y^{k}=\sum_{k=0}^{n}{n \choose k}x^{n-k}y^{k}
+$$(x+y)^{n}=\sum_{k=0}^{n}{}_{n}{C}_{k}x^{n-k}y^{k}=\sum_{k=0}^{n}{n \choose k}x^{n-k}y^{k}
 =\sum_{k=0}^{n}{n \choose k}x^{k}y^{n-k}$$
 	- 이항계수 활용 $$(x+y)^{12}$$에서 $$x^{7}y^{5}$$의 계수
 	

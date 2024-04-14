@@ -360,6 +360,6 @@ $$
 	> 표본공간 $$S$$에서 다음의 공리를 만족하는 $$P(A)$$를 사건 $$A$$의 확률이라고 한다.
 	> $$P(S)=1$$
 	> $$0\le P(A) \le 1$$
-	> - 상호배반인 사건 $$A_{1},\,A_{2}\,\cdots\,$$에 대하여 $$A_{i}\cap A_{j}=\emptyset~\text{\dingto}~P(A_{i}\cap A_{j})=0$$
+	> - 상호배반인 사건 $$A_{1},\,A_{2}\,\cdots\,$$에 대하여 $$A_{i}\cap A_{j}=\emptyset~~\rightarrow~~P(A_{i}\cap A_{j})=0$$
 	>
 	> $$P\big(\bigcup_{i=1}^{\infty}A_{i}\big)=P(A_{1})+P(A_{2})+\cdots$$

@@ -458,6 +458,6 @@ $$
 	
 $$A=\{1,~2,~3,~4,~5\},~~~B=\{2,~3,~5\}$$
 
-$$P(A)=\frac{5}{6}, P(B)=\frac{3}{6}~~\text{$$\rightarrow$$}~~P(B)=\frac{3}{6}\le P(A)=\frac{5}{6}$$
+$$P(A)=\frac{5}{6}, P(B)=\frac{3}{6}~~\rightarrow~~P(B)=\frac{3}{6}\le P(A)=\frac{5}{6}$$
 
   ![주사위 던지기](/images/Lec_5_5_2_4.png)

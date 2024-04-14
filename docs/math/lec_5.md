@@ -225,8 +225,9 @@ $$(x+y)^{n}=\sum_{k=0}^{n}{}_{n}{C}_{k}x^{n-k}y^{k}=\sum_{k=0}^{n}{n \choose k}x
 	
 $$
 	\comb{12}{5}x^{7}y^{5}=\comb{12}{7}x^{7}y^{5}={12 \choose 5}x^{7}y^{5}={12 \choose 7}x^{7}y^{5}
-	\end{equation*}
-	\begin{equation*}
+$$
+
+$$
 	\frac{12!}{5!7!}x^{7}y^{5}=\uline{\bf{792}}\times x^{7}y^{5}
 $$ 
 

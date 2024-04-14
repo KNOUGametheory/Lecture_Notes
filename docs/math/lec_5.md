@@ -781,3 +781,75 @@ $$E[X]=\sum_{x:p(x)>0}xp(x)$$
 	- 기댓값
 	
 	$$1\times p(1)+2\times p(2)+3\times p(3)+4\times p(4)+5\times p(5)=\frac{37}{16}$$
+	
+	
+### 베르누이 확률변수(Bernoulli random variable)
+
+- 각 시행에서 성공할 확률이 $$p$$, 실패할 확률이 $$(1-p)$$인 독립시행을 $$n$$번 실행
+
+- $$n$$번의 독립시행에서 발생한 성공의 횟수가 $$X$$
+
+- $$X$$는 모수가 $$(n,~p)$$인 이항확률변수
+
+- 모수가 $$(n,~p)$$인 이항확률변수의 확률질량함수
+
+$$
+\begin{split}
+p(i)&={n \choose i}p^{i}(1-p)^{n-i},~~~~~i=0,~1,~2,\cdots,~n\\
+\sum_{i=0}^{\infty}p(i)&=\sum_{i=0}^{n}{n \choose i}p^{i}(1-p)^{n-i}\\
+&=[p+(1-p)]^{n}~~~~~~~~~\because~\text{이항정리}~(x+y)^{n}\\
+&=1
+\end{split}
+$$
+
+- 공정한 동전 5개를 던져서 나온 앞면(성공)의 개수 $$X$$
+
+	- 확률변수 $$X=0,~1,~2,~3,~4,~5$$
+
+	- $$X$$는 모수가 $$(5,~1/2)$$인 이항확률변수
+
+	$$
+	\begin{array}{cc}
+	P\{X=0\}={5 \choose 0}\left(\frac{1}{2} \right)^{0}\left(\frac{1}{2}  \right)^{5}=\frac{1}{32}&
+	P\{X=1\}={5 \choose 1}\left(\frac{1}{2} \right)^{1}\left(\frac{1}{2}  \right)^{4}=\frac{5}{32}\\
+	P\{X=2\}={5 \choose 2}\left(\frac{1}{2} \right)^{2}\left(\frac{1}{2}  \right)^{3}=\frac{10}{32}&
+	P\{X=3\}={5 \choose 3}\left(\frac{1}{2} \right)^{3}\left(\frac{1}{2}  \right)^{2}=\frac{10}{32}\\
+	P\{X=4\}={5 \choose 4}\left(\frac{1}{2} \right)^{4}\left(\frac{1}{2}  \right)^{1}=\frac{5}{32}&
+	P\{X=5\}={5 \choose 5}\left(\frac{1}{2} \right)^{5}\left(\frac{1}{2}  \right)^{0}=\frac{1}{32}\\
+	\end{array}
+	$$
+	
+	$$	\sum_{i=0}^{5}P\{X=i\}=1$$
+	
+	- 기댓값
+	
+	$$\sum_{i=0}^{5}ip(i)=0\times \frac{1}{32}+1\times \frac{5}{32}
+	+2\times \frac{10}{32}+3\times \frac{10}{32}+4\times \frac{5}{32}+5\times \frac{1}{32}
+	=\frac{5}{2}$$
+	
+### 응용해 봅시다.
+
+- 공정한 주사위 두 개를 던져 3의 배수가 나온 수만큼 1,000원을 받는 게임
+
+	- 게임의 지불금액은 0 
+
+	- 확률변수 $$X=0,~1,~2$$
+
+	- $$X$$는 모수가 $$(2,~1/3)$$인 이항확률변수
+	
+	\begin{tabular}{c||c|c|c}
+	\hline
+	$$X$$&0&1&2\\
+	\hline
+	이항확률&$${2 \choose 0}\left(\frac{1}{3}\right)^{0}\left(\frac{2}{3}\right)^{2}$$&
+	$${2 \choose 1}\left(\frac{1}{3}\right)^{1}\left(\frac{2}{3}\right)^{1}$$&
+	$${2 \choose 2}\left(\frac{1}{3}\right)^{2}\left(\frac{2}{3}\right)^{0}$$\\[1em]
+	&$$\dfrac{4}{9}$$&$$\dfrac{4}{9}$$&$$\dfrac{1}{9}$$\\[1em]
+	\hline
+	보수&0&1,000&2,000\\
+	\hline
+	\end{tabular}
+
+	- 기대보수
+	
+	$$0\times \frac{4}{9}+1,000\times \frac{4}{9}+2,000\times \frac{1}{9}=\frac{2,000}{3}$$

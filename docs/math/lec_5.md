@@ -118,6 +118,108 @@ $$
 	
 	- 즉, $$n$$ 번 중 앞면($$r$$ 번) 또는 뒷면($$n-r$$ 번) 나오는 경우의 수를 계산
 	
-	$${}_{n}{C}_{r}=\frac{n!}{r!(n-r)!}=\comb{n}{n-r}$$
+	$${}_{n}{C}_{r}=\frac{n!}{r!(n-r)!}={}_{n}{C}_{n-r}$$
 	
   ![이항계수](/images/Lec_1_5_1_4.jpeg)
+  
+  
+### 동전 두 번 던지기 (이항계수 활용)
+
+- 경우의 수는 4개이며, 1개의 $$HH$$, 2개의 $$HT$$, 1개의 $$TT$$
+
+- 이항계수 \dingto $$\comb{2}{0}$$, $$\comb{2}{1}$$, $$\comb{2}{2}$$
+		
+		$$\left(\begin{array}{c}2\\ 0\\ \end{array}\right)H^{2}T^{0}=1\times HH,~~
+\left(\begin{array}{c}2\\ 1\\ \end{array}\right)H^{1}T^{1}=2\times HT,~~
+\left(\begin{array}{c}2\\ 2\\ \end{array}\right)H^{0}T^{2}=1\times TT$$
+
+
+### 동전 세 번 던지기 (이항계수 활용)
+
+- 경우의 수는 8개이며, 1개의 $$HHH$$, 3개의 $$HHT$$, 3개의 $$HTT$$,
+1개의 $$TTT$$
+
+- 이항계수 \dingto $$\comb{3}{0}$$, $$\comb{3}{1}$$, $$\comb{3}{2}$$, $$\comb{3}{3}$$
+		
+		$$\comb{3}{0}H^{3}T^{0}=\left(\begin{array}{c}3\\ 0\\ \end{array}\right)H^{3}T^{0}=1\times HHH$$$$
+$$$$\comb{3}{1}H^{2}T^{1}=\left(\begin{array}{c}3\\ 1\\ \end{array}\right)H^{2}T^{1}=3\times HHT$$$$
+$$$$\comb{3}{2}H^{1}T^{2}=\left(\begin{array}{c}3\\ 2\\ \end{array}\right)H^{1}T^{2}=3\times HTT$$$$
+$$$$\comb{3}{3}H^{0}T^{3}=\left(\begin{array}{c}3\\ 3\\ \end{array}\right)H^{0}T^{3}=1\times TTT$$
+
+
+### 동전 $$n$$ 번 던지기 (이항계수 활용)
+
+- \item
+뒷면이 $$r$$ 번, 앞면이 $$n-r$$ 번 나오는 경우의 수 
+
+$${}_{n}{C}_{r}H^{n-r}T^{r}=\left(\begin{array}{c}n\\ r\\ \end{array}\right)H^{n-r}T^{r}$$
+
+- 8 번 던져 뒷면이 $$3$$ 번, 앞면이 $$5$$ 번 나오는 경우의 수 
+
+$$\comb{8}{3}H^{5}T^{3}=\left(\begin{array}{c}8\\ 3\\ \end{array}\right)H^{5}T^{3}
+=\frac{8!}{3!\times5!}H^{5}T^{3}
+=56\times H^{5}T^{3}$$
+
+- 10 번 던져 뒷면이 $$4$$ 번, 앞면이 $$6$$ 번 나오는 경우의 수 
+
+$$\comb{10}{4}H^{6}T^{4}=\left(\begin{array}{c}10\\ 4\\ \end{array}\right)H^{6}T^{4}
+=\frac{10!}{4!\times6!}H^{6}T^{4}
+=210\times H^{6}T^{4}$$
+
+
+### 유용한 조합 등식
+
+- $$n$$개의 대상물에서 한 번에 $$r$$개를 선택하는 선택하는
+가능한 \uline{조합의 수}
+
+$$\left(\begin{array}{c}n\\ r\\ \end{array}\right)
+=\left(\begin{array}{c}n-1\\ r-1\\ \end{array}\right)
++\left(\begin{array}{c}n-1\\ r\\ \end{array}\right),
+~~~~~1\le r \le n$$
+
+- a를 포함한 수는 $$\comb{n-1}{r-1}$$
+
+$$\rlap{$$\overbrace{\phantom{a~~b~~c~~d~~e~~f~~g}}^{\text{7개의 원소}}$$}\underbrace{a~~b~~c~~d~~e}_{\text{5개의 원소}}~~f~~g~~~~~\text{\dingto}~~~~~
+a~~\rlap{$$\overbrace{\phantom{b~~c~~d~~e~~f~~g}}^{\text{6개의 원소}}$$}\underbrace{b~~c~~d~~e}_{\text{4개의 원소}}~~f~~g$$
+
+- a를 포함하지 않는 수는 $$\comb{n-1}{r}$$
+
+$$\rlap{$$\overbrace{\phantom{a~~b~~c~~d~~e~~f~~g}}^{\text{7개의 원소}}$$}\underbrace{a~~b~~c~~d~~e}_{\text{5개의 원소}}~~f~~g~~~~~\text{\dingto}~~~~~
+a~~\rlap{$$\overbrace{\phantom{b~~c~~d~~e~~f~~g}}^{\text{6개의 원소}}$$}\underbrace{b~~c~~d~~e~~f}_{\text{5개의 원소}}~~g$$
+
+
+
+### 이항정리 \textsuperscript{binomial theorem}
+
+$$\begin{split}
+	(x+y)^{2}&=x^{2}+2xy+y^{2}\\
+	&=\text{\ding{172}}\times x^{2}y^{0}+\text{\ding{173}}\times x^{1}y^{1}+\text{\ding{172}}\times x^{0}y^{2}
+	\end{split}
+	\end{equation*}
+	\begin{equation*}
+	\begin{split}
+	(x+y)^{3}&=x^{3}+3x^{2}y+3xy^{2}+y^{3}\\
+	&=\text{\ding{172}}\times x^{3}y^{0}+\text{\ding{174}}\times x^{2}y^{1}+\text{\ding{174}}\times x^{1}y^{2}+\text{\ding{172}}\times x^{0}y^{3}
+	\end{split}$$
+	
+	$$
+	\begin{split}
+	(x+y)^{4}&=x^{4}+4x^{3}y+6x^{2}y^{2}+4xy^{3}+y^{4}\\
+	&=\text{\ding{172}}\times x^{4}+\text{\ding{175}}\times x^{3}y^{1}+\text{\ding{177}}\times x^{2}y^{2}+\text{\ding{175}}\times x^{1}y^{3}+\text{\ding{172}}\times x^{0}y^{4}
+	\end{split}
+	$$
+	
+- $$(x+y)^{n}$$은 어떤 형태일까?
+
+	- 이항계수 활용
+
+$$(x+y)^{n}=\sum_{k=0}^{n}\comb{n}{k}x^{n-k}y^{k}=\sum_{k=0}^{n}{n \choose k}x^{n-k}y^{k}
+=\sum_{k=0}^{n}{n \choose k}x^{k}y^{n-k}$$
+	- 이항계수 활용 $$(x+y)^{12}$$에서 $$x^{7}y^{5}$$의 계수
+	
+	$$
+	\comb{12}{5}x^{7}y^{5}=\comb{12}{7}x^{7}y^{5}={12 \choose 5}x^{7}y^{5}={12 \choose 7}x^{7}y^{5}
+	\end{equation*}
+	\begin{equation*}
+	\frac{12!}{5!7!}x^{7}y^{5}=\uline{\bf{792}}\times x^{7}y^{5}
+$$ 

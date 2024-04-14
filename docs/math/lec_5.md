@@ -468,8 +468,8 @@ $$P(A)=\frac{5}{6}, P(B)=\frac{3}{6}~~\rightarrow~~P(B)=\frac{3}{6}\le P(A)=\fra
 	
 $$
 \begin{split}
-A\cup B&=A\cup (A^{c}\cap B)~~\text{$$\rightarrow$$}~~P(A\cup B)=P(A)+P(A^{c}\cap B)\\
-B&=(A\cap B)\cup (A^{c}\cap B)~~\text{$$\rightarrow$$}~~P(B)=P(A\cap B)+P(A^{c}\cap B)\\
+A\cup B&=A\cup (A^{c}\cap B)~~\rightarrow~~P(A\cup B)=P(A)+P(A^{c}\cap B)\\
+B&=(A\cap B)\cup (A^{c}\cap B)~~\rightarrow~~P(B)=P(A\cap B)+P(A^{c}\cap B)\\
 P(A\cup B)&=P(A)+P(A^{c}\cap B)=P(A)+P(B)-P(A\cap B)\\
 \end{split}
 $$
@@ -479,7 +479,7 @@ $$
 	
 $$A=\{2,~4,~6\},~~~B=\{2,~3,~5\},~~~A\cap B=\{2\}$$
 
-$$$P(A)=\frac{3}{6}, P(B)=\frac{3}{6}~~\text{$$\rightarrow$$}~~P(A\cup B)=P(A)+P(B)-P(A\cap B)=\frac{5}{6}$$
+$$$P(A)=\frac{3}{6}, P(B)=\frac{3}{6}~~\rightarrow~~P(A\cup B)=P(A)+P(B)-P(A\cap B)=\frac{5}{6}$$
 
   ![주사위 던지기](/images/Lec_5_5_2_5.png)
   

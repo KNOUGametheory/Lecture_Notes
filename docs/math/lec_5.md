@@ -54,3 +54,16 @@ nav_order: 5
 	- \uline{1234, 1243, 1324, 1342, 1423, 1432}, \uline{2134, 2143, 2314, 2341, 2413, 2431}
 		
 	- \uline{3124, 3142, 3214, 3241, 3412, 3421},  \uline{4123, 4132, 4213, 4231, 4312, 4321}
+
+
+### $$!$$ factorial
+
+$$n!=n\times(n-1)\times(n-2)\times\cdots 3\times2\times1$$
+
+### 순열의 계산  
+
+$$\begin{split}
+	P(n,~r)=\perm{n}{r}
+	=& \underbrace{n\times (n-1)\times (n-2)\times\cdots \times(n-r+1)}_{\text{r개의 항(term)}} \\
+	=&\frac{n\times (n-1)\times\cdots \times(n-r+1)\times(n-r)!}{(n-r)!}=\frac{n!}{(n-r)!}
+	\end{split}$$

@@ -341,3 +341,25 @@ $$
 	>
 	> - 공정한 주사위 던지기 각면 $$\dfrac{1}{6}$$
 
+    {: .definition}
+	
+	> 빈도학파적 정의
+	
+	> 실험횟수를 $$n$$이라 할 때 사건 $$A$$가 일어날 확률은 다음과 같다.
+	>
+	> $$P(A)=\lim_{n\to\infty}\dfrac{1}{n}\times\{\text{사건 $$A$$가 발생한 횟수}\}$$
+	>
+	> - 주변의 공정한 동전 50번 던지기 $$\rightarrow$$ 앞면 6회 $$\rightarrow$$ $$\dfrac{6}{50}$$  $$\rightarrow$$ 던지는 회수를 늘리면 $$\dfrac{1}{2}$$로 수렴
+	>
+	> - 주변의 공정한 주사위 60 던지기 $$\rightarrow$$ 3의 눈 21회 $$\rightarrow$$ $$\dfrac{21}{60}$$ $$\rightarrow$$ 던지는 회수를 늘리면 $$\dfrac{1}{6}$$로 수렴
+	
+	{: .definition}
+	
+	> 공리론적 정의 Andrey Nikolaevich Kolmogorov
+	>
+	> 표본공간 $$S$$에서 다음의 공리를 만족하는 $$P(A)$$를 사건 $$A$$의 확률이라고 한다.
+	> - $$P(S)=1$$
+	> - $$0\le P(A) \le 1$$
+	> - 상호배반인 사건 $$A_{1},\,A_{2}\,\cdots\,$$에 대하여 $$A_{i}\cap A_{j}=\emptyset~\text{\dingto}~P(A_{i}\cap A_{j})=0$$
+	>
+	> $$P\big(\bigcup_{i=1}^{\infty}A_{i}\big)=P(A_{1})+P(A_{2})+\cdots$$

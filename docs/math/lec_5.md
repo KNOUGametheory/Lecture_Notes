@@ -869,11 +869,11 @@ $$
   
    - Player 2의 $$Left$$ 선택의 기대보수는? 
 	
-	$$\rightarrow$$ $$p\times 7+(1-p)\times 2$$
+	$$p\times 7+(1-p)\times 2$$
 
    - Player 1의 $$Up$$ 선택의 기대보수는? 
 	
-	$$\rightarrow$$ $$q_{1}\times 3+q_{2}\times 4+(1-q_{1}-q_{2})\times 1$$
+	$$q_{1}\times 3+q_{2}\times 4+(1-q_{1}-q_{2})\times 1$$
 	
 ## 확률기초 정리하기
 

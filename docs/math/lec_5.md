@@ -672,8 +672,8 @@ f(\{HTT\})&=f(\{THT\})=f(\{TTH\})=1\\
 
 $$
 \begin{array}{cccc}
-&p(1)=\dfrac{3C1}{2^{3}}=\dfrac{3}{8}&p(2)=\dfrac{3C1}{2^{3}}=\dfrac{3}{8}&\\
-p(0)=\dfrac{3C1}{2^{3}}=\dfrac{1}{8}&&&p(3)=\dfrac{3C1}{2^{3}}=\dfrac{1}{8}\\
+&p(1)=\dfrac{{}_{3}{C}_{1}}{2^{3}}=\dfrac{3}{8}&p(2)=\dfrac{{}_{3C1}{2^{3}}=\dfrac{3}{8}&\\
+p(0)=\dfrac{{}_{3C1}{2^{3}}=\dfrac{1}{8}&&&p(3)=\dfrac{{}_{3C1}{2^{3}}=\dfrac{1}{8}\\
 \end{array}
 $$
 	

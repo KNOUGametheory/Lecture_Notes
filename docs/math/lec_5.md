@@ -778,6 +778,6 @@ $$E[X]=\sum_{x:p(x)>0}xp(x)$$
 	\end{array}
 	$$
 
-	-기댓값
+	- 기댓값
 	
 	$$1\times p(1)+2\times p(2)+3\times p(3)+4\times p(4)+5\times p(5)=\frac{37}{16}$$

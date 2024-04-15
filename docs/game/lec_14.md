@@ -475,40 +475,40 @@ nav_order: 14
 
 ### 참고문헌
 <a id="1">[1]</a>
-[John Maynard Smith and George R. Price (1973). "The Logic of Animal Conflict," *Nature,* 246. 15-18.](https://doi.org/10.1038/246015a0)
+[John Maynard Smith and George R. Price (1973). "The Logic of Animal Conflict," *Nature,* 246. 15-18.](https://doi.org/10.1038/246015a0){:target="_blank"}
 
 <a id="2">[2]</a>
-[Alberto Bisin and Thierry Verdier (2022). "Advances in the Economic Theory of Cultural Transmission," *NBER Working Papers*, 30466.](https://www.nber.org/system/files/working_papers/w30466/w30466.pdf) 
+[Alberto Bisin and Thierry Verdier (2022). "Advances in the Economic Theory of Cultural Transmission," *NBER Working Papers*, 30466.](https://www.nber.org/system/files/working_papers/w30466/w30466.pdf){:target="_blank"} 
 
 <a id="3">[3]</a>
-[Robert Boyd and Peter J. Richerson (1985). *Culture and the Evolutionary Process,* University of Chicago Press.](https://press.uchicago.edu/ucp/books/book/chicago/C/bo5970597.html)
+[Robert Boyd and Peter J. Richerson (1985). *Culture and the Evolutionary Process,* University of Chicago Press.](https://press.uchicago.edu/ucp/books/book/chicago/C/bo5970597.html){:target="_blank"}
 
 <a id="4">[4]</a>
-[Richard McElreath and Robert Boyd (2007). *Mathematical models of social evolution : a guide for the perplexed,* Universtiy of Chicago Press.](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4343149.html)
+[Richard McElreath and Robert Boyd (2007). *Mathematical models of social evolution : a guide for the perplexed,* Universtiy of Chicago Press.](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4343149.html){:target="_blank"}
 
 <a id="5">[5]</a>
-[Alex Mesoudi (2011). *Cultural Evolution: How Darwinian Theory Can Explain Human Culture and Synthesize the Social Sciences,* University of Chicago Press.](https://press.uchicago.edu/ucp/books/book/chicago/C/bo8787504.html)
+[Alex Mesoudi (2011). *Cultural Evolution: How Darwinian Theory Can Explain Human Culture and Synthesize the Social Sciences,* University of Chicago Press.](https://press.uchicago.edu/ucp/books/book/chicago/C/bo8787504.html){:target="_blank"}
 
 <a id="6">[6]</a>
-[Stephen Schecter and Herbert Gintis (2016). *Game Theory in Action: An Introduction to Classical and Evolutionary Models,* Ch. 8, Princeton University Press](https://press.princeton.edu/books/hardcover/9780691167640/game-theory-in-action)
+[Stephen Schecter and Herbert Gintis (2016). *Game Theory in Action: An Introduction to Classical and Evolutionary Models,* Ch. 8, Princeton University Press](https://press.princeton.edu/books/hardcover/9780691167640/game-theory-in-action){:target="_blank"}
 
 <a id="7">[7]</a>
-[David Easley and Jon Kleinberg (2010). *Networks, Crowds, and Markets: Reasoning about a Highly Connected World*, Ch. 7, Cambridge University Press.](https://www.cambridge.org/core/books/networks-crowds-and-markets/A70C7855A3003FE1079C25F8397AF641)
+[David Easley and Jon Kleinberg (2010). *Networks, Crowds, and Markets: Reasoning about a Highly Connected World*, Ch. 7, Cambridge University Press.](https://www.cambridge.org/core/books/networks-crowds-and-markets/A70C7855A3003FE1079C25F8397AF641){:target="_blank"}
 
 <a id="8">[8]</a>
-[Stephen Schecter and Herbert Gintis (2016). *Game Theory in Action: An Introduction to Classical and Evolutionary Models,* Ch. 8, Princeton University Press](https://press.princeton.edu/books/hardcover/9780691167640/game-theory-in-action)
+Stephen Schecter and Herbert Gintis (2016). Ch. 8.
 
 <a id="9">[9]</a>
-[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Ch. 6, Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior)
+[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Ch. 6, Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
 
 <a id="10">[10]</a>
-[Stephen Schecter and Herbert Gintis (2016). *Game Theory in Action: An Introduction to Classical and Evolutionary Models,* Ch. 10, Princeton University Press](https://press.princeton.edu/books/hardcover/9780691167640/game-theory-in-action) 
+Stephen Schecter and Herbert Gintis (2016). Ch. 10.
 
 <a id="11">[11]</a>
-[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Ch. 6, Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior)
+Paul E. Smaldino (2023). Ch. 6.
 
 <a id="12">[12]</a>
-[Martin A. Nowak (2006). "Five Rules for the Evolution of Cooperation," *Science*, 314. 1560-1563.](https://doi.org/10.1126/science.1133755)
+[Martin A. Nowak (2006). "Five Rules for the Evolution of Cooperation," *Science*, 314. 1560-1563.](https://doi.org/10.1126/science.1133755){:target="_blank"}
 
 <a id="13">[13]</a> 
-[William D. Hamilton (1964). "The genetical evolution of social behaviour," *Journal of Theoretical Biology*, 7(1), p. 16](https://doi.org/10.1016/0022-5193(64)90038-4)
+[William D. Hamilton (1964). "The genetical evolution of social behaviour," *Journal of Theoretical Biology*, 7(1), p. 16](https://doi.org/10.1016/0022-5193(64)90038-4){:target="_blank"}

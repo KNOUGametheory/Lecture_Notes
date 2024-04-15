@@ -13,7 +13,7 @@ nav_order: 1
 
 ## 학습목표
 
-1.  게임 이론은 무엇을 하는지 설명할 수 있다.
+1.  게임 이론은 무엇을 할 수 있는 지 설명할 수 있다.
 
 2.  게임의 세 가지 구성 요소를 설명할 수 있다.
 
@@ -61,8 +61,7 @@ nav_order: 1
 
     -   타고난 천재
 
-        -   6살 때 두 개의 여덟 자리 수 나눗셈을 암산, 고대 그리스어로
-            대화
+        -   6살 때 두 개의 여덟 자리 수 나눗셈을 암산, 고대 그리스어로 대화
 
         -   완전 기억 능력(Eidetic memory)
 
@@ -160,20 +159,20 @@ nav_order: 1
         -   $$u_{i}: S \rightarrow \mathbb{R}$$
 
         {: .definition}
-        The **normal-form representation** of an $$n$$-player game specifies the players' strategy spaces $$G = \{ S_{1}, \ldots, S_{n} \}$$and their payoff functions $$u_{1},\ldots, u_{n}$$. We denote this game by $$G = \{ S_{1}, \ldots , S_{n}; u_{1},\ldots, u_{n} \}$$.
+        The **normal-form representation** of an $$n$$-player game specifies the players' strategy spaces $$G = \{ S_{1}, \ldots, S_{n} \}$$and their payoff functions $$u_{1},\ldots, u_{n}$$. We denote this game by $$G = \{ S_{1}, \ldots , S_{n}; u_{1},\ldots, u_{n} \}$$ [[2]](#2).
 
 -   지배(dominance)와 균형
 
     -   지배
 
-        > "충분한 수의 참여자가 자신의 이해에 따라 $$x$$를 $$y$$보다 선호함을 의미하고, ... 이러한 $$x$$와 $$y$$의 비교에서 참여자가 그 어떤 제 3의 대안을 고려하는 데 영향을 받지 않는다. 즉 우리는 우월성의 관계를 기본적인 요소로 인식 ... 우리는 다양한 의미를 갖고 있는 "우월\"하다는 표현 대신, 더 기술적인 성격의 단어를 사용하고자 한다. ... 우리는 $$x$$가 $$y$$를 지배한다고 말한다[@Neumann:2007aa p. 70].\"
+        > "충분한 수의 참여자가 자신의 이해에 따라 $$x$$를 $$y$$보다 선호함을 의미하고, ... 이러한 $$x$$와 $$y$$의 비교에서 참여자가 그 어떤 제 3의 대안을 고려하는 데 영향을 받지 않는다. 즉 우리는 우월성의 관계를 기본적인 요소로 인식 ... 우리는 다양한 의미를 갖고 있는 "우월\"하다는 표현 대신, 더 기술적인 성격의 단어를 사용하고자 한다. ... 우리는 $$x$$가 $$y$$를 지배한다고 말한다 [[3]](#3).\"
 
         {: .definition}
 		> In the normal-form game $$G = \{ S_{1}, \ldots , S_{n}; u_{1}, \ldots, u_{n} \}$$, let $$s_{i}^{'}$$and $$s_{i}^{''}$$be feasible strategies for player $$i$$(i.e., $$s_{i}^{'}$$and $$s_{i}^{''}$$are members of $$S_{i}$$). Strategy $$s_{i}^{'}$$is **strictly dominated** by strategy $$s_{i}^{''}$$if for each feasible combination of the other players' strategies, $$i$$'s payoff from playing $$s_{i}^{'}$$is strictly less than $$i$$'s payoff from playing $$s_{i}^{''}$$:
-        > 
+        >
         > $$u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{'},  s_{i+1}, \ldots, s_{n}) < u_{i}(s_{1}, \ldots, s_{i-1}, s_{i}^{''}, s_{i+1}, \ldots, s_{n})$$
-        > 
-        > for each $$(s_{1}, \ldots , s_{i-1}, s_{i+1}, \ldots, s_{n})$$ that can be constructed from the other players' strategy spaces $$S_{1}, \ldots, S_{i-1}, S_{i+1}, \ldots, S_{n}$$.
+        >
+        > for each $$(s_{1}, \ldots , s_{i-1}, s_{i+1}, \ldots, s_{n})$$ that can be constructed from the other players' strategy spaces $$S_{1}, \ldots, S_{i-1}, S_{i+1}, \ldots, S_{n}$$ [[4]](#4). 
 
     -   상대의 선택에 관계없이 나의 보수를 극대화 하는 선택이 존재함을
         의미
@@ -192,7 +191,7 @@ nav_order: 1
         -   가위바위보 게임에서 경기자의 혼합 전략은 (가위를 낼 확률, 바위를 낼 확률, 보를 낼 확률)로 표현 가능 $$\rightarrow$$ $$\left(\dfrac{1}{2}, \dfrac{1}{4}, \dfrac{1}{4}\right)$$는 가위를 낼 확률이 $$\dfrac{1}{2}$$, 바위를 낼 확률이 $$\dfrac{1}{4}$$, 보를 낼 확률이 $$\dfrac{1}{4}$$인 혼합전략
 
         {: .definition}
-        In the normal-form game $$G = \{S_{1}, \ldots, S_{n}; u_{1},\ldots,u_{n}\}$$, suppose $$S_{i} = \{ s_{i1}, \ldots, s_{ik}\}$$. Then a **mixed strategy** for player $$i$$is a probability distribution $$p_{i} = (p_{i1}, \ldots, p_{iK})$$, where $$0 \leq p_{ik} \leq 1$$for $$k=1, \ldots, K$$ and $$p_{i1} + \cdots + p_{iK} = 1$$.
+        In the normal-form game $$G = \{S_{1}, \ldots, S_{n}; u_{1},\ldots,u_{n}\}$$, suppose $$S_{i} = \{ s_{i1}, \ldots, s_{ik}\}$$. Then a **mixed strategy** for player $$i$$is a probability distribution $$p_{i} = (p_{i1}, \ldots, p_{iK})$$, where $$0 \leq p_{ik} \leq 1$$for $$k=1, \ldots, K$$ and $$p_{i1} + \cdots + p_{iK} = 1$$ [[5]](#5).
 
         -   제로 섬 게임: 어느 한 경기자의 이득 또는 손실은 다른 경기자의 손실 또는 이득과 같음
 
@@ -231,7 +230,7 @@ nav_order: 1
 		> 
 		> for every feasible strategy $$s_{i}$$in $$S_{i}$$; that is, $$s_{i}^{*}$$solves
 		> 
-		> $$\max_{s_i \in S_{i}} u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}, s_{i+1}^{*}, \ldots, s_{n}^{*})$$
+		> $$\max_{s_i \in S_{i}} u_{i}(s_{1}^{*}, \ldots, s_{i-1}^{*}, s_{i}, s_{i+1}^{*}, \ldots, s_{n}^{*}) $$ [[6]](#6).
 
     -   $$\rightarrow$$ 어떤 경기자도 자신의 전략을 바꿀 유인이 없는 상태(No incentive to deviate)
 
@@ -248,7 +247,7 @@ nav_order: 1
     -   경기자의 움직임에 따른 순서가 있고, 경기자는 언제 의사 결정을 해야 하는 지 알고 있음
 
         {: .definition}
-        The **extensive-form representation** of a game specifies: (1) the players in the game, (2a) when each player has the move, (2b) what each player can do at each of his or her opportunities to move, (2c) what each player knows at each of his or her opportunities to move and (3) the payoff received by each player for each combination of moves that could be chosen by the players.
+        The **extensive-form representation** of a game specifies: (1) the players in the game, (2a) when each player has the move, (2b) what each player can do at each of his or her opportunities to move, (2c) what each player knows at each of his or her opportunities to move and (3) the payoff received by each player for each combination of moves that could be chosen by the players [[7]](#7).
 
 -   전개형 게임을 정규형 게임으로 표현할 수 있음
 
@@ -257,7 +256,7 @@ nav_order: 1
         -   실제로 어떤 선택상황에 놓이는 것과 상관없이, 자신이 직면할 수 있는 모든 상황에서의 행동 계획을 갖고 있음
 
             {: .definition}
-            A **strategy** for a player is a complete plan of action--it specifies a feasible action for the player in every contingency in which the player might be called on to act.
+            A **strategy** for a player is a complete plan of action--it specifies a feasible action for the player in every contingency in which the player might be called on to act [[8]](#8).
 
         -   전개형 게임에서의 결과(outcome)
 
@@ -342,12 +341,12 @@ nav_order: 1
     -   유한 반복 게임(finitely repeated game)
 
         {: .definition}
-        Given a stage game $$G$$, let $$G(T)$$denote the finitely repeated game in which $$G$$is played $$T$$times, with the outcomes of all preceding plays observed before the next play begins. The payoffs for $$G(T)$$are simply the sum of the payoffs from the $$T$$stage games.
+        Given a stage game $$G$$, let $$G(T)$$denote the **finitely repeated game** in which $$G$$is played $$T$$times, with the outcomes of all preceding plays observed before the next play begins. The payoffs for $$G(T)$$are simply the sum of the payoffs from the $$T$$stage games [[9]](#9).
 
     -   무한 반복 게임(infinitely repeated game)
 
         {: .definition}
-        Given a stage game $$G$$, let $$G(\infty , \delta)$$denote the infinitely repeated game in which $$G$$is repeated forever and the players share the discount factor $$\delta$$. For each $$t$$, the outcomes of the $$t- 1$$preceding plays of the stage game are observed before the $$t$$th stage begins. Each player's payoff in $$G(\infty , \delta)$$is the present value of the player's payoffs from the infinite sequence of stage games.
+        Given a stage game $$G$$, let $$G(\infty , \delta)$$denote the **infinitely repeated game** in which $$G$$is repeated forever and the players share the discount factor $$\delta$$. For each $$t$$, the outcomes of the $$t- 1$$preceding plays of the stage game are observed before the $$t$$th stage begins. Each player's payoff in $$G(\infty , \delta)$$is the present value of the player's payoffs from the infinite sequence of stage games [[10]](#10).
 
 -   부분 게임(subgame)
 
@@ -358,14 +357,14 @@ nav_order: 1
 		> 
 		> \(b\) includes all the decision and terminal nodes following $$n$$ in the game tree (but no nodes that do not follow $$n$$), and
 		> 
-		> \(c\) does not cut any information sets (i.e., if a decision node $$n^{'}$$follows $$n$$in the game tree, then all other nodes in the information set containing $$n^{'}$$must also follow $$n$$, and so must be included in the subgame).
+		> \(c\) does not cut any information sets (i.e., if a decision node $$n^{'}$$follows $$n$$in the game tree, then all other nodes in the information set containing $$n^{'}$$must also follow $$n$$, and so must be included in the subgame) [[11]](#11).
 
 -   부분 게임 완전 균형
 
     -   모든 부분 게임에서 내쉬 균형이 되는 전략 프로파일
 
         {: .definition}
-        A Nash equilibrium is **subgame-perfect** if the players' strategies constitute a Nash equilibrium in every subgame.
+        A Nash equilibrium is **subgame-perfect** if the players' strategies constitute a Nash equilibrium in every subgame [[12]](#12).
 
     -   $$\rightarrow$$ 정치화: 부분 게임 완전 내쉬 균형(SPNE)은 내쉬 균형보다 더 강한 개념
 
@@ -374,7 +373,7 @@ nav_order: 1
     -   선택의 순간에서 경기자는 자신이 할 수 있는 선택들을 알고 있지만, 정확히 어떤 상황(decision node)에 놓여있는지는 모름 $$\rightarrow$$ 불완전 정보
 
         {: .definition}
-        An **information set** for a player is a collection of decision nodes satisfying: (i) the player has the move at every node in the information set, and (ii) when the play of the game reaches a node in the information set, the player with the move does not know which node in the information set has (or has not) been reached.
+        An **information set** for a player is a collection of decision nodes satisfying: (i) the player has the move at every node in the information set, and (ii) when the play of the game reaches a node in the information set, the player with the move does not know which node in the information set has (or has not) been reached [[13]](#13).
 
 -   불완전 정보(incomplete information)
 
@@ -396,7 +395,7 @@ nav_order: 1
     -   자연(Nature): 유형과 사적 정보를 설정하기 위해 도입
 
         {: .definition}
-        The **normal-form representation of an n-player static Bayesian game** specifies the players' action spaces $$A_{1}, \ldots , A_{n}$$, their type spaces $$T_{1}, \ldots, T_{n}$$, their beliefs $$p_{1}, \ldots, p_{n}$$, and their payoff functions $$u_{1}, \ldots, u_{n}$$. Player $$i$$'s type, $$t$$, is privately known by player $$i$$, determines player $$i$$'s payoff function, $$u_{i}(a_{1}, \ldots, a_{n};t)$$, and is a member of the set of possible types, $$T_{i}$$. Player $$i$$'s belief $$p_{i}(\rvert t_{-i})$$describes $$i$$'s uncertainty about the $$n - 1$$other players' possible types, $$t_{-i}$$, given $$i$$'s own type, $$t_{i}$$. We denote this game by $$G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$$.
+        The **normal-form representation of an n-player static Bayesian game** specifies the players' action spaces $$A_{1}, \ldots , A_{n}$$, their type spaces $$T_{1}, \ldots, T_{n}$$, their beliefs $$p_{1}, \ldots, p_{n}$$, and their payoff functions $$u_{1}, \ldots, u_{n}$$. Player $$i$$'s type, $$t$$, is privately known by player $$i$$, determines player $$i$$'s payoff function, $$u_{i}(a_{1}, \ldots, a_{n};t)$$, and is a member of the set of possible types, $$T_{i}$$. Player $$i$$'s belief $$p_{i}(\rvert t_{-i})$$describes $$i$$'s uncertainty about the $$n - 1$$other players' possible types, $$t_{-i}$$, given $$i$$'s own type, $$t_{i}$$. We denote this game by $$G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$$ [[14]](#14).
 
     -   베이지언 내쉬 균형
 
@@ -406,7 +405,7 @@ nav_order: 1
         {: .definition}
 		> In the static Bayesian game $$G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$$, the strategy profile $$s^{*}(\cdot) = (s_{1}^{*}(\cdot), \ldots, s_{n}^{*}(\cdot))$$ is a (pure strategy) **Bayesian Nash equilibrium** if for each player $$i$$and for each of $$i$$'s types $$t_{i}$$in $$T_{i}$$, $$s_{i}^{*}(t_{i})$$equals the solution of the following problem.
 		> 
-		> $$\max_{a_{i} \in A_{t}} \sum_{t_{-i} \in T_{-i}} u_{i}(s_{1}^{*}(t_{1}), \ldots,s_{i-1}^{*}(t_{i-1}),a_{i},s_{i+1}^{*}(t_{i+1}),\ldots, s_{n}^{*}(t_{n});t)p_{i}(t_{-i}|t_{i})\text{.}$$
+		> $$\max_{a_{i} \in A_{t}} \sum_{t_{-i} \in T_{-i}} u_{i}(s_{1}^{*}(t_{1}), \ldots,s_{i-1}^{*}(t_{i-1}),a_{i},s_{i+1}^{*}(t_{i+1}),\ldots, s_{n}^{*}(t_{n});t)p_{i}(t_{-i}|t_{i})$$. [[15]](#15)
 
 
 -   게임의 분류와 균형
@@ -452,7 +451,9 @@ nav_order: 1
         -   4개 경매 방식의 기대 수입은 같음
 
             {: .theorem}
-            **((General) Revenue Equivalence Theorem)** Any auction formats that results in the same (1) allocation and (2) the expected payoff of the lowest value type, yields identical expected revenue.
+            **(The Revenue Equivalence Principle)** Suppose that values are independently and identically distributed and all bidders are risk neutral. Then any symmetric and increasing equilibrium of any standard auction, such that the expected payment of a bidder with value zero is zero, yields the same expected revenue to the seller.  [[16]](#16).
+
+<!-- Yasuda2015aa Any auction formats that results in the same (1) allocation and (2) the expected payoff of the lowest value type, yields identical expected revenue. -->
 
 -   메커니즘 설계(mechanism design)
 
@@ -507,7 +508,7 @@ nav_order: 1
         -   따라서 메커니즘 설계자는 따라서 여러 메커니즘이 아닌, 직접 메커니즘만 고려해도 충분
 
         {: .theorem}
-        **(The Revelation Principle)** Given a mechanism and an quilibirum for that mechanism, there exists a direct mechanism (1) it is an quilibrium for each player to report his or her true type and (2) the outcomes are the same as in the given equilibrium of the original mechanism.
+        **(The Revelation Principle)** Given a mechanism and an quilibirum for that mechanism, there exists a direct mechanism (1) it is an quilibrium for each player to report his or her true type and (2) the outcomes are the same as in the given equilibrium of the original mechanism [[17]](#17).
 
         -   직접 메커니즘
 
@@ -531,7 +532,31 @@ nav_order: 1
 
 -   협상(bargaining)
 
-    -   
+    -   이익을 나누기
+	
+    -   게임의 규칙이 중요
+	
+	    -   $$\rightarrow$$ 경기자의 협상력과 결과를 변화시킴
+		
+    -   기본 게임: 최후통첩게임(ultimatum game)
+	
+	    -   경기자 1이 경기자 2에게 10만원의 분배 비율을 제안
+		
+	    -   경기자 2가 이를 수락하면 제안대로 분배
+		
+	    -   경기자 2가 거부하면 경기자 1과 2 모두 보상을 받지 못함
+		
+    -   최후통첩게임(ultimatum game)의 변형
+	
+	    -   독재자 게임: 제안자의 제안을 수락할 수만 있음
+		
+	    -   역제안 게임: 제안에 대한 대안을 제시할 수 있음
+		
+	    -   게임 참여자의 수, 게임 횟수, 외부 제안의 도입, 횟수에 따른 할인 또는 감가 상각의 도입 등 다양한 변형이 가능
+		
+    -   $$\rightarrow$$ 결과가 극단적으로 불평등할 수 있음
+	
+    -   현실의 협상은 더 복잡, 실험실의 실험도 이론 예측과 항상 일치하는 것은 아님
 
 -   진화 게임(evolutionary game)
 
@@ -692,7 +717,55 @@ nav_order: 1
 
 ### 참고문헌
 <a id="1">[1]</a>
-[von Neumann, John and Oskar Morgenstern (2007). *Theory of Games and Economic Behavior*. 60th Anniversary Commemorative Edition. 30-37.](https://press.princeton.edu/books/paperback/9780691130613/theory-of-games-and-economic-behavior) 
+[von Neumann, John and Oskar Morgenstern (2007). *Theory of Games and Economic Behavior*. 60th Anniversary Commemorative Edition. pp. 30-37.](https://press.princeton.edu/books/paperback/9780691130613/theory-of-games-and-economic-behavior){:target="_blank"} 
+
+<a id="2">[2]</a>
+[Robert Gibbons (1992). *Game Theory for Applied Economists,* Princeton University Press. p. 4 .](https://press.princeton.edu/books/paperback/9780691003955/game-theory-for-applied-economists){:target="_blank"}
+
+<a id="3">[3]</a>
+von Neumann and Morgenstern (2007). p. 70.
+
+<a id="4">[4]</a>
+Gibbons (1992). p. 5.
+
+<a id="5">[5]</a>
+Gibbons (1992). p. 31.
+
+<a id="6">[6]</a>
+Gibbons (1992). p. 8.
+
+<a id="7">[7]</a>
+Gibbons (1992). pp. 115-116.
+
+<a id="8">[8]</a>
+Gibbons (1992). p. 117.
+
+<a id="9">[9]</a>
+Gibbons (1992). p. 84.
+
+<a id="10">[10]</a>
+Gibbons (1992). p. 93.
+
+<a id="11">[11]</a>
+Gibbons (1992). pp. 122-123.
+
+<a id="12">[12]</a>
+Gibbons (1992). p. 95.
+
+<a id="13">[13]</a>
+Gibbons (1992). p. 119.
+
+<a id="14">[14]</a>
+Gibbons (1992). p. 148.
+
+<a id="14">[15]</a>
+Gibbons (1992). p. 151.
+
+<a id="14">[16]</a>
+[Vijay Krishna (2010). *Auction Theory,* Second edition. Academic Press.](https://www.sciencedirect.com/book/9780123745071/auction-theory){:target="_blank"}
+
+<a id="14">[17]</a>
+Krishna (2009). p. 62.
 
 <!-- ### 미주
 

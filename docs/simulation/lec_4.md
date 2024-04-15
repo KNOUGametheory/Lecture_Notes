@@ -404,7 +404,7 @@ nav_order: 4
 
 
 <a id="2">[2]</a>
-[Thomas C. Schelling (2006). *Micromotives and Macrobehavior.* W.W. Norton & Company](https://wwnorton.com/books/Micromotives-and-Macrobehavior/){:target="_blank"}
+[Thomas C. Schelling (2006). *Micromotives and Macrobehavior.* W.W. Norton & Company.](https://wwnorton.com/books/Micromotives-and-Macrobehavior/){:target="_blank"}
 
 <a id="3">[3]</a>
 [Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Ch. 3, Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}

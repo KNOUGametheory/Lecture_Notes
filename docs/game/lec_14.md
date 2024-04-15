@@ -511,4 +511,4 @@ Smaldino (2023). Ch. 6.
 [Martin A. Nowak (2006). "Five Rules for the Evolution of Cooperation," *Science*, 314. 1560-1563.](https://doi.org/10.1126/science.1133755){:target="_blank"}
 
 <a id="13">[13]</a> 
-[William D. Hamilton (1964). "The genetical evolution of social behaviour," *Journal of Theoretical Biology*, 7(1), p. 16](https://doi.org/10.1016/0022-5193(64)90038-4){:target="_blank"}
+[William D. Hamilton (1964). "The genetical evolution of social behaviour," *Journal of Theoretical Biology*, 7(1), p. 16.](https://doi.org/10.1016/0022-5193(64)90038-4){:target="_blank"}

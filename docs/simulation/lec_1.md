@@ -198,11 +198,11 @@ nav_order: 1
 
         -   각 식은 시간의 변화에 따라 감염될 수 있는 사람, 감염된 사람, 회복된 사람의 상대적 수를 표현
 
-    -   단순한 모형 [[5]](#5)
+    -   단순한 모형 <!-- [[5]](#5) -->
 
         -   <https://github.com/psmaldino/modsoc/tree/main/ch04_contagion>{:target="_blank"}
 
-    -   정교한 모형 [[6]](#6)
+    -   정교한 모형 <!-- [[6]](#6) -->
 
         -   <https://doi.org/10.1016/j.imu.2020.100403>{:target="_blank"}
 

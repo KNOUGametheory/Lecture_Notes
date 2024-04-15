@@ -413,7 +413,7 @@ nav_order: 1
         {: .definition}
 		> In the static Bayesian game $$G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$$, the strategy profile $$s^{*}(\cdot) = (s_{1}^{*}(\cdot), \ldots, s_{n}^{*}(\cdot))$$ is a (pure strategy) **Bayesian Nash equilibrium** if for each player $$i$$and for each of $$i$$'s types $$t_{i}$$in $$T_{i}$$, $$s_{i}^{*}(t_{i})$$equals the solution of the following problem.
 		> 
-		> $$\max_{a_{i} \in A_{t}} \sum_{t_{-i} \in T_{-i}} u_{i}(s_{1}^{*}(t_{1}), \ldots,s_{i-1}^{*}(t_{i-1}),a_{i},s_{i+1}^{*}(t_{i+1}),\ldots, s_{n}^{*}(t_{n});t)p_{i}(t_{-i}\vertt_{i})$$. [[15]](#15)
+		> $$\max_{a_{i} \in A_{t}} \sum_{t_{-i} \in T_{-i}} u_{i}(s_{1}^{*}(t_{1}), \ldots,s_{i-1}^{*}(t_{i-1}),a_{i},s_{i+1}^{*}(t_{i+1}),\ldots, s_{n}^{*}(t_{n});t)p_{i}(t_{-i} \vert t_{i})$$. [[15]](#15)
 
 
 -   게임의 분류와 균형
@@ -624,7 +624,7 @@ nav_order: 1
 
     -   경기자: $$i = 1, 2$$
 
-    -   전략: $$s = (\text{누른다}, \text{기다린다})$$
+    -   전략: $$s = \{ \text{누른다}, \text{기다린다} \}$$
 
     -   보수: 살아남는다 $$= 1$$, 죽는다 $$=-1$$
 

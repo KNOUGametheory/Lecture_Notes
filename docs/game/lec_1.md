@@ -78,7 +78,9 @@ nav_order: 1
 
     -   1933년 프린스턴 대학에 신설되는 고등연구소(Institute of Advanced Study)로 이직, 가장 젊은 교수였음
 
-    -   전미 과학 아카데미(the National Academy of Science), 스스로의 추천사 중 "나의 업적 중 스스로 가장 핵심이라고 생각하는 것은 양자 역학, 연산자 대수, 에르고딕 이론이다[^1].\"
+    -   전미 과학 아카데미(the National Academy of Science), 스스로의 추천사 중 "나의 업적 중 스스로 가장 핵심이라고 생각하는 것은 양자 역학, 연산자 대수, 에르고딕 이론이다.\"
+	
+	<!-- [^1] -->
 
     -   2차 세계대전 발발 이후, 다방면의 위원회와 자문 그룹에서 활동: 대륙간 탄도 미사일 위원회, 원자력 위원회 등
 
@@ -690,12 +692,12 @@ nav_order: 1
 
 ### 참고문헌
 <a id="1">[1]</a>
-von Neumann, John and Oskar Morgenstern (2007). Theory of Games and Economic Behavior. 60th Anniversary Commemorative Edition. 30-37. 
+[von Neumann, John and Oskar Morgenstern (2007). *Theory of Games and Economic Behavior*. 60th Anniversary Commemorative Edition. 30-37.](https://press.princeton.edu/books/paperback/9780691130613/theory-of-games-and-economic-behavior) 
 
-### 미주
+<!-- ### 미주
 
 [^1]: The part of my work I consider most essential is that on quantum
     mechanics, which developed in Göttingen in 1926, and subsequently in
     Berlin in 1927--1929. Also, my work on various forms of operator
     theory, Berlin 1930 and Princeton 1935--1939; on the ergodic
-    theorem, Princeton, 1931--1932.
+    theorem, Princeton, 1931--1932. -->

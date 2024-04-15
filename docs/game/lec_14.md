@@ -56,7 +56,7 @@ nav_order: 14
 
 -   진화 게임(evolutionary game theory)
 
-    -   전략을 개체의 어떤 속성이나 행위로, 보수를 적합도로 $$\rightarrow$$ 개체 간의 상호 작용에 따라 보수, 즉 적합도가 결정된다면 $$\rightarrow$$ 게임이론을 적용할 수 있음 [@Smith:1973cr]
+    -   전략을 개체의 어떤 속성이나 행위로, 보수를 적합도로 $$\rightarrow$$ 개체 간의 상호 작용에 따라 보수, 즉 적합도가 결정된다면 $$\rightarrow$$ 게임이론을 적용할 수 있음 [[1]](#1)
 
     -   전략 선택이 아니라 $$\rightarrow$$ 특정 속성 또는 행위(전략)의 상대적 우위
 
@@ -70,7 +70,7 @@ nav_order: 14
 
         -   생명체: 유전자(gene)
 
-        -   사회: 학습 또는 모방(imitation) [@Henrich:2011aa; @Mesoudi:2011aa; @McElreath:2007lr; @Boyd:1985rw; @Bisin:2022aa]
+        -   사회: 학습 또는 모방(imitation) [[2]](#2)[[3]](#3)[[4]](#4)[[5]](#5)
 
     -   어떤 속성 또는 행위의 확산이나 감소를 설명하기 좋음
 
@@ -80,7 +80,7 @@ nav_order: 14
 
 ### 진화적으로 안정적인 전략
 
--   보수가 대칭인 게임 $$G$$ [@Schecter:2016aa Ch. 8]:
+-   보수가 대칭인 게임 $$G$$ [[6]](#6)
 
     -   유한 전략 집합 $$S  = \{ s_{1}, \ldots, s_{n}\}$$
 
@@ -178,7 +178,7 @@ nav_order: 14
 
 ### 두 개의 전략이 있을 때 진화적 안정성
 
--   순수 전략의 경우 [@Easley:2010aa Ch. 7]
+-   순수 전략의 경우 [[7]](#7)
 
        |          |       | $$P_{2}$$  |          |
 	   |          |       | $$S$$      | $$T$$    |
@@ -216,7 +216,7 @@ nav_order: 14
 		(1-x) V(p, p) + x V(p, q) > (1-x) V(q, p) + x V(q, q)
         $$
 
--   일반화하면, $$a \neq c$$, $$b \neq d$$ 인 다음의 보수 구조에서 [@Schecter:2016aa Ch. 8]
+-   일반화하면, $$a \neq c$$, $$b \neq d$$ 인 다음의 보수 구조에서 [[8]](#8)
 
        |          |            | $$P_{2}$$  |            |
 	   |          |            | $$s_{1}$$  | $$s_{2}$$  |
@@ -269,7 +269,7 @@ nav_order: 14
 
 ### 복제자 동학
 
--   이산적인 경우 [@Smaldino:2023aa Ch. 6]
+-   이산적인 경우 [[9]](#9)
 
     -   환경
 	
@@ -308,7 +308,7 @@ nav_order: 14
 
     -   $$\rightarrow$$ 평균 적합도 $$\overline{w}$$ 보다 높은 $$V(i)$$는 개체군에서의 빈도를 높이고, 반대의 경우 낮춤
 
--   연속적인 경우, 개체군의 상태 $$\sigma$$ 가 시간 $$t$$에 따라 변한다면 [@Schecter:2016aa Ch. 10] 
+-   연속적인 경우, 개체군의 상태 $$\sigma$$ 가 시간 $$t$$에 따라 변한다면 [[10]](#10)
 
     -   $$\sigma(t) = \sum p_{i}(t) s_{i}$$
 
@@ -328,7 +328,7 @@ nav_order: 14
 
 ### 죄수의 딜레마 게임
 
--   죄수의 딜레마 게임, 단, $$a, b, c > 0, b > c$$ [@Smaldino:2023aa Ch. 6]
+-   죄수의 딜레마 게임, 단, $$a, b, c > 0, b > c$$ [[11]](#11)
 
        |          |       | $$P_{2}$$     |          |
 	   |          |       | $$C$$         | $$D$$    |
@@ -357,7 +357,7 @@ nav_order: 14
 
 -   만약 협력이 사라지지 않으려면 어떤 변화가 있어야 할까?
 
-    -   $$\rightarrow$$ 협력의 진화 [@Nowak:2006aa]
+    -   $$\rightarrow$$ 협력의 진화 [[12]](#12)
 
     -   친족 선택(kin selection), 직접 상호성(direct reciprocity), 간접 상호성(indirect reciprocity), 네트워크 상호성(network reciprocity), 집단 선택(Group selection)
 
@@ -396,11 +396,11 @@ nav_order: 14
 
     -   $$r$$이 충분히 커서 협력의 비용을 상쇄할 수 있어야 함
 
-    -   $$r$$: 관련성의 계수(coefficient of relatedness) [@Hamilton:1964aa]
+    -   $$r$$: 관련성의 계수(coefficient of relatedness) 
 
         -   $$\rightarrow$$ 포괄 적합도(inclusive fitness): 진화적 적합도는 속성을 공유하고 있는 미래 세대의 총 수와 관련되어 있음
 
-        -   "we expect to find that no one is prepared to sacrifice his life for any single person but that everyone will sacrifice it when he can thereby save more than two brothers, or four half-brothers, or eight first cousins\" [@Hamilton:1964aa p. 16]
+        -   "we expect to find that no one is prepared to sacrifice his life for any single person but that everyone will sacrifice it when he can thereby save more than two brothers, or four half-brothers, or eight first cousins\" <a id="13">[13]</a> 
 
     -   우리의 경우, 혈연 관계에 국한되지는 않음 $$\rightarrow$$ 지리적 특성, 사회 관계 등 다양하게 해석 가능
 
@@ -472,3 +472,43 @@ nav_order: 14
 3.  진화적으로 안정적인 전략으로 정태적으로 돌연변이 전략이 침입하지 못하는 조건을 확인할 수 있다.
 
 4.  복제자 동학으로 동태적으로 적합도가 높은 전략을 확인할 수 있다.
+
+### 참고문헌
+<a id="1">[1]</a>
+[John Maynard Smith and George R. Price (1973). "The Logic of Animal Conflict," *Nature,* 246. 15-18.](https://doi.org/10.1038/246015a0)
+
+<a id="2">[2]</a>
+[Alberto Bisin and Thierry Verdier (2022). "Advances in the Economic Theory of Cultural Transmission," *NBER Working Papers*, 30466.](https://www.nber.org/system/files/working_papers/w30466/w30466.pdf) 
+
+<a id="3">[3]</a>
+[Robert Boyd and Peter J. Richerson (1985). *Culture and the Evolutionary Process,* University of Chicago Press.](https://press.uchicago.edu/ucp/books/book/chicago/C/bo5970597.html)
+
+<a id="4">[4]</a>
+[Richard McElreath and Robert Boyd (2007). *Mathematical models of social evolution : a guide for the perplexed,* Universtiy of Chicago Press.](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4343149.html)
+
+<a id="5">[5]</a>
+[Alex Mesoudi (2011). *Cultural Evolution: How Darwinian Theory Can Explain Human Culture and Synthesize the Social Sciences,* University of Chicago Press.](https://press.uchicago.edu/ucp/books/book/chicago/C/bo8787504.html)
+
+<a id="6">[6]</a>
+[Stephen Schecter and Herbert Gintis (2016). *Game Theory in Action: An Introduction to Classical and Evolutionary Models,* Ch. 8, Princeton University Press](https://press.princeton.edu/books/hardcover/9780691167640/game-theory-in-action)
+
+<a id="7">[7]</a>
+[David Easley and Jon Kleinberg (2010). *Networks, Crowds, and Markets: Reasoning about a Highly Connected World*, Ch. 7, Cambridge University Press.](https://www.cambridge.org/core/books/networks-crowds-and-markets/A70C7855A3003FE1079C25F8397AF641)
+
+<a id="8">[8]</a>
+[Stephen Schecter and Herbert Gintis (2016). *Game Theory in Action: An Introduction to Classical and Evolutionary Models,* Ch. 8, Princeton University Press](https://press.princeton.edu/books/hardcover/9780691167640/game-theory-in-action)
+
+<a id="9">[9]</a>
+[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Ch. 6, Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior)
+
+<a id="10">[10]</a>
+[Stephen Schecter and Herbert Gintis (2016). *Game Theory in Action: An Introduction to Classical and Evolutionary Models,* Ch. 10, Princeton University Press](https://press.princeton.edu/books/hardcover/9780691167640/game-theory-in-action) 
+
+<a id="11">[11]</a>
+[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Ch. 6, Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior)
+
+<a id="12">[12]</a>
+[Martin A. Nowak (2006). "Five Rules for the Evolution of Cooperation," *Science*, 314. 1560-1563.](https://doi.org/10.1126/science.1133755)
+
+<a id="13">[13]</a> 
+[William D. Hamilton (1964). "The genetical evolution of social behaviour," *Journal of Theoretical Biology*, 7(1), p. 16](https://doi.org/10.1016/0022-5193(64)90038-4)

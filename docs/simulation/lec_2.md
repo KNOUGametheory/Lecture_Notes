@@ -83,7 +83,7 @@ nav_order: 2
 
     -   $$\rightarrow$$ 프로토콜
 
--   ODD (Overview -- Design Concepts -- Details) 프로토콜 [@Railsback:2019tq p. 37]
+-   ODD (Overview -- Design Concepts -- Details) 프로토콜 [[1]](#1)
 
     |       Overview       | 1\. 목적과 패턴                          |
 	|                      | 2\. 독립체, 상태 변수, 척도                |
@@ -473,3 +473,7 @@ nav_order: 2
 5.  `setup`, `ask`, `ifelse` 등을 사용해 ODD 프로토콜을 기반으로 작동하는 간단한 모형부터 만들자.
 
 6.  필요에 따라 변수 정의를 할 수 있고, 넷로고 코드의 끝은 `]` 또는 `end`로 마감해야한다.
+
+### 참고문헌
+<a id="1">[1]</a>
+[Steven F. Railsback and Volker Grimm (2019). *Agent-Based and Individual-Based Modeling: A Practical Introduction,* Second edition, p. 37. Princeton University Press.](https://press.princeton.edu/books/hardcover/9780691190822/agent-based-and-individual-based-modeling){:target="_blank"}

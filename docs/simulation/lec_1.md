@@ -24,11 +24,11 @@ nav_order: 1
 
 ## 모형의 이해
 
--   행위자 기반 모형 [@Page:2008aa]
+-   행위자 기반 모형 [[1]](#1)
 
     > "Agent-based models consist not of real people but of computational objects that interact according to rules.\"
 
--   모형 [@Starfield:1990aa]
+-   모형 [[2]](#2)
 
     > "A model is a purposeful representation of some real system.\"
 
@@ -64,7 +64,7 @@ nav_order: 1
 
         > "제국의 지도학은 너무 완벽해 한 지역의 지방이 도시 하나의 크기였고, 제국의 지도는 한 지방의 크기에 달했다. 하지만 이 터무니없는 지도에도 만족 못한 지도제작 길드는 정확히 제국의 크기만 한 제국전도를 만들었는데, 그 안의 모든 세부는 현실의 지점에 대응했다. 지도학에 별 관심이 없었던 후세대는 이 방대한 지도가 쓸모없음을 깨닫고, 불손하게 그것을 태양과 겨울의 혹독함에 내맡겨버렸다. 서부의 사막에는 지금도 누더기가 된 그 지도가 남아 있어, 동물과 거지들이 그 안에 살고 있다. 온 나라에 지리학 분과의 다른 유물은 남아 있지 않다.\"
 
--   모형 개발 [@Railsback:2019tq p. 7--10]
+-   모형 개발 [[3]](#3)
 
     -   질문을 형식화(formalization)
 
@@ -131,7 +131,7 @@ nav_order: 1
 
         -   넓게는 대중 등에게 지식을 전달
 
--   모형의 장점 [@Smaldino:2023aa]
+-   모형의 장점 [[4]](#4)
 
     -   적확성(Precision)
 
@@ -187,9 +187,7 @@ nav_order: 1
 		$$
 		\begin{align}
         \dfrac{dS}{dt} & = -\beta S I \\
-	
         \dfrac{dI}{dt} & = \beta S I - \gamma I \\          
-				
         \dfrac{dR}{dt} & =\gamma I \\
         \end{align}
 		$$
@@ -200,13 +198,13 @@ nav_order: 1
 
         -   각 식은 시간의 변화에 따라 감염될 수 있는 사람, 감염된 사람, 회복된 사람의 상대적 수를 표현
 
-    -   단순한 모형 [@Smaldino:2023aa Ch. 4]
+    -   단순한 모형 [[5]](#5)
 
-        -   <https://github.com/psmaldino/modsoc/tree/main/ch04_contagion>
+        -   <https://github.com/psmaldino/modsoc/tree/main/ch04_contagion>{:target="_blank"}
 
-    -   정교한 모형 [@Gharakhanlou:2020aa]
+    -   정교한 모형 [[6]](#6)
 
-        -   <https://doi.org/10.1016/j.imu.2020.100403>
+        -   <https://doi.org/10.1016/j.imu.2020.100403>{:target="_blank"}
 
 -   행위자 기반 모형의 특징
 
@@ -281,3 +279,24 @@ nav_order: 1
 7.  행위자 기반 모형은 적응적 행동, 창발을 설명하는 데 장점이 있고, 개체와 시스템 간의 상호 영향을 확인하기 좋다.
 
 8.  행위자 기반 모형은 다양성이 너무 높다는 단점이 있고, 창발을 어떻게 설명할 지, 그리고 모형의 결과를 현실에 어떻게 적용할 지에서 많은 추가적인 연구가 필요하다.
+
+### 참고문헌
+<a id="1">[1]</a>
+Scott E. Page (2008). "Agent-Based Models" in Steven N. Durlauf and Lawrence E. Blume eds. *The New Palgrave Dictionary of Economics.* Palgrave Macmillan.
+
+<a id="2">[2]</a>
+A. M. Starfield and Karl A. Smith and A. L. Bleoloch (1990). *How to model it: Problem solving for the computer age.* McGraw-Hill.
+
+<a id="3">[3]</a>
+[Steven F. Railsback and Volker Grimm (2019). *Agent-Based and Individual-Based Modeling: A Practical Introduction,* Second edition, pp. 7--10. Princeton University Press.](https://press.princeton.edu/books/hardcover/9780691190822/agent-based-and-individual-based-modeling){:target="_blank"}
+
+<a id="4">[4]</a>
+[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
+
+<!-- <a id="5">[5]</a>
+Smaldino (2023). Ch. 4.
+
+<a id="6">[6]</a>
+[@Gharakhanlou:2020aa]
+
+(https://doi.org/10.1016/j.imu.2020.100403) -->

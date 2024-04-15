@@ -496,16 +496,16 @@ nav_order: 14
 [David Easley and Jon Kleinberg (2010). *Networks, Crowds, and Markets: Reasoning about a Highly Connected World*, Ch. 7, Cambridge University Press.](https://www.cambridge.org/core/books/networks-crowds-and-markets/A70C7855A3003FE1079C25F8397AF641){:target="_blank"}
 
 <a id="8">[8]</a>
-Stephen Schecter and Herbert Gintis (2016). Ch. 8.
+Schecter and Gintis (2016). Ch. 8.
 
 <a id="9">[9]</a>
 [Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Ch. 6, Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
 
 <a id="10">[10]</a>
-Stephen Schecter and Herbert Gintis (2016). Ch. 10.
+Schecter and Gintis (2016). Ch. 10.
 
 <a id="11">[11]</a>
-Paul E. Smaldino (2023). Ch. 6.
+Smaldino (2023). Ch. 6.
 
 <a id="12">[12]</a>
 [Martin A. Nowak (2006). "Five Rules for the Evolution of Cooperation," *Science*, 314. 1560-1563.](https://doi.org/10.1126/science.1133755){:target="_blank"}

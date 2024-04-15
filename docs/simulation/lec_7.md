@@ -32,7 +32,7 @@ SIR 모형을 파이선으로 구현한다.
 
 -   이 장의 주요 내용은 다음을 참고했음: [Thomas J. Sargent and John Stachurski, "Modeling COVID 19,\" *Intermediate Quantitative Economics with Python*](https://python.quantecon.org/sir_model.html){:target="_blank"}
 
-    -   [@Atkeson:2020ac]
+    <!-- -   [@Atkeson:2020ac] -->
 
 -   4 단계: susceptible (S) $$\rightarrow$$ exposed (E) $$\rightarrow$$
     infected (I) $$\rightarrow$$ removed (R) 

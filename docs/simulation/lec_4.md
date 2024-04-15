@@ -28,7 +28,7 @@ nav_order: 4
 
 ## 분리 현상
 
--   분리 (Segregation) [@Schelling:1971aa; @Schelling:2006aa]
+-   분리 (Segregation) [[1]](#1)[[2]](#2) 
 
     -   개인은, 때로는 국가도, 인종, 민족, 종교 등에 따라 지리적으로 군집(clustering)하는 것이 확인됨
 
@@ -175,7 +175,7 @@ nav_order: 4
 
 -   다음 두 코드의 ODD 프로토콜 및 코드 자체를 서로 비교해보자.
 
-    1.   [`segregation.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch03_schelling/segregation.nlogo){:target="_blank"} [@Smaldino:2023aa Ch. 3]
+    1.   [`segregation.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch03_schelling/segregation.nlogo){:target="_blank"} [[3]](#3)  
 
     2.   `Models Library` $$\rightarrow$$ `Sample Models` $$\rightarrow$$ `Social Science` $$\rightarrow$$ `Segregation`
 
@@ -197,7 +197,7 @@ nav_order: 4
 
     -   하지만, 현혹되어서도 안됨 $$\rightarrow$$ 강건한 분석이 필요
 
--   둘 중 어느 것으로 해보아도 되지만, [@Smaldino:2023aa]의 `segregation.nlogo` 로
+-   둘 중 어느 것으로 해보아도 되지만, [`segregation.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch03_schelling/segregation.nlogo){:target="_blank"} 로
 
     -   `density` 0.45, 0.90 그리고
 
@@ -283,7 +283,7 @@ nav_order: 4
 
     -   컴퓨터 성능의 향상과 가격의 하락으로 시뮬레이션 횟수는 증가 $$\rightarrow$$ 하지만, 여전히 너무 많은 횟수는 문제
 
-    -   이 문제를 해결하기 위한 왕도는 없음. 관련 주제로 [@Ligmann-Zielinska:2020aa] 참고
+    -   이 문제를 해결하기 위한 왕도는 없음 [[4]](#4)
 
 -   중립 모형(neutral model or null model)
 
@@ -397,3 +397,17 @@ nav_order: 4
 8.  쉘링의 아이디어에 따른 분리 모형은 개별 행위자가 원하는 동질성 수준이 낮더라도 분리 현상이 나타날 수 있음을 보여준다.
 
 9.  모형의 결과는 향후 연구 방향의 시작이기도 하다.
+
+### 참고문헌
+<a id="1">[1]</a>
+[Thomas C. Schelling (1971). "Dynamic Models of Segreation." *Journal of Mathematical Sociology.* 1(3). 143--186.](https://doi.org/10.1080/0022250X.1971.9989794){:target="_blank"}
+
+
+<a id="2">[2]</a>
+[Thomas C. Schelling (2006). *Micromotives and Macrobehavior.* W.W. Norton & Company](https://wwnorton.com/books/Micromotives-and-Macrobehavior/){:target="_blank"}
+
+<a id="3">[3]</a>
+[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Ch. 3, Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
+
+<a id="4">[4]</a>
+[Ligmann-Zielinska et. al. (2020). "'One Size Does Not Fit All': A Roadmap of Purpose-Driven Mixed-Method Pathways for Sensitivity Analysis of Agent-Based Models." *Journal of Artificial Societies and Social Simulation.* 23(1). 6.](https://doi.org/10.18564/jasss.4201){:target="_blank"}

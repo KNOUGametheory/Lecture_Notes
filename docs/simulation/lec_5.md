@@ -46,17 +46,17 @@ nav_order: 5
 
     -   상호 배신이 유일한 내쉬 균형
 
--   협력의 유지를 설명 [@Nowak:2011aa Chs. 1--5]
+-   협력의 유지를 설명 [[1]](#1)
 
     -   친족 선택(kin selection)
 
-        -   Hamilton' Rule
+        -   Hamilton' Rule [[2]](#2)
 		
 		    $$
 			rb > c
 			$$ 
 			
-			-   $$\rightarrow$$ $$\dfrac{b}{c} > \dfrac{1}{r}$$ [@Hamilton:1964aa]
+			-   $$\rightarrow$$ $$\dfrac{b}{c} > \dfrac{1}{r}$$ 
 
             -   $$r$$: 관련성의 계수(coefficient of relatedness)
 
@@ -148,7 +148,7 @@ nav_order: 5
 
 ## 죄수의 딜레마 게임
 
--   Overview [@Smaldino:2023aa Ch. 6]
+-   Overview [[2]](#2)
 
     -   목적과 패턴
 
@@ -281,7 +281,7 @@ nav_order: 5
 
             -   초기 설정에 포함되지 않을까?
 
--   [예제 코드 `PD_simple.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_simple.nlogo){:target="_blank"} [@Smaldino:2023aa Ch. 6]
+-   [예제 코드 `PD_simple.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_simple.nlogo){:target="_blank"}
 
 -   최초 협력자 $$0.5$$, $$b=1$$ 고정, $$c$$ 비율만 조정
 
@@ -313,7 +313,7 @@ nav_order: 5
 
 -   기본 모형에서는 경기자의 위치, 즉 게임 상대가 고정되어 있었음 $$\rightarrow$$ 게임 상대를 무작위로 바꾼다면
 
-    -   [예제 코드 `PD_randomized.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_randomized.nlogo){:target="_blank"} [@Smaldino:2023aa Ch. 6]
+    -   [예제 코드 `PD_randomized.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_randomized.nlogo){:target="_blank"} 
 
     -   `randomize-locations` 도입
 
@@ -344,7 +344,7 @@ nav_order: 5
 		\end{align}
 		$$
 
--  [예제 코드 `PD_reciprocity.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_reciprocity.nlogo){:target="_blank"} [@Smaldino:2023aa Ch. 6]
+-  [예제 코드 `PD_reciprocity.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_reciprocity.nlogo){:target="_blank"}
 
     -   `TFT?`
 
@@ -376,7 +376,7 @@ nav_order: 5
 
     -   $$\rightarrow$$ 모두 TFT
 
-    -   TFT의 강력한 힘 [@Axelrod:1984dz]
+    -   TFT의 강력한 힘 [[4]](#4) 
 
 -   하지만, TFT 보다 보수가 더 큰 전략이 있음
 
@@ -395,9 +395,9 @@ nav_order: 5
 
 -   이외에도 다양한 변형이 가능
 
-    -   행동 실험 또는 행동 게임과도 결합 [@Camerer:2003fk]
+    -   행동 실험 또는 행동 게임과도 결합 [[5]](#5)  
 
-    -   문화적 차이 [@Henrich:2005aa]
+    -   문화적 차이 [[6]](#6)  
 
 -   보수 구조에 따라 다른 게임도 모형으로 만들 수 있음
 
@@ -418,3 +418,23 @@ nav_order: 5
 3.  방정식 체계를 시뮬레이션 모형으로 만들었을 때, 예상하지 못한 결과가 나타날 수 있지만, 예상하지 못한 결과는 연구의 출발점이기도 하다.
 
 4.  넷로고는 속도가 느리다는 점과 연구자의 의도를 모두 구현하는 데에는 한계가 있다는 단점이 있다.
+
+
+### 참고문헌
+<a id="1">[1]</a>
+[Martin A. Nowak and Roger Highfield (2011). *Super Cooperators: Altruism, Evolution, and Why We Need Each Other to Succeed.* Chs. 1-5. Free Press.](https://archive.org/details/supercooperators0000nowa){:target="_blank"}
+
+<a id="2">[2]</a>
+[William D. Hamilton (1964). "The genetical evolution of social behaviour." *Journal of Theoretical Biology,* 7(1). 1-16.](https://doi.org/10.1016/0022-5193(64)90038-4){:target="_blank"}
+
+<a id="3">[3]</a>
+[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Ch. 6, Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
+
+<a id="4">[4]</a>
+[Roger Axelrod (1984). *The evolution of cooperation.* Basic Books.](https://archive.org/details/evolutionofcoop00axel){:target="_blank"}
+
+<a id="5">[5]</a>
+[Colin F. Camerer (2003). *Behavioral game theory: experiments in strategic interaction.* Princeton University Press](https://press.princeton.edu/books/hardcover/9780691090399/behavioral-game-theory){:target="_blank"}
+
+<a id="6">[6]</a>
+[Josep Henrich et. al. (2005). ""Economic man" in cross-cultural perspective: Behavioral experiments in 15 small-scale societies." *Behavioral and Brain Sciences.* 28. 795-855](https://doi.org/10.1017/S0140525X05000142){:target="_blank"}

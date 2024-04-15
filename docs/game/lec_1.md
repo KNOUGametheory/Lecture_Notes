@@ -137,26 +137,34 @@ nav_order: 1
     -   전략형(strategic form) 또는 정태적(static) 게임 이라고도 함
 
     -   경기자 또는 행위자의 집합(A set of player or agent) 
-	     
-        -   $$i \in I = \{ 1, \ldots, n \}$$
+	
+	$$
+	i \in I = \{ 1, \ldots, n \}
+	$$
 
     -   경기자 $$i$$가 선택할 수 있는 전략의 집합(A set of strategies) 
 	
-        -   $$s_{i} \in S_{i}$$
-
+	     $$
+	     s_{i} \in S_{i}
+	     $$
+	
         -   모든 경기자는 유한 개의 전략을 가짐
 
         -   즉, 모든 $$i=1,2,3,\ldots,n$$에 대해 $$S_{i}$$는 유한 집합
 
     -   경기자의 전략 프로파일(Profile) 
 	
-        -   $$s = (s_{1}, s_{2}, s_{3}, \ldots, s_{n}) \in \prod_{i=1}^{n}{S_{i}} := S$$
+	    $$
+            s = (s_{1}, s_{2}, s_{3}, \ldots, s_{n}) \in \prod_{i=1}^{n}{S_{i}} := S
+	    $$
 
         -   전략을 $$n$$짝(n-tuple)으로 표현
 
     -   전략 프로파일 $$s$$를 시행했을 때 경기자 $$i$$의 보수(payoff)
 	
-        -   $$u_{i}: S \rightarrow \mathbb{R}$$
+	    $$
+            u_{i}: S \rightarrow \mathbb{R}
+	    $$
 
         {: .definition}
         The **normal-form representation** of an $$n$$-player game specifies the players' strategy spaces $$G = \{ S_{1}, \ldots, S_{n} \}$$and their payoff functions $$u_{1},\ldots, u_{n}$$. We denote this game by $$G = \{ S_{1}, \ldots , S_{n}; u_{1},\ldots, u_{n} \}$$ [[2]](#2).
@@ -405,7 +413,7 @@ nav_order: 1
         {: .definition}
 		> In the static Bayesian game $$G = \{A_{1}, \ldots, A_{n}; T_{1},\ldots, T_{n};p_{1}, \ldots, p_{n}; u_{1}, \ldots, u_{n}\}$$, the strategy profile $$s^{*}(\cdot) = (s_{1}^{*}(\cdot), \ldots, s_{n}^{*}(\cdot))$$ is a (pure strategy) **Bayesian Nash equilibrium** if for each player $$i$$and for each of $$i$$'s types $$t_{i}$$in $$T_{i}$$, $$s_{i}^{*}(t_{i})$$equals the solution of the following problem.
 		> 
-		> $$\max_{a_{i} \in A_{t}} \sum_{t_{-i} \in T_{-i}} u_{i}(s_{1}^{*}(t_{1}), \ldots,s_{i-1}^{*}(t_{i-1}),a_{i},s_{i+1}^{*}(t_{i+1}),\ldots, s_{n}^{*}(t_{n});t)p_{i}(t_{-i}|t_{i})$$. [[15]](#15)
+		> $$\max_{a_{i} \in A_{t}} \sum_{t_{-i} \in T_{-i}} u_{i}(s_{1}^{*}(t_{1}), \ldots,s_{i-1}^{*}(t_{i-1}),a_{i},s_{i+1}^{*}(t_{i+1}),\ldots, s_{n}^{*}(t_{n});t)p_{i}(t_{-i}\vertt_{i})$$. [[15]](#15)
 
 
 -   게임의 분류와 균형
@@ -717,10 +725,10 @@ nav_order: 1
 
 ### 참고문헌
 <a id="1">[1]</a>
-[von Neumann, John and Oskar Morgenstern (2007). *Theory of Games and Economic Behavior*. 60th Anniversary Commemorative Edition. pp. 30-37.](https://press.princeton.edu/books/paperback/9780691130613/theory-of-games-and-economic-behavior){:target="_blank"} 
+[von Neumann, John and Oskar Morgenstern (2007). *Theory of Games and Economic Behavior*, 60th Anniversary Commemorative Edition. pp. 30-37. Princeton University Press.](https://press.princeton.edu/books/paperback/9780691130613/theory-of-games-and-economic-behavior){:target="_blank"} 
 
 <a id="2">[2]</a>
-[Robert Gibbons (1992). *Game Theory for Applied Economists,* Princeton University Press. p. 4 .](https://press.princeton.edu/books/paperback/9780691003955/game-theory-for-applied-economists){:target="_blank"}
+[Robert Gibbons (1992). *Game Theory for Applied Economists.* p. 4. Princeton University Press.](https://press.princeton.edu/books/paperback/9780691003955/game-theory-for-applied-economists){:target="_blank"}
 
 <a id="3">[3]</a>
 von Neumann and Morgenstern (2007). p. 70.
@@ -762,7 +770,7 @@ Gibbons (1992). p. 148.
 Gibbons (1992). p. 151.
 
 <a id="14">[16]</a>
-[Vijay Krishna (2010). *Auction Theory,* Second edition. Academic Press.](https://www.sciencedirect.com/book/9780123745071/auction-theory){:target="_blank"}
+[Vijay Krishna (2010). *Auction Theory,* Second edition. p. 28. Academic Press.](https://www.sciencedirect.com/book/9780123745071/auction-theory){:target="_blank"}
 
 <a id="14">[17]</a>
 Krishna (2009). p. 62.

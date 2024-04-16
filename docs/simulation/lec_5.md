@@ -480,7 +480,7 @@ nav_order: 5
 [Roger Axelrod (1984). *The evolution of cooperation.* Basic Books.](https://archive.org/details/evolutionofcoop00axel){:target="_blank"}
 
 <a id="5">[5]</a>
-[Colin F. Camerer (2003). *Behavioral game theory: experiments in strategic interaction.* Princeton University Press](https://press.princeton.edu/books/hardcover/9780691090399/behavioral-game-theory){:target="_blank"}
+[Colin F. Camerer (2003). *Behavioral game theory: experiments in strategic interaction.* Princeton University Press.](https://press.princeton.edu/books/hardcover/9780691090399/behavioral-game-theory){:target="_blank"}
 
 <a id="6">[6]</a>
-[Josep Henrich et. al. (2005). ""Economic man" in cross-cultural perspective: Behavioral experiments in 15 small-scale societies." *Behavioral and Brain Sciences.* 28. 795-855](https://doi.org/10.1017/S0140525X05000142){:target="_blank"}
+[Josep Henrich et. al. (2005). ""Economic man" in cross-cultural perspective: Behavioral experiments in 15 small-scale societies." *Behavioral and Brain Sciences.* 28. 795-855.](https://doi.org/10.1017/S0140525X05000142){:target="_blank"}

@@ -73,6 +73,20 @@ K-MOCC, [넷로고와 파이선을 활용한 게임이론 시뮬레이션](https
 
 ## 참고 자료
 
--  [권오규, 김영진, 백승기, 정형채, 2022, 행위자 기반 모형의 이해와 활용, 물리학과 첨단 기술, 7-8.](https://webzine.kps.or.kr/?p=5_view&idx=16729){:target="_blank"}
+- [권오규, 김영진, 백승기, 정형채, 2022, 행위자 기반 모형의 이해와 활용, 물리학과 첨단 기술, 7-8.](https://webzine.kps.or.kr/?p=5_view&idx=16729){:target="_blank"}
 
 - [조남운, 2016, 경제학에서의 행위자 기반 모형: 소개와 전망.](/references/Cho2016kk.pdf){:target="_blank"}
+
+- [Steven F. Railsback and Volker Grimm (2019). *Agent-Based and Individual-Based Modeling: A Practical Introduction,* Second edition, Princeton University Press.](https://press.princeton.edu/books/hardcover/9780691190822/agent-based-and-individual-based-modeling){:target="_blank"}
+
+  - <https://www.railsback-grimm-abm-book.com>{:target="_blank"}
+
+- [Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
+
+  - <https://github.com/psmaldino/modsoc>{:target="_blank"}
+  
+- [QunatEcon, Lectures]<https://quantecon.org/lectures/>{:target="_blank"}  
+  
+- [Allen Downey (2016). *Think Complexity*, Second edition, Green Tea Press](https://greenteapress.com/wp/think-complexity-2e/){:target="_blank"}  
+
+  - <https://github.com/AllenDowney/ThinkComplexity2>{:target="_blank"}

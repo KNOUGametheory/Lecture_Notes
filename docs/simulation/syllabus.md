@@ -87,6 +87,6 @@ K-MOCC, [넷로고와 파이선을 활용한 게임이론 시뮬레이션](https
   
 - [QunatEcon, Lectures](https://quantecon.org/lectures/){:target="_blank"}  
   
-- [Allen Downey (2016). *Think Complexity*, Second edition, Green Tea Press](https://greenteapress.com/wp/think-complexity-2e/){:target="_blank"}  
+- [Allen Downey (2016). *Think Complexity*, Second edition, Green Tea Press.](https://greenteapress.com/wp/think-complexity-2e/){:target="_blank"}  
 
   - <https://github.com/AllenDowney/ThinkComplexity2>{:target="_blank"}

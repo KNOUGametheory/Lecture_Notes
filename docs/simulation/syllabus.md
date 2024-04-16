@@ -59,10 +59,8 @@ K-MOCC, [넷로고와 파이선을 활용한 게임이론 시뮬레이션](https
 
 - [윤태진, 성신여자대학교, 인문$$\cdot$$사회 계열 전공생을 위한 Python 입문](https://www.kmooc.kr/view/course/detail/11452){:target="_blank"}
 
-- 
+## 참고 자료
 
-## 참고 도서
+-  [권오규, 김영진, 백승기, 정형채, 2022, 행위자 기반 모형의 이해와 활용, 물리학과 첨단 기술, 7-8.](https://webzine.kps.or.kr/?p=5_view&idx=16729){:target="_blank"}
 
--  
-
--  
+- [조남운, 2016, 경제학에서의 행위자 기반 모형: 소개와 전망.](https://spsm.snu.ac.kr/namun/papers/abm.pdf){:target="_blank"}

@@ -217,9 +217,9 @@ nav_order: 4
 
     2.   `Models Library` $$\rightarrow$$ `Sample Models` $$\rightarrow$$ `Social Science` $$\rightarrow$$ `Segregation`
 
-        -   위 모형과 이사, 관용 기준, 동질성 계산 방법이 다소 다름
+         -   위 모형과 이사, 관용 기준, 동질성 계산 방법이 다소 다름
 
-        -   하지만, ODD, 더 나아가 우리의 연구 주제에서 벗어나지는 않는 차이
+         -   하지만, ODD, 더 나아가 우리의 연구 주제에서 벗어나지는 않는 차이
 
 -   변수를 변화시키며 결과를 관찰해보자
 

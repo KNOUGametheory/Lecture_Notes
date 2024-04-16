@@ -57,7 +57,7 @@ nav_order: 6
 
         -   행렬: [`NumPy`](https://numpy.org/){:target="_blank"}
 
-        -   대수: [`SymPy`](https://www.sympy.org/en/index.html{:target="_blank"}
+        -   대수: [`SymPy`](https://www.sympy.org/en/index.html){:target="_blank"}
 
         -   통계: [`pandas`](https://pandas.pydata.org/){:target="_blank"}
 

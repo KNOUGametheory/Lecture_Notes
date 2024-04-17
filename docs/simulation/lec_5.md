@@ -273,7 +273,7 @@ nav_order: 5
 
     -   최초 설정
 
-        -   공간: 31 $$\times$$ 31, Torus $$\rightarrow$$ 게임 후 학습 과정이 있으므로
+        -   공간: 31 $$\times$$ 31, `Torus` $$\rightarrow$$ 게임 후 학습 과정이 있으므로
 
         -   협력자의 비율 $$\rightarrow$$ `init-coop-freq`
 
@@ -382,13 +382,14 @@ nav_order: 5
 		|          | $$ALLD$$ | $$kb$$        |   $$b$$    |    $$0$$ |
 	
     -   기대 보수
+	
 	    $$
 		\begin{align}
 		V(ALLC) &= kn_{c}(b-c)-kn_{D}c \\
-		$V(TFT) &= kn_{c}(b-c)-n_{D}c \\ 
+		V(TFT) &= kn_{c}(b-c)-n_{D}c \\ 
 		V(ALLD) &= kn_{c}b \\ 
 		\end{align}
-		$$
+	    $$
 
 -  [예제 코드 `PD_reciprocity.nlogo`](https://github.com/psmaldino/modsoc/blob/main/ch06_cooperation/PD_reciprocity.nlogo){:target="_blank"}
 
@@ -430,14 +431,13 @@ nav_order: 5
 
     -   $$<$$ win-stay, lose-shift
 	
-	    -   직전 게임에서 상호 협력했다면 
-		    -   $$\rightarrow$$ 다음 게임에도 협력 
-		-   상호 배신했다면 
-		    -   $$\rightarrow$$ 일정 확률로 협
-		-   상대만 협력했다면 
-		    -   $$\rightarrow$$ 배신
-		-   상대만 배신했다면
-		    -   $$\rightarrow$$ 배신
+	    -   직전 게임에서 상호 협력했다면 $$\rightarrow$$ 다음 게임에도 협력 
+			
+	    -   상호 배신했다면 $$\rightarrow$$ 일정 확률로 협력
+			
+	    -   상대만 협력했다면 $$\rightarrow$$ 배신
+			
+	    -   상대만 배신했다면 $$\rightarrow$$ 배신
 
 -   이외에도 다양한 변형이 가능
 

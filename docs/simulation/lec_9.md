@@ -46,6 +46,7 @@ nav_order: 9
     -   이 장의 주요 내용은 다음을 참고했음: [Allen Downey, *Think Complexity*, Ch. 12](https://colab.research.google.com/github/AllenDowney/ThinkComplexity2/blob/master/notebooks/chap12.ipynb){:target="_blank"}
 
 -   사용하려는 파일 가져오기, (그림) 파일 저장 $$\rightarrow$$ [분리 현상](https://knougametheory.github.io/Lecture_Notes/docs/simulation/lec_8/#%EB%B6%84%EB%A6%AC-%EB%AA%A8%ED%98%95-%EC%84%A4%EC%A0%95){:target="_blank"}과 같음
+
     ```python
 	import matplotlib.pyplot as plt
 	import numpy as np
@@ -68,6 +69,7 @@ nav_order: 9
 -   `Simulation` 클래스 만들기
 
     -   경기자의 공간 설정
+	
         ```python
         class Simulation:
 	        def __init__(self, fit_land, agents):
@@ -77,6 +79,7 @@ nav_order: 9
 		```
 	
     -   `instrument` 설정과 그래프 그리기 $$\rightarrow$$ 이후에 나옴
+	
         ```python
     	    def add_instrument(self, instrument):
     		    self.instruments.append(instrument)
@@ -90,6 +93,7 @@ nav_order: 9
         -   `**kwargs`: Keyword Arguments, 키워드를 특정 값으로 함수에 넘겨줄 때, 각각 키와 값으로 가져오는 딕셔너리로 처리
 
     -   1번 시행: 초기화 -- 게임 -- 적합도 계산 -- 적합도가 낮은 경우, 전략 수정$$\rightarrow$$ 몇 번 시행?
+	
         ```python
             def run(self, num_steps=500):
 		        self.update_instruments()
@@ -113,6 +117,7 @@ nav_order: 9
         -   `range`: 0(기본값)부터 지정된 값까지 1씩(기본값) 증가
 
     -   1번의 시행에서 필요한 함수를 정의: `instrument` 업데이트, 적합도 계산, 적합도 비교, 전략 변경 등
+	
         ```python
     	    def update_instruments(self):
     		    for instrument in self.instruments:
@@ -138,6 +143,7 @@ nav_order: 9
         ```
 
 -   `Instrument` 클래스 만들기
+
     ```python
 	class Instrument:
 	    def __init__(self):
@@ -157,6 +163,7 @@ nav_order: 9
     -   `**`: 딕셔너리로 풀어줌(unpacking). `*`는 인수로 풀어줌
 	
 	    -   예를 들어,
+		
             ```python
             def sum(a, b, c, d):
 		        return a + b + c + d
@@ -169,6 +176,7 @@ nav_order: 9
             ```
 	
 -   `MeanFitness` 클래스 만들기: 평균 적합도 계산
+
     ```python
 	class MeanFitness(Instrument):
         label = 'Mean fitness'
@@ -246,6 +254,7 @@ nav_order: 9
     ```
 	
 -   경기자 타입(전략)을 유전형(genotype)처럼 간주
+
     ```python
     all_c = Agent('CCCCCCC')
     all_c.responses
@@ -258,6 +267,7 @@ nav_order: 9
     ```
 
 -   돌연변이 설정
+
     ```python
     np.random.seed(17)
 	for i in range(10):
@@ -265,11 +275,13 @@ nav_order: 9
     ```
 	
 -   1,000개의 셀을 복제 한 후, 이 중 돌연변이의 수를 계산
+
     ```python
     np.sum([all_d.copy().values != all_d.values for i in range(1000)])    
     ```
 	
 -   `Tournament` 클래스 만들기: 경쟁 규칙을 만들기
+
     ```python
 	class Tournament:
 	
@@ -343,6 +355,7 @@ nav_order: 9
         -   `fitness`: 상대방 별, 하위 게임 별, 평균 적합도(획득 점수의 평균)를 저장
 
 -   `Tournament` 클래스 시험하기
+
     ```python
     tour = Tournament()
 	tour.play(all_d, all_c)
@@ -358,11 +371,14 @@ nav_order: 9
     ```
 	
     -   적합도 확인
+	
         ```python
 		for agent in agents:
 		    print(agent.values, agent.fitness)
         ```
+
 -   생존 확률: 한 회의 게임에서 획득한 점수로부터 생존 확률 계산
+
     ```python
 	def logistic(x, A=0, B=1, C=1, M=0, K=1, Q=1, nu=1):
 	    exponent = -B * (x - M)
@@ -397,6 +413,7 @@ nav_order: 9
     -   `prob_survive`: 점수에 따라 생존 확률 계산
 
 -   `PDSimulation` 클래스 만들기 $$\rightarrow$$ 매 하위 게임에서 얻는 점수와 생존 확률을 맵핑
+
     ```python
 	class PDSimulation(Simulation):
 	    def __init__(self, tournament, agents):
@@ -421,6 +438,7 @@ nav_order: 9
     -   1번의 시행(`step`): 각 경기자의 적합도를 결정하는 `melee` 실행
 
 -   최초 경기자 설정: 두 가지 방법
+
     ```python
 	def make_random_agents(n):
 	    agents = [Agent(np.random.choice(['C', 'D'], size=7))
@@ -437,6 +455,7 @@ nav_order: 9
     -   `make_identical_agents`: 동일한 속성
 
 -   전략에 따라 속성 만들기
+
     ```python
 	class Niceness(Instrument):
 	    label = 'Niceness'
@@ -508,6 +527,7 @@ nav_order: 9
     >     -   다른 유형의 게임을 시행하고 결과를 정리해보자.
 
 -   배신자 100명으로 시작
+
     ```python
 	tour = Tournament()
 	
@@ -522,6 +542,7 @@ nav_order: 9
     ```
 	
 -   5,000회 시행
+
     ```python
 	np.random.seed(17)
 	sim.run(5000)
@@ -530,6 +551,7 @@ nav_order: 9
     -   `RuntimeWarning`은 무시
 
 -   결과(평균 적합도) 확인
+
     ```python
 	def plot_result(index, **options):
 	    sim.plot(index, **options)
@@ -547,6 +569,7 @@ nav_order: 9
     -   협력자로의 변이가 나타나면서 평균 적합도는 2.5 근방에서 진동
 
 -   `Niceness`와 `Opening`, 두 개의 그래프 그려보기
+
     ```python
 	plt.figure(figsize=(8,4))
 	plt.subplot(1,2,1)
@@ -566,18 +589,21 @@ nav_order: 9
     -   `Opening`: 첫 게임의 협력자도 평균 협력자의 분포와 유사, 하지만, 그 비중 변동은 심함
 	
 	-   다른 전략의 결과도 확인해보자
+	
 	    ```python
 		plot_result(3, color='C3')
 		plot_result(4, color='C4')
 		```
 
 -   최종 단계에서 유형 분포
+
     ```python
 	for agent in sim.agents:
 	    print(agent.values)
     ```
 	
 -   가장 흔한 유형 확인하기
+
     ```python
 	from pandas import Series
 	

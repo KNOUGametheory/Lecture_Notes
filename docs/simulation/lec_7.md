@@ -131,6 +131,7 @@ SIR 모형을 파이선으로 구현한다.
     -   [`odient`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.odeint.html){:target="_blank"}: 미분 방정식(differential equation)을 풀기 위해 필요
 
 -   계산 모형 설정
+
     ```python
     def F(x, t, R0):
         s, e, i = x
@@ -150,6 +151,7 @@ SIR 모형을 파이선으로 구현한다.
         -   우리의 경우, $$R0$$가 $$t$$에 대한 함수라면 $$\rightarrow$$ 지금은 상수이지만, 뒤에서 함수로 다룰 예정
 
 -   초기값 설정
+
     ```python
 	"""
 	초기값 설정
@@ -172,6 +174,7 @@ SIR 모형을 파이선으로 구현한다.
         -   한 줄: `#`
 
     -   초기값 확인
+	
 	    ```python
 		list (x_0)
 		```
@@ -197,6 +200,7 @@ SIR 모형을 파이선으로 구현한다.
     -   `transpose`: 전치 행렬을 생각할 것
 
 -   시간 지정
+
     ```python
 	t_length = 550
 	grid_size = 1000
@@ -226,6 +230,7 @@ SIR 모형을 파이선으로 구현한다.
     >     -   다양한 그래프를 그려보자.
 
 -   실질 감염재생산 지수의 효과 확인: 실질 감염재생산 지수의 크기를 키워가면서
+
     ```python
 	R0_vals = np.linspace(1.6, 3.0, 6)
 	labels = [f'$R0 = {r:.2f}$' for r in R0_vals]
@@ -257,6 +262,7 @@ SIR 모형을 파이선으로 구현한다.
         -   목록(list): 파이선에서 항목을 순서 지어 모을 때(an ordered collection of items) 사용
 
 -   실질 감염재생산 지수에 따라 계산
+
     ```python
 	for r in R0_vals:
 	    i_path, c_path = solve_path(r, t_vec)
@@ -271,6 +277,7 @@ SIR 모형을 파이선으로 구현한다.
         -   [`array`: 다차원 배열 객체](https://numpy.org/doc/stable/user/absolute_beginners.html#whats-the-difference-between-a-python-list-and-a-numpy-array){:target="_blank"} $$\rightarrow$$ 행렬 연산과 비슷한 계산을 할 수 있음
 
 -   그래프 설정
+
     ```python
 	def plot_paths(paths, labels, times=t_vec):
 	    fig, ax = plt.subplots()
@@ -298,6 +305,7 @@ SIR 모형을 파이선으로 구현한다.
     -   `plt.show()`: 메소드를 이용해 그림을 볼 수 있음
 
 -   그래프를 그림
+
     ```python
 	plot_paths(i_paths, labels)
 	
@@ -345,6 +353,7 @@ SIR 모형을 파이선으로 구현한다.
     -   `eta`: 속도를 조정 $$\rightarrow$$ 정책의 실제 집행 정도
 
 -   `eta`를 변화시킴
+
     ```python
 	eta_vals = 1/5, 1/10, 1/20, 1/50, 1/100
 	labels = [fr'$\eta = {eta:.2f}$' for eta in eta_vals]
@@ -367,6 +376,7 @@ SIR 모형을 파이선으로 구현한다.
     -   `eta`가 클 수록, 감염 재생산 지수가 빠르게 하락
 
 -   감염율을 계산
+
     ```python
 	i_paths, c_paths = [], []
 	
@@ -380,6 +390,7 @@ SIR 모형을 파이선으로 구현한다.
     -   `lambda` 함수 사용을 확인할 것
 
 -   그래프
+
     ```python
 	plot_paths(i_paths, labels)
 	plot_paths(c_paths, labels)
@@ -392,6 +403,7 @@ SIR 모형을 파이선으로 구현한다.
         -   누적도 마찬가지
 
 -   인구를 도입
+
     ```python
 	pop_size = 3.3e8
 	
@@ -424,11 +436,13 @@ SIR 모형을 파이선으로 구현한다.
     -   120일간 $$R_t = 0.5$$, 이후 14개월 간 $$R_{t} = 2$$
 
 -   그래프
+
     ```python
 	plot_paths(i_paths, labels)
     ```
 
 -   사망률 `nu` 도입
+
     ```python
 	nu = 0.01   
 	

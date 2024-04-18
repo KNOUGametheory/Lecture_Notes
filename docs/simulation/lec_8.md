@@ -51,6 +51,7 @@ nav_order: 8
 	-   이 장의 주요 내용은 다음을 참고했음: [Allen Downey, 2012, *Think Complexity*, Ch. 9](https://colab.research.google.com/github/AllenDowney/ThinkComplexity2/blob/master/notebooks/chap09.ipynb){:target="_blank"}
 
 -   사용하려는 패키지와 파일 가져오기
+
     ```python
 	import matplotlib.pyplot as plt
 	import numpy as np
@@ -79,6 +80,7 @@ nav_order: 8
         -   단점: 공동 작업에서 문제가 될 수 있음 $$\rightarrow$$ 우리 경우처럼 `github.com`으로 공유하는 방법이 있음
 
 -   (그림) 파일 저장
+
 	```python
 	from utils import decorate, savefig
 	!mkdir -p figs
@@ -91,6 +93,7 @@ nav_order: 8
     -   `mkdir`: 디렉토리(폴더)를 생성하라는 명령
 
 -   패키지 설치
+
 	```python
 	try:
 	    import empiricaldist
@@ -105,14 +108,20 @@ nav_order: 8
     -   [`pip install 패키지이름`](https://docs.python.org/3/installing/index.html){:target="_blank"}: 파이선 패키지/모듈 설치를 위해 사용
 
 -   공간 만들기
+
     ```python
 	def locs_where(condition):
 	    return list(zip(*np.nonzero(condition)))
     ```
 
-    -   [`np.nonzero`](https://numpy.org/doc/stable/reference/generated/numpy.nonzero.html){:target="_blank"}: `numpy`의 `nonzero`, 0이 아닌 튜플(tuple)의 목록을 만듦
+    -   [`np.nonzero`](https://numpy.org/doc/stable/reference/generated/numpy.nonzero.html){:target="_blank"}: `numpy`의 `nonzero`, 0이 아닌 튜플(`tuple`)의 배열(`array`)을 만듦
+	
+        -   우리의 경우, `0`이 아닌 값을 가진 공간(셀)의 좌표
+	
+    -  `list`와 `zip`으로 좌표  쌍의 목록이 만들어짐
 
 -   분리 모형 중 행위자 구분 하기
+
     ```python
 	import seaborn as sns
 	from matplotlib.colors import LinearSegmentedColormap
@@ -145,6 +154,7 @@ nav_order: 8
     >     -   관심을 갖고 있는 모형의 목적에 따라 계산 절차를 생각해보자.
 
 -   클래스 설정
+
     ```python
 	from scipy.signal import correlate2d
 	from Cell2D import Cell2D, draw_array
@@ -178,6 +188,7 @@ nav_order: 8
         -   `p`: 같은 속성의 이웃에 대한 기준
 
 -   이웃의 속성 확인하기
+
     ```python
 	    def count_neighbors(self):
 		    a = self.array
@@ -214,19 +225,22 @@ nav_order: 8
 
     -   같은 속성의 이웃을 세기: `frac_same`
 	
-        -   [`np.where`](https://numpy.org/doc/stable/reference/generated/numpy.where.html): `numpy.where(조건, 참일 때의 값, 거짓일 때의 값)`, 기본적으로 조건을 만족하는 인덱스를 반환, 지정된 값을 브로드캐스팅하는 데 사용할 수 있음
+        -   [`np.where`](https://numpy.org/doc/stable/reference/generated/numpy.where.html){:target="_blank"}: `numpy.where(조건, 참일 때의 값, 거짓일 때의 값)`, 기본적으로 조건을 만족하는 인덱스를 반환, 지정된 값을 브로드캐스팅하는 데 사용할 수 있음
 
     -   같은 속성이 공집합인 경우: `nan` 숫자가 아닌 것으로 간주(Not a Number)
 
 -   같은 속성의 이웃의 평균 비중 계산
+
     ```python
 	    def segregation(self):
 		    _, _, _, frac_same = self.count_neighbors()
 			return np.nanmean(frac_same)
     ```
+
     -   `_, _, _, `: `_`(underscore), 특정 값을 무시, 우리의 경우, `empty, frac_red, frac_blue,`
 
 -   만족하지 못하는 경우 $$\rightarrow$$ 무작위로 이동
+
     ```python
 	    def step(self):
 		    a = self.array
@@ -258,21 +272,28 @@ nav_order: 8
 
     -   [`errstate`](https://numpy.org/doc/stable/reference/generated/numpy.errstate.html){:target="_blank"}: 오류 처리 기준 알려줌, 우리의 경우 NaN인 경우를 무시(`ignore`)하라는 의미
 
-    -   행복하지 않은 행위자 확인
+    -   `unhappy`: 행복하지 않은 행위자 확인
+	
+        -   행복하지 않은 행위자의 좌표와 이들이 이동할 빈 공간의 좌표를 확인	
 
-    -   이동할 수 있는 비어 있는 공간 확인
+    -   `empty_locs`: 빈 공간의 좌표를 갖고 있는 `array`
 
     -   `len`: 객체의 길이(length)를 계산, 우리의 경우 행복하지 않은 행위자의 수
 
-    -   행복하지 않은 행위자를 무작위 목적지로 이동시킴
+    -   행복하지 않은 행위자를 비어 있는 공간으로 무작위 이동시킴
 
-        -   비어 있는 셀이 목적지
+        -   `i`: 무작위로 추출된 비어 있는 공간 $$\rightarrow$$ `dest`
+		
+        -   `source`의 값을 `dest`으로: 이동을 표현, 이동을 완료한 후 `source` 셀은 비어 있는 공간이 되므로 그 값은 `0`		
+		
+        -   `empty_locs`에 새로 빈 공간이 된 `source`를 추가 $$\rightarrow$$ 다음 행위자가 이동할 때 선택할 수 있음	
 
     -   비어 있는 셀의 수가 변화 없는 지 확인
 
     -   같은 속성의 이웃 비중을 다시 계산
 
 -   결과 그리기
+
     ```python
 	    def draw(self):
 		    return draw_array(self.array, cmap=cmap, vmax=2)    
@@ -294,20 +315,23 @@ nav_order: 8
     > 	
     >     -   관심이 있는 모형에서 그리고자 하는 그래프와 필요한 패키지를 확인하자.
 
--   작은 규모로 그려보기
+-   작은 규모($$ n = 10 $$)로 그려보기
+
     ```python
 	grid = Schelling(n=10, p=0.3)
 	grid.draw()
 	grid.segregation()
 	```  
 
--   애니메이션을 추가해 큰 규모로 그려보기
+-   애니메이션을 추가해 더 큰 규모($$ n = 100 $$)로 그려보기
+
     ```python
 	grid = Schelling(n=100, p=0.3)
 	grid.animate(frames=30, interval=0.1)   
 	```
 
 -   분리 정도를 계산하고, 저장하기
+
     ```python
 	from utils import three_frame
 	
@@ -322,6 +346,7 @@ nav_order: 8
     -   `three_frame` 등 관련된 내용은 `utils.py` 확인 바람
 
 -   관용 수준을 0.2부터 0.5까지 높여가면서 계산해보자
+
     ```python
 	from utils import set_palette
 	set_palette('Blues', 5, reverse=True)

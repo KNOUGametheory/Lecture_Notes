@@ -77,7 +77,7 @@ nav_order: 8
 
         -   장점: `import` 과정을 단순하게 할수 있음
 
-        -   단점: 공동 작업에서 문제가 될 수 있음 $$\rightarrow$$ 우리 경우처럼 `github.com`으로 공유하는 방법이 있음
+        -   단점: 공동 작업에서 문제가 될 수 있음 $$\rightarrow$$ 우리 경우처럼 [github](https://docs.github.com/en){:target="_blank"}로 공유하는 방법이 있음
 
 -   (그림) 파일 저장
 
@@ -86,7 +86,7 @@ nav_order: 8
 	!mkdir -p figs
     ```  
 
-    -   `savefig`: `utils.py` 를 확인해 볼 것 $$\rightarrow$$ 축 표시와 그림 저장
+    -   `savefig`: [`utils.py`](https://github.com/AllenDowney/ThinkComplexity2/raw/master/notebooks/utils.py){:target="_blank"} 를 확인해 볼 것 $$\rightarrow$$ 축 표시와 그림 저장
 
     -   `!`: 외부의 쉘 명령을 사용하기 위해 붙임
 
@@ -343,7 +343,7 @@ nav_order: 8
 
     -   `savefig`: 그림 파일 이름과 저장 위치
 
-    -   `three_frame` 등 관련된 내용은 `utils.py` 확인 바람
+    -   `three_frame` 등 관련된 내용은 [`utils.py`](https://github.com/AllenDowney/ThinkComplexity2/raw/master/notebooks/utils.py){:target="_blank"} 확인 바람
 
 -   관용 수준을 0.2부터 0.5까지 높여가면서 계산해보자
 
@@ -364,7 +364,7 @@ nav_order: 8
 	savefig('figs/chap09-2')    
     ```
 	
-    -   관련된 내용은 `utils.py` 확인 바람
+    -   `set_palette`: `matplotlib`에서의 색깔을 설정,  [`utils.py`](https://github.com/AllenDowney/ThinkComplexity2/raw/master/notebooks/utils.py){:target="_blank"} 확인 바람
 
 ## 정리하기
 

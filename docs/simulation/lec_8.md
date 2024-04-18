@@ -213,6 +213,8 @@ nav_order: 8
     -   이웃이 없으면, 같은 속성의 이웃이 없는 것으로 간주
 
     -   같은 속성의 이웃을 세기: `frac_same`
+	
+        -   [`np.where`](https://numpy.org/doc/stable/reference/generated/numpy.where.html): `numpy.where(조건, 참일 때의 값, 거짓일 때의 값)`, 기본적으로 조건을 만족하는 인덱스를 반환, 지정된 값을 브로드캐스팅하는 데 사용할 수 있음
 
     -   같은 속성이 공집합인 경우: `nan` 숫자가 아닌 것으로 간주(Not a Number)
 

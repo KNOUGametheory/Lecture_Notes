@@ -79,7 +79,7 @@ nav_order: 8
 
         -   단점: 공동 작업에서 문제가 될 수 있음 $$\rightarrow$$ 우리 경우처럼 [github](https://docs.github.com/en){:target="_blank"}로 공유하는 방법이 있음
 
--   (그림) 파일 저장
+-   (그림) 파일 저장과 저장할 폴더 만들기
 
 	```python
 	from utils import decorate, savefig
@@ -330,7 +330,7 @@ nav_order: 8
 	grid.animate(frames=30, interval=0.1)   
 	```
 
--   분리 정도를 계산하고, 저장하기
+-   그림 파일 저장하기
 
     ```python
 	from utils import three_frame

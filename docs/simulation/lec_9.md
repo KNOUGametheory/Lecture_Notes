@@ -158,7 +158,7 @@ nav_order: 9
 	
     -   각 단계에서의 현재 값 계산
 
-    -   `pass`: 아무것도 실행하지 않고자 할 때
+    -   [`pass`](https://docs.python.org/3/tutorial/controlflow.html#pass-statements){:target="_blank"}: 아무것도 실행하지 않음. 문법적으로 필요하지만, 실제로는 아무런 행동을 하지 않아도 될 때 사용
 
     -   `**`: 딕셔너리로 풀어줌(unpacking). `*`는 인수로 풀어줌
 	
@@ -206,7 +206,17 @@ nav_order: 9
     > 	
     >     -   다른 유형의 게임을 구현해보자.
 
--   경기자 `Agent` 클래스 만들기: 경기자 속성 $$=$$ 전략, 복제, 변이; 상대 경기자의 이전 선택에 따라 나의 다음 선택을 결정
+-   경기자 `Agent` 클래스 만들기
+
+    -  경기자 속성 
+	
+        -   전략(`respond`)
+		
+        -   복제(`copy`)
+		
+        -   변이(`mutate`)
+		
+    <!-- -  이외에, 점수와 과거 대응 전략 기록(`past_responses`)의 재설정(`reset`), 선택과 점수의 기록(`append`) -->
 
     ```python
     class Agent:
@@ -252,8 +262,16 @@ nav_order: 9
 	        values[index] = 'C' if values[index] == 'D' else 'D'
 	        return values
     ```
+
+    -  상대 경기자의 이전 선택에 따라 나의 선택을 결정 $$\rightarrow$$ 나의 전략
 	
--   경기자 타입(전략)을 유전형(genotype)처럼 간주
+        -   `keys`: 상대 경기자가 이전 두 기에 한 선택의 튜플   
+
+        -   `values`: 나의 선택
+	
+-   경기자 타입(전략)을 유전형(genotype)처럼 간주  
+
+    -  `keys`(상대 경기자의 이전 선택)에 맞춰 나의 선택이 결정되어 있음
 
     ```python
     all_c = Agent('CCCCCCC')
@@ -278,7 +296,7 @@ nav_order: 9
 
     ```python
     np.sum([all_d.copy().values != all_d.values for i in range(1000)])    
-    ```
+	```
 	
 -   `Tournament` 클래스 만들기: 경쟁 규칙을 만들기
 
@@ -330,9 +348,9 @@ nav_order: 9
 
     -   우리가 만드는 것은 반복 죄수의 딜레마 게임
 
-    -   `play`
+    -   `play` (이하 내용은 앞의 `Agent` 클래스에서 정의되어 있음)
 
-        -   `reset`: 첫 번째 하위 게임을 시작하기 전, 기록을 초기화
+        -   `reset`: 첫 번째 하위 게임을 시작하기 전, 기록을 초기화 
 
         -   `respond`: 주어진 상대방의 반응에 대해 경기자가 반응하도록 경기자를 호출
 
@@ -450,9 +468,9 @@ nav_order: 9
 		return agents
     ```
 	
-    -   `make_random_agents`: 무작위로 속성 배정
+    -   `make_random_agents`: 무작위로 속성 할당
 
-    -   `make_identical_agents`: 동일한 속성
+    -   `make_identical_agents`: 동일한 속성 할당
 
 -   전략에 따라 속성 만들기
 
@@ -526,7 +544,7 @@ nav_order: 9
     > 	
     >     -   다른 유형의 게임을 시행하고 결과를 정리해보자.
 
--   배신자 100명으로 시작
+-   항상 배신하는 100명으로 시작
 
     ```python
 	tour = Tournament()

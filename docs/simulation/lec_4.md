@@ -454,7 +454,12 @@ nav_order: 4
 
 9.  모형의 결과는 향후 연구 방향의 시작이기도 하다.
 
+### 참고자료
+
+- [Bill Rand, "Agent-Based Modeling: Schelling's Tipping Model," Complexity Explorer](https://youtu.be/9Hu-50BNVBc){:target="_blank"}
+
 ### 참고문헌
+
 <a id="1">[1]</a>
 [Thomas C. Schelling (1971). "Dynamic Models of Segreation." *Journal of Mathematical Sociology.* 1(3). 143--186.](https://doi.org/10.1080/0022250X.1971.9989794){:target="_blank"}
 

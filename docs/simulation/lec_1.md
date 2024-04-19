@@ -314,7 +314,17 @@ nav_order: 1
 
 8.  행위자 기반 모형은 다양성이 너무 높다는 단점이 있고, 창발을 어떻게 설명할 지, 그리고 모형의 결과를 현실에 어떻게 적용할 지에서 많은 추가적인 연구가 필요하다.
 
+### 참고자료
+
+- [권오규, 김영진, 백승기, 정형채, 2022, 행위자 기반 모형의 이해와 활용, 물리학과 첨단 기술, 7-8.](https://webzine.kps.or.kr/?p=5_view&idx=16729){:target="_blank"}
+
+- [조남운, 2016, 경제학에서의 행위자 기반 모형: 소개와 전망.](/references/Cho2016kk.pdf){:target="_blank"}
+
+- [Bill Rand, "Agent-Based Modeling: An Initial Exploration," Complexity Explorer](https://youtu.be/Z8Wf1vF_xgQ){:target="_blank"}
+
+
 ### 참고문헌
+
 <a id="1">[1]</a>
 Scott E. Page (2008). "Agent-Based Models" in Steven N. Durlauf and Lawrence E. Blume eds. *The New Palgrave Dictionary of Economics.* Palgrave Macmillan.
 

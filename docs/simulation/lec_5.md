@@ -465,8 +465,12 @@ nav_order: 5
 
 4.  넷로고는 속도가 느리다는 점과 연구자의 의도를 모두 구현하는 데에는 한계가 있다는 단점이 있다.
 
+### 참고자료
+
+- [최정규(경북대), "협력의 진화", 카오스 사이언스](https://www.youtube.com/live/HQCcPRBNNcQ){:target="_blank"}
 
 ### 참고문헌
+
 <a id="1">[1]</a>
 [Martin A. Nowak and Roger Highfield (2011). *Super Cooperators: Altruism, Evolution, and Why We Need Each Other to Succeed.* Chs. 1-5. Free Press.](https://archive.org/details/supercooperators0000nowa){:target="_blank"}
 

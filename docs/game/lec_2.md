@@ -141,13 +141,13 @@ nav_order: 2
     <td align="center">부인</td>
   </tr>
   <tr>
-    <td align="center" rowspan="3">용의자 1</td>
+    <td align="center" rowspan="2">용의자 1</td>
     <td align="center">자백</td>
     <td align="center">-3, -3</td>
     <td align="center">0, -10</td>
   </tr>
   <tr>
-    <td align="center">부인</td>
+    <td align="center", rowspan="2">부인</td>
     <td align="center">-10,   0</td>
     <td align="center">-1,   -1</td>
   </tr>

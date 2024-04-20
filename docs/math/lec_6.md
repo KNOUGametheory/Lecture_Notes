@@ -156,10 +156,18 @@ nav_order: 6
 
   ![예시표](/images/Lec_6_3_1.png)
 
+- Player 1은 Player 2가 $$Center$$와 $$Right$$만 순수전략으로 가지고 있다고 알고 있다. Player 1의 $$Up$$ 선택에 따른 Player 2의 최적대응은 무엇이라고 Player 1은 기대하는가? 또한, Player 1의 $$Down$$ 선택에 따른 Player 2의 최적대응은 무엇이라고 Player 1은 기대하는가?
+
+  ![예시표](/images/Lec_5_1_5.png)
+
+   - $$Up\rightarrow Right$$, $$Down \rightarrow Center$$ 
+
+- Player 1은 Player 2가 $$Center$$와 $$Right$$뿐만 아니라 $$Left$$도 순수전략으로 가지고 있다고 알고 있다. Player 1의 $$Up$$ 선택에 따른 Player 2의 최적대응은 무엇이라고 Player 1은 기대하는가? 또한, Player 1의 $$Down$$ 선택에 따른 Player 2의 최적대응은 무엇이라고 Player 1은 기대하는가?
 
 
+  ![예시표](/images/Lec_5_1_5.png)
 
-
+   - $$Up\rightarrow Left$$, $$Down \rightarrow Center$$
 
 
 ## 사전확률과 사후확률의 응용

@@ -128,10 +128,10 @@ nav_order: 2
 |  | 부인 | -10,   0 |  -1,   -1 |
 
 
-<table>
+<table border="1" cellspaceing="0">
   <tr>
-    <td align="center"></td>
-    <td align="center"></td>
+    <td align="center" border="1" cellspaceing="0"></td>
+    <td border="1" cellspaceing="0" align="center"></td>
     <td align="center" colspan="2">용의자 2</td>
   </tr>
   <tr>

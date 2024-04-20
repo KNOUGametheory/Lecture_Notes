@@ -247,7 +247,8 @@ P(B\vert A)&=\frac{P(A\vert B)P(B)}{P(A)}\\
 
 - $$B$$가 발생했다는 사실이 $$A$$가 발생할 확률을 변화시키지 않으면 $$A$$와 $$B$$는 독립이다.
 
-	$$P(A\vert B)= \frac{P(B\cap A)}{P(B)}~~\text{$$\rightarrow$$}~~P(B\cap A)=P(B)P(A)$$
+	$$P(A\vert B)= \frac{P(B\cap A)}{P(B)}~~\rightarrow~~P(B\cap A)=P(B)P(A)$$
+
 
     {: .definition}
 

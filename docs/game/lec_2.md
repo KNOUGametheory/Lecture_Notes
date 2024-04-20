@@ -130,8 +130,8 @@ nav_order: 2
 
 <table >
   <tr>
-    <td align="center" style="border-top: none; border-bottom: none; border-left: none; border-right: none;"></td>
-    <td align="center" style="border-top: none; border-bottom: none; border-left: none;"></td>
+    <td align="center"></td>
+    <td align="center"></td>
     <td align="center" colspan="2">용의자 2</td>
   </tr>
   <tr>

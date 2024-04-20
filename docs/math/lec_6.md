@@ -202,55 +202,7 @@ P(B\vert A)&=\frac{P(A\vert B)P(B)}{P(A)}\\
 \end{split}$$
 
 
-### 오즈(odds) 또는 승산
 
-- 새로운 증거가 나타날 때 어떤 가설에 대한 확률의 변화는 이 가설의 오즈 또는 승산에서의 변화로 간편하게 표현
-
-    {: .definition}
-
-	> - 사건 $$A$$의 오즈는 다음과 같이 정의한다.
-	>
-	>	$$\frac{P(A)}{P(A^{c})}=\frac{P(A)}{1-P(A)}$$
-	>
-	> - 즉 사건 $$A$$의 오즈는 사건 $$A$$가 발생할 가능성이 사건 $$A$$가 발생하지 않을 가능성보다 얼마나 큰지를 알려준다. 오즈가 $$\alpha$$이면 그 가설을 지지하는 데 승산이 $$\alpha$$ 대 1이라고 한다.
-
-- 참일 확률이 $$P(H)$$인 새로운 가설 $$H$$를 고려하고 새로운 증거 $$E$$가 도입되었다.
-
-- 새로운 증거 $$E$$가 주어졌을 때 $$H$$가 참일 조건부 확률과 $$H$$가 참이 아닐 조건부 확률은 다음과 같다.
-
-	$$\begin{split}
-	P(E\cap H)&=P(E\vert H)P(H)\\
-	P(H\vert E)&=\frac{P(E\cap H)}{P(E)}\\
-	&=\frac{P(E\vert H)P(H)}{P(E)}\\
-	\end{split}$$
-
-	$$\begin{split}
-	P(E\cap H^{c})&=P(E\vert H^{c})P(H^{c})\\
-	P(H^{c}\vert E)&=\frac{P(E\cap H^{c})}{P(E)}\\
-	&=\frac{P(E\vert H^{c})P(H^{c})}{P(E)}\\
-	\end{split}$$
-	
-- 증거 $$E$$가 도입된 후 새로운 오즈는 다음과 같다.
-
-	$$\frac{P(H\vert E)}{P(H^{c}\vert E)}=\frac{P(H)}{P(H^{c})} \frac{P(E\vert H)}{P(E\vert H^{c})}$$
-
-### 독립사건
-
-- 조건부확률 $$P(A\vert B)$$과 비조건부확률 $$P(A)$$
-
-- 사건 B가 발생했다는 전제 하에 사건 A가 발생할 조건부 확률 $$P(A|B)$$와 사건 A가 발생할 확률 $$P(A)$$는 일반적으로 같지 않음
-
-	$$P(A\vert B)\neq P(A)$$
-
-- 특별한 경우 $$P(A\vert B)= P(A)$$
-
-- $$B$$가 발생했다는 사실이 $$A$$가 발생할 확률을 변화시키지 않으면 $$A$$와 $$B$$는 독립이다.
-
-	$$P(A\vert B)= \frac{P(B\cap A)}{P(B)}~~\text{$$\rightarrow$$}~~P(B\cap A)=P(B)P(A)$$
-
-    {: .definition}
-
-	> P(A\cap B)=P(A)P(B)$$이 성립되면 두 사건 $$A$$와 $$B$$는 독립(independent}이라고 한다. 독립이 아닌 두 사건 $$A$$와 $$B$$는 종속(dependent)이라고 한다.
 
 ### 응용해 봅시다.
 

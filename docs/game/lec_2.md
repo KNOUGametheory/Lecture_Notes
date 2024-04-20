@@ -130,26 +130,26 @@ nav_order: 2
 
 <table >
   <tr>
-    <td style="border-top: none; border-bottom: none; border-left: none; border-right: none;"></td>
-    <td style="border-top: none; border-bottom: none; border-left: none;"></td>
-    <td colspan="2">용의자 2</td>
+    <td align="center" style="border-top: none; border-bottom: none; border-left: none; border-right: none;"></td>
+    <td align="center" style="border-top: none; border-bottom: none; border-left: none;"></td>
+    <td align="center" colspan="2">용의자 2</td>
   </tr>
   <tr>
-    <td style="border-top: none; border-left: none; border-right: none;"></td>
-    <td style="border-top: none; border-left: none;"></td>
+    <td align="center" style="border-top: none; border-left: none; border-right: none;"></td>
+    <td align="center" style="border-top: none; border-left: none;"></td>
     <td align="center">자백</td>
     <td align="center">부인</td>
   </tr>
   <tr>
-    <td rowspan="2">용의자 1</td>
-    <td>자백</td>
-    <td>-3, -3</td>
-    <td>0, -10</td>
+    <td align="center" rowspan="2">용의자 1</td>
+    <td align="center">자백</td>
+    <td align="center">-3, -3</td>
+    <td align="center">0, -10</td>
   </tr>
   <tr>
-    <td>부인</td>
-    <td>-10,   0</td>
-    <td>-1,   -1</td>
+    <td align="center">부인</td>
+    <td align="center">-10,   0</td>
+    <td align="center">-1,   -1</td>
   </tr>
 </table>
 

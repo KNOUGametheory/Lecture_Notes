@@ -58,8 +58,8 @@ nav_order: 2
   * 두 용의자가 모두 범행을  <span style="color:#105AD2">부인</span>하면? 각각 징역 1년
 
   * 한 용의자는  <span style="color:#FF0000">자백</span>하고 다른 용의자는  <span style="color:#105AD2">부인</span>하면? 
-<span style="color:#FF0000">자백</span>한 용의자는 정상이 참작되어 ‘집행유예’ 
-<span style="color:#105AD2">부인</span>한 용의자는 ‘위증죄’가 추가되어 징역 10년
+	<span style="color:#FF0000">자백</span>한 용의자는 정상이 참작되어 ‘집행유예’ 
+	<span style="color:#105AD2">부인</span>한 용의자는 ‘위증죄’가 추가되어 징역 10년
 
 * 서로 의사소통이 차단된 두 용의자
 

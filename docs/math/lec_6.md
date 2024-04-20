@@ -294,7 +294,7 @@ P(B\vert A)&=\frac{P(A\vert B)P(B)}{P(A)}\\
 	\frac{P(A\vert H)}{P(B\vert H)}&=\frac{P(A)}{P(B)}\frac{P(H\vert A)}{P(H\vert B)}\\
 	=&\frac{\frac{3}{5}}{\frac{2}{5}}\frac{\frac{1}{3}}{\frac{2}{3}}\\
 	&=\frac{3}{4}
-	\end{split}
+	\end{split}$$
 
 - 카드 게임에서 52장의 카드를 A, B, C, D에게 각각 13장씩 돌렸다. B와 C에게 클로버 카드가 7장이면 A가 나머지 6장의 클로버 카드 중 4장을 가질 확률을 구하라.
 

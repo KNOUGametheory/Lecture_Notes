@@ -32,13 +32,13 @@ nav_order: 6
 
   ![예시표](/images/Lec_6_2_8.png)
 
-   - $$P(B_{1})=0.4\times0.2+0.2\times0.5+0.1\times0.3=0.21$$
+$$P(B_{1})=0.4\times0.2+0.2\times0.5+0.1\times0.3=0.21$$
 
-   - $$P(B_{2})=0.15\times0.2+0.4\times0.5+0.3\times0.3=0.32$$
+$$P(B_{2})=0.15\times0.2+0.4\times0.5+0.3\times0.3=0.32$$
 
-   - $$P(B_{3})=0.35\times0.2+0.15\times0.5+0.45\times0.3=0.28$$
+$$P(B_{3})=0.35\times0.2+0.15\times0.5+0.45\times0.3=0.28$$
 
-   - $$P(B_{4})=0.1\times0.2+0.25\times0.5+0.15\times0.3=0.19$$
+$$P(B_{4})=0.1\times0.2+0.25\times0.5+0.15\times0.3=0.19$$
 
 
 ### 사전확률(초기확률)(prior probability)
@@ -95,13 +95,9 @@ P(H_{i}\vert E_{1}E_{2})=\frac{P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})}{\sum_{i=1
 
 ### 혼합전략에 적용
 
-- 경기자 1의 전략은 $$A_{1}$$, $$A_{2}$$, $$A_{3}$$
+- 경기자 1의 전략은 $$A_{1}$$, $$A_{2}$$, $$A_{3}$$ $$P(A_{i})$$, $$P(B_{j}\vert A_{i})$$ $$\rightarrow$$ $$P(B_{j})$$
 
-$$P(A_{i})$$, $$P(B_{j}\vert A_{i})$$ $$\rightarrow$$ $$P(B_{j})$$
-
-- 경기자 2의 전략은 $$B_{1}$$, $$B_{2}$$, $$B_{3}$$, $$B_{4}$$
-
-$$P(B_{j})$$, $$P(A_{i}\vert B_{j})$$ $$\rightarrow$$ $$P(A_{i})$$
+- 경기자 2의 전략은 $$B_{1}$$, $$B_{2}$$, $$B_{3}$$, $$B_{4}$$ $$P(B_{j})$$, $$P(A_{i}\vert B_{j})$$ $$\rightarrow$$ $$P(A_{i})$$
 
   ![예시표](/images/Lec_6_2_6.png)
 
@@ -114,7 +110,7 @@ $$P(B_{j})$$, $$P(A_{i}\vert B_{j})$$ $$\rightarrow$$ $$P(A_{i})$$
 
 	- 각 카드의 확률을 $$P(BB)$$, $$P(WW)$$, $$P(BW)$$이라고 하면,
 
-$$\begin{split}
+	$$\begin{split}
 	P(BW\vert B)&=\frac{P(B\cap BW)}{P(B)}\\
 	&=\frac{P(B\vert BW)P(BW)}{P(B\vert BW)P(BW)+P(B\vert BB)P(BB)+P(B\vert WW)P(WW)}\\
 	&=\frac{\frac{1}{2}\times\frac{1}{3}}{\frac{1}{2}\times\frac{1}{3}+1\times\frac{1}{3}+0\times\frac{1}{3}}=\frac{1}{3}
@@ -127,7 +123,7 @@ $$\begin{split}
 
 	- (1) 무작위로 건전지를 선택할 때 20시간 이상 사용할 수 있는 확률을 구하라.
 
-$$\begin{split}
+	$$\begin{split}
 	P(B)&=P(B\vert A_{1})P(A_{1})+P(B\vert A_{1})P(A_{1})+P(B\vert A_{1})P(A_{1})\\
 	&=0.6\times 0.3+0.2\times 0.45+0.4\times 0.25\\
 	&=0.37
@@ -135,7 +131,7 @@ $$\begin{split}
 
    - (2) 건전지를 20시간 이상 사용하였다면 어떤 종류일지 조건부확률을 구하라.
 
-$$\begin{split}
+	$$\begin{split}
 	P(B)&=0.6\times 0.3+0.2\times 0.45+0.4\times 0.25=0.37\\
 	P(A_{1}\vert B)&=\frac{0.18}{0.37},~~~
 	P(A_{2}\vert B)=\frac{0.09}{0.37},~~~
@@ -151,13 +147,13 @@ $$\begin{split}
 
 		- 첫 번째 동전이 앞면인 사건 $$A=\{HH,~HT\}$$, 두 번째 동전이 앞면인 사건 $$B=\{HH,~TH\}$$
 
-$$P(B\vert A)=\frac{P(A\cap B)}{P(A)}=\frac{\{HH\}}{\{HH,~HT\}}=\frac{1}{2}$$
+		$$P(B\vert A)=\frac{P(A\cap B)}{P(A)}=\frac{\{HH\}}{\{HH,~HT\}}=\frac{1}{2}$$
 
    - 적어도 한 번 앞면이 나온다는 각각의 조건이 주어졌을 때 두 번 모두 앞면
 
 		- 첫 번째 동전이 앞면인 사건 $$C=\{HH,~HT,~TH\}$$, 두 번째 동전이 앞면인 사건 $$D=\{HH\}$$
 
-$$P(D\vert C)=\frac{P(C\cap D)}{P(C)}=\frac{\{HH\}}{\{HH,~HT,~TH\}}=\frac{1}{3}$$
+		$$P(D\vert C)=\frac{P(C\cap D)}{P(C)}=\frac{\{HH\}}{\{HH,~HT,~TH\}}=\frac{1}{3}$$
 
 - 다음의 표를 이용하여 $$P(Up\vert Center)$$를 구하시오.
 

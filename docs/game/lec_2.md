@@ -147,7 +147,7 @@ nav_order: 2
     <td align="center">0, -10</td>
   </tr>
   <tr>
-    <td style="border-left: ridge;" align="center;">부인</td>
+    <td style="border-left:;" align="center;">부인</td>
     <td align="center">-10,   0</td>
     <td align="center">-1,   -1</td>
   </tr>

@@ -32,13 +32,13 @@ nav_order: 6
 
   ![예시표](/images/Lec_6_2_8.png)
 
-	- $$P(B_{1})=0.4\times0.2+0.2\times0.5+0.1\times0.3=0.21$$
+   - $$P(B_{1})=0.4\times0.2+0.2\times0.5+0.1\times0.3=0.21$$
 
-	- $$P(B_{2})=0.15\times0.2+0.4\times0.5+0.3\times0.3=0.32$$
+   - $$P(B_{2})=0.15\times0.2+0.4\times0.5+0.3\times0.3=0.32$$
 
-	- $$P(B_{3})=0.35\times0.2+0.15\times0.5+0.45\times0.3=0.28$$
+   - $$P(B_{3})=0.35\times0.2+0.15\times0.5+0.45\times0.3=0.28$$
 
-	- $$P(B_{4})=0.1\times0.2+0.25\times0.5+0.15\times0.3=0.19$$
+   - $$P(B_{4})=0.1\times0.2+0.25\times0.5+0.15\times0.3=0.19$$
 
 
 ### 사전확률(초기확률)(prior probability)
@@ -80,14 +80,14 @@ $$\begin{split}
 		Q(1,~2)=\frac{P(E_{1}E_{2})}{P(E_{1})}\\
 		\end{split}$$
 
-	- 모든 $$i$$에 대해서 위의 식이 타당하기에
+   - 모든 $$i$$에 대해서 위의 식이 타당하기에
 
 $$\begin{split}
 		1=\sum_{i=1}^{n}P(H_{i}\vert E_{1}E_{2})&=\sum_{i=1}^{n}\frac{P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})}{Q(1,~2)}\~~~~~~~~
 		\therefore Q(1,~2)=\sum_{i=1}^{n}P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})\\
 		\end{split}$$
 		
-	- 따라서, 다음과 같은 결론을 얻는다.
+   - 따라서, 다음과 같은 결론을 얻는다.
 
 $$
 P(H_{i}\vert E_{1}E_{2})=\frac{P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})}{\sum_{i=1}^{n}P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})}$$

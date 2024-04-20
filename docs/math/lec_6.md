@@ -49,7 +49,7 @@ nav_order: 6
 	> 	$$\emptyset \notin P$$
 	>
 	>	- $$P$$는 $$X$$를 덮는다.
-	
+	>
 	>		- 덮개cover는 합집합이 전체 집합인 부분 집합들의 집합족이다.) 
 	>
 	> 		$$\bigcup P=X$$

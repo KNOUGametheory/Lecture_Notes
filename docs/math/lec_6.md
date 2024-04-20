@@ -239,7 +239,7 @@ P(B\vert A)&=\frac{P(A\vert B)P(B)}{P(A)}\\
 
 - 조건부확률 $$P(A\vert B)$$과 비조건부확률 $$P(A)$$
 
-- 사건 B가 발생했다는 전제 하에 사건 A가 발생할 조건부 확률 $$P(A|B)$$와 사건 A가 발생할 확률 $$P(A)$$는 일반적으로 같지 않음
+- 사건 B가 발생했다는 전제 하에 사건 A가 발생할 조건부 확률 $$P(A\vert B)$$와 사건 A가 발생할 확률 $$P(A)$$는 일반적으로 같지 않음
 
 	$$P(A\vert B)\neq P(A)$$
 
@@ -251,7 +251,7 @@ P(B\vert A)&=\frac{P(A\vert B)P(B)}{P(A)}\\
 
     {: .definition}
 
-	> P(A\cap B)=P(A)P(B)$$이 성립되면 두 사건 $$A$$와 $$B$$는 독립(independent}이라고 한다. 독립이 아닌 두 사건 $$A$$와 $$B$$는 종속(dependent)이라고 한다.
+	> $$P(A\cap B)=P(A)P(B)$$이 성립되면 두 사건 $$A$$와 $$B$$는 독립(independent}이라고 한다. 독립이 아닌 두 사건 $$A$$와 $$B$$는 종속(dependent)이라고 한다.
 	
 
 

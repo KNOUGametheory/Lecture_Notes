@@ -93,7 +93,7 @@ nav_order: 2
 
 	$$\rightarrow$$ 용의자 $$i$$가 선택할 수 있는 전략 집합
 
-	$$S_{i} = \{자백,부인\}$$ for $$i = 1, 2$$
+	$$S_{i} = $${자백,부인} for $$i = 1, 2$$
  
 	$$\rightarrow$$ $$s_{i} \in S_{i}$$에 대하여 $$s_{i} =$$ 자백 또는 $$s_{i} =$$ 부인
 
@@ -135,7 +135,7 @@ nav_order: 2
     <td align="center" colspan="2">용의자 2</td>
   </tr>
   <tr>
-    <td align="center" style="border-top: none; border-left: none; border-right: none;"></td>
+    <td align="center"></td>
     <td align="center"></td>
     <td align="center">자백</td>
     <td align="center">부인</td>

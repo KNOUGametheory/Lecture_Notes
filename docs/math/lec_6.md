@@ -81,7 +81,126 @@ nav_order: 6
 	$$\{\{a,~b,~c\}\}$$, $$\{\{a\},~\{b\},~\{c\}\}$$, $$\{\{a,~b\},~\{c\}\}$$, $$\{\{a,~c\},~\{b\}\}$$, $$\{\{a\},~\{b,~c\}\}$$
 
 
+### 조건부 확률(conditional probability)
 
+- 조건부확률 $$P(B \vert A)$$이란 $$A$$가 발생했다는 조건이 주어졌을 때 $$B$$가 발생할 확률을 말한다.
+
+    {: .definition}
+
+	> - $$P(A)>0$$이면 다음과 같이 정의한다.
+	>
+	>	$$P(B \vert A)=\frac{P(A\cap B)}{P(A)}$$
+
+
+- (예제) 사라진 구슬이 방 왼쪽 틈새에 있다는 확신은 30\%, 오른쪽 틈새에 있다는 확신은 50%이다. 오른쪽 틈새에서 찾지 못했다면 다른 틈새에 있을 확률은?
+
+	- 오른쪽($$R$$) 틈새에서 찾지 못했다면 다른 틈새에 있을 확률 $$\rightarrow$$ $$P(L \vert R^{c})$$
+	
+	$$P(L \vert R^{c})=\frac{P(L \cap R^{c})}{P(R^{c})}=\frac{P(L)}{1-P(R)}=\frac{0.3}{1-0.5}$$
+	
+ ![예시표](/images/Lec_6_1_1.png)	
+
+
+### 베이즈 정리(Bayesian rule)
+
+- 사건 $$A$$와 사건 $$B$$
+
+	$$\begin{split}
+	P(B \vert A)&=\frac{P(A\cap B)}{P(A)}~~\rightarrow~~P(A\cap B)=P(B \vert A)P(A)\\
+	P(A \vert B)&=\frac{P(B\cap A)}{P(B)}~~\rightarrow~~P(B\cap A)=P(A \vert B)P(B)\\
+	\end{split}$$
+	
+- (서로 배반) $$A\cap B^{c}$$, $$A\cap B$$, $$B\cap A^{c}$$
+
+	$$	\begin{split}
+	P(A\cap B)&=P(B\cap A)\\
+	P(A \vert B)P(B)&=P(B \vert A)P(A)
+	\end{split}$$
+
+ ![예시표](/images/Lec_6_1_4.png)	
+
+- 사건 $$A$$와 사건 $$B$$
+
+	$$\begin{split}
+	P(B \vert A)&=\frac{P(A\cap B)}{P(A)}\\
+	A&=(A\cap B)\cup (A\cap B^{c})\\
+	P(A)&=P(A\cap B)+ P(A\cap B^{c})\\
+	&=P(A \vert B)P(B)+P(A \vert B^{c})P(B^{c})\\
+	&=P(A \vert B)P(B)+P(A \vert B^{c})(1-P(B))\\
+	\end{split}$$
+
+
+	$$\begin{split}
+	P(A \vert B)&=\frac{P(B\cap A)}{P(B)}\\
+	B&=(B\cap A)\cup (B\cap A^{c})\\
+	P(B)&=P(B\cap A)+ P(B\cap A^{c})\\
+	&=P(B \vert A)P(A)+P(B \vert A^{c})P(A^{c})\\
+	&=P(B \vert A)P(A)+P(B \vert A^{c})(1-P(A))\\
+	\end{split}$$
+
+- 간단한 예시를 아래의 표를 통하여 살펴보자.
+
+ ![예시표](/images/Lec_6_2_1.png)	
+
+- 반을 기준으로 앞의 표를 정리하면
+
+ ![예시표](/images/Lec_6_2_2.png)
+
+- 취미를 기준으로 표를 정리하면
+
+ ![예시표](/images/Lec_6_2_3.png)
+
+ ![예시표](/images/Lec_6_2_4.png)
+
+ ![예시표](/images/Lec_6_2_5.png)
+
+- 베이즈 정리를 이용하자.
+
+	$$\begin{equation*}
+	\begin{split}
+	P(B_{j})&=P(B_{j}\vert A_{1})P(A_{1})+P(B_{j}\vert A_{2})P(A_{2})+P(B_{j}\vert A_{3})P(A_{3})\\
+	&=\sum_{i=1}^{3}P(B_{j}\vert A_{1})P(A_{i})\\
+	\sum_{j=1}^{4}P(B_{j})&=\sum_{j=1}^{4}\sum_{i=1}^{3}P(B_{j}\vert A_{i})P(A_{i})=1\\
+	\end{split}
+
+
+	$$\begin{split}
+	P(A_{i})&=P(A_{i}\vert B_{1})P(B_{1})+P(A_{i}\vert B_{2})P(B_{2})+P(A_{i}\vert B_{3})P(B_{3})+P(A_{i}\vert B_{4})P(B_{4})\\
+	&=\sum_{j=1}^{4}P(A_{i}\vert B_{j})P(B_{j})\\
+	\sum_{i=1}^{3}P(A_{i})&=\sum_{i=1}^{3}\sum_{j=1}^{4}P(A_{i}\vert B_{j})P(B_{j})=1\\
+	\end{split}$$
+
+- 문제 해결을 위해서 다음의 표를 이용하자.
+
+	- $$A_{i},~i=1,~2,~3$$는 원인으로, $$B_{j},~j=1,~2,~3,~4$$는 결과로 파악하자.
+	
+ ![예시표](/images/Lec_6_2_6.png)	
+
+- (예제) 혈액검사를 통해 질병에 걸렸을 때 그 질병을 발견하는 97% 효과가 있다고 한다. 하지만 검사를 받은 사람들 중 2%에 대해서는 잘못된 양성반응을 보인다. 인구의 0.4%가 이 질병에 걸렸다면 검사결과가 양성인 사람이 실제로 질병에 걸렸을 확률을 구하라.
+
+ ![예시표](/images/Lec_6_1_5.png)
+
+$$\begin{split}
+P(A\vert B)&=\frac{P(B\cap A)}{P(B)}\\
+&=\frac{P(B\vert A)P(A)}{P(B\vert A)P(A)+P(B\vert A^{c})P(A^{c})}\\
+&=\frac{0.97\times 0.004}{(0.97\times 0.004)+(0.02\times 0.996)}\\
+&\approx 0.163025 \approx 16.3\%
+\end{split}$$
+
+- (예제) 보험에 가입하는 사람들의 부류는 사고를 잘 당하는 사람과 잘 당하지 않는 사람이다. 주어진 기간 내에 사고를 잘 당하는 사람은 사고가 발생할 확률이 0.3이고, 사고를 잘 당하지 않는 사람은 사고가 발생할 확률이 0.1이다. 사고를 잘 당하는 사람은 인구의 20%라고 알려져 있다. 새로운 보험계약자가 주어진 기간 내에 사고를 당할 확률을 구하라.
+
+ ![예시표](/images/Lec_6_1_6.png)
+
+$$\begin{split}
+P(A)&=P(A\vert B)P(B)+P(A\vert B^{c})P(B^{c})\\
+&=0.3\times 0.2+0.1\times 0.8\\
+&=0.14
+\end{split}$$
+
+$$\begin{split}
+P(B\vert A)&=\frac{P(A\vert B)P(B)}{P(A)}\\
+&=\frac{0.3\times 0.2}{0.14}\\
+\end{split}$$
 
 ## 사전확률과 사후확률
 

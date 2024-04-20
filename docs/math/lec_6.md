@@ -260,43 +260,37 @@ P(B\vert A)&=\frac{P(A\vert B)P(B)}{P(A)}\\
 
 - 수사 단계에서 담당 수사관이 용의자가 범인임을 70% 확신하고 있다. 범인이 특징을 가지고 있음을 보여주는 새로운 증거가 발견되었으며, 인구의 15%가 이 특징을 가지고 있다. 용의자가 이 특징을 가지고 있다고 판명되었다면 담당수사관은 용의자가 범인임을 어느 정도로 확신하는가?
 
- 
- ![예시표](/images/Lec_6_1_8.png)
+	- (풀이)
 
-   - (풀이)
+	$$\begin{split}
+	P(B\vert A)&=\frac{P(A\cap B)}{P(A)}\\
+	&=\frac{P(A\vert B)P(B)}{P(A\vert B)P(B)+P(A\vert B^{c})P(B^{c})}\\
+	&=\frac{1\times 0.7}{1\times 0.7+0.15\times 0.3}\\
+	&=\frac{140}{149}\\
+	&\approx 0.939597=94\%
+	\end{split}$$
 
-$$\begin{split}
-P(B\vert A)&=\frac{P(A\cap B)}{P(A)}\\
-&=\frac{P(A\vert B)P(B)}{P(A\vert B)P(B)+P(A\vert B^{c})P(B^{c})}\\
-&=\frac{1\times 0.7}{1\times 0.7+0.15\times 0.3}\\
-&=\frac{140}{149}\\
-&\approx 0.939597=94\%
-\end{split}$$
-
-
-   - 승산을 이용하면 $$\frac{140}{9}:1$$이므로 $$\frac{140}{149}$$임을 알 수 있다.
+	- 승산을 이용하면 $$\frac{140}{9}:1$$이므로 $$\frac{140}{149}$$임을 알 수 있다.
 	
-$$\begin{split}
-\frac{P(B\vert A)}{P(B^{c}\vert A)}&=\frac{P(B)}{P(B^{c})}\frac{P(A\vert B)}{P(A\vert B^{c})}\\
-=&\frac{0.7}{0.3}\frac{1}{0.15}\\
-&=\frac{140}{9}
-\end{split}$$
+	$$\begin{split}
+	\frac{P(B\vert A)}{P(B^{c}\vert A)}&=\frac{P(B)}{P(B^{c})}\frac{P(A\vert B)}{P(A\vert B^{c})}\\
+	=&\frac{0.7}{0.3}\frac{1}{0.15}\\
+	&=\frac{140}{9}
+	\end{split}$$
 
 - 주머니에 A 형태의 동전 3개와 B형태의 동전 2개가 들어 있다. A 형태의 동전은 동전 던지기에서 앞면 확률은 1/3이고, B 형태의 동전은 동전 던지기에서 앞면 확률은 2/3이다. 주머니에서 동전 하나를 무작위로 선택하여 던졌을 때 앞면이 나왔다면 A 형태의 동전일 확률은?	
 
- ![예시표](/images/Lec_6_1_10.png)
-
-   - (풀이)
-   
-$$\begin{split}
-P(A\vert H)&=\frac{P(H\cap A)}{P(H)}\\
-&=\frac{P(H\vert A)P(A)}{P(H\vert A)P(A)+P(H\vert B)P(B)}\\
-&=\frac{\frac{1}{3}\times \frac{3}{5}}{\frac{1}{3}\times \frac{3}{5}+\frac{2}{3}\times \frac{2}{5}}\\
-&=\frac{3}{7}
-\end{split}$$
-
-   - 승산을 이용하면 $$\frac{3}{4}:1$$이므로  $$\frac{3}{7}$$임을 알 수 있다.
-
+	- (풀이)
+	
+	$$\begin{split}
+	P(A\vert H)&=\frac{P(H\cap A)}{P(H)}\\
+	&=\frac{P(H\vert A)P(A)}{P(H\vert A)P(A)+P(H\vert B)P(B)}\\
+	&=\frac{\frac{1}{3}\times \frac{3}{5}}{\frac{1}{3}\times \frac{3}{5}+\frac{2}{3}\times \frac{2}{5}}\\
+	&=\frac{3}{7}
+	\end{split}$$
+	
+	- 승산을 이용하면 $$\frac{3}{4}:1$$이므로  $$\frac{3}{7}$$임을 알 수 있다.
+	
 	$$\begin{split}
 	\frac{P(A\vert H)}{P(B\vert H)}&=\frac{P(A)}{P(B)}\frac{P(H\vert A)}{P(H\vert B)}\\
 	=&\frac{\frac{3}{5}}{\frac{2}{5}}\frac{\frac{1}{3}}{\frac{2}{3}}\\

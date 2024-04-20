@@ -33,9 +33,9 @@ nav_order: 6
 - 위의 식을 이용하면
 
 	$$\begin{split}
-	P(A\vert B)=\frac{P(A\cap B)}{P(B)}&~~\text{$$\rightarrow$$}~~P(A\cap B)=P(A\vert B)P(B)\\
-	P(B\vert A)=\frac{P(B\cap A)}{P(A)}&~~\text{$$\rightarrow$$}~~P(B\cap A)=P(B\vert A)P(A)\\
-	P(A\vert B)=\frac{P(A\cap B)}{P(B)}&~~\text{$$\rightarrow$$}~~P(A\vert B)=\frac{P(B\vert A)P(A)}{P(B)}\\
+	P(A\vert B)=\frac{P(A\cap B)}{P(B)}&\rightarrow P(A\cap B)=P(A\vert B)P(B)\\
+	P(B\vert A)=\frac{P(B\cap A)}{P(A)}&\rightarrow P(B\cap A)=P(B\vert A)P(A)\\
+	P(A\vert B)=\frac{P(A\cap B)}{P(B)}&\rightarrow P(A\vert B)=\frac{P(B\vert A)P(A)}{P(B)}\\
 	\end{split}$$
 
     - 사후확률 $$P(A\vert B)$$은 사전확률 $$P(A)$$에 $$\dfrac{P(B\vert A)}{P(B)}$$을 곱하여 얻을 수 있다.

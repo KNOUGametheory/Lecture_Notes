@@ -160,7 +160,7 @@ nav_order: 6
 	P(B_{j})&=P(B_{j}\vert A_{1})P(A_{1})+P(B_{j}\vert A_{2})P(A_{2})+P(B_{j}\vert A_{3})P(A_{3})\\
 	&=\sum_{i=1}^{3}P(B_{j}\vert A_{1})P(A_{i})\\
 	\sum_{j=1}^{4}P(B_{j})&=\sum_{j=1}^{4}\sum_{i=1}^{3}P(B_{j}\vert A_{i})P(A_{i})=1\\
-	\end{split}
+	\end{split}$$
 
 
 	$$\begin{split}

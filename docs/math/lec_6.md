@@ -8,6 +8,71 @@ nav_order: 6
 
 # 조건부 확률과 사전-사후 확률
 
+## 사전확률과 사후확률
+
+
+- 핵심만 쏙쏙!
+
+    {: .note}
+	> - 상대방의 주어진 전략이 한정된 정보에 의한 것이라면 최적대응이라 할 수 없다. 
+	>
+	> - 추가적인 정보를 이용하여 상대방의 주어진 전략을 갱신(update)하여 합리적인 의사결정에 활용할 수 있다.
+
+### 베이즈 정리(Bayesian rule)
+
+- 사전 확률(prior probability) $$P(A)$$
+
+	- 사건 B가 발생하기 전에 가지고 있던 사건 A의 확률
+
+- 사후 확률(posterior probability) $$P(A\vert B)$$
+
+	- 사건 B가 발생한 후 갱신된 사건 A의 확률
+
+	$$P(A\vert B)=\frac{P(A\cap B)}{P(B)}$$
+	
+- 위의 식을 이용하면
+
+	$$\begin{split}
+	P(A\vert B)=\frac{P(A\cap B)}{P(B)}&~~\text{$$\rightarrow$$}~~P(A\cap B)=P(A\vert B)P(B)\\
+	P(B\vert A)=\frac{P(B\cap A)}{P(A)}&~~\text{$$\rightarrow$$}~~P(B\cap A)=P(B\vert A)P(A)\\
+	P(A\vert B)=\frac{P(A\cap B)}{P(B)}&~~\text{$$\rightarrow$$}~~P(A\vert B)=\frac{P(B\vert A)P(A)}{P(B)}\\
+	\end{split}$$
+
+    - 사후확률 $$P(A\vert B)$$은 사전확률 $$P(A)$$에 $$\dfrac{P(B\vert A)}{P(B)}$$을 곱하여 얻을 수 있다.
+	
+	- $$P(B\vert A)$$를 가능도(likelihood)라 하고,
+	
+	- $$P(B)$$를 정규화 상수(normalizing constant) 또는 증거(evidence)라 한다.
+
+- 사건 B가 진실이라는 것을 알게 됨으로써 사건 A가 어떻게 변화하는지를 표현한 정리
+
+- 새로운 정보(E)가 기존의 추론(H)에 어떻게 영향을 미치는지를 파악 가능
+
+	$$P(H\vert E)=\frac{P(E\vert H)}{P(E)}P(H)$$
+
+        {: .definition}
+		> - 확률의 승법 정리(Multiplication Theorem of Probability) (결합확률 또는 동시확률)
+		>
+		>	- 두 사건 A, B 모두 만족하는$$A\cap B$$가 일어날 (즉, 동시에 또는 함께 일어날) 확률은,
+		>	- (1)상호종속적일 때, (즉, 서로간에 상관성 있을 때) 한쪽 확률에 조건부확률을 곱한 것
+		>	$$P(A\cap B) = P(A\vert B) P(B)=P(B\vert A) P(A)$$
+		>	- (2)상호독립적일 때, (즉, 서로간에 상관성 없을 때) 한쪽 확률에 다른쪽 확률을 곱한 것
+		>	$$\begin{split}
+			P(A\vert B) &= P(A)~~~~~~P(B\vert A) = P(B)\\
+			P(A\cap B) &= P(B\vert A)P(A)= P(A\vert B)P(B)=P(A)P(B)\\
+			\end{split}$$
+		> 	- 따라서, 한쪽 확률에 조건부확률 또는 다른쪽 확률을 곱한 것과 같다.
+
+
+
+
+
+		
+
+
+
+
+
 
 ## 사전확률과 사후확률의 응용
 

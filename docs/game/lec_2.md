@@ -128,7 +128,7 @@ nav_order: 2
 |  | 부인 | -10,   0 |  -1,   -1 |
 
 
-<table align="center">
+<table >
   <tr>
     <td style="border-top: none; border-bottom: none; border-left: none; border-right: none;"></td>
     <td style="border-top: none; border-bottom: none; border-left: none;"></td>
@@ -137,8 +137,8 @@ nav_order: 2
   <tr>
     <td style="border-top: none; border-left: none; border-right: none;"></td>
     <td style="border-top: none; border-left: none;"></td>
-    <td>자백</td>
-    <td>부인</td>
+    <td align="center">자백</td>
+    <td align="center">부인</td>
   </tr>
   <tr>
     <td rowspan="2">용의자 1</td>

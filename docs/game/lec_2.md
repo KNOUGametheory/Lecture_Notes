@@ -136,7 +136,7 @@ nav_order: 2
   </tr>
   <tr>
     <td align="center" style="border-top: none; border-left: none; border-right: none;"></td>
-    <td align="center" style="border-top: none; border-left: none;"></td>
+    <td align="center"></td>
     <td align="center">자백</td>
     <td align="center">부인</td>
   </tr>

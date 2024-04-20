@@ -78,7 +78,7 @@ nav_order: 6
 
 - 사건 $$A_{i}$$는 완전
 
-		$$A_{1}\cup A_{2}\cup\cdots A_{n}=\Omega$$
+	$$A_{1}\cup A_{2}\cup\cdots A_{n}=\Omega$$
 
     {: .definition}
 
@@ -109,7 +109,7 @@ nav_order: 6
 - 전확률(total probability) 공식 $$A\ne A^{c}$$
 
 	$$P(B)=P(B\mid A)P(A)+P(B\mid A^{c})P(A^{c})$$
-		
+	
 - 전확률 공식을 이용한 베이즈 정리의 확장 $$A$$, $$A^{c}$$
 
 	$$\begin{split}

@@ -128,7 +128,7 @@ nav_order: 2
 |  | 부인 | -10,   0 |  -1,   -1 |
 
 
-<table >
+<table border="1">
   <tr>
     <td align="center"></td>
     <td align="center"></td>
@@ -147,7 +147,7 @@ nav_order: 2
     <td align="center">0, -10</td>
   </tr>
   <tr>
-    <td sytle=border-left: solid; align="center">부인</td>
+    <td align="center">부인</td>
     <td align="center">-10,   0</td>
     <td align="center">-1,   -1</td>
   </tr>

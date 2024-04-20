@@ -55,11 +55,11 @@ nav_order: 6
 	> - 확률의 승법 정리(Multiplication Theorem of Probability) (결합확률 또는 동시확률)
 	>
 	>	- 두 사건 A, B 모두 만족하는$$A\cap B$$가 일어날 (즉, 동시에 또는 함께 일어날) 확률은,
-	>	- (1)상호종속적일 때, (즉, 서로간에 상관성 있을 때) 한쪽 확률에 조건부확률을 곱한 것
+	>	- (1) 상호종속일 때, (즉, 서로간에 상관성 있을 때) 한쪽 확률에 조건부확률을 곱한 것
 	>
 	>	$$P(A\cap B) = P(A\vert B) P(B)=P(B\vert A) P(A)$$
 	>
-	>	- (2)상호독립적일 때, (즉, 서로간에 상관성 없을 때) 한쪽 확률에 다른쪽 확률을 곱한 것
+	>	- (2) 상호독립일 때, (즉, 서로간에 상관성 없을 때) 한쪽 확률에 다른쪽 확률을 곱한 것
 	>
 	>	$$P(A\vert B) = P(A)$$
 	>
@@ -70,10 +70,60 @@ nav_order: 6
 	> 	- 따라서, 한쪽 확률에 조건부확률 또는 다른쪽 확률을 곱한 것과 같다.
 
 
+### 분할 이용 $$i=1,~2,\cdots,~n$$
+
+- 사건 $$A_{i}$$와 사건 사건 $$A_{j}$$는 서로 배타적
+
+	$$A_{i}\cap A_{j}=\emptyset~~~~~i\ne j$$
+
+- 사건 $$A_{i}$$는 완전
+
+		$$A_{1}\cup A_{2}\cup\cdots A_{n}=\Omega$$
+
+    {: .definition}
+
+	> - 전확률 공식(Law of Total Probability)
+	>
+	>	- $$A_{1},\,\cdots\,A_{n}$$이 표본공간 $$S$$의 한 분할(partition)일 때, 임의의 사건 $$B$$에 대하여 다음이 성립한다.
+	>
+	>	$$P(B)=P(B\mid A_{1})P(A_{1})+\cdots+P(B\mid A_{n})P(A_{n})$$
 
 
 
+	$$\begin{split}
+	P(A_{k}\mid B)&=\dfrac{P(A_{k}\cap B)}{P(B)}\\
+	&=\dfrac{P(B\mid A_{k})P(A_{k})}{P(B)}\hspace{2.8cm}\because \text{승법공식}\\
+	&=\dfrac{P(B\mid A_{k})P(A_{k})}{\sum_{i=1}^{n}P(B\mid 	A_{i})P(A_{i})}\hspace{2cm}\because \text{전확률공식}
+	\end{split}$$
+
+- 전확률 공식을 이용한 베이즈 정리의 확장 $$A_{1}$$, $$A_{2}$$, $$A_{3}$$
+
+- B라는 힌트에 따라 $$A_{1}$$, $$A_{2}$$, $$A_{3}$$ 중 B에 대한 조건부 확률
+
+	$$\begin{split}
+	P(A_{1}\vert B)&=\frac{P(B\mid A_{1})P(A_{1})}{P(B\mid A_{1})P(A_{1})+P(B\mid A_{2})P(A_{2})+P(B\mid A_{3})P(A_{3})}\\
+	P(A_{2}\vert B)&=\frac{P(B\mid A_{2})P(A_{2})}{P(B\mid A_{1})P(A_{1})+P(B\mid A_{2})P(A_{2})+P(B\mid A_{3})P(A_{3})}\\
+	P(A_{3}\vert B)&=\frac{P(B\mid A_{3})P(A_{3})}{P(B\mid A_{1})P(A_{1})+P(B\mid A_{2})P(A_{2})+P(B\mid A_{3})P(A_{3})}\\
+	\end{split}$$
+
+- 전확률(total probability) 공식 $$A\ne A^{c}$$
+
+	$$P(B)=P(B\mid A)P(A)+P(B\mid A^{c})P(A^{c})$$
 		
+- 전확률 공식을 이용한 베이즈 정리의 확장 $$A$$, $$A^{c}$$
+
+	$$\begin{split}
+	P(A\vert B)&=\frac{P(B\mid A)P(A)}{P(B\mid A)P(A)+P(B\mid A^{c})P(A^{c})}\\
+	&=\frac{P(B\mid A)P(A)}{P(B\mid A)P(A)+P(B\mid A^{c})(1-P(A))}\\
+	P(A^{c}\vert B)&=\frac{P(B\mid A^{c})P(A^{c})}{P(B\mid A)P(A)+P(B\mid A^{c})P(A^{c})}\\
+	&=\frac{P(B\mid A^{c})(1-P(A))}{P(B\mid A)P(A)+P(B\mid A^{c})(1-P(A))}\\
+	\end{split}$$
+
+
+
+
+
+
 
 
 

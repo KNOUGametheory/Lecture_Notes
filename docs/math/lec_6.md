@@ -50,18 +50,19 @@ nav_order: 6
 
 	$$P(H\vert E)=\frac{P(E\vert H)}{P(E)}P(H)$$
 
-        {: .definition}
-		> - 확률의 승법 정리(Multiplication Theorem of Probability) (결합확률 또는 동시확률)
-		>
-		>	- 두 사건 A, B 모두 만족하는$$A\cap B$$가 일어날 (즉, 동시에 또는 함께 일어날) 확률은,
-		>	- (1)상호종속적일 때, (즉, 서로간에 상관성 있을 때) 한쪽 확률에 조건부확률을 곱한 것
-		>	$$P(A\cap B) = P(A\vert B) P(B)=P(B\vert A) P(A)$$
-		>	- (2)상호독립적일 때, (즉, 서로간에 상관성 없을 때) 한쪽 확률에 다른쪽 확률을 곱한 것
-		>	$$\begin{split}
-			P(A\vert B) &= P(A)~~~~~~P(B\vert A) = P(B)\\
-			P(A\cap B) &= P(B\vert A)P(A)= P(A\vert B)P(B)=P(A)P(B)\\
-			\end{split}$$
-		> 	- 따라서, 한쪽 확률에 조건부확률 또는 다른쪽 확률을 곱한 것과 같다.
+    {: .definition}
+
+	> - 확률의 승법 정리(Multiplication Theorem of Probability) (결합확률 또는 동시확률)
+	>
+	>	- 두 사건 A, B 모두 만족하는$$A\cap B$$가 일어날 (즉, 동시에 또는 함께 일어날) 확률은,
+	>	- (1)상호종속적일 때, (즉, 서로간에 상관성 있을 때) 한쪽 확률에 조건부확률을 곱한 것
+	>	$$P(A\cap B) = P(A\vert B) P(B)=P(B\vert A) P(A)$$
+	>	- (2)상호독립적일 때, (즉, 서로간에 상관성 없을 때) 한쪽 확률에 다른쪽 확률을 곱한 것
+	>	$$\begin{split}
+		P(A\vert B) &= P(A)~~~~~~P(B\vert A) = P(B)\\
+		P(A\cap B) &= P(B\vert A)P(A)= P(A\vert B)P(B)=P(A)P(B)\\
+		\end{split}$$
+	> 	- 따라서, 한쪽 확률에 조건부확률 또는 다른쪽 확률을 곱한 것과 같다.
 
 
 

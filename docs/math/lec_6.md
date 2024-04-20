@@ -258,27 +258,28 @@ P(B\vert A)&=\frac{P(A\vert B)P(B)}{P(A)}\\
 ### 응용해 봅시다.
 
 
-- 수사 단계에서 담당 수사관이 용의자가 범인임을 70% 확신하고 있다. 범인이 특징을 가지고 있음을 보여주는 새로운 증거가 발견되었으며, 인구의 15%가 이 특징}을 가지고 있다. 용의자가 이 특징을 가지고 있다고 판명되었다면 담당수사관은 용의자가 범인임을 어느 정도로 확신하는가?
+- 수사 단계에서 담당 수사관이 용의자가 범인임을 70% 확신하고 있다. 범인이 특징을 가지고 있음을 보여주는 새로운 증거가 발견되었으며, 인구의 15%가 이 특징을 가지고 있다. 용의자가 이 특징을 가지고 있다고 판명되었다면 담당수사관은 용의자가 범인임을 어느 정도로 확신하는가?
 
  ![예시표](/images/Lec_6_1_8.png)
 
    - (풀이)
 
-	$$\begin{split}
-	P(B\vert A)&=\frac{P(A\cap B)}{P(A)}\\
-	&=\frac{P(A\vert B)P(B)}{P(A\vert B)P(B)+P(A\vert B^{c})P(B^{c})}\\
-	&=\frac{1\times 0.7}{1\times 0.7+0.15\times 0.3}\\
-	&=\frac{140}{149}\\
-	&\approx 0.939597=94\%
-	\end{split}$$
+$$\begin{split}
+P(B\vert A)&=\frac{P(A\cap B)}{P(A)}\\
+&=\frac{P(A\vert B)P(B)}{P(A\vert B)P(B)+P(A\vert B^{c})P(B^{c})}\\
+&=\frac{1\times 0.7}{1\times 0.7+0.15\times 0.3}\\
+&=\frac{140}{149}\\
+&\approx 0.939597=94\%
+\end{split}$$
+
+
+   - 승산을 이용하면 $$\frac{140}{9}:1$$이므로 $$\frac{140}{149}$$임을 알 수 있다.
 	
-	- 승산을 이용하면 $$\frac{140}{9}:1$$이므로 $$\frac{140}{149}$$임을 알 수 있다.
-	
-	$$\begin{split}
-	\frac{P(B\vert A)}{P(B^{c}\vert A)}&=\frac{P(B)}{P(B^{c})}\frac{P(A\vert B)}{P(A\vert B^{c})}\\
-	=&\frac{0.7}{0.3}\frac{1}{0.15}\\
-	&=\frac{140}{9}
-	\end{split}$$
+$$\begin{split}
+\frac{P(B\vert A)}{P(B^{c}\vert A)}&=\frac{P(B)}{P(B^{c})}\frac{P(A\vert B)}{P(A\vert B^{c})}\\
+=&\frac{0.7}{0.3}\frac{1}{0.15}\\
+&=\frac{140}{9}
+\end{split}$$
 
 
 

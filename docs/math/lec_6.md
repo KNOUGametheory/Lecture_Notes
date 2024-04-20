@@ -59,7 +59,7 @@ $$P(H_{i}\vert E)=\frac{P(E\vert H_{i})P(H_{i})}{\sum_{j=1}^{n}P(E\vert H_{j})P(
 
 $$P(H_{i}\vert E_{1})=\frac{P(E_{1}\vert H_{i})P(H_{i})}{\sum_{j=1}^{n}P(E_{1}\vert H_{j})P(H_{j})}$$	
 
-- $$E_{1}$$ 발생 후 $$E_{2}$$ 발생 $\rightarrow$ $$E_{1}E_{2}=E_{1}\cap E_{2}$$
+- $$E_{1}$$ 발생 후 $$E_{2}$$ 발생 $$\rightarrow$$ $$E_{1}E_{2}=E_{1}\cap E_{2}$$
 
 	- 추가로 사건 $$E_{2}$$가 발생했다는 정보를 접하면 $$H_{i}$$가 참인 가설일 조건부확률
 

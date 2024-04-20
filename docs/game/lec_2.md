@@ -133,7 +133,6 @@ nav_order: 2
     <td></td>
     <td></td>
     <td colspan="2">용의자 2</td>
-    <td></td>
   </tr>
   <tr>
     <td></td>
@@ -148,7 +147,6 @@ nav_order: 2
     <td>0, -10</td>
   </tr>
   <tr>
-    <td></td>
     <td>부인</td>
     <td>-10,   0</td>
     <td>-1,   -1</td>

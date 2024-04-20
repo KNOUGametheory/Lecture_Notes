@@ -127,6 +127,30 @@ nav_order: 2
 | 용의자 1 | 자백 |   -3, -3 |    0, -10 |
 |  | 부인 | -10,   0 |  -1,   -1 |
 
+<table>
+  <tr>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center" colspan="2">용의자 2</td>
+  </tr>
+  <tr>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center">자백</td>
+    <td align="center">부인</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="2">용의자 1</td>
+    <td align="center">자백</td>
+    <td align="center">-3, -3</td>
+    <td align="center">0, -10</td>
+  </tr>
+  <tr>
+    <td align="center">부인</td>
+    <td align="center">-10,   0</td>
+    <td align="center">-1,   -1</td>
+  </tr>
+</table>
 
 ### 3.  죄수의 딜레마에서 우월전략과 열등전략
 

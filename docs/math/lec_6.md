@@ -202,6 +202,132 @@ P(B\vert A)&=\frac{P(A\vert B)P(B)}{P(A)}\\
 &=\frac{0.3\times 0.2}{0.14}\\
 \end{split}$$
 
+
+### 오즈(odds) 또는 승산
+
+- 새로운 증거가 나타날 때 어떤 가설에 대한 확률의 변화는 이 가설의 오즈 또는 승산에서의 변화로 간편하게 표현
+
+    {: .definition}
+
+	> - 사건 $$A$$의 오즈는 다음과 같이 정의한다.
+	>
+	>	$$\frac{P(A)}{P(A^{c})}=\frac{P(A)}{1-P(A)}$$
+	>
+	> - 즉 사건 $$A$$의 오즈는 사건 $$A$$가 발생할 가능성이 사건 $$A$$가 발생하지 않을 가능성보다 얼마나 큰지를 알려준다. 오즈가 $$\alpha$$이면 그 가설을 지지하는 데 승산이 $$\alpha$$ 대 1이라고 한다.
+
+- 참일 확률이 $$P(H)$$인 새로운 가설 $$H$$를 고려하고 새로운 증거 $$E$$가 도입되었다.
+
+- 새로운 증거 $$E$$가 주어졌을 때 $$H$$가 참일 조건부 확률과 $$H$$가 참이 아닐 조건부 확률은 다음과 같다.
+
+	$$\begin{split}
+	P(E\cap H)&=P(E\vert H)P(H)\\
+	P(H\vert E)&=\frac{P(E\cap H)}{P(E)}\\
+	&=\frac{P(E\vert H)P(H)}{P(E)}\\
+	\end{split}$$
+
+	$$\begin{split}
+	P(E\cap H^{c})&=P(E\vert H^{c})P(H^{c})\\
+	P(H^{c}\vert E)&=\frac{P(E\cap H^{c})}{P(E)}\\
+	&=\frac{P(E\vert H^{c})P(H^{c})}{P(E)}\\
+	\end{split}$$
+	
+- 증거 $$E$$가 도입된 후 새로운 오즈는 다음과 같다.
+
+	$$\frac{P(H\vert E)}{P(H^{c}\vert E)}=\frac{P(H)}{P(H^{c})} \frac{P(E\vert H)}{P(E\vert H^{c})}$$
+
+### 독립사건
+
+- 조건부확률 $$P(A\vert B)$$과 비조건부확률 $$P(A)$$
+
+- 사건 B가 발생했다는 전제 하에 사건 A가 발생할 조건부 확률 $$P(A|B)$$와 사건 A가 발생할 확률 $$P(A)$$는 일반적으로 같지 않음
+
+	$$P(A\vert B)\neq P(A)$$
+
+- 특별한 경우 $$P(A\vert B)= P(A)$$
+
+- $$B$$가 발생했다는 사실이 $$A$$가 발생할 확률을 변화시키지 않으면 $$A$$와 $$B$$는 독립이다.
+
+	$$P(A\vert B)= \frac{P(B\cap A)}{P(B)}~~\text{$$\rightarrow$$}~~P(B\cap A)=P(B)P(A)$$
+
+    {: .definition}
+
+	> P(A\cap B)=P(A)P(B)$$이 성립되면 두 사건 $$A$$와 $$B$$는 독립(independent}이라고 한다. 독립이 아닌 두 사건 $$A$$와 $$B$$는 종속(dependent)이라고 한다.
+
+### 응용해 봅시다.
+
+- 수사 단계에서 담당 수사관이 용의자가 범인임을 70% 확신하고 있다. 범인이 특징을 가지고 있음을 보여주는 새로운 증거가 발견되었으며, 인구의 15%가 이 특징}을 가지고 있다. 용의자가 이 특징을 가지고 있다고 판명되었다면 담당수사관은 용의자가 범인임을 어느 정도로 확신하는가?
+
+ ![예시표](/images/Lec_6_1_8.png)
+
+   - (풀이)
+
+	$$\begin{split}
+	P(B\vert A)&=\frac{P(A\cap B)}{P(A)}\\
+	&=\frac{P(A\vert B)P(B)}{P(A\vert B)P(B)+P(A\vert B^{c})P(B^{c})}\\
+	&=\frac{1\times 0.7}{1\times 0.7+0.15\times 0.3}\\
+	&=\frac{140}{149}\\
+	&\approx 0.939597=94\%
+	\end{split}$$
+	
+	- 승산을 이용하면 $$\frac{140}{9}:1$$이므로 $$\frac{140}{149}$$임을 알 수 있다.
+	
+	$$\begin{split}
+	\frac{P(B\vert A)}{P(B^{c}\vert A)}&=\frac{P(B)}{P(B^{c})}\frac{P(A\vert B)}{P(A\vert B^{c})}\\
+	=&\frac{0.7}{0.3}\frac{1}{0.15}\\
+	&=\frac{140}{9}
+	\end{split}$$
+
+- 주머니에 A 형태의 동전 3개와 B형태의 동전 2개가 들어 있다. A 형태의 동전은 동전 던지기에서 앞면 확률은 1/3이고, B 형태의 동전은 동전 던지기에서 앞면 확률은 2/3이다. 주머니에서 동전 하나를 무작위로 선택하여 던졌을 때 앞면이 나왔다면 A 형태의 동전일 확률은?	
+
+ ![예시표](/images/Lec_6_1_10.png)
+
+   - (풀이)
+   
+	$$\begin{split}
+P(A\vert H)&=\frac{P(H\cap A)}{P(H)}\\
+	&=\frac{P(H\vert A)P(A)}{P(H\vert A)P(A)+P(H\vert B)P(B)}\\
+	&=\frac{\frac{1}{3}\times \frac{3}{5}}{\frac{1}{3}\times \frac{3}{5}+\frac{2}{3}\times \frac{2}{5}}\\
+&=\frac{3}{7}
+	\end{split}$$	
+
+   - 승산을 이용하면 $$\frac{3}{4}:1$$이므로  $$\frac{3}{7}$$임을 알 수 있다.
+
+	$$\begin{split}
+	\frac{P(A\vert H)}{P(B\vert H)}&=\frac{P(A)}{P(B)}\frac{P(H\vert A)}{P(H\vert B)}\\
+	=&\frac{\frac{3}{5}}{\frac{2}{5}}\frac{\frac{1}{3}}{\frac{2}{3}}\\
+	&=\frac{3}{4}
+	\end{split}
+
+- 카드 게임에서 52장의 카드를 A, B, C, D에게 각각 13장씩 돌렸다. B와 C에게 클로버 카드가 7장이면 A가 나머지 6장의 클로버 카드 중 4장을 가질 확률을 구하라.
+
+	- A가 26장의 카드 중 13장을 받는 경우의 수 $${}_{26}C_{13}$$
+
+	- 6장의 카드 중 4장을 받는 경우의 수 $${}_{6}C_{4}$$
+
+	- 나머지 카드를 받는 경우의 수 $${}_{20}C_{9}$$
+
+	$$\frac{{}_{6}C_{4}{}_{6}C_{4}}{{}_{26}C_{13}}=\frac{15\times 167,960}{10,400,600}=\frac{39}{161}$$
+
+- 52장으로 구성된 카드묶음에서 무작위로 1장을 선택할 때 클로버인 사건을 $$A$$, 3인 사건을 $$B$$라고 하자. $$A$$와 $$B$$는 독립인가? 종속인가? 
+
+	- $$P(A)=\dfrac{13}{52}$$
+
+	- $$P(B)=\dfrac{4}{52}$$
+
+	- $$P(A\cap B)=\dfrac{1}{52}$$
+
+	- $$P(A\cap B)=\dfrac{1}{52}$$과 $$P(A)P(B)=\dfrac{13}{52}\dfrac{4}{52}=\dfrac{1}{52}$$는 일치하므로 독립
+
+- 다음의 보수행렬을 보고 물음에 답하시오.
+
+ ![예시표](/images/Lec_5_1_5.png)
+
+   - Player 2가 $$Center$$를 선택한다면 Player 1의 최적대응은 무엇인가? $$Up$$
+
+	- Player 1이 $$Down$$을 선택한다면 Player 2의 최적대응은 무엇인가? $$Center$$
+
+
+
 ## 사전확률과 사후확률
 
 

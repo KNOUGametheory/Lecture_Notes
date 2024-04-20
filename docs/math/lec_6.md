@@ -83,7 +83,7 @@ $$\begin{split}
    - 모든 $$i$$에 대해서 위의 식이 타당하기에
 
 $$\begin{split}
-		1=\sum_{i=1}^{n}P(H_{i}\vert E_{1}E_{2})&=\sum_{i=1}^{n}\frac{P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})}{Q(1,~2)}\~~~~~~~~
+		1=\sum_{i=1}^{n}P(H_{i}\vert E_{1}E_{2})&=\sum_{i=1}^{n}\frac{P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})}{Q(1,~2)}~~~~~~~~
 		\therefore Q(1,~2)=\sum_{i=1}^{n}P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})\\
 		\end{split}$$
 		

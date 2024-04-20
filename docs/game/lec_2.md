@@ -7,15 +7,18 @@ nav_order: 2
 
 # 죄수의 딜레마
 
+1. 우월전략과 열등전략
 
+2. 단계적 소거
 
-# 게임이론
+3. 순수전략 내쉬균형
 
-# 게임이론으로 이해하는 사회 현상
+## 우월전략과 열등전략
 
-정세윤\(한국방송통신대학교 첨단공학부 산업공학전공\)
+★ 핵심만 쏙쏙!
 
-<span style="color:#2C2C2C"> __유리하면 __ </span>  <span style="color:#2C2C2C"> __‘__ </span>  <span style="color:#2C2C2C"> __우월__ </span>  <span style="color:#2C2C2C"> __’\,__ </span>  <span style="color:#2C2C2C"> __불리하면 __ </span>  <span style="color:#2C2C2C"> __‘__ </span>  <span style="color:#2C2C2C"> __열등__ </span>  <span style="color:#2C2C2C"> __’__ </span>
+**유리하면 '우월', 불리하면 '열등'**
+
 
 학습목표
 

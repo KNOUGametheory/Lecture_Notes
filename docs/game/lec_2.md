@@ -130,13 +130,13 @@ nav_order: 2
 
 <table>
   <tr>
-    <td></td>
-    <td></td>
+    <td style="border-left: none; border-bottom: none; border-left: none; border-right: none;"></td>
+    <td style="border-left: none; border-bottom: none; border-left: none;"></td>
     <td colspan="2">용의자 2</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td style="border-left: none; border-left: none; border-right: none;"></td>
+    <td style="border-left: none; border-left: none;"></td>
     <td>자백</td>
     <td>부인</td>
   </tr>

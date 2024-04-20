@@ -128,7 +128,7 @@ nav_order: 2
 |  | 부인 | -10,   0 |  -1,   -1 |
 
 
-<table syle=""text-align:center">
+<table syle="text-align:center">
   <tr>
     <td style="border-top: none; border-bottom: none; border-left: none; border-right: none;"></td>
     <td style="border-top: none; border-bottom: none; border-left: none;"></td>

@@ -284,6 +284,7 @@ P(B\vert A)&=\frac{P(A\vert B)P(B)}{P(A)}\\
 - 주머니에 A 형태의 동전 3개와 B형태의 동전 2개가 들어 있다. A 형태의 동전은 동전 던지기에서 앞면 확률은 1/3이고, B 형태의 동전은 동전 던지기에서 앞면 확률은 2/3이다. 주머니에서 동전 하나를 무작위로 선택하여 던졌을 때 앞면이 나왔다면 A 형태의 동전일 확률은?
 
 	- (풀이)
+	
 	$$\begin{split}
 	P(A\vert H)&=\frac{P(H\cap A)}{P(H)}\\
 	&=\frac{P(H\vert A)P(A)}{P(H\vert A)P(A)+P(H\vert B)P(B)}\\

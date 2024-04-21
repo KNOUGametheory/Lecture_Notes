@@ -108,10 +108,7 @@ $$\frac{\partial\pi_{1}}{\partial q_{1}} = - q_{1} + \left\lbrack a - c - q_{1} 
 
 $$= a - c - 2q_{1} - q_{2}$$\
 
-$$\left. \frac{\partial\pi_{1}}{\partial q_{1}} \right\vert_{q_1 = q_1^*} = 0 \rightarrow$$
-
-
- $q_{1}^{*} = \frac{a - c - q_{2}}{2}$
+$$\left. \frac{\partial\pi_{1}}{\partial q_{1}} \right\vert_{q_1 = q_1^*} = 0 \rightarrow q_1^* = \frac{a - c - q_2}{2}$
 
 -   $$\pi_{1}$$의 이계조건(Second-Order Condition)
 

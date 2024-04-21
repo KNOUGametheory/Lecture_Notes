@@ -576,7 +576,7 @@ $$P(H_{i}\vert E_{1}E_{2})=\frac{P(E_{1}E_{2}\vert H_{i})P(H_{i})}{\sum_{j=1}^{n
 
 	- 추가로 사건 $$E_{2}$$가 발생했다는 정보를 접하면 $$H_{i}$$가 참인 가설일 조건부확률
 
-$$\begin{split}
+           $$\begin{split}
 		P(E_{1}E_{2}\vert H_{j})&=P(E_{2}\vert H_{j})P(E_{1}\vert H_{j})~~~~~for~j=1,~2,\cdots,~n\\
 		P(H_{i}\vert E_{1}E_{2})&=\frac{P(E_{1}E_{2}\vert H_{i})P(H_{i})}{P(E_{1}E_{2})}
 		=\frac{P(E_{2}\vert H_{i})P(E_{1}\vert H_{i})P(H_{i})}{P(E_{1}E_{2})}\\
@@ -589,15 +589,15 @@ $$\begin{split}
 
    - 모든 $$i$$에 대해서 위의 식이 타당하기에
 
-	$$\begin{split}
-	1=\sum_{i=1}^{n}P(H_{i}\vert E_{1}E_{2})&=\sum_{i=1}^{n}\frac{P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})}{Q(1,~2)}~~~~~~~~
-	\therefore Q(1,~2)=\sum_{i=1}^{n}P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})\\
-	\end{split}$$
+	   $$\begin{split}
+	   1=\sum_{i=1}^{n}P(H_{i}\vert E_{1}E_{2})&=\sum_{i=1}^{n}\frac{P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})}{Q(1,~2)}~~~~~~~~
+	   \therefore Q(1,~2)=\sum_{i=1}^{n}P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})\\
+	   \end{split}$$
 
    - 따라서, 다음과 같은 결론을 얻는다.
 
-$$
-P(H_{i}\vert E_{1}E_{2})=\frac{P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})}{\sum_{i=1}^{n}P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})}$$
+      $$
+      P(H_{i}\vert E_{1}E_{2})=\frac{P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})}{\sum_{i=1}^{n}P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})}$$
 
 
 ### 혼합전략에 적용

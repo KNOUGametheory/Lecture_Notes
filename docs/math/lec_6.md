@@ -575,17 +575,15 @@ $$P(H_{i}\vert E_{1}E_{2})=\frac{P(E_{1}E_{2}\vert H_{i})P(H_{i})}{\sum_{j=1}^{n
 - $$E_{1}$$과 $$E_{2}$$가 조건부 독립이라면
 
 	- 추가로 사건 $$E_{2}$$가 발생했다는 정보를 접하면 $$H_{i}$$가 참인 가설일 조건부확률
-
-           $$\begin{split}
-		P(E_{1}E_{2}\vert H_{j})&=P(E_{2}\vert H_{j})P(E_{1}\vert H_{j})~~~~~for~j=1,~2,\cdots,~n\\
-		P(H_{i}\vert E_{1}E_{2})&=\frac{P(E_{1}E_{2}\vert H_{i})P(H_{i})}{P(E_{1}E_{2})}
-		=\frac{P(E_{2}\vert H_{i})P(E_{1}\vert H_{i})P(H_{i})}{P(E_{1}E_{2})}\\
-		&=\frac{P(E_{2}\vert H_{i})P(E_{1}\cap H_{i})}{P(E_{1}E_{2})}
-		=\frac{P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})P(E_{1})}{P(E_{1}E_{2})}\\
-		&=\frac{P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})P(E_{1})}{P(E_{1}E_{2})}\\
-		&=\frac{P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})}{Q(1,~2)}~~~~~~~~~~~\because
-		Q(1,~2)=\frac{P(E_{1}E_{2})}{P(E_{1})}\\
-		\end{split}$$
+	
+	   $$\begin{split}
+	   P(E_{1}E_{2}\vert H_{j})&=P(E_{2}\vert H_{j})P(E_{1}\vert H_{j})~~~~~for~j=1,~2,\cdots,~n\\
+	   P(H_{i}\vert E_{1}E_{2})&=\frac{P(E_{1}E_{2}\vert H_{i})P(H_{i})}{P(E_{1}E_{2})}=\frac{P(E_{2}\vert H_{i})P(E_{1}\vert H_{i})P(H_{i})}{P(E_{1}E_{2})}\\
+	   &=\frac{P(E_{2}\vert H_{i})P(E_{1}\cap H_{i})}{P(E_{1}E_{2})}=\frac{P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})P(E_{1})}{P(E_{1}E_{2})}\\
+	   &=\frac{P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})P(E_{1})}{P(E_{1}E_{2})}\\
+	   &=\frac{P(E_{2}\vert H_{i})P(H_{i}\vert E_{1})}{Q(1,~2)}~~~~~~~~~~~\because
+	   Q(1,~2)=\frac{P(E_{1}E_{2})}{P(E_{1})}\\
+	   \end{split}$$
 
    - 모든 $$i$$에 대해서 위의 식이 타당하기에
 

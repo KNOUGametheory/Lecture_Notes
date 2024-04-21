@@ -38,7 +38,7 @@ nav_order: 2
 
 ### 게임으로서 '죄수의 딜레마'
 
-* 죄수의 딜레마  Prisoner’s Dilemma
+* 죄수의 딜레마(Prisoner’s Dilemma)
 
   * “사회적으로 더 합리적인” 결과가 존재함에도 불구하고 실제로는 “덜 합리적인” 결과에 이르게 되는 상황
 
@@ -100,7 +100,7 @@ nav_order: 2
  
 ### 정규형 게임으로서 죄수의 딜레마
 
-* 보수표  Payoff Table
+* 보수표(Payoff Table)
 
   * 경기자 1(용의자 1)의 전략을 행(row) 방향, 
 
@@ -132,7 +132,7 @@ nav_order: 2
 
 	$$u_{1}(s_{1}^{*},s_{2}) \geq u_{1}(s_{1},s_{2})$$를 만족하는 경기자 1의 전략 $$s_{1}^{*}$$
 
-* 열등전략  Dominated Strategy
+* 열등전략(Dominated Strategy)
 
   * 상대방이 어떠한 전략을 선택하는 지에 관계없이 자신의 전략 중에서 더 높은 보수를 제공하는 대안이 있는 전략
 
@@ -421,7 +421,7 @@ nav_order: 2
 
 ## 3.  순수전략 내쉬균형
 
-### 학습목표  Learning Objectives
+### 학습목표
 
 * 다음 질문에 대해 답을 할 수 있다.
 
@@ -462,7 +462,7 @@ nav_order: 2
 
 	$$\rightarrow$$ 합리적 경기자의 전략 선택 및 결과 예측에 한계
 
-* 순수전략 내쉬균형  Pure-Strategy Nash Equilibrium
+* 순수전략 내쉬균형(Pure-Strategy Nash Equilibrium)
 
   * 어떤 경기자도 현재 전략 조합에서 자신의 전략만 다른 전략으로 바꿀 유인이 없는 “안정적인” 전략의 조합
 
@@ -498,18 +498,47 @@ nav_order: 2
 
  * 경기자 1의 입장: 전략을 바꿀 유인 없음
 
-	$$u_{1}$$(자백, <span style="color:#FF0000">자백</span>) $$= −3 \geq u_{1}$$(부인, <span style="color:#FF0000">자백</span>) $$= −10$$
+	$$u_{1}$$(자백,<span style="color:#FF0000">자백</span>) $$= −3 \geq u_{1}$$(부인,<span style="color:#FF0000">자백</span>) $$= −10$$
 
 * 경기자 2의 입장: 전략을 바꿀 유인 없음
 
-	$$u_{2}$$(<span style="color:#FF0000">자백</span>, 자백) $$= −3 \geq u_{2}$$(<span style="color:#FF0000">자백</span>, 부인) $$= −10$$ 
+	$$u_{2}$$(<span style="color:#FF0000">자백</span>,자백) $$= −3 \geq u_{2}$$(<span style="color:#FF0000">자백</span>,부인) $$= −10$$ 
 
   ![표](/images/Lec_2_3_2_1.png)
 
 * 전략 조합 2: (자백, 부인) $$\rightarrow$$ 내쉬균형 아님
 
+  * 경기자 1의 입장: 전략을 바꿀 유인 없음
 
-죄수의 딜레마 게임의 보수표
+	$$u_{1}$$(자백,<span style="color:#105AD2">부인</span>) $$= 0 \geq u_{1}$$(부인,<span style="color:#105AD2">부인</span>) $$= −1$$ 
+
+  * 경기자 2의 입장: 전략을 바꿀 유인 있음(부인 $$\rightarrow$$ 자백)
+
+	$$u_{2}$$(<span style="color:#FF0000">자백</span>,부인) $$= −10 < u_{2}$$(<span style="color:#FF0000">자백</span>,자백) $$= −3$$ 
+
+* 전략 조합 3: (부인, 자백) $$\rightarrow$$ 내쉬균형 아님
+
+  * 경기자 1의 입장: 전략을 바꿀 유인 있음(부인 $$\rightarrow$$ 자백)
+
+	$$u_{1}$$(부인,<span style="color:#FF0000">자백</span>) $$= −10 < u_{1}$$(자백,<span style="color:#FF0000">자백</span>) $$= −1$$ 
+
+  * 경기자 2의 입장: 전략을 바꿀 유인 없음
+
+	$$u_{2}$$(<span style="color:#105AD2">부인</span>,자백) $$= 0 \geq u_{2}$$(<span style="color:#105AD2">부인</span>,부인) $$= −1$$ 
+
+* 전략 조합 4: (부인, 부인) $$\rightarrow$$ 내쉬균형 아님
+
+  * 경기자 1의 입장: 전략을 바꿀 유인 있음(부인 $$\rightarrow$$ 자백)
+
+	$$u_{1}$$(부인,<span style="color:#105AD2">부인</span>) $$= −1 < u_{1}$$(자백,<span style="color:#105AD2">부인</span>) $$= 0$$ 
+
+  * 경기자 2의 입장: 전략을 바꿀 유인 있음(부인 $$\rightarrow$$ 자백)
+
+	$$u_{2}$$(<span style="color:#105AD2">부인</span>,부인) $$= −1 < u_{2}$$(<span style="color:#105AD2">부인</span>,자백) $$= 0$$ 
+
+* 죄수의 딜레마 게임의 보수표
+
+
 
 우월전략의 조합인 \(자백, 자백\)이 내쉬균형
 

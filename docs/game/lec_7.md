@@ -120,8 +120,8 @@ Learning Objectives
     -   $\pi_{2}$을 최대화하는 생산량 $q_{2}$를 결정
 
         -   이계조건(Second-order condition)
-            $\left. \ \frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} \right|_{q_{2} = \widetilde{q_{2}}} \leq 0$*\
-            *$\frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} = \frac{\partial}{\partial q_{2}}\left( \frac{\partial\pi_{2}}{\partial q_{2}} \right) = \frac{\partial}{\partial q_{2}}\left( a - c - q_{1} - 2q_{2} \right) = - 2 \leq 0$
+            $\left. \ \frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} \right\vert_{q_2 = \widetilde{q_2}} \leq 0$
+            $\frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} = \frac{\partial}{\partial q_{2}}\left( \frac{\partial\pi_{2}}{\partial q_{2}} \right) = \frac{\partial}{\partial q_{2}}\left( a - c - q_{1} - 2q_{2} \right) = - 2 \leq 0$
 
 -   모형의 풀이 (계속)
 

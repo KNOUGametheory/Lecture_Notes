@@ -109,9 +109,9 @@ Learning Objectives
     -   $\pi_{2}$을 최대화하는 생산량 $q_{2}$를 결정
 
         -   일계조건(First-order condition)
-            $\left. \ \frac{\partial\pi_{2}}{{\partial q}_{2}} \right|_{q_{2} = \widetilde{q_{2}}} = 0$\
+            $\left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = \widetilde{q_2}} = 0$\
             $$\frac{\partial\pi_{2}}{\partial q_{2}} = - q_{2} + \left\lbrack a - c - q_{1} - q_{2} \right\rbrack = a - c - q_{1} - 2q_{2}
-            \left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right|_{q_{2} = \widetilde{q_{2}}} = 0$$
+            \left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = \widetilde{q_2}} = 0$$
             🡪 $\widetilde{q_{2}} = \frac{a - c - q_{1}}{2}$\
             기업 1의 생산량에 대한 기업 2의 최적 대응
 

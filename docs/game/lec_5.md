@@ -15,8 +15,6 @@ nav_order: 5
 
 ## 1.  혼합전략의 개념
 
-<span style="color:#2C2C2C"> __순수전략에__ </span>  <span style="color:#2C2C2C"> __선택될 확률을__ </span>  <span style="color:#2C2C2C"> __부여하면 혼합전략__ </span>  <span style="color:#2C2C2C"> __\!__ </span>
-
 ### 학습목표
 
 Learning Objectives
@@ -29,7 +27,12 @@ Learning Objectives
   * 순수전략 내쉬균형이 존재하지 않는 게임의 특징은?
   * 혼합전략을 적용하면 보수는 어떻게 결정될까?
 
-순수전략 균형이 존재하지 않는 게임
+* ★ 핵심만 쏙쏙!
+
+    {: .note}
+	> **순수전략에 선택될 확률을 부여하면 혼합전략!**
+
+### 순수전략 균형이 존재하지 않는 게임
 
 * 홀짝 게임Matching Pennies
   * 경기자: 각각 여러 개의 동전을 가진 두 경기자
@@ -104,7 +107,7 @@ Learning Objectives
 | 경기자 1 | 홀 | -1, 1 | 1, -1 |
 |  | 짝 | 1, -1 | -1, 1 |
 
-순수전략을 선택할 확률을 도입
+### 순수전략을 선택할 확률을 도입
 
 * 혼합전략mixed strategy
   * 선택할 가능성이 있는 순수전략\(합리화전략\)을어떤 확률분포에 따라 무작위로 추출 또는 선택
@@ -152,6 +155,9 @@ $\Pr\left\{ B \right\} = \frac{n(B)}{n(S)} = \frac{2}{6} = \frac{1}{3}$
 ```{=html}
 <!-- -->
 ```
+
+### 혼합전략과 합리화전략
+
 -   최적 대응\
     Best Response
 
@@ -202,9 +208,7 @@ $\Pr\left\{ B \right\} = \frac{n(B)}{n(S)} = \frac{2}{6} = \frac{1}{3}$
 
 ## 2.  혼합전략 내쉬균형
 
-<span style="color:#2C2C2C"> __혼합전략__ </span>  <span style="color:#2C2C2C"> __ __ </span>  <span style="color:#2C2C2C"> __내쉬균형은__ </span>  <span style="color:#2C2C2C"> __ 선택할 확률이__ </span>  <span style="color:#2C2C2C"> __바뀌지 않는 확률분포__ </span>
-
-학습목표
+### 학습목표
 
 Learning Objectives
 
@@ -215,6 +219,13 @@ Learning Objectives
 * 다음 문제를 생각해보자\.
   * 혼합전략 내쉬균형은 항상 존재할까?
   * 기대보수 이외의 다른 기준은 없을까?
+
+* ★ 핵심만 쏙쏙!
+
+    {: .note}
+	> **혼합전략 내쉬균형은 선택할 확률이 바뀌지 않는 확률분포**
+
+### 확률분포와 기대보수
 
 * 홀짝 게임Matching Pennies
   * 경기자: 각각 여러 개의 동전을 가진 두 경기자
@@ -255,6 +266,9 @@ Learning Objectives
 ```{=html}
 <!-- -->
 ```
+
+### 기대보수에 따른 대응곡선
+
 -   경기자 2의 기대보수를 고려한 최적 대응
 
     -   경기자 1의 확률분포: $Pr\ \left\{ 홀 \right\} = p$,
@@ -323,6 +337,9 @@ Learning Objectives
 ```{=html}
 <!-- -->
 ```
+
+### 대응곡선과 혼합전략 내쉬균형
+
 -   혼합전략 내쉬균형\
     Mixed Strategy Nash Equilibrium
 
@@ -370,7 +387,7 @@ Learning Objectives
     -   혼합전략 내쉬균형에서, 선택가능한 전략 조합은\
         같은 수준의 기대보수(홀짝 게임에서는 '0')를 제공
 
-\### 요약
+### 요약
 
 -   혼합전략의 확률분포는 어떻게 정의될까?
 
@@ -394,8 +411,6 @@ Learning Objectives
 
 ## 3.  혼합전략 내쉬균형의 적용
 
-<span style="color:#2C2C2C"> __혼합전략__ </span>  <span style="color:#2C2C2C"> __ __ </span>  <span style="color:#2C2C2C"> __내쉬균형은__ </span>  <span style="color:#2C2C2C"> __ 기대보수를__ </span>  <span style="color:#2C2C2C"> __같게 하는 확률분포__ </span>
-
 ### 학습목표
 
 Learning Objectives
@@ -408,7 +423,12 @@ Learning Objectives
   * 혼합전략으로 설명될 수 있는 상황은 무엇일까?
   * 현실 상황에서 혼합전략 내쉬균형의 의미는?
 
-가위바위보 게임의 순수전략 균형
+* ★ 핵심만 쏙쏙!
+
+    {: .note}
+	> **혼합전략 내쉬균형은 기대보수를 같게 하는 확률분포**
+
+### 가위바위보 게임의 순수전략 균형
 
 * 가위바위보 게임Rock\-Paper\-Scissors Game
   * 경기자: 두 경기자\(경기자 1\, 경기자 2\)
@@ -528,6 +548,7 @@ Learning Objectives
 |  | 바위 | 1, -1 | 0, 0 | -1, 1 |
 |  | 보 | -1, 1 | 1, -1 | 0, 0 |
 
+### 가위바위보 게임의 혼합전략 균형
 
 -   가위바위보 게임에서 경기자 1의 확률분포
 
@@ -627,7 +648,7 @@ $\therefore p^{*} = \frac{1}{3},\ q^{*} = \frac{1}{3}$
     -   혼합전략 내쉬균형에서, 선택가능한 전략 조합은\
         같은 수준의 기대보수(가위바위보 게임에서는 '0')를 제공
 
-\### 요약
+### 요약
 
 -   가위바위보 게임은 순수전략 내쉬균형이 존재할까?
 

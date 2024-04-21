@@ -93,3 +93,8 @@ nav_order: 3
 
     -   $$\pi_{1}$$을 최대화하는 생산량 $$q_{1}$$이 충족하는 조건은?
 
+일계조건(First-order condition)
+$$\left. \ \frac{\partial\pi_{1}}{{\partial q}_{1}} \right|_{q_{1} = q_{1}^{*}} = 0$$\
+이계조건(Second-order condition)
+$$\left. \ \frac{\partial^{2}\pi_{1}}{\partial q_{1}^{2}} \right|_{q_{1} = q_{1}^{*}} \leq 0$$
+

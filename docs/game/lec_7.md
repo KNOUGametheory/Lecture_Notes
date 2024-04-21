@@ -129,8 +129,8 @@ Learning Objectives
         (여기에서, $c$는 생산의 평균 비용이자 한계 비용)
 
     -   시장의 수요 함수($P = a - Q$)를 $\pi_{1}$에 대입\
-        $\pi_{1} = \left\lbrack (a - Q) - c \right\rbrack q_{1}$ *\
-        *$= \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{1} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{1}$
+        $\pi_{1} = \left\lbrack (a - Q) - c \right\rbrack q_{1}$ 
+        $= \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{1} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{1}$
 
     -   $\pi_{1}$에 기업 2의 최적
         대응($\widetilde{q_{2}} = \frac{a - c - q_{1}}{2}$)을 대입\
@@ -143,9 +143,9 @@ Learning Objectives
         $q_{1}$을 결정
 
         -   일계조건(First-order condition)
-            $\left. \ \frac{\partial\widetilde{\pi_{1}}}{{\partial q}_{1}} \right|_{q_{1} = \widehat{q_{1}}} = 0$\
+            $\left. \ \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right\vert_{q_1 = \widehat{q_1}} = 0$\
             $$\frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} = - \frac{q_{1}}{2} + \frac{a - c - q_{1}}{2} = \frac{a - c}{2} - q_{1}
-            \left. \ \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right|_{q_{1} = \widehat{q_{1}}} = 0$$
+            \left. \ \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right\vert_{q_1 = \widehat{q_1}} = 0$$
             🡪 $\widehat{q_{1}} = \frac{a - c}{2}$
 
 -   모형의 풀이 (계속)
@@ -154,8 +154,8 @@ Learning Objectives
         $q_{1}$을 결정
 
         -   이계조건(Second-order condition)
-            $\left. \ \frac{\partial^{2}\widetilde{\pi_{1}}}{\partial q_{1}^{2}} \right|_{q_{1} = \widehat{q_{1}}} \leq 0$*\
-            *$\frac{\partial^{2}\widetilde{\pi_{1}}}{\partial q_{1}^{2}} = \frac{\partial}{\partial q_{1}}\left( \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right) = \frac{\partial}{\partial q_{1}}\left( \frac{a - c}{2} - q_{1} \right) = - 1 \leq 0$
+            $\left. \ \frac{\partial^{2}\widetilde{\pi_{1}}}{\partial q_{1}^{2}} \right\vert_{q_1 = \widehat{q_1}} \leq 0$
+            $\frac{\partial^{2}\widetilde{\pi_{1}}}{\partial q_{1}^{2}} = \frac{\partial}{\partial q_{1}}\left( \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right) = \frac{\partial}{\partial q_{1}}\left( \frac{a - c}{2} - q_{1} \right) = - 1 \leq 0$
 
 -   모형의 균형
 

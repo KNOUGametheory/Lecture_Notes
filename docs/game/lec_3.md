@@ -93,6 +93,6 @@ nav_order: 3
 
     -   $$\pi_{1}$$을 최대화하는 생산량 $$q_{1}$$이 충족하는 조건은?
 
- - 일계조건(First-order condition) $$ \frac{\partial \pi_{1}}{{\partial q}_{1}} } = 0$$
+  $$\frac{22}{24}$$
 
 

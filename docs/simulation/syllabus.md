@@ -140,7 +140,7 @@ K-MOCC, [넷로고와 파이선을 활용한 게임이론 시뮬레이션](https
 
  -->
 
-## 연관 강의
+## K-MOOC 연관 강의
 
 - [윤태진, 성신여자대학교, 인문$$\cdot$$사회 계열 전공생을 위한 Python 입문](https://www.kmooc.kr/view/course/detail/11452){:target="_blank"}
 

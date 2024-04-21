@@ -127,7 +127,7 @@ $$\frac{\partial^{2}\pi_{1}}{\partial q_{1}^{2}} = \frac{\partial}{\partial q_{1
 
     -   $$\pi_{2}$$의 일계조건과 이계조건
 
-$$\left. \ \frac{\partial\pi_{2}}{{\partial q}_{2}} \right|_{q_{2} = q_{2}^{*}} = 0$$
+$$\left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = q_2^*} = 0$$
 🡪 $$q_{2}^{*} = \frac{a - c - q_{1}}{2}$$;
 $$\frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} = - 2 \leq 0$$
 

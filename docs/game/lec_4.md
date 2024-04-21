@@ -71,10 +71,6 @@ Learning Objectives
     -   소비자의 행동: 같은 상품을 구입할 때\
         거래비용(상점까지의 거리)이 낮은 상점을 선택
 
-```{=html}
-<!-- -->
-```
-
 -   도식화
 
     -   $a \in \lbrack 0,\ 1\rbrack$: 상점 1의 위치,
@@ -85,9 +81,6 @@ Learning Objectives
         상점 2의 시장점유율
         $u_{2} = \frac{1}{2}(1 - a - b) + b = \frac{1}{2}(1 - a + b)$
 
-```{=html}
-<!-- -->
-```
 
 -   모형의 균형
 
@@ -99,9 +92,6 @@ Learning Objectives
         상점 2의 시장점유율
         $u_{2}\left( \frac{1}{2},\frac{1}{2} \right) = \frac{1}{2}\left( 1 - \frac{1}{2} + \frac{1}{2} \right) = \frac{1}{2}$
 
-```{=html}
-<!-- -->
-```
 
 -   균형의 타당성
 
@@ -116,9 +106,6 @@ Learning Objectives
         (ⅱ) $a = \frac{1}{2} + \epsilon > \frac{1}{2}$:
         $u_{1}\left( \frac{1}{2} + \epsilon,\frac{1}{2} \right) = \left\lbrack 1 - \left( \frac{1}{2} + \epsilon \right) \right\rbrack + \frac{1}{2}\epsilon = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$
 
-```{=html}
-<!-- -->
-```
 
 -   균형의 타당성(계속)
 
@@ -134,9 +121,6 @@ Learning Objectives
         (ⅱ) $1 - b = \frac{1}{2} + \epsilon > \frac{1}{2}$:
         $u_{2}\left( \frac{1}{2},\frac{1}{2} + \epsilon \right) = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$
 
-```{=html}
-<!-- -->
-```
 
 -   균형의 유일성
 
@@ -151,9 +135,6 @@ Learning Objectives
         만약 $a = \frac{2}{3} - \epsilon$이라면?
         $\text{여기에}\text{~}\text{수식을}\text{~}\text{입력하십시오}\text{.}$
 
-```{=html}
-<!-- -->
-```
 
 -   균형의 유일성(계속)
 
@@ -166,9 +147,6 @@ Learning Objectives
         $u_{1}\left( \frac{2}{3} - \epsilon,\frac{2}{3} \right) = \left( \frac{2}{3} - \epsilon \right) + \frac{1}{2}\epsilon = \frac{2}{3} - \frac{1}{2} > \widehat{u_{1}} = \frac{1}{2}$,\
         $u_{2}\left( \frac{2}{3} - \epsilon,\frac{2}{3} \right) = \left( 1 - \frac{2}{3} \right) + \frac{1}{2}(\epsilon) = \frac{1}{3} + \frac{1}{2}\epsilon < \widehat{u_{2}} = \frac{1}{2}$
 
-```{=html}
-<!-- -->
-```
 
 -   균형의 해석
 
@@ -183,9 +161,6 @@ Learning Objectives
         중간정도('1/2')의 소비자를 공략하는 전략을 추진\
         🡪 경쟁 제품 사이의 차별화 정도가 미비해지는 것이 균형
 
-```{=html}
-<!-- -->
-```
 
 
 ### 호텔링 모형으로 민주 선거 사례를 해석
@@ -273,9 +248,6 @@ Learning Objectives
         $v(Q) = a - Q$\
         ($a > c \geq 0$: 개별 생산품의 최대 가치)
 
-```{=html}
-<!-- -->
-```
 
 -   하딘의 모형 풀이
 
@@ -325,9 +297,6 @@ $q_{n}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq n}^{}q_{j} \right\rbra
         $q^{*} = \frac{1}{n + 1}(a - c)$\
         (∵ 대칭성 $q_{i} = q_{j} = q^{*},\ Q^{*} = nq^{*}$ 가정)
 
-```{=html}
-<!-- -->
-```
 
 -   하딘의 모형 균형
 
@@ -341,10 +310,6 @@ $q_{n}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq n}^{}q_{j} \right\rbra
         $u_{i}^{*} = \left( v\left( Q^{*} \right) - c \right)q_{i}^{*} = \left( a - Q^{*} - c \right)q^{*}$\
         $= \left\lbrack a - c - \frac{n}{n + 1}(a - c) \right\rbrack\left\lbrack \frac{1}{n + 1}(a - c) \right\rbrack$*\
         *$= \left\lbrack \left\lbrack \frac{1}{n + 1}(a - c) \right\rbrack \right\rbrack^{2} = \frac{1}{(n + 1)^{2}}(a - c)^{2}\ $
-
-```{=html}
-<!-- -->
-```
 
 ### 사회적 최적과 공유지의 비극
 
@@ -371,9 +336,6 @@ $\widehat{Q} = \frac{1}{2}(a - c)$
         $\widehat{U} = \left( v\left( \widehat{Q} \right) - c \right)\widehat{Q} = \left\lbrack a - \frac{1}{2}(a - c) - c \right\rbrack\left\lbrack \frac{1}{2}(a - c) \right\rbrack$\
         $= \left\lbrack \frac{1}{2}(a - c) \right\rbrack\left\lbrack \frac{1}{2}(a - c) \right\rbrack = \frac{1}{4}(a - c)^{2}$
 
-```{=html}
-<!-- -->
-```
 
 -   공동자원을 활용하는 사회적 최적
 
@@ -384,10 +346,6 @@ $\widehat{Q} = \frac{1}{2}(a - c)$
         $\widehat{u_{i}} = \left( v\left( \widehat{Q} \right) - c \right)\widehat{q_{i}} = \left( a - \widehat{Q} - c \right)\widehat{q_{i}}$\
         $= \left( a - \frac{1}{2}(a - c) - c \right)\frac{1}{2n}(a - c)$\
         $= \left\lbrack \frac{1}{2}(a - c) \right\rbrack\left\lbrack \frac{1}{2n}(a - c) \right\rbrack = \frac{1}{4n}(a - c)^{2} = \frac{1}{n}\widehat{U}$
-
-```{=html}
-<!-- -->
-```
 
 
 -   균형 생산량과 사회적 최적 생산량 비교
@@ -402,10 +360,6 @@ $\widehat{Q} = \frac{1}{2}(a - c)$
         $q_{i}^{*} - \widehat{q_{i}} = \frac{1}{n + 1}(a - c) - \frac{1}{2n}(a - c)$\
         $= \frac{\left\lbrack 2n - (n + 1) \right\rbrack}{2n(n + 1)}(a - c) = \frac{n - 1}{2n(n + 1)}(a - c) > 0$
 
-```{=html}
-<!-- -->
-```
-
 -   균형 보수와 사회적 최적 보수 비교
 
     -   공동체 구성원 $i$의 균형 보수
@@ -417,10 +371,6 @@ $\widehat{Q} = \frac{1}{2}(a - c)$
         $n \geq 2$:
         $u_{i}^{*} - \widehat{u_{i}} = \frac{1}{(n + 1)^{2}}(a - c)^{2} - \frac{1}{4n}(a - c)^{2}$\
         $= \frac{\left\lbrack 4n - (n + 1)^{2} \right\rbrack}{4n(n + 1)^{2}}(a - c)^{2} = - \frac{(n - 1)^{2}}{4n(n + 1)}(a - c)^{2} < 0$
-
-```{=html}
-<!-- -->
-```
 
 -   결과 해석
 
@@ -436,9 +386,6 @@ $\widehat{Q} = \frac{1}{2}(a - c)$
     -   $n \geq 2$일 때, '이기적' 균형과 사회적 최적의 차이는\
         각 구성원의 결정이 다른 구성원의 결정에 미치는 영향
 
-```{=html}
-<!-- -->
-```
 
 
 ### 요약
@@ -530,9 +477,6 @@ Learning Objectives
     -   경기자 2의 입장: 전략을 바꿀 유인 없음\
         $u_{2}(K,\ K) = 16 \geq u_{2}(K,\ L) = 0$
 
-```{=html}
-<!-- -->
-```
 -   전략 조합 2: (K-메신저, L-메신저)
 
     -   경기자 1의 입장: 전략을 바꿀 유인 있음(K 🡪 L)\
@@ -541,9 +485,6 @@ Learning Objectives
     -   경기자 2의 입장: 전략을 바꿀 유인 있음(L 🡪 K)\
         $u_{2}(K,\ L) = 0 < u_{2}(K,\ K) = 16$
 
-```{=html}
-<!-- -->
-```
 -   전략 조합 3: (L-메신저, K-메신저)
 
     -   경기자 1의 입장: 전략을 바꿀 유인 있음(L 🡪 K)\
@@ -552,9 +493,6 @@ Learning Objectives
     -   경기자 2의 입장: 전략을 바꿀 유인 있음(K 🡪 L)\
         $u_{2}(L,\ K) = 0 < u_{2}(L,\ L) = 1$
 
-```{=html}
-<!-- -->
-```
 -   전략 조합 4: (L-메신저, L-메신저) 🡪 내쉬균형
 
     -   경기자 1의 입장: 전략을 바꿀 유인 없음\
@@ -563,9 +501,6 @@ Learning Objectives
     -   경기자 2의 입장: 전략을 바꿀 유인 없음\
         $u_{2}(L,\ L) = 1 \geq u_{2}(L,\ K) = 0$
 
-```{=html}
-<!-- -->
-```
 
 
 * 메신저 선택 게임의 균형

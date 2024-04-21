@@ -97,6 +97,6 @@ nav_order: 3
 
   ssss
   
-   $a$
+   $a_{b}$
 
 

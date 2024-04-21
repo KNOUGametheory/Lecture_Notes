@@ -7,11 +7,11 @@ nav_order: 3
 
 # 경쟁 모형과 균형
 
-1.  생산량 경쟁
+<!-- 1.  생산량 경쟁
 
 2.  담합과 안정성
 
-3.  가격 경쟁
+3.  가격 경쟁 -->
 
 ## 1.  생산량 경쟁
 
@@ -102,35 +102,55 @@ nav_order: 3
 -   모형의 풀이(계속)
 
     -   $$\pi_{1}$$의 일계조건(First-Order Condition)
-
-$$\frac{\partial\pi_{1}}{\partial q_{1}} = - q_{1} + \left\lbrack a - c - q_{1} - q_{2} \right\rbrack$$
-
-$$= a - c - 2q_{1} - q_{2}$$\
-
-$$\left. \frac{\partial\pi_{1}}{\partial q_{1}} \right\vert_{q_1 = q_1^*} = 0 \rightarrow$$ 
-
-$$q_{1}^{*} = \frac{a - c - q_{2}}{2}$$
+	
+	$$
+	\begin{align}
+	
+	\frac{\partial\pi_{1}}{\partial q_{1}} & = - q_{1} + \left\lbrack a - c - q_{1} - q_{2} \right\rbrack \\
+                                                                   & = a - c - 2q_{1} - q_{2} \\
+	\frac{\partial\pi_{1}}{\partial q_{1}} \vert_{q_1 = q_1^*} & = 0 \rightarrow \\
+	q_{1}^{*} & = \frac{a - c - q_{2}}{2}\\
+        \end{align}
+	$$
 
 -   $$\pi_{1}$$의 이계조건(Second-Order Condition)
 
-$$\frac{\partial^{2}\pi_{1}}{\partial q_{1}^{2}} = \frac{\partial}{\partial q_{1}}\left( \frac{\partial\pi_{1}}{\partial q_{1}} \right) = \frac{\partial}{\partial q_{1}}\left( a - c - 2q_{1} - q_{2} \right) = - 2 \leq 0$$
+    $$ 
+	\begin{align}
+	\frac{\partial^{2}\pi_{1}}{\partial q_{1}^{2}} & = \frac{\partial}{\partial q_{1}}\left( \frac{\partial\pi_{1}}{\partial q_{1}} \right) \\
+	     & = \frac{\partial}{\partial q_{1}}\left( a - c - 2q_{1} - q_{2} \right) \\
+	     &  = - 2 \leq 0\\
+       \end{align}
+    $$
 
 
 -   모형의 풀이(계속)
 
-    -   기업 2의 이윤 $$\pi_{2} = Pq_{2} - cq_{2} = (P - c)q_{2}$$\
-        (여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
+    -   기업 2의 이윤 (여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
+	
+	$$
+	\pi_{2} = Pq_{2} - cq_{2} = (P - c)q_{2}
+	$$
 
-    -   시장의 역수요함수($$P = a - Q$$)를 $$\pi_{2}$$에 대입\
-        $$\pi_{2} = \left\lbrack (a - Q) - c \right\rbrack q_{2}$$ \
-        $$= \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{2} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{2}$$
+    -   시장의 역수요함수($$P = a - Q$$)를 $$\pi_{2}$$에 대입
+	
+        $$
+	\begin{align}
+		\pi_{2} & = \left\lbrack (a - Q) - c \right\rbrack q_{2} \\
+		         & = \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{2} \\
+		         & = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{2}\\
+       \end{align}
+       $$   
 
     -   $$\pi_{2}$$의 일계조건과 이계조건
-
-$$\left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = q_2^*} = 0 \rightarrow$$ 
-
-$$q_{2}^{*} = \frac{a - c - q_{1}}{2}$$;
-$$\frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} = - 2 \leq 0$$
+	
+	$$
+	\begin{align}
+	\left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = q_2^*} & = 0 \\
+	\rightarrow q_{2}^{*} & = \frac{a - c - q_{1}}{2} \\
+	\frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} & = - 2 \leq 0 \\
+        \end{align}
+	$$
 
 
 -   모형의 풀이(계속)

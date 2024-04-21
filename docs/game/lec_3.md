@@ -107,7 +107,7 @@ nav_order: 3
 $$\frac{\partial\pi_{1}}{\partial q_{1}} = - q_{1} + \left\lbrack a - c - q_{1} - q_{2} \right\rbrack$$
 
 $$= a - c - 2q_{1} - q_{2}$$\
-$$\left. \ \frac{\partial\pi_{1}}{\partial q_{1}} \right|_{q_{1} = q_{1}^{*}} = 0$$
+$$\left. \ \frac{\partial\pi_{1}}{\partial q_{1}} \right\vert_{q_1 = q_1^*} = 0$$
 🡪 $$q_{1}^{*} = \frac{a - c - q_{2}}{2}$$
 
 -   $$\pi_{1}$$의 이계조건(Second-Order Condition)
@@ -122,7 +122,7 @@ $$\frac{\partial^{2}\pi_{1}}{\partial q_{1}^{2}} = \frac{\partial}{\partial q_{1
 
     -   시장의 역수요함수($$P = a - Q$$)를 $$\pi_{2}$$에 대입\
         $$\pi_{2} = \left\lbrack (a - Q) - c \right\rbrack q_{2}$$ *\
-        *$$= \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{2} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{2}$$
+        $$= \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{2} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{2}$$
 
     -   $$\pi_{2}$$의 일계조건과 이계조건
 

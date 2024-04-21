@@ -59,7 +59,7 @@ Learning Objectives
     -   경기자: 점포 위치를 결정하려는 두 상점(상점 1, 상점 2)
 
     -   전략 집합: 각 상점의 점포 위치
-        $a,\ 1 - b \in \lbrack 0,\ 1\rbrack$
+        $$a,\ 1 - b \in \lbrack 0,\ 1\rbrack$$
 
     -   보수: 두 상점의 시장점유율(상점을 선택한 소비자 비율)
 
@@ -74,87 +74,87 @@ Learning Objectives
 
 -   도식화
 
-    -   $a \in \lbrack 0,\ 1\rbrack$: 상점 1의 위치,
-        $1 - b \in \lbrack 0,\ 1\rbrack$: 상점 2의 위치
+    -   $$a \in \lbrack 0,\ 1\rbrack$$: 상점 1의 위치,
+        $$1 - b \in \lbrack 0,\ 1\rbrack$$: 상점 2의 위치
 
     -   상점 1의 시장점유율
-        $u_{1} = a + \frac{1}{2}(1 - a - b) = \frac{1}{2}(1 + a - b)$\
+        $$u_{1} = a + \frac{1}{2}(1 - a - b) = \frac{1}{2}(1 + a - b)$$\
         상점 2의 시장점유율
-        $u_{2} = \frac{1}{2}(1 - a - b) + b = \frac{1}{2}(1 - a + b)$
+        $$u_{2} = \frac{1}{2}(1 - a - b) + b = \frac{1}{2}(1 - a + b)$$
 
 
 -   모형의 균형
 
     -   상점 1, 상점 2 모두 도시 한가운데 점포 개설
-        $\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$
+        $$\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$$
 
     -   상점 1의 시장점유율
-        $u_{1}\left( \frac{1}{2},\frac{1}{2} \right) = \frac{1}{2}\left( 1 + \frac{1}{2} - \frac{1}{2} \right) = \frac{1}{2}$\
+        $$u_{1}\left( \frac{1}{2},\frac{1}{2} \right) = \frac{1}{2}\left( 1 + \frac{1}{2} - \frac{1}{2} \right) = \frac{1}{2}$$\
         상점 2의 시장점유율
-        $u_{2}\left( \frac{1}{2},\frac{1}{2} \right) = \frac{1}{2}\left( 1 - \frac{1}{2} + \frac{1}{2} \right) = \frac{1}{2}$
+        $$u_{2}\left( \frac{1}{2},\frac{1}{2} \right) = \frac{1}{2}\left( 1 - \frac{1}{2} + \frac{1}{2} \right) = \frac{1}{2}$$
 
 
 -   균형의 타당성
 
     -   상점 1과 상점 2 모두 점포 위치를 바꿀 유인이 없을까? YES!
 
-    -   상점 2가 점포 위치를 $1 - b^{*} = \frac{1}{2}$로 유지한다면?\
-        상점 1은 점포 위치를 $a^{*} = \frac{1}{2}$로 유지하는 게 최선
+    -   상점 2가 점포 위치를 $$1 - b^{*} = \frac{1}{2}$$로 유지한다면?\
+        상점 1은 점포 위치를 $$a^{*} = \frac{1}{2}$$로 유지하는 게 최선
 
     -   상점 1이 점포 위치를 바꾼다면? 시장점유율 감소!\
-        (ⅰ) $a = \frac{1}{2} - \epsilon < \frac{1}{2}$:
-        $u_{1}\left( \frac{1}{2} - \epsilon,\frac{1}{2} \right) = \left( \frac{1}{2} - \epsilon \right) + \frac{1}{2}\epsilon = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$\
-        (ⅱ) $a = \frac{1}{2} + \epsilon > \frac{1}{2}$:
-        $u_{1}\left( \frac{1}{2} + \epsilon,\frac{1}{2} \right) = \left\lbrack 1 - \left( \frac{1}{2} + \epsilon \right) \right\rbrack + \frac{1}{2}\epsilon = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$
+        (ⅰ) $$a = \frac{1}{2} - \epsilon < \frac{1}{2}$$:
+        $$u_{1}\left( \frac{1}{2} - \epsilon,\frac{1}{2} \right) = \left( \frac{1}{2} - \epsilon \right) + \frac{1}{2}\epsilon = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$\
+        (ⅱ) $$a = \frac{1}{2} + \epsilon > \frac{1}{2}$$:
+        $$u_{1}\left( \frac{1}{2} + \epsilon,\frac{1}{2} \right) = \left\lbrack 1 - \left( \frac{1}{2} + \epsilon \right) \right\rbrack + \frac{1}{2}\epsilon = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$
 
 
 -   균형의 타당성(계속)
 
     -   상점 1과 상점 2 모두 점포 위치를 바꿀 유인이 없을까? YES!
 
-    -   상점 1이 점포 위치를 $a^{*} = \frac{1}{2}$로 유지한다면?\
-        상점 2는 점포 위치를 $1 - b^{*} = \frac{1}{2}$로 유지하는 게
+    -   상점 1이 점포 위치를 $$a^{*} = \frac{1}{2}$$로 유지한다면?\
+        상점 2는 점포 위치를 $$1 - b^{*} = \frac{1}{2}$$로 유지하는 게
         최선
 
     -   상점 2가 점포 위치를 바꾼다면? 시장점유율 감소!\
-        (ⅰ) $1 - b = \frac{1}{2} - \epsilon < \frac{1}{2}$:
-        $u_{2}\left( \frac{1}{2},\frac{1}{2} - \epsilon \right) = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$\
-        (ⅱ) $1 - b = \frac{1}{2} + \epsilon > \frac{1}{2}$:
-        $u_{2}\left( \frac{1}{2},\frac{1}{2} + \epsilon \right) = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$
+        (ⅰ) $$1 - b = \frac{1}{2} - \epsilon < \frac{1}{2}$$:
+        $$u_{2}\left( \frac{1}{2},\frac{1}{2} - \epsilon \right) = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$\
+        (ⅱ) $$1 - b = \frac{1}{2} + \epsilon > \frac{1}{2}$$:
+        $$u_{2}\left( \frac{1}{2},\frac{1}{2} + \epsilon \right) = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$
 
 
 -   균형의 유일성
 
     -   상점 1과 상점 2의 점포 위치는
-        $\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$\
+        $$\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$$\
         이외에 다른 어떤 전략 조합도 균형이 될 수 없을까? YES!
 
-    -   상점 1의 위치가 $a = \frac{1}{3}$, 상점 2의 위치가
-        $1 - b = \frac{2}{3}$라면?\
-        $u_{1}\left( \frac{1}{3},\frac{2}{3} \right) = \frac{1}{3} + \frac{1}{2}\left( \frac{2}{3} - \frac{1}{3} \right) = \frac{1}{3} + \frac{1}{6} = \frac{1}{2} = \widehat{u_{1}}$,\
-        $\widehat{u_{2}}\left( \frac{1}{3},\frac{2}{3} \right) = \left( 1 - \frac{2}{3} \right) + \frac{1}{2}\left( \frac{2}{3} - \frac{1}{3} \right) = \frac{1}{3} + \frac{1}{6} = \frac{1}{2} = \widehat{u_{2}}$\
-        만약 $a = \frac{2}{3} - \epsilon$이라면?
-        $\text{여기에}\text{~}\text{수식을}\text{~}\text{입력하십시오}\text{.}$
+    -   상점 1의 위치가 $$a = \frac{1}{3}$$, 상점 2의 위치가
+        $$1 - b = \frac{2}{3}$$라면?\
+        $$u_{1}\left( \frac{1}{3},\frac{2}{3} \right) = \frac{1}{3} + \frac{1}{2}\left( \frac{2}{3} - \frac{1}{3} \right) = \frac{1}{3} + \frac{1}{6} = \frac{1}{2} = \widehat{u_{1}}$$,\
+        $$\widehat{u_{2}}\left( \frac{1}{3},\frac{2}{3} \right) = \left( 1 - \frac{2}{3} \right) + \frac{1}{2}\left( \frac{2}{3} - \frac{1}{3} \right) = \frac{1}{3} + \frac{1}{6} = \frac{1}{2} = \widehat{u_{2}}$$\
+        만약 $$a = \frac{2}{3} - \epsilon$$이라면?
+        $$\text{여기에}\text{~}\text{수식을}\text{~}\text{입력하십시오}\text{.}$$
 
 
 -   균형의 유일성(계속)
 
     -   상점 1과 상점 2의 점포 위치는
-        $\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$\
+        $$\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$$\
         이외에 다른 어떤 전략 조합도 균형이 될 수 없을까? YES!
 
-    -   만약 상점 2의 위치가 $1 - b = \frac{2}{3}$인 상태에서\
-        상점 1이 점포 위치를 $a = \frac{2}{3} - \epsilon$로 옮긴다면?\
-        $u_{1}\left( \frac{2}{3} - \epsilon,\frac{2}{3} \right) = \left( \frac{2}{3} - \epsilon \right) + \frac{1}{2}\epsilon = \frac{2}{3} - \frac{1}{2} > \widehat{u_{1}} = \frac{1}{2}$,\
-        $u_{2}\left( \frac{2}{3} - \epsilon,\frac{2}{3} \right) = \left( 1 - \frac{2}{3} \right) + \frac{1}{2}(\epsilon) = \frac{1}{3} + \frac{1}{2}\epsilon < \widehat{u_{2}} = \frac{1}{2}$
+    -   만약 상점 2의 위치가 $$1 - b = \frac{2}{3}$$인 상태에서\
+        상점 1이 점포 위치를 $$a = \frac{2}{3} - \epsilon$$로 옮긴다면?\
+        $$u_{1}\left( \frac{2}{3} - \epsilon,\frac{2}{3} \right) = \left( \frac{2}{3} - \epsilon \right) + \frac{1}{2}\epsilon = \frac{2}{3} - \frac{1}{2} > \widehat{u_{1}} = \frac{1}{2}$$,\
+        $$u_{2}\left( \frac{2}{3} - \epsilon,\frac{2}{3} \right) = \left( 1 - \frac{2}{3} \right) + \frac{1}{2}(\epsilon) = \frac{1}{3} + \frac{1}{2}\epsilon < \widehat{u_{2}} = \frac{1}{2}$$
 
 
 -   균형의 해석
 
     -   상점 1과 상점 2은 점포 위치를
-        $\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$로
+        $$\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$$로
         선택\
-        시장을 양분하여 $\frac{1}{2}$씩 점유하는 것이 유일한 내쉬균형
+        시장을 양분하여 $$\frac{1}{2}$$씩 점유하는 것이 유일한 내쉬균형
 
     -   제품 차별화?\
         디자인, 성능 등 제품 특징의 차별화 정도를 결정할 때\
@@ -238,50 +238,50 @@ Learning Objectives
 
 -   하딘(Hardin, 1968)의 모형
 
-    -   공동자원으로 생산활동을 수행하는 공동체 구성원 $n$명
+    -   공동자원으로 생산활동을 수행하는 공동체 구성원 $$n$$명
 
-    -   공동체 구성원 $i$의 생산량 $q_{i}$ for $i = 1,\ 2,\ \cdots,\ n$\
-        생산활동에 소요되는 (평균 및 한계) 비용 $c$\
+    -   공동체 구성원 $$i$$의 생산량 $$q_{i}$$ for $$i = 1,\ 2,\ \cdots,\ n$$\
+        생산활동에 소요되는 (평균 및 한계) 비용 $$c$$\
         공동체 전체의 생산량
-        $Q = \sum_{i = 1}^{n}q_{i} = q_{1} + q_{2} + \cdots + q_{n}$
+        $$Q = \sum_{i = 1}^{n}q_{i} = q_{1} + q_{2} + \cdots + q_{n}$$
 
     -   공동체 전체 생산량으로 결정되는 생산품의 가치\
-        $v(Q) = a - Q$\
-        ($a > c \geq 0$: 개별 생산품의 최대 가치)
+        $$v(Q) = a - Q$$\
+        ($$a > c \geq 0$$: 개별 생산품의 최대 가치)
 
 
 -   하딘의 모형 풀이
 
-    -   공동체 구성원 $i$의 보수\
-        $u_{i} = \left( v(Q) - c \right)q_{i}$ *\
-        *$= \left\lbrack a - \left( q_{1} + q_{2} + \cdots + q_{(i - 1)} + q_{i} + q_{(i + 1)} + \cdots + q_{n} \right) - c \right\rbrack q_{i}$
+    -   공동체 구성원 $$i$$의 보수\
+        $$u_{i} = \left( v(Q) - c \right)q_{i}$$ 
+        $$= \left\lbrack a - \left( q_{1} + q_{2} + \cdots + q_{(i - 1)} + q_{i} + q_{(i + 1)} + \cdots + q_{n} \right) - c \right\rbrack q_{i}$$
 
     -   각자의 보수를 최대화하는 구성원의 행동(미분을 활용!)\
         일계조건:
-        $\frac{\partial u_{i}}{\partial q_{i}} = - q_{i} + \left\lbrack a - c - \sum_{j = 1}^{n}q_{j} \right\rbrack$
+        $$\frac{\partial u_{i}}{\partial q_{i}} = - q_{i} + \left\lbrack a - c - \sum_{j = 1}^{n}q_{j} \right\rbrack$$
 
-$\left. \ \frac{\partial u_{i}}{\partial q_{i}} \right|_{q_{i} = q_{i}^{*}} = 0$
+$$\left. \ \frac{\partial u_{i}}{\partial q_{i}} \right|_{q_{i} = q_{i}^{*}} = 0$$
 🡪
-$q_{i}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq i}^{}q_{j} \right\rbrack$
+$$q_{i}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq i}^{}q_{j} \right\rbrack$$
 
-이계조건: $\frac{\partial^{2}u_{i}}{\partial q_{i}^{2}} = - 2 \leq 0$
+이계조건: $$\frac{\partial^{2}u_{i}}{\partial q_{i}^{2}} = - 2 \leq 0$$
 
 -   하딘의 모형 풀이(계속)
 
-    -   공동체 구성원 $i$의 최적 대응(Best Response)\
-        $q_{i}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq i}^{}q_{j} \right\rbrack$
+    -   공동체 구성원 $$i$$의 최적 대응(Best Response)\
+        $$q_{i}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq i}^{}q_{j} \right\rbrack$$
 
     -   최적 대응을 연립하여 균형을 계산\
         경기자 1:
-        $q_{1}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq 1}^{}q_{j} \right\rbrack$
+        $$q_{1}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq 1}^{}q_{j} \right\rbrack$$
         ... (1)\
         경기자 2:
-        $q_{2}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq 2}^{}q_{j} \right\rbrack$
+        $$q_{2}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq 2}^{}q_{j} \right\rbrack$$
         ... (2)\
         $$\vdots$$
 
-경기자 $n$:
-$q_{n}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq n}^{}q_{j} \right\rbrack$
+경기자 $$n$$:
+$$q_{n}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq n}^{}q_{j} \right\rbrack$$
 ... (n)
 
 
@@ -289,28 +289,28 @@ $q_{n}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq n}^{}q_{j} \right\rbra
 
     -   최적 대응을 연립하여 균형을 계산\
         (1)+(2)+ ... +(n):\
-        (좌변) = $\sum_{j = 1}^{n}q_{j}^{*} = Q^{*}$\
+        (좌변) = $$\sum_{j = 1}^{n}q_{j}^{*} = Q^{*}$$\
         (우변) =
-        $\frac{n}{2}(a - c) - \frac{n - 1}{2}\sum_{j = 1}^{n}q_{j}^{*} = \frac{n}{2}(a - c) - \frac{n - 1}{2}Q^{*}$\
-        $Q^{*} = \frac{n}{2}(a - c) - \frac{n - 1}{2}Q^{*}$ 🡪
-        $\frac{n + 1}{2}Q^{*} = \frac{n}{2}(a - c)$\
-        $Q^{*} = \frac{n}{n + 1}(a - c)$ 🡪
-        $q^{*} = \frac{1}{n + 1}(a - c)$\
-        (∵ 대칭성 $q_{i} = q_{j} = q^{*},\ Q^{*} = nq^{*}$ 가정)
+        $$\frac{n}{2}(a - c) - \frac{n - 1}{2}\sum_{j = 1}^{n}q_{j}^{*} = \frac{n}{2}(a - c) - \frac{n - 1}{2}Q^{*}$$\
+        $$Q^{*} = \frac{n}{2}(a - c) - \frac{n - 1}{2}Q^{*}$$ 🡪
+        $$\frac{n + 1}{2}Q^{*} = \frac{n}{2}(a - c)$$\
+        $$Q^{*} = \frac{n}{n + 1}(a - c)$$ 🡪
+        $$q^{*} = \frac{1}{n + 1}(a - c)$$\
+        (∵ 대칭성 $$q_{i} = q_{j} = q^{*},\ Q^{*} = nq^{*}$$ 가정)
 
 
 -   하딘의 모형 균형
 
-    -   공동체 구성원 $i$의 균형 생산량
-        $q_{i}^{*} = q^{*} = \frac{1}{n + 1}(a - c)$
+    -   공동체 구성원 $$i$$의 균형 생산량
+        $$q_{i}^{*} = q^{*} = \frac{1}{n + 1}(a - c)$$
 
     -   공동체 전체의 균형 생산량
-        $Q^{*} = nq_{i} = \frac{n}{n + 1}(a - c)$
+        $$Q^{*} = nq_{i} = \frac{n}{n + 1}(a - c)$$
 
-    -   공동체 구성원 $i$의 균형 보수\
-        $u_{i}^{*} = \left( v\left( Q^{*} \right) - c \right)q_{i}^{*} = \left( a - Q^{*} - c \right)q^{*}$\
-        $= \left\lbrack a - c - \frac{n}{n + 1}(a - c) \right\rbrack\left\lbrack \frac{1}{n + 1}(a - c) \right\rbrack$*\
-        *$= \left\lbrack \left\lbrack \frac{1}{n + 1}(a - c) \right\rbrack \right\rbrack^{2} = \frac{1}{(n + 1)^{2}}(a - c)^{2}\ $
+    -   공동체 구성원 $$i$$의 균형 보수\
+        $$u_{i}^{*} = \left( v\left( Q^{*} \right) - c \right)q_{i}^{*} = \left( a - Q^{*} - c \right)q^{*}$$\
+        $$= \left\lbrack a - c - \frac{n}{n + 1}(a - c) \right\rbrack\left\lbrack \frac{1}{n + 1}(a - c) \right\rbrack$$*\
+        *$$= \left\lbrack \left\lbrack \frac{1}{n + 1}(a - c) \right\rbrack \right\rbrack^{2} = \frac{1}{(n + 1)^{2}}(a - c)^{2}\ $$
 
 ### 사회적 최적과 공유지의 비극
 
@@ -318,60 +318,60 @@ $q_{n}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq n}^{}q_{j} \right\rbra
     공동체 전체가 하나의 구성원인 것처럼 행동!
 
     -   공동체 전체의 보수\
-        $U = \left( v(Q) - c \right)Q = (a - Q - c)Q$
+        $$U = \left( v(Q) - c \right)Q = (a - Q - c)Q$$
 
     -   공동체 전체의 보수를 최대화하는 생산량(미분을 활용!)\
-        일계조건: $\frac{\partial U}{\partial Q} = - Q + a - Q - c$
+        일계조건: $$\frac{\partial U}{\partial Q} = - Q + a - Q - c$$
 
-$\left. \ \frac{\partial U}{\partial Q} \right|_{Q = \widehat{Q}} = 0$ 🡪
-$\widehat{Q} = \frac{1}{2}(a - c)$
+$$\left. \ \frac{\partial U}{\partial Q} \right|_{Q = \widehat{Q}} = 0$$ 🡪
+$$\widehat{Q} = \frac{1}{2}(a - c)$$
 
-이계조건: $\frac{\partial^{2}U}{\partial Q^{2}} = - 2 \leq 0$
+이계조건: $$\frac{\partial^{2}U}{\partial Q^{2}} = - 2 \leq 0$$
 
 -   공동자원을 활용하는 사회적 최적
 
     -   공동체 전체의 사회적 최적 생산량
-        $\widehat{Q} = \frac{1}{2}(a - c)$
+        $$\widehat{Q} = \frac{1}{2}(a - c)$$
 
     -   공동체 전체의 사회적 최적 보수\
-        $\widehat{U} = \left( v\left( \widehat{Q} \right) - c \right)\widehat{Q} = \left\lbrack a - \frac{1}{2}(a - c) - c \right\rbrack\left\lbrack \frac{1}{2}(a - c) \right\rbrack$\
-        $= \left\lbrack \frac{1}{2}(a - c) \right\rbrack\left\lbrack \frac{1}{2}(a - c) \right\rbrack = \frac{1}{4}(a - c)^{2}$
+        $$\widehat{U} = \left( v\left( \widehat{Q} \right) - c \right)\widehat{Q} = \left\lbrack a - \frac{1}{2}(a - c) - c \right\rbrack\left\lbrack \frac{1}{2}(a - c) \right\rbrack$$\
+        $$= \left\lbrack \frac{1}{2}(a - c) \right\rbrack\left\lbrack \frac{1}{2}(a - c) \right\rbrack = \frac{1}{4}(a - c)^{2}$$
 
 
 -   공동자원을 활용하는 사회적 최적
 
-    -   공동체 구성원 $i$의 사회적 최적 생산량\
-        $\widehat{q_{i}} = \frac{1}{n}\widehat{Q} = \frac{1}{2n}(a - c)$
+    -   공동체 구성원 $$i$$의 사회적 최적 생산량\
+        $$\widehat{q_{i}} = \frac{1}{n}\widehat{Q} = \frac{1}{2n}(a - c)$$
 
-    -   공동체 구성원 $i$의 사회적 최적 보수\
-        $\widehat{u_{i}} = \left( v\left( \widehat{Q} \right) - c \right)\widehat{q_{i}} = \left( a - \widehat{Q} - c \right)\widehat{q_{i}}$\
-        $= \left( a - \frac{1}{2}(a - c) - c \right)\frac{1}{2n}(a - c)$\
-        $= \left\lbrack \frac{1}{2}(a - c) \right\rbrack\left\lbrack \frac{1}{2n}(a - c) \right\rbrack = \frac{1}{4n}(a - c)^{2} = \frac{1}{n}\widehat{U}$
+    -   공동체 구성원 $$i$$의 사회적 최적 보수\
+        $$\widehat{u_{i}} = \left( v\left( \widehat{Q} \right) - c \right)\widehat{q_{i}} = \left( a - \widehat{Q} - c \right)\widehat{q_{i}}$$\
+        $$= \left( a - \frac{1}{2}(a - c) - c \right)\frac{1}{2n}(a - c)$$\
+        $$= \left\lbrack \frac{1}{2}(a - c) \right\rbrack\left\lbrack \frac{1}{2n}(a - c) \right\rbrack = \frac{1}{4n}(a - c)^{2} = \frac{1}{n}\widehat{U}$$
 
 
 -   균형 생산량과 사회적 최적 생산량 비교
 
-    -   공동체 구성원 $i$의 균형 생산량
-        $q_{i}^{*} = q^{*} = \frac{1}{n + 1}(a - c)$\
-        공동체 구성원 $i$의 사회적 최적 생산량
-        $\widehat{q_{i}} = \frac{1}{n}\widehat{Q} = \frac{1}{2n}(a - c)$
+    -   공동체 구성원 $$i$$의 균형 생산량
+        $$q_{i}^{*} = q^{*} = \frac{1}{n + 1}(a - c)$$\
+        공동체 구성원 $$i$$의 사회적 최적 생산량
+        $$\widehat{q_{i}} = \frac{1}{n}\widehat{Q} = \frac{1}{2n}(a - c)$$
 
-    -   $n = 1$: $q_{i}^{*} = \widehat{q_{i}} = \frac{1}{2}(a - c)$\
-        $n \geq 2$:
-        $q_{i}^{*} - \widehat{q_{i}} = \frac{1}{n + 1}(a - c) - \frac{1}{2n}(a - c)$\
-        $= \frac{\left\lbrack 2n - (n + 1) \right\rbrack}{2n(n + 1)}(a - c) = \frac{n - 1}{2n(n + 1)}(a - c) > 0$
+    -   $$n = 1$$: $$q_{i}^{*} = \widehat{q_{i}} = \frac{1}{2}(a - c)$$\
+        $$n \geq 2$$:
+        $$q_{i}^{*} - \widehat{q_{i}} = \frac{1}{n + 1}(a - c) - \frac{1}{2n}(a - c)$$\
+        $$= \frac{\left\lbrack 2n - (n + 1) \right\rbrack}{2n(n + 1)}(a - c) = \frac{n - 1}{2n(n + 1)}(a - c) > 0$$
 
 -   균형 보수와 사회적 최적 보수 비교
 
-    -   공동체 구성원 $i$의 균형 보수
-        $u_{i}^{*} = \frac{1}{(n + 1)^{2}}(a - c)^{2}$\
-        공동체 구성원 $i$의 사회적 최적 보수
-        $\widehat{u_{i}} = \frac{1}{4n}(a - c)^{2}$
+    -   공동체 구성원 $$i$$의 균형 보수
+        $$u_{i}^{*} = \frac{1}{(n + 1)^{2}}(a - c)^{2}$$\
+        공동체 구성원 $$i$$의 사회적 최적 보수
+        $$\widehat{u_{i}} = \frac{1}{4n}(a - c)^{2}$$
 
-    -   $n = 1$: $u_{i}^{*} = \widehat{u_{i}} = \frac{1}{4}(a - c)^{2}$\
-        $n \geq 2$:
-        $u_{i}^{*} - \widehat{u_{i}} = \frac{1}{(n + 1)^{2}}(a - c)^{2} - \frac{1}{4n}(a - c)^{2}$\
-        $= \frac{\left\lbrack 4n - (n + 1)^{2} \right\rbrack}{4n(n + 1)^{2}}(a - c)^{2} = - \frac{(n - 1)^{2}}{4n(n + 1)}(a - c)^{2} < 0$
+    -   $$n = 1$$: $$u_{i}^{*} = \widehat{u_{i}} = \frac{1}{4}(a - c)^{2}$$\
+        $$n \geq 2$$:
+        $$u_{i}^{*} - \widehat{u_{i}} = \frac{1}{(n + 1)^{2}}(a - c)^{2} - \frac{1}{4n}(a - c)^{2}$$\
+        $$= \frac{\left\lbrack 4n - (n + 1)^{2} \right\rbrack}{4n(n + 1)^{2}}(a - c)^{2} = - \frac{(n - 1)^{2}}{4n(n + 1)}(a - c)^{2} < 0$$
 
 -   결과 해석
 
@@ -381,10 +381,10 @@ $\widehat{Q} = \frac{1}{2}(a - c)$
     -   공동체 구성원의 '이기적' 동기에 의한 균형 보수가\
         각 구성원이 균등히 나눠가진 사회적 최적 보수보다 작음
 
-    -   $n = 1$일 때, '이기적' 균형과 사회적 최적이 일치\
+    -   $$n = 1$$일 때, '이기적' 균형과 사회적 최적이 일치\
         🡪 독점권이 주어질 때 효율적 자원분배가 가능
 
-    -   $n \geq 2$일 때, '이기적' 균형과 사회적 최적의 차이는\
+    -   $$n \geq 2$$일 때, '이기적' 균형과 사회적 최적의 차이는\
         각 구성원의 결정이 다른 구성원의 결정에 미치는 영향
 
 
@@ -473,34 +473,34 @@ Learning Objectives
 -   전략 조합 1: (K-메신저, K-메신저) 🡪 내쉬균형
 
     -   경기자 1의 입장: 전략을 바꿀 유인 없음\
-        $u_{1}(K,\ K) = 16 \geq u_{1}(L,\ K) = 0$
+        $$u_{1}(K,\ K) = 16 \geq u_{1}(L,\ K) = 0$$
 
     -   경기자 2의 입장: 전략을 바꿀 유인 없음\
-        $u_{2}(K,\ K) = 16 \geq u_{2}(K,\ L) = 0$
+        $$u_{2}(K,\ K) = 16 \geq u_{2}(K,\ L) = 0$$
 
 -   전략 조합 2: (K-메신저, L-메신저)
 
     -   경기자 1의 입장: 전략을 바꿀 유인 있음(K 🡪 L)\
-        $u_{1}(K,\ L) = 0 < u_{1}(L,\ L) = 1$
+        $$u_{1}(K,\ L) = 0 < u_{1}(L,\ L) = 1$$
 
     -   경기자 2의 입장: 전략을 바꿀 유인 있음(L 🡪 K)\
-        $u_{2}(K,\ L) = 0 < u_{2}(K,\ K) = 16$
+        $$u_{2}(K,\ L) = 0 < u_{2}(K,\ K) = 16$$
 
 -   전략 조합 3: (L-메신저, K-메신저)
 
     -   경기자 1의 입장: 전략을 바꿀 유인 있음(L 🡪 K)\
-        $u_{1}(L,\ K) = 0 < u_{1}(K,\ K) = 16$
+        $$u_{1}(L,\ K) = 0 < u_{1}(K,\ K) = 16$$
 
     -   경기자 2의 입장: 전략을 바꿀 유인 있음(K 🡪 L)\
-        $u_{2}(L,\ K) = 0 < u_{2}(L,\ L) = 1$
+        $$u_{2}(L,\ K) = 0 < u_{2}(L,\ L) = 1$$
 
 -   전략 조합 4: (L-메신저, L-메신저) 🡪 내쉬균형
 
     -   경기자 1의 입장: 전략을 바꿀 유인 없음\
-        $u_{1}(L,\ L) = 1 \geq u_{1}(K,\ L) = 0$
+        $$u_{1}(L,\ L) = 1 \geq u_{1}(K,\ L) = 0$$
 
     -   경기자 2의 입장: 전략을 바꿀 유인 없음\
-        $u_{2}(L,\ L) = 1 \geq u_{2}(L,\ K) = 0$
+        $$u_{2}(L,\ L) = 1 \geq u_{2}(L,\ K) = 0$$
 
 
 
@@ -565,10 +565,10 @@ Learning Objectives
     -   메신저, 소셜 미디어 등을 선택할 때\
         다른 소비자가 많이 이용하는 플랫폼일수록 증가
 
-    -   $n$명이 사용하는 메신저의 가능한 링크
-        $\binom{n}{2} = \frac{n(n - 1)}{2}$\
+    -   $$n$$명이 사용하는 메신저의 가능한 링크
+        $$\binom{n}{2} = \frac{n(n - 1)}{2}$$\
         1명이 더 참여한다면? 링크
-        $\binom{n + 1}{2} = \frac{n(n + 1)}{2}$ 🡪 $n$만큼 증가
+        $$\binom{n + 1}{2} = \frac{n(n + 1)}{2}$$ 🡪 $$n$$만큼 증가
 
 
 

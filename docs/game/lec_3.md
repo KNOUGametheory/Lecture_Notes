@@ -95,6 +95,5 @@ nav_order: 3
 
   $$\frac{\partial \pi_{1}}{\partial q_{1}}$$
 
- $$\left. \frac{\partial\pi_{1}}{{\partial q_{1}}} \right|_{q_{1} = q_{1}^{*}} = 0$$\
 
 

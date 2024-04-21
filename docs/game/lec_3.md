@@ -97,7 +97,7 @@ nav_order: 3
 
         일계조건(First-order condition) $$\left. \frac{\partial\pi_{1}}{\partial q_{1}} \right\vert_{q_1 = q_1^*} = 0$$
 
-        이계조건(Second-order condition) $$\left.  \frac{\partial^{2}\pi_{1}}{\partial q_{1}^{2}} \right\vert_{q_1 = q_1^*} \leq 0$$\
+        이계조건(Second-order condition) $$\left.  \frac{\partial^{2}\pi_{1}}{\partial q_{1}^{2}} \right\vert_{q_1 = q_1^*} \leq 0$$
 
 -   모형의 풀이(계속)
 

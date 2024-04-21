@@ -114,7 +114,7 @@ nav_order: 3
 
   * hello
 
-	letsgogo
+	일계조건(First-order condition) $$\left. \frac{\partial\pi_{1}}{\partial q_{1}} \right|_{q_1 = q_1^*} = 0$$
 
 
 -   gogogo

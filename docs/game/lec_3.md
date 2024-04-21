@@ -88,11 +88,11 @@ nav_order: 3
         (여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
 
     -   시장의 역수요함수($$P = a - Q$$)를 $$\pi_{1}$$에 대입\
+
         $$\pi_{1} = \left\lbrack (a - Q) - c \right\rbrack q_{1}$$\
         $$= \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{1} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{1}$$
 
     -   $$\pi_{1}$$을 최대화하는 생산량 $$q_{1}$$이 충족하는 조건은?\
-
         일계조건(First-order condition) $$\left. \frac{\partial\pi_{1}}{\partial q_{1}} \right|_{q_1 = q_1^*} = 0$$
 
         이계조건(Second-order condition) $$\left.  \frac{\partial^{2}\pi_{1}}{\partial q_{1}^{2}} \right|_{q_1 = q_1^*} \leq 0$$

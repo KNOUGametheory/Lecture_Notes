@@ -18,7 +18,8 @@ nav_order: 1
 	> 지피지기와 피아식별!
 
 ### 집합과 원소
-- 집합(set): 순서를 고려하지 않은 서로 다른 개체의 모임
+
+- 집합(set): <span style="color:#FF0000">순서를 고려하지 않은</span> 서로 다른 개체의 모임
 
   - $$a \in A$$: 집합 $$A$$에 속한(in, $$\in$$) 개체(원소, element) $$𝑎$$
   
@@ -31,6 +32,7 @@ nav_order: 1
   - 게임이론에서도 ‘경기자 집합’, ‘전략 집합’, ‘정보 집합’ 등 다양한 집합을 활용하여 게임을 정의
 
 ### 집합의 표기
+
 - 원소나열법(roster method, by enumeration)
 
   - 집합에 속한 (표현가능한) 모든 원소(구성원)을 나열
@@ -72,7 +74,7 @@ nav_order: 1
 
   - 공집합을 포함하는 집합 $$\{\emptyset\}$$은 공집합일까?
   
-  - $$\rightarrow$$ **NO!** 하나의 개체를 원소로 가진 단일 원소 집합!
+  - $$\rightarrow$$ <span style="color:#FF0000">**NO!**</span> 하나의 개체를 원소로 가진 단일 원소 집합!
   
   - cf. 빈 폴더와 빈 폴더를 포함하는 폴더
 
@@ -89,7 +91,7 @@ nav_order: 1
 
     - $$\rightarrow$$ $$ \vert \mathbb{N} \vert = \vert \mathbb{Z} \vert = \vert \mathbb{Q} \vert $$ (why? how?)
 	
-  - 모든 수 집합의 크기는 같다? **NO!**
+  - 모든 수 집합의 크기는 같다? <span style="color:#FF0000">**NO!**</span>
   
   - $$ \vert \mathbb{Q} \vert < \vert \mathbb{R} \vert $$ (cf. 실수 $$ \mathbb{R} $$; $$\because$$ 대각화 논법, 대각선 논법)
 
@@ -121,6 +123,7 @@ nav_order: 1
 	- $$\vert S \vert = 𝑛 \rightarrow \vert \mathcal{𝒫}(𝑆) \vert = 2^{𝑛} $$ (why? how?)
 
 ### 집합의 연산
+
 - 합집합(union) $$A \cup B $$
 
   -  집합 $$𝐴$$와 집합 $$𝐵$$ 중 적어도 하나에 포함된 개체(원소)의 집합
@@ -130,10 +133,10 @@ nav_order: 1
 	 ![Venn Diamgram of Union Sets](/images/Lec_1_Union_set_VD.png)
 
 	 | $$a$$ | $$b$$  | $$a \lor b $$ |
-	 | True  | True   | True          |
-	 | True  | False  | True          |
-	 | False | True   | True          |
-	 | False | False  | False         | 
+	 | <span style="color:#105AD2">True</span>  | <span style="color:#105AD2">True</span>   | <span style="color:#105AD2">True</span>           |
+	 | <span style="color:#105AD2">True</span>  | <span style="color:#FF0000">False</span>  | <span style="color:#105AD2">True</span>           |
+	 | <span style="color:#FF0000">False</span> | <span style="color:#105AD2">True</span>   | <span style="color:#105AD2">True</span>           |
+	 | <span style="color:#FF0000">False</span> | <span style="color:#FF0000">False</span>  |<span style="color:#FF0000">False</span>         | 
 
 - 교집합(intersection) $$ 𝐴 \cap 𝐵 $$
   
@@ -148,10 +151,10 @@ nav_order: 1
 	 ![Venn Diamgram of Intersection Sets](/images/Lec_1_Intersection_set_VD.png)
 
 	 | $$a$$ | $$b$$  | $$a \land b $$ |
-	 | True  | True   | True            |
-	 | True  | False  | False           | 
-	 | False | True   | False           | 
-	 | False | False  | False           | 
+	 | <span style="color:#105AD2">True</span>  | <span style="color:#105AD2">True</span>   | <span style="color:#105AD2">True</span>             |
+	 | <span style="color:#105AD2">True</span>  | <span style="color:#FF0000">False</span>  |<span style="color:#FF0000">False</span>            | 
+	 | <span style="color:#FF0000">False</span> | <span style="color:#105AD2">True</span>   |<span style="color:#FF0000">False</span>            | 
+	 | <span style="color:#FF0000">False</span> | <span style="color:#FF0000">False</span>  |<span style="color:#FF0000">False</span>            | 
 
 - 차집합(difference) $$𝐴−𝐵$$ 또는 $$𝐴∖𝐵$$
 
@@ -184,8 +187,8 @@ nav_order: 1
   ![Venn Diamgram of Complements Sets](/images/Lec_1_complement_set_VD.png)
 
 	 | $$a$$ | $$\neg a$$  | 
-	 | True  | False       | 
-	 | False | True        | 
+	 | <span style="color:#105AD2">True</span>  |<span style="color:#FF0000">False</span>       | 
+	 | <span style="color:#FF0000">False</span> | <span style="color:#105AD2">True</span>        | 
 
 - 연산 법칙
 
@@ -231,7 +234,8 @@ nav_order: 1
 
 
 ## 명제와 논리
-- 핵심만 쏙쏙! 
+
+- ★ 핵심만 쏙쏙! 
 
     {: .note}
 	> '명제'는? 
@@ -242,7 +246,7 @@ nav_order: 1
 
 - 명제(proposition) $$𝑝$$
 
-  - 참(True)/거짓(False) 중 하나의 진리값을 갖는(진리값을 명확하게 구별할 수 있는) 문장 또는 식
+  - 참(<span style="color:#105AD2">True</span>)/거짓(<span style="color:#FF0000"><span style="color:#FF0000">False</span>) 중 하나의 진리값을 갖는(진리값을 명확하게 구별할 수 있는) 문장 또는 식
   
   - cf. 명제 $$𝑝$$의 부정: $$\neg 𝑝$$ 또는 “not $$p$$”
 
@@ -254,23 +258,23 @@ nav_order: 1
 
 - 조건명제 또는 명제함수 $$𝑝(𝑥)$$
 
-  - 변수의 값에 따라 명제의 참(True)/거짓(False)이 판별
+  - 변수의 값에 따라 명제의 참(<span style="color:#105AD2">True</span>)/거짓(<span style="color:#FF0000">False</span>)이 판별
   
   - 어떤 전체집합 $$𝑈$$ (또는 정의역 $$\mathcal{D}$$)의 임의의 원소 $$x \in U $$를 대입하면 명제가 되는 관계식 
 
 - 진리집합(truth set)
 
-  - 명제함수 $$𝑝(𝑥)$$에 대하여, 명제함수를 ‘참(True)’으로 만드는 전체집합 $$𝑈$$에 속한 원소 $$𝑥$$의 집합
+  - 명제함수 $$𝑝(𝑥)$$에 대하여, 명제함수를 ‘참(<span style="color:#105AD2">True</span>)’으로 만드는 전체집합 $$𝑈$$에 속한 원소 $$𝑥$$의 집합
   
-  - 진리집합 $$ 𝑃 = \{ 𝑥 \in 𝑈 \vert 𝑝(𝑥) \text{는 "참(True)"} \} $$
+  - 진리집합 $$ 𝑃 = \{ 𝑥 \in 𝑈 \vert 𝑝(𝑥) \text{는 "참(<span style="color:#105AD2">True</span>)"} \} $$
   
 ### 명제의 연산
 
 - 논리합(disjunction)
 
-  - 두 명제 $$𝑝$$와 $$𝑞$$가 모두 ‘거짓’일 때만 ‘거짓'
+  - 두 명제 $$𝑝$$와 $$𝑞$$가 <span style="color:#FF0000">모두 ‘거짓’</span>일 때만 <span style="color:#FF0000">‘거짓'</span>
 
-    - 다른 경우에는 진리값이 ‘참’인 관계
+    - 다른 경우에는 진리값이 <span style="color:#105AD2">‘참’</span>인 관계
   
   - 논리합의 표현: $$ 𝑝 \lor 𝑞$$ 또는 “𝑝 or 𝑞”
 
@@ -278,43 +282,43 @@ nav_order: 1
 	| T     | T      | T             |
 	| T     | F      | T             |
 	| F     | T      | T             |
-	| F     | F      | F             |
+	| <span style="color:#FF0000">F</span>     | <span style="color:#FF0000">F</span>      | <span style="color:#FF0000">F</span>             |
   
 -  논리곱(conjunction)
 
-  - 두 명제 $$𝑝$$와 $$𝑞$$가 모두 ‘참’일 때만 ‘참'
+  - 두 명제 $$𝑝$$와 $$𝑞$$가 <span style="color:#105AD2">모두 ‘참’</span>일 때만 <span style="color:#105AD2">‘참'</span>
 
-    -  다른 경우에는 진리값이 ‘거짓’인 관계
+    -  다른 경우에는 진리값이 <span style="color:#FF0000">‘거짓’</span>인 관계
 
   - 논리합의 표현: $$𝑝 \land 𝑞$$ 또는 “𝑝 and 𝑞”
 
     | $$p$$ | $$q$$  | $$p \land q $$ |
-	| T     | T      | T               |
+	| <span style="color:#105AD2">T</span>     | <span style="color:#105AD2">T</span>      | <span style="color:#105AD2">T</span>               |
 	| T     | F      | F               |
 	| F     | T      | F               |
 	| F     | F      | F               |
 
 - 배타적(exclusive) 논리합
 
-  - 두 명제 $$𝑝$$와 $$𝑞$$ 중 어느 하나만 ‘참’일 때 ‘참'
+  - 두 명제 $$𝑝$$와 $$𝑞$$ 중 어느 하나만 <span style="color:#105AD2">‘참’</span>일 때 <span style="color:#105AD2">‘참'</span>
 
-    - $$𝑝$$와 $$𝑞$$가 모두 ‘거짓‘일 때 ‘거짓’
+    - $$𝑝$$와 $$𝑞$$가 모두 <span style="color:#FF0000">‘거짓'</span>일 때 <span style="color:#FF0000">‘거짓’</span>
 	
-	- $$𝑝$$와 $$𝑞$$가 모두 ‘참‘일 때 ‘거짓’인 관계
+	- $$𝑝$$와 $$𝑞$$가 모두 <span style="color:#105AD2">‘참'</span>일 때 <span style="color:#FF0000">‘거짓’</span>인 관계
 
   - 배타적 논리합의 표현: $$𝑝 \oplus 𝑞$$ 또는 “𝑝 xor 𝑞”
 
 - 논리합과 배타적 논리합의 비교
 
-  - (포괄적) 논리합은 모두 ‘참‘이어도 ‘참’
+  - (포괄적) 논리합은 모두 <span style="color:#105AD2">‘참'</span>이어도 <span style="color:#105AD2">‘참’</span>
   
-  - 배타적 논리합은 모두 ‘참‘일 때 ‘거짓’
+  - 배타적 논리합은 모두 <span style="color:#105AD2">‘참'</span>일 때 <span style="color:#FF0000">‘거짓’</span>
 
     | $$p$$ | $$q$$  | $$p \oplus q $$ |
-	| T     | T      | F               |
+	| <span style="color:#105AD2">T</span>     | <span style="color:#105AD2">T</span>      | <span style="color:#FF0000">F</span>               |
 	| T     | F      | F               |
 	| F     | T      | F               |
-	| F     | F      | F               |
+	| <span style="color:#FF0000">F</span>     | <span style="color:#FF0000">F</span>      | <span style="color:#FF0000">F</span>               |
 
 
 ### 조건문과 필요조건, 충분조건
@@ -323,21 +327,21 @@ nav_order: 1
 
   - 가정 또는 전제 $$𝑝$$가 ‘참’이라는(성립한다는) 조건에서 결론 또는 결과 $$𝑞$$가 ‘참‘이라고 주장할 때 활용
   
-  - 가정 $$𝑝$$가 ‘참’이고 결론 $$𝑞$$가 ‘거짓‘일 때 $$ 𝑝 \rightarrow 𝑞$$ 는 ‘거짓’
+  - 가정 <span style="color:#105AD2">$$𝑝$$가 ‘참’</span>이고 결론 <span style="color:#FF0000">$$𝑞$$가 ‘거짓'</span>일 때 <span style="color:#FF0000">$$ 𝑝 \rightarrow 𝑞$$ 는 ‘거짓’</span>
   
   - $$ p \rightarrow q $$의 표현: “$$𝑝$$이면 $$𝑞$$이다.”, “IF $$𝑝$$, THEN $$𝑞$$”, “$$𝑝$$ implies $$𝑞$$”
   
-  - cf. 가정 $$𝑝$$가 ‘거짓’이고, 결론 $$𝑞$$가 ‘거짓‘일 때 $$𝑝 \rightarrow 𝑞$$는 ‘참’(why?)
+  - cf. 가정 <span style="color:#FF0000">$$𝑝$$가 ‘거짓’</span>이고, <span style="color:#FF0000">결론 $$𝑞$$가 ‘거짓'</span>일 때 <span style="color:#105AD2">$$𝑝 \rightarrow 𝑞$$는 ‘참’(why?)</span>
 
     | $$p$$ | $$q$$  | $$p \rightarrow q $$ |
 	| T     | T      | T                    |
-	| T     | F      | F                    |
+	| <span style="color:#105AD2">T</span>     | <span style="color:#FF0000">F</span>      | <span style="color:#FF0000">F</span>                    |
 	| F     | T      | T                    |
 	| F     | F      | T                    |
 
 - 필요조건, 충분조건, 필요충분조건
 
-  - 조건문 $$𝑝 \rightarrow 𝑞$$의 진리값이 ‘참(True)’일 때만 성립
+  - 조건문 $$𝑝 \rightarrow 𝑞$$의 진리값이 ‘참(<span style="color:#105AD2">True</span>)’일 때만 성립
   
   - 충분조건(sufficient condition) $$𝑝 \rightarrow 𝑞$$가 ‘참‘일 때, 가정 $$𝑝$$
   
@@ -384,7 +388,7 @@ nav_order: 1
 
 - 조건문 $$𝑝 \rightarrow 𝑞$$ 의 동치: $$\neg p \lor q $$
 
-  - 조건문 $$𝑝 \rightarrow 𝑞$$ 는 가정 $$𝑝$$가 ‘참(True)’이고 결론 $$𝑞$$가 ‘거짓(False)’일 때만 ‘거짓(False)’
+  - 조건문 $$𝑝 \rightarrow 𝑞$$ 는 가정 $$𝑝$$가 ‘참(<span style="color:#105AD2">True</span>)’이고 결론 $$𝑞$$가 ‘거짓(<span style="color:#FF0000">False</span>)’일 때만 ‘거짓(<span style="color:#FF0000">False</span>)’
   
   - “비가 오면, 김치전을 먹는다” $$\equiv$$ “비가 오지 않거나 김치전을 먹는다”
 
@@ -421,7 +425,7 @@ nav_order: 1
 
 - 전칭 한정기호(universal quantifier) $$\forall$$
 
-  - 어떤 변수가 취할 수 있는 모든 값에 대하여 주어진 명제가 ‘참(True)’이라고 주장할 때 활용
+  - 어떤 변수가 취할 수 있는 모든 값에 대하여 주어진 명제가 ‘참(<span style="color:#105AD2">True</span>)’이라고 주장할 때 활용
   
   - $$\forall x p(x)$$: 정의역에 속한 모든 $$𝑥$$의 값에 대하여 $$𝑃(𝑥)$$ “모든 $$𝑥$$에 대하여 $$𝑃(𝑥)$$” 또는 “임의의 $$𝑥$$에 대하여 $$𝑃(𝑥)$$”
   
@@ -468,7 +472,7 @@ nav_order: 1
 
 ## 증명의 기초
 
-- 핵심만 쏙쏙! 
+- ★ 핵심만 쏙쏙! 
 
     {: .note}
 	> '증명'은? 
@@ -514,11 +518,11 @@ nav_order: 1
 
 - 조건문 $$p \rightarrow q $$를 증명하는 절차
 
-  - 전제 $$𝑝$$가 ‘참(True)‘임을 가정
+  - 전제 $$𝑝$$가 ‘참(<span style="color:#105AD2">True</span>)‘임을 가정
   
   - 추론 규칙을 적용하여 논리를 발전
   
-  - 결론 $$𝑞$$가 ‘참(True)’임을 확인
+  - 결론 $$𝑞$$가 ‘참(<span style="color:#105AD2">True</span>)’임을 확인
 
 - 조건문을 증명할 때 논리를 발전시키는 방법
 

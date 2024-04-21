@@ -232,12 +232,12 @@ Learning Objectives
 -   경기자 1의 확률분포를 고려한 경기자 2의 기대보수
 
     -   경기자 2가 '홀'을 선택하면?\
-        $$$$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack = p \times u_{2}(홀,\ 홀) + (1 - p) \times u_{2}(짝,\ 홀)
-        $$$$ $$= p \times (1) + (1 - p) \times ( - 1) = 2p - 1$$
+        $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack = p \times u_{2}(홀,\ 홀) + (1 - p) \times u_{2}(짝,\ 홀)
+        $$ $$= p \times (1) + (1 - p) \times ( - 1) = 2p - 1$$
 
     -   경기자 2가 '짝'을 선택하면?\
-        $$$$E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack = p \times u_{2}(홀,\ 짝) + (1 - p) \times u_{2}(짝,\ 짝)
-        $$$$ $$= p \times ( - 1) + (1 - p) \times (1) = 1 - 2p$$
+        $$E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack = p \times u_{2}(홀,\ 짝) + (1 - p) \times u_{2}(짝,\ 짝)
+        $$ $$= p \times ( - 1) + (1 - p) \times (1) = 1 - 2p$$
 
 ### 기대보수에 따른 대응곡선
 
@@ -504,7 +504,7 @@ Learning Objectives
         *\
         *$$+ q \times u_{2}(바위,\ 가위)$$\
         $$+ (1 - p - q) \times u_{2}(보,\ 가위)$$\
-        $$$$= p \times (0) + q \times ( - 1) + (1 - p - q) \times (1) = - p - 2q + 1$$$$
+        $$= p \times (0) + q \times ( - 1) + (1 - p - q) \times (1) = - p - 2q + 1$$
 
 -   경기자 1의 확률분포를 고려한 경기자 2의 기대보수
 
@@ -513,7 +513,7 @@ Learning Objectives
         *\
         *$$+ q \times u_{2}(바위,\ 바위)$$\
         $$+ (1 - p - q) \times u_{2}(보,\ 바위)$$\
-        $$$$= p \times (1) + q \times (0) + (1 - p - q) \times ( - 1) = 2p + q - 1$$$$
+        $$= p \times (1) + q \times (0) + (1 - p - q) \times ( - 1) = 2p + q - 1$$
 
 -   경기자 1의 확률분포를 고려한 경기자 2의 기대보수
 
@@ -522,7 +522,7 @@ Learning Objectives
         *\
         *$$+ q \times u_{2}(바위,\ 보)$$\
         $$+ (1 - p - q) \times u_{2}(보,\ 보)$$\
-        $$$$= p \times ( - 1) + q \times (1) + (1 - p - q) \times (0) = - p + q$$$$
+        $$= p \times ( - 1) + q \times (1) + (1 - p - q) \times (0) = - p + q$$
 
 -   경기자 2의 기대보수를 같게 하는 경기자 1의 확률분포
 

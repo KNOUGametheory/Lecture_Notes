@@ -15,8 +15,6 @@ nav_order: 6
 
 ## 1.  전개형 게임의 개념
 
-<span style="color:#2C2C2C"> __전개형 게임에서는__ </span>  <span style="color:#2C2C2C"> __‘__ </span>  <span style="color:#2C2C2C"> __순서__ </span>  <span style="color:#2C2C2C"> __’__ </span>  <span style="color:#2C2C2C"> __와 __ </span>  <span style="color:#2C2C2C"> __‘__ </span>  <span style="color:#2C2C2C"> __정보__ </span>  <span style="color:#2C2C2C"> __’__ </span>  <span style="color:#2C2C2C"> __를__ </span>  <span style="color:#2C2C2C"> __게임나무에 반영하자__ </span>  <span style="color:#2C2C2C"> __\!__ </span>
-
 ### 학습목표
 
 Learning Objectives
@@ -28,6 +26,13 @@ Learning Objectives
 * 다음 문제를 생각해보자\.
   * 정규형 게임을 전개형 게임으로 변환할 때 고려사항은?
   * 전개형 게임으로 표현될 수 있는 상황은?
+
+* ★ 핵심만 쏙쏙!
+
+    {: .note}
+	> **전개형 게임에서는 '순서'와 '정보'를 게임나무에 반영하자!**
+
+### 전개형 게임의 구성
 
 * 전개형 게임Extensive\-form Game
   * 선택의 순서가 포함되어 나무\(tree\) 형태로 표현된 게임
@@ -78,6 +83,8 @@ Learning Objectives
   * 정규형 ‘죄수의 딜레마’를 전개형 게임으로 정의 및 표현 가능
   * 게임나무로 표현된 죄수의 딜레마
 
+### 전개형 게임과 정보
+
 * 정보의 종류
   * 완전정보 vs\. 불완전정보perfect information vs\. imperfect information
     * 경기자가 전략을 선택할 때\, 게임의 구성과 선택 상황이전까지 발생한 모든 사건을 정확하게 인지하고\,
@@ -97,7 +104,7 @@ Learning Objectives
     * 이전까지 발생한 사건 중 일부를 모르거나다른 경기자의 특성 또는 유형을 구분하지 못하는 상태
     * 정보집합\(information set\)으로 표현:게임나무에서 경기자 구분하지 못하는 의사결정 마디
 
-전개형 게임과 정규형 게임의 관계
+### 전개형 게임과 정규형 게임의 관계
 
 * 불완전정보 게임으로서 죄수의 딜레마
   * 용의자 1과 용의자 2는 서로 분리되어 의사소통이 불가
@@ -133,8 +140,6 @@ Learning Objectives
 
 ## 2.  역진귀납법
 
-<span style="color:#2C2C2C"> __역진귀납법은__ </span>  <span style="color:#2C2C2C"> __결과를 관찰하고__ </span>  <span style="color:#2C2C2C"> __순서를 거꾸로__ </span>  <span style="color:#2C2C2C"> __\!__ </span>
-
 ### 학습목표
 
 Learning Objectives
@@ -147,6 +152,13 @@ Learning Objectives
   * 역진귀납법으로 발견한 균형은 어떻게 해석할까?
   * 역진귀납법을 적용하지 못할 때는 어떻게 해야 할까?
 
+* ★ 핵심만 쏙쏙!
+
+    {: .note}
+	> **역진귀납법은 결과를 관찰하고 순서를 거꾸로!**
+
+### 역진귀납법의 개념
+
 * 역진귀납법Backward Induction
   * 전개형 게임에서 경기자가 전략을 선택하는 순서를 거꾸로 적용하여 각 의사결정 마디에서 경기자의 전략을 파악
   * 각 결과 마디에 이웃하는 의사결정 마디에서부터게임나무를 거슬러 올라가면서 각 마디에서 전략을 선택
@@ -157,6 +169,8 @@ Learning Objectives
   * 모든 경기자가 “합리적”으로 행동한다고 가정
     * 각 경기자는 자신의 이익 극대화를 추구
     * 전략을 선택할 다른 경기자의 이익을 고려하지 않음
+
+### 역진귀납법의 적용
 
 * 진입\-저지 게임Entry\-Deterrence Game
   * 경기자
@@ -283,8 +297,6 @@ Learning Objectives
 
 ## 3.  부분게임완전균형
 
-<span style="color:#2C2C2C"> __부분게임완전균형은__ </span>  <span style="color:#2C2C2C"> __모든 부분게임에서__ </span>  <span style="color:#2C2C2C"> __내쉬균형__ </span>  <span style="color:#2C2C2C"> __ 조건을 만족__ </span>  <span style="color:#2C2C2C"> __\!__ </span>
-
 ### 학습목표
 
 Learning Objectives
@@ -296,6 +308,13 @@ Learning Objectives
 * 다음 문제를 생각해보자\.
   * 부분게임완전이 아닌 균형은 존재할까?
   * 현실에서 부분게임완전균형을 어떻게 해석해야 할까?
+
+* ★ 핵심만 쏙쏙!
+
+    {: .note}
+	> **부분게임완전균형은 모든 부분게임에서 내쉬균형 조건을 만족!**
+
+### 부분게임완전균형의 개념
 
 * 부분게임subgame
   * 전개형 게임의 일부
@@ -315,6 +334,8 @@ Learning Objectives
   * 모든 부분게임에서 내쉬균형이기 위한 조건을 충족시키는경기자의 각 정보집합에서 결정된 행동 선택의 조합
   * 모든 부분게임에서 경기자가 전략을 변경할 유인이 없는 상태
 
+### 부분게임완전균형의 계산
+
 * 진입\-저지 게임
   * 부분게임: 전체 게임과 경기자 2가 결정하는 부분게임
   * 내쉬균형: 경기자 1은 ‘진입’\, 경기자 2는 ‘수용’  \(진입\, 수용\)
@@ -328,6 +349,8 @@ Learning Objectives
 * 진입\-저지 게임
   * \(진입\, 수용\)은 모든 부분게임에서 전략을 변경할 유인 없음
   * \(진입\, 수용\)은 진입\-저지 게임의 유일한 부분게임완전균형
+
+### 부분게임완전균형의 적용
 
 * 순차적 성대결게임Sequential Battle\-of\-the\-sexes game
   * 경기자: 데이트 장소를 정하려는 두 데이트 메이트\(DM\)

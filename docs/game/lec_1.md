@@ -7,31 +7,27 @@ nav_order: 1
 
 # 게임이론의 짧은 역사와 주요 개념
 
-## 학습개요
+<!-- ## 학습개요
 
-게임이론의 주요 개념을 이론의 발전과정과 함께 학습한다.
+게임이론의 주요 개념을 이론의 발전과정과 함께 학습한다. -->
 
-## 학습목표
 
-1.  게임 이론은 무엇을 할 수 있는 지 설명할 수 있다.
 
-2.  게임의 세 가지 구성 요소를 설명할 수 있다.
+<!-- ## 주요 용어
 
-3.  내쉬 균형의 아이디어를 설명할 수 있다.
+내쉬 균형, 정규형 또는 전략형 게임, 전개형 게임, 부분 게임 완전 균형, 베이지언 게임, 메커니즘 설계, 진화 게임 -->
 
-4.  전개형 게임의 특징을 설명할 수 있다.
+## 1. 게임 이론의 등장
 
-5.  경매의 기능을 설명할 수 있다.
+### 학습 목표
 
-6.  메커니즘 설계의 아이디어를 설명할 수 있다.
+- 게임 이론은 무엇을 할 수 있는 지 설명할 수 있다.
 
-7.  진화 게임의 아이디어를 설명할 수 있다.
+- 게임의 세 가지 구성 요소를 설명할 수 있다.
 
-## 주요 용어
+- 내쉬 균형의 아이디어를 설명할 수 있다.
 
-내쉬 균형, 정규형 또는 전략형 게임, 전개형 게임, 부분 게임 완전 균형, 베이지언 게임, 메커니즘 설계, 진화 게임
-
-## 게임 이론의 등장
+### 게임 이론의 시작
 
 -   힐베르트(David Hilbert, 1862--1943)
 
@@ -102,6 +98,9 @@ nav_order: 1
     > "이 책의 목적은 지금까지 문헌에서 찾을 수 있는 것과는 다른 처리를 필요로 하는 경제 이론의 근본적인 질문에 관한 논의를 제시하는 것이다. ... "로빈슨 크루소\" 모형으로 대표되는 형태의 경제, 하나의 의지를 가진 고립되어 있는 단일한 개인 또는 조직의 경제 ... 사회적 교환 경제의 참여자, ... 극대화 문제와 많은 요소에서 유사성이 있지만, ... 이를 달성하기 위해서는 다른 사람과의 교환 관계에 참여해야만 한다 [[1]](#1).\" 
 	<!-- @Neumann:2007aa, pp. 30--37] -->
  
+
+### 게임의 구성 요소와 균형
+
 -   게임: 전략적 상황에서의 의사 결정
 
     -   전략적 상황
@@ -250,6 +249,12 @@ nav_order: 1
 
 ## 게임 이론의 발전
 
+### 학습 목표 
+
+- 전개형 게임의 특징을 설명할 수 있다.
+
+### 전개형 게임
+
 -   각 경기자의 행동이나 전략 선택이 동시에(simultaneously) 일어나는것이 아나라 순서를 두고(sequentially) 일어나다면 $$\rightarrow$$ 전개형 게임(extensive-form game) 또는 동태적(dynamic) 게임이라고도 함
 
     -   경기자의 움직임에 따른 순서가 있고, 경기자는 언제 의사 결정을 해야 하는 지 알고 있음
@@ -338,6 +343,8 @@ nav_order: 1
 
         -   $$\rightarrow$$ 다른 표현으로 조정 실패(coordination failure)
 
+### 반복 게임과 부분 게임
+
 -   반복 게임(repeated game)
 
     -   상대 경기자가 협력할 것이라는 믿음(belief)을 어떻게 가질 수 있을까?
@@ -375,6 +382,8 @@ nav_order: 1
         A Nash equilibrium is **subgame-perfect** if the players' strategies constitute a Nash equilibrium in every subgame [[12]](#12).
 
     -   $$\rightarrow$$ 정치화: 부분 게임 완전 내쉬 균형(SPNE)은 내쉬 균형보다 더 강한 개념
+
+### 정보와 베이지언 게임
 
 -   정보 집합(information set)
 
@@ -424,6 +433,17 @@ nav_order: 1
 
 ## 게임 이론의 확장
 
+### 학습 목표
+
+- 경매의 기능을 설명할 수 있다.
+
+- 메커니즘 설계의 아이디어를 설명할 수 있다.
+
+- 진화 게임의 아이디어를 설명할 수 있다.
+
+
+### 경매
+
 -   경제학에서의 응용
 
     -   산업조직론(industrial organization): 시장 구조와 경쟁 모형(과점, 쌍방 독점, 답합 등)
@@ -462,6 +482,8 @@ nav_order: 1
             **(The Revenue Equivalence Principle)** Suppose that values are independently and identically distributed and all bidders are risk neutral. Then any symmetric and increasing equilibrium of any standard auction, such that the expected payment of a bidder with value zero is zero, yields the same expected revenue to the seller.  [[16]](#16).
 
 <!-- Yasuda2015aa Any auction formats that results in the same (1) allocation and (2) the expected payoff of the lowest value type, yields identical expected revenue. -->
+
+### 메커니즘 설계
 
 -   메커니즘 설계(mechanism design)
 
@@ -537,6 +559,8 @@ nav_order: 1
     -   게임 이론을 적극적으로 활용
 
     -   시장이 잘 작동할 수 있도록 제도를 새로 또는 다시 설계
+
+### 협상과 진화 게임
 
 -   협상(bargaining)
 

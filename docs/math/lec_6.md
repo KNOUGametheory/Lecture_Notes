@@ -538,7 +538,7 @@ $$
 - 표를 완성하면
 
   ![예시표](/images/Lec_6_2_8.png)
-
+  
 $$P(B_{1})=0.4\times0.2+0.2\times0.5+0.1\times0.3=0.21$$
 
 $$P(B_{2})=0.15\times0.2+0.4\times0.5+0.3\times0.3=0.32$$
@@ -552,25 +552,25 @@ $$P(B_{4})=0.1\times0.2+0.25\times0.5+0.15\times0.3=0.19$$
 
 - 상호배반이며 전체를 이루는 가능한 가설 $$n$$개 있다고 하자.
 
-$$\sum_{i=1}^{n}P(H_{i})=1$$
+    $$\sum_{i=1}^{n}P(H_{i})=1$$
 
 ### 사후확률(posterior probability) 또는 갱신될 확률(updated probability)
 
 - 사건 $$E$$가 발생했다는 정보를 접하면 $$H_{i}$$가 참인 가설일 조건부확률
 
-$$P(H_{i}\vert E)=\frac{P(E\vert H_{i})P(H_{i})}{\sum_{j=1}^{n}P(E\vert H_{j})P(H_{j})}$$
+    $$P(H_{i}\vert E)=\frac{P(E\vert H_{i})P(H_{i})}{\sum_{j=1}^{n}P(E\vert H_{j})P(H_{j})}$$
 
 - $$E_{1}$$ 발생
 
 	- 사건 $$E_{1}$$가 발생했다는 정보를 접하면 $$H_{i}$$가 참인 가설일 조건부확률
-
-$$P(H_{i}\vert E_{1})=\frac{P(E_{1}\vert H_{i})P(H_{i})}{\sum_{j=1}^{n}P(E_{1}\vert H_{j})P(H_{j})}$$	
+	
+	$$P(H_{i}\vert E_{1})=\frac{P(E_{1}\vert H_{i})P(H_{i})}{\sum_{j=1}^{n}P(E_{1}\vert H_{j})P(H_{j})}$$	
 
 - $$E_{1}$$ 발생 후 $$E_{2}$$ 발생 $$\rightarrow$$ $$E_{1}E_{2}=E_{1}\cap E_{2}$$
 
 	- 추가로 사건 $$E_{2}$$가 발생했다는 정보를 접하면 $$H_{i}$$가 참인 가설일 조건부확률
-
-$$P(H_{i}\vert E_{1}E_{2})=\frac{P(E_{1}E_{2}\vert H_{i})P(H_{i})}{\sum_{j=1}^{n}P(E_{1}E_{2}\vert H_{j})P(H_{j})}$$
+	
+	$$P(H_{i}\vert E_{1}E_{2})=\frac{P(E_{1}E_{2}\vert H_{i})P(H_{i})}{\sum_{j=1}^{n}P(E_{1}E_{2}\vert H_{j})P(H_{j})}$$
 
 - $$E_{1}$$과 $$E_{2}$$가 조건부 독립이라면
 

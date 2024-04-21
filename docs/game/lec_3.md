@@ -91,7 +91,7 @@ nav_order: 3
         $$\pi_{1} = \left\lbrack (a - Q) - c \right\rbrack q_{1}$$\
         $$= \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{1} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{1}$$
 
-  * $$\pi_{1}$$을 최대화하는 생산량 $$q_{1}$$이 충족하는 조건은?
+    -   $$\pi_{1}$$을 최대화하는 생산량 $$q_{1}$$이 충족하는 조건은?
 
 	일계조건(First-order condition) $$\left. \frac{\partial\pi_{1}}{\partial q_{1}} \right|_{q_1 = q_1^*} = 0$$
 
@@ -110,3 +110,15 @@ nav_order: 3
    $a_{b_{c}}$
 
 
+* hihi
+
+  * hello
+
+	letsgogo
+
+
+-   gogogo
+
+    -   hohoho
+
+	hohoho

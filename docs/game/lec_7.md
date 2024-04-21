@@ -110,8 +110,8 @@ Learning Objectives
 
         -   일계조건(First-order condition)
             $$\left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = \widetilde{q_2}} = 0$$\
-            $$$$\frac{\partial\pi_{2}}{\partial q_{2}} = - q_{2} + \left\lbrack a - c - q_{1} - q_{2} \right\rbrack = a - c - q_{1} - 2q_{2}
-            \left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = \widetilde{q_2}} = 0$$$$
+            $$\frac{\partial\pi_{2}}{\partial q_{2}} = - q_{2} + \left\lbrack a - c - q_{1} - q_{2} \right\rbrack = a - c - q_{1} - 2q_{2}
+            \left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = \widetilde{q_2}} = 0$$
             🡪 $$\widetilde{q_{2}} = \frac{a - c - q_{1}}{2}$$\
             기업 1의 생산량에 대한 기업 2의 최적 대응
 
@@ -144,8 +144,8 @@ Learning Objectives
 
         -   일계조건(First-order condition)
             $$\left. \ \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right\vert_{q_1 = \widehat{q_1}} = 0$$\
-            $$$$\frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} = - \frac{q_{1}}{2} + \frac{a - c - q_{1}}{2} = \frac{a - c}{2} - q_{1}
-            \left. \ \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right\vert_{q_1 = \widehat{q_1}} = 0$$$$
+            $$\frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} = - \frac{q_{1}}{2} + \frac{a - c - q_{1}}{2} = \frac{a - c}{2} - q_{1}
+            \left. \ \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right\vert_{q_1 = \widehat{q_1}} = 0$$
             🡪 $$\widehat{q_{1}} = \frac{a - c}{2}$$
 
 -   모형의 풀이 (계속)
@@ -451,11 +451,11 @@ Learning Objectives
 
     -   위치 $$x$$에 거주하는 소비자가 상점 $$i$$에서 상품을 구매한 효용
 
-        -   상점 1에서 상품을 구입한 소비자의 효용*\
-            *$$$$u_{c}\left( x,\ P_{1};y_{1} = a \right) = v - \left( P_{1} + t(x - a)^{2} \right)$$$$
+        -   상점 1에서 상품을 구입한 소비자의 효용
+            $$u_{c}\left( x,\ P_{1};y_{1} = a \right) = v - \left( P_{1} + t(x - a)^{2} \right)$$
 
-        -   상점 2에서 상품을 구입한 소비자의 효용*\
-            *$$$$u_{c}\left( x,\ P_{2};y_{2} = 1 - b \right) = v - \left( P_{2} + t\left( x - (1 - b) \right)^{2} \right)$$$$
+        -   상점 2에서 상품을 구입한 소비자의 효용
+            $$u_{c}\left( x,\ P_{2};y_{2} = 1 - b \right) = v - \left( P_{2} + t\left( x - (1 - b) \right)^{2} \right)$$
 
 -   두 상점이 무차별한 소비자의 위치
 
@@ -544,9 +544,9 @@ Learning Objectives
         -   $$\widehat{P_{2}}\ $$ 🡪
             $$\widehat{P_{1}}\left( P_{2} \right)$$에 대입 후 정리
 
-$$$$2P_{1} = \frac{1}{2}\left\lbrack P_{1} + c + t(1 - a - b)(1 - a + b) \right\rbrack + c + t(1 - a - b)(1 + a - b)$$$$
+$$2P_{1} = \frac{1}{2}\left\lbrack P_{1} + c + t(1 - a - b)(1 - a + b) \right\rbrack + c + t(1 - a - b)(1 + a - b)$$
 
-$$$$4P_{1} = P_{1} + c + t(1 - a - b)(1 - a + b) + 2c + 2t(1 - a - b)(1 + a - b)$$$$
+$$4P_{1} = P_{1} + c + t(1 - a - b)(1 - a + b) + 2c + 2t(1 - a - b)(1 + a - b)$$
 
 $$3P_{1} = 3c + t(1 - a - b)\left( 1 - a + b + 2(1 + a - b) \right)$$
 

@@ -89,7 +89,14 @@ nav_order: 3
 
   * 시장의 역수요함수($$P = a - Q$$)를 $$\pi_{1}$$에 대입
 
-	$ $$\pi_{1} = \left\lbrack (a - Q) - c \right\rbrack q_{1}$$ $
+	$$ 
+	\begin{flalign}
+	\pi_{1} = \left\lbrack (a - Q) - c \right\rbrack q_{1}
+	\end{flalign}
+	$$
+
+
+	$$\pi_{1} = \left\lbrack (a - Q) - c \right\rbrack q_{1}$$
 
 	$$    = \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{1} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{1}$$
 

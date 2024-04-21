@@ -101,8 +101,8 @@ Learning Objectives
         (여기에서, $c$는 생산의 평균 비용이자 한계 비용)
 
     -   시장의 수요 함수($P = a - Q$)를 $\pi_{2}$에 대입\
-        $\pi_{2} = \left\lbrack (a - Q) - c \right\rbrack q_{2}$ *\
-        *$= \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{2} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{2}$
+        $\pi_{2} = \left\lbrack (a - Q) - c \right\rbrack q_{2}$ 
+        $= \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{2} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{2}$
 
 -   모형의 풀이 (계속)
 

@@ -133,10 +133,10 @@ nav_order: 1
 	 ![Venn Diamgram of Union Sets](/images/Lec_1_Union_set_VD.png)
 
 	 | $$a$$ | $$b$$  | $$a \lor b $$ |
-	 | <span style="color:#105AD2">True</span>  | <span style="color:#105AD2">True</span>   | <span style="color:#105AD2">True</span>           |
-	 | <span style="color:#105AD2">True</span>  | <span style="color:#FF0000">False</span>  | <span style="color:#105AD2">True</span>           |
-	 | <span style="color:#FF0000">False</span> | <span style="color:#105AD2">True</span>   | <span style="color:#105AD2">True</span>           |
-	 | <span style="color:#FF0000">False</span> | <span style="color:#FF0000">False</span>  |<span style="color:#FF0000">False</span>         | 
+	 | True  | True   | <span style="color:#105AD2">True</span>           |
+	 | True  | False  | <span style="color:#105AD2">True</span>           |
+	 | False | True   | <span style="color:#105AD2">True</span>           |
+	 | False | False  |<span style="color:#FF0000">False</span>         | 
 
 - 교집합(intersection) $$ 𝐴 \cap 𝐵 $$
   
@@ -151,10 +151,10 @@ nav_order: 1
 	 ![Venn Diamgram of Intersection Sets](/images/Lec_1_Intersection_set_VD.png)
 
 	 | $$a$$ | $$b$$  | $$a \land b $$ |
-	 | <span style="color:#105AD2">True</span>  | <span style="color:#105AD2">True</span>   | <span style="color:#105AD2">True</span>             |
-	 | <span style="color:#105AD2">True</span>  | <span style="color:#FF0000">False</span>  |<span style="color:#FF0000">False</span>            | 
-	 | <span style="color:#FF0000">False</span> | <span style="color:#105AD2">True</span>   |<span style="color:#FF0000">False</span>            | 
-	 | <span style="color:#FF0000">False</span> | <span style="color:#FF0000">False</span>  |<span style="color:#FF0000">False</span>            | 
+	 | True  | True   | <span style="color:#105AD2">True</span>             |
+	 | True  | False  |<span style="color:#FF0000">False</span>            | 
+	 | False | True   |<span style="color:#FF0000">False</span>            | 
+	 | False | False  |<span style="color:#FF0000">False</span>            | 
 
 - 차집합(difference) $$𝐴−𝐵$$ 또는 $$𝐴∖𝐵$$
 
@@ -187,8 +187,8 @@ nav_order: 1
   ![Venn Diamgram of Complements Sets](/images/Lec_1_complement_set_VD.png)
 
 	 | $$a$$ | $$\neg a$$  | 
-	 | <span style="color:#105AD2">True</span>  |<span style="color:#FF0000">False</span>       | 
-	 | <span style="color:#FF0000">False</span> | <span style="color:#105AD2">True</span>        | 
+	 | True  |<span style="color:#FF0000">False</span>       | 
+	 | False | <span style="color:#105AD2">True</span>        | 
 
 - 연산 법칙
 
@@ -246,7 +246,7 @@ nav_order: 1
 
 - 명제(proposition) $$𝑝$$
 
-  - 참(<span style="color:#105AD2">True</span>)/거짓(<span style="color:#FF0000"><span style="color:#FF0000">False</span>) 중 하나의 진리값을 갖는(진리값을 명확하게 구별할 수 있는) 문장 또는 식
+  - 참(<span style="color:#105AD2">True</span>)/거짓(<span style="color:#FF0000">False</span>) 중 하나의 진리값을 갖는(진리값을 명확하게 구별할 수 있는) 문장 또는 식
   
   - cf. 명제 $$𝑝$$의 부정: $$\neg 𝑝$$ 또는 “not $$p$$”
 
@@ -266,7 +266,7 @@ nav_order: 1
 
   - 명제함수 $$𝑝(𝑥)$$에 대하여, 명제함수를 ‘참(<span style="color:#105AD2">True</span>)’으로 만드는 전체집합 $$𝑈$$에 속한 원소 $$𝑥$$의 집합
   
-  - 진리집합 $$ 𝑃 = \{ 𝑥 \in 𝑈 \vert 𝑝(𝑥) \text{는 "참(<span style="color:#105AD2">True</span>)"} \} $$
+  - 진리집합 $$ 𝑃 = \{ 𝑥 \in 𝑈 \vert 𝑝(𝑥) \text{는 "참(True)"} \} $$
   
 ### 명제의 연산
 

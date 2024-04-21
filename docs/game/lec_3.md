@@ -68,8 +68,7 @@ nav_order: 3
 
 -   쿠르노 복점 모형(Cournot(1838) Duopoly Model)
 
-    -   두 기업이 제품을 공급하는 과점인 복점(duopoly)에서\
-        생산량으로 경쟁하는 상황을 모형화
+    -   두 기업이 제품을 공급하는 과점인 복점(duopoly)에서 생산량으로 경쟁하는 상황을 모형화
 
     -   경쟁의 결과 및 영향, 담합의 안정성 등 설명 가능
 
@@ -84,12 +83,15 @@ nav_order: 3
 
 -   모형의 풀이
 
-    -   기업 1의 이윤 $$\pi_{1} = Pq_{1} - cq_{1} = (P - c)q_{1}$$\
+    -   기업 1의 이윤 $$\pi_{1} = Pq_{1} - cq_{1} = (P - c)q_{1}$$
+        
         (여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
 
-    -   시장의 역수요함수($$P = a - Q$$)를 $$\pi_{1}$$에 대입\
-        $$\pi_{1} = \left\lbrack (a - Q) - c \right\rbrack q_{1}$$\
-        $$= \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{1} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{1}$$
+    -   시장의 역수요함수($$P = a - Q$$)를 $$\pi_{1}$$에 대입
+
+        $$\pi_{1} = \left\lbrack (a - Q) - c \right\rbrack q_{1}$$
+
+        $$    = \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{1} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{1}$$
 
     -   $$\pi_{1}$$을 최대화하는 생산량 $$q_{1}$$이 충족하는 조건은?
 

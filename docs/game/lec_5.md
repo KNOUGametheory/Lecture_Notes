@@ -55,34 +55,34 @@ Learning Objectives
 -   전략 조합 1: (홀, 홀)
 
     -   경기자 1의 입장: 전략을 바꿀 유인 있음(홀 🡪 짝)\
-        $u_{1}(홀,\ 홀) = - 1 < u_{1}(짝,\ 홀) = 1$
+        $$u_{1}(홀,\ 홀) = - 1 < u_{1}(짝,\ 홀) = 1$$
 
     -   경기자 2의 입장: 전략을 바꿀 유인 없음\
-        $u_{2}(홀,\ 홀) = 1 \geq u_{2}(홀,\ 짝) = - 1$
+        $$u_{2}(홀,\ 홀) = 1 \geq u_{2}(홀,\ 짝) = - 1$$
 
 -   전략 조합 2: (홀, 짝)
 
     -   경기자 1의 입장: 전략을 바꿀 유인 없음\
-        $u_{1}(홀,\ 짝) = 1 \geq u_{1}(짝,짝) = - 1$
+        $$u_{1}(홀,\ 짝) = 1 \geq u_{1}(짝,짝) = - 1$$
 
     -   경기자 2의 입장: 전략을 바꿀 유인 있음(짝 🡪 홀)\
-        $u_{2}(홀,\ 짝) = - 1 < u_{2}(홀,\ 홀) = 1$
+        $$u_{2}(홀,\ 짝) = - 1 < u_{2}(홀,\ 홀) = 1$$
 
 -   전략 조합 3: (짝, 홀)
 
     -   경기자 1의 입장: 전략을 바꿀 유인 없음\
-        $u_{1}(짝,\ 홀) = 1 \geq u_{1}(홀,\ 홀) = - 1$
+        $$u_{1}(짝,\ 홀) = 1 \geq u_{1}(홀,\ 홀) = - 1$$
 
     -   경기자 2의 입장: 전략을 바꿀 유인 있음(홀 🡪 짝)\
-        $u_{2}(짝,\ 홀) = - 1 < u_{2}(짝,\ 짝) = 1$
+        $$u_{2}(짝,\ 홀) = - 1 < u_{2}(짝,\ 짝) = 1$$
 
 -   전략 조합 4: (짝, 짝)
 
     -   경기자 1의 입장: 전략을 바꿀 유인 있음(짝 🡪 홀)\
-        $u_{1}(짝,\ 짝) = - 1 < u_{1}(홀,짝) = 1$
+        $$u_{1}(짝,\ 짝) = - 1 < u_{1}(홀,짝) = 1$$
 
     -   경기자 2의 입장: 전략을 바꿀 유인 없음\
-        $u_{2}(짝,\ 짝) = 1 \geq u_{2}(짝,\ 홀) = - 1$
+        $$u_{2}(짝,\ 짝) = 1 \geq u_{2}(짝,\ 홀) = - 1$$
 
 
 
@@ -111,15 +111,15 @@ Learning Objectives
         🡪 주사위를 던져서 홀수가 나오면 '홀', 짝수가 나오면 '짝'
 
     -   주사위를 던질 때 표본공간
-        $S = \left\{ 1,\ 2,\ 3,\ 4,\ 5,\ 6 \right\}$
+        $$S = \left\{ 1,\ 2,\ 3,\ 4,\ 5,\ 6 \right\}$$
 
-홀수 $O = \left\{ 1,\ 3,\ 5 \right\}$, 홀수가 나올 확률
-$\Pr\left\{ O \right\} = \frac{n(O)}{n(S)} = \frac{3}{6} = \frac{1}{2}$
+홀수 $$O = \left\{ 1,\ 3,\ 5 \right\}$$, 홀수가 나올 확률
+$$\Pr\left\{ O \right\} = \frac{n(O)}{n(S)} = \frac{3}{6} = \frac{1}{2}$$
 
-짝수 $E = \left\{ 2,\ 4,\ 6 \right\}$, 짝수가 나올 확률
-$\Pr\left\{ E \right\} = \frac{n(E)}{n(S)} = \frac{3}{6} = \frac{1}{2}$
+짝수 $$E = \left\{ 2,\ 4,\ 6 \right\}$$, 짝수가 나올 확률
+$$\Pr\left\{ E \right\} = \frac{n(E)}{n(S)} = \frac{3}{6} = \frac{1}{2}$$
 
--   '홀'을 선택할 확률 $\frac{1}{2}$, '짝'을 선택할 확률 $\frac{1}{2}$
+-   '홀'을 선택할 확률 $$\frac{1}{2}$$, '짝'을 선택할 확률 $$\frac{1}{2}$$
 
 -   혼합전략 예시 2
 
@@ -128,15 +128,15 @@ $\Pr\left\{ E \right\} = \frac{n(E)}{n(S)} = \frac{3}{6} = \frac{1}{2}$
         '6의 약수가 아닌 수'가 나오면 '짝'
 
     -   주사위를 던질 때 표본공간
-        $S = \left\{ 1,\ 2,\ 3,\ 4,\ 5,\ 6 \right\}$
+        $$S = \left\{ 1,\ 2,\ 3,\ 4,\ 5,\ 6 \right\}$$
 
-6의 약수 $A = \left\{ 1,\ 2,\ 3,\ 6 \right\}$ 🡪
-$\Pr\left\{ A \right\} = \frac{n(A)}{n(S)} = \frac{4}{6} = \frac{2}{3}$
+6의 약수 $$A = \left\{ 1,\ 2,\ 3,\ 6 \right\}$$ 🡪
+$$\Pr\left\{ A \right\} = \frac{n(A)}{n(S)} = \frac{4}{6} = \frac{2}{3}$$
 
-6의 약수가 아닌 수 $B = \overline{A} = \left\{ 4,\ 5 \right\}$ 🡪
-$\Pr\left\{ B \right\} = \frac{n(B)}{n(S)} = \frac{2}{6} = \frac{1}{3}$
+6의 약수가 아닌 수 $$B = \overline{A} = \left\{ 4,\ 5 \right\}$$ 🡪
+$$\Pr\left\{ B \right\} = \frac{n(B)}{n(S)} = \frac{2}{6} = \frac{1}{3}$$
 
--   '홀'을 선택할 확률 $\frac{2}{3}$, '짝'을 선택할 확률 $\frac{1}{3}$
+-   '홀'을 선택할 확률 $$\frac{2}{3}$$, '짝'을 선택할 확률 $$\frac{1}{3}$$
 
 
 ### 혼합전략과 합리화전략
@@ -144,21 +144,21 @@ $\Pr\left\{ B \right\} = \frac{n(B)}{n(S)} = \frac{2}{6} = \frac{1}{3}$
 -   최적 대응\
     Best Response
 
-    -   경기자 $i$를 제외한 다른 경기자 $- i$의 전략이 주어졌을 때,
-        경기자 $i$의 다른 모든 전략보다 '크거나 같은' 보수를 주는 전략
+    -   경기자 $$i$$를 제외한 다른 경기자 $$- i$$의 전략이 주어졌을 때,
+        경기자 $$i$$의 다른 모든 전략보다 '크거나 같은' 보수를 주는 전략
 
-    -   경기자 $i$의 전략 $\widehat{\sigma_{i}}$는 다른 경기자 $- i$의
-        전략(조합) $\sigma_{- i}$에\
+    -   경기자 $$i$$의 전략 $$\widehat{\sigma_{i}}$$는 다른 경기자 $$- i$$의
+        전략(조합) $$\sigma_{- i}$$에\
         대한 최적대응 if
-        $u_{i}\left( \widehat{\sigma_{i}},\ \sigma_{- i} \right) \geq u_{i}\left( \sigma_{i},\ \sigma_{- i} \right)$
-        $\forall\sigma_{i} \in S_{i}$를\
-        만족시키는 $\sigma_{- i}$가 존재
+        $$u_{i}\left( \widehat{\sigma_{i}},\ \sigma_{- i} \right) \geq u_{i}\left( \sigma_{i},\ \sigma_{- i} \right)$$
+        $$\forall\sigma_{i} \in S_{i}$$를\
+        만족시키는 $$\sigma_{- i}$$가 존재
 
 예) 홀짝 게임에서 경기자 1의 최적 대응
 
-경기자 2가 '홀'을 선택? $u_{1}(짝,\ 홀) = 1 \geq u_{1}(홀,\ 홀) = - 1$
+경기자 2가 '홀'을 선택? $$u_{1}(짝,\ 홀) = 1 \geq u_{1}(홀,\ 홀) = - 1$$
 
-경기자 2가 '짝'을 선택? $u_{1}(홀,\ 짝) = 1 \geq u_{1}(짝,\ 짝) = - 1$
+경기자 2가 '짝'을 선택? $$u_{1}(홀,\ 짝) = 1 \geq u_{1}(짝,\ 짝) = - 1$$
 
 -   합리화전략\
     Rationalizable Strategy
@@ -167,7 +167,7 @@ $\Pr\left\{ B \right\} = \frac{n(B)}{n(S)} = \frac{2}{6} = \frac{1}{3}$
 
     -   다른 경기자의 선택에 최적 대응을 선택하는 것이 합리적!
 
-    -   경기자 $i$의 입장에서 '합리적'으로 판단할 때,\
+    -   경기자 $$i$$의 입장에서 '합리적'으로 판단할 때,\
         절대로 선택되지 않을 전략을 제외하고 남은 전략의 집합
 
     -   혼합전략은 합리화전략의 혼합\
@@ -213,89 +213,89 @@ Learning Objectives
 
 -   홀짝 게임에서 경기자 1의 확률분포
 
-    -   $p$: 경기자 1이 '홀'을 선택할 확률
+    -   $$p$$: 경기자 1이 '홀'을 선택할 확률
 
-    -   $1 - p$: 경기자 1이 '짝'을 선택할 확률
+    -   $$1 - p$$: 경기자 1이 '짝'을 선택할 확률
 
 -   홀짝 게임에서 경기자 1의 혼합전략
 
-    -   $p = 0$: 경기자 1이 확정적으로 '짝'을 선택
+    -   $$p = 0$$: 경기자 1이 확정적으로 '짝'을 선택
 
-    -   $p = \frac{1}{3}$: {홀, 짝, 짝} 주머니에서 임의로 제비를 뽑아
+    -   $$p = \frac{1}{3}$$: {홀, 짝, 짝} 주머니에서 임의로 제비를 뽑아
         선택
 
-    -   $p = \frac{2}{3}$: {홀, 홀, 짝} 주머니에서 임의로 제비를 뽑아
+    -   $$p = \frac{2}{3}$$: {홀, 홀, 짝} 주머니에서 임의로 제비를 뽑아
         선택
 
-    -   $p = 1$: 경기자 1이 확정적으로 '홀'을 선택
+    -   $$p = 1$$: 경기자 1이 확정적으로 '홀'을 선택
 
 -   경기자 1의 확률분포를 고려한 경기자 2의 기대보수
 
     -   경기자 2가 '홀'을 선택하면?\
-        $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack = p \times u_{2}(홀,\ 홀) + (1 - p) \times u_{2}(짝,\ 홀)
-        $$ $= p \times (1) + (1 - p) \times ( - 1) = 2p - 1$
+        $$$$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack = p \times u_{2}(홀,\ 홀) + (1 - p) \times u_{2}(짝,\ 홀)
+        $$$$ $$= p \times (1) + (1 - p) \times ( - 1) = 2p - 1$$
 
     -   경기자 2가 '짝'을 선택하면?\
-        $$E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack = p \times u_{2}(홀,\ 짝) + (1 - p) \times u_{2}(짝,\ 짝)
-        $$ $= p \times ( - 1) + (1 - p) \times (1) = 1 - 2p$
+        $$$$E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack = p \times u_{2}(홀,\ 짝) + (1 - p) \times u_{2}(짝,\ 짝)
+        $$$$ $$= p \times ( - 1) + (1 - p) \times (1) = 1 - 2p$$
 
 ### 기대보수에 따른 대응곡선
 
 -   경기자 2의 기대보수를 고려한 최적 대응
 
-    -   경기자 1의 확률분포: $Pr\ \left\{ 홀 \right\} = p$,
-        $Pr\ \left\{ 짝 \right\} = 1 - p$
+    -   경기자 1의 확률분포: $$Pr\ \left\{ 홀 \right\} = p$$,
+        $$Pr\ \left\{ 짝 \right\} = 1 - p$$
 
     -   경기자 2의 기대보수\
-        $E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack = 2p - 1$,
-        $E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack = 1 - 2p$
+        $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack = 2p - 1$$,
+        $$E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack = 1 - 2p$$
 
-    -   경기자 2의 확률분포: $Pr\ \left\{ 홀 \right\} = q$,
-        $Pr\ \left\{ 짝 \right\} = 1 - q$
+    -   경기자 2의 확률분포: $$Pr\ \left\{ 홀 \right\} = q$$,
+        $$Pr\ \left\{ 짝 \right\} = 1 - q$$
 
-    -   $E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack > E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$
-        $\Leftrightarrow$ $p > \frac{1}{2}$ 🡪 $q = 1$\
-        $E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack = E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$
-        $\Leftrightarrow$ $p = \frac{1}{2}$ 🡪 any
-        $q \in \lbrack 0,\ 1\rbrack$\
-        $E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack < E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$
-        $\Leftrightarrow$ $p < \frac{1}{2}$ 🡪 $q = 0$
+    -   $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack > E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$$
+        $$\Leftrightarrow$$ $$p > \frac{1}{2}$$ 🡪 $$q = 1$$\
+        $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack = E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$$
+        $$\Leftrightarrow$$ $$p = \frac{1}{2}$$ 🡪 any
+        $$q \in \lbrack 0,\ 1\rbrack$$\
+        $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack < E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$$
+        $$\Leftrightarrow$$ $$p < \frac{1}{2}$$ 🡪 $$q = 0$$
 
 -   경기자 2의 대응곡선
 
-    -   $E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack > E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$
-        $\Leftrightarrow$ $p > \frac{1}{2}$ 🡪 $q = 1$\
-        $E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack = E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$
-        $\Leftrightarrow$ $p = \frac{1}{2}$ 🡪 any
-        $q \in \lbrack 0,\ 1\rbrack$\
-        $E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack < E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$
-        $\Leftrightarrow$ $p < \frac{1}{2}$ 🡪 $q = 0$
+    -   $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack > E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$$
+        $$\Leftrightarrow$$ $$p > \frac{1}{2}$$ 🡪 $$q = 1$$\
+        $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack = E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$$
+        $$\Leftrightarrow$$ $$p = \frac{1}{2}$$ 🡪 any
+        $$q \in \lbrack 0,\ 1\rbrack$$\
+        $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack < E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$$
+        $$\Leftrightarrow$$ $$p < \frac{1}{2}$$ 🡪 $$q = 0$$
 
 -   경기자 1의 기대보수를 고려한 최적 대응
 
-    -   경기자 2의 확률분포: $Pr\ \left\{ 홀 \right\} = q$,
-        $Pr\ \left\{ 짝 \right\} = 1 - q$
+    -   경기자 2의 확률분포: $$Pr\ \left\{ 홀 \right\} = q$$,
+        $$Pr\ \left\{ 짝 \right\} = 1 - q$$
 
     -   경기자 1의 기대보수\
-        $E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack = 1 - 2q$,
-        $E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack = 2q - 1$
+        $$E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack = 1 - 2q$$,
+        $$E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack = 2q - 1$$
 
-    -   경기자 1의 확률분포: $Pr\ \left\{ 홀 \right\} = p$,
-        $Pr\ \left\{ 짝 \right\} = 1 - p$
+    -   경기자 1의 확률분포: $$Pr\ \left\{ 홀 \right\} = p$$,
+        $$Pr\ \left\{ 짝 \right\} = 1 - p$$
 
-    -   $E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack > E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack$
-        $\Leftrightarrow$ $q < \frac{1}{2}$ 🡪 $p = 1$\
-        $E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack = E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack$
-        $\Leftrightarrow$ $q = \frac{1}{2}$ 🡪 any
-        $p \in \lbrack 0,\ 1\rbrack$\
-        $E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack < E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack$
-        $\Leftrightarrow$ $q > \frac{1}{2}$ 🡪 $p = 0$
+    -   $$E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack > E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack$$
+        $$\Leftrightarrow$$ $$q < \frac{1}{2}$$ 🡪 $$p = 1$$\
+        $$E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack = E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack$$
+        $$\Leftrightarrow$$ $$q = \frac{1}{2}$$ 🡪 any
+        $$p \in \lbrack 0,\ 1\rbrack$$\
+        $$E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack < E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack$$
+        $$\Leftrightarrow$$ $$q > \frac{1}{2}$$ 🡪 $$p = 0$$
 
 -   경기자 1의 대응 곡선
 
-    -   $E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack > E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack\text{~} \Leftrightarrow \text{~}q < \frac{1}{2}\text{~}p = 1$\
-        $E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack = E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack\text{~} \Leftrightarrow \text{~}q = \frac{1}{2}\text{~}\text{any~}p \in \lbrack 0,\ 1\rbrack$\
-        $E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack < E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack\text{~} \Leftrightarrow \text{~}q > \frac{1}{2}\text{~}\text{~}p = 0$
+    -   $$E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack > E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack\text{~} \Leftrightarrow \text{~}q < \frac{1}{2}\text{~}p = 1$$\
+        $$E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack = E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack\text{~} \Leftrightarrow \text{~}q = \frac{1}{2}\text{~}\text{any~}p \in \lbrack 0,\ 1\rbrack$$\
+        $$E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack < E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack\text{~} \Leftrightarrow \text{~}q > \frac{1}{2}\text{~}\text{~}p = 0$$
 
 
 ### 대응곡선과 혼합전략 내쉬균형
@@ -303,34 +303,34 @@ Learning Objectives
 -   혼합전략 내쉬균형\
     Mixed Strategy Nash Equilibrium
 
-    -   두 경기자 모두에게 최적 대응인 $p^{*}$와 $q^{*}$를 결정
+    -   두 경기자 모두에게 최적 대응인 $$p^{*}$$와 $$q^{*}$$를 결정
 
     -   두 대응곡선이 교차하는 점이 혼합전략 내쉬균형
 
 -   홀짝 게임의 혼합전략 내쉬균형
 
-    -   경기자 1: '홀' 선택 확률 $p^{*} = \frac{1}{2}$, '짝' 선택 확률
-        $1 - p^{*} = \frac{1}{2}$
+    -   경기자 1: '홀' 선택 확률 $$p^{*} = \frac{1}{2}$$, '짝' 선택 확률
+        $$1 - p^{*} = \frac{1}{2}$$
 
-    -   경기자 2: '홀' 선택 확률 $q^{*} = \frac{1}{2}$, '짝' 선택 확률
-        $1 - q^{*} = \frac{1}{2}$
+    -   경기자 2: '홀' 선택 확률 $$q^{*} = \frac{1}{2}$$, '짝' 선택 확률
+        $$1 - q^{*} = \frac{1}{2}$$
 
 -   홀짝 게임의 혼합전략 내쉬균형 해석
 
-    -   경기자 1: '홀' 선택 확률 $p^{*} = \frac{1}{2}$, '짝' 선택 확률
-        $1 - p^{*} = \frac{1}{2}$\
+    -   경기자 1: '홀' 선택 확률 $$p^{*} = \frac{1}{2}$$, '짝' 선택 확률
+        $$1 - p^{*} = \frac{1}{2}$$\
         {홀, 짝} 제비가 같은 비율로 섞인 주머니에서\
         무작위로 하나의 제비를 추출하여 제비에 적힌 대로 실행
 
-    -   경기자 2: '홀' 선택 확률 $q^{*} = \frac{1}{2}$, '짝' 선택 확률
-        $1 - q^{*} = \frac{1}{2}$\
+    -   경기자 2: '홀' 선택 확률 $$q^{*} = \frac{1}{2}$$, '짝' 선택 확률
+        $$1 - q^{*} = \frac{1}{2}$$\
         '제대로 만들어진' 동전을 던져서\
         '앞면'이 나오면 '홀', '뒷면'이 나오면 '짝'을 선택
 
 -   홀짝 게임의 혼합전략 내쉬균형 해석
 
     -   순수전략의 조합 (홀, 홀); (홀, 짝); (짝, 홀); (짝, 짝)이\
-        각각 $\frac{1}{4}$의 확률로 실현될 것!
+        각각 $$\frac{1}{4}$$의 확률로 실현될 것!
 
     -   네 가지 순수전략의 조합 중에서 무엇이 실현될지는\
         사전적으로 알 수 없음
@@ -352,7 +352,7 @@ Learning Objectives
 
 -   홀짝 게임의 혼합전략 내쉬균형은 무엇일까?
 
-    -   '홀'과 '짝'을 각각 $\frac{1}{2}$의 확률로 무작위하게 선택
+    -   '홀'과 '짝'을 각각 $$\frac{1}{2}$$의 확률로 무작위하게 선택
 
 
 
@@ -399,65 +399,65 @@ Learning Objectives
 
 -   전략조합 1: (가위, 가위)
 
-    -   경기자 1: $u_{1}(가위,\ 가위) = 0 < u_{1}(바위,가위) = 1$
+    -   경기자 1: $$u_{1}(가위,\ 가위) = 0 < u_{1}(바위,가위) = 1$$
 
-    -   경기자 2: $u_{2}(가위,\ 가위) = 0 < u_{2}(가위,\ 바위) = 1$
+    -   경기자 2: $$u_{2}(가위,\ 가위) = 0 < u_{2}(가위,\ 바위) = 1$$
 
 
 -   전략조합 2: (가위, 바위)
 
-    -   경기자 1: $u_{1}(가위,\ 바위) = - 1 < u_{1}(바위,\ 바위) = 0$
+    -   경기자 1: $$u_{1}(가위,\ 바위) = - 1 < u_{1}(바위,\ 바위) = 0$$
 
-    -   경기자 2: $u_{2}(가위,\ 바위) = 1 \geq u_{2}(가위,\ 가위) = 0$\
-        $u_{2}(가위,\ 바위) = 1 \geq u_{2}(가위,\ 보) = - 1$
+    -   경기자 2: $$u_{2}(가위,\ 바위) = 1 \geq u_{2}(가위,\ 가위) = 0$$\
+        $$u_{2}(가위,\ 바위) = 1 \geq u_{2}(가위,\ 보) = - 1$$
 
 -   전략조합 3: (가위, 보)
 
-    -   경기자 1: $u_{1}(가위,\ 보) = 1 \geq u_{1}(바위,보) = - 1$\
-        $u_{1}(가위,\ 보) = 1 \geq u_{1}(보,보) = 0$
+    -   경기자 1: $$u_{1}(가위,\ 보) = 1 \geq u_{1}(바위,보) = - 1$$\
+        $$u_{1}(가위,\ 보) = 1 \geq u_{1}(보,보) = 0$$
 
-    -   경기자 2: $u_{2}(가위,\ 보) = - 1 < u_{2}(가위,\ 바위) = 1$
+    -   경기자 2: $$u_{2}(가위,\ 보) = - 1 < u_{2}(가위,\ 바위) = 1$$
 
 -   전략조합 4: (바위, 가위)
 
-    -   경기자 1: $u_{1}(바위,\ 가위) = 1 \geq u_{1}(가위,가위) = 0$\
-        $u_{1}(바위,\ 가위) = 1 \geq u_{1}(보,가위) = - 1$
+    -   경기자 1: $$u_{1}(바위,\ 가위) = 1 \geq u_{1}(가위,가위) = 0$$\
+        $$u_{1}(바위,\ 가위) = 1 \geq u_{1}(보,가위) = - 1$$
 
-    -   경기자 2: $u_{2}(바위,\ 가위) = - 1 < u_{2}(바위,\ 바위) = 0$
+    -   경기자 2: $$u_{2}(바위,\ 가위) = - 1 < u_{2}(바위,\ 바위) = 0$$
 
 
 -   전략조합 5: (바위, 바위)
 
-    -   경기자 1: $u_{1}(바위,\ 바위) = 0 < u_{1}(보,바위) = 1$
+    -   경기자 1: $$u_{1}(바위,\ 바위) = 0 < u_{1}(보,바위) = 1$$
 
-    -   경기자 2: $u_{2}(바위,\ 바위) = 0 < u_{2}(바위,\ 보) = 1$
+    -   경기자 2: $$u_{2}(바위,\ 바위) = 0 < u_{2}(바위,\ 보) = 1$$
 
 -   전략조합 6: (바위, 보)
 
-    -   경기자 1: $u_{1}(바위,\ 보) = - 1 < u_{1}(가위,보) = 1$
+    -   경기자 1: $$u_{1}(바위,\ 보) = - 1 < u_{1}(가위,보) = 1$$
 
-    -   경기자 2: $u_{2}(바위,\ 보) = 1 \geq u_{2}(바위,\ 가위) = - 1$\
-        $u_{2}(바위,\ 보) = 1 \geq u_{2}(바위,\ 바위) = 0$
+    -   경기자 2: $$u_{2}(바위,\ 보) = 1 \geq u_{2}(바위,\ 가위) = - 1$$\
+        $$u_{2}(바위,\ 보) = 1 \geq u_{2}(바위,\ 바위) = 0$$
 
 -   전략조합 7: (보, 가위)
 
-    -   경기자 1: $u_{1}(보,\ 가위) = - 1 < u_{1}(가위,가위) = 0$
+    -   경기자 1: $$u_{1}(보,\ 가위) = - 1 < u_{1}(가위,가위) = 0$$
 
-    -   경기자 2: $u_{2}(보,\ 가위) = 1 \geq u_{2}(보,\ 바위) = - 1$\
-        $u_{2}(보,\ 가위) = 1 \geq u_{2}(보,\ 보) = 0$
+    -   경기자 2: $$u_{2}(보,\ 가위) = 1 \geq u_{2}(보,\ 바위) = - 1$$\
+        $$u_{2}(보,\ 가위) = 1 \geq u_{2}(보,\ 보) = 0$$
 
 -   전략조합 8: (보, 바위)
 
-    -   경기자 1: $u_{1}(보,\ 바위) = 1 \geq u_{1}(가위,\ 바위) = - 1$\
-        $u_{1}(보,\ 바위) = 1 \geq u_{1}(바위,\ 바위) = 0$
+    -   경기자 1: $$u_{1}(보,\ 바위) = 1 \geq u_{1}(가위,\ 바위) = - 1$$\
+        $$u_{1}(보,\ 바위) = 1 \geq u_{1}(바위,\ 바위) = 0$$
 
-    -   경기자 2: $u_{2}(보,\ 바위) = - 1 < u_{2}(보,\ 가위) = 1$
+    -   경기자 2: $$u_{2}(보,\ 바위) = - 1 < u_{2}(보,\ 가위) = 1$$
 
 -   전략조합 9: (보, 보)
 
-    -   경기자 1: $u_{1}(보,\ 보) = 0 < u_{1}(가위,\ 보) = 1$
+    -   경기자 1: $$u_{1}(보,\ 보) = 0 < u_{1}(가위,\ 보) = 1$$
 
-    -   경기자 2: $u_{2}(보,\ 보) = 0 < u_{2}(보,\ 가위) = 1$
+    -   경기자 2: $$u_{2}(보,\ 보) = 0 < u_{2}(보,\ 가위) = 1$$
 
 
 
@@ -478,51 +478,51 @@ Learning Objectives
 
 -   가위바위보 게임에서 경기자 1의 확률분포
 
-    -   $p$: 경기자 1이 '가위'를 선택할 확률
+    -   $$p$$: 경기자 1이 '가위'를 선택할 확률
 
-    -   $q$: 경기자 1이 '바위'를 선택할 확률
+    -   $$q$$: 경기자 1이 '바위'를 선택할 확률
 
-    -   $1 - p - q$: 경기자 1이 '보'를 선택할 확률
+    -   $$1 - p - q$$: 경기자 1이 '보'를 선택할 확률
 
 -   가위바위보 게임에서 경기자 1의 혼합전략
 
-    -   $p = 1,\ q = 0$ : 경기자 1이 확정적으로 '가위'를 선택
+    -   $$p = 1,\ q = 0$$ : 경기자 1이 확정적으로 '가위'를 선택
 
-    -   $p = \frac{1}{3},\ q = \frac{1}{3}$ : {가위, 바위, 보}에서
+    -   $$p = \frac{1}{3},\ q = \frac{1}{3}$$ : {가위, 바위, 보}에서
         제비를 뽑아 선택
 
-    -   $p = \frac{2}{3},\ q = \frac{1}{3}$: {가위, 가위, 바위}에서
+    -   $$p = \frac{2}{3},\ q = \frac{1}{3}$$: {가위, 가위, 바위}에서
         제비를 뽑아 선택
 
-    -   $p = 0,q = 0$: 경기자 1이 확정적으로 '보'를 선택
+    -   $$p = 0,q = 0$$: 경기자 1이 확정적으로 '보'를 선택
 
 
 -   경기자 1의 확률분포를 고려한 경기자 2의 기대보수
 
     -   경기자 2가 '가위'를 선택하면?\
-        $E\left\lbrack u_{2}( \cdot ,\ 가위) \right\rbrack = p \times u_{2}(가위,\ 가위)$
+        $$E\left\lbrack u_{2}( \cdot ,\ 가위) \right\rbrack = p \times u_{2}(가위,\ 가위)$$
         *\
-        *$+ q \times u_{2}(바위,\ 가위)$\
-        $+ (1 - p - q) \times u_{2}(보,\ 가위)$\
-        $$= p \times (0) + q \times ( - 1) + (1 - p - q) \times (1) = - p - 2q + 1$$
+        *$$+ q \times u_{2}(바위,\ 가위)$$\
+        $$+ (1 - p - q) \times u_{2}(보,\ 가위)$$\
+        $$$$= p \times (0) + q \times ( - 1) + (1 - p - q) \times (1) = - p - 2q + 1$$$$
 
 -   경기자 1의 확률분포를 고려한 경기자 2의 기대보수
 
     -   경기자 2가 '바위'를 선택하면?\
-        $E\left\lbrack u_{2}( \cdot ,\ 바위) \right\rbrack = p \times u_{2}(가위,\ 바위)$
+        $$E\left\lbrack u_{2}( \cdot ,\ 바위) \right\rbrack = p \times u_{2}(가위,\ 바위)$$
         *\
-        *$+ q \times u_{2}(바위,\ 바위)$\
-        $+ (1 - p - q) \times u_{2}(보,\ 바위)$\
-        $$= p \times (1) + q \times (0) + (1 - p - q) \times ( - 1) = 2p + q - 1$$
+        *$$+ q \times u_{2}(바위,\ 바위)$$\
+        $$+ (1 - p - q) \times u_{2}(보,\ 바위)$$\
+        $$$$= p \times (1) + q \times (0) + (1 - p - q) \times ( - 1) = 2p + q - 1$$$$
 
 -   경기자 1의 확률분포를 고려한 경기자 2의 기대보수
 
     -   경기자 2가 '보'를 선택하면?\
-        $E\left\lbrack u_{2}( \cdot ,\ 보) \right\rbrack = p \times u_{2}(가위,\ 보)$
+        $$E\left\lbrack u_{2}( \cdot ,\ 보) \right\rbrack = p \times u_{2}(가위,\ 보)$$
         *\
-        *$+ q \times u_{2}(바위,\ 보)$\
-        $+ (1 - p - q) \times u_{2}(보,\ 보)$\
-        $$= p \times ( - 1) + q \times (1) + (1 - p - q) \times (0) = - p + q$$
+        *$$+ q \times u_{2}(바위,\ 보)$$\
+        $$+ (1 - p - q) \times u_{2}(보,\ 보)$$\
+        $$$$= p \times ( - 1) + q \times (1) + (1 - p - q) \times (0) = - p + q$$$$
 
 -   경기자 2의 기대보수를 같게 하는 경기자 1의 확률분포
 
@@ -530,17 +530,17 @@ Learning Objectives
         = (경기자 2가 '바위'를 선택할 때 기대보수)\
         = (경기자 2가 '보'를 선택할 때 기대보수)
 
-$- p - 2q + 1 = 2p + q - 1\ $ 🡪 $3p + 3q = 2$
+$$- p - 2q + 1 = 2p + q - 1\ $$ 🡪 $$3p + 3q = 2$$
 
-$2p + q - 1 = - p + q$ 🡪 $3p = 1$
+$$2p + q - 1 = - p + q$$ 🡪 $$3p = 1$$
 
-$\therefore p^{*} = \frac{1}{3},\ q^{*} = \frac{1}{3}$
+$$\therefore p^{*} = \frac{1}{3},\ q^{*} = \frac{1}{3}$$
 
 -   가위바위보 게임의 혼합전략 내쉬균형 해석
 
-    -   경기자 1: '가위' 선택 확률 $p^{*} = \frac{1}{3}$,\
-        '바위' 선택 확률 $q^{*} = \frac{1}{3}$,\
-        '보' 선택 확률 $1 - p^{*} - q^{*} = \frac{1}{3}$\
+    -   경기자 1: '가위' 선택 확률 $$p^{*} = \frac{1}{3}$$,\
+        '바위' 선택 확률 $$q^{*} = \frac{1}{3}$$,\
+        '보' 선택 확률 $$1 - p^{*} - q^{*} = \frac{1}{3}$$\
         {가위, 바위, 보} 제비가 같은 비율로 섞인 주머니에서\
         무작위로 하나의 제비를 추출하여 제비에 적힌 대로 실행
 
@@ -551,7 +551,7 @@ $\therefore p^{*} = \frac{1}{3},\ q^{*} = \frac{1}{3}$
     -   순수전략의 조합\
         (가위, 가위); (가위, 바위); (가위, 보);\
         (바위, 가위); (바위, 바위); (바위, 보);\
-        (보, 가위); (보, 바위); (보, 보)가 각각 $\frac{1}{9}$ 확률로
+        (보, 가위); (보, 바위); (보, 보)가 각각 $$\frac{1}{9}$$ 확률로
         실현
 
     -   9가지 순수전략의 조합 중에서 무엇이 실현될지는\
@@ -570,7 +570,7 @@ $\therefore p^{*} = \frac{1}{3},\ q^{*} = \frac{1}{3}$
 
 -   가위바위보 게임의 혼합전략 내쉬균형은 무엇일까?
 
-    -   '가위', '바위', '보'을 각각 $\frac{1}{3}$ 확률로 무작위 선택
+    -   '가위', '바위', '보'을 각각 $$\frac{1}{3}$$ 확률로 무작위 선택
 
 -   가위바위보 게임의 혼합전략 내쉬균형은 어떻게 구현할까?
 

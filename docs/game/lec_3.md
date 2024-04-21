@@ -81,17 +81,17 @@ nav_order: 3
     -   기업 $$i$$는 이윤 $$\pi_{i}$$ 극대화를 위해 공급량 $$q_{i}$$를 결정
 
 
--   모형의 풀이
+*   모형의 풀이
 
-    -   기업 1의 이윤 $$\pi_{1} = Pq_{1} - cq_{1} = (P - c)q_{1}$$
-        
-        (여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
+  * 기업 1의 이윤 $$\pi_{1} = Pq_{1} - cq_{1} = (P - c)q_{1}$$
 
-    -   시장의 역수요함수($$P = a - Q$$)를 $$\pi_{1}$$에 대입
+	(여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
 
-        $\pi_{1} = \left\lbrack (a - Q) - c \right\rbrack q_{1}$
+  *시장의 역수요함수($$P = a - Q$$)를 $$\pi_{1}$$에 대입
 
-        $$    = \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{1} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{1}$$
+	$$\pi_{1} = \left\lbrack (a - Q) - c \right\rbrack q_{1}$$
+
+	$$    = \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{1} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{1}$$
 
     -   $$\pi_{1}$$을 최대화하는 생산량 $$q_{1}$$이 충족하는 조건은?
 

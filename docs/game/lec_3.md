@@ -83,9 +83,7 @@ nav_order: 3
 
 -   모형의 풀이
 
-    -   기업 1의 이윤 $$\pi_{1} = Pq_{1} - cq_{1} = (P - c)q_{1}$$
-
-        (여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
+    -   기업 1의 이윤 $$\pi_{1} = Pq_{1} - cq_{1} = (P - c)q_{1}$$ (여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
 
     -   시장의 역수요함수($$P = a - Q$$)를 $$\pi_{1}$$에 대입
 
@@ -108,12 +106,11 @@ nav_order: 3
 	
 	\frac{\partial\pi_{1}}{\partial q_{1}} & = - q_{1} + \left\lbrack a - c - q_{1} - q_{2} \right\rbrack \\
                                                                    & = a - c - 2q_{1} - q_{2} \\
-	\frac{\partial\pi_{1}}{\partial q_{1}} \vert_{q_1 = q_1^*} & = 0 \rightarrow \\
-	q_{1}^{*} & = \frac{a - c - q_{2}}{2}\\
+	\frac{\partial\pi_{1}}{\partial q_{1}} \vert_{q_1 = q_1^*} & = 0 \rightarrow q_{1}^{*} = \frac{a - c - q_{2}}{2}\\
         \end{align}
 	$$
 
--   $$\pi_{1}$$의 이계조건(Second-Order Condition)
+    -   $$\pi_{1}$$의 이계조건(Second-Order Condition)
 
     $$ 
 	\begin{align}

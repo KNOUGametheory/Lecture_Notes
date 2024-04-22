@@ -570,7 +570,7 @@ nav_order: 3
         \end{align} 
         $$
 
-       $$\rightarrow$$ 비용 $$c$$까지 계속 가격을 낮출 유인만 존재
+        $$\rightarrow$$ 비용 $$c$$까지 계속 가격을 낮출 유인만 존재
 
 ### 요약
 

@@ -147,16 +147,18 @@ nav_order: 4
 -   균형의 유일성
 
     -   상점 1과 상점 2의 점포 위치는
-        $$\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$$\
-        이외에 다른 어떤 전략 조합도 균형이 될 수 없을까? YES!
+        $$\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$$
+
+        이외에 다른 어떤 전략 조합도 균형이 될 수 없을까? <span style="color:#105AD2">YES!</span>
 
     -   상점 1의 위치가 $$a = \frac{1}{3}$$, 상점 2의 위치가
-        $$1 - b = \frac{2}{3}$$라면?\
-        $$u_{1}\left( \frac{1}{3},\frac{2}{3} \right) = \frac{1}{3} + \frac{1}{2}\left( \frac{2}{3} - \frac{1}{3} \right) = \frac{1}{3} + \frac{1}{6} = \frac{1}{2} = \widehat{u_{1}}$$,\
-        $$\widehat{u_{2}}\left( \frac{1}{3},\frac{2}{3} \right) = \left( 1 - \frac{2}{3} \right) + \frac{1}{2}\left( \frac{2}{3} - \frac{1}{3} \right) = \frac{1}{3} + \frac{1}{6} = \frac{1}{2} = \widehat{u_{2}}$$\
-        만약 $$a = \frac{2}{3} - \epsilon$$이라면?
-        $$\text{여기에}\text{~}\text{수식을}\text{~}\text{입력하십시오}\text{.}$$
+        $$1 - b = \frac{2}{3}$$라면?
 
+        $$u_{1}\left( \frac{1}{3},\frac{2}{3} \right) = \frac{1}{3} + \frac{1}{2}\left( \frac{2}{3} - \frac{1}{3} \right) = \frac{1}{3} + \frac{1}{6} = \frac{1}{2} = \widehat{u_{1}}$$
+
+        $$\widehat{u_{2}}\left( \frac{1}{3},\frac{2}{3} \right) = \left( 1 - \frac{2}{3} \right) + \frac{1}{2}\left( \frac{2}{3} - \frac{1}{3} \right) = \frac{1}{3} + \frac{1}{6} = \frac{1}{2} = \widehat{u_{2}}$$
+
+        만약 $$a = \frac{2}{3} - \epsilon$$이라면?
 
 -   균형의 유일성(계속)
 

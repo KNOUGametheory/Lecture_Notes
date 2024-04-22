@@ -185,7 +185,7 @@ nav_order: 3
 	\begin{align}
 	q_{1}^{*} & = \frac{a - c - q_{2}}{2} = \frac{a - c - \left( \frac{a - c - q_{1}^{*}}{2} \right)}{2} \\
 	2q_{1}^{*} & = \frac{a - c}{2} + \frac{1}{2}q_{1}^{*} \\
-	\rightarrow q_{1}^{*} & = \frac{a - c}{3}, \, q_{2}^{*} = \frac{a - c}{3} 
+	\rightarrow q_{1}^{*} & = \frac{a - c}{3}, \,\, q_{2}^{*} = \frac{a - c}{3} 
 	\end{align}
 	$$
 

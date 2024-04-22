@@ -154,17 +154,14 @@ nav_order: 4
     -   상점 1의 위치가 $$a = \frac{1}{3}$$, 상점 2의 위치가
         $$1 - b = \frac{2}{3}$$라면?
 
-        $$u_{1}\left( \frac{1}{3},\frac{2}{3} \right) = \frac{1}{3} + \frac{1}{2}\left( \frac{2}{3} - \frac{1}{3} \right) = \frac{1}{3} + \frac{1}{6} = \frac{1}{2} = \widehat{u_{1}}$$
-
-        $$\widehat{u_{2}}\left( \frac{1}{3},\frac{2}{3} \right) = \left( 1 - \frac{2}{3} \right) + \frac{1}{2}\left( \frac{2}{3} - \frac{1}{3} \right) = \frac{1}{3} + \frac{1}{6} = \frac{1}{2} = \widehat{u_{2}}$$
+        $$
+        \begin{align}
+        u_{1}\left( \frac{1}{3},\frac{2}{3} \right) & = \frac{1}{3} + \frac{1}{2}\left( \frac{2}{3} - \frac{1}{3} \right) = \frac{1}{3} + \frac{1}{6} = \frac{1}{2} = \widehat{u_{1}} \\
+        \widehat{u_{2}}\left( \frac{1}{3},\frac{2}{3} \right) = \left( 1 - \frac{2}{3} \right) + \frac{1}{2}\left( \frac{2}{3} - \frac{1}{3} \right) = \frac{1}{3} + \frac{1}{6} = \frac{1}{2} = \widehat{u_{2}}
+        \end{align}
+        $$
 
         만약 $$a = \frac{2}{3} - \epsilon$$이라면?
-
--   균형의 유일성(계속)
-
-    -   상점 1과 상점 2의 점포 위치는
-        $$\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$$\
-        이외에 다른 어떤 전략 조합도 균형이 될 수 없을까? YES!
 
     -   만약 상점 2의 위치가 $$1 - b = \frac{2}{3}$$인 상태에서\
         상점 1이 점포 위치를 $$a = \frac{2}{3} - \epsilon$$로 옮긴다면?\

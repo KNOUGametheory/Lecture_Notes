@@ -128,7 +128,7 @@ nav_order: 7
             \frac{\partial\pi_{2}}{\partial q_{2}} & = - q_{2} + \left\lbrack a - c - q_{1} - q_{2} \right\rbrack \\
             & = a - c - q_{1} - 2q_{2} \\
             \left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = \widetilde{q_2}} & = 0 \rightarrow \\
-            \widetilde{q_{2}} = \frac{a - c - q_{1}}{2}
+            \widetilde{q_{2}} & = \frac{a - c - q_{1}}{2}
             \end{align}
             $$
 

@@ -324,7 +324,9 @@ nav_order: 4
         \end{align}
         $$
 
-이계조건: $$\frac{\partial^{2}u_{i}}{\partial q_{i}^{2}} = - 2 \leq 0$$
+        이계조건: 
+
+        $$\frac{\partial^{2}u_{i}}{\partial q_{i}^{2}} = - 2 \leq 0$$
 
 -   하딘의 모형 풀이(계속)
 

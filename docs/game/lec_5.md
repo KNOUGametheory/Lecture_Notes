@@ -263,7 +263,7 @@ nav_order: 5
 
         $$
         \begin{align}        
-        E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack & = p \times u_{2}(\text{홀},\text{짝}) + (1 - p) \times u_{2}(\text{짝},\text{짝})
+        E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack & = p \times u_{2}(\text{홀},\text{짝}) + (1 - p) \times u_{2}(\text{짝},\text{짝}) \\
         & = p \times ( - 1) + (1 - p) \times (1) = 1 - 2p
         \end{align}
         $$
@@ -290,11 +290,11 @@ nav_order: 5
     -   $$
         \begin{align} 
         E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack > E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
-        \Leftrightarrow p > \frac{1}{2} \rightarrow q = 1 \\
+        & \Leftrightarrow p > \frac{1}{2} \rightarrow q = 1 \\
         E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack = E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
-        \Leftrightarrow p = \frac{1}{2} \rightarrow any q \in \lbrack 0,\ 1\rbrack \\
+        & \Leftrightarrow p = \frac{1}{2} \rightarrow any q \in \lbrack 0,\ 1\rbrack \\
         E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack < E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
-        \Leftrightarrow p < \frac{1}{2} \rightarrow q = 0
+        & \Leftrightarrow p < \frac{1}{2} \rightarrow q = 0
         \end{align}
         $$
 
@@ -303,11 +303,11 @@ nav_order: 5
     -   $$
         \begin{align}  
         E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack > E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
-        \Leftrightarrow p > \frac{1}{2} \rightarrow q = 1 \\
+        & \Leftrightarrow p > \frac{1}{2} \rightarrow q = 1 \\
         E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack = E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
-        \Leftrightarrow$$ $$p = \frac{1}{2} \rightarrow any q \in \lbrack 0,\ 1\rbrack \\
+        & \Leftrightarrow$$ $$p = \frac{1}{2} \rightarrow any q \in \lbrack 0,\ 1\rbrack \\
         E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack < E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
-        \Leftrightarrow$$ $$p < \frac{1}{2} \rightarrow q = 0
+        & \Leftrightarrow$$ $$p < \frac{1}{2} \rightarrow q = 0
         \end{align}
         $$  
 

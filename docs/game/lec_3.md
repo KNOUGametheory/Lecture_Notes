@@ -113,8 +113,6 @@ nav_order: 3
 
         $$\left.  \frac{\partial^{2}\pi_{1}}{\partial q_{1}^{2}} \right\vert_{q_1 = q_1^*} \leq 0$$
 
--   모형의 풀이(계속)
-
     -   $$\pi_{1}$$의 일계조건(First-Order Condition)
 	
 	$$
@@ -136,9 +134,6 @@ nav_order: 3
 	     &  = - 2 \leq 0\\
        \end{align}
     $$
-
-
--   모형의 풀이(계속)
 
     -   기업 2의 이윤 (여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
 	
@@ -165,9 +160,6 @@ nav_order: 3
 	\frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} & = - 2 \leq 0 \\
         \end{align}
 	$$
-
-
--   모형의 풀이(계속)
 
     -   각 기업의 최적 대응(Best Response, 최선 응수)
 
@@ -348,8 +340,6 @@ nav_order: 3
 	P^{*} & < P^{M} \rightarrow 2a + 4c < 3a + 3c \rightarrow a > c \\
 	\end{align} 
 	$$
-
--   과점 시장과 담합에서의 균형 비교
 
     -   담합으로 인한 각 기업의 이윤 증가
 
@@ -558,13 +548,7 @@ nav_order: 3
 	\end{align} 
 	$$
 
--   균형의 유일성
-
-    -   균형 가격($$P_{1}^{*} = P_{2}^{*} = c$$)이 아닌 다른 내쉬균형이 존재할 가능성은 없을까? <span style="color:#FF0000">YES!</span>
-
-        비용 $$c$$보다 높은 가격을 부과한다고 가정 $$\widehat{P_{2}} > c$$
-
-        만약 $$P_{1} = \widehat{P_{2}} - \epsilon$$이라면, $$Q_{1} = a - \widehat{P_{2}} - \epsilon$$, $$Q_{2} = 0$$
+    -   만약 $$P_{1} = \widehat{P_{2}} - \epsilon$$이라면, $$Q_{1} = a - \widehat{P_{2}} - \epsilon$$, $$Q_{2} = 0$$
 
 	$$
 	\begin{align}
@@ -573,11 +557,7 @@ nav_order: 3
 	\end{align} 
 	$$
 
--   균형의 유일성
-
-    -   균형 가격($$P_{1}^{*} = P_{2}^{*} = c$$)이 아닌 다른 내쉬균형이 존재할 가능성은 없을까? <span style="color:#FF0000">YES!</span>
-
-        가격을 경쟁 기업과 같은 수준으로 유지할 때와 경쟁 기업보다 아주 조금이라도 낮추었을 때를 비교
+    -   가격을 경쟁 기업과 같은 수준으로 유지할 때와 경쟁 기업보다 아주 조금이라도 낮추었을 때를 비교
 
         $$
         \begin{align}

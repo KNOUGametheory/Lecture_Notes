@@ -161,9 +161,7 @@ nav_order: 5
         경기자 $$i$$의 다른 모든 전략보다 '크거나 같은' 보수를 주는 전략
 
     -   경기자 $$i$$의 전략 $$\widehat{\sigma_{i}}$$는 다른 경기자 $$- i$$의
-        전략(조합) $$\sigma_{- i}$$에 대한 최적대응 if
-        $$u_{i}\left( \widehat{\sigma_{i}},\ \sigma_{- i} \right) \geq u_{i}\left( \sigma_{i},\ \sigma_{- i} \right)$$
-        $$\forall\sigma_{i} \in S_{i}$$를 만족시키는 $$\sigma_{- i}$$가 존재
+        전략(조합) $$\sigma_{- i}$$에 대한 최적대응 if $$u_{i}\left( \widehat{\sigma_{i}},\ \sigma_{- i} \right) \geq u_{i}\left( \sigma_{i},\ \sigma_{- i} \right) \forall\sigma_{i} \in S_{i}$$를 만족시키는 $$\sigma_{- i}$$가 존재
 
         예) 홀짝 게임에서 경기자 1의 최적 대응
 

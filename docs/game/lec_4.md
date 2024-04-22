@@ -132,18 +132,17 @@ nav_order: 4
 
         (ⅱ) $$a = \frac{1}{2} + \epsilon > \frac{1}{2}$$: $$u_{1}\left( \frac{1}{2} + \epsilon,\frac{1}{2} \right) = \left\lbrack 1 - \left( \frac{1}{2} + \epsilon \right) \right\rbrack + \frac{1}{2}\epsilon = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$
 
-    -   상점 1과 상점 2 모두 점포 위치를 바꿀 유인이 없을까? YES!
+    -   상점 1이 점포 위치를 $$a^{*} = \frac{1}{2}$$로 유지한다면?
 
-    -   상점 1이 점포 위치를 $$a^{*} = \frac{1}{2}$$로 유지한다면?\
-        상점 2는 점포 위치를 $$1 - b^{*} = \frac{1}{2}$$로 유지하는 게
-        최선
+        상점 2는 점포 위치를 $$1 - b^{*} = \frac{1}{2}$$로 유지하는 게 최선
 
-    -   상점 2가 점포 위치를 바꾼다면? 시장점유율 감소!\
+    -   상점 2가 점포 위치를 바꾼다면? 시장점유율 감소!
+
         (ⅰ) $$1 - b = \frac{1}{2} - \epsilon < \frac{1}{2}$$:
-        $$u_{2}\left( \frac{1}{2},\frac{1}{2} - \epsilon \right) = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$\
+        $$u_{2}\left( \frac{1}{2},\frac{1}{2} - \epsilon \right) = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$
+
         (ⅱ) $$1 - b = \frac{1}{2} + \epsilon > \frac{1}{2}$$:
         $$u_{2}\left( \frac{1}{2},\frac{1}{2} + \epsilon \right) = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$
-
 
 -   균형의 유일성
 

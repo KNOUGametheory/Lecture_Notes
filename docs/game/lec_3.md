@@ -299,7 +299,7 @@ nav_order: 3
 	\begin{align}
 	\frac{d\pi}{dQ} & = - Q + a - c - Q \\
 	\left. \ \frac{d\pi}{dQ} \right|_{Q = Q^{M}} & = 0 \\
-	\rightarrow Q^{M} $ = \frac{a - c}{2} \\
+	\rightarrow Q^{M} = \frac{a - c}{2} \\
 	\end{align}
 	$$
 
@@ -329,7 +329,7 @@ nav_order: 3
 
 	$$
 	\begin{align}
-	P^{*} = \frac{a + 2c}{3} < P^{M} = \frac{a + c}{2} if a > c \\
+	P^{*} = \frac{a + 2c}{3} < P^{M} = \frac{a + c}{2} text{if} a > c \\
 	P^{*} < P^{M} \rightarrow 2a + 4c < 3a + 3c \rightarrow a > c \\
 	\end{align} 
 	$$

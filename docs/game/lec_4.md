@@ -370,16 +370,26 @@ nav_order: 4
         (∵ 대칭성 $$q_{i} = q_{j} = q^{*},\ Q^{*} = nq^{*}$$ 가정)
 
     -   공동체 구성원 $$i$$의 균형 생산량
+
         $$q_{i}^{*} = q^{*} = \frac{1}{n + 1}(a - c)$$
 
     -   공동체 전체의 균형 생산량
+
         $$Q^{*} = nq_{i} = \frac{n}{n + 1}(a - c)$$
 
-    -   공동체 구성원 $$i$$의 균형 보수\
-        $$u_{i}^{*} = \left( v\left( Q^{*} \right) - c \right)q_{i}^{*} = \left( a - Q^{*} - c \right)q^{*}$$\
-        $$= \left\lbrack a - c - \frac{n}{n + 1}(a - c) \right\rbrack\left\lbrack \frac{1}{n + 1}(a - c) \right\rbrack$$
+    -   공동체 구성원 $$i$$의 균형 보수
 
-        $$= \left\lbrack \left\lbrack \frac{1}{n + 1}(a - c) \right\rbrack \right\rbrack^{2} = \frac{1}{(n + 1)^{2}}(a - c)^{2}\ $$
+        $$
+        \begin{align}
+        u_{i}^{*} & = \left( v\left( Q^{*} \right) - c \right)q_{i}^{*} \\
+        & = \left( a - Q^{*} - c \right)q^{*} \\
+        & = \left\lbrack a - c - \frac{n}{n + 1}(a - c) \right\rbrack\left\lbrack \frac{1}{n + 1}(a - c) \right\rbrack \\
+        & = \left\lbrack \left\lbrack \frac{1}{n + 1}(a - c) \right\rbrack \right\rbrack^{2} \\
+        & = \frac{1}{(n + 1)^{2}}(a - c)^{2}
+        \end{align}
+        $$
+
+ 
 
 ### 사회적 최적과 공유지의 비극
 

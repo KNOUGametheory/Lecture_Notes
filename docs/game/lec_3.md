@@ -315,7 +315,7 @@ nav_order: 3
 	\begin{align}
 	\frac{d\pi}{dQ} & = - Q + a - c - Q \\
 	\left. \ \frac{d\pi}{dQ} \right|_{Q = Q^{M}} & = 0 \\
-	\rightarrow Q^{M} = \frac{a - c}{2} \\
+	\rightarrow Q^{M} & = \frac{a - c}{2} \\
 	\end{align}
 	$$
 

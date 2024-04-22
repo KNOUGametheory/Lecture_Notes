@@ -162,11 +162,14 @@ nav_order: 4
 
         만약 $$a = \frac{2}{3} - \epsilon$$이라면?
 
-    -   만약 상점 2의 위치가 $$1 - b = \frac{2}{3}$$인 상태에서\
-        상점 1이 점포 위치를 $$a = \frac{2}{3} - \epsilon$$로 옮긴다면?\
-        $$u_{1}\left( \frac{2}{3} - \epsilon,\frac{2}{3} \right) = \left( \frac{2}{3} - \epsilon \right) + \frac{1}{2}\epsilon = \frac{2}{3} - \frac{1}{2} > \widehat{u_{1}} = \frac{1}{2}$$,\
-        $$u_{2}\left( \frac{2}{3} - \epsilon,\frac{2}{3} \right) = \left( 1 - \frac{2}{3} \right) + \frac{1}{2}(\epsilon) = \frac{1}{3} + \frac{1}{2}\epsilon < \widehat{u_{2}} = \frac{1}{2}$$
+    -   만약 상점 2의 위치가 $$1 - b = \frac{2}{3}$$인 상태에서 상점 1이 점포 위치를 $$a = \frac{2}{3} - \epsilon$$로 옮긴다면?
 
+        $$
+        \begin{align}
+        u_{1}\left( \frac{2}{3} - \epsilon,\frac{2}{3} \right) & = \left( \frac{2}{3} - \epsilon \right) + \frac{1}{2}\epsilon = \frac{2}{3} - \frac{1}{2} > \widehat{u_{1}} = \frac{1}{2} \\
+        u_{2}\left( \frac{2}{3} - \epsilon,\frac{2}{3} \right) & = \left( 1 - \frac{2}{3} \right) + \frac{1}{2}(\epsilon) = \frac{1}{3} + \frac{1}{2}\epsilon < \widehat{u_{2}} = \frac{1}{2}
+        \end{align}
+        $$
 
 -   균형의 해석
 

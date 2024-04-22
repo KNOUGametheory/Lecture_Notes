@@ -457,10 +457,13 @@ nav_order: 4
 
         $$\widehat{q_{i}} = \frac{1}{n}\widehat{Q} = \frac{1}{2n}(a - c)$$
 
-    -   $$n = 1$$: $$q_{i}^{*} = \widehat{q_{i}} = \frac{1}{2}(a - c)$$\
-        $$n \geq 2$$:
-        $$q_{i}^{*} - \widehat{q_{i}} = \frac{1}{n + 1}(a - c) - \frac{1}{2n}(a - c)$$\
-        $$= \frac{\left\lbrack 2n - (n + 1) \right\rbrack}{2n(n + 1)}(a - c) = \frac{n - 1}{2n(n + 1)}(a - c) > 0$$
+    -   $$
+        \begin{align}
+        n = 1: q_{i}^{*} = \widehat{q_{i}} & = \frac{1}{2}(a - c) \\
+        n \geq 2: q_{i}^{*} - \widehat{q_{i}} & = \frac{1}{n + 1}(a - c) - \frac{1}{2n}(a - c) \\
+        & = \frac{\left\lbrack 2n - (n + 1) \right\rbrack}{2n(n + 1)}(a - c) = \frac{n - 1}{2n(n + 1)}(a - c) > 0 \\
+        \end{align}
+        $$
 
 -   균형 보수와 사회적 최적 보수 비교
 

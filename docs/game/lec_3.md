@@ -74,9 +74,13 @@ nav_order: 3
 
 -   쿠르노 복점 모형의 가정
 
-    -   시장의 역수요함수 $$P = a - Q$$ (단, $$a > 0$$는 시장 규모)
+    -   시장의 역수요함수 
 
-    -   시장의 공급량 $$Q = q_{1} + q_{2}$$
+        $$P = a - Q$$ (단, $$a > 0$$는 시장 규모)
+
+    -   시장의 공급량 
+
+        $$Q = q_{1} + q_{2}$$
 
     -   기업 $$i$$는 이윤 $$\pi_{i}$$ 극대화를 위해 공급량 $$q_{i}$$를 결정
 
@@ -101,9 +105,13 @@ nav_order: 3
 
     -   $$\pi_{1}$$을 최대화하는 생산량 $$q_{1}$$이 충족하는 조건은?
 
-        일계조건(First-order condition) $$\left. \frac{\partial\pi_{1}}{\partial q_{1}} \right\vert_{q_1 = q_1^*} = 0$$
+        일계조건(First-order condition) 
 
-        이계조건(Second-order condition) $$\left.  \frac{\partial^{2}\pi_{1}}{\partial q_{1}^{2}} \right\vert_{q_1 = q_1^*} \leq 0$$
+        $$\left. \frac{\partial\pi_{1}}{\partial q_{1}} \right\vert_{q_1 = q_1^*} = 0$$
+
+        이계조건(Second-order condition) 
+
+        $$\left.  \frac{\partial^{2}\pi_{1}}{\partial q_{1}^{2}} \right\vert_{q_1 = q_1^*} \leq 0$$
 
 -   모형의 풀이(계속)
 
@@ -567,7 +575,6 @@ nav_order: 3
         \begin{align}
         \widehat{\pi_{1}} & = \frac{1}{2}\left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) < 2\widehat{\pi_{1}} = \left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) \\
         \ & \simeq \widetilde{\pi_{1}} = \left( \widehat{P_{2}} - c - \epsilon \right)\left( a - \widehat{P_{2}} + \epsilon \right) \\
-        \hfill
         \end{align} 
         $$
 

@@ -250,18 +250,23 @@ nav_order: 5
 
 -   경기자 1의 확률분포를 고려한 경기자 2의 기대보수
 
-    -  경기자 2가 '홀'을 선택하면?
+    -   경기자 2가 '홀'을 선택하면?
 
-       $$
-       \begin{align}
-       E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack & = p \times u_{2}(\text{홀},\text{홀}) + (1 - p) \times u_{2}(text{짝},text{홀}) \\
-       & = p \times (1) + (1 - p) \times ( - 1) = 2p - 1
-       \end{align}
-       $$
+        $$
+        \begin{align}
+        E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack & = p \times u_{2}(\text{홀},\text{홀}) + (1 - p) \times u_{2}(\text{짝},\text{홀}) \\
+        & = p \times (1) + (1 - p) \times ( - 1) = 2p - 1
+        \end{align}
+        $$
 
-    -   경기자 2가 '짝'을 선택하면?\
-        $$E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack = p \times u_{2}(홀,\ 짝) + (1 - p) \times u_{2}(짝,\ 짝)
-        $$ $$= p \times ( - 1) + (1 - p) \times (1) = 1 - 2p$$
+    -   경기자 2가 '짝'을 선택하면?
+
+        $$
+        \begin{align}        
+        E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack & = p \times u_{2}(\text{홀},\text{짝}) + (1 - p) \times u_{2}(\text{짝},\text{짝})
+        & = p \times ( - 1) + (1 - p) \times (1) = 1 - 2p
+        \end{align}
+        $$
 
 ### 기대보수에 따른 대응곡선
 

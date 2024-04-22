@@ -354,6 +354,7 @@ nav_order: 5
         \end{align}
         $$
 
+    ![표](/images/Lec_5_2_2_2.png)
 
 ### 대응곡선과 혼합전략 내쉬균형
 

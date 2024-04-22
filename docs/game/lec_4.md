@@ -312,13 +312,18 @@ nav_order: 4
         \end{align}
         $$
 
-    -   각자의 보수를 최대화하는 구성원의 행동(미분을 활용!)\
-        일계조건:
-        $$\frac{\partial u_{i}}{\partial q_{i}} = - q_{i} + \left\lbrack a - c - \sum_{j = 1}^{n}q_{j} \right\rbrack$$
+    -   각자의 보수를 최대화하는 구성원의 행동(미분을 활용!)
 
-$$\left. \ \frac{\partial u_{i}}{\partial q_{i}} \right|_{q_{i} = q_{i}^{*}} = 0$$
-🡪
-$$q_{i}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq i}^{}q_{j} \right\rbrack$$
+        일계조건:
+
+        $$
+        \begin{align}
+        \frac{\partial u_{i}}{\partial q_{i}} & = - q_{i} + \left\lbrack a - c - \sum_{j = 1}^{n}q_{j} \right\rbrack \\
+        \left. \ \frac{\partial u_{i}}{\partial q_{i}} \right|_{q_{i} & = q_{i}^{*}} = 0 \\
+        \rightarrow q_{i}^{*} & = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq i}^{}q_{j} \right\rbrack
+        \end{align}
+        $$
+
 
 이계조건: $$\frac{\partial^{2}u_{i}}{\partial q_{i}^{2}} = - 2 \leq 0$$
 

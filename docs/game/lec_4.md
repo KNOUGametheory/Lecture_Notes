@@ -305,8 +305,12 @@ nav_order: 4
 
     -   공동체 구성원 $$i$$의 보수
 
-        $$u_{i} = \left( v(Q) - c \right)q_{i}$$ 
-        $$= \left\lbrack a - \left( q_{1} + q_{2} + \cdots + q_{(i - 1)} + q_{i} + q_{(i + 1)} + \cdots + q_{n} \right) - c \right\rbrack q_{i}$$
+        $$
+        \begin{align}
+        u_{i} & = \left( v(Q) - c \right)q_{i} \\
+        & = \left\lbrack a - \left( q_{1} + q_{2} + \cdots + q_{(i - 1)} + q_{i} + q_{(i + 1)} + \cdots + q_{n} \right) - c \right\rbrack q_{i}
+        \end{align}
+        $$
 
     -   각자의 보수를 최대화하는 구성원의 행동(미분을 활용!)\
         일계조건:

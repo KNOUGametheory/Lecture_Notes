@@ -511,21 +511,21 @@ nav_order: 3
 
         (ⅰ) $$P_{1} > P_{2}^{*} = c$$: $$Q_{1} = 0$$, $$Q_{2} = a - c$$
 
-	$$
-	\begin{align}
-	\pi_{1} & = \left( P_{1} - c \right)Q_{1} = 0 \\
-	\pi_{2} & = \left( P_{2}^{*} - c \right)Q_{2} = (c - c)(a - c) = 0 \\
-	\end{align} 
-	$$
+        $$
+        \begin{align}
+        \pi_{1} & = \left( P_{1} - c \right)Q_{1} = 0 \\
+        \pi_{2} & = \left( P_{2}^{*} - c \right)Q_{2} = (c - c)(a - c) = 0 \\
+        \end{align} 
+        $$
 
-	(ⅱ) $$P_{1} < P_{2}^{*} = c$$: $$Q_{1} = a - P_{1}$$, $$Q_{2} = 0$$ 
+        (ⅱ) $$P_{1} < P_{2}^{*} = c$$: $$Q_{1} = a - P_{1}$$, $$Q_{2} = 0$$ 
 
-	$$
-	\begin{align}
-	\pi_{1} & = \left( P_{1} - c \right)\left( a - P_{1} \right) < 0 \, \text{(why?)} \\
-	\pi_{2} & = \left( P_{2}^{*} - c \right)Q_{2} = (c - c) \times 0 = 0 \\
-	\end{align} 
-	$$
+        $$
+        \begin{align}
+        \pi_{1} & = \left( P_{1} - c \right)\left( a - P_{1} \right) < 0 \, \text{(why?)} \\
+        \pi_{2} & = \left( P_{2}^{*} - c \right)Q_{2} = (c - c) \times 0 = 0 \\
+        \end{align} 
+        $$
 
 -   균형의 유일성
 
@@ -563,14 +563,14 @@ nav_order: 3
 
         가격을 경쟁 기업과 같은 수준으로 유지할 때와 경쟁 기업보다 아주 조금이라도 낮추었을 때를 비교
 
-	$$
-	\begin{align}
-	\widehat{\pi_{1}} & = \frac{1}{2}\left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) < 2\widehat{\pi_{1}} = \left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) \\
-	\ & \simeq \widetilde{\pi_{1}} = \left( \widehat{P_{2}} - c - \epsilon \right)\left( a - \widehat{P_{2}} + \epsilon \right) \\
-	\end{align} 
-	$$
+        $$
+        \begin{align}
+        \widehat{\pi_{1}} & = \frac{1}{2}\left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) < 2\widehat{\pi_{1}} = \left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) \\
+        \ & \simeq \widetilde{\pi_{1}} = \left( \widehat{P_{2}} - c - \epsilon \right)\left( a - \widehat{P_{2}} + \epsilon \right) \\
+        \end{align} 
+        $$
 
-	$$\rightarrow$$ 비용 $$c$$까지 계속 가격을 낮출 유인만 존재
+       $$\rightarrow$$ 비용 $$c$$까지 계속 가격을 낮출 유인만 존재
 
 ### 요약
 

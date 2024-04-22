@@ -449,7 +449,7 @@ nav_order: 2
         $$
         \begin{align}
         u_{i}(s_{1}^{*}, s_{2}^{*}, \ldots, s_{i}^{*}, \ldots, s_{n}^{*}) & \geq u_{i}(s_{1}^{*}, s_{2}^{*}, \ldots, s_{i}, \ldots, s_{n}^{*}) \\
-        \text{또는} u_{i}(s_{i}^{*}, s_{-i}^{*}) & \geq u_{i}(s_{i}, s_{-i}^{*})
+        \text{또는} \, u_{i}(s_{i}^{*}, s_{-i}^{*}) & \geq u_{i}(s_{i}, s_{-i}^{*})
         \end{align}
         $$
 

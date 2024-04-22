@@ -360,9 +360,12 @@ nav_order: 4
         (우변) =
         $$\frac{n}{2}(a - c) - \frac{n - 1}{2}\sum_{j = 1}^{n}q_{j}^{*} = \frac{n}{2}(a - c) - \frac{n - 1}{2}Q^{*}$$
 
-        $$Q^{*} = \frac{n}{2}(a - c) - \frac{n - 1}{2}Q^{*} \rightarrow \frac{n + 1}{2}Q^{*} = \frac{n}{2}(a - c)$$
-
-        $$Q^{*} = \frac{n}{n + 1}(a - c) \rightarrow q^{*} = \frac{1}{n + 1}(a - c)$$
+        $$
+        \begin{align}
+        Q^{*} & = \frac{n}{2}(a - c) - \frac{n - 1}{2}Q^{*} \rightarrow \frac{n + 1}{2}Q^{*} = \frac{n}{2}(a - c) \\
+        Q^{*} & = \frac{n}{n + 1}(a - c) \rightarrow q^{*} = \frac{1}{n + 1}(a - c)
+        \end{align}
+        $$
 
         (∵ 대칭성 $$q_{i} = q_{j} = q^{*},\ Q^{*} = nq^{*}$$ 가정)
 

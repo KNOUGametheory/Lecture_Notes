@@ -576,8 +576,8 @@ nav_order: 5
         \begin{align}
         E\left\lbrack u_{2}( \cdot , \text{가위}) \right\rbrack & = p \times u_{2}(\text{가위},\text{가위}) \\
         & + q \times u_{2}(\text{바위}, \text{가위}) \\
-        & + (1 - p - q) \times u_{2}(\text{보},\text{가위})
-        & = p \times (0) + q \times ( - 1) + (1 - p - q) \times (1) 
+        & + (1 - p - q) \times u_{2}(\text{보},\text{가위}) \\
+        & = p \times (0) + q \times ( - 1) + (1 - p - q) \times (1) \\ 
         & = - p - 2q + 1
         \end{align}
         $$
@@ -588,8 +588,8 @@ nav_order: 5
         \begin{align}
         E\left\lbrack u_{2}( \cdot , \text{바위}) \right\rbrack & = p \times u_{2}(\text{가위},\text{바위}) \\
         & + q \times u_{2}(\text{바위}, \text{바위}) \\
-        & + (1 - p - q) \times u_{2}(\text{보},\text{바위})
-        & = p \times (1) + q \times (0) + (1 - p - q) \times ( - 1) 
+        & + (1 - p - q) \times u_{2}(\text{보},\text{바위}) \\
+        & = p \times (1) + q \times (0) + (1 - p - q) \times ( - 1) \\
         & = 2p + q - 1
         \end{align}
         $$
@@ -600,8 +600,8 @@ nav_order: 5
         \begin{align}
         E\left\lbrack u_{2}( \cdot , \text{보}) \right\rbrack & = p \times u_{2}(\text{가위},\text{보}) \\
         & + q \times u_{2}(\text{바위}, \text{보}) \\
-        & + (1 - p - q) \times u_{2}(\text{보},\text{보})
-        & = p \times ( - 1) + q \times (1) + (1 - p - q) \times (0) 
+        & + (1 - p - q) \times u_{2}(\text{보},\text{보}) \\
+        & = p \times ( - 1) + q \times (1) + (1 - p - q) \times (0) \\ 
         & = - p + q
         \end{align}
         $$

@@ -272,33 +272,44 @@ nav_order: 5
 
 -   경기자 2의 기대보수를 고려한 최적 대응
 
-    -   경기자 1의 확률분포: $$Pr\ \left\{ 홀 \right\} = p$$,
-        $$Pr\ \left\{ 짝 \right\} = 1 - p$$
+    -   경기자 1의 확률분포: 
 
-    -   경기자 2의 기대보수\
-        $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack = 2p - 1$$,
-        $$E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack = 1 - 2p$$
+        $$Pr\ \left\{ \text{홀} \right\} = p$$,
+        $$Pr\ \left\{ \text{짝} \right\} = 1 - p$$
 
-    -   경기자 2의 확률분포: $$Pr\ \left\{ 홀 \right\} = q$$,
-        $$Pr\ \left\{ 짝 \right\} = 1 - q$$
+    -   경기자 2의 기대보수
 
-    -   $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack > E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$$
-        $$\Leftrightarrow$$ $$p > \frac{1}{2}$$ 🡪 $$q = 1$$\
-        $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack = E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$$
-        $$\Leftrightarrow$$ $$p = \frac{1}{2}$$ 🡪 any
-        $$q \in \lbrack 0,\ 1\rbrack$$\
-        $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack < E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$$
-        $$\Leftrightarrow$$ $$p < \frac{1}{2}$$ 🡪 $$q = 0$$
+        $$E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack = 2p - 1$$,
+        $$E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack = 1 - 2p$$
+
+    -   경기자 2의 확률분포: 
+
+        $$Pr\ \left\{ \text{홀} \right\} = q$$,
+        $$Pr\ \left\{ \text{짝} \right\} = 1 - q$$
+
+    -   $$
+        \begin{align} 
+        E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack > E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
+        \Leftrightarrow p > \frac{1}{2} \rightarrow q = 1 \\
+        E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack = E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
+        \Leftrightarrow p = \frac{1}{2} \rightarrow any q \in \lbrack 0,\ 1\rbrack \\
+        E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack < E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
+        \Leftrightarrow p < \frac{1}{2} \rightarrow q = 0
+        \end{align}
+        $$
 
 -   경기자 2의 대응곡선
 
-    -   $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack > E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$$
-        $$\Leftrightarrow$$ $$p > \frac{1}{2}$$ 🡪 $$q = 1$$\
-        $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack = E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$$
-        $$\Leftrightarrow$$ $$p = \frac{1}{2}$$ 🡪 any
-        $$q \in \lbrack 0,\ 1\rbrack$$\
-        $$E\left\lbrack u_{2}( \cdot ,\ 홀) \right\rbrack < E\left\lbrack u_{2}( \cdot ,\ 짝) \right\rbrack$$
-        $$\Leftrightarrow$$ $$p < \frac{1}{2}$$ 🡪 $$q = 0$$
+    -   $$
+        \begin{align}  
+        E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack > E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
+        \Leftrightarrow p > \frac{1}{2} \rightarrow q = 1 \\
+        E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack = E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
+        \Leftrightarrow$$ $$p = \frac{1}{2} \rightarrow any q \in \lbrack 0,\ 1\rbrack \\
+        E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack < E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
+        \Leftrightarrow$$ $$p < \frac{1}{2} \rightarrow q = 0
+        \end{align}
+        $$  
 
 -   경기자 1의 기대보수를 고려한 최적 대응
 

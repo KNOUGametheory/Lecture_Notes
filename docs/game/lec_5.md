@@ -315,29 +315,44 @@ nav_order: 5
 
 -   경기자 1의 기대보수를 고려한 최적 대응
 
-    -   경기자 2의 확률분포: $$Pr\ \left\{ 홀 \right\} = q$$,
-        $$Pr\ \left\{ 짝 \right\} = 1 - q$$
+    -   경기자 2의 확률분포: 
 
-    -   경기자 1의 기대보수\
-        $$E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack = 1 - 2q$$,
-        $$E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack = 2q - 1$$
+        $$Pr\ \left\{ \text{홀} \right\} = q$$,
+        $$Pr\ \left\{ \text{짝} \right\} = 1 - q$$
 
-    -   경기자 1의 확률분포: $$Pr\ \left\{ 홀 \right\} = p$$,
-        $$Pr\ \left\{ 짝 \right\} = 1 - p$$
+    -   경기자 1의 기대보수
 
-    -   $$E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack > E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack$$
-        $$\Leftrightarrow$$ $$q < \frac{1}{2}$$ 🡪 $$p = 1$$\
-        $$E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack = E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack$$
-        $$\Leftrightarrow$$ $$q = \frac{1}{2}$$ 🡪 any
-        $$p \in \lbrack 0,\ 1\rbrack$$\
-        $$E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack < E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack$$
-        $$\Leftrightarrow$$ $$q > \frac{1}{2}$$ 🡪 $$p = 0$$
+        $$E\left\lbrack u_{1}(\text{홀},  \cdot ) \right\rbrack = 1 - 2q$$,
+        $$E\left\lbrack u_{1}(\text{짝},  \cdot ) \right\rbrack = 2q - 1$$
+
+    -   경기자 1의 확률분포: 
+
+        $$Pr\ \left\{ \text{홀} \right\} = p$$,
+        $$Pr\ \left\{ \text{짝} \right\} = 1 - p$$
+
+    -   $$
+        \begin{align} 
+        E\left\lbrack u_{1}(\text{홀},  \cdot ) \right\rbrack > E\left\lbrack u_{1}(\text{짝},  \cdot ) \right\rbrack
+        & \Leftrightarrow q < \frac{1}{2} \rightarrow p = 1 \\
+        E\left\lbrack u_{1}(\text{홀},  \cdot ) \right\rbrack = E\left\lbrack u_{1}(\text{짝},  \cdot ) \right\rbrack
+        & \Leftrightarrow q = \frac{1}{2} \rightarrow any \,\, p \in \lbrack 0,\ 1\rbrack \\
+        E\left\lbrack u_{1}(\text{홀},  \cdot ) \right\rbrack < E\left\lbrack u_{1}(\text{짝},  \cdot ) \right\rbrack
+        & \Leftrightarrow q > \frac{1}{2} \rightarrow p = 0
+        \end{align}
+        $$
 
 -   경기자 1의 대응 곡선
 
-    -   $$E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack > E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack\text{~} \Leftrightarrow \text{~}q < \frac{1}{2}\text{~}p = 1$$\
-        $$E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack = E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack\text{~} \Leftrightarrow \text{~}q = \frac{1}{2}\text{~}\text{any~}p \in \lbrack 0,\ 1\rbrack$$\
-        $$E\left\lbrack u_{1}(홀,\  \cdot ) \right\rbrack < E\left\lbrack u_{1}(짝,\  \cdot ) \right\rbrack\text{~} \Leftrightarrow \text{~}q > \frac{1}{2}\text{~}\text{~}p = 0$$
+    -   $$
+        \begin{align} 
+        E\left\lbrack u_{1}(\text{홀},  \cdot ) \right\rbrack > E\left\lbrack u_{1}(\text{짝},  \cdot ) \right\rbrack
+        & \Leftrightarrow q < \frac{1}{2} \rightarrow p = 1 \\
+        E\left\lbrack u_{1}(\text{홀},  \cdot ) \right\rbrack = E\left\lbrack u_{1}(\text{짝},  \cdot ) \right\rbrack
+        & \Leftrightarrow q = \frac{1}{2} \rightarrow any \,\, p \in \lbrack 0,\ 1\rbrack \\
+        E\left\lbrack u_{1}(\text{홀},  \cdot ) \right\rbrack < E\left\lbrack u_{1}(\text{짝},  \cdot ) \right\rbrack
+        & \Leftrightarrow q > \frac{1}{2} \rightarrow p = 0
+        \end{align}
+        $$
 
 
 ### 대응곡선과 혼합전략 내쉬균형

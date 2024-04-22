@@ -328,19 +328,19 @@ nav_order: 4
 
         $$\frac{\partial^{2}u_{i}}{\partial q_{i}^{2}} = - 2 \leq 0$$
 
--   하딘의 모형 풀이(계속)
+    -   공동체 구성원 $$i$$의 최적 대응(Best Response)
 
-    -   공동체 구성원 $$i$$의 최적 대응(Best Response)\
         $$q_{i}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq i}^{}q_{j} \right\rbrack$$
 
-    -   최적 대응을 연립하여 균형을 계산\
-        경기자 1:
-        $$q_{1}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq 1}^{}q_{j} \right\rbrack$$
-        ... (1)\
-        경기자 2:
-        $$q_{2}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq 2}^{}q_{j} \right\rbrack$$
-        ... (2)\
-        $$\vdots$$
+    -   최적 대응을 연립하여 균형을 계산
+        
+        $$
+        \begin{align}
+        \text{경기자 1:} \,\, q_{1}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq 1}^{}q_{j} \right\rbrack ... (1) \\
+        \text{경기자 2}: \,\, q_{2}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq 2}^{}q_{j} \right\rbrack ... (2)\\
+        \vdots
+        \end{align}
+        $$
 
 경기자 $$n$$:
 $$q_{n}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq n}^{}q_{j} \right\rbrack$$

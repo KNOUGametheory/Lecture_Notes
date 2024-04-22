@@ -297,9 +297,9 @@ nav_order: 3
 
 	$$
 	\begin{align}
-	\frac{d\pi}{dQ} & = - Q + a - c - Q
-	\left. \ \frac{d\pi}{dQ} \right|_{Q = Q^{M}} & = 0
-	\rightarrow Q^{M} $ = \frac{a - c}{2}
+	\frac{d\pi}{dQ} & = - Q + a - c - Q \\
+	\left. \ \frac{d\pi}{dQ} \right|_{Q = Q^{M}} & = 0 \\
+	\rightarrow Q^{M} $ = \frac{a - c}{2} \\
 	\end{align}
 	$$
 
@@ -307,9 +307,9 @@ nav_order: 3
 
 	$$
 	\begin{align}
-	q_{1}^{M} & = q_{2}^{M} = \frac{Q^{M}}{2} = \frac{a - c}{4}
-	P^{M} & = \frac{a + c}{2}
-	\pi_{1}^{M} & = \pi_{2}^{M} = \frac{(a - c)^{2}}{8}
+	q_{1}^{M} & = q_{2}^{M} = \frac{Q^{M}}{2} = \frac{a - c}{4} \\
+	P^{M} & = \frac{a + c}{2} \\
+	\pi_{1}^{M} & = \pi_{2}^{M} = \frac{(a - c)^{2}}{8} \\
 	\end{align}
 	$$
 
@@ -319,8 +319,8 @@ nav_order: 3
 
 	$$
 	\begin{align}
-	q_{1}^{*} & = q_{2}^{*} = \frac{a - c}{3} > q_{1}^{M} = q_{2}^{M} = \frac{a - c}{4}
-	Q^{*} & = \frac{2(a - c)}{3} > Q^{M} = \frac{a - c}{2}
+	q_{1}^{*} & = q_{2}^{*} = \frac{a - c}{3} > q_{1}^{M} = q_{2}^{M} = \frac{a - c}{4} \\
+	Q^{*} & = \frac{2(a - c)}{3} > Q^{M} = \frac{a - c}{2} \\
 	\end{align}
 	$$
 
@@ -329,12 +329,8 @@ nav_order: 3
 
 	$$
 	\begin{align}
-	P^{*} = \frac{a + 2c}{3} < P^{M} = \frac{a + c}{2}
-	\end{align} $$ if
-
-	$$
-	\begin{align}
-	P^{*} < P^{M} \rightarrow 2a + 4c < 3a + 3c \rightarrow a > c
+	P^{*} = \frac{a + 2c}{3} < P^{M} = \frac{a + c}{2} if a > c \\
+	P^{*} < P^{M} \rightarrow 2a + 4c < 3a + 3c \rightarrow a > c \\
 	\end{align} 
 	$$
 

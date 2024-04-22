@@ -157,7 +157,7 @@ nav_order: 4
         $$
         \begin{align}
         u_{1}\left( \frac{1}{3},\frac{2}{3} \right) & = \frac{1}{3} + \frac{1}{2}\left( \frac{2}{3} - \frac{1}{3} \right) = \frac{1}{3} + \frac{1}{6} = \frac{1}{2} = \widehat{u_{1}} \\
-        \widehat{u_{2}}\left( \frac{1}{3},\frac{2}{3} \right) = \left( 1 - \frac{2}{3} \right) + \frac{1}{2}\left( \frac{2}{3} - \frac{1}{3} \right) = \frac{1}{3} + \frac{1}{6} = \frac{1}{2} = \widehat{u_{2}}
+        \widehat{u_{2}}\left( \frac{1}{3},\frac{2}{3} \right) & = \left( 1 - \frac{2}{3} \right) + \frac{1}{2}\left( \frac{2}{3} - \frac{1}{3} \right) = \frac{1}{3} + \frac{1}{6} = \frac{1}{2} = \widehat{u_{2}}
         \end{align}
         $$
 

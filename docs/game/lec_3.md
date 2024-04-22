@@ -516,9 +516,9 @@ nav_order: 3
 	\pi_{1} & = \left( P_{1} - c \right)Q_{1} = 0 \\
 	\pi_{2} & = \left( P_{2}^{*} - c \right)Q_{2} = (c - c)(a - c) = 0 \\
 	\end{align} 
-	$$ \\
+	$$
 
-        (ⅱ) $$P_{1} < P_{2}^{*} = c$$: $$Q_{1} = a - P_{1}$$, $$Q_{2} = 0$$ 
+	(ⅱ) $$P_{1} < P_{2}^{*} = c$$: $$Q_{1} = a - P_{1}$$, $$Q_{2} = 0$$ 
 
 	$$
 	\begin{align}
@@ -565,12 +565,12 @@ nav_order: 3
 
 	$$
 	\begin{align}
-	\\widehat{\pi_{1}} & = \frac{1}{2}\left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) < 2\widehat{\pi_{1}} = \left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) \\
+	\widehat{\pi_{1}} & = \frac{1}{2}\left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) < 2\widehat{\pi_{1}} = \left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) \\
 	\ & \simeq \widetilde{\pi_{1}} = \left( \widehat{P_{2}} - c - \epsilon \right)\left( a - \widehat{P_{2}} + \epsilon \right) \\
 	\end{align} 
 	$$
 
-        $$\rightarrow$$ 비용 $$c$$까지 계속 가격을 낮출 유인만 존재
+	$$\rightarrow$$ 비용 $$c$$까지 계속 가격을 낮출 유인만 존재
 
 ### 요약
 
@@ -592,5 +592,5 @@ nav_order: 3
 
 -   쿠르노 복점 모형을 활용하여 생산량 경쟁 상황과 담합에 참여했을 때의 균형 계산 및 비교가 가능
 
--   베르트랑 복점 모형을 활용하여 가격 경쟁 상황에서동질적 제품의 균형 가격이 한계비용과 같음을 설명
+-   베르트랑 복점 모형을 활용하여 가격 경쟁 상황에서 동질적 제품의 균형 가격이 한계비용과 같음을 설명
 

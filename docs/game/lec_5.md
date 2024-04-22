@@ -292,7 +292,7 @@ nav_order: 5
         E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack > E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
         & \Leftrightarrow p > \frac{1}{2} \rightarrow q = 1 \\
         E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack = E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
-        & \Leftrightarrow p = \frac{1}{2} \rightarrow any q \in \lbrack 0,\ 1\rbrack \\
+        & \Leftrightarrow p = \frac{1}{2} \rightarrow any \,\, q \in \lbrack 0,\ 1\rbrack \\
         E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack < E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
         & \Leftrightarrow p < \frac{1}{2} \rightarrow q = 0
         \end{align}
@@ -305,9 +305,9 @@ nav_order: 5
         E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack > E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
         & \Leftrightarrow p > \frac{1}{2} \rightarrow q = 1 \\
         E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack = E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
-        & \Leftrightarrow$$ $$p = \frac{1}{2} \rightarrow any q \in \lbrack 0,\ 1\rbrack \\
+        & \Leftrightarrow p = \frac{1}{2} \rightarrow any \,\, q \in \lbrack 0,\ 1\rbrack \\
         E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack < E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack
-        & \Leftrightarrow$$ $$p < \frac{1}{2} \rightarrow q = 0
+        & \Leftrightarrow p < \frac{1}{2} \rightarrow q = 0
         \end{align}
         $$  
 

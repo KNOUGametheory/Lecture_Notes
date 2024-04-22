@@ -101,32 +101,36 @@ nav_order: 4
 
         $$u_{2} = \frac{1}{2}(1 - a - b) + b = \frac{1}{2}(1 - a + b)$$
 
+    ![표](/images/Lec_4_1_2_1.png)
+
 -   모형의 균형
 
     -   상점 1, 상점 2 모두 도시 한가운데 점포 개설
         $$\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$$
 
     -   상점 1의 시장점유율
-        $$u_{1}\left( \frac{1}{2},\frac{1}{2} \right) = \frac{1}{2}\left( 1 + \frac{1}{2} - \frac{1}{2} \right) = \frac{1}{2}$$\
+
+        $$u_{1}\left( \frac{1}{2},\frac{1}{2} \right) = \frac{1}{2}\left( 1 + \frac{1}{2} - \frac{1}{2} \right) = \frac{1}{2}$$
+
         상점 2의 시장점유율
+
         $$u_{2}\left( \frac{1}{2},\frac{1}{2} \right) = \frac{1}{2}\left( 1 - \frac{1}{2} + \frac{1}{2} \right) = \frac{1}{2}$$
 
+    ![표](/images/Lec_4_1_2_2.png)
 
 -   균형의 타당성
 
-    -   상점 1과 상점 2 모두 점포 위치를 바꿀 유인이 없을까? YES!
+    -   상점 1과 상점 2 모두 점포 위치를 바꿀 유인이 없을까? <span style="color:#105AD2">YES!</span>
 
-    -   상점 2가 점포 위치를 $$1 - b^{*} = \frac{1}{2}$$로 유지한다면?\
+    -   상점 2가 점포 위치를 $$1 - b^{*} = \frac{1}{2}$$로 유지한다면?
+
         상점 1은 점포 위치를 $$a^{*} = \frac{1}{2}$$로 유지하는 게 최선
 
-    -   상점 1이 점포 위치를 바꾼다면? 시장점유율 감소!\
-        (ⅰ) $$a = \frac{1}{2} - \epsilon < \frac{1}{2}$$:
-        $$u_{1}\left( \frac{1}{2} - \epsilon,\frac{1}{2} \right) = \left( \frac{1}{2} - \epsilon \right) + \frac{1}{2}\epsilon = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$\
-        (ⅱ) $$a = \frac{1}{2} + \epsilon > \frac{1}{2}$$:
-        $$u_{1}\left( \frac{1}{2} + \epsilon,\frac{1}{2} \right) = \left\lbrack 1 - \left( \frac{1}{2} + \epsilon \right) \right\rbrack + \frac{1}{2}\epsilon = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$
+    -   상점 1이 점포 위치를 바꾼다면? 시장점유율 감소!
 
+        (ⅰ) $$a = \frac{1}{2} - \epsilon < \frac{1}{2}$$: $$u_{1}\left( \frac{1}{2} - \epsilon,\frac{1}{2} \right) = \left( \frac{1}{2} - \epsilon \right) + \frac{1}{2}\epsilon = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$
 
--   균형의 타당성(계속)
+        (ⅱ) $$a = \frac{1}{2} + \epsilon > \frac{1}{2}$$: $$u_{1}\left( \frac{1}{2} + \epsilon,\frac{1}{2} \right) = \left\lbrack 1 - \left( \frac{1}{2} + \epsilon \right) \right\rbrack + \frac{1}{2}\epsilon = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$
 
     -   상점 1과 상점 2 모두 점포 위치를 바꿀 유인이 없을까? YES!
 

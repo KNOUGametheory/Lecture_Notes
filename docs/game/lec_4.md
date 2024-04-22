@@ -430,16 +430,22 @@ nav_order: 4
         \end{align}
         $$
 
--   공동자원을 활용하는 사회적 최적
+    -   공동체 구성원 $$i$$의 사회적 최적 생산량
 
-    -   공동체 구성원 $$i$$의 사회적 최적 생산량\
         $$\widehat{q_{i}} = \frac{1}{n}\widehat{Q} = \frac{1}{2n}(a - c)$$
 
-    -   공동체 구성원 $$i$$의 사회적 최적 보수\
-        $$\widehat{u_{i}} = \left( v\left( \widehat{Q} \right) - c \right)\widehat{q_{i}} = \left( a - \widehat{Q} - c \right)\widehat{q_{i}}$$\
-        $$= \left( a - \frac{1}{2}(a - c) - c \right)\frac{1}{2n}(a - c)$$\
-        $$= \left\lbrack \frac{1}{2}(a - c) \right\rbrack\left\lbrack \frac{1}{2n}(a - c) \right\rbrack = \frac{1}{4n}(a - c)^{2} = \frac{1}{n}\widehat{U}$$
+    -   공동체 구성원 $$i$$의 사회적 최적 보수
 
+        $$
+        \begin{align}
+        \widehat{u_{i}} & = \left( v\left( \widehat{Q} \right) - c \right)\widehat{q_{i}} \\
+        & = \left( a - \widehat{Q} - c \right)\widehat{q_{i}} \\
+        & = \left( a - \frac{1}{2}(a - c) - c \right)\frac{1}{2n}(a - c) \\
+        & = \left\lbrack \frac{1}{2}(a - c) \right\rbrack\left\lbrack \frac{1}{2n}(a - c) \right\rbrack \\
+        & = \frac{1}{4n}(a - c)^{2} \\
+        & = \frac{1}{n}\widehat{U}
+        \end{align}
+        $$
 
 -   균형 생산량과 사회적 최적 생산량 비교
 

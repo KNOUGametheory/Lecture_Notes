@@ -106,7 +106,8 @@ nav_order: 3
 	
 	\frac{\partial\pi_{1}}{\partial q_{1}} & = - q_{1} + \left\lbrack a - c - q_{1} - q_{2} \right\rbrack \\
                                                                    & = a - c - 2q_{1} - q_{2} \\
-	\frac{\partial\pi_{1}}{\partial q_{1}} \vert_{q_1 = q_1^*} & = 0 \rightarrow q_{1}^{*} = \frac{a - c - q_{2}}{2}\\
+	\frac{\partial\pi_{1}}{\partial q_{1}} \vert_{q_1 = q_1^*} & = 0 \rightarrow \\
+	q_{1}^{*} & = \frac{a - c - q_{2}}{2}\\
         \end{align}
 	$$
 

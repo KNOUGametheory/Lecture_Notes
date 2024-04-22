@@ -94,7 +94,8 @@ nav_order: 3
 	$$
 	\begin{align}
 	\pi_{1} & = \left\lbrack (a - Q) - c \right\rbrack q_{1} \\
-	& = \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{1} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{1}
+	& = \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{1} \\
+	& = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{1}
 	\end{align}
 	$$
 

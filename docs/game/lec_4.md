@@ -468,14 +468,20 @@ nav_order: 4
 -   균형 보수와 사회적 최적 보수 비교
 
     -   공동체 구성원 $$i$$의 균형 보수
+
         $$u_{i}^{*} = \frac{1}{(n + 1)^{2}}(a - c)^{2}$$\
+
         공동체 구성원 $$i$$의 사회적 최적 보수
+
         $$\widehat{u_{i}} = \frac{1}{4n}(a - c)^{2}$$
 
-    -   $$n = 1$$: $$u_{i}^{*} = \widehat{u_{i}} = \frac{1}{4}(a - c)^{2}$$\
-        $$n \geq 2$$:
-        $$u_{i}^{*} - \widehat{u_{i}} = \frac{1}{(n + 1)^{2}}(a - c)^{2} - \frac{1}{4n}(a - c)^{2}$$\
-        $$= \frac{\left\lbrack 4n - (n + 1)^{2} \right\rbrack}{4n(n + 1)^{2}}(a - c)^{2} = - \frac{(n - 1)^{2}}{4n(n + 1)}(a - c)^{2} < 0$$
+    -   $$
+        \begin{align}
+        n = 1: u_{i}^{*} = \widehat{u_{i}} & = \frac{1}{4}(a - c)^{2} \\
+        n \geq 2: u_{i}^{*} - \widehat{u_{i}} & = \frac{1}{(n + 1)^{2}}(a - c)^{2} - \frac{1}{4n}(a - c)^{2} \\
+        & = \frac{\left\lbrack 4n - (n + 1)^{2} \right\rbrack}{4n(n + 1)^{2}}(a - c)^{2} = - \frac{(n - 1)^{2}}{4n(n + 1)}(a - c)^{2} < 0 \\
+        \end{align}
+        $$
 
 -   결과 해석
 

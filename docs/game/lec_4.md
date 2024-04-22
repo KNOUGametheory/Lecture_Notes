@@ -570,11 +570,11 @@ nav_order: 4
 
     -   경기자 1의 입장: 전략을 바꿀 유인 없음
 
-        $$u_{1}$$(K,<span style="color:#FF0000">K</span>) $$= 16 \geq u_{1}$$(L,<span style="color:#FF0000">K</span>) &&= 0$$
+        $$u_{1}$$(K,<span style="color:#FF0000">K</span>) $$= 16 \geq u_{1}$$(L,<span style="color:#FF0000">K</span>) $$= 0$$
 
     -   경기자 2의 입장: 전략을 바꿀 유인 없음
 
-        $$u_{2}$$(<span style="color:#FF0000">K</span>,K) $$= 16 \geq u_{2}$$(<span style="color:#FF0000">K</span>,L) &&= 0$$
+        $$u_{2}$$(<span style="color:#FF0000">K</span>,K) $$= 16 \geq u_{2}$$(<span style="color:#FF0000">K</span>,L) $$= 0$$
 
     ![표](/images/Lec_4_3_1_2.png)
 
@@ -586,7 +586,7 @@ nav_order: 4
 
     -   경기자 2의 입장: 전략을 바꿀 유인 있음(L $$\rightarrow$$ K)
 
-        $$u_{2}$$(<span style="color:#FF0000">K</span>,L) $$= 0 < u_{2}(<span style="color:#FF0000">K</span>,K) $$= 16$$
+        $$u_{2}$$(<span style="color:#FF0000">K</span>,L) $$= 0 < u_{2}$$(<span style="color:#FF0000">K</span>,K) $$= 16$$
 
     ![표](/images/Lec_4_3_1_1.png)
 

@@ -423,7 +423,7 @@ nav_order: 4
 
         $$
         \begin{align}
-        \widehat{U} $ = \left( v\left( \widehat{Q} \right) - c \right)\widehat{Q} \\
+        \widehat{U} & = \left( v\left( \widehat{Q} \right) - c \right)\widehat{Q} \\
         & = \left\lbrack a - \frac{1}{2}(a - c) - c \right\rbrack\left\lbrack \frac{1}{2}(a - c) \right\rbrack \\
         & = \left\lbrack \frac{1}{2}(a - c) \right\rbrack\left\lbrack \frac{1}{2}(a - c) \right\rbrack \\
         & = \frac{1}{4}(a - c)^{2}

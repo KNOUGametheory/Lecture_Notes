@@ -88,7 +88,7 @@ nav_order: 6
 
         -   보수표(payoff table)
 
-    ![표](/images/Lec_2_1_2_1.png)
+        ![표](/images/Lec_2_1_2_1.png)
 
 -   전개형 게임의 예시: 죄수의 딜레마
 
@@ -96,7 +96,7 @@ nav_order: 6
 
     -   게임나무로 표현된 죄수의 딜레마
 
-    ![표](/images/Lec_6_1_1_1.png)
+        ![표](/images/Lec_6_1_1_1.png)
 
 ### 전개형 게임과 정보
 
@@ -146,9 +146,9 @@ nav_order: 6
 
     -   다른 용의자의 행동을 인지하지 못하므로 정보집합으로 표현
 
-    ![표](/images/Lec_6_1_1_1.png)
+        ![표](/images/Lec_6_1_1_1.png)
 
-    ![표](/images/Lec_2_1_2_1.png)
+        ![표](/images/Lec_2_1_2_1.png)
 
 -   완전정보 게임으로서 죄수의 딜레마
 
@@ -156,9 +156,9 @@ nav_order: 6
 
     -   용의자 2는 각 마디에서 취할 행동의 순서쌍 결정이 필요
 
-    ![표](/images/Lec_6_1_3_1.png)
+        ![표](/images/Lec_6_1_3_1.png)
 
-    ![표](/images/Lec_6_1_3_2.png)
+        ![표](/images/Lec_6_1_3_2.png)
 
 ### 요약
 
@@ -247,7 +247,7 @@ nav_order: 6
 
     -   게임나무
 
-    ![표](/images/Lec_6_2_2_1.png)
+        ![표](/images/Lec_6_2_2_1.png)
 
 -   진입-저지 게임에 적용
 

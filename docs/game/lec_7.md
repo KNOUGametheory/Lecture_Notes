@@ -104,30 +104,39 @@ nav_order: 7
 
     -   역진귀납법을 적용하여 게임 순서의 역순으로 풀이
 
-    -   기업 2의 이윤 $$\pi_{2} = Pq_{2} - cq_{2} = (P - c)q_{2}$$\
-        (여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
+    -   기업 2의 이윤 (여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
 
-    -   시장의 수요 함수($$P = a - Q$$)를 $$\pi_{2}$$에 대입\
-        $$\pi_{2} = \left\lbrack (a - Q) - c \right\rbrack q_{2}$$ 
-        $$= \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{2} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{2}$$
+        $$\pi_{2} = Pq_{2} - cq_{2} = (P - c)q_{2}$$
 
--   모형의 풀이 (계속)
+    -   시장의 수요 함수($$P = a - Q$$)를 $$\pi_{2}$$에 대입
+
+        $$
+        \begin{align}
+        \pi_{2} & = \left\lbrack (a - Q) - c \right\rbrack q_{2} \\
+        & = \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{2} \\
+        & = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{2}
+        \end{align}
+        $$
 
     -   $$\pi_{2}$$을 최대화하는 생산량 $$q_{2}$$를 결정
 
         -   일계조건(First-order condition)
-            $$\left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = \widetilde{q_2}} = 0$$\
-            $$\frac{\partial\pi_{2}}{\partial q_{2}} = - q_{2} + \left\lbrack a - c - q_{1} - q_{2} \right\rbrack = a - c - q_{1} - 2q_{2}
-            \left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = \widetilde{q_2}} = 0$$
-            🡪 $$\widetilde{q_{2}} = \frac{a - c - q_{1}}{2}$$\
+            $$\left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = \widetilde{q_2}} = 0$$
+
+            $$
+            \begin{align}
+            \frac{\partial\pi_{2}}{\partial q_{2}} & = - q_{2} + \left\lbrack a - c - q_{1} - q_{2} \right\rbrack \\
+            & = a - c - q_{1} - 2q_{2} \\
+            \left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = \widetilde{q_2}} & = 0 \rightarrow \\
+            \widetilde{q_{2}} = \frac{a - c - q_{1}}{2}
+            \end{align}
+            $$
+
             기업 1의 생산량에 대한 기업 2의 최적 대응
-
--   모형의 풀이 (계속)
-
-    -   $$\pi_{2}$$을 최대화하는 생산량 $$q_{2}$$를 결정
 
         -   이계조건(Second-order condition)
             $$\left. \ \frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} \right\vert_{q_2 = \widetilde{q_2}} \leq 0$$
+
             $$\frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} = \frac{\partial}{\partial q_{2}}\left( \frac{\partial\pi_{2}}{\partial q_{2}} \right) = \frac{\partial}{\partial q_{2}}\left( a - c - q_{1} - 2q_{2} \right) = - 2 \leq 0$$
 
 -   모형의 풀이 (계속)

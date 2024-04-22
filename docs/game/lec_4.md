@@ -337,8 +337,13 @@ nav_order: 4
         $$
         \begin{align}
         \text{경기자 }1: q_{1}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq 1}^{}q_{j} \right\rbrack \,\, ... \,\, (1) \\
-        \text{경기자 }2: q_{2}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq 2}^{}q_{j} \right\rbrack \,\, ... \,\, (2) \\
-        \vdots \\
+        \text{경기자 }2: q_{2}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq 2}^{}q_{j} \right\rbrack \,\, ... \,\, (2) 
+        \end{align}
+
+        $$\vdots$$
+        
+        $$
+        \begin{align}
         \text{경기자 }n: q_{n}^{*} = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq n}^{}q_{j} \right\rbrack \,\, ... \,\, (n)
         \end{align}
         $$

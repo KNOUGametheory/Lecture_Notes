@@ -319,11 +319,10 @@ nav_order: 4
         $$
         \begin{align}
         \frac{\partial u_{i}}{\partial q_{i}} & = - q_{i} + \left\lbrack a - c - \sum_{j = 1}^{n}q_{j} \right\rbrack \\
-        \left. \ \frac{\partial u_{i}}{\partial q_{i}} \right|_{q_{i} & = q_{i}^{*}} = 0 \\
+        \left. \ \frac{\partial u_{i}}{\partial q_{i}} \right|_{q_{i} = q_{i}^{*}} & = 0 \\
         \rightarrow q_{i}^{*} & = \frac{1}{2}\left\lbrack a - c - \sum_{j \neq i}^{}q_{j} \right\rbrack
         \end{align}
         $$
-
 
 이계조건: $$\frac{\partial^{2}u_{i}}{\partial q_{i}^{2}} = - 2 \leq 0$$
 

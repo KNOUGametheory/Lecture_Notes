@@ -564,10 +564,10 @@ nav_order: 3
         가격을 경쟁 기업과 같은 수준으로 유지할 때와 경쟁 기업보다 아주 조금이라도 낮추었을 때를 비교
 
         $$
-        \begin{align}
+        \begin{flushreft}
         \widehat{\pi_{1}} & = \frac{1}{2}\left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) < 2\widehat{\pi_{1}} = \left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) \\
         \ & \simeq \widetilde{\pi_{1}} = \left( \widehat{P_{2}} - c - \epsilon \right)\left( a - \widehat{P_{2}} + \epsilon \right) \\
-        \end{align} 
+        \end{flushreft} 
         $$
 
         $$\rightarrow$$ 비용 $$c$$까지 계속 가격을 낮출 유인만 존재

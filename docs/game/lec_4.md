@@ -138,7 +138,7 @@ nav_order: 4
 
     -   상점 2가 점포 위치를 바꾼다면? 시장점유율 감소!
 
-        (ⅰ) $$1 - b = \frac{1}{2} - \epsilon < \frac{1}{2}\: u_{2}\left( \frac{1}{2},\frac{1}{2} - \epsilon \right) = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$
+        (ⅰ) $$1 - b = \frac{1}{2} - \epsilon < \frac{1}{2}$$: $$u_{2}\left( \frac{1}{2},\frac{1}{2} - \epsilon \right) = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$
 
         (ⅱ) $$1 - b = \frac{1}{2} + \epsilon > \frac{1}{2}$$:
         $$u_{2}\left( \frac{1}{2},\frac{1}{2} + \epsilon \right) = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$

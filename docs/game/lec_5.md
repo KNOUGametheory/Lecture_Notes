@@ -283,8 +283,8 @@ nav_order: 5
 
     -   경기자 2의 확률분포: 
 
-        $$Pr\ \left\{ \text{홀} \right\} = q$$,
-        $$Pr\ \left\{ \text{짝} \right\} = 1 - q$$
+        $$\Pr \left\{ \text{홀} \right\} = q$$,
+        $$\Pr \left\{ \text{짝} \right\} = 1 - q$$
 
     -   $$
         \begin{align} 
@@ -316,8 +316,8 @@ nav_order: 5
 
     -   경기자 2의 확률분포: 
 
-        $$Pr\ \left\{ \text{홀} \right\} = q$$,
-        $$Pr\ \left\{ \text{짝} \right\} = 1 - q$$
+        $$\Pr \left\{ \text{홀} \right\} = q$$,
+        $$\Pr \left\{ \text{짝} \right\} = 1 - q$$
 
     -   경기자 1의 기대보수
 
@@ -326,8 +326,8 @@ nav_order: 5
 
     -   경기자 1의 확률분포: 
 
-        $$Pr\ \left\{ \text{홀} \right\} = p$$,
-        $$Pr\ \left\{ \text{짝} \right\} = 1 - p$$
+        $$\Pr \left\{ \text{홀} \right\} = p$$,
+        $$\Pr \left\{ \text{짝} \right\} = 1 - p$$
 
     -   $$
         \begin{align} 

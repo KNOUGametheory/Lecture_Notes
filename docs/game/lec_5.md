@@ -128,8 +128,7 @@ nav_order: 5
 
         $$\rightarrow$$ 주사위를 던져서 홀수가 나오면 '홀', 짝수가 나오면 '짝'
 
-    -   주사위를 던질 때 표본공간
-        $$S = \left\{ 1,\ 2,\ 3,\ 4,\ 5,\ 6 \right\}$$
+    -   주사위를 던질 때 표본공간 $$S = \left\{ 1,\ 2,\ 3,\ 4,\ 5,\ 6 \right\}$$
 
         홀수 $$O = \left\{ 1,\ 3,\ 5 \right\}$$, 홀수가 나올 확률 $$\Pr\left\{ O \right\} = \frac{n(O)}{n(S)} = \frac{3}{6} = \frac{1}{2}$$
 
@@ -143,8 +142,7 @@ nav_order: 5
 
         $$\rightarrow$$ 주사위를 던져서 '6의 약수'가 나오면 '홀', '6의 약수가 아닌 수'가 나오면 '짝'
 
-    -   주사위를 던질 때 표본공간
-        $$S = \left\{ 1,\ 2,\ 3,\ 4,\ 5,\ 6 \right\}$$
+    -   주사위를 던질 때 표본공간 $$S = \left\{ 1,\ 2,\ 3,\ 4,\ 5,\ 6 \right\}$$
 
         6의 약수 $$A = \left\{ 1,\ 2,\ 3,\ 6 \right\} \rightarrow \Pr\left\{ A \right\} = \frac{n(A)}{n(S)} = \frac{4}{6} = \frac{2}{3}$$
 
@@ -156,11 +154,9 @@ nav_order: 5
 
 -   최적 대응(Best Response)
 
-    -   경기자 $$i$$를 제외한 다른 경기자 $$- i$$의 전략이 주어졌을 때,
-        경기자 $$i$$의 다른 모든 전략보다 '크거나 같은' 보수를 주는 전략
+    -   경기자 $$i$$를 제외한 다른 경기자 $$- i$$의 전략이 주어졌을 때, 경기자 $$i$$의 다른 모든 전략보다 '크거나 같은' 보수를 주는 전략
 
-    -   경기자 $$i$$의 전략 $$\widehat{\sigma_{i}}$$는 다른 경기자 $$- i$$의
-        전략(조합) $$\sigma_{- i}$$에 대한 최적대응 if $$u_{i}\left( \widehat{\sigma_{i}},\ \sigma_{- i} \right) \geq u_{i}\left( \sigma_{i},\ \sigma_{- i} \right) \forall\sigma_{i} \in S_{i}$$를 만족시키는 $$\sigma_{- i}$$가 존재
+    -   경기자 $$i$$의 전략 $$\widehat{\sigma_{i}}$$는 다른 경기자 $$- i$$의 전략(조합) $$\sigma_{- i}$$에 대한 최적대응 if $$u_{i}\left( \widehat{\sigma_{i}},\ \sigma_{- i} \right) \geq u_{i}\left( \sigma_{i},\ \sigma_{- i} \right) \forall\sigma_{i} \in S_{i}$$를 만족시키는 $$\sigma_{- i}$$가 존재
 
         예) 홀짝 게임에서 경기자 1의 최적 대응
 
@@ -239,11 +235,9 @@ nav_order: 5
 
     -   $$p = 0$$: 경기자 1이 확정적으로 '짝'을 선택
 
-    -   $$p = \frac{1}{3}$$: {홀, 짝, 짝} 주머니에서 임의로 제비를 뽑아
-        선택
+    -   $$p = \frac{1}{3}$$: {홀, 짝, 짝} 주머니에서 임의로 제비를 뽑아 선택
 
-    -   $$p = \frac{2}{3}$$: {홀, 홀, 짝} 주머니에서 임의로 제비를 뽑아
-        선택
+    -   $$p = \frac{2}{3}$$: {홀, 홀, 짝} 주머니에서 임의로 제비를 뽑아 선택
 
     -   $$p = 1$$: 경기자 1이 확정적으로 '홀'을 선택
 
@@ -273,18 +267,15 @@ nav_order: 5
 
     -   경기자 1의 확률분포: 
 
-        $$\Pr \left\{ \text{홀} \right\} = p$$,
-        $$\Pr \left\{ \text{짝} \right\} = 1 - p$$
+        $$\Pr \left\{ \text{홀} \right\} = p$$, $$\Pr \left\{ \text{짝} \right\} = 1 - p$$
 
     -   경기자 2의 기대보수
 
-        $$E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack = 2p - 1$$,
-        $$E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack = 1 - 2p$$
+        $$E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack = 2p - 1$$, $$E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack = 1 - 2p$$
 
     -   경기자 2의 확률분포: 
 
-        $$\Pr \left\{ \text{홀} \right\} = q$$,
-        $$\Pr \left\{ \text{짝} \right\} = 1 - q$$
+        $$\Pr \left\{ \text{홀} \right\} = q$$, $$\Pr \left\{ \text{짝} \right\} = 1 - q$$
 
     -   $$
         \begin{align} 
@@ -316,18 +307,15 @@ nav_order: 5
 
     -   경기자 2의 확률분포: 
 
-        $$\Pr \left\{ \text{홀} \right\} = q$$,
-        $$\Pr \left\{ \text{짝} \right\} = 1 - q$$
+        $$\Pr \left\{ \text{홀} \right\} = q$$, $$\Pr \left\{ \text{짝} \right\} = 1 - q$$
 
     -   경기자 1의 기대보수
 
-        $$E\left\lbrack u_{1}(\text{홀},  \cdot ) \right\rbrack = 1 - 2q$$,
-        $$E\left\lbrack u_{1}(\text{짝},  \cdot ) \right\rbrack = 2q - 1$$
+        $$E\left\lbrack u_{1}(\text{홀},  \cdot ) \right\rbrack = 1 - 2q$$, $$E\left\lbrack u_{1}(\text{짝},  \cdot ) \right\rbrack = 2q - 1$$
 
     -   경기자 1의 확률분포: 
 
-        $$\Pr \left\{ \text{홀} \right\} = p$$,
-        $$\Pr \left\{ \text{짝} \right\} = 1 - p$$
+        $$\Pr \left\{ \text{홀} \right\} = p$$, $$\Pr \left\{ \text{짝} \right\} = 1 - p$$
 
     -   $$
         \begin{align} 
@@ -367,11 +355,9 @@ nav_order: 5
 
 -   홀짝 게임의 혼합전략 내쉬균형
 
-    -   경기자 1: '홀' 선택 확률 $$p^{*} = \frac{1}{2}$$, '짝' 선택 확률
-        $$1 - p^{*} = \frac{1}{2}$$
+    -   경기자 1: '홀' 선택 확률 $$p^{*} = \frac{1}{2}$$, '짝' 선택 확률 $$1 - p^{*} = \frac{1}{2}$$
 
-    -   경기자 2: '홀' 선택 확률 $$q^{*} = \frac{1}{2}$$, '짝' 선택 확률
-        $$1 - q^{*} = \frac{1}{2}$$
+    -   경기자 2: '홀' 선택 확률 $$q^{*} = \frac{1}{2}$$, '짝' 선택 확률 $$1 - q^{*} = \frac{1}{2}$$
 
     ![표](/images/Lec_5_2_3_1.png)
 
@@ -382,8 +368,7 @@ nav_order: 5
 
         {홀, 짝} 제비가 같은 비율로 섞인 주머니에서 무작위로 하나의 제비를 추출하여 제비에 적힌 대로 실행
 
-    -   경기자 2: '홀' 선택 확률 $$q^{*} = \frac{1}{2}$$, '짝' 선택 확률
-        $$1 - q^{*} = \frac{1}{2}$$
+    -   경기자 2: '홀' 선택 확률 $$q^{*} = \frac{1}{2}$$, '짝' 선택 확률 $$1 - q^{*} = \frac{1}{2}$$
 
         '제대로 만들어진' 동전을 던져서 '앞면'이 나오면 '홀', '뒷면'이 나오면 '짝'을 선택
 
@@ -558,11 +543,9 @@ nav_order: 5
 
     -   $$p = 1,\ q = 0$$ : 경기자 1이 확정적으로 '가위'를 선택
 
-    -   $$p = \frac{1}{3},\ q = \frac{1}{3}$$ : {가위, 바위, 보}에서
-        제비를 뽑아 선택
+    -   $$p = \frac{1}{3},\ q = \frac{1}{3}$$ : {가위, 바위, 보}에서 제비를 뽑아 선택
 
-    -   $$p = \frac{2}{3},\ q = \frac{1}{3}$$: {가위, 가위, 바위}에서
-        제비를 뽑아 선택
+    -   $$p = \frac{2}{3},\ q = \frac{1}{3}$$: {가위, 가위, 바위}에서 제비를 뽑아 선택
 
     -   $$p = 0,q = 0$$: 경기자 1이 확정적으로 '보'를 선택
 

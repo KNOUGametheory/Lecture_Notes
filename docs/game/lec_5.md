@@ -599,7 +599,8 @@ nav_order: 5
     $$
     \begin{align}
     - p - 2q + 1 & = 2p + q - 1 \rightarrow 3p + 3q = 2 \\
-    2p + q - 1 & = - p + q \rightarrow 3p = 1
+    2p + q - 1 & = - p + q \rightarrow 3p = 1 \\
+    \therefore p^{*} & = \frac{1}{3},\,\, q^{*} = \frac{1}{3}
     \end{align}
     $$
 

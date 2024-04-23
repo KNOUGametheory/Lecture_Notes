@@ -416,8 +416,6 @@ nav_order: 7
         \end{align}
         $$
 
--   선도자-추종자를 결정하는 게임의 혼합전략 균형
-
     -   기업 1의 혼합전략
 
         $$\left( p^{*},\ 1 - p^{*} \right) = \left( \frac{2}{11},\frac{9}{11} \right)$$
@@ -541,7 +539,7 @@ nav_order: 7
 
     -   '중위투표자정리'를 확장 $$\rightarrow$$ 무차별한 소비자의 위치 결정
 
-    -   무차별한 소비자:
+    -   무차별한 소비자
 
         $$
         \begin{align}
@@ -652,8 +650,6 @@ nav_order: 7
             상점 2의 최적 대응
 
             $$\widehat{P_{2}} = \frac{1}{2}\left\lbrack P_{1} + c + t(1 - a - b)(1 - a + b) \right\rbrack$$
-
-    -   상점 1과 상점 2의 최적 대응을 연립하여 균형 가격 결정
 
         -   $$\widehat{P_{2}} \rightarrow \widehat{P_{1}}\left( P_{2} \right)$$에 대입 후 정리
 

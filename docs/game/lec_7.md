@@ -548,9 +548,13 @@ nav_order: 7
         $$
         \begin{align}
         u_{c}\left( x,\ P_{1};y_{1} = a \right) & = u_{c}\left( x,\ P_{2};y_{2} = 1 - b \right) \\
+
         v - \left( P_{1} + t(x - a)^{2} \right) & = v - \left( P_{2} + t\left( x - (1 - b) \right)^{2} \right) \\
+
         P_{1} + t(x - a)^{2} & = P_{2} + t\left( x - (1 - b) \right)^{2} \\
+
         t\left\{ (x - a)^{2} - \left( x - (1 - b) \right)^{2} \right\} & = P_{2} - P_{1} \\
+
         t(1 - a - b)\left\{ 2x - (1 + a - b) \right\} & = P_{2} - P_{1}
         \end{align}
         $$

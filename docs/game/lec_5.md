@@ -278,7 +278,7 @@ nav_order: 5
 
     -   경기자 2의 기대보수
 
-        $$\E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack = 2p - 1$$,
+        $$E\left\lbrack u_{2}( \cdot ,\text{홀}) \right\rbrack = 2p - 1$$,
         $$E\left\lbrack u_{2}( \cdot ,\text{짝}) \right\rbrack = 1 - 2p$$
 
     -   경기자 2의 확률분포: 

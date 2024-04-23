@@ -430,13 +430,13 @@ nav_order: 7
 
     -   사후적으로 각 순수전략 균형이 발생할 확률
 
-            $$
-            \begin{align}
-            \Pr\left\{ \text{(선도, 선도)} \right\} & = \frac{2}{11} \times \frac{2}{11} = \frac{4}{121} \\
-            \Pr\left\{ \text{(선도, 추종)} \right\} & = \Pr\left\{ \text{(추종, 선도)} \right\} = \frac{2}{11} \times \frac{9}{11} = \frac{18}{121}  \\
-            \Pr\left\{ \text{(추종, 추종)} \right\} & = \frac{9}{11} \times \frac{9}{11} = \frac{81}{121}
-            \end{align}
-            $$
+        $$
+        \begin{align}
+        \Pr\left\{ \text{(선도, 선도)} \right\} & = \frac{2}{11} \times \frac{2}{11} = \frac{4}{121} \\
+        \Pr\left\{ \text{(선도, 추종)} \right\} & = \Pr\left\{ \text{(추종, 선도)} \right\} = \frac{2}{11} \times \frac{9}{11} = \frac{18}{121}  \\
+        \Pr\left\{ \text{(추종, 추종)} \right\} & = \frac{9}{11} \times \frac{9}{11} = \frac{81}{121}
+        \end{align}
+        $$
 
 ### 요약
 

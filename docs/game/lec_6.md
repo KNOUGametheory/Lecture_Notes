@@ -63,8 +63,7 @@ nav_order: 6
 
         -   뿌리마디 $$v^{0} \in V$$: "자연"(nature) 등에 의한 게임의 시작
 
-        -   의사결정 마디 집합 $$V_{i} \subseteq V$$: 경기자 $$i$$가 행동을
-            선택하는 상황
+        -   의사결정 마디 집합 $$V_{i} \subseteq V$$: 경기자 $$i$$가 행동을 선택하는 상황
 
         -   결과 마디(leaf node, terminal node) $$O \subseteq V$$:
 

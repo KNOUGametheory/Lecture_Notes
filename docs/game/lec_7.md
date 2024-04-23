@@ -137,7 +137,13 @@ nav_order: 7
         -   이계조건(Second-order condition)
             $$\left. \ \frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} \right\vert_{q_2 = \widetilde{q_2}} \leq 0$$
 
-            $$\frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} = \frac{\partial}{\partial q_{2}}\left( \frac{\partial\pi_{2}}{\partial q_{2}} \right) = \frac{\partial}{\partial q_{2}}\left( a - c - q_{1} - 2q_{2} \right) = - 2 \leq 0$$
+            $$
+            \begin{align}
+            \frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} & = \frac{\partial}{\partial q_{2}}\left( \frac{\partial\pi_{2}}{\partial q_{2}} \right) \\
+            & = \frac{\partial}{\partial q_{2}}\left( a - c - q_{1} - 2q_{2} \right) \\
+            & = - 2 \leq 0
+            \end{align}
+            $$
 
 -   모형의 풀이 (계속)
 

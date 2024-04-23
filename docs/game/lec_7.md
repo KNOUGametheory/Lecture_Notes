@@ -413,7 +413,7 @@ nav_order: 7
         $$
         \begin{align}
         \frac{(a - c)^{2}}{8} - p \times \frac{(a - c)^{2}}{8} & = \frac{(a - c)^{2}}{9} - p \times \frac{7(a - c)^{2}}{144} \\
-        \rightarrow \frac{(a - c)^{2}}{72} & = p \times \frac{11(a - c)^{2}}{144 \\
+        \rightarrow \frac{(a - c)^{2}}{72} & = p \times \frac{11(a - c)^{2}}{144} \\
         \rightarrow p^{*} & = \frac{2}{11}
         \end{align}
         $$

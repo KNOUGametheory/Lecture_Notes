@@ -564,8 +564,11 @@ nav_order: 7
         $$
         \begin{align}
         & t(1 - a - b)\left\{ 2x - (1 + a - b) \right\} = P_{2} - P_{1} \\
+
         & 2x - (1 + a - b) = \frac{P_{2} - P_{1}}{t(1 - a - b)} \\
+
         & 2x = 1 + a - b + \frac{P_{2} - P_{1}}{t(1 - a - b)} \\
+
         & \widetilde{x} = \frac{1 + a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)} = a + \frac{1 - a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)}
         \end{align}
         $$

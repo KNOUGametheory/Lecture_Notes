@@ -621,85 +621,94 @@ nav_order: 7
 
 -   각 상점의 이윤을 최대화하는 가격 결정
 
-    -   상점 1의 이윤 $$\pi_{1}$$을 가격 $$P_{1}$$으로 편미분 후 일계조건\
-        $$\frac{\partial}{\partial P_{1}}\pi_{1}\left( P_{1},\ P_{2} \right) = \frac{\partial}{\partial P_{1}}\left( P_{1} - c \right)\left\lbrack a + \frac{1 - a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)} \right\rbrack$$\
-        $$= \left\lbrack a + \frac{1 - a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)} \right\rbrack + \left( P_{1} - c \right)\left( \frac{- 1}{2t(1 - a - b)} \right)$$\
-        $$= a + \frac{1 - a - b}{2} + \frac{P_{2} - 2P_{1} + c}{2t(1 - a - b)}$$\
-        $$\frac{\partial}{\partial P_{1}}\pi_{1}\left( P_{1},\ P_{2} \right) = 0$$
-        🡪
-        $$\widehat{P_{1}} = \frac{1}{2}\left\lbrack P_{2} + c + t(1 - a - b)(1 + a - b) \right\rbrack$$
+    -   상점 1의 이윤 $$\pi_{1}$$을 가격 $$P_{1}$$으로 편미분 후 일계조건
 
--   각 상점의 이윤을 최대화하는 가격 결정
+        $$
+        \begin{align}
+        \frac{\partial}{\partial P_{1}}\pi_{1}\left( P_{1},\ P_{2} \right) & = \frac{\partial}{\partial P_{1}}\left( P_{1} - c \right)\left\lbrack a + \frac{1 - a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)} \right\rbrack \\
+        & = \left\lbrack a + \frac{1 - a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)} \right\rbrack + \left( P_{1} - c \right)\left( \frac{- 1}{2t(1 - a - b)} \right) \\
+        & = a + \frac{1 - a - b}{2} + \frac{P_{2} - 2P_{1} + c}{2t(1 - a - b)} \\
+        \frac{\partial}{\partial P_{1}}\pi_{1}\left( P_{1},\ P_{2} \right) & = 0 \\
+        \rightarrow \widehat{P_{1}} & = \frac{1}{2}\left\lbrack P_{2} + c + t(1 - a - b)(1 + a - b) \right\rbrack
+        \end{align}
+        $$
 
-    -   상점 2의 이윤 $$\pi_{2}$$를 가격 $$P_{2}$$으로 편미분 후 일계조건\
-        $$\frac{\partial}{\partial P_{2}}\pi_{2}\left( P_{1},\ P_{2} \right) = \frac{\partial}{\partial P_{2}}\left( P_{2} - c \right)\left\lbrack b + \frac{1 - a - b}{2} + \frac{P_{1} - P_{2}}{2t(1 - a - b)} \right\rbrack$$\
-        $$= \left\lbrack b + \frac{1 - a - b}{2} + \frac{P_{1} - P_{2}}{2t(1 - a - b)} \right\rbrack + \left( P_{2} - c \right)\left( \frac{- 1}{2t(1 - a - b)} \right)$$\
-        $$= b + \frac{1 - a - b}{2} + \frac{P_{1} - 2P_{2} + c}{2t(1 - a - b)}$$\
-        $$\frac{\partial}{\partial P_{2}}\pi_{2}\left( P_{1},\ P_{2} \right) = 0$$
-        🡪
-        $$\widehat{P_{2}} = \frac{1}{2}\left\lbrack P_{1} + c + t(1 - a - b)(1 - a + b) \right\rbrack$$
+    -   상점 2의 이윤 $$\pi_{2}$$를 가격 $$P_{2}$$으로 편미분 후 일계조건
 
--   각 상점의 이윤을 최대화하는 가격 결정
+        $$
+        \begin{align}
+        \frac{\partial}{\partial P_{2}}\pi_{2}\left( P_{1},\ P_{2} \right) & = \frac{\partial}{\partial P_{2}}\left( P_{2} - c \right)\left\lbrack b + \frac{1 - a - b}{2} + \frac{P_{1} - P_{2}}{2t(1 - a - b)} \right\rbrack \\
+        & = \left\lbrack b + \frac{1 - a - b}{2} + \frac{P_{1} - P_{2}}{2t(1 - a - b)} \right\rbrack + \left( P_{2} - c \right)\left( \frac{- 1}{2t(1 - a - b)} \right) \\
+        & = b + \frac{1 - a - b}{2} + \frac{P_{1} - 2P_{2} + c}{2t(1 - a - b)} \\
+        \frac{\partial}{\partial P_{2}}\pi_{2}\left( P_{1},\ P_{2} \right) = 0 \\
+        \rightarrow \widehat{P_{2}} & = \frac{1}{2}\left\lbrack P_{1} + c + t(1 - a - b)(1 - a + b) \right\rbrack
+        \end{align}
+        $$
 
     -   상점 1과 상점 2의 최적 대응을 연립하여 균형 가격 결정
 
         -   상점 1의 최적 대응
-            $$\widehat{P_{1}} = \frac{1}{2}\left\lbrack P_{2} + c + t(1 - a - b)(1 + a - b) \right\rbrack$$\
+
+            $$\widehat{P_{1}} = \frac{1}{2}\left\lbrack P_{2} + c + t(1 - a - b)(1 + a - b) \right\rbrack$$
+
             상점 2의 최적 대응
+
             $$\widehat{P_{2}} = \frac{1}{2}\left\lbrack P_{1} + c + t(1 - a - b)(1 - a + b) \right\rbrack$$
 
--   각 상점의 이윤을 최대화하는 가격 결정
-
     -   상점 1과 상점 2의 최적 대응을 연립하여 균형 가격 결정
 
-        -   $$\widehat{P_{2}}\ $$ 🡪
-            $$\widehat{P_{1}}\left( P_{2} \right)$$에 대입 후 정리
+        -   $$\widehat{P_{2}} \rightarrow \widehat{P_{1}}\left( P_{2} \right)$$에 대입 후 정리
 
-$$2P_{1} = \frac{1}{2}\left\lbrack P_{1} + c + t(1 - a - b)(1 - a + b) \right\rbrack + c + t(1 - a - b)(1 + a - b)$$
+            $$
+            \begin{align}
+            2P_{1} & = \frac{1}{2}\left\lbrack P_{1} + c + t(1 - a - b)(1 - a + b) \right\rbrack + c + t(1 - a - b)(1 + a - b) \\
 
-$$4P_{1} = P_{1} + c + t(1 - a - b)(1 - a + b) + 2c + 2t(1 - a - b)(1 + a - b)$$
+            4P_{1} & = P_{1} + c + t(1 - a - b)(1 - a + b) + 2c + 2t(1 - a - b)(1 + a - b) \\
 
-$$3P_{1} = 3c + t(1 - a - b)\left( 1 - a + b + 2(1 + a - b) \right)$$
+            3P_{1} & = 3c + t(1 - a - b)\left( 1 - a + b + 2(1 + a - b) \right)  \\
 
-$$3P_{1} = 3c + t(1 - a - b)(3 + a - b)$$
+            3P_{1} & = 3c + t(1 - a - b)(3 + a - b) \\
 
-$$\therefore$$
-$$\widehat{P_{1}} = c + t(1 - a - b)\left( 1 + \frac{a - b}{3} \right)$$
+            \therefore \widehat{P_{1}} &= c + t(1 - a - b)\left( 1 + \frac{a - b}{3} \right)
+            \end{align}
+            $$
 
--   각 상점의 이윤을 최대화하는 가격 결정
+        -   $$\widehat{P_{1}} \rightarrow \widehat{P_{2}}\left( P_{1} \right)$$에 대입 후 정리
 
-    -   상점 1과 상점 2의 최적 대응을 연립하여 균형 가격 결정
-
-        -   $$\widehat{P_{1}}\ $$ 🡪
-            $$\widehat{P_{2}}\left( P_{1} \right)$$에 대입 후 정리
-
-$$\widehat{P_{2}} = \frac{1}{2}\left\lbrack P_{1} + c + t(1 - a - b)(1 - a + b) \right\rbrack\ $$
-
-$$= \frac{1}{2}\left\lbrack c + t(1 - a - b)\left( 1 + \frac{a - b}{3} \right) + c + t(1 - a - b)(1 - a + b) \right\rbrack$$\
-$$= \frac{1}{2}\left\lbrack 2c + t(1 - a - b)\left( 2 - \frac{2(a - b)}{3} \right) \right\rbrack$$\
-$$\therefore$$
-$$\widehat{P_{2}} = c + t(1 - a - b)\left( 1 + \frac{b - a}{3} \right)\ $$
+            $$
+            \begin{align}
+            \widehat{P_{2}} & = \frac{1}{2}\left\lbrack P_{1} + c + t(1 - a - b)(1 - a + b) \right\rbrack \\
+            & = \frac{1}{2}\left\lbrack c + t(1 - a - b)\left( 1 + \frac{a - b}{3} \right) + c + t(1 - a - b)(1 - a + b) \right\rbrack \\
+            & = \frac{1}{2}\left\lbrack 2c + t(1 - a - b)\left( 2 - \frac{2(a - b)}{3} \right) \right\rbrack \\
+            \therefore \widehat{P_{2}} & = c + t(1 - a - b)\left( 1 + \frac{b - a}{3} \right) 
+            \end{align}
+            $$
 
 -   균형 가격을 반영한 상점의 이윤 결정
 
-    -   상점 1의 이윤\
-        $$\pi_{1}\left( \widehat{P_{1}},\ \widehat{P_{2}} \right) = \left( \widehat{P_{1}} - c \right)\widetilde{x}$$
-        *\
-        *$$= \left( \widehat{P_{1}} - c \right)\left\lbrack a + \frac{1 - a - b}{2} + \frac{\widehat{P_{2}} - \widehat{P_{1}}}{2t(1 - a - b)} \right\rbrack$$\
-        $$= t(1 - a - b)\left( 1 + \frac{a - b}{3} \right)\left\lbrack a + \frac{1 - a - b}{2} + \frac{b - a}{3} \right\rbrack$$\
-        $$= t(1 - a - b)\left( 1 + \frac{a - b}{3} \right)\left\lbrack \frac{1}{2} + \frac{a - b}{6} \right\rbrack$$*\
-        *$$= \frac{t}{2}(1 - a - b)\left( 1 + \frac{a - b}{3} \right)^{2}$$
+    -   상점 1의 이윤
 
--   균형 가격을 반영한 상점의 이윤 결정
+        $$
+        \begin{align}
+        \pi_{1}\left( \widehat{P_{1}}, \widehat{P_{2}} \right) & = \left( \widehat{P_{1}} - c \right)\widetilde{x} \\
+        & = \left( \widehat{P_{1}} - c \right)\left\lbrack a + \frac{1 - a - b}{2} + \frac{\widehat{P_{2}} - \widehat{P_{1}}}{2t(1 - a - b)} \right\rbrack \\
+        & = t(1 - a - b)\left( 1 + \frac{a - b}{3} \right)\left\lbrack a + \frac{1 - a - b}{2} + \frac{b - a}{3} \right\rbrack \\
+        & = t(1 - a - b)\left( 1 + \frac{a - b}{3} \right)\left\lbrack \frac{1}{2} + \frac{a - b}{6} \right\rbrack \\
+        & = \frac{t}{2}(1 - a - b)\left( 1 + \frac{a - b}{3} \right)^{2}
+        \end{align}
+        $$
 
-    -   상점 2의 이윤\
-        $$\pi_{2}\left( \widehat{P_{1}},\ \widehat{P_{2}} \right) = \left( \widehat{P_{2}} - c \right)\left( 1 - \widetilde{x} \right)$$
-        *\
-        *$$= \left( \widehat{P_{2}} - c \right)\left\lbrack b + \frac{1 - a - b}{2} + \frac{\widehat{P_{1}} - \widehat{P_{2}}}{2t(1 - a - b)} \right\rbrack$$\
-        $$= t(1 - a - b)\left( 1 + \frac{b - a}{3} \right)\left\lbrack b + \frac{1 - a - b}{2} + \frac{a - b}{3} \right\rbrack$$\
-        $$= t(1 - a - b)\left( 1 + \frac{b - a}{3} \right)\left\lbrack \frac{1}{2} + \frac{b - a}{6} \right\rbrack$$*\
-        *$$= \frac{t}{2}(1 - a - b)\left( 1 + \frac{b - a}{3} \right)^{2}$$
+    -   상점 2의 이윤
 
+        $$
+        \begin{align}
+        \pi_{2}\left( \widehat{P_{1}}, \widehat{P_{2}} \right) & = \left( \widehat{P_{2}} - c \right)\left( 1 - \widetilde{x} \right) \\
+        & = \left( \widehat{P_{2}} - c \right)\left\lbrack b + \frac{1 - a - b}{2} + \frac{\widehat{P_{1}} - \widehat{P_{2}}}{2t(1 - a - b)} \right\rbrack \\
+        & = t(1 - a - b)\left( 1 + \frac{b - a}{3} \right)\left\lbrack b + \frac{1 - a - b}{2} + \frac{a - b}{3} \right\rbrack \\
+        & = t(1 - a - b)\left( 1 + \frac{b - a}{3} \right)\left\lbrack \frac{1}{2} + \frac{b - a}{6} \right\rbrack \\
+        & = \frac{t}{2}(1 - a - b)\left( 1 + \frac{b - a}{3} \right)^{2}
+        \end{align}
+        $$
 
 ### 균형 가격을 반영한 상점의 입지 결정
 
@@ -709,40 +718,53 @@ $$\widehat{P_{2}} = c + t(1 - a - b)\left( 1 + \frac{b - a}{3} \right)\ $$
         $$\widehat{\pi_{1}} = \frac{t}{2}(1 - a - b)\left( 1 + \frac{a - b}{3} \right)^{2}$$을
         위치 $$a$$로 편미분
 
-        -   $$\frac{\partial\widehat{\pi_{1}}}{\partial a} = \frac{t}{2}\left\lbrack - \left( 1 + \frac{a - b}{3} \right)^{2} + (1 - a - b) \times \frac{2}{3}\left( 1 + \frac{a - b}{3} \right) \right\rbrack$$\
-            $$= - \frac{t}{6}\left( 1 + \frac{a - b}{3} \right)\left\lbrack (3 + a - b) - 2(1 - a - b) \right\rbrack$$\
-            $$= - \frac{t}{6}\left( 1 + \frac{a - b}{3} \right)(1 + 3a + b) \leq 0$$
+        -   $$
+            \begin{align}
+            \frac{\partial\widehat{\pi_{1}}}{\partial a} & = \frac{t}{2}\left\lbrack - \left( 1 + \frac{a - b}{3} \right)^{2} + (1 - a - b) \times \frac{2}{3}\left( 1 + \frac{a - b}{3} \right) \right\rbrack \\
+            & = - \frac{t}{6}\left( 1 + \frac{a - b}{3} \right)\left\lbrack (3 + a - b) - 2(1 - a - b) \right\rbrack \\
+            & = - \frac{t}{6}\left( 1 + \frac{a - b}{3} \right)(1 + 3a + b) \leq 0
+            \end{align}
+            $$
 
-        -   $$\widehat{\pi_{1}}$$은 $$a$$에 대하여 감소 🡪 $$a^{*} = 0$$일 때
+        -   $$\widehat{\pi_{1}}$$은 $$a$$에 대하여 감소 $$\rightarrow$$ $$a^{*} = 0$$일 때
             $$\widehat{\pi_{1}}$$이 최대
-
--   상점의 이윤을 최대화하는 위치를 결정
 
     -   상점 2의 이윤
         $$\widehat{\pi_{2}} = \frac{t}{2}(1 - a - b)\left( 1 + \frac{b - a}{3} \right)^{2}$$을
         위치 $$b$$로 편미분
 
-        -   $$\frac{\partial\widehat{\pi_{2}}}{\partial b} = \frac{t}{2}\left\lbrack - \left( 1 + \frac{b - a}{3} \right)^{2} + (1 - a - b) \times \frac{2}{3}\left( 1 + \frac{b - a}{3} \right) \right\rbrack$$\
-            $$= - \frac{t}{6}\left( 1 + \frac{b - a}{3} \right)\left\lbrack (3 + b - a) - 2(1 - a - b) \right\rbrack$$\
-            $$= - \frac{t}{6}\left( 1 + \frac{b - a}{3} \right)(1 + a + 3b) \leq 0$$
+        -   $$
+            \begin{align}
+            \frac{\partial\widehat{\pi_{2}}}{\partial b} & = \frac{t}{2}\left\lbrack - \left( 1 + \frac{b - a}{3} \right)^{2} + (1 - a - b) \times \frac{2}{3}\left( 1 + \frac{b - a}{3} \right) \right\rbrack \\
+            & = - \frac{t}{6}\left( 1 + \frac{b - a}{3} \right)\left\lbrack (3 + b - a) - 2(1 - a - b) \right\rbrack \\
+            & = - \frac{t}{6}\left( 1 + \frac{b - a}{3} \right)(1 + a + 3b) \leq 0
+            \end{align}
+            $$
 
-        -   $$\widehat{\pi_{2}}$$은 $$b$$에 대하여 감소 🡪
+        -   $$\widehat{\pi_{2}}$$은 $$b$$에 대하여 감소 $$\rightarrow$$
             $$b^{*} = 0\left( 1 - b^{*} = 1 \right)$$일 때
             $$\widehat{\pi_{2}}$$이 최대
 
--   상점의 이윤을 최대화하는 위치를 결정
-
     -   최적 입지 $$\left( a^{*},\ 1 - b^{*} \right) = (0,\ 1)$$
 
-        -   상점 1의 최적 입지 $$a^{*} = 0$$ 🡪 선형도시의 왼쪽 경계
+        -   상점 1의 최적 입지 
 
-        -   상점 2의 최적 입지 $$1 - b^{*} = 1$$ 🡪 선형도시의 오른쪽 경계
+            $$a^{*} = 0$$ $$\rightarrow$$ 선형도시의 왼쪽 경계
 
-    -   최적 입지에서 균형 가격 $$P_{1}^{*} = P_{2}^{*} = c + t$$
+        -   상점 2의 최적 입지
 
-    -   최적 입지에서 균형 수요 $$x^{*} = 1 - x^{*} = \frac{1}{2}$$
+            $$1 - b^{*} = 1$$ $$\rightarrow$$ 선형도시의 오른쪽 경계
+
+    -   최적 입지에서 균형 가격 
+
+        $$P_{1}^{*} = P_{2}^{*} = c + t$$
+
+    -   최적 입지에서 균형 수요
+
+        $$x^{*} = 1 - x^{*} = \frac{1}{2}$$
 
     -   최적 입지에서 균형 이윤
+
         $$\pi_{1}^{*} = \pi_{2}^{*} = \frac{t}{2}$$
 
 -   부분게임완전균형이 가장 '효율적인' 입지인가?
@@ -750,12 +772,12 @@ $$\widehat{P_{2}} = c + t(1 - a - b)\left( 1 + \frac{b - a}{3} \right)\ $$
     -   부분게임완전균형에서의 입지:
         $$\left( a^{*},\ 1 - b^{*} \right) = (0,\ 1)$$
 
-    -   부분게임완전균형에서 소비자가 부담하는 '교통비'\
+    -   부분게임완전균형에서 소비자가 부담하는 '교통비'
+
         $$\int_{0}^{\frac{1}{2}}{t(x - 0)^{2}dx} + \int_{\frac{1}{2}}^{1}{t(1 - x)^{2}dx} = \left. \ \frac{t}{3}x^{3} \right|_{0}^{\frac{1}{2}} + \left. \ \left( - \frac{t}{3}(1 - x)^{3} \right) \right|_{\frac{1}{2}}^{1} = \frac{t}{24} + \frac{t}{24} = \frac{t}{12}$$
 
--   부분게임완전균형이 가장 '효율적인' 입지인가?
+    -   같은 가격, 대칭적 입지를 가정할 때 소비자가 부담하는 '교통비'
 
-    -   같은 가격, 대칭적 입지를 가정할 때 소비자가 부담하는 '교통비'\
         $$2\int_{0}^{\frac{1}{2}}{t(x - a)^{2}dx} = \left. \ \frac{2t}{3}(x - a)^{3} \right|_{0}^{\frac{1}{2}} = \frac{2t}{3}\left( \left( \frac{1}{2} - a \right)^{3} - (0 - a)^{3} \right) = \frac{t}{12}\left( 12a^{2} - 6a + 1 \right)$$
 
     -   소비자가 부담하는 '교통비'을 최소화하는 입지와 그때 '교통비'
@@ -766,6 +788,7 @@ $$\widehat{P_{2}} = c + t(1 - a - b)\left( 1 + \frac{b - a}{3} \right)\ $$
 
         -   $$\left( \widetilde{a} = \frac{1}{4},1 - \widetilde{b} = \frac{3}{4} \right)$$에서
             소비자 부담 교통비
+
             $$\frac{t}{12}\left( 12\left( \frac{1}{4} \right)^{2} - 6\left( \frac{1}{4} \right) + 1 \right) = \frac{t}{48}$$
 
 

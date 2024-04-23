@@ -311,7 +311,7 @@ nav_order: 5
         \end{align}
         $$  
 
-    ![표](/images/Lec_5_2_2_1.png)
+
 
 -   경기자 1의 기대보수를 고려한 최적 대응
 

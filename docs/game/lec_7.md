@@ -127,8 +127,8 @@ nav_order: 7
             \begin{align}
             \frac{\partial\pi_{2}}{\partial q_{2}} & = - q_{2} + \left\lbrack a - c - q_{1} - q_{2} \right\rbrack \\
             & = a - c - q_{1} - 2q_{2} \\
-            \left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = \widetilde{q_2}} & = 0 \rightarrow \\
-            \widetilde{q_{2}} & = \frac{a - c - q_{1}}{2}
+            \left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = \widetilde{q_2}} & = 0 \\
+            \rightarrow \widetilde{q_{2}} & = \frac{a - c - q_{1}}{2}
             \end{align}
             $$
 
@@ -145,65 +145,81 @@ nav_order: 7
             \end{align}
             $$
 
--   모형의 풀이 (계속)
+    -   기업 1의 이윤 (여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
 
-    -   기업 1의 이윤 $$\pi_{1} = Pq_{1} - cq_{1} = (P - c)q_{1}$$\
-        (여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
+        $$\pi_{1} = Pq_{1} - cq_{1} = (P - c)q_{1}$$
 
-    -   시장의 수요 함수($$P = a - Q$$)를 $$\pi_{1}$$에 대입\
-        $$\pi_{1} = \left\lbrack (a - Q) - c \right\rbrack q_{1}$$ 
-        $$= \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{1} = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{1}$$
+    -   시장의 수요 함수($$P = a - Q$$)를 $$\pi_{1}$$에 대입
 
-    -   $$\pi_{1}$$에 기업 2의 최적
-        대응($$\widetilde{q_{2}} = \frac{a - c - q_{1}}{2}$$)을 대입\
+        $$
+        \begin{align}
+        \pi_{1} & = \left\lbrack (a - Q) - c \right\rbrack q_{1} \\
+        & = \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{1} \\
+        & = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{1}
+        \end{align}
+        $$
+
+    -   $$\pi_{1}$$에 기업 2의 최적 대응($$\widetilde{q_{2}} = \frac{a - c - q_{1}}{2}$$)을 대입
+
         $$\widetilde{\pi_{1}} = \left\lbrack a - c - q_{1} - \left( \frac{a - c - q_{1}}{2} \right) \right\rbrack q_{1} = \left( \frac{a - c - q_{1}}{2} \right)q_{1}$$
-
--   모형의 풀이 (계속)
 
     -   기업 2의 최적 대응을 반영한 상태에서 계산한 기업 1의 이윤 $$\widetilde{\pi_{1}}$$을 최대화하는 생산량 $$q_{1}$$을 결정
 
         -   일계조건(First-order condition)
-            $$\left. \ \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right\vert_{q_1 = \widehat{q_1}} = 0$$\
-            $$\frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} = - \frac{q_{1}}{2} + \frac{a - c - q_{1}}{2} = \frac{a - c}{2} - q_{1}
-            \left. \ \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right\vert_{q_1 = \widehat{q_1}} = 0$$
-            🡪 $$\widehat{q_{1}} = \frac{a - c}{2}$$
+            $$\left. \ \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right\vert_{q_1 = \widehat{q_1}} = 0$$
 
--   모형의 풀이 (계속)
-
-    -   기업 1의 이윤 $$\widetilde{\pi_{1}}$$을 최대화하는 생산량
-        $$q_{1}$$을 결정
+            $$
+            \begin{align}
+            \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} & = - \frac{q_{1}}{2} + \frac{a - c - q_{1}}{2} \\
+            & = \frac{a - c}{2} - q_{1} \\
+            \left. \ \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right\vert_{q_1 = \widehat{q_1}} & = 0 \\
+            \rightarrow \widehat{q_{1}} & = \frac{a - c}{2}
+            \end{align}
+            $$
 
         -   이계조건(Second-order condition)
             $$\left. \ \frac{\partial^{2}\widetilde{\pi_{1}}}{\partial q_{1}^{2}} \right\vert_{q_1 = \widehat{q_1}} \leq 0$$
-            $$\frac{\partial^{2}\widetilde{\pi_{1}}}{\partial q_{1}^{2}} = \frac{\partial}{\partial q_{1}}\left( \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right) = \frac{\partial}{\partial q_{1}}\left( \frac{a - c}{2} - q_{1} \right) = - 1 \leq 0$$
+
+            $$
+            \begin{align}
+            \frac{\partial^{2}\widetilde{\pi_{1}}}{\partial q_{1}^{2}} & = \frac{\partial}{\partial q_{1}}\left( \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right) \\
+            & = \frac{\partial}{\partial q_{1}}\left( \frac{a - c}{2} - q_{1} \right) \\
+            & = - 1 \leq 0
+            \end{align}
+            $$
 
 -   모형의 균형
 
     -   균형 생산량
 
         -   기업 1의 균형 생산량
+
             $$\widehat{q_{1}} = \frac{a - c}{2} = \frac{1}{2}(a - c)$$
 
         -   기업 2의 균형 생산량
-            $$\widehat{q_{2}} = \frac{a - c}{4} = \frac{1}{4}(a - c)$$\
+
+            $$\widehat{q_{2}} = \frac{a - c}{4} = \frac{1}{4}(a - c)$$
+
             (기업 2의 최적 대응
             $$\widetilde{q_{2}} = \frac{a - c - q_{1}}{2}$$에
             $$q_{1} = \frac{a - c}{2}$$을 대입)
 
         -   시장의 균형 생산량
+
             $$\widehat{Q} = \widehat{q_{1}} + \widehat{q_{2}} = \frac{3}{4}(a - c)$$
 
--   모형의 균형
-
     -   균형 가격
+
         $$\widehat{P} = a - \widehat{Q} = a - \frac{3}{4}(a - c) = \frac{a + 3c}{4}$$
 
     -   균형 이윤
 
-        -   기업 1의 균형 이윤\
+        -   기업 1의 균형 이윤
+
             $$\widehat{\pi_{1}} = \left( \widehat{P} - c \right)\widehat{q_{1}} = \left\lbrack \left( \frac{a + 3c}{4} \right) - c \right\rbrack\left\lbrack \frac{1}{2}(a - c) \right\rbrack = \frac{1}{8}(a - c)^{2}$$
 
-        -   기업 2의 균형 이윤\
+        -   기업 2의 균형 이윤
+
             $$\widehat{\pi_{2}} = \left( \widehat{P} - c \right)\widehat{q_{2}} = \left\lbrack \left( \frac{a + 3c}{4} \right) - c \right\rbrack\left\lbrack \frac{1}{4}(a - c) \right\rbrack = \frac{1}{16}(a - c)^{2}$$
 
 

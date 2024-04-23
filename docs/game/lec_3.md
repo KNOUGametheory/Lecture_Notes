@@ -89,19 +89,17 @@ nav_order: 3
 
     -   기업 1의 이윤 (여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
 
-	$$
-	\pi_{1} = Pq_{1} - cq_{1} = (P - c)q_{1}
-	$$ 
+        $$\pi_{1} = Pq_{1} - cq_{1} = (P - c)q_{1}$$ 
 
     -   시장의 역수요함수($$P = a - Q$$)를 $$\pi_{1}$$에 대입
 
-	$$
-	\begin{align}
-	\pi_{1} & = \left\lbrack (a - Q) - c \right\rbrack q_{1} \\
-	& = \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{1} \\
-	& = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{1}
-	\end{align}
-	$$
+        $$
+        \begin{align}
+        \pi_{1} & = \left\lbrack (a - Q) - c \right\rbrack q_{1} \\
+        & = \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{1} \\
+        & = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{1}
+        \end{align}
+        $$
 
     -   $$\pi_{1}$$을 최대화하는 생산량 $$q_{1}$$이 충족하는 조건은?
 
@@ -111,51 +109,49 @@ nav_order: 3
 
     -   $$\pi_{1}$$의 일계조건(First-Order Condition)
 	
-	$$
-	\begin{align}
+        $$
+        \begin{align}
 	
-	\frac{\partial\pi_{1}}{\partial q_{1}} & = - q_{1} + \left\lbrack a - c - q_{1} - q_{2} \right\rbrack \\
-                                                                   & = a - c - 2q_{1} - q_{2} \\
-	\frac{\partial\pi_{1}}{\partial q_{1}} \vert_{q_1 = q_1^*} & = 0 \rightarrow \\
-	q_{1}^{*} & = \frac{a - c - q_{2}}{2}\\
+        \frac{\partial\pi_{1}}{\partial q_{1}} & = - q_{1} + \left\lbrack a - c - q_{1} - q_{2} \right\rbrack \\
+        & = a - c - 2q_{1} - q_{2} \\
+        \frac{\partial\pi_{1}}{\partial q_{1}} \vert_{q_1 = q_1^*} & = 0 \rightarrow \\
+        q_{1}^{*} & = \frac{a - c - q_{2}}{2}
         \end{align}
-	$$
+        $$
 
     -   $$\pi_{1}$$의 이계조건(Second-Order Condition)
 
-    $$ 
-	\begin{align}
-	\frac{\partial^{2}\pi_{1}}{\partial q_{1}^{2}} & = \frac{\partial}{\partial q_{1}}\left( \frac{\partial\pi_{1}}{\partial q_{1}} \right) \\
-	     & = \frac{\partial}{\partial q_{1}}\left( a - c - 2q_{1} - q_{2} \right) \\
-	     &  = - 2 \leq 0\\
-       \end{align}
-    $$
+        $$ 
+        \begin{align}
+        \frac{\partial^{2}\pi_{1}}{\partial q_{1}^{2}} & = \frac{\partial}{\partial q_{1}}\left( \frac{\partial\pi_{1}}{\partial q_{1}} \right) \\
+        & = \frac{\partial}{\partial q_{1}}\left( a - c - 2q_{1} - q_{2} \right) \\
+        &  = - 2 \leq 0
+        \end{align}
+        $$
 
     -   기업 2의 이윤 (여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
 	
-	$$
-	\pi_{2} = Pq_{2} - cq_{2} = (P - c)q_{2}
-	$$
+	$$\pi_{2} = Pq_{2} - cq_{2} = (P - c)q_{2}$$
 
     -   시장의 역수요함수($$P = a - Q$$)를 $$\pi_{2}$$에 대입
 	
         $$
-	\begin{align}
-		\pi_{2} & = \left\lbrack (a - Q) - c \right\rbrack q_{2} \\
-		         & = \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{2} \\
-		         & = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{2}\\
-       \end{align}
-       $$   
+        \begin{align}
+        \pi_{2} & = \left\lbrack (a - Q) - c \right\rbrack q_{2} \\
+        & = \left\lbrack \left( a - \left( q_{1} + q_{2} \right) - c \right) \right\rbrack q_{2} \\
+        & = \left\lbrack a - c - q_{1} - q_{2} \right\rbrack q_{2}
+        \end{align}
+        $$   
 
     -   $$\pi_{2}$$의 일계조건과 이계조건
 	
-	$$
-	\begin{align}
-	\left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = q_2^*} & = 0 \\
-	\rightarrow q_{2}^{*} & = \frac{a - c - q_{1}}{2} \\
-	\frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} & = - 2 \leq 0 \\
+        $$
+        \begin{align}
+        \left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = q_2^*} & = 0 \\
+        \rightarrow q_{2}^{*} & = \frac{a - c - q_{1}}{2} \\
+        \frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} & = - 2 \leq 0 
         \end{align}
-	$$
+        $$
 
     -   각 기업의 최적 대응(Best Response, 최선 응수)
 
@@ -169,24 +165,20 @@ nav_order: 3
 
     -   균형 조건($$q_{1} = q_{1}^{*}$$,  $$q_{2} = q_{2}^{*}$$)을 활용하여 최적 대응 연립
 
-	$$
-	\begin{align}
-	q_{1}^{*} & = \frac{a - c - q_{2}}{2} = \frac{a - c - \left( \frac{a - c - q_{1}^{*}}{2} \right)}{2} \\
-	2q_{1}^{*} & = \frac{a - c}{2} + \frac{1}{2}q_{1}^{*} \\
-	\rightarrow q_{1}^{*} & = \frac{a - c}{3}, \,\, q_{2}^{*} = \frac{a - c}{3} 
-	\end{align}
-	$$
+        $$
+        \begin{align}
+        q_{1}^{*} & = \frac{a - c - q_{2}}{2} = \frac{a - c - \left( \frac{a - c - q_{1}^{*}}{2} \right)}{2} \\
+        2q_{1}^{*} & = \frac{a - c}{2} + \frac{1}{2}q_{1}^{*} \\
+        \rightarrow q_{1}^{*} & = \frac{a - c}{3}, \,\, q_{2}^{*} = \frac{a - c}{3} 
+        \end{align}
+        $$
 
 
 -   모형의 균형
 
     -   각 기업의 균형 생산량
 
-        $$
-        \begin{align}
-        q_{1}^{*} = q_{2}^{*} = \frac{a - c}{3}
-        \end{align}
-        $$
+        $$q_{1}^{*} = q_{2}^{*} = \frac{a - c}{3}$$
 
     -   시장의 균형 생산량 
 
@@ -198,11 +190,7 @@ nav_order: 3
 
     -   각 기업의 균형 이윤
 
-        $$
-        \begin{align}
-        \pi_{1}^{NE} = \pi_{2}^{NE} = \left( P^{*} - c \right)q_{1}^{*} = \left( \frac{a + 2c}{3} - c \right)\left( \frac{a - c}{3} \right) = \frac{(a - c)^{2}}{9}
-        \end{align}
-        $$
+        $$\pi_{1}^{NE} = \pi_{2}^{NE} = \left( P^{*} - c \right)q_{1}^{*} = \left( \frac{a + 2c}{3} - c \right)\left( \frac{a - c}{3} \right) = \frac{(a - c)^{2}}{9}$$
 
 ### 요약
 
@@ -265,11 +253,7 @@ nav_order: 3
 
     -   집단적 독점자의 최적 생산량 $$Q^{M}$$을 먼저 산정한 후 $$Q^{M}$$을 두 기업이 양분하기로 합의
 
-	$$
-	\begin{align}
-	q_{1}^{M} = q_{2}^{M} = \frac{Q^{M}}{2}
-	\end{align}
-	$$
+        $$q_{1}^{M} = q_{2}^{M} = \frac{Q^{M}}{2}$$
 
     -   과점의 균형 이윤이 담합의 이윤보다 크면?
 
@@ -283,60 +267,56 @@ nav_order: 3
 
     -   집단적 독점자의 이윤 
 
-	$$
-	\begin{align}
-	\pi = PQ - cQ = (P - c)Q
-	\end{align}
-	$$
+        $$\pi = PQ - cQ = (P - c)Q$$
 
     -   시장의 역수요함수($$P = a - Q$$)를 이윤에 대입
 
-	$$
-	\begin{align}
-	\pi & = \left\lbrack (a - Q) - c \right\rbrack Q  \\
-	& = (a - c - Q)Q
-	\end{align}
-	$$
+        $$
+        \begin{align}
+        \pi & = \left\lbrack (a - Q) - c \right\rbrack Q  \\
+        & = (a - c - Q)Q
+        \end{align}
+        $$
 
     -   집단적 독점자의 최적 생산량
 
-	$$
-	\begin{align}
-	\frac{d\pi}{dQ} & = - Q + a - c - Q \\
-	\left. \ \frac{d\pi}{dQ} \right|_{Q = Q^{M}} & = 0 \\
-	\rightarrow Q^{M} & = \frac{a - c}{2} \\
-	\end{align}
-	$$
+        $$
+        \begin{align}
+        \frac{d\pi}{dQ} & = - Q + a - c - Q \\
+        \left. \ \frac{d\pi}{dQ} \right|_{Q = Q^{M}} & = 0 \\
+        \rightarrow Q^{M} & = \frac{a - c}{2} 
+        \end{align}
+        $$
 
     -   담합에 참여한 두 기업의 생산량과 이윤
 
-	$$
-	\begin{align}
-	q_{1}^{M} & = q_{2}^{M} = \frac{Q^{M}}{2} = \frac{a - c}{4} \\
-	P^{M} & = \frac{a + c}{2} \\
-	\pi_{1}^{M} & = \pi_{2}^{M} = \frac{(a - c)^{2}}{8} \\
-	\end{align}
-	$$
+        $$
+        \begin{align}
+        q_{1}^{M} & = q_{2}^{M} = \frac{Q^{M}}{2} = \frac{a - c}{4} \\
+        P^{M} & = \frac{a + c}{2} \\
+        \pi_{1}^{M} & = \pi_{2}^{M} = \frac{(a - c)^{2}}{8} 
+        \end{align}
+        $$
 
 -   과점 시장과 담합에서의 균형 비교
 
     -   담합으로 인한 (균형) 생산량 감소
 
-	$$
-	\begin{align}
-	q_{1}^{*} & = q_{2}^{*} = \frac{a - c}{3} > q_{1}^{M} = q_{2}^{M} = \frac{a - c}{4} \\
-	Q^{*} & = \frac{2(a - c)}{3} > Q^{M} = \frac{a - c}{2} \\
-	\end{align}
-	$$
+        $$
+        \begin{align}
+        q_{1}^{*} & = q_{2}^{*} = \frac{a - c}{3} > q_{1}^{M} = q_{2}^{M} = \frac{a - c}{4} \\
+        Q^{*} & = \frac{2(a - c)}{3} > Q^{M} = \frac{a - c}{2} 
+        \end{align}
+        $$
 
     -   담합으로 인한 (균형) 가격 상승?
 
-	$$
-	\begin{align}
-	P^{*} & = \frac{a + 2c}{3} < P^{M} = \frac{a + c}{2} \,\, \text{if} \,\, a > c \\
-	P^{*} & < P^{M} \rightarrow 2a + 4c < 3a + 3c \rightarrow a > c \\
-	\end{align} 
-	$$
+        $$
+        \begin{align}
+        P^{*} & = \frac{a + 2c}{3} < P^{M} = \frac{a + c}{2} \,\, \text{if} \,\, a > c \\
+        P^{*} & < P^{M} \rightarrow 2a + 4c < 3a + 3c \rightarrow a > c 
+        \end{align} 
+        $$
 
     -   담합으로 인한 각 기업의 이윤 증가
 
@@ -499,12 +479,12 @@ nav_order: 3
 
     -   두 기업의 균형 이윤 '0'
 
-	$$
-	\begin{align}
-	\pi_{1}^{*} & = P_{1}^{*}Q_{1}^{*} - cQ_{1}^{*} = \left( P_{1}^{*} - c \right)Q_{1}^{*} = (c - c)\frac{1}{2}(a - c) = 0 \\
-	\pi_{2}^{*} & = P_{2}^{*}Q_{2}^{*} - cQ_{2}^{*} = \left( P_{2}^{*} - c \right)Q_{2}^{*} = (c - c)\frac{1}{2}(a - c) = 0 \\
-	\end{align} 
-	$$
+        $$
+        \begin{align}
+        \pi_{1}^{*} & = P_{1}^{*}Q_{1}^{*} - cQ_{1}^{*} = \left( P_{1}^{*} - c \right)Q_{1}^{*} = (c - c)\frac{1}{2}(a - c) = 0 \\
+        \pi_{2}^{*} & = P_{2}^{*}Q_{2}^{*} - cQ_{2}^{*} = \left( P_{2}^{*} - c \right)Q_{2}^{*} = (c - c)\frac{1}{2}(a - c) = 0 
+        \end{align} 
+        $$
 
 ### 베르트랑 복점 모형 해석
 
@@ -517,7 +497,7 @@ nav_order: 3
         $$
         \begin{align}
         \pi_{1} & = \left( P_{1} - c \right)Q_{1} = 0 \\
-        \pi_{2} & = \left( P_{2}^{*} - c \right)Q_{2} = (c - c)(a - c) = 0 \\
+        \pi_{2} & = \left( P_{2}^{*} - c \right)Q_{2} = (c - c)(a - c) = 0 
         \end{align} 
         $$
 
@@ -526,7 +506,7 @@ nav_order: 3
         $$
         \begin{align}
         \pi_{1} & = \left( P_{1} - c \right)\left( a - P_{1} \right) < 0 \, \text{(why?)} \\
-        \pi_{2} & = \left( P_{2}^{*} - c \right)Q_{2} = (c - c) \times 0 = 0 \\
+        \pi_{2} & = \left( P_{2}^{*} - c \right)Q_{2} = (c - c) \times 0 = 0 
         \end{align} 
         $$
 
@@ -538,28 +518,28 @@ nav_order: 3
 
         만약 $$P_{1} = \widehat{P_{2}}$$이라면, $$Q_{1} = \frac{1}{2}\left( a - \widehat{P_{2}} \right)$$, $$\widehat{Q_{2}} = \frac{1}{2}\left( a - \widehat{P_{2}} \right)$$
 
-	$$
-	\begin{align}
-	\widehat{\pi_{1}} & = \left( P_{1} - c \right)Q_{1} = \frac{1}{2}\left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) \\
-	\widehat{\pi_{2}} & = \left( \widehat{P_{2}} - c \right)\widehat{Q_{2}} = \frac{1}{2}\left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) \\
-	\end{align} 
-	$$
+        $$
+        \begin{align}
+        \widehat{\pi_{1}} & = \left( P_{1} - c \right)Q_{1} = \frac{1}{2}\left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) \\
+        \widehat{\pi_{2}} & = \left( \widehat{P_{2}} - c \right)\widehat{Q_{2}} = \frac{1}{2}\left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right)
+        \end{align} 
+        $$
 
     -   만약 $$P_{1} = \widehat{P_{2}} - \epsilon$$이라면, $$Q_{1} = a - \widehat{P_{2}} - \epsilon$$, $$Q_{2} = 0$$
 
-	$$
-	\begin{align}
-	\widetilde{\pi_{1}} & = \left( P_{1} - c \right)Q_{1} = \left( \widehat{P_{2}} - c - \epsilon \right)\left( a - \widehat{P_{2}} + \epsilon \right) \\
-	\widetilde{\pi_{2}} & = \left( \widehat{P_{2}} - c \right)\widehat{Q_{2}} = \left( \widehat{P_{2}} - c \right) \times 0 = 0 \\
-	\end{align} 
-	$$
+        $$
+        \begin{align}
+        \widetilde{\pi_{1}} & = \left( P_{1} - c \right)Q_{1} = \left( \widehat{P_{2}} - c - \epsilon \right)\left( a - \widehat{P_{2}} + \epsilon \right) \\
+        \widetilde{\pi_{2}} & = \left( \widehat{P_{2}} - c \right)\widehat{Q_{2}} = \left( \widehat{P_{2}} - c \right) \times 0 = 0
+        \end{align} 
+        $$
 
     -   가격을 경쟁 기업과 같은 수준으로 유지할 때와 경쟁 기업보다 아주 조금이라도 낮추었을 때를 비교
 
         $$
         \begin{align}
         \widehat{\pi_{1}} & = \frac{1}{2}\left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) < 2\widehat{\pi_{1}} = \left( \widehat{P_{2}} - c \right)\left( a - \widehat{P_{2}} \right) \\
-        \ & \simeq \widetilde{\pi_{1}} = \left( \widehat{P_{2}} - c - \epsilon \right)\left( a - \widehat{P_{2}} + \epsilon \right) \\
+        \ & \simeq \widetilde{\pi_{1}} = \left( \widehat{P_{2}} - c - \epsilon \right)\left( a - \widehat{P_{2}} + \epsilon \right)
         \end{align} 
         $$
 

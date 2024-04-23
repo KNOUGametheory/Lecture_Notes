@@ -556,11 +556,14 @@ nav_order: 7
 
     -   무차별한 소비자의 위치 $$\widetilde{x}$$
 
-        $$t(1 - a - b)\left\{ 2x - (1 + a - b) \right\} =$$
-        $$P_{2} - P_{1}$$\
-        $$2x - (1 + a - b) = \frac{P_{2} - P_{1}}{t(1 - a - b)}$$\
-        $$2x = 1 + a - b + \frac{P_{2} - P_{1}}{t(1 - a - b)}$$\
-        $$\widetilde{x} = \frac{1 + a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)} = a + \frac{1 - a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)}$$
+        $$
+        \begin{align}
+        & t(1 - a - b)\left\{ 2x - (1 + a - b) \right\} = P_{2} - P_{1} \\
+        & 2x - (1 + a - b) = \frac{P_{2} - P_{1}}{t(1 - a - b)} \\
+        & 2x = 1 + a - b + \frac{P_{2} - P_{1}}{t(1 - a - b)} \\
+        & \widetilde{x} = \frac{1 + a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)} = a + \frac{1 - a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)}
+        \end{align}
+        $$
 
 -   두 상점의 수요를 계산
 

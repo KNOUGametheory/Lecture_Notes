@@ -785,7 +785,7 @@ nav_order: 7
         -   $$
             begin{align}
             \frac{d}{da}\left\lbrack \frac{t}{12}\left( 12a^{2} - 6a + 1 \right) \right\rbrack & = \frac{t}{12}(24a - 6) = 0 \\
-            \rightarrow \widetilde{a} & = \frac{1}{4}, \,\, 1 - \widetilde{b} = \frac{3}{4}
+            \rightarrow \widetilde{a} & = \frac{1}{4}, 1 - \widetilde{b} = \frac{3}{4}
             \end{align}
             $$
 

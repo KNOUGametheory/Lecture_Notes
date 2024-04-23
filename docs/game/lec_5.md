@@ -273,8 +273,8 @@ nav_order: 5
 
     -   경기자 1의 확률분포: 
 
-        $$Pr\ \left\{ \text{홀} \right\} = p$$,
-        $$Pr\ \left\{ \text{짝} \right\} = 1 - p$$
+        $$\Pr \left\{ \text{홀} \right\} = p$$,
+        $$\Pr \left\{ \text{짝} \right\} = 1 - p$$
 
     -   경기자 2의 기대보수
 

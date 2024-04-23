@@ -364,7 +364,7 @@ nav_order: 4
         $$
         \begin{align}
         Q^{*} & = \frac{n}{2}(a - c) - \frac{n - 1}{2}Q^{*} \rightarrow \frac{n + 1}{2}Q^{*} = \frac{n}{2}(a - c) \\
-        Q^{*} & = \frac{n}{n + 1}(a - c) \rightarrow q^{*} = \frac{1}{n + 1}(a - c)
+        Q^{*} & = \frac{n}{n + 1}(a - c) \rightarrow q^{*} = \frac{1}{n + 1}(a - c) \\
         (∵ \text{대칭성} \,\, $$q_{i} & = q_{j} = q^{*},\ Q^{*} = nq^{*} \,\, \text{가정})
         \end{align}
         $$

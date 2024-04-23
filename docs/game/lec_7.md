@@ -576,16 +576,28 @@ nav_order: 7
 -   두 상점의 수요를 계산
 
     -   $$x \in \left\lbrack 0,\widetilde{x} \right)$$에 거주하는 소비자는
-        상점 1에서 상품을 구입\
+        상점 1에서 상품을 구입
+
         상점 1의 수요
-        $$\widetilde{x} = a + \frac{1 - a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)}$$
+
+        $$
+        \begin{align}
+        \widetilde{x} = a + \frac{1 - a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)}
+        \end{align}
+        $$
 
     -   $$x \in \left( \widetilde{x},\ 1 \right\rbrack$$에 거주하는
-        소비자는 상점 2에서 상품을 구입\
+        소비자는 상점 2에서 상품을 구입
+
         상점 2의 수요
-        $$1 - \widetilde{x} = 1 - \left\lbrack a + \frac{1 - a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)} \right\rbrack$$\
-        $$= 1 - a - \frac{1 - a - b}{2} - \frac{P_{2} - P_{1}}{2t(1 - a - b)}$$\
-        $$= b + \frac{1 - a - b}{2} + \frac{P_{1} - P_{2}}{2t(1 - a - b)}$$
+
+        $$
+        \begin{align}
+        1 - \widetilde{x} & = 1 - \left\lbrack a + \frac{1 - a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)} \right\rbrack \\
+        & = 1 - a - \frac{1 - a - b}{2} - \frac{P_{2} - P_{1}}{2t(1 - a - b)} \\
+        & = b + \frac{1 - a - b}{2} + \frac{P_{1} - P_{2}}{2t(1 - a - b)}
+        \end{align}
+        $$
 
 -   두 상점의 이윤을 계산
 

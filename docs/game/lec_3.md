@@ -293,7 +293,8 @@ nav_order: 3
 
 	$$
 	\begin{align}
-	\pi = \left\lbrack (a - Q) - c \right\rbrack Q = (a - c - Q)Q
+	\pi & = \left\lbrack (a - Q) - c \right\rbrack Q  \\
+	& = (a - c - Q)Q
 	\end{align}
 	$$
 

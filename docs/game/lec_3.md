@@ -110,8 +110,7 @@ nav_order: 3
     -   $$\pi_{1}$$의 일계조건(First-Order Condition)
 	
         $$
-        \begin{align}
-	
+        \begin{align}	
         \frac{\partial\pi_{1}}{\partial q_{1}} & = - q_{1} + \left\lbrack a - c - q_{1} - q_{2} \right\rbrack \\
         & = a - c - 2q_{1} - q_{2} \\
         \frac{\partial\pi_{1}}{\partial q_{1}} \vert_{q_1 = q_1^*} & = 0 \rightarrow \\
@@ -131,7 +130,7 @@ nav_order: 3
 
     -   기업 2의 이윤 (여기에서, $$c$$는 생산의 평균 비용이자 한계 비용)
 	
-	$$\pi_{2} = Pq_{2} - cq_{2} = (P - c)q_{2}$$
+        $$\pi_{2} = Pq_{2} - cq_{2} = (P - c)q_{2}$$
 
     -   시장의 역수요함수($$P = a - Q$$)를 $$\pi_{2}$$에 대입
 	

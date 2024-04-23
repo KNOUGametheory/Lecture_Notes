@@ -90,8 +90,7 @@ nav_order: 4
 
 -   도식화
 
-    -   $$a \in \lbrack 0,\ 1\rbrack$$: 상점 1의 위치,
-        $$1 - b \in \lbrack 0,\ 1\rbrack$$: 상점 2의 위치
+    -   $$a \in \lbrack 0,\ 1\rbrack$$: 상점 1의 위치, $$1 - b \in \lbrack 0,\ 1\rbrack$$: 상점 2의 위치
 
     -   상점 1의 시장점유율
 
@@ -141,13 +140,11 @@ nav_order: 4
 
         (ⅰ) $$1 - b = \frac{1}{2} - \epsilon < \frac{1}{2}$$: $$u_{2}\left( \frac{1}{2},\frac{1}{2} - \epsilon \right) = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$
 
-        (ⅱ) $$1 - b = \frac{1}{2} + \epsilon > \frac{1}{2}$$:
-        $$u_{2}\left( \frac{1}{2},\frac{1}{2} + \epsilon \right) = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$
+        (ⅱ) $$1 - b = \frac{1}{2} + \epsilon > \frac{1}{2}$$: $$u_{2}\left( \frac{1}{2},\frac{1}{2} + \epsilon \right) = \frac{1}{2} - \frac{1}{2}\epsilon < \frac{1}{2}$$
 
 -   균형의 유일성
 
-    -   상점 1과 상점 2의 점포 위치는
-        $$\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$$
+    -   상점 1과 상점 2의 점포 위치는 $$\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$$
 
         이외에 다른 어떤 전략 조합도 균형이 될 수 없을까? <span style="color:#105AD2">YES!</span>
 
@@ -173,9 +170,7 @@ nav_order: 4
 
 -   균형의 해석
 
-    -   상점 1과 상점 2은 점포 위치를
-        $$\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$$로
-        선택
+    -   상점 1과 상점 2은 점포 위치를 $$\left( a^{*},\ {1 - b}^{*} \right) = \left( \frac{1}{2},\frac{1}{2} \right)$$로 선택
 
         시장을 양분하여 $$\frac{1}{2}$$씩 점유하는 것이 유일한 내쉬균형
 
@@ -294,8 +289,7 @@ nav_order: 4
 
         생산활동에 소요되는 (평균 및 한계) 비용 $$c$$
 
-        공동체 전체의 생산량
-        $$Q = \sum_{i = 1}^{n}q_{i} = q_{1} + q_{2} + \cdots + q_{n}$$
+        공동체 전체의 생산량 $$Q = \sum_{i = 1}^{n}q_{i} = q_{1} + q_{2} + \cdots + q_{n}$$
 
     -   공동체 전체 생산량으로 결정되는 생산품의 가치
 
@@ -495,8 +489,6 @@ nav_order: 4
 
     -   $$n \geq 2$$일 때, '이기적' 균형과 사회적 최적의 차이는 각 구성원의 결정이 다른 구성원의 결정에 미치는 영향
 
-
-
 ### 요약
 
 -   공동자원의 과도하게 남용되는 이유는 무엇일까?
@@ -677,11 +669,9 @@ nav_order: 4
 
     -   메신저, 소셜 미디어 등을 선택할 때 다른 소비자가 많이 이용하는 플랫폼일수록 증가
 
-    -   $$n$$명이 사용하는 메신저의 가능한 링크
-        $$\binom{n}{2} = \frac{n(n - 1)}{2}$$
+    -   $$n$$명이 사용하는 메신저의 가능한 링크 $$\binom{n}{2} = \frac{n(n - 1)}{2}$$
 
-        1명이 더 참여한다면? 링크
-        $$\binom{n + 1}{2} = \frac{n(n + 1)}{2} \rightarrow n$$만큼 증가
+        1명이 더 참여한다면? 링크 $$\binom{n + 1}{2} = \frac{n(n + 1)}{2} \rightarrow n$$만큼 증가
 
 -   생산 관점의 네트워크 효과
 

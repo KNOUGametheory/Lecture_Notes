@@ -640,7 +640,7 @@ nav_order: 7
         \frac{\partial}{\partial P_{2}}\pi_{2}\left( P_{1},\ P_{2} \right) & = \frac{\partial}{\partial P_{2}}\left( P_{2} - c \right)\left\lbrack b + \frac{1 - a - b}{2} + \frac{P_{1} - P_{2}}{2t(1 - a - b)} \right\rbrack \\
         & = \left\lbrack b + \frac{1 - a - b}{2} + \frac{P_{1} - P_{2}}{2t(1 - a - b)} \right\rbrack + \left( P_{2} - c \right)\left( \frac{- 1}{2t(1 - a - b)} \right) \\
         & = b + \frac{1 - a - b}{2} + \frac{P_{1} - 2P_{2} + c}{2t(1 - a - b)} \\
-        \frac{\partial}{\partial P_{2}}\pi_{2}\left( P_{1},\ P_{2} \right) = 0 \\
+        \frac{\partial}{\partial P_{2}}\pi_{2}\left( P_{1},\ P_{2} \right) & = 0 \\
         \rightarrow \widehat{P_{2}} & = \frac{1}{2}\left\lbrack P_{1} + c + t(1 - a - b)(1 - a + b) \right\rbrack
         \end{align}
         $$

@@ -78,8 +78,7 @@ nav_order: 7
 
     -   선도자와 추종자의 생산량의 합으로 시장 생산량 결정
 
-    -   시장의 역수요함수 $$P = a - Q$$ (단, $$a > 0$$는 시장 규모)에 따라
-        시장 청산 가격(market-clearing price) 및 이윤 결정
+    -   시장의 역수요함수 $$P = a - Q$$ (단, $$a > 0$$는 시장 규모)에 따라 시장 청산 가격(market-clearing price) 및 이윤 결정
 
 -   스타켈버그(Stackelberg, 1934) 복점 모형의 게임나무
 
@@ -94,7 +93,6 @@ nav_order: 7
         -   기업 1의 생산량 $$q_{2}$$ 관찰 후 기업 2(추종자)가 생산량 $$q_{2}$$ 결정
 
         -   시장 생산량 $$Q = q_{1} + q_{2}$$에 따라 시장 청산 가격과 각 기업의 이윤 결정
-
 
 ### 선점 효과를 반영한 복점 모형의 균형
 
@@ -118,8 +116,7 @@ nav_order: 7
 
     -   $$\pi_{2}$$을 최대화하는 생산량 $$q_{2}$$를 결정
 
-        -   일계조건(First-order condition)
-            $$\left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = \widetilde{q_2}} = 0$$
+        -   일계조건(First-order condition) $$\left. \ \frac{\partial\pi_{2}}{\partial q_{2}} \right\vert_{q_2 = \widetilde{q_2}} = 0$$
 
             $$
             \begin{align}
@@ -132,8 +129,7 @@ nav_order: 7
 
             기업 1의 생산량에 대한 기업 2의 최적 대응
 
-        -   이계조건(Second-order condition)
-            $$\left. \ \frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} \right\vert_{q_2 = \widetilde{q_2}} \leq 0$$
+        -   이계조건(Second-order condition) $$\left. \ \frac{\partial^{2}\pi_{2}}{\partial q_{2}^{2}} \right\vert_{q_2 = \widetilde{q_2}} \leq 0$$
 
             $$
             \begin{align}
@@ -163,8 +159,7 @@ nav_order: 7
 
     -   기업 2의 최적 대응을 반영한 상태에서 계산한 기업 1의 이윤 $$\widetilde{\pi_{1}}$$을 최대화하는 생산량 $$q_{1}$$을 결정
 
-        -   일계조건(First-order condition)
-            $$\left. \ \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right\vert_{q_1 = \widehat{q_1}} = 0$$
+        -   일계조건(First-order condition) $$\left. \ \frac{\partial\widetilde{\pi_{1}}}{\partial q_{1}} \right\vert_{q_1 = \widehat{q_1}} = 0$$
 
             $$
             \begin{align}
@@ -175,8 +170,7 @@ nav_order: 7
             \end{align}
             $$
 
-        -   이계조건(Second-order condition)
-            $$\left. \ \frac{\partial^{2}\widetilde{\pi_{1}}}{\partial q_{1}^{2}} \right\vert_{q_1 = \widehat{q_1}} \leq 0$$
+        -   이계조건(Second-order condition) $$\left. \ \frac{\partial^{2}\widetilde{\pi_{1}}}{\partial q_{1}^{2}} \right\vert_{q_1 = \widehat{q_1}} \leq 0$$
 
             $$
             \begin{align}
@@ -198,9 +192,7 @@ nav_order: 7
 
             $$\widehat{q_{2}} = \frac{a - c}{4} = \frac{1}{4}(a - c)$$
 
-            (기업 2의 최적 대응
-            $$\widetilde{q_{2}} = \frac{a - c - q_{1}}{2}$$에
-            $$q_{1} = \frac{a - c}{2}$$을 대입)
+            (기업 2의 최적 대응 $$\widetilde{q_{2}} = \frac{a - c - q_{1}}{2}$$에 $$q_{1} = \frac{a - c}{2}$$을 대입)
 
         -   시장의 균형 생산량
 
@@ -341,8 +333,7 @@ nav_order: 7
 
 -   균형 생산량 비교
 
-    -   (추종자의 균형 생산량) $$<$$ (동시 결정 균형 생산량) $$<$$ (선도자의
-        균형 생산량)
+    -   (추종자의 균형 생산량) $$<$$ (동시 결정 균형 생산량) $$<$$ (선도자의 균형 생산량)
 
     -   $$\widehat{q_{2}} = \frac{1}{4}(a - c) < q^{*} = \frac{1}{3}(a - c) < \widehat{q_{1}} = \frac{1}{2}(a - c)$$
 
@@ -356,8 +347,7 @@ nav_order: 7
 
 -   균형 이윤 비교
 
-    -   (추종자의 균형 이윤) $$<$$ (동시 결정 균형 이윤) $$<$$ (선도자의 균형
-        이윤)
+    -   (추종자의 균형 이윤) $$<$$ (동시 결정 균형 이윤) $$<$$ (선도자의 균형 이윤)
 
     -   $$\widehat{\pi_{2}} = \frac{1}{16}(a - c)^{2} < \pi^{*} = \frac{1}{9}(a - c)^{2} < \widehat{\pi_{1}} = \frac{1}{8}(a - c)^{2}$$
 
@@ -393,8 +383,7 @@ nav_order: 7
 
     -   기업 1의 확률분포: 
 
-        $$\Pr\left\{ \text{선도} \right\} = p$$,
-        $$\Pr\left\{ \text{추종} \right\} = 1 - p$$
+        $$\Pr\left\{ \text{선도} \right\} = p$$, $$\Pr\left\{ \text{추종} \right\} = 1 - p$$
 
     -   기업 2의 기대보수
 
@@ -448,9 +437,7 @@ nav_order: 7
 
 -   선도자와 추종자를 선택하는 게임에서 균형은?
 
-    -   (선도, 추종); (추종, 선도); 혼합전략
-        $$\left( \frac{2}{11},\frac{9}{11} \right)$$
-
+    -   (선도, 추종); (추종, 선도); 혼합전략 $$\left( \frac{2}{11},\frac{9}{11} \right)$$
 
 ## 3.  입지와 가격 결정
 
@@ -493,8 +480,7 @@ nav_order: 7
 
 -   상점의 위치와 관련된 가정
 
-    -   상점 1의 위치 $$a \in \lbrack 0,\ 1\rbrack$$, 상점 2의 위치
-        $$1 - b \in \lbrack 0,\ 1\rbrack$$
+    -   상점 1의 위치 $$a \in \lbrack 0,\ 1\rbrack$$, 상점 2의 위치 $$1 - b \in \lbrack 0,\ 1\rbrack$$
 
     -   상점 1의 위치가 상점 2의 위치보다 왼쪽
 
@@ -524,8 +510,7 @@ nav_order: 7
 
 -   두 상점이 무차별한 소비자의 위치
 
-    -   상점 1의 위치 $$a \in \lbrack 0,\ 1\rbrack$$, 상점 2의 위치
-        $$1 - b \in \lbrack 0,\ 1\rbrack$$
+    -   상점 1의 위치 $$a \in \lbrack 0,\ 1\rbrack$$, 상점 2의 위치 $$1 - b \in \lbrack 0,\ 1\rbrack$$
 
     -   위치 $$x$$에 거주하는 소비자가 상점 $$i$$에서 상품을 구매한 효용
 
@@ -544,13 +529,9 @@ nav_order: 7
         $$
         \begin{align}
         u_{c}\left( x,\ P_{1};y_{1} = a \right) & = u_{c}\left( x,\ P_{2};y_{2} = 1 - b \right) \\
-
         v - \left( P_{1} + t(x - a)^{2} \right) & = v - \left( P_{2} + t\left( x - (1 - b) \right)^{2} \right) \\
-
         P_{1} + t(x - a)^{2} & = P_{2} + t\left( x - (1 - b) \right)^{2} \\
-
         t\left\{ (x - a)^{2} - \left( x - (1 - b) \right)^{2} \right\} & = P_{2} - P_{1} \\
-
         t(1 - a - b)\left\{ 2x - (1 + a - b) \right\} & = P_{2} - P_{1}
         \end{align}
         $$
@@ -560,19 +541,15 @@ nav_order: 7
         $$
         \begin{align}
         & t(1 - a - b)\left\{ 2x - (1 + a - b) \right\} = P_{2} - P_{1} \\
-
         & 2x - (1 + a - b) = \frac{P_{2} - P_{1}}{t(1 - a - b)} \\
-
         & 2x = 1 + a - b + \frac{P_{2} - P_{1}}{t(1 - a - b)} \\
-
         & \widetilde{x} = \frac{1 + a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)} = a + \frac{1 - a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)}
         \end{align}
         $$
 
 -   두 상점의 수요를 계산
 
-    -   $$x \in \left\lbrack 0,\widetilde{x} \right)$$에 거주하는 소비자는
-        상점 1에서 상품을 구입
+    -   $$x \in \left\lbrack 0,\widetilde{x} \right)$$에 거주하는 소비자는 상점 1에서 상품을 구입
 
         상점 1의 수요
 
@@ -582,8 +559,7 @@ nav_order: 7
         \end{align}
         $$
 
-    -   $$x \in \left( \widetilde{x},\ 1 \right\rbrack$$에 거주하는
-        소비자는 상점 2에서 상품을 구입
+    -   $$x \in \left( \widetilde{x},\ 1 \right\rbrack$$에 거주하는 소비자는 상점 2에서 상품을 구입
 
         상점 2의 수요
 
@@ -656,13 +632,9 @@ nav_order: 7
             $$
             \begin{align}
             2P_{1} & = \frac{1}{2}\left\lbrack P_{1} + c + t(1 - a - b)(1 - a + b) \right\rbrack + c + t(1 - a - b)(1 + a - b) \\
-
             4P_{1} & = P_{1} + c + t(1 - a - b)(1 - a + b) + 2c + 2t(1 - a - b)(1 + a - b) \\
-
             3P_{1} & = 3c + t(1 - a - b)\left( 1 - a + b + 2(1 + a - b) \right)  \\
-
             3P_{1} & = 3c + t(1 - a - b)(3 + a - b) \\
-
             \therefore \widehat{P_{1}} &= c + t(1 - a - b)\left( 1 + \frac{a - b}{3} \right)
             \end{align}
             $$
@@ -708,9 +680,7 @@ nav_order: 7
 
 -   상점의 이윤을 최대화하는 위치를 결정
 
-    -   상점 1의 이윤
-        $$\widehat{\pi_{1}} = \frac{t}{2}(1 - a - b)\left( 1 + \frac{a - b}{3} \right)^{2}$$을
-        위치 $$a$$로 편미분
+    -   상점 1의 이윤 $$\widehat{\pi_{1}} = \frac{t}{2}(1 - a - b)\left( 1 + \frac{a - b}{3} \right)^{2}$$을 위치 $$a$$로 편미분
 
         -   $$
             \begin{align}
@@ -720,12 +690,9 @@ nav_order: 7
             \end{align}
             $$
 
-        -   $$\widehat{\pi_{1}}$$은 $$a$$에 대하여 감소 $$\rightarrow$$ $$a^{*} = 0$$일 때
-            $$\widehat{\pi_{1}}$$이 최대
+        -   $$\widehat{\pi_{1}}$$은 $$a$$에 대하여 감소 $$\rightarrow$$ $$a^{*} = 0$$일 때 $$\widehat{\pi_{1}}$$이 최대
 
-    -   상점 2의 이윤
-        $$\widehat{\pi_{2}} = \frac{t}{2}(1 - a - b)\left( 1 + \frac{b - a}{3} \right)^{2}$$을
-        위치 $$b$$로 편미분
+    -   상점 2의 이윤 $$\widehat{\pi_{2}} = \frac{t}{2}(1 - a - b)\left( 1 + \frac{b - a}{3} \right)^{2}$$을 위치 $$b$$로 편미분
 
         -   $$
             \begin{align}
@@ -735,9 +702,7 @@ nav_order: 7
             \end{align}
             $$
 
-        -   $$\widehat{\pi_{2}}$$은 $$b$$에 대하여 감소 $$\rightarrow$$
-            $$b^{*} = 0\left( 1 - b^{*} = 1 \right)$$일 때
-            $$\widehat{\pi_{2}}$$이 최대
+        -   $$\widehat{\pi_{2}}$$은 $$b$$에 대하여 감소 $$\rightarrow$$ $$b^{*} = 0\left( 1 - b^{*} = 1 \right)$$일 때 $$\widehat{\pi_{2}}$$이 최대
 
     -   최적 입지 $$\left( a^{*},\ 1 - b^{*} \right) = (0,\ 1)$$
 
@@ -763,8 +728,7 @@ nav_order: 7
 
 -   부분게임완전균형이 가장 '효율적인' 입지인가?
 
-    -   부분게임완전균형에서의 입지:
-        $$\left( a^{*},\ 1 - b^{*} \right) = (0,\ 1)$$
+    -   부분게임완전균형에서의 입지: $$\left( a^{*},\ 1 - b^{*} \right) = (0,\ 1)$$
 
     -   부분게임완전균형에서 소비자가 부담하는 '교통비'
 
@@ -783,8 +747,7 @@ nav_order: 7
             \end{align}
             $$
 
-        -   $$\left( \widetilde{a} = \frac{1}{4},1 - \widetilde{b} = \frac{3}{4} \right)$$에서
-            소비자 부담 교통비
+        -   $$\left( \widetilde{a} = \frac{1}{4},1 - \widetilde{b} = \frac{3}{4} \right)$$에서 소비자 부담 교통비
 
             $$\frac{t}{12}\left( 12\left( \frac{1}{4} \right)^{2} - 6\left( \frac{1}{4} \right) + 1 \right) = \frac{t}{48}$$
 

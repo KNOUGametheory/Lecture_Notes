@@ -354,7 +354,7 @@ nav_order: 5
         \end{align}
         $$
 
-    ![표](/images/Lec_5_2_2_2.png)
+        ![표](/images/Lec_5_2_2_2.png)
 
 ### 대응곡선과 혼합전략 내쉬균형
 
@@ -364,7 +364,7 @@ nav_order: 5
 
     -   두 대응곡선이 교차하는 점이 혼합전략 내쉬균형
 
-    ![표](/images/Lec_5_2_3_1.png)
+        ![표](/images/Lec_5_2_3_1.png)
 
 -   홀짝 게임의 혼합전략 내쉬균형
 

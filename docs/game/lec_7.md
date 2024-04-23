@@ -782,9 +782,12 @@ nav_order: 7
 
     -   소비자가 부담하는 '교통비'을 최소화하는 입지와 그때 '교통비'
 
-        -   $$\frac{d}{da}\left\lbrack \frac{t}{12}\left( 12a^{2} - 6a + 1 \right) \right\rbrack = \frac{t}{12}(24a - 6) = 0$$
-            🡪 $$\widetilde{a} = \frac{1}{4}$$,
-            $$1 - \widetilde{b} = \frac{3}{4}$$
+        -   $$
+            $begin{align}
+            \frac{d}{da}\left\lbrack \frac{t}{12}\left( 12a^{2} - 6a + 1 \right) \right\rbrack & = \frac{t}{12}(24a - 6) = 0 \\
+            \rightarrow \widetilde{a} & = \frac{1}{4}, \,\, 1 - \widetilde{b} = \frac{3}{4}
+            \end{align}
+            $$
 
         -   $$\left( \widetilde{a} = \frac{1}{4},1 - \widetilde{b} = \frac{3}{4} \right)$$에서
             소비자 부담 교통비

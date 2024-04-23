@@ -601,15 +601,23 @@ nav_order: 7
 
 -   두 상점의 이윤을 계산
 
-    -   상점 1의 이윤\
-        $$\pi_{1}\left( P_{1},\ P_{2} \right) = \left( P_{1} - c \right)\widetilde{x}$$
-        *\
-        *$$= \left( P_{1} - c \right)\left\lbrack a + \frac{1 - a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)} \right\rbrack$$
+    -   상점 1의 이윤
 
-    -   상점 2의 이윤\
-        $$\pi_{2}\left( P_{1},\ P_{2} \right) = \left( P_{2} - c \right)\left( 1 - \widetilde{x} \right)$$
-        *\
-        *$$= \left( P_{2} - c \right)\left\lbrack b + \frac{1 - a - b}{2} + \frac{P_{1} - P_{2}}{2t(1 - a - b)} \right\rbrack$$
+        $$
+        \begin{align}
+        \pi_{1}\left( P_{1},\ P_{2} \right) & = \left( P_{1} - c \right)\widetilde{x} \\
+        & = \left( P_{1} - c \right)\left\lbrack a + \frac{1 - a - b}{2} + \frac{P_{2} - P_{1}}{2t(1 - a - b)} \right\rbrack
+        \end{align}
+        $$
+
+    -   상점 2의 이윤
+
+        $$
+        \begin{align}
+        \pi_{2}\left( P_{1},\ P_{2} \right) & = \left( P_{2} - c \right)\left( 1 - \widetilde{x} \right) \\
+        & = \left( P_{2} - c \right)\left\lbrack b + \frac{1 - a - b}{2} + \frac{P_{1} - P_{2}}{2t(1 - a - b)} \right\rbrack
+        \end{align}
+        $$
 
 -   각 상점의 이윤을 최대화하는 가격 결정
 

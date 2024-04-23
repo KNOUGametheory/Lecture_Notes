@@ -609,7 +609,7 @@ nav_order: 2
 
     -   DM 1의 입장: 전략을 바꿀 유인 있음(야구장 $$\rightarrow$$ 콘서트장)
 
-        $$u_{1}$$(야구장<span style="color:#FF0000">콘서트장</span>) $$= 0 < u_{1}$$(콘서트장,<span style="color:#FF0000">콘서트장</span>) $$= 2$$
+        $$u_{1}$$(야구장,<span style="color:#FF0000">콘서트장</span>) $$= 0 < u_{1}$$(콘서트장,<span style="color:#FF0000">콘서트장</span>) $$= 2$$
 
     -   DM 2의 입장: 전략을 바꿀 유인 있음(콘서트장 $$\rightarrow$$ 야구장)
 

@@ -118,7 +118,7 @@ K-MOCC, [게임이론](https://www.kmooc.kr/view/course/detail/10379){:target="_
 
 - [김두얼, 명지대학교, 제도와 경제](https://www.kmooc.kr/view/course/detail/8806){:target="_blank"}
 
-## 참고 도서
+## 참고 자료
 
 - 
 

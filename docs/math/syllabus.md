@@ -96,7 +96,7 @@ K-MOCC, [게임이론을 위한 수학](https://www.kmooc.kr/view/course/detail/
 
 - [최윤성, 포항공과대학교, 알고 보면 쉬운 미적분 이론](https://www.kmooc.kr/view/course/detail/8857){:target="_blank"}
 
-## 참고 도서
+## 참고 자료
 
 - 
 

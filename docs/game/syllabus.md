@@ -112,14 +112,22 @@ K-MOCC, [게임이론](https://www.kmooc.kr/view/course/detail/10379){:target="_
 
 ## K-MOOC 연관 강의
 
-- [이준구, 서울대학교, 경제학원론: 미시경제학](https://www.kmooc.kr/view/course/detail/11793){:target="_blank"}
+- [이준구, 서울대학교, 경제학원론: 미시경제학.](https://www.kmooc.kr/view/course/detail/11793){:target="_blank"}
 
-- [장 티롤, Toulouse School of Economics, 플랫폼 제국의 비밀](https://lms.kmooc.kr/course/view.php?id=10953){:target="_blank"}
+- [장 티롤, Toulouse School of Economics, 플랫폼 제국의 비밀.](https://lms.kmooc.kr/course/view.php?id=10953){:target="_blank"}
 
-- [김두얼, 명지대학교, 제도와 경제](https://www.kmooc.kr/view/course/detail/8806){:target="_blank"}
+- [김두얼, 명지대학교, 제도와 경제.](https://www.kmooc.kr/view/course/detail/8806){:target="_blank"}
 
 ## 참고 자료
 
-- 
+- [김영세, 게임이론, 박영사.](https://www.pybook.co.kr/mall/book/pys?goodsno=731){:target="_blank"}
 
-- 
+- 최정규, 게임이론과 진화 다이내믹스, 이음.
+
+- [배리 J. 네일버프, 애비너시 딕시트 / 이건식 옮김, 전략의 탄생, 쌤앤파커스.](){:target="_blank"}
+
+  - [Avinash K. Dixit and Barry J. Nalebuff, **The Art of Strategy: A Game Theorist's Guide to Success in Business and Life**, W. W. Norton \& Company.](){:target="_blank"}
+
+- [모시 호프먼, 에레즈 요엘리 / 김태훈 옮김, 살아 있는 모든 것은 게임을 한다, 김영사](https://www.gimmyoung.com/book/books/view/book/5538){:target="_blank"}
+
+  - [Moshe Hoffman and Erez Yoeli, **Hidden Games: The Surprising Power of Game Theory to Explain Irrational Human Behavior**, Basic Books.](){:target="_blank"}

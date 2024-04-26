@@ -8,7 +8,8 @@ nav_order: 2
 # 대수
 
 ## 방정식
-- 핵심만 쏙쏙!
+
+- ★ 핵심만 쏙쏙! 
 
     {: .note}
 	> '방정식'은? 
@@ -19,11 +20,11 @@ nav_order: 2
 
 - 방정식(equation)
 
-  - 변수의 값에 따라 참/거짓이 결정되는 등식
+  - 변수의 값에 따라 참/<span style="color:#FF0000"><span style="color:#105AD2">참</span></span>이 결정되는 등식
   
   - 표현 형식: (좌변) $$=$$ (우변)
   
-  - 등식 $$2𝑥=4$$는 $$𝑥=2$$일 때 참, $$𝑥 \neq 2$$일 때 거짓
+  - 등식 $$2𝑥=4$$는 $$𝑥=2$$일 때 참, $$𝑥 \neq 2$$일 때 <span style="color:#FF0000"><span style="color:#105AD2">참</span></span>
 
 - 항등식(identity)
 
@@ -166,7 +167,7 @@ nav_order: 2
   
 ## 부등식
 
-- 핵심만 쏙쏙!
+- ★ 핵심만 쏙쏙! 
 
     {: .note}
 	> '부등식'은? 
@@ -177,13 +178,13 @@ nav_order: 2
 
 - 방정식과 부등식의 관계
 
-  - 방정식(equality): 변수 $$𝑥$$의 값에 따라 참/거짓이 결정되는 등식
+  - 방정식(equality): 변수 $$𝑥$$의 값에 따라 참/<span style="color:#FF0000"><span style="color:#105AD2">참</span></span>이 결정되는 등식
   
-  - 부등식(inequality): 변수 $$𝑥$$의 값(또는 범위)에 따라 참/거짓이 결정되는 식
+  - 부등식(inequality): 변수 $$𝑥$$의 값(또는 범위)에 따라 참/<span style="color:#FF0000"><span style="color:#105AD2">참</span></span>이 결정되는 식
 
     - ex) 부등식 $$ 2𝑥 \geq 4 $$
 	
-	- $$ 𝑥 = 1$$일 때, (좌변) $$ = 2 \times 1 < $$ (우변) $$ = 4$$ 이므로 거짓
+	- $$ 𝑥 = 1$$일 때, (좌변) $$ = 2 \times 1 < $$ (우변) $$ = 4$$ 이므로 <span style="color:#FF0000"><span style="color:#105AD2">참</span></span>
 	
 	- $$ 𝑥 = 2$$일 때, (좌변) $$ = 2 \times 2 \geq $$ (우변) $$ = 4$$ 이므로 참
 	
@@ -371,7 +372,7 @@ nav_order: 2
 
 ## 경제학 분야의 활용
 
-- 핵심만 쏙쏙!
+- ★ 핵심만 쏙쏙! 
 
     {: .note}
 	> 방정식, 부등식은?

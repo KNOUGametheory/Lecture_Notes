@@ -297,3 +297,219 @@ nav_order: 9
 	- 모든 기의 내쉬균형 $$\rightarrow$$ $$(Q_{1},~Q_{2})=(4,~4)$$
 
 	- 하위게임 완전균형 $$\rightarrow$$ $$\{(4,~4),~(4,~4),\cdots,~(4,~4)\}$$
+
+
+## 무한반복게임
+
+- 핵심만 쏙쏙!
+
+    {: .note}
+	> - 다음 문제에 답을 할 수 있다.
+	>
+	> 	- 현실 세계 전략적 상황 $$\rightarrow$$ 반복적 상호작용 $$\rightarrow$$ 무한번 반복게임  
+	>
+	> 	- 합리적 경기자들은 어떤 전략을 선택하는가?
+	>
+	> - 다음 문제를 생각하자.
+	>
+	> 	- 지금 당장이 중요한가? 아니면 미래가 중요한가?
+	>
+	> 	- 죄인의 딜레마를 무한 반복하면 유한 반복과 차이가 있는가?
+	>
+	> 	- 무한 반복하는 Cournot 균형은 무엇인가?
+
+### 반복게임에서의 보수
+
+- 100을 이자율 10%로 저축하면 1기 후 $$\rightarrow$$ $$(1+0.1)\times 100=100+10$$
+
+- 1기 후 110의 현재가치 $$\dfrac{110}{1+0.1}=100$$ 
+
+- 1기 후의 보수 $$R$$의 현재가치 $$\rightarrow$$ $$\dfrac{R}{1+r}$$
+
+- 1기 후의 보수 $$R$$을 현재가치화하는 할인인자 $$0<\delta<1$$ $$\rightarrow$$ $$\delta R$$
+
+### 반복게임
+
+- 각 기의 보수 $$R_{1},~R_{2},\cdots,~R_{T}$$ $$\rightarrow$$ 보수의 현재가치 합 $$V$$
+
+	$$
+	\begin{split}
+	V&=R_{1}+\frac{R_{2}}{1+r}+\frac{R_{3}}{(1+r)^{2}}+\cdots+\frac{R_{T}}{(1+r)^{T-1}}\\
+	&=R_{1}+\delta R_{2}+\delta^{2} R_{3}+\cdots+\delta^{T-1} R_{T}\\
+	&=\sum_{t=1}^{T}\delta^{t-1} R_{t}
+	\end{split}
+	$$
+	
+- 반복게임 보수의 현재가치 합
+
+	- 등비수열의 합 (단, 공비 $$r\ne1$$)
+	
+	$$
+	\begin{split}
+	\sum_{i=1}^{n}ar^{i-1}&=a+ar+ar^{2}+\cdots+ar^{n-1}\\
+	S&=~a~+~ar~+ar^{2}+\cdots+ar^{n-1}\\
+	rS&=ar+ar^{2}+ar^{3}+\cdots+ar^{n}\\
+	(1-r)S&=a-ar^{n}\\
+	\sum_{i=1}^{n}ar^{i-1}&=\frac{a(1-r^{n})}{1-r}\\
+	\frac{1-r}{1-r^{n}}\sum_{i=1}^{n}ar^{i-1}&=a\\
+	\end{split}
+	$$
+	
+	- 보수의 현재가치 합 $$V$$
+	
+	$$
+	\begin{split}
+	V&=\sum_{t=1}^{T}\delta^{t-1} R_{t}
+	\end{split}
+	$$
+	
+	- 한반복게임의 평균할인보수 $$v$$
+	
+	$$
+	V=\sum_{t=1}^{T}\delta^{t-1} R_{t}~~~\text{$$\rightarrow$$}~~~
+	v=\left(\frac{1-\delta}{1-\delta^{T}}\right)\sum_{t=1}^{T}\delta^{t-1} R_{t}
+	$$
+
+	- 무한반복게임의 평균할인보수 $$v$$
+	
+	$$
+	V=\sum_{t=1}^{\infty}\delta^{t-1} R_{t}~~~\text{$$\rightarrow$$}~~~
+	v=(1-\delta)\sum_{t=1}^{\infty}\delta^{t-1} R_{t}~~~~~~\because~\delta^{\infty}\rightarrow0
+	$$
+	
+	- 무한반복게임의 평균할인보수 $$v$$
+	
+	$$
+	\begin{split}
+	v(R_{1},~R_{2},~R_{3},\cdots)&=(1-\delta)\sum_{t=1}^{\infty}\delta^{t-1} R_{t}\\
+	&=(1-\delta)(R_{1}+\delta R_{2}+\delta^{2} R_{3}+\delta^{3} R_{4}+\cdots)\\
+	&=(1-\delta)R_{1}+(1-\delta)(\delta R_{2}+\delta^{2} R_{3}+\delta^{3} R_{4}+\cdots)\\
+	&=(1-\delta)R_{1}+\delta (1-\delta)(R_{2}+\delta R_{3}+\delta^{2} R_{4}+\cdots)\\
+	&=(1-\delta)R_{1}+\delta v(R_{2},~R_{3},\cdots)\\
+	\end{split}
+	$$
+
+		- 1기의 보수 $$R_{1}$$
+
+		- 2기부터 시작되는 평균할인보수 $$v(R_{2},~R_{3},\cdots)$$
+
+		- 무한반복게임의 평균할인보수 $$v$$는 $$R_{1}$$과 $$v(R_{2},~R_{3},\cdots)$$의 가중평균
+		
+		$$
+		v(R_{1},~R_{2},~R_{3},\cdots)=(1-\delta)R_{1}+\delta v(R_{2},~R_{3},\cdots)
+		$$
+		
+	- 할인인자 $$\delta$$
+
+		- 경기자의 인내력 또는 미래지향적 성향을 의미
+
+		- 할인인자 $$\delta$$가 클수록 지금보다는 미래의 보수에 가중치 $$\rightarrow$$ $$\delta\to1$$이면 현재의 보수에 0의 가중치
+
+		- 할인인자 $$\delta$$가 작을수록 미래보다는 현재의 보수에 가중치	$$\rightarrow$$ $$\delta\to0$$이면 현재의 보수, 즉 눈앞의 이익을 중시	
+		
+### 죄인의 딜레마 
+
+- 신사전략(nice}
+		
+	- 과거 역사가 무엇이건 또는 상대방이 어떤 선택을 했건 무조건 $$C$$를 반복
+
+- 깡패전략(nasty}
+		
+	- 과거 역사가 무엇이건 또는 상대방이 어떤 선택을 했건 무조건 $$D$$를 반복
+		
+- 무자비전략(grim}
+		
+	- 상대방이 지난 기에 $$D$$를 선택했다면 자신은 이번 기부터 무조건 $$D$$를 선택	
+	
+	
+- 무한반복 죄수의 딜레마 내쉬균형
+
+	- 상대방의 반복게임 전략을 주어진 것으로 가정할 때 자신의 전략을 바꿀 유인이 없다.
+
+	- 자신의 반복게임 전략을 주어진 것으로 가정할 때 상대방의 전략을 바꿀 유인이 없다.
+
+- 신사전략(nice)
+
+	- 경기자 2의 신사전략을 가정
+
+	- 경기자 1이 신사전략을 고수
+	
+	$$
+	\begin{split}
+	V&=3+3\delta+3\delta^{2}+\cdots=\frac{3}{1-\delta}\\
+	v&=(1-\delta)V=3\\
+	\end{split}
+	$$
+	
+	- 경기자 1이 깡패전략으로 변경
+	
+	$$
+	\begin{split}
+	V&=4+4\delta+4\delta^{2}+\cdots=\frac{4}{1-\delta}\\
+	v&=(1-\delta)V=4\\
+	\end{split}
+	$$
+	
+	![예시표](/images/Lec_9_2_1.png)
+	
+	- 신사전략에서 깡패전략으로 바꿀 유인이 있기에 (신사전략, 신사전략)은 내쉬균형이 아니다.
+	
+- 깡패전략(nasty)
+
+	- 경기자 2의 깡패전략을 가정
+
+	- 경기자 1이 깡패전략을 고수
+	
+	$$
+	\begin{split}
+	V&=1+1\delta+1\delta^{2}+\cdots=\frac{1}{1-\delta}\\
+	v&=(1-\delta)V=1\\
+	\end{split}
+	$$
+	
+	- 경기자 1이 신사전략으로 변경
+	
+	$$
+	\begin{split}
+	V&=0+0\delta+0\delta^{2}+\cdots=\frac{0}{1-\delta}\\
+	v&=(1-\delta)V=0\\
+	\end{split}
+	$$
+	
+	![예시표](/images/Lec_9_2_1.png)
+	
+	- 깡패전략에서 신사전략으로 바꿀 유인이 없기에 (깡패전략, 깡패전략)은 내쉬균형이다.
+
+- 무자비전략(grim)
+
+	- 경기자 2의 무자비전략을 가정
+
+	- 경기자 2는 1기에 $$C$$를 선택하고 있다고 가정
+
+	- 경기자 1이 $$C$$를 선택
+	
+	$$
+	\begin{split}
+	V&=3+3\delta+3\delta^{2}+\cdots=\frac{3}{1-\delta}\\
+	v_{C}&=(1-\delta)V=3\\
+	\end{split}
+	$$
+
+	- 경기자 1이 $$D$$를 선택
+	
+	$$
+	\begin{split}
+	V&=4+1\delta+1\delta^{2}+\cdots=4+\delta\frac{1}{1-\delta}\\
+	v_{D}&=(1-\delta)V=(1-\delta)(4)+\delta(1)\\
+	\end{split}
+	$$
+	
+	![예시표](/images/Lec_9_2_1.png)
+	
+	- 모든 경기자 $$v_{C}\ge v_{D}~\rightarrow~\delta\ge \dfrac{1}{3}$$일 때, (무자비전략, 무자비전략)은 내쉬균형이다.
+	
+## 정리하기
+
+- 일회게임 G가 유일한 내쉬균형을 갖는다면, 게임 G의 $$T$$회 유한반복게임에는 유일한 하위게임완전균형이 존재한다.즉, 모든 기에 일회게임 G의 내쉬균형이 단순 되풀이된다.
+		
+- 무한반복게임은 신사전략, 깡패전략, 무자비전략 등 반복게임 전략이 있으며, 할인인자에 따라 무자비전략은 내쉬균형이 될 수 있다.

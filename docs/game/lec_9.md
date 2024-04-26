@@ -139,24 +139,24 @@ nav_order: 9
 	
 	
 	$$\left(\frac{1}{3}\text{가위}+\frac{1}{3}\text{바위}+\frac{1}{3}\text{보},~\frac{1}{3}\text{가위}+\frac{1}{3}\text{바위}+\frac{1}{3}\text{보}\right)$$
-
- ![예시표](/images/Lec_9_1_1.png)
+	
+	![예시표](/images/Lec_9_1_1.png)
  
    - 1기 단계 게임의 역사는 각 경기자의  비균형 전략 (바위, 가위)
 
    - 2기 단계 게임 내쉬균형은 혼합전략 내쉬균형으로 순수혼합전략 내쉬균형이다.
 	
 	$$\left(\frac{1}{3}\text{가위}+\frac{1}{3}\text{바위}+\frac{1}{3}\text{보},~\frac{1}{3}\text{가위}+\frac{1}{3}\text{바위}+\frac{1}{3}\text{보}\right)$$
-
- ![예시표](/images/Lec_9_1_2.png)
+	
+	![예시표](/images/Lec_9_1_2.png)
 
    - 1기 단계 게임의 역사는 각 경기자의  비균형 전략 (가위, 바위)
 
    - 2기 단계 게임 내쉬균형은 혼합전략 내쉬균형으로 순수혼합전략 내쉬균형이다.
 
 	$$\left(\frac{1}{3}\text{가위}+\frac{1}{3}\text{바위}+\frac{1}{3}\text{보},~\frac{1}{3}\text{가위}+\frac{1}{3}\text{바위}+\frac{1}{3}\text{보}\right)$$
-
- ![예시표](/images/Lec_9_1_3.png)
+	
+	![예시표](/images/Lec_9_1_3.png)
  
 
 - 가위-바위-보 게임의 $$T$$회 반복

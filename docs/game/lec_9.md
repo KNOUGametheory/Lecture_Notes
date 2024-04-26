@@ -387,6 +387,7 @@ nav_order: 9
 	&=(1-\delta)R_{1}+\delta v(R_{2},~R_{3},\cdots)\\
 	\end{split}
 	$$
+	
 		- 1기의 보수 $$R_{1}$$
 		
 		- 2기부터 시작되는 평균할인보수 $$v(R_{2},~R_{3},\cdots)$$

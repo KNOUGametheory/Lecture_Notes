@@ -378,22 +378,22 @@ nav_order: 9
 	
 	- 무한반복게임의 평균할인보수 $$v$$
 	
-	$$
-	\begin{split}
-	v(R_{1},~R_{2},~R_{3},\cdots)&=(1-\delta)\sum_{t=1}^{\infty}\delta^{t-1} R_{t}\\
-	&=(1-\delta)(R_{1}+\delta R_{2}+\delta^{2} R_{3}+\delta^{3} R_{4}+\cdots)\\
-	&=(1-\delta)R_{1}+(1-\delta)(\delta R_{2}+\delta^{2} R_{3}+\delta^{3} R_{4}+\cdots)\\
-	&=(1-\delta)R_{1}+\delta (1-\delta)(R_{2}+\delta R_{3}+\delta^{2} R_{4}+\cdots)\\
-	&=(1-\delta)R_{1}+\delta v(R_{2},~R_{3},\cdots)\\
-	\end{split}
-	$$
+		- 무한반복게임의 평균할인보수 $$v$$는 $$R_{1}$$과 $$v(R_{2},~R_{3},\cdots)$$의 가중평균
+	
+		$$
+		\begin{split}
+		v(R_{1},~R_{2},~R_{3},\cdots)&=(1-\delta)\sum_{t=1}^{\infty}\delta^{t-1} R_{t}\\
+		&=(1-\delta)(R_{1}+\delta R_{2}+\delta^{2} R_{3}+\delta^{3} R_{4}+\cdots)\\
+		&=(1-\delta)R_{1}+(1-\delta)(\delta R_{2}+\delta^{2} R_{3}+\delta^{3} R_{4}+\cdots)\\
+		&=(1-\delta)R_{1}+\delta (1-\delta)(R_{2}+\delta R_{3}+\delta^{2} R_{4}+\cdots)\\
+		&=(1-\delta)R_{1}+\delta v(R_{2},~R_{3},\cdots)\\
+		\end{split}
+		$$
 	
 		- 1기의 보수 $$R_{1}$$
 
 		- 2기부터 시작되는 평균할인보수 $$v(R_{2},~R_{3},\cdots)$$
-
-		- 무한반복게임의 평균할인보수 $$v$$는 $$R_{1}$$과 $$v(R_{2},~R_{3},\cdots)$$의 가중평균
-
+		
 		$$
 		v(R_{1},~R_{2},~R_{3},\cdots)=(1-\delta)R_{1}+\delta v(R_{2},~R_{3},\cdots)
 		$$

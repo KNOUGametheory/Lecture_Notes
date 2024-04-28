@@ -322,7 +322,7 @@ $$
 
 	$$
 	\begin{split}
-	&\text{판매자의 기대수익}\\=&[\text{$n$명 또는 $(n-1)$명의 평가가치가 0일 확률}]\times0\\&\phantom{~~~~~~~~~~}+[\text{최소한 2명 이상의 평가가치가 $V$일 확률}]\times V\\
+	&\text{판매자의 기대수익}\\=&[\text{$n$명 또는 $(n-1)$명의 평가가치가 0일 확률}]\times0+[\text{최소한 2명 이상의 평가가치가 $V$일 확률}]\times V\\
 	=&\left[1-\frac{n+1}{2^{n}} \right]\times V
 	\end{split}
 	$$

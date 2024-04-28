@@ -274,7 +274,7 @@ nav_order: 12
 
 $$
 \begin{split}
-=&[\text{상대방의 가치가 0일 확률}]\times(V-[\text{지불가격}])\\&\phantom{~~~~~~~~~~}+[\text{상대방의 가치가 $V$일 확률}]\times[\text{추첨당첨 확률}]\times(V-[\text{지불가격}])\\
+=&[\text{상대방의 가치가 0일 확률}]\times(V-[\text{지불가격}])+[\text{상대방의 가치가 $V$일 확률}]\times[\text{추첨당첨 확률}]\times(V-[\text{지불가격}])\\
 =&\frac{1}{2}\times(V-0)+\frac{1}{2}\times\frac{1}{2}\times(V-V)\\
 =&\frac{V}{2}
 \end{split}
@@ -316,9 +316,9 @@ $$
 		
 	- 판매자의 기대수익
 
-	- $$n$$명의 평가가치가 0일 확률 $$\dfrac{1}{2^{n}}$ $$\rightarrow$$$\because~{n \choose 0}(\frac{1}{2})^{n}(\frac{1}{2})^{0}$$
+	- $$n$$명의 평가가치가 0일 확률 $$\dfrac{1}{2^{n}}$$ $$\rightarrow$$ $$\because~{n \choose 0}(\frac{1}{2})^{n}(\frac{1}{2})^{0}$$
 		
-	- $(n-1)$명의 평가가치가 0일 확률 $$\dfrac{n}{2^{n}}$ $$\rightarrow$$$\because~{n \choose 1}(\frac{1}{2})^{n-1}(\frac{1}{2})^{1}$$
+	- $$(n-1)$$명의 평가가치가 0일 확률 $$\dfrac{n}{2^{n}}$$ $$\rightarrow$$ $$\because~{n \choose 1}(\frac{1}{2})^{n-1}(\frac{1}{2})^{1}$$
 
 	$$
 	\begin{split}
@@ -359,7 +359,7 @@ $$
 
 	- 고평가 구매자 입장에서 주관적 가치가 $$V$$인 구매자가 $b$보다 작거나 같은 액수의 입찰가격을 선택하는 확률 $$G(b)$$
 
-	- 입찰가격 $b$는 최소 0에서 최고 $$\bar{b}$$에서 연속적으로 분포
+	- 입찰가격 $$b$$는 최소 0에서 최고 $$\bar{b}$$에서 연속적으로 분포
 
 	- 누적확률분포 $$G(0)=0$$, $$G(\bar{b})=1$$
 

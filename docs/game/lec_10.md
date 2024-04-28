@@ -268,7 +268,7 @@ $$T(81)>R(72)>P(64)>S(54)$$
 	\begin{split}
 	V_{C}&=72+72\delta+72\delta^{2}+72\delta^{3}+\cdots\\
 	V_{D}&=81+54\delta+81\delta^{2}+54\delta^{3}+\cdots\\
-	net=V_{C}-V_{D}&=9+(-18)\delta+9\delta^{2}+(-18)\delta^{3}+\cdots\\
+	net=V_{C}-V_{D}&=-9+18\delta+(-9)\delta^{2}+18\delta^{3}+\cdots\\
 	\end{split}
 	$$
 

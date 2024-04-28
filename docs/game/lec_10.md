@@ -268,10 +268,269 @@ $$T(81)>R(72)>P(64)>S(54)$$
 	\begin{split}
 	V_{C}&=72+72\delta+72\delta^{2}+72\delta^{3}+\cdots\\
 	V_{D}&=81+54\delta+81\delta^{2}+54\delta^{3}+\cdots\\
-	net=V_{C}-V_{D}&=-9+18\delta+(-9)\delta^{2}+18\delta^{3}+\cdots\\
+	net=V_{C}-V_{D}&=(-9)+18\delta+(-9)\delta^{2}+18\delta^{3}+\cdots\\
 	\end{split}
 	$$
 
 	- 모든 경기자가 $$9+(-18)\delta>0$$, 순현재가치가 0보다 크면 배신, 즉  $$\delta<\dfrac{1}{2}$$이면 팃포탯(tit-for-tat) 전략으로 대응하지 않는다.
 
 	- 모든 경기자가 $$9+(-18)\delta\le 0$$, 순현재가치가 0보다 작으면 협조, 즉  $$\delta\ge\dfrac{1}{2}$$이면 팃포탯(tit-for-tat) 전략으로 대응하므로 팃포탯(tit-for-tat)은 균형전략이다.
+	
+	
+## 가격 카르텔
+
+- 핵심만 쏙쏙!
+
+    {: .note}
+	> - 다음 문제에 답을 할 수 있다.
+	>
+	> 	- 현실 세계의 전략적 상황 $$\rightarrow$$ 반복적 상호작용 $$\rightarrow$$ 반복게임  
+	>
+	> 	- 합리적 경기자들은 반복되는 상황에서 어떤 전략을 선택하는가?
+	>
+	>	- 반복되는 가격 경쟁 시 각 기업들은 어떤 선택을 하는가?
+	>
+	> - 다음 문제를 생각하자.
+	>
+	> 	- 시장수요와 각 기업의 한계비용이 주어지면 각 기업의 전략을 파악해야 한다.
+	>
+	> 	- 담합의 이득은 무엇이며, 배신으로 말미암아 어떤 이득과 손실이 발생하지 파악할 수 있다.
+	
+### 가격 카르텔
+
+- 가격 담합 
+
+- 담합의 협조와 배신에 따른 보수
+
+- 죄인의 딜레마
+
+	- Temptation 
+
+	- Reward
+
+	- Punishment
+
+	- Sucker
+	
+	![예시표](/images/Lec_10_1_1.png)
+	
+### Bertrand 모형
+
+- 각 기업의 수요함수 
+
+$$Q_{i}=20-P_{i}+\frac{2}{3}P_{j}$$
+
+- 기업 1의 가걱 $$P_{1}$$, 기업 2의 가격 $$P_{2}$$ 
+
+- 각 기업의 고정비용과 한계비용은 모두 0
+
+- 각 기업의 이윤 구조
+
+$$\pi_{i}(P_{i},~P_{j})=(P_{i}-0)(20-P_{i}+\frac{2}{3}P_{j})$$
+
+- 각 기업의 이윤극대화 조건
+
+	- 1계조건과 2계조건
+	$$(F.O.C)~~~~\frac{\partial \pi_{i}}{\partial P_{i}}=0~~~~~~~
+	(S.O.C)~~~~\frac{\partial^{2} \pi_{i}}{\partial P_{i}^{2}}<0$$
+
+- Bertrand 모형 이윤극대화 조건
+
+	- 1계조건과 2계조건
+		
+	$$
+	\begin{split}
+	(F.O.C)~~~~\frac{\partial \pi_{i}}{\partial P_{i}}&=20-2P_{i}+\frac{2}{3}P_{j}=0\\
+	P_{i}&=\frac{20+\frac{2}{3}P_{j}}{2}\\
+	P_{i}&=15~~~~~for~i=1,~2\\
+	(S.O.C)~~~~\frac{\partial^{2} \pi_{i}}{\partial P_{i}^{2}}&<0\\
+	\end{split}
+	$$
+
+- 시장균형가격 $$\rightarrow$$ $$P=20$$
+
+- 각 기업의 이윤 $$\rightarrow$$ $$\pi_{i}^{P}=225$$ $$\because P_{i}Q_{i}=15\times15=225$$
+
+$$T>R>{\color{blue}Punishment}>S$$
+
+### 담합의 유인
+
+- 독점의 이윤 구조
+	
+$$
+\begin{split}
+\pi_{all}(Q_{i},~Q_{j})&=(52-4Q_{i}-4Q_{j})(Q_{i}+Q_{j})\\
+\pi(P_{1},~P_{2})&=P_{1}(20-P_{1}+\frac{2}{3}P_{2})+P_{2}(20-P_{2}+\frac{2}{3}P_{1})
+\end{split}
+$$
+
+- 이윤극대화 조건
+
+	- 1계조건과 2계조건
+		
+	$$
+	\begin{split}
+	(F.O.C)~~~~\frac{\partial \pi}{\partial P_{1}}&=20-2P_{1}+\frac{4}{3}P_{2}=0~~~~~
+	and~~~~~\frac{\partial \pi}{\partial P_{2}}=20-2P_{2}+\frac{4}{3}P_{1}=0\\
+	P_{1}=P_{2}&=30~~~~~Q_{1}=10,~~Q_{2}=10\\
+	(S.O.C)~~~~\pi_{11}&<0,~~\pi_{22}<0,~~\pi_{11}\pi_{22}-\pi_{12}^{2}>0
+	\end{split}
+	$$
+
+- 각 기업의 이윤 $$\rightarrow$$ $$\pi_{i}^{R}=300$$
+
+$$T>{\color{blue}Reward}>P>S$$
+
+### 담합의 배신 유인
+
+- Bertrand 모형 1계조건
+		
+	$$
+	\begin{split}
+	(F.O.C)~~~~P_{i}&=\frac{20+\frac{2}{3}P_{j}}{2}\\
+	\end{split}
+	$$
+
+- 상대방이 협조 $$P_{j}=30$$이라면 자신은 $$P_{i}=20$$
+
+- 배신 기업의 이윤 $$\rightarrow$$ $$\pi_{i}^{T}=400$ $$\because Q_{i}=20-P_{i}+\frac{2}{3}P_{j}=20$$
+
+$${\color{blue}Temptation}>R>P>S$$
+
+- 배신당한 기업의 이윤 $$\rightarrow$$ $$\pi_{j}^{S}=100$$ $$\because Q_{j}=20-P_{j}+\frac{2}{3}P_{i}=\frac{10}{3}$$
+
+$$T>R>P>{\color{blue}Sucker}$$
+
+### 응용해 봅시다.
+
+- 각 기업의 전략적 상황
+	
+	![예시표](/images/Lec_10_2_3.png)
+	
+	![예시표](/images/Lec_10_2_4.png)
+
+	$$T(400)>R(300)>P(225)>S(100)$$
+
+	- 1회 게임 균형 (배신, 배신)
+
+	- 한반복게임 균형 (배신, 배신)
+	
+- 신사전략(nice)
+
+	- 경기자 2의 신사전략을 가정
+
+	- 경기자 1이 신사전략을 고수
+		
+	$$
+	\begin{split}
+	V&=300+300\delta+300\delta^{2}+\cdots=\frac{300}{1-\delta}\\
+	v&=(1-\delta)V=300\\
+	\end{split}
+	$$
+
+	- 경기자 1이 깡패전략으로 변경
+		
+	$$
+	\begin{split}
+	V&=400+400\delta+400\delta^{2}+\cdots=\frac{400}{1-\delta}\\
+	v&=(1-\delta)V=400\\
+	\end{split}
+	$$
+
+	![예시표](/images/Lec_10_2_4.png)
+
+	- 신사전략에서 깡패전략으로 바꿀 유인이 있기에 (신사전략, 신사전략)은 내쉬균형이 아니다.
+	
+- 깡패전략(nasty)
+
+	- 경기자 2의 깡패전략을 가정
+
+	- 경기자 1이 깡패전략을 고수
+		
+	$$
+	\begin{split}
+	V&=225+225\delta+225\delta^{2}+\cdots=\frac{225}{1-\delta}\\
+	v&=(1-\delta)V=225\\
+	\end{split}
+	$$
+
+	- 경기자 1이 신사전략으로 변경
+		
+	$$
+	\begin{split}
+	V&=100+100\delta+100\delta^{2}+\cdots=\frac{100}{1-\delta}\\
+	v&=(1-\delta)V=100\\
+	\end{split}
+	$$
+
+	![예시표](/images/Lec_10_2_4.png)
+
+	- 깡패전략에서 신사전략으로 바꿀 유인이 없기에 (깡패전략, 깡패전략)은 내쉬균형이다.
+	
+- 무자비전략(grim)
+
+	- 경기자 2의 무자비전략을 가정
+
+	- 경기자 2는 1기에 $$C$$를 선택하고 있다고 가정
+
+	- 경기자 1이 $$C$$를 선택
+		
+	$$
+	\begin{split}
+	V&=300+300\delta+300\delta^{2}+\cdots=\frac{300}{1-\delta}\\
+	v_{C}&=(1-\delta)V=300\\
+	\end{split}
+	$$
+
+	- 경기자 1이 $$D$$를 선택
+		
+	$$
+	\begin{split}
+	V&=400+225\delta+225\delta^{2}+\cdots=400+\delta\frac{225}{1-\delta}\\
+	v_{D}&=(1-\delta)V=(1-\delta)(400)+\delta(225)\\
+	\end{split}
+	$$
+
+	![예시표](/images/Lec_10_2_4.png)
+
+	- 모든 경기자에 대해 $$v_{C}\ge v_{D}~\rightarrow~\delta\ge \dfrac{4}{7}$$일 때, (무자비전략, 무자비전략)은 내쉬균형이다.
+	
+- 팃포탯(tit-for-tat) 전략
+
+	- 경기자 2의 팃포탯(tit-for-tat) 전략을 가정
+
+	- 경기자 2는 1기에 $$C$$를 선택하고 있다고 가정
+
+	- 경기자 1이 $$C$$를 선택
+		
+	$$
+	\begin{split}
+	V&=300+300\delta+300\delta^{2}+\cdots=\frac{300}{1-\delta}\\
+	v_{C}&=(1-\delta)V=300\\
+	\end{split}
+	$$
+
+	- 경기자 1이 $$D$$를 선택
+		
+	$$
+	\begin{split}
+	V&=400+100\delta+400\delta^{2}+100\delta^{3}+\cdots=\frac{400}{1-\delta^{2}}+\delta\frac{100}{1-\delta^{2}}\\
+	v_{D}&=(1-\delta)V=\frac{400}{1+\delta}+\delta\frac{100}{1+\delta}\\
+	\end{split}
+	$$
+
+	![예시표](/images/Lec_10_2_4.png)
+	
+	- 경기자 1이 $$D$$를 선택할 때의 순이득
+			
+	$$
+	\begin{split}
+	V_{C}&=300+300\delta+300\delta^{2}+300\delta^{3}+\cdots\\
+	V_{D}&=400+100\delta+400\delta^{2}+100\delta^{3}+\cdots\\
+	net=V_{C}-V_{D}&=100+(-200)\delta+100\delta^{2}+(-200)\delta^{3}+\cdots\\
+	\end{split}
+	$$
+
+	- 모든 경기자가 $$100+(-200)\delta>0$$, 순현재가치가 0보다 크면 배신, 즉  $$\delta<\dfrac{1}{2}$$이면 팃포탯(tit-for-tat) 전략으로 대응하지 않는다.
+
+	- 모든 경기자가 $$100+(-200)\delta\le 0$$, 순현재가치가 0보다 작으면 협조, 즉  $$\delta\ge\dfrac{1}{2}$$이면 팃포탯(tit-for-tat) 전략으로 대응하므로 팃포탯(tit-for-tat)은 균형전략이다.

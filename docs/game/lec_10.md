@@ -404,12 +404,12 @@ $$T>R>P>{\color{blue}Sucker}$$
 ### 응용해 봅시다.
 
 - 각 기업의 전략적 상황
-	
-	![예시표](/images/Lec_10_2_3.png)
 
-	![예시표](/images/Lec_10_2_4.png)
+![예시표](/images/Lec_10_2_3.png)
 
-	$$T(400)>R(300)>P(225)>S(100)$$
+![예시표](/images/Lec_10_2_4.png)
+
+$$T(400)>R(300)>P(225)>S(100)$$
 
 - 균형
 
@@ -439,7 +439,7 @@ $$T>R>P>{\color{blue}Sucker}$$
 	\end{split}
 	$$
 
-	![예시표](/images/Lec_10_2_4.png)
+ ![예시표](/images/Lec_10_2_4.png)
 
 	- 신사전략에서 깡패전략으로 바꿀 유인이 있기에 (신사전략, 신사전략)은 내쉬균형이 아니다.
 	
@@ -464,8 +464,8 @@ $$T>R>P>{\color{blue}Sucker}$$
 	v&=(1-\delta)V=100\\
 	\end{split}
 	$$
-
-	![예시표](/images/Lec_10_2_4.png)
+	
+		![예시표](/images/Lec_10_2_4.png)
 
 	- 깡패전략에서 신사전략으로 바꿀 유인이 없기에 (깡패전략, 깡패전략)은 내쉬균형이다.
 	
@@ -492,8 +492,8 @@ $$T>R>P>{\color{blue}Sucker}$$
 	v_{D}&=(1-\delta)V=(1-\delta)(400)+\delta(225)\\
 	\end{split}
 	$$
-
-	![예시표](/images/Lec_10_2_4.png)
+	
+		![예시표](/images/Lec_10_2_4.png)
 
 	- 모든 경기자에 대해 $$v_{C}\ge v_{D}~\rightarrow~\delta\ge \dfrac{4}{7}$$일 때, (무자비전략, 무자비전략)은 내쉬균형이다.
 	
@@ -520,8 +520,8 @@ $$T>R>P>{\color{blue}Sucker}$$
 	v_{D}&=(1-\delta)V=\frac{400}{1+\delta}+\delta\frac{100}{1+\delta}\\
 	\end{split}
 	$$
-
-	![예시표](/images/Lec_10_2_4.png)
+	
+		![예시표](/images/Lec_10_2_4.png)
 	
 	- 경기자 1이 $$D$$를 선택할 때의 순이득
 			

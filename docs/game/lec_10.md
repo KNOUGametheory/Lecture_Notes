@@ -262,16 +262,16 @@ $$T(81)>R(72)>P(64)>S(54)$$
 
 	![예시표](/images/Lec_10_1_4.png)
 	
-		- 경기자 1이 $$D$$를 선택할 때의 순이득
+	- 경기자 1이 $$D$$를 선택할 때의 순이득
 			
-		$$
-		\begin{split}
-		V_{C}&=72+72\delta+72\delta^{2}+72\delta^{3}+\cdots\\
-		V_{D}&=81+54\delta+81\delta^{2}+54\delta^{3}+\cdots\\
-		net=V_{C}-V_{D}&=9+(-18)\delta+9\delta^{2}+(-18)\delta^{3}+\cdots\\
-		\end{split}
-		$$
+	$$
+	\begin{split}
+	V_{C}&=72+72\delta+72\delta^{2}+72\delta^{3}+\cdots\\
+	V_{D}&=81+54\delta+81\delta^{2}+54\delta^{3}+\cdots\\
+	net=V_{C}-V_{D}&=9+(-18)\delta+9\delta^{2}+(-18)\delta^{3}+\cdots\\
+	\end{split}
+	$$
 
-- 모든 경기자가 $$9+(-18)\delta>0$$, 순현재가치가 0보다 크면 배신, 즉  $$\delta<\dfrac{1}{2}$$이면 팃포탯(tit-for-tat) 전략으로 대응하지 않는다.
+	- 모든 경기자가 $$9+(-18)\delta>0$$, 순현재가치가 0보다 크면 배신, 즉  $$\delta<\dfrac{1}{2}$$이면 팃포탯(tit-for-tat) 전략으로 대응하지 않는다.
 
-- 모든 경기자가 $$9+(-18)\delta\le 0$$, 순현재가치가 0보다 작으면 협조, 즉  $$\delta\ge\dfrac{1}{2}$$이면 팃포탯(tit-for-tat) 전략으로 대응하므로 팃포탯(tit-for-tat)은 균형전략이다.
+	- 모든 경기자가 $$9+(-18)\delta\le 0$$, 순현재가치가 0보다 작으면 협조, 즉  $$\delta\ge\dfrac{1}{2}$$이면 팃포탯(tit-for-tat) 전략으로 대응하므로 팃포탯(tit-for-tat)은 균형전략이다.

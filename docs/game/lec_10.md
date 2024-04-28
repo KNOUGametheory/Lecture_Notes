@@ -94,7 +94,9 @@ nav_order: 10
 		
 		- 각 기업의 이윤 $$\rightarrow$$ $$\pi_{i}^{P}=64$$ $$\because P=52-4Q_{1}-4Q_{2}=20,~~MC=4$$
 		
-	-(담합의 유인) 두 기업이 담합하여 마치 하나의 독점기업처럼 행동한다면?
+### 담합의 유인 
+
+- 두 기업이 담합하여 마치 하나의 독점기업처럼 행동한다면?
 	
 	$$T>{\color{blue}Reward}>P>S$$
 	
@@ -102,36 +104,36 @@ nav_order: 10
 	\pi(Q)=(52-4Q)Q-4Q
 	$$
 		
-		- 이윤극대화 조건
+- 이윤극대화 조건
 
-		- 1계조건과 2계조건
+	- 1계조건과 2계조건
 		
-		$$
-		\begin{split}
-		(F.O.C)~~~~\frac{\partial \pi}{\partial Q}&=52-8Q-4=0\\
-		Q&=6~~~~~Q_{1}=3,~~Q_{2}=3\\
-		(S.O.C)~~~~\frac{\partial^{2} \pi}{\partial Q^{2}}&<0\\
-		\end{split}
-		$$
+	$$
+	\begin{split}
+	(F.O.C)~~~~\frac{\partial \pi}{\partial Q}&=52-8Q-4=0\\
+	Q&=6~~~~~Q_{1}=3,~~Q_{2}=3\\
+	(S.O.C)~~~~\frac{\partial^{2} \pi}{\partial Q^{2}}&<0\\
+	\end{split}
+	$$
 
-		- 각 기업의 이윤 $$\rightarrow$$ $$\pi_{i}^{R}=72$$ $$\because P=52-4Q_{1}-4Q_{2}=28,~~MC=4$$
+	- 각 기업의 이윤 $$\rightarrow$$ $$\pi_{i}^{R}=72$$ $$\because P=52-4Q_{1}-4Q_{2}=28,~~MC=4$$
 
-	- 담합의 배신 유인
+### 담합의 배신 유인
 
-		- Cournot 모형 1계조건
+- Cournot 모형 1계조건
 		
-		$$
-		\begin{split}
-		(F.O.C)~~~~Q_{i}&=\frac{12-Q_{j}}{2}\\
-		\end{split}
-		$$
+$$
+\begin{split}
+(F.O.C)~~~~Q_{i}&=\frac{12-Q_{j}}{2}\\
+\end{split}
+$$
 		
-		- 상대방이 협조하여 $$Q_{j}=3$$을 생산할 때,  자신의 최적량은 $$Q_{i}=\dfrac{9}{2}$$
+- 상대방이 협조하여 $$Q_{j}=3$$을 생산할 때,  자신의 최적량은 $$Q_{i}=\dfrac{9}{2}$$
 
-		- 배신 기업의 이윤 $$\rightarrow$$ $$\pi_{i}^{T}=81$$ $$\because P=52-4Q_{1}-4Q_{2}=22,~~MC=4$$
+- 배신 기업의 이윤 $$\rightarrow$$ $$\pi_{i}^{T}=81$$ $$\because P=52-4Q_{1}-4Q_{2}=22,~~MC=4$$
 		
-		$${\color{blue}Temptation}>R>P>S$$
+$${\color{blue}Temptation}>R>P>S$$
 		
-		- 배신당한 기업의 이윤 $$\rightarrow$$ $$\pi_{i}^{S}=54$$ $$\because P=52-4Q_{1}-4Q_{2}=22,~~MC=4$$
+- 배신당한 기업의 이윤 $$\rightarrow$$ $$\pi_{i}^{S}=54$$ $$\because P=52-4Q_{1}-4Q_{2}=22,~~MC=4$$
 		
-		$$T>R>P>{\color{blue}Sucker}$$
+$$T>R>P>{\color{blue}Sucker}$$

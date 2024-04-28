@@ -278,7 +278,6 @@ nav_order: 11
 		\text{(경기자 2가 기여할 확률)}\times 1+\text{(경기자 2가 무임승차할 확률)}\times 0=E_{1}^{\text{무임승차}}(c_{2} < c_{2}^{*})
 		$$
 		
-		\item
 	- 소비자 1의 입장에서 생각하자.
 
 		- 소비자 2의 유형 $$c_{2}$$는 균등분포를 따르는 확률변수
@@ -304,12 +303,12 @@ nav_order: 11
 		- $$E_{1}^{\text{기여}}>E_{1}^{\text{무임승차}}$$ $$\rightarrow$$ 기여
 		
 		$$1-c_{1}>\frac{c_{2}^{*}+\beta}{1+\alpha+\beta}~~~~\text{또는}~~~~
-		c_{1}<\frac{1+\alpha-c_{2}^{*}}{1+\alpha+\beta}~~~~~~~~\text{\dingto}~~~~\text{기여}$$
+		c_{1}<\frac{1+\alpha-c_{2}^{*}}{1+\alpha+\beta}~~~~~~~~\rightarrow~~~~\text{기여}$$
 		
 		- $$E_{1}^{\text{기여}}<E_{1}^{\text{무임승차}}$$ $$\rightarrow$$ 무임승차 시도
 		
 		$$1-c_{1}<\frac{c_{2}^{*}+\beta}{1+\alpha+\beta}~~~~\text{또는}~~~~
-		c_{1}>\frac{1+\alpha-c_{2}^{*}}{1+\alpha+\beta}~~~~~~~~\text{\dingto}~~~~\text{무임승차 시도}$$
+		c_{1}>\frac{1+\alpha-c_{2}^{*}}{1+\alpha+\beta}~~~~~~~~\rightarrow~~~~\text{무임승차 시도}$$
 		
 		- 소비자 1의 전략이 임계전환성을 갖기 위한 조건
 		
@@ -330,7 +329,7 @@ nav_order: 11
 	-개별소비자
 	
 		- 자신의 기여비용이 임계치 이하이면 기여
-	
+
 		- 자신의 기여비용이 임계치를 초과하면 무임승차 시도
 	
 	- 베이지언 내쉬균형

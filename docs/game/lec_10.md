@@ -181,3 +181,97 @@ $$T(81)>R(72)>P(64)>S(54)$$
 	![예시표](/images/Lec_10_1_4.png)
 
 	- 신사전략에서 깡패전략으로 바꿀 유인이 있기에 (신사전략, 신사전략)은 내쉬균형이 아니다.
+
+- 깡패전략(nasty) 
+
+	- 경기자 2의 깡패전략을 가정
+
+	- 경기자 1이 깡패전략을 고수
+		
+	$$
+	\begin{split}
+	V&=64+64\delta+64\delta^{2}+\cdots=\frac{64}{1-\delta}\\
+	v&=(1-\delta)V=64\\
+	\end{split}
+	$$
+
+	- 경기자 1이 신사전략으로 변경
+		
+	$$
+	\begin{split}
+	V&=54+54\delta+54\delta^{2}+\cdots=\frac{54}{1-\delta}\\
+	v&=(1-\delta)V=54\\
+	\end{split}
+	$$
+
+	![예시표](/images/Lec_10_1_4.png)
+
+	- 깡패전략에서 신사전략으로 바꿀 유인이 없기에 (깡패전략, 깡패전략)은 내쉬균형이다.
+	
+- 무자비전략(grim)
+
+	- 경기자 2의 무자비전략을 가정
+
+	- 경기자 2는 1기에 $$C$$를 선택하고 있다고 가정
+
+	- 경기자 1이 $$C$$를 선택
+		
+	$$
+	\begin{split}
+	V&=72+72\delta+72\delta^{2}+\cdots=\frac{72}{1-\delta}\\
+	v_{C}&=(1-\delta)V=72\\
+	\end{split}
+	$$
+
+	- 경기자 1이 $$D$$를 선택
+		
+	$$
+	\begin{split}
+	V&=81+64\delta+64\delta^{2}+\cdots=81+\delta\frac{64}{1-\delta}\\
+	v_{D}&=(1-\delta)V=(1-\delta)(81)+\delta(64)\\
+	\end{split}
+	$$
+	
+	![예시표](/images/Lec_10_1_4.png)
+
+	- 모든 경기자에 대해 $$v_{C}\ge v_{D}~\rightarrow~\delta\ge \dfrac{9}{17}$$일 때, (무자비전략, 무자비전략)은 내쉬균형이다.
+	
+- 팃포탯(tit-for-tat) 전략 
+
+	- 경기자 2의 팃포탯(tit-for-tat) 전략을 가정
+
+	- 경기자 2는 1기에 $$C$$를 선택하고 있다고 가정
+
+	- 경기자 1이 $$C$$를 선택
+		
+	$$
+	\begin{split}
+	V&=72+72\delta+72\delta^{2}+\cdots=\frac{72}{1-\delta}\\
+	v_{C}&=(1-\delta)V=72\\
+	\end{split}
+	$$
+	
+	- 경기자 1이 $$D$$를 선택
+		
+	$$
+	\begin{split}
+	V&=81+54\delta+81\delta^{2}+54\delta^{3}+\cdots=\frac{81}{1-\delta^{2}}+\delta\frac{54}{1-\delta^{2}}\\
+	v_{D}&=(1-\delta)V=\frac{81}{1+\delta}+\delta\frac{54}{1+\delta}\\
+	\end{split}
+	$$
+
+	![예시표](/images/Lec_10_1_4.png)
+	
+		- 경기자 1이 $$D$$를 선택할 때의 순이득
+			
+		$$
+		\begin{split}
+		V_{C}&=72+72\delta+72\delta^{2}+72\delta^{3}+\cdots\\
+		V_{D}&=81+54\delta+81\delta^{2}+54\delta^{3}+\cdots\\
+		net=V_{C}-V_{D}&=9+(-18)\delta+9\delta^{2}+(-18)\delta^{3}+\cdots\\
+		\end{split}
+		$$
+
+- 모든 경기자가 $$9+(-18)\delta>0$$, 순현재가치가 0보다 크면 배신, 즉  $$\delta<\dfrac{1}{2}$$이면 팃포탯(tit-for-tat) 전략으로 대응하지 않는다.
+
+- 모든 경기자가 $$9+(-18)\delta\le 0$$, 순현재가치가 0보다 작으면 협조, 즉  $$\delta\ge\dfrac{1}{2}$$이면 팃포탯(tit-for-tat) 전략으로 대응하므로 팃포탯(tit-for-tat)은 균형전략이다.

@@ -54,7 +54,7 @@ nav_order: 13
 
 ### 최후통첩협상
 
-- 최후통첩협상 (ultimatum bargaining)
+- 최후통첩협상(ultimatum bargaining)
 
 	- 경기자 1의 제안 $$\rightarrow$$ $$x$$는 대상물의 비율
 
@@ -70,7 +70,7 @@ nav_order: 13
 	
 	![예시표](/images/Lec_13_g8_1.png)
 
-- 최후통첩협상 (ultimatum bargaining) (내쉬균형)
+- 최후통첩협상(ultimatum bargaining) (내쉬균형)
 
 	- 경기자 1과 2의 전략의 예시 $$\rightarrow$$ 경기자 1과 2는 1/2로 나누는 내쉬균형(1) 존재
 
@@ -86,7 +86,7 @@ nav_order: 13
 		
 		![예시표](/images/Lec_13_g8_1.png)
 		
-- 최후통첩협상 (ultimatum bargaining) (하위게임완전균형)
+- 최후통첩협상(ultimatum bargaining) (하위게임완전균형)
 
 	- 경기자 2의 선택
 
@@ -591,8 +591,7 @@ $$
 
 	- 차가밀봉경매으로 실현된 결과는 Efficiency
 
-	 	- efficient outcome을 보장하는 메커니즘을 Efficient Mechanism
-
+		- efficient outcome을 보장하는 메커니즘을 Efficient Mechanism
 
 	- Vickrey, Clarke, Groves 3인의 이름을 딴 VCG Mechanism은 Efficient mechanism
 

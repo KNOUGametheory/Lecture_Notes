@@ -29,7 +29,7 @@ nav_order: 13
 	>
 	> 	- 최후 통첩협상 게임은 유일한 부분게임 완전균형을 갖는다.
 	>
-	> 	- 협상의 단계가 많아지는 경우, 각 경기자의 보수는 할인인자 $\delta$에 의해 결정된다.
+	> 	- 협상의 단계가 많아지는 경우, 각 경기자의 보수는 할인인자 $$\delta$$에 의해 결정된다.
 	
 - 협상(bargaining)
 
@@ -56,7 +56,7 @@ nav_order: 13
 
 - 최후통첩협상 (ultimatum bargaining)
 
-	- 경기자 1의 제안 $$\rightarrow$$ (x$$는 대상물의 비율
+	- 경기자 1의 제안 $$\rightarrow$$ $$x$$는 대상물의 비율
 
 		- 경기자 2의 수락 $$(x,~1-x)$$
 
@@ -212,7 +212,7 @@ nav_order: 13
 	\left(\frac{1}{1+\delta},~\frac{\delta}{1+\delta}\right)
 	$$
 
-		- $$\delta$$가 0 또는 1인 경우, 강탈이냐? 아니면 1/2씩이냐?
+	- $$\delta$$가 0 또는 1인 경우, 강탈이냐? 아니면 1/2씩이냐?
 
 ## 중재
 
@@ -235,7 +235,7 @@ nav_order: 13
 
 	- 이해당사자들의 첨예한 대립 $$\rightarrow$$ 제삼자의 조정 역할
 
-	- 중개 (mediation}와의 차이 $$\rightarrow$$ 중재자의 조정안 거부 가능성 $$\rightarrow$$ 사전 계약에 의한 이행 강제
+	- 중개 (mediation)와의 차이 $$\rightarrow$$ 중재자의 조정안 거부 가능성 $$\rightarrow$$ 사전 계약에 의한 이행 강제
 
 	- 제삼자에 의한 최종적 조정 $$\rightarrow$$ 전략형게임과 내쉬균형
 
@@ -333,7 +333,7 @@ nav_order: 13
 		
 	$$
 	g<\frac{w_{1}+w_{2}}{2}~~~~\rightarrow~~~~F\left(\frac{w_{1}+w_{2}}{2} \right)
-	~~~~\rightarrow$~~~~
+	~~~~\rightarrow~~~~
 	\text{사용자의 기대임금지급액}~F\left(\dfrac{w_{1}+w_{2}}{2} \right)w_{1}
 	$$
 

@@ -422,4 +422,200 @@ $$
 
 	- 사용자와 근로자의 첨예한 대립으로 이미 9대 9
 
-	- 공익위원들의 역할 중요		
+	- 공익위원들의 역할 중요
+	
+	
+## 메커니즘 디자인
+
+- 핵심만 쏙쏙!
+
+    {: .note}
+	> - 다음 문제에 답을 할 수 있다.
+	>
+	> 	- 사회적으로 최적의 결과를 유도할 수 있는가?
+	>
+	> 	- 주인은 대리인의 행동을 제어할 수 있는가?
+	>
+	> 	- 게임이론을 이용하여 의도하는 결과를 얻을 수 있는가?
+	>
+	> - 다음 문제를 생각하자.
+	>
+	> 	- 메커니즘은 Allocation rule과 Transfer rule로 이루어져 있다.
+	>
+	> 	- 메커니즘 디자이너는 직접보고메커니즘만을 고려하여, 자신이 원하는 수익의 극대화나 파레토 효율적인 결과를 실현시킬 수 있다.
+	
+- 게임이론 학습
+
+	- '주어진' 다양한 게임의 균형 모색 
+
+		- (전략형게임) 내쉬균형
+
+		- (전개형게임) 하위게임완전균형
+
+		- (사적정보) 베이지안내쉬균형
+
+	- 전략적인 상황에서 합리적인 경기자들은 균형전략 실행
+
+		- 균형전략으로 실현되는 결과 존재
+
+	- 바람직하지 않은 게임의 결과 초래 가능
+
+		- 경기자들의 의지와 상관없이 자연스럽게 실현되었을지라도 
+
+	- 사회적으로 바람직한 결과를 얻기 위해 게임을 어떻게 구성할까?
+
+
+- 메커니즘 디자인(Mechanism Design)
+
+	- 주인(principal)과 대리인(agent)의 게임
+
+		- 주인은 정보비보유자(uninformed player}, 대리인은 정보보유자(informed player}
+		
+		- 주인은 어떻게 해야 최선의 결과를 얻을 수 있을까?
+
+	- '주인, 즉 '메커니즘 디자이너'는 게임을 역설계
+
+		- 메커니즘 디자이너는 당연히 일정한 목적을 가지고 게임을 설계하게 됨.
+
+		- Optimality 또는 Pareto Efficiency
+
+	- 만들어지는 게임은 베이지안 게임(Bayesian Game)
+
+- 구성요소
+
+	- 경기자 $$\{1,2,3, \cdots, I \}$$
+
+		- 각각의 경기자 $$i$$는 사적정보, 즉 type $$\theta_{i} \in \Theta_{i}$$ 보유
+
+	- 당연히 메커니즘 디자이너는 각 agent들의 type을 알지 못함.
+	
+- Mechanism
+
+	- 메커니즘은 일종의 'Black box'
+
+	- 메커니즘은 두 개의 함수로 구성 $$\rightarrow$$ 함수 $$a$$와 $$t$$.
+	
+	$$
+	\begin{split}
+	a : &\prod_{i \in I}{\Theta_{i}} \rightarrow X ~~~~~\text{Allocation rule}\\
+	t :  &\prod_{i \in I}{\Theta_{i}} \rightarrow \mathbb{R}^{I}~~~~~ \text{(Money) Transfer rule or Payment Rule}\\
+	\end{split}
+	$$
+
+	- 메커니즘 디자이너는 두개의 규칙(Rule}을 Agent들에게 알려줌.
+	
+		- 자신에게 어떤 보고를 하는냐에 따라 실현될 물리적 결과와 금전의 양을 알려주는 것
+
+	- 메커니즘 디자이너가 설계한 메커니즘 $$\Gamma=(a,t)$$의 발표
+
+		- Bayesian Game 형성
+
+	- 메커니즘$$(a,t)$$이 주어지면, Agent들은 Bayesian Game의 상황에 직면
+
+		- 각각의 type에 대해 어떤 report를 할지를 결정 
+
+	- 메커니즘 디자이너는 게임의 균형과 예상되는 결과 계산
+
+	- 의도에 맞게 메커니즘 $$\Gamma=(a,t)$$을 조정
+	
+		- 예상되는 결과 변경 가능
+		
+- 예제 1
+
+	- '경매(Auction)'도 하나의 메커니즘
+
+	- 경매참여자들은 경매물건에 대해 자신만의 평가가치(valuation} 보유
+
+	- 최고가밀봉경매 (first-price sealed-bid auction}
+
+		- (Allocation rule) 가장 높은 bid를 report한 bidder에게 물건을 준다.
+		
+		$$
+		a : \prod_{i \in I}{\Theta_{i}} \rightarrow X ~~~~~\text{Allocation rule}
+		$$
+
+		- (Transfer rule) Winning bidder의 bid를 받겠다.
+		
+		$$
+		t :  \prod_{i \in I}{\Theta_{i}} \rightarrow \mathbb{R}^{I}~~~~~ \text{(Money) Transfer rule or Payment Rule}
+		$$
+
+- 현시원리(Revelation Principle, Roger B. Myerson(1979, 1981))
+
+	- 목적하는 결과를 유도하는 메커니즘 설계는 굉장히 복잡
+
+		- 모든 메커니즘들 중 원하는 메커니즘의 모색은 모래사장에서 바늘 찾기.
+
+	- 현시원리 (Revelation Principle}는 탐색의 범위를 축소
+
+		- 특정한 메커니즘들만 살펴도 충분
+
+	- 그 메커니즘들은 무엇일까?
+
+	- 유인양립조건(incentive compatibility condition), 직접보고메커니즘 (direct mechanism)
+
+	{: .definition}
+	> - 현시원리
+	>
+	>	- 어떠한 베이즈게임의 어떠한 베이즈내쉬균형도 참여조건과 유인양립조건을 충족하는 직접보고 메커니즘의 베이즈내쉬균형으로 묘사될 수 있다.
+	
+- 직접보고메커니즘(direct mechanism)과 참여조건(participation condition)
+
+	- 직접보고메커니즘은 모든 경기자들이 truth-telling 즉, 내쉬균형대로 행동했을 때, 
+
+		- 메커니즘에 참여하는 것이 그렇지 않을 때 보다 더 큰 기대수익 가능
+
+	- 개인합리성조건 (Individual rationality condition) 또는 참여조건 (participation condition)
+
+- 직접보고메커니즘(direct mechanism)과 유인양립조건(incentive compatibility condition)
+
+	- 미비정보 베이즈게임의 어떠한 베이즈내쉬균형이라도
+		
+		- 적절히 재구성된 새로운 베이즈게임의 베이즈내쉬균형에 의하여 묘사 가능
+
+	- 원래 분석대상이었던 게임이 무엇이었든 상관없이 새로 구성된 게임은 직접보고메커니즘 게임
+
+	- 원래의 균형이 무엇이었든 상관없이, 재구성된 게임으로부터 계산된 새 균형하에서 모든 경기자들은 각자의 유형을 정직하게 보고
+
+		- 유인양립조건
+
+- 예제 2
+
+	- 차가밀봉경매(second-price sealed-bid auction)가 바로 직접보고메커니즘
+
+	- 최고가밀봉경매(first-price sealed-bid auction)와 달리, 차가밀봉경매(second-price sealed-bid auction)에서는 자신의 가치를 그대로 report하는 것이 Nash 균형
+
+		- 약우월 전략
+
+	- 차가밀봉경매(second-price sealed-bid auction)를 Vickrey auction이라고도 부름
+
+	- 차가밀봉경매으로 실현된 결과는 Efficiency
+
+	 	- efficient outcome을 보장하는 메커니즘을 Efficient Mechanism
+
+
+	- Vickrey, Clarke, Groves 3인의 이름을 딴 VCG Mechanism은 Efficient mechanism
+
+### 응용해 봅시다.
+
+- 공공재 건설을 위한 그로브스-레드야드 메커니즘(Groves-Ledyard mechanism)
+
+	- (공공재) 비경합성과 배제불가능성 $$\rightarrow$$ 무임승차
+
+	- 개인이 자신의 평가가치를 거짓으로 보고할 유인
+
+	- (그로브스-레드야드 메커니즘)
+		
+		- 개인의 분담금이 자신의 보고금액과 관계없이 다른 주민들의 보고금액에 의해서만 결정
+
+	- 자신의 보고금액이 작으면 자신의 혜택도 작아지게 설계
+
+	- 자신의 혜택을 정직하게 보고하는 것이 약우월전략
+		
+		- 우월전략 메커니즘(dominant-strategy mechnism)
+		
+## 정리하기
+
+- 게임의 일종인 협상과 중재의 균형을 구할 수 있다.
+
+- 메커니즘이 무엇이고, 현실에서 메커니즘 디자인이 적용된 사례를 말할 수 있다.

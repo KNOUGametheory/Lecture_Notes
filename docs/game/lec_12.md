@@ -30,6 +30,8 @@ nav_order: 12
 	>
 	> 	- 경매에 참여하는 사람은 자신의 가치를 초과하여 입찰하지 않는다.
 	
+### 경매
+	
 - 경매(auction)
 
 	- 헤로도토스 "역사" (The History of Herodotus) $$\rightarrow$$ 고대 바빌로나니아 경매방식의 노예거래 기록
@@ -57,8 +59,10 @@ nav_order: 12
 		- 구매자는 경매를 통하여 가장 낮은 가격을 수취하고자 하는 판매자로부터 구입
 		
 		- 역경매(reverse auction) 또는 조달경매(procurement auction)
-		
-- 경매의 입찰(bidding} 방식
+
+### 경매 입찰방식
+
+- 경매의 입찰(bidding) 방식
 
 	- 공개구두경매(open auction)
 
@@ -95,6 +99,8 @@ nav_order: 12
 		- 낙찰자가 응찰가격 중에서 두 번째로 높은 가격을 지불
 		
 		- A(10), B(8), C(5)인 경우 $$\rightarrow$$ 낙찰자 A는 8을 지불
+
+### 가치
 		
 - 평가가치(valuation)
 
@@ -240,6 +246,8 @@ nav_order: 12
 	<\underbrace{p\times U(m_{0})+(1-p)\times U(m_{1})}_{\text{조건부상품의 기대효용}}
 	$$
 
+### 영국식 공개경매
+
 - 영국식 공개경매
 
 	- 구매희망자의 가치평가에 달할 때까지 경매에 참여
@@ -332,6 +340,8 @@ $$
 	$$
 	\text{판매자의 기대수익}=\left[1-\frac{1}{2^{n}} \right]\times V
 	$$
+
+### 네덜란드식 공개경매
 	
 - 네덜란드식 공개경매
 

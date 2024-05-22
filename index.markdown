@@ -18,15 +18,15 @@ nav_order: 1
 
 ## 강의 홈페이지
 
-이 강의안은 K-MOOC 묶음강좌, [게임이론으로 이해하는 사회 현상: 입문](https://www.kmooc.kr/view/course/series/detail/57){:target="_blank"} 강의를 위해 만들었습니다.
+이 강의안은 K-MOOC 묶음강좌, [게임이론으로 이해하는 사회 현상: 입문](https://www.kmooc.kr/view/course/series/detail/83){:target="_blank"} 강의를 위해 만들었습니다.
 
 K-MOOC 홈페이지에서 수강신청을 하면, 강의 시청과 평가 등의 학습 활동에 따라 이수증을 발급 받을 수 있습니다.
 
 강의 홈페이지는 아래와 같습니다.
 
-- [게임이론을 위한 수학](https://www.kmooc.kr/view/course/detail/10296){:target="_blank"}
-- [게임이론](https://www.kmooc.kr/view/course/detail/10379){:target="_blank"}
-- [넷로고와 파이선을 활용한 게임이론 시뮬레이션](https://www.kmooc.kr/view/course/detail/10298){:target="_blank"}
+- [게임이론을 위한 수학](https://www.kmooc.kr/view/course/detail/12422){:target="_blank"}
+- [게임이론](https://www.kmooc.kr/view/course/detail/12423){:target="_blank"}
+- [넷로고와 파이선을 활용한 게임이론 시뮬레이션](https://www.kmooc.kr/view/course/detail/12424){:target="_blank"}
 
 ## 강의 목표
 

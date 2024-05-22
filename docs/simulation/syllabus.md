@@ -10,7 +10,7 @@ permalink: docs/simulation
 
 ## 강의 홈페이지
 
-K-MOCC, [넷로고와 파이선을 활용한 게임이론 시뮬레이션](https://www.kmooc.kr/view/course/detail/10298){:target="_blank"}
+K-MOCC, [넷로고와 파이선을 활용한 게임이론 시뮬레이션](https://www.kmooc.kr/view/course/detail/12424){:target="_blank"}
 
 ## 강의 목표
 

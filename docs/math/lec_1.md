@@ -290,7 +290,7 @@ nav_order: 1
 
     -  다른 경우에는 진리값이 <span style="color:#FF0000">‘거짓’</span>인 관계
 
-  - 논리합의 표현: $$𝑝 \land 𝑞$$ 또는 “𝑝 and 𝑞”
+  - 논리곱의 표현: $$𝑝 \land 𝑞$$ 또는 “𝑝 and 𝑞”
 
     | $$p$$ | $$q$$  | $$p \land q $$ |
 	| <span style="color:#105AD2">T</span>     | <span style="color:#105AD2">T</span>      | <span style="color:#105AD2">T</span>               |
@@ -316,8 +316,8 @@ nav_order: 1
 
     | $$p$$ | $$q$$  | $$p \oplus q $$ |
 	| <span style="color:#105AD2">T</span>     | <span style="color:#105AD2">T</span>      | <span style="color:#FF0000">F</span>               |
-	| T     | F      | F               |
-	| F     | T      | F               |
+	| T     | F      | T               |
+	| F     | T      | T               |
 	| <span style="color:#FF0000">F</span>     | <span style="color:#FF0000">F</span>      | <span style="color:#FF0000">F</span>               |
 
 

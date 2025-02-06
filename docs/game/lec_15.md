@@ -2,7 +2,7 @@
 layout: default
 title: 보충자료
 parent: 게임이론
-nav_order: 1
+nav_order: 15
 ---
 
 ## 1. 역도함수(Antiderivative)와 적분(Integration)

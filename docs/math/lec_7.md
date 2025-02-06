@@ -1,13 +1,13 @@
 ---
 layout: default
 title: 보충자료
-parent: 게임이론
-nav_order: 15
+parent: 게임이론을 위한 수학
+nav_order: 7
 ---
 
-# 1. 역도함수와 적분
+# 역도함수와 적분
 
-## 1. 역도함수(Antiderivative)
+## 역도함수(Antiderivative)
 
 ### 역도함수의 정의
 

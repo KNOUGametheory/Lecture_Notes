@@ -27,17 +27,17 @@ nav_order: 7
 
 - $$f(x)=3x^{2}$$의 역도함수는?
 
-- 답 : $$F(x) = x^{3} + C$$ 
+    - 답 : $$F(x) = x^{3} + C$$ 
 
 - $$f(x)=2x^{3}$$의 역도함수는?
 
-- 답 : $$F(x) = \dfrac{1}{2}x^{4}+C$$
+    - 답 : $$F(x) = \dfrac{1}{2}x^{4}+C$$
 
 ## 2. 미적분학의 기본정리(The Fundamental Theorem of Calculus)
 
 - 실수집합에서 정의된 함수 $$f$$가 적분가능하다고 하자. 두 실수 $$a < b$$ 가 주어졌을 때, $$F^{\prime} = f$$에 대하여 다음의 등식이 성립한다.
 
-	$$ \int_{a}^{b}{f(x)dx} = F(b) - F(a) $$
+    $$ \int_{a}^{b}{f(x)dx} = F(b) - F(a) $$
 
 ### 예시
 
@@ -73,7 +73,7 @@ nav_order: 7
 
 - 확률변수 $$x$$가 구간 $[a,b]$안에 존재할 확률은 다음과 같이 정의된다.
 
-$$Prob( a \leq x \leq b ) = \int_{a}^{b}{f(x)dx}$$
+    $$Prob( a \leq x \leq b ) = \int_{a}^{b}{f(x)dx}$$
 
 ## 2. 누적분포함수(Cumulative Distribution Function) 
 
@@ -83,7 +83,7 @@ $$Prob( a \leq x \leq b ) = \int_{a}^{b}{f(x)dx}$$
 
 - 위의 PDF와 확률의 정의를 이용하면, $$x$$가 $$0$$보다는 크고 $$b$$보다는 작을 확률은 다음과 같다.
 
-	$$Prob(0 \leq x \leq b) = \int_{0}^{b}{f(x)dx} = \int_{0}^{b}{1 dx} = F(b) - F(0) = b - 0 = b $$
+    $$Prob(0 \leq x \leq b) = \int_{0}^{b}{f(x)dx} = \int_{0}^{b}{1 dx} = F(b) - F(0) = b - 0 = b $$
 
 - 위 계산에서 $$F$$는 $$F(x)=x$$임을 쉽게 확인할 수 있다. 이 $$F$$가 확률변수 $$x$$의 누적분포함수이다.
 
@@ -97,13 +97,12 @@ $$Prob( a \leq x \leq b ) = \int_{a}^{b}{f(x)dx}$$
 
 - 위의 PDF를 이용하면, 연속확률변수 $$x$$에 대한 함수 $$g(x)$$의 기댓값, 평균을 다음과 같이 정의한다.
 
-	$$\mathbb{E}[g(x)] = \int_{a}^{b}{  g(x) f(x) dx    }$$
+    $$\mathbb{E}[g(x)] = \int_{a}^{b}{  g(x) f(x) dx    }$$
 
 - 예를 들어, $$[0,1]$$에서 균등분포를 따르는 $$x$$의 기댓값, 평균은 다음과 같이 계산될 수 있다.
 
-	$$ \int_{0}^{1}{ x f(x) dx}  = \int_{0}^{1}{ x dx} = \dfrac{1}{2}x^{2} \rvert_{0}^{1} = \dfrac{1}{2} - 0 = \dfrac{1}{2} $$
+    $$ \int_{0}^{1}{ x f(x) dx}  = \int_{0}^{1}{ x dx} = \dfrac{1}{2}x^{2} \rvert_{0}^{1} = \dfrac{1}{2} - 0 = \dfrac{1}{2} $$
 
 - 만약 $$[0,1]$$에서 균등분포를 따르는 $$x$$를 두배한 $$2x$$의 기댓값은 다음과 같이 계산될 수 있다.
 
-	$$ \int_{0}^{1}{ 2x f(x) dx}  = \int_{0}^{1}{ 2x dx} = x^{2} \rvert_{0}^{1} = 1 - 0 = 1 $$
- 
+    $$ \int_{0}^{1}{ 2x f(x) dx}  = \int_{0}^{1}{ 2x dx} = x^{2} \rvert_{0}^{1} = 1 - 0 = 1 $$

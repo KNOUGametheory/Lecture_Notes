@@ -33,7 +33,7 @@ nav_order: 7
 
     - 답 : $$F(x) = \dfrac{1}{2}x^{4}+C$$
 
-## 2. 미적분학의 기본정리(The Fundamental Theorem of Calculus)
+## 미적분학의 기본정리(The Fundamental Theorem of Calculus)
 
 - 실수집합에서 정의된 함수 $$f$$가 적분가능하다고 하자. 두 실수 $$a < b$$ 가 주어졌을 때, $$F^{\prime} = f$$에 대하여 다음의 등식이 성립한다.
 
@@ -93,7 +93,7 @@ nav_order: 7
 
 - 위의 계산예시를 통하여, CDF를 미분하면 PDF가 됨을 알수 있다.
 
-## 3. 기댓값(Expectation) 
+## 기댓값(Expectation) 
 
 - 위의 PDF를 이용하면, 연속확률변수 $$x$$에 대한 함수 $$g(x)$$의 기댓값, 평균을 다음과 같이 정의한다.
 

@@ -24,9 +24,9 @@ K-MOOC 홈페이지에서 수강신청을 하면, 강의 시청과 평가 등의
 
 강의 홈페이지는 아래와 같습니다.
 
-- [게임이론을 위한 수학](https://www.kmooc.kr/view/course/detail/12422){:target="_blank"}
-- [게임이론](https://www.kmooc.kr/view/course/detail/12423){:target="_blank"}
-- [넷로고와 파이선을 활용한 게임이론 시뮬레이션](https://www.kmooc.kr/view/course/detail/12424){:target="_blank"}
+- [게임이론을 위한 수학](https://www.kmooc.kr/view/course/detail/20037){:target="_blank"}
+- [게임이론](https://www.kmooc.kr/view/course/detail/20038){:target="_blank"}
+- [넷로고와 파이선을 활용한 게임이론 시뮬레이션](https://www.kmooc.kr/view/course/detail/20039){:target="_blank"}
 
 ## 강의 목표
 

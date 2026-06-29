@@ -64,7 +64,7 @@ nav_order: 5
 
     -   친족 선택(kin selection)
 
-        -   Hamilton' Rule [[2]](#2)
+        -   Hamilton's Rule [[2]](#2)
 		
 		    $$
 			rb > c
@@ -80,7 +80,7 @@ nav_order: 5
 
             -   $$\rightarrow$$ 비용과 이득의 비율이 중요
 
-        -   포괄적 적합도(inclusive fintness)
+        -   포괄적 적합도(inclusive fitness)
 
             -   자손의 번식 또는
 
@@ -478,10 +478,10 @@ nav_order: 5
 [William D. Hamilton (1964). "The genetical evolution of social behaviour." *Journal of Theoretical Biology,* 7(1). 1-16.](https://doi.org/10.1016/0022-5193(64)90038-4){:target="_blank"}
 
 <a id="3">[3]</a>
-[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Ch. 6, Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
+[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematical and agent-based models of social dynamics of cultural evolution,* Ch. 6, Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
 
 <a id="4">[4]</a>
-[Roger Axelrod (1984). *The evolution of cooperation.* Basic Books.](https://archive.org/details/evolutionofcoop00axel){:target="_blank"}
+[Robert Axelrod (1984). *The evolution of cooperation.* Basic Books.](https://archive.org/details/evolutionofcoop00axel){:target="_blank"}
 
 <a id="5">[5]</a>
 [Colin F. Camerer (2003). *Behavioral game theory: experiments in strategic interaction.* Princeton University Press.](https://press.princeton.edu/books/hardcover/9780691090399/behavioral-game-theory){:target="_blank"}

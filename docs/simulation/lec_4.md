@@ -40,7 +40,7 @@ nav_order: 4
     >
     > -   다음을 해보자.
     > 	
-    >     -   분리 현상이 나타나는 무엇일까?
+    >     -   분리 현상이 나타나는 이유는 무엇일까?
     > 	
     >     -   분리 현상을 줄여야 할까?
     > 	
@@ -315,7 +315,7 @@ nav_order: 4
 
         -   각 집단의 크기는 대략 비슷
 
-        -   이웃을 근접한 8개의 `pateches`로만 정의
+        -   이웃을 근접한 8개의 `patches`로만 정의
 
         -   이사 비용이 없음
 
@@ -331,7 +331,7 @@ nav_order: 4
 
     -   모든 가정의 영향을 검토하기는 어려움 $$\rightarrow$$ 가능성이 너무 많음
 
-    -   만약 8개의 매개 변수, 5번의 반복 시행 조합, 1번의 반복 시행 조합에서 100회의 시뮬레이션이 있다면
+    -   만약 8개의 매개 변수, 5번의 반복 시행 조합, 1번의 반복 시행 조합에서 100회의 시뮬레이션을 한다면
 	
 	    -   총 시뮬레이션 횟수는 $$5^{8} \times 100 = 39,062,500$$ 회
 
@@ -468,7 +468,7 @@ nav_order: 4
 [Thomas C. Schelling (2006). *Micromotives and Macrobehavior.* W.W. Norton & Company.](https://wwnorton.com/books/Micromotives-and-Macrobehavior/){:target="_blank"}
 
 <a id="3">[3]</a>
-[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Ch. 3, Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
+[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematical and agent-based models of social dynamics of cultural evolution,* Ch. 3, Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
 
 <a id="4">[4]</a>
 [Ligmann-Zielinska et. al. (2020). "'One Size Does Not Fit All': A Roadmap of Purpose-Driven Mixed-Method Pathways for Sensitivity Analysis of Agent-Based Models." *Journal of Artificial Societies and Social Simulation.* 23(1). 6.](https://doi.org/10.18564/jasss.4201){:target="_blank"}

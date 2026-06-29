@@ -45,9 +45,11 @@ nav_order: 2
 
 -   [Netlogo 설치](https://ccl.northwestern.edu/netlogo/download.shtml){:target="_blank"}
 
-    -   2024년 5월 현재, ver. 6.4.0
+    -   2026년 6월 현재, ver. 7.0.4
 	
 	    -   동영상 강의는 ver. 6.3.0으로 제작되었으나, 강의에서 수정이 필요한 코드는 없음
+
+        -   이후의 예제 코드를 최신 버전의 Netlogo 에서 열고자 하면, 위젯 크기를 조정하겠냐는 질문이 나오지만, 이를 무시하고 `Cancel` 버튼을 누르고 진행해도 됨
 		
     -   버전 선택 후 다운로드 `Download` 버튼 클릭
 
@@ -85,7 +87,7 @@ nav_order: 2
 
     -   기존 모형의 예제 모음
 
--   [넷로고 모형 모음](http://modelingcommons.org/account/login){:target="_blank"}
+-   [넷로고 모형 모음](https://ccl.northwestern.edu/netlogo/models/){:target="_blank"}
 
 ## 나비 모형: ODD 프로토콜
 
@@ -228,7 +230,7 @@ nav_order: 2
 
     -   `links`: `turtles`의 연결
 
-    -   `observer`: `turtles`, `patches`, `turtles`에게 속성을 부여, 결과 값을 관찰
+    -   `observer`: `turtles`, `patches`, `links`에게 속성을 부여, 결과 값을 관찰
 
 -   변수
 

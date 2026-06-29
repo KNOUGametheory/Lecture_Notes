@@ -509,7 +509,7 @@ nav_order: 14
 Schecter and Gintis (2016). Ch. 8.
 
 <a id="9">[9]</a>
-[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Ch. 6, Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
+[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematical and agent-based models of social dynamics of cultural evolution,* Ch. 6, Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
 
 <a id="10">[10]</a>
 Schecter and Gintis (2016). Ch. 10.

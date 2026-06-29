@@ -329,13 +329,13 @@ nav_order: 1
 Scott E. Page (2008). "Agent-Based Models" in Steven N. Durlauf and Lawrence E. Blume eds. *The New Palgrave Dictionary of Economics.* Palgrave Macmillan.
 
 <a id="2">[2]</a>
-A. M. Starfield and Karl A. Smith and A. L. Bleoloch (1990). *How to model it: Problem solving for the computer age.* McGraw-Hill.
+A. M. Starfield and Karl A. Smith and A. L. Bleloch (1990). *How to model it: Problem solving for the computer age.* McGraw-Hill.
 
 <a id="3">[3]</a>
 [Steven F. Railsback and Volker Grimm (2019). *Agent-Based and Individual-Based Modeling: A Practical Introduction,* Second edition, pp. 7--10. Princeton University Press.](https://press.princeton.edu/books/hardcover/9780691190822/agent-based-and-individual-based-modeling){:target="_blank"}
 
 <a id="4">[4]</a>
-[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
+[Paul E. Smaldino (2023). *Modeling Social Behavior: mathematical and agent-based models of social dynamics of cultural evolution,* Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
 
 <!-- <a id="5">[5]</a>
 Smaldino (2023). Ch. 4.

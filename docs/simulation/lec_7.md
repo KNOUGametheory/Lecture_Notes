@@ -54,6 +54,8 @@ SIR 모형을 파이선으로 구현한다.
 
 -   4 단계: susceptible (S) $$\rightarrow$$ exposed (E) $$\rightarrow$$
     infected (I) $$\rightarrow$$ removed (R) 
+
+    - 1강 SIR 모형에 잠복 (exposed, E) 단계가 추가됨
 	
 	$$
 	\begin{align}
@@ -70,7 +72,7 @@ SIR 모형을 파이선으로 구현한다.
 
     -   $$\gamma$$: 회복율
 
-    -   사망률 $$r = 1- s - e- i$$
+    -   사망률 (또는 제거율) $$r = 1- s - e- i$$
 
     -   누적 감염 $$c = i + r$$
 
@@ -128,7 +130,7 @@ SIR 모형을 파이선으로 구현한다.
     -   [`exp`](https://numpy.org/doc/stable/reference/generated/numpy.exp.html){:target="_blank"}: 지수(exponential) 계산을 위해 필요
         
 
-    -   [`odient`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.odeint.html){:target="_blank"}: 미분 방정식(differential equation)을 풀기 위해 필요
+    -   [`odeint`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.odeint.html){:target="_blank"}: 미분 방정식(differential equation)을 풀기 위해 필요
 
 -   계산 모형 설정
 

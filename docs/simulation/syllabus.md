@@ -14,7 +14,7 @@ K-MOCC, [넷로고와 파이선을 활용한 게임이론 시뮬레이션](https
 
 ## 강의 목표
 
-- 행위자 기본 모형의 특성을 이해
+- 행위자 기반 모형의 특성을 이해
 
 - 넷로고와 파이선 프로그래밍의 기초를 학습
 
@@ -150,11 +150,11 @@ K-MOCC, [넷로고와 파이선을 활용한 게임이론 시뮬레이션](https
 
   - <https://www.railsback-grimm-abm-book.com>{:target="_blank"}
 
-- [Paul E. Smaldino (2023). *Modeling Social Behavior: mathematial and agent-based models of social dynamics of cultural evolution,* Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
+- [Paul E. Smaldino (2023). *Modeling Social Behavior: mathematical and agent-based models of social dynamics of cultural evolution,* Princeton University Press.](https://press.princeton.edu/books/paperback/9780691224145/modeling-social-behavior){:target="_blank"}
 
   - <https://github.com/psmaldino/modsoc>{:target="_blank"}
   
-- [QunatEcon, Lectures](https://quantecon.org/lectures/){:target="_blank"}  
+- [QuantEcon, Lectures](https://quantecon.org/lectures/){:target="_blank"}  
   
 - [Allen Downey (2016). *Think Complexity*, Second edition, Green Tea Press.](https://greenteapress.com/wp/think-complexity-2e/){:target="_blank"}  
 

@@ -345,7 +345,7 @@ nav_order: 8
 
     -   `three_frame` 등 관련된 내용은 [`utils.py`](https://github.com/AllenDowney/ThinkComplexity2/raw/master/notebooks/utils.py){:target="_blank"} 확인 바람
 
--   관용 수준을 0.2부터 0.5까지 높여가면서 계산해보자
+-   관용 수준을 0.2부터 0.5까지 조정하면서 계산해보자
 
     ```python
 	from utils import set_palette
